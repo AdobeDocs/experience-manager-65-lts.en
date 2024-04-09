@@ -1,0 +1,11 @@
+.DS_Store
+.Trashes
+.Spotlight-V100
+settings.json
+.history
+Thumbs.db
+.gitignore
+desktop.ini
+experience-manager-cloud-service.en.code-workspace
+.idea
+*.iml
