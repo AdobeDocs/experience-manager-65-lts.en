@@ -7,7 +7,6 @@ topic-tags: develop
 
 docset: aem65
 feature: Adaptive Forms,Foundation Components
-exl-id: fed67c23-a9b7-403e-9199-dfd527d5f209
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

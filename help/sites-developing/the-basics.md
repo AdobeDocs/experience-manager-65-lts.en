@@ -5,7 +5,6 @@ contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-exl-id: f6f32290-422e-4037-89d8-d9f414332e8e
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

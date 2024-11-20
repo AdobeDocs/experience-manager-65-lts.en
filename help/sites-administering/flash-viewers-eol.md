@@ -5,7 +5,6 @@ contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-exl-id: bb87898d-252e-4907-af03-11021d0d57fe
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin

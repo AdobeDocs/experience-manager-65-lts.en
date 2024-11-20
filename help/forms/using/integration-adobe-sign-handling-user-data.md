@@ -5,7 +5,6 @@ topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Acrobat Sign
 role: Admin, User, Developer
-exl-id: b43ed9b7-b1ef-4878-ae3b-643b558eed7b
 solution: Experience Manager, Experience Manager Forms
 ---
 # Integration with Adobe Sign | Handling user data {#integration-with-adobe-sign-handling-user-data}

@@ -4,7 +4,6 @@ description: Configure Experience Manager Assets for use with the Adobe Asset Li
 contentOwner: Vishabh Gupta
 role: Admin
 feature: Asset Management
-exl-id: 3a9b44d4-1756-4ad5-91df-df8d53e82193
 solution: Experience Manager, Experience Manager Assets
 ---
 # Configure Experience Manager Assets for Adobe Asset Link {#adobe-asset-link}

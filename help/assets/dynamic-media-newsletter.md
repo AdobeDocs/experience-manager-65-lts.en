@@ -5,7 +5,6 @@ keywords: Dynamic Media;newsletter;product updates;tips and tricks;events;custom
 contentOwner: Rick Brough 
 solution: Experience Manager, Experience Manager Assets
 role: User, Admin
-exl-id: 8aa779e0-cf76-45a7-a474-556fdfded31b
 feature: Collaboration,Dynamic Media Classic
 ---
 # ![Dynamic Media Newsletter logo](/help/assets/assets/dynamic-media-newsletter-logo.png)

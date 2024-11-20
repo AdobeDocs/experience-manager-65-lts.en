@@ -5,7 +5,6 @@ contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-exl-id: a31a496f-87b9-43c0-a98c-5f6ca5d11690
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms

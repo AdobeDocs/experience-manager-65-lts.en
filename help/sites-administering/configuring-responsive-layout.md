@@ -10,7 +10,6 @@ topic-tags: operations
 content-type: reference
 
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
-exl-id: 61152b2d-4c0b-4cfd-9669-cf03d32cb7c7
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin

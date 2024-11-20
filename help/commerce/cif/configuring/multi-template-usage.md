@@ -6,7 +6,6 @@ doc-type: feature-video
 activity: use
 audience: marketer
 feature: Commerce Integration Framework
-exl-id: 09e986c4-16b9-4ef5-a0b3-8d65b17a7f2c
 solution: Experience Manager,Commerce
 role: Admin, Developer
 ---

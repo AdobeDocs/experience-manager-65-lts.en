@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
 
-exl-id: e25f0b7f-5f12-4363-b302-e51c81035c7d
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin

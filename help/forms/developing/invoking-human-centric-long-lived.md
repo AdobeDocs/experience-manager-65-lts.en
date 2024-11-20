@@ -10,7 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: coding
 
 role: Developer
-exl-id: c9ebad8b-b631-492d-99a3-094e892b2ddb
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE

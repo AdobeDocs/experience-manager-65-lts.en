@@ -4,7 +4,6 @@ description: How-to reuse the information about a task and generate a Summary UR
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: b5e27b54-d141-48dd-a4ed-dd0a691319a5
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

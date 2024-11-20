@@ -7,7 +7,6 @@ topic-tags: dynamic-media
 content-type: reference
 feature: Viewer Presets
 role: User, Admin
-exl-id: daa1ffdd-de5c-470e-8875-84144b7d327f
 solution: Experience Manager, Experience Manager Assets
 ---
 # Apply Dynamic Media viewer presets {#applying-viewer-presets}

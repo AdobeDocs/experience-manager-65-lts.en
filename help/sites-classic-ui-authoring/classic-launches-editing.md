@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
-exl-id: 21776f42-cd81-459d-b4b9-1d92e0aec164
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

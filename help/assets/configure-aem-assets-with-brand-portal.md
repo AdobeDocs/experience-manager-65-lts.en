@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 docset: aem65
 feature: Brand Portal
 role: Admin
-exl-id: ae33181c-9eec-421c-be55-4bd019de40b8
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

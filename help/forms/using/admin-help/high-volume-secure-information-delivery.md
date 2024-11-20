@@ -10,7 +10,6 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 
 feature: Document Security
-exl-id: 616e8821-ca96-4471-9120-0e1076a06178
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

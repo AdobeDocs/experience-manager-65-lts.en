@@ -7,7 +7,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
-exl-id: 5fa385a7-f030-4c0c-8938-0991d02ef361
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,Document Services,APIs & Integrations

@@ -5,7 +5,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: repo_restructuring
 feature: Upgrading
-exl-id: d555422e-dc97-4d45-9525-4299d22315e2
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

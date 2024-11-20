@@ -10,7 +10,6 @@ topic-tags: upgrading
 content-type: reference
 
 feature: Upgrading
-exl-id: 797bbdf9-917a-4537-a5f9-bf2682db968b
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

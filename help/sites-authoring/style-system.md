@@ -4,7 +4,6 @@ description: The Style System allows a template author to define style classes i
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-exl-id: 1772368a-f5c9-440c-a92a-0f1d34cc4bf8
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

@@ -4,7 +4,6 @@ description: Steps to set up the Android&trade; Studio project and build the ins
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
-exl-id: 47d6af00-34d8-4e5d-8117-86fc1b6f58cb
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

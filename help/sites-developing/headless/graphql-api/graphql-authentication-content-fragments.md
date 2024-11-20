@@ -2,7 +2,6 @@
 title: Authentication for Remote Adobe Experience Manager GraphQL Queries on Content Fragments
 description: Understand the authentication required for Remote Adobe Experience Manager GraphQL queries to secure your headless content delivery.
 feature: Content Fragments,GraphQL API
-exl-id: 167f3318-7bc7-48fc-aaa9-73da43433f2f
 solution: Experience Manager, Experience Manager Sites
 role: Developer
 ---

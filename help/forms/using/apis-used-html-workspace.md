@@ -4,7 +4,6 @@ description: Public Java&trade; and JavaScript APIs and methods of LiveCycle AEM
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: 9034f73a-83f3-498e-b6a6-ad6577aa1a3a
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer

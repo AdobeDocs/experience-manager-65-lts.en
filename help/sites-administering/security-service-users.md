@@ -5,7 +5,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-exl-id: ccd8577b-3bbf-40ba-9696-474545f07b84
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin

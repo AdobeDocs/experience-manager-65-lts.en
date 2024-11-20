@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 role: User, Admin
-exl-id: 750627fc-2a29-43ff-867e-55cb2e371043
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
 ---

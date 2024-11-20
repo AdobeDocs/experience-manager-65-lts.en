@@ -6,7 +6,6 @@ contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-exl-id: 01c69aa9-2623-42dc-9e2d-62bc5e01cf0e
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

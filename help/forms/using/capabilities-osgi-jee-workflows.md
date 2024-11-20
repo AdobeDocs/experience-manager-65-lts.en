@@ -2,7 +2,6 @@
 title: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows
 description: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows
 contentOwner: khsingh
-exl-id: 505b8988-b2b3-4222-b3cb-9b3c6259fdd2
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi
 role: User, Developer

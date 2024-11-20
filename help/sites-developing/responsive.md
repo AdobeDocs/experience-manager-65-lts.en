@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: mobile-web
 content-type: reference
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
-exl-id: c705710b-a94a-4f4f-affa-ddd4fc6cb0ec
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

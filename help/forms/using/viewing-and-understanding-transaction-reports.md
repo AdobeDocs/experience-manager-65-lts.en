@@ -5,7 +5,6 @@ topic-tags: forms-manager
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 feature: Transaction Reports
-exl-id: 3c7cbe1f-ac81-4df9-96b2-662cbc5f2075
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

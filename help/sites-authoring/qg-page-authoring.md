@@ -10,7 +10,6 @@ topic-tags: page-authoring
 content-type: reference
 
 docset: aem65
-exl-id: a7e16555-9bbe-4da2-817c-4495a0193f3f
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

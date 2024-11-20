@@ -4,7 +4,6 @@ description: Configuration and administration of [!DNL Experience Manager Assets
 contentOwner: AG
 role: User, Admin
 feature: Metadata
-exl-id: 56c92b7f-e687-4ab5-a376-afa58bdb6ee0
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

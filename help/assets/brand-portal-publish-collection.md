@@ -8,7 +8,6 @@ content-type: reference
 docset: aem65
 feature: Brand Portal
 role: User
-exl-id: 8f426012-d9ec-418e-8ab6-78e4aeff7538
 solution: Experience Manager, Experience Manager Assets
 ---
 # Publish collections to Brand Portal {#publish-collections-to-brand-portal}

@@ -3,7 +3,6 @@ title: Translating Content for Multilingual Sites
 description: Learn how to translate content for multilingual sites.
 contentOwner: Guillaume Carlino
 feature: Language Copy
-exl-id: 6ccfe612-8cfd-4ca2-ad01-8e4af36d44fa
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

@@ -3,7 +3,6 @@ title: Preparing Content for Translation
 description: Learn how to prepare content for translation in Adobe Experience Manager.
 contentOwner: Guillaume Carlino
 feature: Language Copy
-exl-id: 81978733-89a6-4436-bcf1-4bde962ed54f
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

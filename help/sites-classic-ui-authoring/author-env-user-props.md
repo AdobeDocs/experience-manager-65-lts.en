@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
 docset: aem65
-exl-id: 9abdaa6d-79ee-448e-a23f-d216433591f8
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

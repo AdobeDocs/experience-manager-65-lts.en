@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
 docset: aem65
-exl-id: b07134b2-074a-4d52-8d0c-7e7abe51fc3a
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

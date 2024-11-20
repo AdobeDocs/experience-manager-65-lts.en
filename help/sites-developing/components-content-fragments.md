@@ -7,7 +7,6 @@ topic-tags: components
 content-type: reference
 docset: aem65
 pagetitle: Components for Content Fragments
-exl-id: f2edd9b2-f231-42f3-a25e-428cd1d96c2a
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Content Fragments
 role: Developer

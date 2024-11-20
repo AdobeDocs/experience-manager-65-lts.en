@@ -4,7 +4,6 @@ description: Generate FPO renditions of new and existing assets using Experience
 contentOwner: Vishabh Gupta
 role: Admin
 feature: Renditions
-exl-id: 1e4ddd73-a31c-4ddd-94eb-1dac6a4835b3
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

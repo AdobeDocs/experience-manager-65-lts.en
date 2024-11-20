@@ -1,7 +1,6 @@
 ---
 title: AEM Content and Commerce Release Notes 2019
 description: Adobe Experience Manager Content and Commerce Release Notes 2019.
-exl-id: 7e61a75d-6b35-46ee-b88a-444c10b2708f
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer

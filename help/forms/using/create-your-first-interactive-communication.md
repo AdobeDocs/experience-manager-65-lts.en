@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: interactive-communications, introduction
 
 feature: Interactive Communication
-exl-id: b20bb719-5686-466e-8dde-279b8471bfe3
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

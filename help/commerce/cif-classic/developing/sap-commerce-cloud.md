@@ -5,7 +5,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: platform
-exl-id: b3de1a4a-f334-44bd-addc-463433204c99
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer

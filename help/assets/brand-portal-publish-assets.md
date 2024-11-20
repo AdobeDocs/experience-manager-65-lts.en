@@ -8,7 +8,6 @@ content-type: reference
 docset: aem65
 feature: Brand Portal
 role: User
-exl-id: 76652a16-cad6-4e95-9e66-41efec452b03
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

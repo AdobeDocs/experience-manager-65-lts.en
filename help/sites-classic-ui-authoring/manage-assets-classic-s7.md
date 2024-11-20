@@ -8,7 +8,6 @@ topic-tags: authoring
 content-type: reference
 
 docset: aem65
-exl-id: bc9c864b-8bc3-42b4-ba25-6c5108be4f65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

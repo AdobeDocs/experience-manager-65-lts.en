@@ -4,7 +4,6 @@ description: Asset processing to convert formats, create renditions, manage asse
 contentOwner: AG
 feature: Workflow, Renditions
 role: User, Admin
-exl-id: e7c84385-efb3-4997-83ff-7a7f31582469
 solution: Experience Manager, Experience Manager Assets
 ---
 # Process digital assets {#process-assets}

@@ -5,7 +5,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: author, correspondence-management
 feature: Adaptive Forms,Foundation Components
-exl-id: 01f4fdd3-fd2a-4e90-9c91-c1b05bbc2c6a
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

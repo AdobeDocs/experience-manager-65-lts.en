@@ -10,7 +10,6 @@ topic-tags: integration
 content-type: reference
 
 docset: aem65
-exl-id: 8262bbf9-a982-479b-a2b5-f8782dd4182d
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin

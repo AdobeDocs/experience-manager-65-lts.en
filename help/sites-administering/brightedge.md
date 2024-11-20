@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
 
-exl-id: f14cc5fd-aeab-4619-b926-b6f1df7e50e5
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin

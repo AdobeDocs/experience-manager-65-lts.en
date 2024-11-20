@@ -5,7 +5,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: customization
 docset: aem65
-exl-id: 17f7f0e1-09d8-45cd-a4f6-0846bdb079b6
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components

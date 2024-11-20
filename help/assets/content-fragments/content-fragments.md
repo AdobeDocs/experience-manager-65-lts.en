@@ -3,7 +3,6 @@ title: Working with Content Fragments
 description: Learn how Content Fragments in Adobe Experience Manager (AEM) let you design, create, curate, and use page-independent content, ideal for headless delivery.
 feature: Content Fragments
 role: User
-exl-id: 0ee883c5-0cea-46b7-a759-600b8ea3bc3e
 solution: Experience Manager, Experience Manager Assets
 ---
 # Working with Content Fragments {#working-with-content-fragments}

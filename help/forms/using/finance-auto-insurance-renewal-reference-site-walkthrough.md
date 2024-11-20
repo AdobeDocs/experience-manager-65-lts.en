@@ -5,7 +5,6 @@ contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 content-type: reference
 docset: aem65
-exl-id: b6ded6ac-4fb1-49f9-b272-16774c3e89a3
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: User, Developer

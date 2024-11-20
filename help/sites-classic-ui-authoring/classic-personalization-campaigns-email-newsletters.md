@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
 
-exl-id: c07692f7-3618-4e8c-96d7-4db09f2d9896
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User

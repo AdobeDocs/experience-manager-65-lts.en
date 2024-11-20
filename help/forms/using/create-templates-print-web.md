@@ -5,7 +5,6 @@ contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 feature: Interactive Communication
-exl-id: bef1f05e-aea2-433e-b3d5-0b7ad8163fa7
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

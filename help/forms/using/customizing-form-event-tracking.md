@@ -4,7 +4,6 @@ description: If a user spends more than 60 seconds on a field, a fieldvisit even
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: customization
-exl-id: d0280a15-5d0d-49cf-bce9-ad1c40530eae
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components

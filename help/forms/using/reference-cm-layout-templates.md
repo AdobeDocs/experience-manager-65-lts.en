@@ -4,7 +4,6 @@ description: AEM Forms provides Correspondence Management letter layout template
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: correspondence-management
-exl-id: 40d127b5-1ce6-41fb-ac4c-2bf7ae79da82
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer

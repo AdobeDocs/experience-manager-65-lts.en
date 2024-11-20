@@ -12,7 +12,6 @@ content-type: reference
 docset: aem65
 
 feature: HTML5 Forms,Mobile Forms
-exl-id: 62ff6306-9989-43b0-abaf-b0a811f0a6a4
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

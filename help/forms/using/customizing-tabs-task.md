@@ -4,7 +4,6 @@ description: How-to customize the names of the tabs for your tasks, in LiveCycle
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: 8412cfec-bcab-40b7-9e5b-fcc211d43c0b
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

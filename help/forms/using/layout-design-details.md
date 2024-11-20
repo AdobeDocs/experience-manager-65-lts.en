@@ -6,7 +6,6 @@ topic-tags: correspondence-management, interactive-communications
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 feature: Correspondence Management
-exl-id: 9e1b0067-c7dc-4bbb-a209-d674592be858
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

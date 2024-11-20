@@ -3,7 +3,6 @@ title: Enrich Product Data with Associated AEM Content
 description: Learn how marketers can enrich product data with associated content from Adobe Experience Manager, by dynamically adding marketing content to product pages. This opens up a wide range of possibilities for marketers to target specific product pages with additional content such as images and video.
 sub-product: Commerce
 feature: Commerce Integration Framework
-exl-id: 1a069fbc-c036-419a-b585-6aa43e15de16
 solution: Experience Manager,Commerce
 role: Admin, Developer
 ---

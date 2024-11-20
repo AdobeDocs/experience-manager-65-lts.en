@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: publish
 content-strategy: max-2018
 docset: aem65
-exl-id: f26c4268-7885-4e61-a258-219d98288548
 solution: Experience Manager, Experience Manager Forms
 feature: Correspondence Management
 role: Admin, User, Developer

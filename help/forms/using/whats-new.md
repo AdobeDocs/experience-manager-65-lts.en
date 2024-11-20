@@ -4,7 +4,6 @@ description: Latest features and improvements to AEM forms and documents, world'
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
-exl-id: 47b9de1f-b16a-424c-b8b4-e9d7b3dcca86
 solution: Experience Manager, Experience Manager Forms
 feature: Release Information
 role: Admin, User, Developer

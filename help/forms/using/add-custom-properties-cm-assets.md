@@ -11,7 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 
 feature: Correspondence Management
-exl-id: ba2e145d-51ee-4844-a9e1-9927971d25a1
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

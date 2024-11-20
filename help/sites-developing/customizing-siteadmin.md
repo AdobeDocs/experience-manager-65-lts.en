@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
 docset: aem65
-exl-id: 2b9b4857-821c-4f2f-9ed9-78a1c9f5ac67
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

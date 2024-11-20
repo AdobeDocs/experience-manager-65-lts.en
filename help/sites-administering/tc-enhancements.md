@@ -4,7 +4,6 @@ description: Incremental enhancements and refinements to AEM translation managem
 topic-tags: site-features
 content-type: reference
 feature: Language Copy
-exl-id: 2011a976-d506-4c0b-9980-b8837bdcf5ad
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

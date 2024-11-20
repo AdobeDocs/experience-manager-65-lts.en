@@ -12,7 +12,6 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 docset: aem65
 
 feature: Document Security
-exl-id: 7cf17fb6-021a-473e-bc3b-27c317953002
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: components
 
-exl-id: 4acc5f7f-0bcb-4b5a-8531-52e146cffeae
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

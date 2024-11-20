@@ -10,7 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 
 role: Developer
-exl-id: 1101c85a-6a90-471d-a7be-8d25765e84bf
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,Document Services,APIs & Integrations

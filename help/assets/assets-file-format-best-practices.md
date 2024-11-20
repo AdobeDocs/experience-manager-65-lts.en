@@ -4,7 +4,6 @@ description: Best practices to process the various supported file types using [!
 contentOwner: AG
 role: Admin
 feature: Asset Management,Developer Tools
-exl-id: da080f12-4cf7-4c26-901b-cd40d9c00bcb
 solution: Experience Manager, Experience Manager Assets
 ---
 # Assets file format best practices {#assets-file-format-best-practices}

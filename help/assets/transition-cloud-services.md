@@ -3,7 +3,6 @@ title: Apply translation cloud services to folders
 description: Apply translation cloud services to folders in Adobe Experience Manager.
 role: Admin
 feature: Translation
-exl-id: f17a33d7-eb2f-406b-8d6c-a3bf564c8702
 solution: Experience Manager, Experience Manager Assets
 ---
 # Apply translation cloud services to folders {#applying-translation-cloud-services-to-folders}

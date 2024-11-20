@@ -7,7 +7,6 @@ topic-tags: dynamic-media
 content-type: reference
 feature: Viewers
 role: User, Admin
-exl-id: 203ea349-ef4c-421c-b4b6-76ee9d46ec34
 solution: Experience Manager, Experience Manager Assets
 ---
 # Embed the Dynamic Media Video, Image viewer, or Dimensional viewer on a web page {#embedding-the-video-or-image-viewer-on-a-web-page}

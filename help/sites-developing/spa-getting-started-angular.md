@@ -9,7 +9,6 @@ topic-tags: spa
 content-type: reference
 
 docset: aem65
-exl-id: 9528d92b-0989-4e2d-83be-ba6c07c845e2
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer

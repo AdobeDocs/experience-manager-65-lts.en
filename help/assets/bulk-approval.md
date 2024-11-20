@@ -4,7 +4,6 @@ description: Set up review workflows for assets within a folder or a collection 
 contentOwner: AG
 feature: Collaboration, Collections
 role: User
-exl-id: 23c90e10-aa03-450e-9fb0-2f5be0c5066b
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

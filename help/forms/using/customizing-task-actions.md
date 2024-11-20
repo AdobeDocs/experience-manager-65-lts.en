@@ -4,7 +4,6 @@ description: You can customize appearance of the task actions, use only images f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: d17863fb-7950-493d-b378-16861c4af176
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

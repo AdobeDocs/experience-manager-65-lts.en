@@ -5,7 +5,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: Configuration
 role: Admin,User
-exl-id: 562f8a22-cbab-4915-bc0d-da9bea7d18fa
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
 ---

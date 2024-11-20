@@ -4,7 +4,6 @@ description: Learn how to configure MySQL as data source, create form data model
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 docset: aem65
-exl-id: 40bc5af6-9023-437e-95b0-f85d3df7d8aa
 solution: Experience Manager, Experience Manager Forms
 feature: Form Data Model
 role: Admin, User, Developer

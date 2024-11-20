@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: deploying
 docset: aem65
-exl-id: e626bdd8-b7ae-4de5-a0a0-47fb74c080d7
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin

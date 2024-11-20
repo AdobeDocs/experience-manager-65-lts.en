@@ -12,7 +12,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 
 feature: Document Security
-exl-id: 0cdc9ee3-0172-43be-9b62-ed768534c074
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

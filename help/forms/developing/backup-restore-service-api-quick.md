@@ -6,7 +6,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
 role: Developer
-exl-id: ae17fd3a-0ba4-4a00-907b-811e500b0e14
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations
 ---

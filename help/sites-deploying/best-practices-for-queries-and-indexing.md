@@ -5,7 +5,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-exl-id: 6dfaa14d-5dcf-4e89-993a-8d476a36d668
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin

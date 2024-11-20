@@ -4,7 +4,6 @@ description: Enable Apache Tika to help [!DNL Experience Manager Assets] detect 
 contentOwner: AG
 role: Admin, Architect
 feature: Metadata,Developer Tools,Asset Management
-exl-id: a312466d-8d84-4c94-af85-1549afc61aed
 solution: Experience Manager, Experience Manager Assets
 ---
 # Detect MIME type of assets using [!DNL Apache Tika] {#detecting-mime-type-of-assets-using-apache-tika}

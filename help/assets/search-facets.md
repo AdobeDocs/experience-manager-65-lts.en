@@ -4,7 +4,6 @@ description: How to create, modify, and use search facets in [!DNL Adobe Experie
 contentOwner: AG
 role: Admin, Developer
 feature: Search
-exl-id: acaf46e6-ff70-4825-8922-ce8f82905a92
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

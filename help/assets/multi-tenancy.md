@@ -4,7 +4,6 @@ description: Learn how the multi-tenancy feature lets you segregate content in t
 contentOwner: AG
 role: Architect, Admin, Leader
 feature: Collections
-exl-id: f95560c9-f1b9-4e86-94a7-70347d268d8f
 solution: Experience Manager, Experience Manager Assets
 ---
 # Multi-tenancy for Collections, snippets, and snippet templates {#multi-tenancy-for-collections-snippets-and-snippet-templates}

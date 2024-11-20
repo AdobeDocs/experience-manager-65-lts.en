@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: spa
 content-type: reference
 
-exl-id: 59ada14e-3cb1-4f2c-b866-a2bb130db3fc
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer

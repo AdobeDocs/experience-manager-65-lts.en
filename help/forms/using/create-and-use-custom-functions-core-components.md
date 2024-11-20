@@ -5,7 +5,6 @@ keywords: Add a custom function, use a custom function, create a custom function
 content-type: reference
 feature: Adaptive Forms, Core Components
 role: Admin, User, Developer
-exl-id: 00073e3a-f1b5-4c42-9fea-4a14b8a22c81
 ---
 # Custom functions in Adaptive Forms Core Components
 

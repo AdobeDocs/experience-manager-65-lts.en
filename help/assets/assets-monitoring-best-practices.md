@@ -4,7 +4,6 @@ description: Best practices to monitor the environment and performance of your [
 contentOwner: AG
 role: Admin, Architect
 feature: Asset Management
-exl-id: a9e1bd6b-c768-4faa-99a3-7110693998dc
 solution: Experience Manager, Experience Manager Assets
 ---
 # Best practices to monitor [!DNL Adobe Experience Manager Assets] deployment {#assets-monitoring-best-practices}

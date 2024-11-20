@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: development-tools
 content-type: reference
 
-exl-id: 5a79c79b-df65-4cb2-b9d4-eda994c992ec
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer

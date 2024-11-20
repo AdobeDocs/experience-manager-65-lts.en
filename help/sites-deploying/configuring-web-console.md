@@ -4,7 +4,6 @@ description: Learn how to use the Web Console in Adobe Experience Manager (AEM).
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
-exl-id: bdfeaf85-e832-40c1-8769-7d027cdb021e
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin

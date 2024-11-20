@@ -4,7 +4,6 @@ description: How LC administrators can customize HTML WS to host two instances o
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: 32a546fc-e33f-46f9-ac3b-45eca0e12239
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: User, Developer

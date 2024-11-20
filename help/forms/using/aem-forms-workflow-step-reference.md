@@ -4,7 +4,6 @@ description: Forms-centric workflow on OSGi steps let you rapidly build adaptive
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: publish
 docset: aem65
-exl-id: 470fcfda-dfde-437c-b539-d5af1e13a7d6
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: User, Developer

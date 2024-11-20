@@ -4,7 +4,6 @@ description: Adaptive Forms provides a mechanism to create a form segment, such 
 topic-tags: author
 keywords: Add Adaptive Form fragments, Adaptive Form fragments, Create a form fragment, Add a fragment to an Adaptive Form, Manage fragments
 feature: Adaptive Forms,Core Components
-exl-id: 4a1ba259-8eb5-408f-8ee7-4868f98cca03
 solution: Experience Manager, Experience Manager Forms
 role: Admin, Developer
 ---

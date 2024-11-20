@@ -3,7 +3,6 @@ title: Adding and configuring users
 description: The User Management settings in the administration console let you create or delete users  and configure other user settings.
 contentOwner: admin
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
-exl-id: 50eea35d-d844-4f4b-9cbe-7d84bd6b1e3b
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms

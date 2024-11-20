@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: configuring
 feature: Configuring
-exl-id: 9acbf61f-73a8-4998-9421-dd933f30ac8a
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

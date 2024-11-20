@@ -4,7 +4,6 @@ description: Conceptual information on how renders work in the AEM Forms workspa
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: 946f0f6d-86af-41c1-98ef-98c8f5566e95
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer

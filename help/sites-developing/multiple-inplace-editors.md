@@ -2,7 +2,6 @@
 title: Configure RTE for multiple in-place editors.
 description: Create multiple in-place editors in Adobe Experience Manager by configuring Rich Text Editor.
 contentOwner: AG
-exl-id: 03030317-8b7d-408a-bdfd-619824d7260c
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

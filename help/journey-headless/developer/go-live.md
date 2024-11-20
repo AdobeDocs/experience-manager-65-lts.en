@@ -1,7 +1,6 @@
 ---
 title: How to Go Live with Your Headless Application
 description: In this part of the AEM Headless Developer Journey, learn how to deploy a headless application live.
-exl-id: ec3356ef-9e60-4151-984d-3ebdab593b96
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin, Developer

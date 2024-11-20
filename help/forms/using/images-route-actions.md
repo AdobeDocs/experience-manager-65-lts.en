@@ -4,7 +4,6 @@ description: How-to customize the images used in route actions in LiveCycle AEM 
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
-exl-id: 687c6569-7189-4039-9c7a-bc29658a7756
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

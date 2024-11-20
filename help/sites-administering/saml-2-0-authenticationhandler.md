@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
 
-exl-id: 8e54bccf-0ff1-448d-a237-ec42fd3bfa23
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin

@@ -9,7 +9,6 @@ topic-tags: extending-aem
 content-type: reference
 
 docset: aem65
-exl-id: 9ef9ae75-cd8c-4adb-9bcb-e951d200d492
 solution: Experience Manager, Experience Manager Sites
 feature: Content Fragments
 role: Developer

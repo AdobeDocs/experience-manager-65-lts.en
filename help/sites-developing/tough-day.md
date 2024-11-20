@@ -3,7 +3,6 @@ title: Tough Day
 description: The Tough Day test simulates the daily load of around 1000 authors in a worst-case scenario with all the operations going on at the same time.
 topic-tags: testing
 content-type: reference
-exl-id: ceb9671c-57f9-4d81-94c0-0dbccd4d90a2
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

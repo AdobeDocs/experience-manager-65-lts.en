@@ -11,7 +11,6 @@ topic-tags: interactive-communications, correspondence-management
 docset: aem65
 
 feature: Correspondence Management
-exl-id: bc5d6c5b-c833-4849-aace-e07f8a522b32
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

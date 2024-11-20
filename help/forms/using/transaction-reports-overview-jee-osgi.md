@@ -3,7 +3,6 @@ title: Transaction Reports Overview AEM Forms.
 description: Keep a count of all the forms submitted, documents submitted, interactive communication rendered, Documents converted to one format to another, and more.
 topic-tags: forms-manager
 feature: Transaction Reports
-exl-id: 6e5e29ef-eb90-4573-8745-1966a238bc03
 role: Admin, User, Developer
 solution: "Experience Manager, Experience Manager Forms"
 ---

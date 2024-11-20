@@ -3,7 +3,6 @@ title: Employee recruitment reference site walkthrough
 description: AEM Forms reference site showcases how organizations can use AEM Forms features to implement employee recruitment workflow.
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-exl-id: bdfc0a20-1e98-47f9-a1d1-5af5b3ef15db
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer

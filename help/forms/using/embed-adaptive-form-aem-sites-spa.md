@@ -10,7 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 
 feature: Adaptive Forms
-exl-id: b549f176-409a-4d81-8c2b-73d0dd0c6649
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

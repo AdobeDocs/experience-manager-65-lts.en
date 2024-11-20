@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
 
-exl-id: 27a6b012-576e-40bc-9b50-c310b3c56c9e
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

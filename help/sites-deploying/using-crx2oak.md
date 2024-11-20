@@ -6,7 +6,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: upgrading
 content-type: reference
 feature: Upgrading
-exl-id: ef3895b9-8d35-4881-8188-c864ae3f0b4c
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

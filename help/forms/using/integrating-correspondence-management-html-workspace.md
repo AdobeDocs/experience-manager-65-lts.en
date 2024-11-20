@@ -4,7 +4,6 @@ description: Integrate third-party applications such as Correspondence Managemen
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-workspace
 docset: aem65
-exl-id: 39a3f7db-549f-47f3-8d4f-42d583a4532d
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer

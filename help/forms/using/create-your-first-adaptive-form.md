@@ -4,7 +4,6 @@ description: Learn to create business class, interactive, and responsive forms.
 topic-tags: introduction
 docset: aem65
 feature: Adaptive Forms
-exl-id: 77a05f83-ac9a-4221-85ac-439e82623a28
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

@@ -4,7 +4,6 @@ description: Create language root folders to prepare assets for translation to s
 contentOwner: AG
 role: User, Admin
 feature: Projects
-exl-id: eee768e3-3eb4-46fa-b9ae-9ef8764a3a94
 solution: Experience Manager, Experience Manager Assets
 ---
 # Prepare assets for translation {#preparing-assets-for-translation}

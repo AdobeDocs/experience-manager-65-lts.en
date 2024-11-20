@@ -4,7 +4,6 @@ description: External applications use the FormBridge API to connect to the XFA 
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: developer-reference
-exl-id: b598ef47-49ff-4806-8cc7-4394aa068eaa
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

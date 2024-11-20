@@ -10,7 +10,6 @@ content-type: reference
 topic-tags: configuring
 
 feature: Security
-exl-id: 0a8d7831-d076-45cf-835c-8063ee13d6ba
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

@@ -5,7 +5,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-exl-id: 554b10c2-6157-4821-a6a7-f2fb6666cdff
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Integration
 role: User,Admin,Architect,Developer

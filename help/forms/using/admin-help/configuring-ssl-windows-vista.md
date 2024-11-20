@@ -5,7 +5,6 @@ contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-exl-id: 36c4300d-7a44-41f4-b294-06f32bb01686
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer

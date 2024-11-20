@@ -4,7 +4,6 @@ description: Mobile Forms render Form Templates as HTML5 forms. These forms use 
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: customization
-exl-id: 3458471a-9815-463e-8044-68631073863c
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Mobile Forms
 role: User, Developer

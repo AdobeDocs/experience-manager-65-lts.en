@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
 
-exl-id: efebe66d-3d30-4033-9c4c-ae347e134f2f
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

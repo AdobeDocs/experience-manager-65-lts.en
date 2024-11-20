@@ -8,7 +8,6 @@ geptopics: SG_AEMFORMS/categories/jee
 docset: aem65
 role: Admin, User, Developer
 feature: Forms Designer,Designer
-exl-id: 90503d29-e079-43f4-a5dc-ce90ed7844c6
 solution: Experience Manager, Experience Manager Forms
 ---
 # Installing and configuring Designer{#installing-and-configuring-designer}

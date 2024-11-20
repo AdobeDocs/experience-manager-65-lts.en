@@ -3,7 +3,6 @@ title: Configuring the Translation Integration Framework
 description: Learn how to configure the Translation Integration Framework in Adobe Experience Manager.
 contentOwner: Guillaume Carlino
 feature: Language Copy
-exl-id: 7562754b-d9fd-441b-8ae5-c7eebe458cef
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

@@ -10,7 +10,6 @@ topic-tags: site-features
 content-type: reference
 
 feature: Multi Site Manager
-exl-id: 0c3488bd-5f32-4956-882c-93326a45b379
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---

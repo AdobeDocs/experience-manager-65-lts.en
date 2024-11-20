@@ -4,7 +4,6 @@ description: The Agent UI allows the agents to prepare and send Interactive Comm
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Interactive Communication
-exl-id: 4fb82e9b-f870-47db-ac92-2d7510acace8
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

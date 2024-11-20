@@ -11,7 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 
 feature: Interactive Communication
-exl-id: 0f877a15-a17f-427f-8d89-62ada4d20918
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

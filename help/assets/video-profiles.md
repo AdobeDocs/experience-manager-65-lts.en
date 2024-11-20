@@ -9,7 +9,6 @@ docset: aem65
 feature: Video Profiles
 role: User, Admin
 mini-toc-levels: 3
-exl-id: b290fac2-7259-45d7-b733-70419d632b07
 solution: Experience Manager, Experience Manager Assets
 ---
 # Video profiles {#video-profiles}

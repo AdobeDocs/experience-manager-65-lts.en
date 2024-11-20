@@ -7,7 +7,6 @@ topic-tags: mobile-web
 content-type: reference
 docset: aem65
 legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
-exl-id: 419d2e19-1198-4ab5-9aa0-02ad18fe171d
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

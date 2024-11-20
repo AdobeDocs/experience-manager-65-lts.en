@@ -3,7 +3,6 @@ title: Integrating Services with the JMX Console
 description: Expose service attributes and operations to enable administration tasks to be performed by creating and deploying MBeans to manage services using the JMX Console
 topic-tags: extending-aem
 content-type: reference
-exl-id: fe727406-09cb-4516-8278-806fd78cfc12
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

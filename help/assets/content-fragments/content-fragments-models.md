@@ -3,7 +3,6 @@ title: Content Fragment Models
 description: Learn how Content Fragment Models serve as a foundation for your headless content in AEM and how to create Content Fragments with structured content.
 feature: Content Fragments
 role: User
-exl-id: 6fd1fdb2-d1d3-4f97-b119-ecfddcccec9e
 solution: Experience Manager, Experience Manager Assets
 ---
 # Content Fragment Models {#content-fragment-models}

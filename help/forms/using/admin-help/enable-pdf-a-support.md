@@ -10,7 +10,6 @@ geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 
 feature: PDF Generator
-exl-id: 0e83a208-aa8f-4ff1-b981-244d22a157f2
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

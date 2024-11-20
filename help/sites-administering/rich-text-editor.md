@@ -2,7 +2,6 @@
 title: Configure the Rich Text Editor to author content in Adobe Experience Manager.
 description: Learn to configure the Adobe Experience Manager Rich Text Editor to author content in Adobe Experience Manager.
 contentOwner: AG
-exl-id: 2e7ec22f-0856-44c4-bb15-1086dae0b85a
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin

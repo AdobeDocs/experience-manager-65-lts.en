@@ -5,7 +5,6 @@ contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: repo_restructuring
-exl-id: 2d852d9d-9be3-487a-966a-4902bd7df7f9
 solution: Experience Manager, Experience Manager Sites
 feature: Upgrading
 role: Admin

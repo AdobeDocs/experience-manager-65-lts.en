@@ -4,7 +4,6 @@ description: Best practices to determine efficient metrics to estimate the infra
 contentOwner: AG
 role: Architect, Admin
 feature: Asset Management
-exl-id: fd58ead9-5e18-4f55-8d20-1cf4402fad97
 solution: Experience Manager, Experience Manager Assets
 ---
 # [!DNL Assets] sizing guide {#assets-sizing-guide}

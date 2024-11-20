@@ -4,7 +4,6 @@ description: AEM Forms provides adaptive form fragments that you can use as asse
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
 docset: aem65
-exl-id: 933c164e-7c39-4d2e-834b-53a3c2b4ec90
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer

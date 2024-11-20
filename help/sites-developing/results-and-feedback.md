@@ -9,7 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
 
-exl-id: 270e66d1-a3f2-457a-90d1-28b9f3c8c218
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer

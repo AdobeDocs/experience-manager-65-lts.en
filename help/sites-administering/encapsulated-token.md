@@ -5,7 +5,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-exl-id: e24d815c-83e2-4639-8273-b4c0a6bb008a
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin

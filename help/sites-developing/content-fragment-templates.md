@@ -10,7 +10,6 @@ topic-tags: platform
 content-type: reference
 
 docset: aem65
-exl-id: 1b75721c-b223-41f0-88d9-bd855b529f31
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Content Fragments
 role: Developer

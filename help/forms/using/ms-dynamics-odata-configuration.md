@@ -5,7 +5,6 @@ topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 docset: aem65
 feature: Form Data Model
-exl-id: 90cc9452-e107-4e57-80a3-f44f0bde132e
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

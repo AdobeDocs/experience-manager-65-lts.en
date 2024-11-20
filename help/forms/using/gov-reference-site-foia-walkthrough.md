@@ -3,7 +3,6 @@ title: We.Gov reference site FOIA walkthrough
 description: See the We.Gov reference site walkthrough so you can understand how AEM Forms help governments receive and impart information requested by individuals under the Freedom of Information Act.
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-exl-id: 57b5ce89-6b01-4087-a485-6d9696f06378
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer

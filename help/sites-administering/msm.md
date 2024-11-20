@@ -5,7 +5,6 @@ contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: site-features
 content-type: reference
-exl-id: 1e839845-fb5c-4200-8ec5-6ff744a96943
 solution: Experience Manager, Experience Manager Sites
 feature: Multi Site Manager
 role: Admin

@@ -5,7 +5,6 @@ contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-exl-id: 298fcfeb-dc8d-4edc-8743-83c0e5e5bc08
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

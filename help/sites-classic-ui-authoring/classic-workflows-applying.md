@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
 
-exl-id: d8b604c5-a6da-47c4-9422-b519e224c7ca
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User

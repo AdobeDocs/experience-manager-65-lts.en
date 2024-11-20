@@ -3,7 +3,6 @@ title: Style your adaptive form
 description: Learn to create a custom theme, style individual components, and use Web Fonts in a theme. 
 topic-tags: introduction
 feature: Adaptive Forms
-exl-id: 7742c3ca-1755-44c5-b70f-61309f09d1b8
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

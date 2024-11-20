@@ -5,7 +5,6 @@ topic-tags: correspondence-management
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 feature: Correspondence Management
-exl-id: f7f5eb0d-a283-45ea-84d3-d6375d2bb95b
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 ---

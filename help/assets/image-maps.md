@@ -4,7 +4,6 @@ description: Learn how to add image map with hyperlinks to an image.
 contentOwner: AG
 role: User, Admin
 feature: Asset Management
-exl-id: 77da4917-47ce-4f2e-b062-73cee312a7ea
 solution: Experience Manager, Experience Manager Assets
 ---
 # Add image maps {#adding-image-maps}

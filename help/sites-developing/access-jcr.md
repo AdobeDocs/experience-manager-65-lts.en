@@ -5,7 +5,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-exl-id: fe946b9a-b29e-4aa5-b973-e2a652417a55
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,JCR
 role: Developer

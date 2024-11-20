@@ -9,7 +9,6 @@ topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 
 role: Admin,User
-exl-id: 40bc01b4-a59e-4420-81d6-2887857bddce
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security,Adaptive Forms
 ---

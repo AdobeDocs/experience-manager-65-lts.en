@@ -6,7 +6,6 @@ topic-tags: develop, interactive-communications
 content-strategy: max-2018
 docset: aem65
 feature: Adaptive Forms,Foundation Components
-exl-id: 93c360a8-a9d9-4c4b-b7e2-2c44eaf4604c
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---

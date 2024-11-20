@@ -4,7 +4,6 @@ description: Learn how to check out assets for editing and check them back in af
 contentOwner: AG
 role: User
 feature: Asset Management
-exl-id: 544ef73c-4e4b-433f-a173-fdf1c8f45d8e
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 ---

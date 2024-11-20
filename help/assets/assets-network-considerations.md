@@ -4,7 +4,6 @@ description: Discusses network considerations when designing an [!DNL Adobe Expe
 contentOwner: AG
 role: Architect, Admin
 feature: Developer Tools
-exl-id: 1313842c-18b1-4727-ba63-b454d0f5a2cc
 solution: Experience Manager, Experience Manager Assets
 ---
 # [!DNL Assets] network considerations {#assets-network-considerations}

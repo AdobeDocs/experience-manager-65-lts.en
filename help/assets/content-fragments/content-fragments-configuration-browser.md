@@ -3,7 +3,6 @@ title: Content Fragments - Configuration Browser
 description: Learn how to enable certain Content Fragment functionality in the Configuration Browser to use Adobe Experience Manager's powerful headless delivery features.
 feature: Content Fragments
 role: User
-exl-id: a9990b0c-56c7-4e61-bae9-98e19a7f364e
 solution: Experience Manager, Experience Manager Assets
 ---
 # Content Fragments - Configuration Browser{#content-fragments-configuration-browser}

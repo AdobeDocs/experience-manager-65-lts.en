@@ -6,7 +6,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-app
 docset: aem65
-exl-id: 6bb1d6df-b322-4112-bc25-6300877ee146
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer

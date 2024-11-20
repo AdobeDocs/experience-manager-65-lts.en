@@ -4,7 +4,6 @@ description: Learn how to invoke AEM Document services on DDX or supplied inputs
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: document_services
-exl-id: 123087a2-9d09-4579-9185-2ccd7d25bf8d
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
 role: User, Developer
