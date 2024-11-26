@@ -49,8 +49,6 @@ The following points are important to consider before you start:
 
 * Creating a template requires collaboration. For this reason the [Role](#roles) is indicated for each task.
 
-* Depending on how your instance is configured, AEM now provides [two basic types of template](/help/sites-authoring/templates.md#editable-and-static-templates). This does not impact how you actually [use a template to create a page](#using-a-template-to-create-a-page), but it does impact the type of template you can create and how a page relates to its template.
-
 ### Roles {#roles}
 
 Creating a template using the **Templates Console** and the **Template Editor** requires collaboration between the following roles:
@@ -85,9 +83,7 @@ Due to the nature of some tasks such as creating a folder, a development environ
 
 The tasks detailed in this document are listed with the role responsible for carrying them out.
 
-### Editable and Static Templates {#editable-and-static-templates}
-
-AEM now offers two basic types of templates:
+### Editable Templates {#editable-templates}
 
 * [Editable Templates](/help/sites-authoring/templates.md#creatingandmanagingnewtemplates)
 
@@ -96,19 +92,7 @@ AEM now offers two basic types of templates:
     * After the new page is created a dynamic connection is maintained between the page and the template. This means that changes to the template structure and/or locked content will be reflected on any pages created with that template. Changes to the unlocked (that is, initial) content will not be reflected.
     * Use content policies, which you can define these from the template editor, to persist the design properties. Design mode within the page editor is no longer used for editable templates.
 
-* Static Templates
-
-    * Static templates have been available for several versions of AEM.
-    * They are [provided by your developers](/help/sites-developing/page-templates-static.md), so they cannot be created or edited by authors.
-    * Are copied to create the new page, but no dynamic connection exists after this (though the template name is registered for information).
-    * Use [Design Mode](/help/sites-authoring/default-components-designmode.md) to persist design properties.
-    * Because editing static templates is the exclusive task of a developer, see the developer document [Page Templates - Static](/help/sites-developing/page-templates-static.md) for more information.
-
 By definition, the template console and template editor only allow creation and editing of editable templates. Therefore this document focuses exclusively on editable templates.
-
-### Using a Template to Create a Page {#using-a-template-to-create-a-page}
-
-When using a template to [create a page](/help/sites-authoring/managing-pages.md#creating-a-new-page) there is no visible difference and no indication between static and editable templates. For the page author, the process is transparent.
 
 ## Creating and Managing Templates {#creating-and-managing-templates}
 
@@ -444,7 +428,7 @@ In **Structure** mode of the template editor:
 
   >[!NOTE]
   >
-  >If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in [**Design Mode** for static templates](/help/sites-authoring/default-components-designmode.md).
+  >If multiple components of the same type are added as initial content, the same policy applies to all the components.
 
   ***Properties***
 

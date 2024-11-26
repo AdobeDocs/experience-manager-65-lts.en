@@ -111,7 +111,6 @@ user-guide-title: AEM 6.5
         + [Creating Accessible Content (WCAG 2.1 Conformance)](/help/sites-authoring/creating-accessible-content.md)
         + [Configuring Components in Design Mode](/help/sites-authoring/default-components-designmode.md)
         + [Foundation Components](/help/sites-authoring/default-components-foundation.md)
-        + [Scaffolding](/help/sites-authoring/scaffolding.md)
         + [Seeing Page Analytics Data](/help/sites-authoring/page-analytics-using.md)
     + Projects {#projects}
         + [Projects](/help/sites-authoring/projects.md)
@@ -1172,20 +1171,6 @@ user-guide-title: AEM 6.5
     + [2020](/help/commerce/cif/release-notes/release-notes-2020.md)
     + [2019](/help/commerce/cif/release-notes/release-notes-2019.md)
   + [FAQ](/help/commerce/cif/faq.md)
-  + AEM CIF Classic {#classic}
-    + [Overview](/help/commerce/cif-classic/home.md) 
-    + Deploying {#deploying}
-      + [eCommerce Overview](/help/commerce/cif-classic/deploying/ecommerce.md)
-      + [SAP Commerce Cloud](/help/commerce/cif-classic/deploying/sap-commerce-cloud.md)
-    + Administering {#administering}
-      + [eCommerce](/help/commerce/cif-classic/administering/ecommerce.md)
-      + [Concepts](/help/commerce/cif-classic/administering/concepts.md)
-      + [Administering Generic eCommerce](/help/commerce/cif-classic/administering/generic.md)
-      + [SAP Commerce Cloud](/help/commerce/cif-classic/administering/sap-commerce-cloud.md)  
-    + Developing {#developing}
-      + [eCommerce](/help/commerce/cif-classic/developing/ecommerce.md)
-      + [Developing (generic)](/help/commerce/cif-classic/developing/generic.md)
-      + [Developing with SAP Commerce Cloud](/help/commerce/cif-classic/developing/sap-commerce-cloud.md)
 + Headless {#headless}  
   + [AEM Headless Journeys](/help/journey-headless/overview.md)
   + AEM Headless Developer Journey {#developer}
@@ -1245,8 +1230,6 @@ user-guide-title: AEM 6.5
       + Templates{#templates}
         + [Templates](/help/sites-developing/templates.md)
         + [Page Templates - Editable ](/help/sites-developing/page-templates-editable.md)
-        + [Page Templates - Static](/help/sites-developing/page-templates-static.md)
-        + [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md)
         + [Adaptive Template Rendering](/help/sites-developing/templates-adaptive-rendering.md)
       + [Using the Sling Resource Merger in AEM](/help/sites-developing/sling-resource-merger.md)
       + [Overlays](/help/sites-developing/overlays.md)
@@ -1553,7 +1536,6 @@ user-guide-title: AEM 6.5
   + Fluid Experiences {#fluid-experiences}
      + [Feature List](/help/fluid-experiences/feature-list.md)
 + Managing {#managing}
-  + [Managing User Guide](/help/managing/home.md)
   + Managing - Best Practices Checklist {#managing-best-practices-checklist}
     + [Managing Projects - Best Practices Checklist](/help/managing/best-practices.md)
     + [The Checklist](/help/managing/best-practices-checklist.md)
