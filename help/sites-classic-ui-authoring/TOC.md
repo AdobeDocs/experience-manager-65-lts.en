@@ -10,9 +10,8 @@ role: user
 hide: yes
 ---
 
-# Adobe Experience Manager Classic UI Documentation {#content}
+# Adobe Experience Manager Classic UI Documentation {#classic-ui}
 
-+ Classic UI Authoring {#classic-ui}
 + Introduction to Classic UI Authoring {#introduction}
   + [First Steps for Authors](/help/sites-classic-ui-authoring/classic-page-author-first-steps.md)
   + [Authoring in the Classic UI](/help/sites-classic-ui-authoring/classicui.md)
