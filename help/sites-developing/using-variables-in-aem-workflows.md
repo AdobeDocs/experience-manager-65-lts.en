@@ -21,12 +21,6 @@ In AEM workflow models, you can:
 * [Set a value for the variable](/help/sites-developing/using-variables-in-aem-workflows.md#set-a-variable) using the Set Variable workflow step.
 * [Use the variable](/help/sites-developing/using-variables-in-aem-workflows.md#use-a-variable) in OR Split and Goto AEM workflow steps so you can define an expression for taking routing decisions. You can also use variables in all AEM Forms Workflow steps.
 
-The following video demonstrates how you can create, set, and use variables in AEM workflow models:
-
-<!-- FUTURE ERROR: YouTube and mp4 videos are not supported -->
-
->[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/usevariables_example.mp4)
-
 Variables are an extension of the [MetaDataMap](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/granite/workflow/metadata/MetaDataMap.html) interface. You can use [MetaDataMap](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/granite/workflow/metadata/MetaDataMap.html) in ECMAScript to access metadata saved using variables.
 
 ## Create a variable {#create-a-variable}
@@ -99,17 +93,11 @@ Select a variable of XML type that you want to store an XML file. Query the XML 
 
 In this example, select a **formdata** XML variable to store the **cc-app.xml** file. Query the **formdata** variable so you can set the value for the **emailaddress** string variable to store the value for the **emailAddress** property available in the **cc-app.xml** file.
 
->[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/set_variable_example1.mp4 "Set value of a variable")
-
 ### Example 2: Use an expression to store value based on other variables {#example2}
 
 Use an expression to calculate the sum of the variables and store the result in a variable.
 
 In this example, use the expression editor to define an expression to calculate the sum of **assetscost** and **balanceamount** variables and store the result in **totalvalue** variable.
-
-<!-- FUTURE ERROR: YouTube and mp4 videos are not supported -->
-
->[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/variables_expression.mp4)
 
 ## Use expression editor {#use-expression-editor}
 
@@ -155,10 +143,6 @@ You can define routing expression for a branch using a rule definition, ECMA scr
 You can use variables to define the routing expression using the expression editor. For more information on using routing expressions for the OR Split step, see [OR Split step](/help/sites-developing/workflows-step-ref.md#or-split).
 
 In this example, before defining the routing expression, use [example 2](/help/sites-developing/using-variables-in-aem-workflows.md#example2) to set the value for the **totalvalue** variable. Branch 1 is active if the value of the **totalvalue** variable is greater than 50000. Similarly, you can define a rule to make the Branch 2 active if the value of the **totalvalue** variable is less than 50000.
-
-<!-- FUTURE ERROR: YouTube and mp4 videos are not supported -->
-
->[!VIDEO](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-5/forms/using/variables_orsplit_example.mp4)
 
 Similarly, select an external script path or specify the ECMA script for routing expressions to evaluate the active branch. Select **[!UICONTROL Rename Branch]** to specify an alternate name for the branch.
 
