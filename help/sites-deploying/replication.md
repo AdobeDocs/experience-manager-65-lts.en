@@ -49,10 +49,6 @@ Sometimes, a type of replication known as reverse replication, is needed to retu
 
 Reverse replication uses an agent in the Publish environment which references the Author environment. This agent places the data into an outbox. This outbox is matched with replication listeners in the Author environment. The listeners poll the outboxes to collect any data entered and then distribute it as necessary. This ensures that the Author environment controls all traffic.
 
-In other cases, such as for Communities features (for example, forums, blogs, comments, and reviews), the amount of user-generated content (UGC) being entered in the Publish environment is difficult to efficiently synchronize across AEM instances using replication.
-
-AEM [Communities](/help/communities/overview.md) never uses replication for UGC. Instead, the deployment for Communities requires a common store for UGC (see [Community Content Storage](/help/communities/working-with-srp.md)).
-
 ### Replication - Out of the Box {#replication-out-of-the-box}
 
 The we-retail website that is included in a standard installation of AEM can be used to illustrate replication.
@@ -378,10 +374,6 @@ As the Publish environment is usually in the DMZ, to get content back to the Aut
 
 * an *outbox* in the Publish environment where the content is placed.
 * an agent (publish) in the Author environment which periodically polls the outbox for new content.
-
->[!NOTE]
->
->For AEM [Communities](/help/communities/overview.md), replication is not used for user-generated content on a Publish instance. See [Community Content Storage](/help/communities/working-with-srp.md).
 
 To do this, you need:
 

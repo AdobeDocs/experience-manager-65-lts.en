@@ -66,8 +66,7 @@ Interactive video steps:
 1. **(Optional) Identify Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identify Quickview variables](#optional-identifying-quickview-variables).
    *This step is only required if all the following are true*:
    * You want to add interactivity to your video by triggering to Quickview.
-   * Your implementation of Experience Manager does *not* use an eCommerce integration framework for pulling product data into Experience Manager from any eCommerce solution such as IBM&reg; WebSphere&reg; Commerce, Elastic Path, Hybris, or Intershop. See [eCommerce concepts in Experience Manager Assets](/help/commerce/cif-classic/administering/concepts.md).
-
+   * Your implementation of Experience Manager does *not* use an eCommerce integration framework for pulling product data into Experience Manager from any eCommerce solution such as IBM&reg; WebSphere&reg; Commerce, Elastic Path, Hybris, or Intershop.
 1. **(Optional) Create an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.
    Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead.
    See [Create a Viewer Preset](/help/assets/managing-viewer-presets.md#creating-a-new-viewer-preset) (optional) and [Special considerations for creating an Interactive Viewer preset](/help/assets/managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).
@@ -96,7 +95,7 @@ Interactive video steps:
 >This task is only required if the following are true:
 >
 >* You want to add interactivity to your video by triggering to Quickview.
->* Your implementation of Experience Manager does *not* use an eCommerce integration framework for pulling product data into Experience Manager from any eCommerce solution such as IBM&reg; WebSphere&reg; Commerce, Elastic Path, Hybris, or Intershop. See [eCommerce concepts in Experience Manager Assets](/help/commerce/cif-classic/administering/concepts.md).
+>* Your implementation of Experience Manager does *not* use an eCommerce integration framework for pulling product data into Experience Manager from any eCommerce solution such as IBM&reg; WebSphere&reg; Commerce, Elastic Path, Hybris, or Intershop.
 >
 >If your implementation of Experience Manager uses eCommerce, you can skip this task and proceed to the next task.
 

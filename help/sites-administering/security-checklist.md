@@ -443,7 +443,7 @@ More specifically, you must do the following:
     * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
 
 1. Paste the two files you previously copied.
-1. [Refresh the Crypto Bundle](/help/communities/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.
+1. Refresh the Crypto Bundleif the target instance is already running.
 1. Repeat the above steps for all instances that you want to replicate the key to.
 
 #### Replicating Keys for AEM 6.2 and Older Versions {#replicating-keys-for-aem-and-older-versions}
