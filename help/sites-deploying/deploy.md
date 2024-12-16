@@ -41,16 +41,12 @@ Once you have familiarized yourself with these basics, you can find in more adva
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
 * [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
-* [eCommerce](/help/commerce/cif-classic/deploying/ecommerce.md)
 * [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
 * [Web Console](/help/sites-deploying/web-console.md)
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
-* [Deploying Communities](/help/communities/deploy-communities.md)
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
 * [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
-* [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
-* [What is AEM Screens?](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html)
 
 ## Basic Concepts {#basic-concepts}
 
@@ -67,12 +63,9 @@ At the infrastructure level AEM provides the following:
 Building on this base, AEM also offers several application-level features for the management of:
 
 * **Websites**
-* **Mobile Applications**
 * **Digital Publications**
 * **Forms & Documents**
 * **Digital Assets**
-* **Communities**
-* **Online Commerce**
 
 Finally, customers can use these infrastructure and application-level building blocks to create customized solutions by building applications of their own.
 
@@ -300,13 +293,9 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
 * [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
-* [eCommerce](/help/commerce/cif-classic/deploying/ecommerce.md)
 * [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
 * [Web Console](/help/sites-deploying/web-console.md)
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
-* [Deploying Communities](/help/communities/deploy-communities.md)
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
 * [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
-* [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
-* [What is AEM Screens?](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html)

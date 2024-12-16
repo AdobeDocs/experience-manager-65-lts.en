@@ -282,18 +282,6 @@ curl -u <user>:<password> -F "cmd=pause" -F "name=publish"  http://localhost:450
 curl -u <user>:<password> -F "cmd=clear" -F "name=publish"  http://localhost:4502/etc/replication/agents.author/publish/jcr:content.queue.json
 ```
 
-### Communities {#communities}
-
-#### Assign and Revoke Badges {#assign-and-revoke-badges}
-
-See [Communities Scoring and Badges](/help/communities/implementing-scoring.md#assign-and-revoke-badges) for details.
-
-See [Scoring and Badges Essentials](/help/communities/configure-scoring.md#example-setup) for details.
-
-#### MSRP Reindexing {#msrp-reindexing}
-
-See [MSRP - MongoDB Storage Resource Provider](/help/communities/msrp.md#running-msrp-reindex-tool-using-curl-command) for details.
-
 ### Security {#security}
 
 #### Enabling and Disabling CRX DE Lite {#enabling-and-disabling-crx-de-lite}

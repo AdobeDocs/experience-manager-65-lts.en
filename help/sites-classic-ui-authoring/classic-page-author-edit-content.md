@@ -52,7 +52,7 @@ These provide access to a wide selection of functionality; including:
 
 * [editing page properties](/help/sites-classic-ui-authoring/classic-page-author-edit-page-properties.md)
 
-* [scaffolding](/help/sites-authoring/scaffolding.md)
+* [scaffolding](classic-feature-scaffolding.md)
 
 * [client context](/help/sites-administering/client-context.md)
 

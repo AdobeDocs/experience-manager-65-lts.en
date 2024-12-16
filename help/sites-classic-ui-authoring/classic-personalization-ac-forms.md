@@ -39,8 +39,6 @@ The form automatically updates based on the user. See [Editing Form Content](#ed
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
 
-To do this, see the [Templates documentation](/help/sites-developing/page-templates-static.md#templateavailability).
-
 First of all, check the connection between the author and publish instances and Adobe Campaign is working. See [Integrating with Adobe Campaign Standard](/help/sites-administering/campaignstandard.md) or [Integrating with Adobe Campaign 6.1](/help/sites-administering/campaignonpremise.md).
 
 >[!NOTE]

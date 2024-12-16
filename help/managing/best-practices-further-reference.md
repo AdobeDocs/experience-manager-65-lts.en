@@ -25,13 +25,10 @@ When implementing AEM (particularly for the first time), review the [capabilitie
 
 Consider the features of AEM that you are using, and the impact on your design; for example:
 
-* [Commerce](/help/commerce/cif-classic/administering/ecommerce.md)
-* [Screens](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html)
 * [Assets](/help/assets/assets.md)
 * [Tags](/help/sites-administering/tags.md)
 * [Multi Site Management and Translation](/help/sites-administering/msm-and-translation.md)
 * [Forms](/help/forms/using/introduction-aem-forms.md)
-* [Communities](/help/communities/deploy-communities.md)
 
 In addition check the [Release Notes](/help/release-notes/release-notes.md), for the various versions of AEM, to see when any new features were added.
 

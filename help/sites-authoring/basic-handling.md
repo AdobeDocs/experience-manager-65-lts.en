@@ -94,10 +94,6 @@ From Navigation the consoles available are:
    <td>This console lets you create and manage <a href="/help/communities/sites-console.md">community sites</a> for <a href="/help/communities/overview.md#engagement-community">engagement</a> and <a href="/help/communities/overview.md#enablement-community">enablement</a>.</td>
   </tr>
   <tr>
-   <td>Commerce</td>
-   <td>This lets you manage products, product catalogs, and orders related to your <a href="/help/commerce/cif-classic/administering/ecommerce.md">Commerce</a> sites.</td>
-  </tr>
-  <tr>
    <td>Experience Fragments</td>
    <td>An <a href="/help/sites-authoring/experience-fragments.md">Experience Fragment</a> is a stand-alone experience that can be reused across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td>
   </tr>

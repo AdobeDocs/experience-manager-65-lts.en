@@ -137,10 +137,6 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 
 >[!NOTE]
 >
->See [Deploying Communities](/help/communities/deploy-communities.md) for additional information regarding the AEM Communities capability.
-
->[!NOTE]
->
 >MongoDB is a third-party software program and is not included in the AEM licensing package. For more information, see the [MongoDB licensing policy](https://www.mongodb.com/licensing/server-side-public-license/faq) page.
 >
 >To get the most of your AEM deployment with MongoDB, Adobe recommends licensing the MongoDB Enterprise version to benefit from professional support. See [Recommended Deployments](/help/sites-deploying/recommended-deploys.md#prerequisites-and-recommendations-when-deploying-aem-with-mongomk) for more information.
