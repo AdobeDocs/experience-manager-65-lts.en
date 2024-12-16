@@ -59,8 +59,7 @@ Depending on the type of fragment, either models or templates are also used:
   * Templates define the (basic, text-only) structure of a content fragment when it is created.
   * The template is copied to the fragment when it is created; so further changes to the template will not be reflected in existing fragments.
   * Functions to add new variations, and so on, have to update the fragment accordingly.
-  * [Content fragment templates](/help/sites-developing/content-fragment-templates.md) operate in a different manner to that of other templating mechanisms within the AEM ecosystem (for example, page templates, and so on). Therefore they should be considered separately.
-  * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
+    * When based on a template the MIME type of the content is managed on the actual content; this means that each element and variation can have a different MIME type.
 
 ### Integration with Assets {#integration-with-assets}
 
@@ -524,10 +523,6 @@ If you want to set an auto save interval of 5 minutes you need to define the pro
 * Type: `Long`
 
 * Value: `300` (5 minutes equates to 300 seconds)
-
-## Content Fragment Templates {#content-fragment-templates}
-
-See [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md) for full information.
 
 ## Components for Page Authoring {#components-for-page-authoring}
 
