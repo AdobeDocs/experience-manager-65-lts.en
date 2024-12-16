@@ -1425,12 +1425,6 @@ user-guide-title: AEM 6.5
       + [JCR Integration](/help/sites-developing/jcr-integration.md)
       + [Code Samples](/help/sites-developing/code-samples.md)
       + [Troubleshooting Slow Queries](/help/sites-developing/troubleshooting-slow-queries.md)
-    + Mobile Web {#mobileweb}
-      + [Mobile Web](/help/sites-developing/mobile-web.md)
-      + [Creating Device Group Filters](/help/sites-developing/groupfilters.md)
-      + [Responsive Design for Web Pages](/help/sites-developing/responsive.md)
-      + [Creating Sites for Mobile Devices](/help/sites-developing/mobile.md)
-      + [Emulators](/help/sites-developing/emulators.md)
   + Deploying {#deploying}
     + Introduction to the AEM Platform {#introduction}
         + [Introduction to the AEM Platform](/help/sites-deploying/platform.md)

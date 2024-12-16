@@ -27,7 +27,6 @@ With AEM, you can integrate with the following non-Adobe products out of the box
 * Salesforce - sales and CRM software
 * Twitter - social networking
 * YouTube - video sharing
-<!-- * Silverpop Engage - marketing automation, email, mobile, and social NO LONGER EXISTS; ITS REPLACEMENT IS UNKNOWN -->
 
 In addition, you can integrate AEM with the [Adobe Creative Cloud](/help/assets/aem-cc-integration-best-practices.md).
 
@@ -37,16 +36,6 @@ Salesforce.com is the enterprise cloud computing company that is leading the shi
 
 For information about integrating your AEM site and Salesforce, see [Integrating with Salesforce](/help/sites-administering/salesforce.md).
 
-<!-- THE INFORMATION BELOW APPEARS OBSOLETE; first URL is a 404. I could not find a suitable replacement for it.
-## Integrating with Silverpop Engage {#integrating-with-silverpop-engage}
-
->[!NOTE]
->
->Silverpop Engage integration is not available out of the box. To integrate AEM with Silverpop Engage, [download the package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem620/product/cq-mcm-integrations-silverpop-content) from Package Share.
-
-Silverpop Engage provides marketing automation, email, mobile, and social.
-
-For information about integrating your AEM site and ExactTarget, see [Integrating with Silverpop Engage](/help/sites-administering/silverpop.md). -->
 
 ## Integrating with ExactTarget {#integrating-with-exacttarget}
 
@@ -57,8 +46,6 @@ For information about integrating your AEM site and ExactTarget, see [Configurin
 ## Integrating with Facebook and Twitter {#integrating-with-facebook-and-twitter}
 
 Facebook and Twitter are popular social networking services. AEM's integration with Facebook and Twitter enables organizations to provide a Facebook or Twitter login option on owned digital properties, and then personalize the user experience based on profile information. Marketers can also combine profile information with data from additional sources, such as a customer relationship management system or a website profile, to create a unified view of the customer.
-
-See [Social Login](/help/communities/social-login.md) for more information.
 
 ## Integrating with Other Providers {#integrating-with-other-providers}
 
