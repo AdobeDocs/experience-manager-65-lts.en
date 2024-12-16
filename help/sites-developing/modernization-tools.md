@@ -13,8 +13,8 @@ role: Developer
 
 [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
 
-* [Static templates](page-templates-static.md) to [editable templates](page-templates-editable.md)
-* [Design configurations](page-templates-static.md) to [policies](page-templates-editable.md)
+* Static templates to [editable templates](page-templates-editable.md)
+* Design configurations to [policies](page-templates-editable.md)
 * [Foundation Components](/help/sites-authoring/default-components-foundation.md) to [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
 * [Classic UI](website.md) to [Touch-Enabled UI](touch-ui-concepts.md)
 

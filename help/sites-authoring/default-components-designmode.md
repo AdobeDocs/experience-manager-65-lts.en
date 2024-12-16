@@ -42,7 +42,7 @@ For example, the content of a product page may contain a paragraph system holdin
 >
 >Editing the design using Design Mode as described in this article is the recommended way to define designs of static templates
 >
->Modifying designs in CRX DE for example, is not best practice and the application of such designs can vary from expected behavior. See the developer document [Page Templates - Static](/help/sites-developing/page-templates-static.md#how-template-designs-are-applied) for more information.
+>Modifying designs in CRX DE for example, is not best practice and the application of such designs can vary from expected behavior.
 
 ## Enable/Disable Components {#enable-disable-components}
 

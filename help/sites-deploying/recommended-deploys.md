@@ -161,8 +161,6 @@ If the above criteria are not expected to be met during the first 18 months of d
 
 It is not recommended to deploy MongoMK for publish instances. The publish tier of the deployment is almost always deployed as a farm of fully independent publish instances running TarMK, which are kept in sync by replicating content from the author instances. This "shared nothing" architecture, proper to the publish instances, allows the deployment of the publish tier to scale horizontally in a linear fashion. The farm topology also provides the benefit of applying any update or upgrade to publish instances on a rolling basis, such that any change to the publish tier will not require any downtime.
 
-This does not apply to AEM Communities using MongoMK clusters on the publish tier whenever there's more than one publisher. If choosing JSRP (see [Community Content Storage](/help/communities/working-with-srp.md)), then a MongoMK cluster would be appropriate, as would any publish side cluster regardless of the MK chosen, such as MongoDB or RDB.
-
 ### Prerequisites and Recommendations when deploying AEM with MongoMK {#prerequisites-and-recommendations-when-deploying-aem-with-mongomk}
 
 A set of prerequisites and recommendations is available if you are considering a MongoMK deployment for AEM:
@@ -184,31 +182,3 @@ A set of prerequisites and recommendations is available if you are considering a
 >[!NOTE]
 >
 >For all additional questions about these guidelines, prerequisites, and recommendations contact [Adobe Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
-
-### Considerations for AEM Communities {#considerations-for-aem-communities}
-
-For sites which plan to deploy [AEM Communities](/help/communities/overview.md), it is recommended to [choose a deployment](/help/communities/working-with-srp.md#characteristicsofstorageoptions) optimized for handling UGC posted by community members from the publish environment.
-
-By using a [common store](/help/communities/working-with-srp.md), UGC does not need to be replicated between author and other publish instances to obtain a consistent view of the UGC.
-
-Below are a set of decisional matrices that can assist you in choosing the best type of persistence for your deployment:
-
-#### Choosing the deployment type for author instances {#choosing-the-deployment-type-for-author-instances}
-
-![chlimage_1-19](assets/chlimage_1-19.png)
-
-#### Choosing the deployment type for publish instances {#choosing-the-deployment-type-for-publish-instances}
-
-![chlimage_1-20](assets/chlimage_1-20.png)
-
->[!NOTE]
->
->MongoDB is third-party software and is not included in the AEM licensing package. For more information see the [MongoDB licensing policy](https://www.mongodb.org/about/licensing/) page.
->
->To get the most of your AEM deployment, Adobe recommends licensing the MongoDB Enterprise version to benefit from professional support.
->
->The license includes a standard replica set, which is composed of one primary and two secondary instances that can be used for either the author or the publish deployments.
->
->In case you wish to run both author and publish on MongoDB, two separate licenses need to be purchased.
->
->For more information, see the [MongoDB for Adobe Experience Manager page](https://www.mongodb.com/lp/contact/mongodb-adobe-experience-manager).

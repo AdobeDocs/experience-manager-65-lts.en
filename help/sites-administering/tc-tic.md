@@ -60,7 +60,7 @@ After you configure a translation integration framework, you can [associate it w
 
 **Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](/help/sites-administering/translation.md).
 
-A single configuration of the framework controls how to translate page content, community content, and assets.
+A single configuration of the framework controls how to translate page content, and assets.
 ![chlimage_1-386](assets/translation-config-65.jpg)
 
 ### Sites Configuration Properties {#sites-configuration-properties}
@@ -113,16 +113,6 @@ The Sites properties control how the translation of page content is performed.
   </tr>
  </tbody>
 </table>
-
-### Communities Configuration Properties {#communities-configuration-properties}
-
-Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](/help/communities/translate-ugc.md).
-
-| Property |Description |
-|---|---|
-| Translation Provider |Select the translation provider to perform the translation. The provider for which cloud configurations are created appear in the list. |
-| Content Category |A category that describes the content that you are translating. The category can affect the choice of terminology and phrasing when translating content. |
-| Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](/help/communities/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
 
 ### Assets Configuration Properties {#assets-configuration-properties}
 
@@ -177,7 +167,7 @@ Assets properties control how to configure assets. For more information about tr
     * If configurations already exist, click Show Configurations, and then click the + link that appears next to Available Configurations.
 
 1. Type a name for the configuration and then click Create.
-1. Configure the properties on the Sites, Communities, and Assets tab, and then click OK.
+1. Configure the properties on the Sites, and Assets tab, and then click OK.
 
 ## Configuring Pages for Translation {#configuring-pages-for-translation}
 
@@ -191,8 +181,6 @@ The translation integration framework cloud configuration identifies the cloud c
 When you associate a page with a cloud configuration, the descendants of the page inherit the association. For example, if you associate the /content/geometrixx/en/products page with a Translation Integration Framework, the Products page and all pages below it are translated according to the framework.
 
 When required, you can override the association on a descendent page. For example, the content of a web site is mostly about clothing. However, one branch of pages describes the company. The root page of the site is associated with a Translation Integration Framework that specifies machine translation using the Clothing category. The branch that describes the company uses a framework that performs machine translation using the General category.
-
-Further, for any communities [SCF components](/help/communities/scf.md) on the pages, the user generated content (UGC) will include the ability for users to translate content. For more information, see [Translation of User Generated Content](/help/communities/translate-ugc.md).
 
 ### Associating a Page with a Translation Provider {#associating-a-page-with-a-translation-provider}
 

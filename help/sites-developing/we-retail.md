@@ -29,8 +29,6 @@ As AEM's standard reference implementation, We.Retail showcases some of the most
 | [Responsive layout](/help/sites-authoring/responsive-layout.md) |All pages feature a responsive layout to adapt dynamically to screen and device size. | [Try it!](/help/sites-developing/we-retail-responsive-layout.md) |
 | [Editable templates](/help/sites-developing/page-templates-editable.md) |All pages are based on editable templates, allowing non-developers to adapt and customize the templates. | [Try it!](/help/sites-developing/we-retail-editable-templates.md) |
 | [HTML Template Language](https://experienceleague.adobe.com/en/docs/experience-manager-htl/content/overview) |All components are based on HTL |  |
-| [eCommerce capabilities](/help/commerce/cif-classic/developing/ecommerce.md) |Features a product catalog |  |
-| [Communities sites](/help/communities/overview.md) |Allowing visitors to join in community discussions, read blogs, and much more |  |
 | [Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction) |All components are based on the new core components and are more usable and user-configurable out-of-the-box | [Try it!](/help/sites-developing/we-retail-core-components.md) |
 | [Content Fragments](/help/assets/content-fragments/content-fragments.md) |The We.Retail Experiences section showcases the power of reusing content by way of content fragments. | [Try them!](/help/sites-developing/we-retail-content-fragments.md) |
 | [Experience Fragments](/help/sites-authoring/experience-fragments.md) |An Experience Fragment is a group of one or more components including content and layout that can be referenced within pages. | [Try them!](/help/sites-developing/we-retail-experience-fragments.md) |
@@ -80,8 +78,6 @@ The following table gives an overview of the major features that are available i
 | Editable Templates |For all pages |Not available |
 | HTL |All components |Limited |
 | Targeting |For all pages |Only Geometrixx Outdoors |
-| Screens |Available |Not available |
-| Mobile |Not available |Available |
 | Manuscripts |Not available |Available |
 | Carousel viewer, downloads, and chart components |Not available |Available |
 | Column control |Replaced by layout container |Available |

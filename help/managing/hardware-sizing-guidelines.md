@@ -138,17 +138,3 @@ The resource consumption when using AEM MSM on an authoring environment depends 
 Testing the planned use case with a representative content excerpt can help you improve your understanding of the resource consumption. If you extrapolate the results with the planned throughput, you can assess the additional resources required for the AEM MSM.
 
 Also, account for authors working in parallel. They will perceive performance side effects if AEM MSM use cases consume more resources than planned.
-
-### AEM Communities Sizing Considerations {#aem-communities-sizing-considerations}
-
-AEM sites that include AEM Communities features (community sites) experience a high level of interaction from site visitors (members) in the publish environment.
-
-The sizing considerations for a community site depend on the anticipated interaction by community members and whether optimal performance for page content is of higher importance.
-
-User-generated content (UGC) submitted members is stored separately from page content. While the AEM platform uses a node store that replicates site content from author to publish, AEM Communities uses a single, common store for UGC that is never replicated.
-
-For the UGC store, it is necessary to choose a storage resource provider (SRP), which influences the chosen deployment.
-See
-
-* [Community Content Storage](/help/communities/working-with-srp.md)
-* [Recommended Topologies for Communities](/help/communities/topologies.md)

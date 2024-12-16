@@ -20,13 +20,9 @@ Templates are used at various points in AEM:
 
 * [When you create a page, you select a template](#templates-pages). This template is used as the base for the new page. The template defines the structure of the page, any initial content, and the [components](/help/sites-authoring/default-components.md) that can be used (design properties).
 
-* [When you create a Content Fragment, you also select a template](#templates-content-fragments). This template defines the structure, initial elements, and variations.
-
 The following templates are covered in detail:
 
 * [Page Templates - Editable](/help/sites-developing/page-templates-editable.md)
-* [Page Templates - Static](/help/sites-developing/page-templates-static.md)
-* [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md)
 * [Adaptive Template Rendering](/help/sites-developing/templates-adaptive-rendering.md)
 
 ## Templates - Pages {#templates-pages}
@@ -70,7 +66,6 @@ Static Templates:
 * Are copied to create the page, no dynamic connection exists afterward.
 * Uses [Design Mode](/help/sites-authoring/default-components-designmode.md) to persist design properties.
 * Are stored under `/apps`
-* See [Static Templates](/help/sites-developing/page-templates-static.md) for further information.
 
 >[!NOTE]
 >
@@ -134,6 +129,3 @@ You can use the `cq:allowedTemplates` property on the template's  `jcr:content` 
 
 If you want to add more constraints, for example, regarding the template hierarchy, you can use the `allowedParents/allowedChildren` properties on the template. You can then explicitly specify that pages created from a template T have to be parents/children of pages created from a template T.
 
-## Templates - Content Fragments {#templates-content-fragments}
-
-See [Content Fragment Templates](/help/sites-developing/content-fragment-templates.md).

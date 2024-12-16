@@ -16,7 +16,6 @@ Deploying best practices describe how to deploy or maintain Adobe Experience Man
 The following areas have documentation available concerning deploying and maintaining best practices and recommendations:
 
 * [Oak](#oak)
-* [Communities](#communities)
 * [UI](#ui)
 * [Performance](#performance)
 
@@ -61,14 +60,6 @@ Specific documents are described and linked to in the tables that follow.
   </tr>
  </tbody>
 </table>
-
-## Communities {#communities}
-
-AEM Communities simplifies the creation and management of on-premise Communities. Best practices for AEM Communities are described here:
-
-[Community Content Store](/help/communities/working-with-srp.md) - Discusses the new shared storage feature for user-generated content (UGC) and the considerations for choosing the underlying [topology](/help/communities/topologies.md).
-
-[Recommended deployments for communities](/help/sites-deploying/recommended-deploys.md#considerations-for-aem-communities) - Describes the recommended deployments for Communities. |
 
 ## UI {#ui}
 
