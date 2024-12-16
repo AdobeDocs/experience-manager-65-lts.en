@@ -28,10 +28,6 @@ The following pages provide fast links to some of the major areas of content man
 
   Components used for creating standard page content are primarily contained in the groups **General**, **Columns** and **Forms**.
 
-* [eCommerce](/help/commerce/cif-classic/administering/ecommerce.md)
-
-  The eCommerce functionality within AEM also includes a range of components, contained in the **Commerce** group. Actual use can depend on the commerce engine being used.
-
 ## Using Design Mode to Configure Components {#using-design-mode-to-configure-components}
 
 In addition to the components that authors can access through the sidekick in a standard installation, various other components are also available. You can use [Design mode](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md#enable-disable-components) to enable/disable these and edit parameters for specific components.

@@ -48,9 +48,6 @@ To get you up and running quickly with carousel banners:
 
    >[!NOTE]
    >
-   >If you are an Experience Manager Sites or Ecommerce customer, you can use the built-in feature to navigate to product pages and lookup the existing SKUs (Stock Keeping Unit) in the product catalog. You do not need to manually enter hotspot or image map variables. See information on [setting up eCommerce](/help/commerce/cif-classic/administering/generic.md).
-   >
-   >
    >If you are an Experience Manager Assets and Dynamic Media customer, you manually enter data for hotspots and image maps, and then integrate the published URL or Embed code with your third-party content management system.
 
 1. Optional: [Create a Carousel Set viewer preset](/help/assets/managing-viewer-presets.md), as needed.

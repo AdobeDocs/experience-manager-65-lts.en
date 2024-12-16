@@ -1,15 +1,8 @@
 ---
 title: Configuring Layout Container and Layout Mode
-
 description: Learn how to configure Layout Container and Layout Mode.
-
-
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
-legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
@@ -60,22 +53,6 @@ With these responsive grid mechanisms you can:
 >[!NOTE]
 >
 >In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](/help/sites-developing/we-retail.md). [Activate the Layout Container component](#enable-the-layout-container-component-for-page) for other pages.
-
-## Configuring the Responsive Emulator {#configuring-the-responsive-emulator}
-
-This task lets you see the responsive **Emulator** on your site.
-
-### Register your Page Components for Emulation {#register-your-page-components-for-emulation}
-
-To enable the emulator to support your pages, you must register your page components. See [Registering Page Components for Simulation](/help/sites-developing/responsive.md#registering-page-components-for-simulation).
-
-### Specify the Device Groups {#specify-the-device-groups}
-
-To specify the device groups that appear in the Devices list of the emulator see [Specifying the Device Groups](/help/sites-developing/responsive.md#specifying-the-device-groups).
-
-### Link your Site to the Specified Device Groups {#link-your-site-to-the-specified-device-groups}
-
-To include the emulator, link your site to the device groups. See [Adding the Devices List](/help/sites-developing/responsive.md#adding-the-devices-list) (for both the classic and touch-optimized UI).
 
 ## Activate Layout Mode for your Site {#activate-layout-mode-for-your-site}
 

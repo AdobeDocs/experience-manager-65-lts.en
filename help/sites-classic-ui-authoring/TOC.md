@@ -33,7 +33,6 @@ hide: yes
   + [Annotations when Editing a Page](/help/sites-classic-ui-authoring/classic-page-author-annotations.md)
   + [Troubleshooting AEM when Authoring](/help/sites-classic-ui-authoring/classic-page-author-troubleshooting.md)
   + [Creating Accessible Content (WCAG 2.0 Conformance)](/help/sites-classic-ui-authoring/classic-page-author-accessible-content.md)
-  + [Authoring a Page for Mobile Devices](/help/sites-classic-ui-authoring/classic-feature-mobile.md)
   + [Components for Page Authoring](/help/sites-classic-ui-authoring/classic-page-author-edit-mode.md)
   + [Keyboard Shortcuts when Editing Pages](/help/sites-classic-ui-authoring/classic-page-author-keyboard-shortcuts.md)
 + Site and Page Features {#siteandpage}

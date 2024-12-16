@@ -100,8 +100,6 @@ Adding a Dynamic Media Classic (Scene7) component to a page is the same as addin
 
 Responsive design for your assets means that your asset adapts depending on where it is displayed. With responsive design, the same assets can be effectively displayed on multiple devices.
 
-See also [Responsive design for web pages](/help/sites-developing/responsive.md).
-
 **To add an interactive viewing experience to a responsive site:**
 
 1. Log in to Experience Manager, and ensure that you have [configured Adobe Dynamic Media Classic Cloud Services](/help/sites-administering/scene7.md#configuring-scene-integration) and that Dynamic Media Classic components are available.
