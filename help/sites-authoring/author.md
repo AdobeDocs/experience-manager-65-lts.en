@@ -40,7 +40,6 @@ Depending on how your instance and your personal access rights are configured yo
 * create, edit, and manage your assets and collections
 * create, edit, and manage your publications
 * develop your campaigns and the related resources
-* develop and manage community sites
 * move, copy, or delete content pages, assets, and so on
 * publish (or unpublish) pages, assets, and so on
 
@@ -58,8 +57,6 @@ Also, there are administrative tasks that help you manage your content:
 When ready, the AEM site's content is published to the **publish environment**. Here the website's pages are made available to the intended audience in accordance with the look-and-feel of the designed interface.
 
 Usually, the publish environment is located inside the demilitarized zone; in other words, available to the internet, but no longer under the full protection of the internal network.
-
-When the AEM site is a [community site](/help/communities/overview.md), or includes [Communities components](/help/communities/author-communities.md), signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activities normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.
 
 >[!NOTE]
 >

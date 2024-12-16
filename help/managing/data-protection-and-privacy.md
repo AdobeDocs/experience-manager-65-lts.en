@@ -96,14 +96,6 @@ See [Aggregated Usage Statistics Collection](/help/sites-deploying/opt-in-aggreg
 
 See [AEM Sites - Data Protection and Privacy Readiness.](/help/sites-administering/gdpr-compliance-sites.md)
 
-## AEM Commerce {#aem-commerce}
-
-See [AEM Commerce - Data Protection and Privacy Readiness](/help/sites-administering/gdpr-compliance-commerce.md).
-
-## AEM Mobile {#aem-mobile}
-
-See [AEM Mobile - Data Protection and Privacy Readiness](/help/mobile/aem-mobile-gdpr-compliance.md).
-
 ## AEM Integration with Adobe Target & Adobe Analytics {#aem-integration-with-adobe-target-adobe-analytics}
 
 These Adobe Experience Manager integrations are with data protection and privacy (for example, GDPR or CCPA) ready services. No personal data from Adobe Target or Adobe Analytics is stored in AEM in relation to the integrations.
@@ -113,12 +105,6 @@ For more information, see the following:
 * [Adobe Target - Privacy Overview](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/?lang=en)  
 
 * [Adobe Analytics Data Privacy Workflow](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/an-gdpr-workflow.html)
-
-## AEM Communities {#aem-communities}
-
-AEM Communities bestow upon the data subjects right to their data portability, right to access, and right to be forgotten by [out-of-the-box APIs](/help/communities/user-ugc-management-service.md). These APIs enable bulk deletion and bulk export of user-generated content, and disabling user accounts identified through their authorizable IDs. However, permanent deletion of user account is realizable through deletion of user node in CRXDE Lite, which addresses the need of easy Opt-out from the system.
-
-Also, AEM Communities offers privacy by design owing to its Bulk Moderation console, which allows privileged members to find and delete the contributions and details of the users. The Members management console enables limiting to the point of banning a contributor. Moreover, it authorizes the data subjects to delete the contributions authored by them.
 
 ## AEM Forms {#aem-forms}
 
