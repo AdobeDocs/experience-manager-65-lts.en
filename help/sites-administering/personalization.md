@@ -161,15 +161,3 @@ Various components are provided with AEM for personalization. Some allow users t
 | Tag Cloud |A tag cloud to show a graphically presented selection of tags within your website |
 | Teaser |A piece of content (usually an image) displayed on a main page to "tease" users into accessing the underlying content. |
 
-## Personalization and Community Content {#personalization-and-community-content}
-
-Community features such as blogs, forums and calendars result in the creation of community content, commonly referred to as user generated content (UGC). When UGC is entered in a publish environment consisting of multiple AEM instances (a [publish farm](/help/communities/topologies.md)), one major issue has been how to synchronize UGC across all instances.
-
-With [AEM Communities 6.1](/help/communities/overview.md) extension, this issue is solved by using a [common store for UGC](/help/communities/working-with-srp.md). In regards, to personalization, Communities includes [Social Login](/help/communities/social-login.md) - the ability to provide the option for site visitors to sign in with Facebook and Twitter.
-
-Without Communities extension, various methods to explore for addressing the issue of UGC consistency are :
-
-* Synchronize the multiple publish instances when necessary
-* Send the UGC from the publish instance to the author environment, from where it can be published in a manner similar to publishing page content
-
-The method used to achieve UGC consistency across a publish environment consisting of multiple publish instances should be carefully designed and tested for performance and consistency.

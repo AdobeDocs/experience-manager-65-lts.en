@@ -35,8 +35,7 @@ Before you start your AEM development project, first review these best practices
 The following areas have documentation available specific to developing best practices:
 
 * [Sites](#sites)
-* [Communities](/help/sites-developing/best-practices.md#communities)
-* [Tooling/HTL](/help/sites-developing/best-practices.md#tooling-htl)
+* [Tooling/HTL](#tooling-htl)
 
 Specific documents are described and linked to in the tables that follow.
 
@@ -74,17 +73,6 @@ Managing and authoring your website content has some best practices outlined as 
   </tr>
  </tbody>
 </table>
-
-## Communities {#communities}
-
-[AEM Communities](/help/communities/overview.md) simplifies the creation and management of on-premise Communities.
-
-Some best practices for Communities are described here:
-
-||||
-|---|---|---|
-| Best practices for working with user generated content (UGC) | [Coding Guidelines](/help/communities/code-guide.md) |Guidelines for developing flexible, portable code for the [social component framework](/help/communities/scf.md) (SCF). |
-| Example usage of Communities components | [Community Components Guide](/help/communities/components-guide.md) |An interactive development tool. |
 
 ## Tooling/HTL {#tooling-htl}
 

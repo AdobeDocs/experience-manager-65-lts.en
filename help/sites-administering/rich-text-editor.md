@@ -336,7 +336,7 @@ These can be used to extend and customize your own RTE. For example, to list the
 
 AEM RTE capability has the following limitations:
 
-* RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](/help/sites-developing/page-properties-views.md) and [Scaffolding](/help/sites-authoring/scaffolding.md) on Touch-enabled UI.
+* RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](/help/sites-developing/page-properties-views.md) on Touch-enabled UI.
 
 * AEM does not work on [Hybrid devices](/help/release-notes/release-notes.md).
 

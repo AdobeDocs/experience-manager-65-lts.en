@@ -218,7 +218,6 @@ If your page contains Content Fragments, then you have access to the [browser fo
 * Language copies
 * Incoming Links
 * Use of the reference component: borrowed and lent content
-* References to Product pages (from the Commerce - Products console)
 
 Open the required console, then navigate to the required resource and open **References** using:
 
@@ -236,7 +235,6 @@ Select the appropriate reference type for more information. In certain situation
 
 * Instances of borrowed and lent content using the **Reference** component, from here you can navigate to the referencing/referenced page
 
-* [References to Product pages](/help/commerce/cif-classic/administering/generic.md#showing-product-references) (available from the Commerce-Products console)
 * [Launches](/help/sites-authoring/launches.md) provides access to related launches.
 * [Live Copies](/help/sites-administering/msm.md) displays the paths of all live copies that are based on the selected resource.
 * [Blueprint](/help/sites-administering/msm-best-practices.md) provides details and various actions.
@@ -290,7 +288,6 @@ There are various modes when editing a page allowing for different actions:
 * [Edit](/help/sites-authoring/editing-content.md) - use this mode when editing the page content.
 * [Layout](/help/sites-authoring/responsive-layout.md) - lets you create and edit your responsive layout dependent on the device (if the page is based on a layout container)
 
-* [Scaffolding](/help/sites-authoring/scaffolding.md) - help you to create a large set of pages that share structure but have different content.
 * [Developer](/help/sites-developing/developer-mode.md) - lets you perform various actions (requires privileges). These include inspecting the technical details of a page and its components.
 
 * [Design](/help/sites-authoring/default-components-designmode.md) - lets you enable/disable components for use on a page and to configure the design of the component (if the page is based on a [static template](/help/sites-authoring/templates.md#editable-and-static-templates)).
