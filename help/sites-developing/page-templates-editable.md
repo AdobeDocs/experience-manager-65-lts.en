@@ -28,10 +28,6 @@ Editable templates have been introduced to:
 
 With editable templates, the pieces that make a page are isolated within components. You can configure the necessary combinations of components in a UI so that you eliminate the need for a new page component to be developed for each page variation.
 
->[!NOTE]
->
->[Static templates](/help/sites-developing/page-templates-static.md) are also available.
-
 This document:
 
 * Gives an overview of creating editable templates
@@ -378,8 +374,7 @@ When creating a template, specify a template type:
 
     * The resource type of the page component.
     * The policy of the root node, which defines the components allowed in the template editor.
-    * Adobe recommends that you define the breakpoints for the responsive grid and setup of the mobile emulator at on the template type. This step is optional, because the configuration could also be defined on the individual template (see [Template Type and Mobile Device Groups](/help/sites-developing/page-templates-editable.md#p-template-type-and-mobile-device-groups-br-p)).
-
+  
 * AEM provides a small selection of out-of-the-box template types such as HTML5 Page and Adaptive Form Page.
 
     * Additional examples are provided as a part of the [`We.Retail`](/help/sites-developing/we-retail.md) sample content.
@@ -407,25 +402,6 @@ Definitions for your customized templates types should be stored in user-defined
 >[!CAUTION]
 >
 >The template types have to respect the correct folder structure (that is, `/settings/wcm/...`), otherwise the template types are not found.
-
-### Template Type and Mobile Device Groups {#template-type-and-mobile-device-groups-br}
-
-The [device groups](/help/sites-developing/mobile.md#device-groups) used for an editable template (set as relative path of the property `cq:deviceGroups`) define which mobile devices are available as emulators in the [layout mode](/help/sites-authoring/responsive-layout.md) of page authoring. This value can be set in two places:
-
-* On the editable template type
-* On the editable template
-
-When creating an editable template, the value is copied from the template type to the individual template. If the value is not set on the type, it can be set on the template. Once a template is created, there is no inheritance from the type to the template.
-
->[!CAUTION]
->
->The value of `cq:deviceGroups` must be set as a relative path such as `mobile/groups/responsive` and not as an absolute path such as `/etc/mobile/groups/responsive`.
-
->[!NOTE]
->
->With [static templates](/help/sites-developing/page-templates-static.md), the value of `cq:deviceGroups` could be set at the root of the site.
->
->With editable templates, this value is now stored at the template level and is not supported at the page root level.
 
 ### Creating Template Types {#creating-template-types}
 
