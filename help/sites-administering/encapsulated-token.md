@@ -79,7 +79,6 @@ To replicate the key across instances, you need to:
     * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle25/data`
 
 1. Paste the two files you previously copied.
-1. [Refresh the Crypto Bundle](/help/communities/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.
 
 1. Repeat the above steps for all instances you want to replicate the key to.
 

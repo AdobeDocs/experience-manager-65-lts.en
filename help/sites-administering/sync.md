@@ -70,7 +70,6 @@ Once user sync is enabled, only newly created users and groups are synchronized.
 1. Ensure that the latest code is installed:
 
 * [AEM platform updates](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/aem-releases-updates.html)
-* [AEM Communities updates](/help/communities/deploy-communities.md#latestfeaturepack)
 
 ### 1. Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory}
 
@@ -120,7 +119,6 @@ The authorized user is used in step 3 to configure the Sling distribution on Aut
 >A new user must be created.
 >
 >* The default user assigned is **`admin`**.
->* Do not use `communities-user-admin user.`
 >
 
 #### How to Add ACL {#addacls}
@@ -276,55 +274,7 @@ The default configuration is for a single Publish instance. As the reason for en
 
 * select `Save`
 
-### 8. AEM Communities User Sync Listener {#aem-communities-user-sync-listener}
-
-**(Optional) Sync additional JCR nodes**
-
-If there is custom data to synchronize across multiple Publish instances, then:
-
-* **on each Publish instance**:
-
-    * sign in with administrator privileges
-    * access the [Web Console](/help/sites-deploying/configuring-osgi.md)
-
-        * for example, `https://localhost:4503/system/console/configMgr`
-
-    * locate `AEM Communities User Sync Listener`
-    * to open for edit, select the existing configuration (pencil icon)
-      Verify `Name`: `socialpubsync-scheduled-trigger`
-
-![AEM Communities User Sync Listener](assets/chlimage_1-26.png)
-
-* **Node Types**
-  This is the list of node types that are synchronized. Any node type other than sling:Folder must be listed here (sling:folder is handled separately).
-  Default list of node types to synchronize:
-
-    * rep:User
-    * nt:unstructured
-    * nt:resource
-
-* **Ignorable Properties**
-  This is the list of properties that are ignored if any change is detected. Changes to these properties might get synchronized as a side effect of other changes (since synchronization is always at the node level), but changes to these properties do not, by themselves, trigger synchronization.
-  Default property to ignore:
-
-    * cq:lastModified
-
-* **Ignorable Nodes**
-  Subpaths that are ignored during synchronization. Nothing under these subpaths is synchronized at any time.
-  Default nodes to ignore:
-
-    * .tokens
-    * system
-
-* **Distributed Folders**
-  Most sling:Folders are ignored because synchronization is not necessary. The few exceptions are listed here.
-  Default folders to synchronize
-
-    * segments/scoring
-    * social/relationships
-    * activities
-
-### 9. Unique Sling ID {#unique-sling-id}
+### 8. Unique Sling ID {#unique-sling-id}
 
 >[!CAUTION]
 >
@@ -426,8 +376,7 @@ To check the state of the distribution queue:
         * look for pending packages (not yet installed)
 
             * named with the pattern `socialpubsync-vlt*`
-            * created by `communities-user-admin`
-
+ 
 When the distribution queue is empty, disable user sync:
 
 * on Author
