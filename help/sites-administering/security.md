@@ -220,7 +220,6 @@ Access Control Lists are made up of the individual permissions and are used to d
 >* `*/social/relationships/friend/*` 
 >* or `*/social/relationships/pending-following/*`.
 >
->When you create ACLs specific to communities, members joining those communities may be granted additional permissions. For example, when users join the communities at: `/content/we-retail/us/en/community` 
 
 ### Permission States {#permission-states}
 

@@ -76,8 +76,6 @@ Multiple Oak instances run each with one TarMK instance. The TarMK repositories 
 
 Keeping the repositories in sync is provided with the fact that the author server is publishing the same content to each farm member. For more information, see [Replication](/help/sites-deploying/replication.md).
 
-For AEM Communities, user generated content (UGC) is never replicated. For supporting UGC on a TarMK Farm, see [considerations for AEM Communities](#considerations-for-aem-communities).
-
 **This is the default deployment for publish environments.**
 
 ![chlimage_1-17](assets/chlimage_1-17.png)

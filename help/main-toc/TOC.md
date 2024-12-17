@@ -207,7 +207,6 @@ user-guide-title: AEM 6.5
       + [Opting Into Adobe Analytics and Adobe Target](/help/sites-administering/opt-in.md)
       + [AEM Portals and Portlets](/help/sites-administering/aem-as-portal.md)
       + [Integrating with Dynamic Media Classic (Scene7)](/help/sites-administering/scene7.md)
-      + [AEM Livefyre Recipes](/help/sites-administering/aem-livefyre-recipes.md)
       + [Troubleshooting Integration Issues](/help/sites-administering/troubleshooting-integration-issues.md)
       + [Integrating with BrightEdge Content Optimizer](/help/sites-administering/brightedge.md)
       + [Catalog Producer](/help/sites-administering/catalog-producer.md)
@@ -222,7 +221,6 @@ user-guide-title: AEM 6.5
       + [Solutions Integration](/help/sites-administering/integration.md)
       + [Exporting Experience Fragments to Adobe Target](/help/sites-administering/experience-fragments-target.md)
       + [Best Practices for Email Templates](/help/sites-administering/best-practices-for-email-templates.md)
-      + [Integrating with Livefyre](/help/sites-administering/livefyre.md)
     + Best Practices {#bestpractices}
       + [Best Practices](/help/sites-administering/administer-best-practices.md)
       + [Translation Best Practices](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/administering/introduction/tc-bp.html)
