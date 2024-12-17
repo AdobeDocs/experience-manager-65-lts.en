@@ -23,7 +23,6 @@ Templates are used at various points in AEM:
 The following templates are covered in detail:
 
 * [Page Templates - Editable](/help/sites-developing/page-templates-editable.md)
-* [Adaptive Template Rendering](/help/sites-developing/templates-adaptive-rendering.md)
 
 ## Templates - Pages {#templates-pages}
 
