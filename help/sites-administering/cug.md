@@ -141,3 +141,4 @@ Configure [session management in the dispatcher.any file](https://experienceleag
    ```
 
 1. Set [/allowAuthorized](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-when-authentication-is-used) to `0`.
+
