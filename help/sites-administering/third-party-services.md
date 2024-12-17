@@ -1,0 +1,52 @@
+---
+title: Integrating with Third-Party Services
+
+description: Learn how to integrate AEM with third-party services.
+
+
+contentOwner: Guillaume Carlino
+products: SG_EXPERIENCEMANAGER/6.5/SITES
+topic-tags: integration
+content-type: reference
+
+solution: Experience Manager, Experience Manager Sites
+feature: Integration
+role: Admin
+---
+# Integrating with Third-Party Services{#integrating-with-third-party-services}
+
+With AEM, you can integrate with the following non-Adobe products out of the box:
+
+* Amazon SNS connection - Amazon web services
+* BrightEdge Content Optimizer - content optimized for search
+* ExactTarget - email marketing
+* Facebook Connect - social networking
+* Generic Analytics Snippet - analytics
+* Microsoft&reg; Translator or other machine translation providers
+* Pushwoosh Connection - Apps - push notifications
+* Salesforce - sales and CRM software
+* Twitter - social networking
+* YouTube - video sharing
+
+In addition, you can integrate AEM with the [Adobe Creative Cloud](/help/assets/aem-cc-integration-best-practices.md).
+
+## Integrating with Salesforce {#integrating-with-salesforce}
+
+Salesforce.com is the enterprise cloud computing company that is leading the shift to the Social Enterprise.
+
+For information about integrating your AEM site and Salesforce, see [Integrating with Salesforce](/help/sites-administering/salesforce.md).
+
+
+## Integrating with ExactTarget {#integrating-with-exacttarget}
+
+ExactTarget's email marketing solutions enable organizations of all sizes to design and deliver highly targeted, mission-critical, and fully integrated email campaigns.
+
+For information about integrating your AEM site and ExactTarget, see [Configuring ExactTarget](/help/sites-administering/exacttarget.md).
+
+## Integrating with Facebook and Twitter {#integrating-with-facebook-and-twitter}
+
+Facebook and Twitter are popular social networking services. AEM's integration with Facebook and Twitter enables organizations to provide a Facebook or Twitter login option on owned digital properties, and then personalize the user experience based on profile information. Marketers can also combine profile information with data from additional sources, such as a customer relationship management system or a website profile, to create a unified view of the customer.
+
+## Integrating with Other Providers {#integrating-with-other-providers}
+
+AEM lets you connect to other external providers with a [Generic Analytics Snippet.](/help/sites-administering/external-providers.md)
