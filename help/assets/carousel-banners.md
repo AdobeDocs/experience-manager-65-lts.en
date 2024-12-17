@@ -92,8 +92,6 @@ When you add hotspots or image maps to a banner image in Experience Manager Asse
 
 >[!NOTE]
 >
->If you are an Experience Manager Sites and/or Experience Manager Ecommerce customer, skip this step. You do not need to manually identify hotspot or image map variables; you can use the integration with Ecommerce for product integration. See information on [setting up eCommerce](/help/commerce/cif-classic/administering/generic.md). In addition, you can use the Interactive component and add it to your web page.
->
 >If you are an Experience Manager Assets or Media customer, you publish the URL or Embed code and then integrate with your third-party content management system and identify hotspots and image maps manually.
 
 It is important to properly identify the number and type of variables to associate with hotspot or image map data. Each hotspot or image map added to a banner image must carry enough information to unambiguously identify the product in the existing backend system. At the same time, each hotspot or image map must not include more data than is necessary. The reason is because that would make the data entry process overly complex and on-going hotspot or image map management more error-prone.
@@ -276,8 +274,8 @@ See also [Add image maps](/help/assets/image-maps.md).
 
     * Select **[!UICONTROL Quickview]**.
 
-        * If you are an Experience Manager Sites and Ecommerce customer, select the Product Picker icon (magnifying glass) to open the Select Product page. Select the product that you want to use, then select the check mark in the upper-right corner of the page so you can return to the carousel banner editor.
-        * If you are not an Experience Manager Sites or Ecommerce customer
+        * If you are an Experience Manager Sites customer, select the Product Picker icon (magnifying glass) to open the Select Product page. Select the product that you want to use, then select the check mark in the upper-right corner of the page so you can return to the carousel banner editor.
+        * If you are not an Experience Manager Sites customer
 
             * See [Identify hotspot variables](#identifying-hotspot-and-image-map-variables) if you want to define these variables.
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.

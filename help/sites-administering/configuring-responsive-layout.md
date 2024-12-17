@@ -11,10 +11,6 @@ role: Admin
 
 [Responsive Layout](/help/sites-authoring/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
 
->[!NOTE]
->
->This can be compared with the [Mobile Web](/help/sites-developing/mobile-web.md) mechanisms, which use adaptive web design (primarily for the classic UI).
-
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
 * [**Layout Container**](/help/sites-authoring/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component

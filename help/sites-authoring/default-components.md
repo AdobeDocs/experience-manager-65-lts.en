@@ -47,8 +47,6 @@ The following pages provide links to some of additional, important information a
 
 * [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) - The Core Components offer flexible and feature-rich authoring functionality, which provides essential content types to create pages.
 
-* [Communities](/help/communities/author-communities.md) - Components provide interactive features for a website, such as forums and comments. Many of these components are included when a [Community Site](/help/communities/overview.md) is created.
-
 ### Configuring Components {#configuring-components}
 
 In addition to the components that authors can access in a standard installation, various other components are also available.

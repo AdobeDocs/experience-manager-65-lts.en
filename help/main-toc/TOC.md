@@ -69,7 +69,6 @@ user-guide-title: AEM 6.5
         + [Experience Fragments](/help/sites-authoring/experience-fragments.md)
         + [Export to CSV](/help/sites-authoring/csv-export.md)
         + [Components](/help/sites-authoring/default-components.md)
-        + [Authoring a Page for Mobile Devices](/help/sites-authoring/mobile.md)
         + [Troubleshooting AEM when Authoring](/help/sites-authoring/troubleshooting.md)
         + [Keyboard Shortcuts when Editing Pages](/help/sites-authoring/page-authoring-keyboard-shortcuts.md)
         + [Best Practices](/help/sites-authoring/best-practices.md)
@@ -1204,7 +1203,6 @@ user-guide-title: AEM 6.5
       + Templates{#templates}
         + [Templates](/help/sites-developing/templates.md)
         + [Page Templates - Editable ](/help/sites-developing/page-templates-editable.md)
-        + [Adaptive Template Rendering](/help/sites-developing/templates-adaptive-rendering.md)
       + [Using the Sling Resource Merger in AEM](/help/sites-developing/sling-resource-merger.md)
       + [Overlays](/help/sites-developing/overlays.md)
       + [Naming Conventions](/help/sites-developing/naming-conventions.md)
@@ -1492,8 +1490,6 @@ user-guide-title: AEM 6.5
         + [Assets Repository Restructuring in AEM 6.5](/help/sites-deploying/assets-repository-restructuring-in-aem-6-5.md)
         + [Dynamic Media Repository Restructuring in AEM 6.5](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-5.md)
         + [Forms Repository Restructuring in AEM 6.5](/help/sites-deploying/forms-repository-restructuring-in-aem-6-5.md)
-        + [E-Commerce Repository Restructuring in AEM 6.5](/help/sites-deploying/ecommerce-repository-restructuring-in-aem-6-5.md)
-        + [Repository Restructuring for AEM Communities in 6.5](/help/sites-deploying/communities-repository-restructuring-in-aem-6-5.md)
     + Best Practices {#practices}
        + [Deploying Best Practices](/help/sites-deploying/best-practices.md)
        + [Performance Tree](/help/sites-deploying/performance-tree.md)

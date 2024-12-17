@@ -90,10 +90,6 @@ From Navigation the consoles available are:
    <td>These consoles let you import and <a href="/help/assets/assets.md">manage digital assets</a> such as images, videos, documents, and audio files. These assets can then be used by any website running on the same AEM instance. </td>
   </tr>
   <tr>
-   <td>Communities</td>
-   <td>This console lets you create and manage <a href="/help/communities/sites-console.md">community sites</a> for <a href="/help/communities/overview.md#engagement-community">engagement</a> and <a href="/help/communities/overview.md#enablement-community">enablement</a>.</td>
-  </tr>
-  <tr>
    <td>Experience Fragments</td>
    <td>An <a href="/help/sites-authoring/experience-fragments.md">Experience Fragment</a> is a stand-alone experience that can be reused across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td>
   </tr>

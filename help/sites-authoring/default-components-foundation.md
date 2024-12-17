@@ -135,10 +135,6 @@ The dialog lets you edit properties for your instance of the Adaptive Image comp
     * **Description**
       The Adaptive Image component does not use this property.
 
-#### Extending the Adaptive Image Component {#extending-the-adaptive-image-component}
-
-For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](/help/sites-developing/responsive.md#using-adaptive-images).
-
 ### Carousel {#carousel}
 
 >[!CAUTION]
