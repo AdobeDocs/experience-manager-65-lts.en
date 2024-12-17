@@ -1,6 +1,6 @@
-# Adobe Experience Manager 6.6 Documentation
+# Adobe Experience Manager 6.5 2025 Documentation
 
-This is the repository for Adobe Experience Manager 6.6 documentation. This documentation covers the installation, administering, authoring use, and how to customize AEM 6.6.
+This is the repository for Adobe Experience Manager 6.5 2025 documentation. This documentation covers the installation, administering, authoring use, and how to customize AEM 6.5 2025.
 
 Your contributions to the documentation are welcome. See the following resources:
 
