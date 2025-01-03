@@ -1,14 +1,10 @@
 ---
 title: Custom User Group Mapping in AEM 6.5
-
 description: Lear how Custom User Group Mapping works in Adobe Experience Manager.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 docset: aem65
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
