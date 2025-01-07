@@ -24,7 +24,7 @@ To update the navigation bar at the top of AEM Forms workspace.
 
    >[!NOTE]
    >
-   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/webdav-access.html?lang=en).
+   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/webdav-access.html?lang=en).
 
 1. Reference the new background image in /apps/ws/css/newStyle.css by adding following style.
 

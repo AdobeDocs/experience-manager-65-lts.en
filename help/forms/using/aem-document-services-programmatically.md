@@ -12,11 +12,11 @@ role: Admin, User, Developer
 
 Samples and examples in this document help you understand and use  AEM Document Services on an AEM Forms on OSGi environment. For samples and examples for AEM Forms on JEE environment, see 
 
-* [Signature Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/signature-service-java-api-quick.html?#programming-aem-forms-jee)
+* [Signature Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/signature-service-java-api-quick.html?#programming-aem-forms-jee)
 
-* [Encryption Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/encryption-service-java-api-quick.html?#developer-reference)
+* [Encryption Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/encryption-service-java-api-quick.html?#developer-reference)
 
-* [Acrobat Reader extensions Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?#developer-reference)
+* [Acrobat Reader extensions Service Java API Quick Start](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?#developer-reference)
 
 ## Prerequisite {#prerequisite}
 

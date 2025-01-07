@@ -200,7 +200,7 @@ Certain aspects of AEM (and/or the underlying repository) can be configured to o
 
 >[!NOTE]
 >
->See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-performance.html).
+>See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/configuring-performance.html).
 
 ### Search Indexing {#search-indexing}
 

@@ -55,7 +55,7 @@ You require the following to create an Adaptive Form:
 
 ## Create an Adaptive Form {#create-an-adaptive-form}
 
-1. Login to your local [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html?lang=en#author-and-publish-installs). 
+1. Login to your local [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/deploying/deploy.html?lang=en#author-and-publish-installs). 
 
 1. Enter your credentials on the Experience Manager login page. After you are logged in, in the upper-left corner, select **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 
