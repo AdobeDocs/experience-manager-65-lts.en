@@ -98,9 +98,9 @@ The form templates can also be uploaded from Adaptive Form packages that are cre
 
 * The **nosamplecontent** runmode is recommended only for author and not for the publish nodes.
 * Authoring of assets such as adaptive form, themes, templates, or cloud configurations are performed over Author nodes only, which can be published at the configured Publish nodes.
-For more information, see [Publishing and unpublishing forms and documents](https://experienceleague.adobe.com/docs/experience-manager-65/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en)
+For more information, see [Publishing and unpublishing forms and documents](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en)
 * Forms addon package is required for Authoring and for Publishing to support the document service operations; hence it can be considered as a dependency. 
-If you only want Forms related sample template, themes, and DOR packages, then you can download them from [aemforms-references-* packages](https://experienceleague.adobe.com/docs/experience-manager-65/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en).
+If you only want Forms related sample template, themes, and DOR packages, then you can download them from [aemforms-references-* packages](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en).
 
 For further information, see the best practices in [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
@@ -325,7 +325,7 @@ Some best practices to configure AEM to improve the overall performance are as f
 
 * Enable HTML via web server compression module. For more information, see [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md).
 * Increase calls per request configuration for large forms. See [Optimizing performance of large and complex forms](/help/forms/using/adaptive-forms-best-practices.md#optimizing-performance-of-large-and-complex-forms).
-* Create [custom error pages shown by error handler](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/customizing-errorhandler-pages.html).
+* Create [custom error pages shown by error handler](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/platform/customizing-errorhandler-pages.html).
 * Secure AEM Forms server.
 
     * Use `nosamplecontent` run mode to ensure there are no sample content and sample users deployed on the production server. See [Running AEM in Production Ready Mode](/help/sites-administering/production-ready.md).
