@@ -19,6 +19,8 @@ The RemotePage component fetches all the necessary assets from the application's
 
 See the article [Editing an External SPA within AEM](spa-edit-external.md) for more details on editable, external SPAs in AEM.
 
+{{ue-over-spa}}
+
 ## Requirements {#requirements}
 
 * Enable CORS in development
