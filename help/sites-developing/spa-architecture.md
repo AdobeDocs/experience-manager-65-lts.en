@@ -16,9 +16,7 @@ Single page applications (SPAs) can offer compelling experiences for website use
 
 This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM and gives an overview of the architecture of AEM regarding deploying SPAs on AEM.
 
->[!NOTE]
->
->The SPA Editor is the recommended solution for projects that require SPA framework-based client-side rendering (for example, React or Angular).
+{{ue-over-spa}}
 
 ## SPA Development Principles for AEM {#spa-development-principles-for-aem}
 
