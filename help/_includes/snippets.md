@@ -8,7 +8,7 @@ Documentation for Adobe Experience Manager 6.6 is a work in progress. AEM 6.6 is
 
 >[!IMPORTANT]
 >
->The SPA Editor remains supported by Adobe, but the preferred editors for managing headless content in AEM are now:
+>The SPA Editor is deprecated for new projects. It remains supported by Adobe for existing projects, but should not be used for new projects. The preferred editors for managing headless content in AEM are now:
 >
 >* [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visually editing headless content.
 >* [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing of headless content.
