@@ -4,7 +4,6 @@ description: Learn how to configure Dynamic Media Publish Setup for Image Server
 feature: Image Profiles
 role: User, Admin
 mini-toc-levels: 4
-exl-id: c86e79c4-e887-4ee3-bb54-eeffb34a33c2
 solution: Experience Manager, Experience Manager Assets
 ---
 # Configure Dynamic Media Publish Setup for Image Server
