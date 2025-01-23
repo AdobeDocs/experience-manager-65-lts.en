@@ -1,14 +1,6 @@
 ---
 title: Manually Configuring the Integration with Adobe Target
-
 description: Learn how to manually configure the integration with Adobe Target.
-
-
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: integration
-content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
@@ -138,7 +130,10 @@ Use the following procedure to create a Target cloud configuration in AEM:
 
     1. Give the configuration a **Title**.
     1. Select the **Adobe Target Configuration** template.
-    1. Click **Create**.
+
+       ![Adobe Target Configuration](assets/adobe-target-create-configuration.png)
+
+1. Click **Create**.
 
    The edit dialog opens.
 
