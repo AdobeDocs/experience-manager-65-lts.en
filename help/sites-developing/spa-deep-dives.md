@@ -1,14 +1,6 @@
 ---
 title: SPA Deep Dives
-
 description: The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level, hosted by Adobe engineers.
-
-
-contentOwner: bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: spa
-content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
