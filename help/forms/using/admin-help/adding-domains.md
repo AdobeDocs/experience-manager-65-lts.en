@@ -1,15 +1,13 @@
 ---
 title: Adding domains
 description: Learn how to add an enterprise, local, or hybrid domain using Domain Management settings and general considerations for domain names and IDs.
-contentOwner: admin
-content-type: reference
-geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
 ---
 # Adding domains {#adding-domains}
+
+Ensure that the user has admin privileges to access the administrator console.
 
 ## Add an enterprise domain {#add-an-enterprise-domain}
 
