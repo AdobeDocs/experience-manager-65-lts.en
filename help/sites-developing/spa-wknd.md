@@ -15,6 +15,8 @@ role: Developer
 
 Immerse yourself in SPA development with this multi-part tutorial. Implement your own SPA that leads you through project setup, component mapping, front-end development tools, and application routing.
 
+{{ue-over-spa}}
+
 ## Tutorials {#tutorials}
 
 For an end-to-end example of building your own single-page application that is editable with AEM starting with project setup through application routing, see the WKND SPA Tutorials:

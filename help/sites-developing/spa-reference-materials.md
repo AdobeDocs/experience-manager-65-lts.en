@@ -15,9 +15,7 @@ role: Developer
 
 The following are the available JavaScript API references of the NPM modules for the AEM SPA Editor SDK framework.
 
->[!NOTE]
->
->The SPA Editor is the recommended solution for projects that require SPA framework-based client-side rendering (for example, React or Angular).
+{{ue-over-spa}}
 
 * [Component Mapping](https://www.npmjs.com/package/@adobe/aem-spa-component-mapping)
 * [Page Model Manager](https://www.npmjs.com/package/@adobe/aem-spa-model-manager)
