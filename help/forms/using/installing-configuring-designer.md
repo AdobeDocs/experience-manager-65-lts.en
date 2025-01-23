@@ -1,11 +1,6 @@
 ---
 title: Installing and configuring Designer
 description: Designer is available as a stand-alone installer and is also bundled with Workbench. Learn how to install stand-alone Designer.
-contentOwner: gtalwar
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: designer
-geptopics: SG_AEMFORMS/categories/jee
-docset: aem65
 role: Admin, User, Developer
 feature: Forms Designer,Designer
 solution: Experience Manager, Experience Manager Forms
