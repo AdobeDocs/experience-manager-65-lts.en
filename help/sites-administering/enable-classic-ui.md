@@ -19,7 +19,3 @@ With touch-enabled functionality reaching parity with and in fact exceeding that
 
 * [Editor](/help/sites-administering/enable-classic-ui-editor.md)
 * [Admin Consoles](/help/sites-administering/enable-classic-ui-admin.md)
-
->[!NOTE]
->
->For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](/help/release-notes/touch-ui-features-status.md) document.

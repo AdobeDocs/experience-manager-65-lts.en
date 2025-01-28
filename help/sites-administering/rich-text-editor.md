@@ -28,13 +28,6 @@ The Touch-enabled UI is the standard user interface for Experience Manager. Adob
 
 *Figure: Rich Text Editor toolbar in Classic UI*
 
->[!MORELIKETHIS]
->
->* [UI recommendations](/help/sites-deploying/ui-recommendations.md)
->* About deprecating the Classic UI, see [Experience Manager 6.5 release notes](/help/release-notes/deprecated-removed-features.md)
->* For difference between the UIs, see [Touch UI and Classic UI](https://aemcq5pedia.wordpress.com/2018/01/05/touch-enabled-ui-aem6-3/)
->* To understand the Touch-enabled UI in detail, see [Concepts of Experience Manager Touch UI](/help/sites-developing/touch-ui-concepts.md)
-
 ## Various modes of editing {#editingmodes}
 
 Authors can create and edit textual content in Experience Manager using the different modes of components. The toolbar options for authoring and formatting content and the user experience of RTE-enabled components in different editing mode varies based on RTE configurations.
@@ -386,10 +379,3 @@ Also, verify that your multifield implementation code and node structure are cor
 
 If the interface configurations updates are reflected for administrators but not for author accounts, ensure that the configuration node is not named `config`. Use the [`configPath` property](/help/sites-developing/components-basics.md#cq-inplaceediting).
 
->[!MORELIKETHIS]
->
->* [Configure RTE plug-ins](configure-rich-text-editor-plug-ins.md)
->* [Use Rich Text Editor for authoring](../sites-authoring/rich-text-editor.md)
->* [Configure RTE for accessible sites](rte-accessible-content.md)
->* [Touch UI and Classic UI feature parity](../release-notes/touch-ui-features-status.md)
->* [Tutorial sample to create composite multifield component](https://experience-aem.blogspot.com/2019/05/aem-65-touchui-composite-multifield-with-coral3-rte-rich-text.html)

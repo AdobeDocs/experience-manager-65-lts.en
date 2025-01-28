@@ -1,15 +1,6 @@
 ---
 title: User Interface Recommendations for Customers
-
 description: A list of recommendations related to the classic and touch-optimized user interfaces.
-
-
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: best-practices
-
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
@@ -108,7 +99,6 @@ See [Selecting Your UI](/help/sites-authoring/select-ui.md) for information abou
 
 For details of the enhancements made to the touch-enabled UI in the AEM 6.5 see [What's New](/help/release-notes/release-notes.md#what-s-new) in the Release Notes.
 
-A complete overview see the [Touch UI Feature Status](/help/release-notes/touch-ui-features-status.md) page
 
 ### Resources to Help {#resources-to-help}
 
@@ -127,4 +117,4 @@ For detailed development information:
 
 * [Customizing page authoring in the touch-enabled UI](/help/sites-developing/customizing-page-authoring-touch.md) (includes sample code).
 
-* [Granite UI documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/granite-ui/api/index.html).
+* [Granite UI documentation](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/index.html).
