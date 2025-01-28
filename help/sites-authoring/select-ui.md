@@ -7,11 +7,7 @@ role: User,Admin,Architect,Developer
 ---
 # Selecting your UI{#selecting-your-ui}
 
-The Adobe Experience Manager (AEM) touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites. However, there may be times when the user wants to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
-
->[!NOTE]
->
->For details on the status of feature parity with the classic UI, see the [Touch UI Feature Parity](/help/release-notes/touch-ui-features-status.md) document.
+The Adobe Experience Manager (AEM) touch-enabled UI is the standard UI. However, there may be times when the user wants to switch to the [classic UI](/help/sites-classic-ui-authoring/classicui.md). There are several options for doing this.
 
 There are various locations where you can define which UI is to be used:
 

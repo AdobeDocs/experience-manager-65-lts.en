@@ -15,7 +15,7 @@ role: Developer
 >
 >This article describes how to create a website based on the classic UI. Adobe recommends using the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md).
 
-The Designer is used to create a design for your website using the [Classic UI](/help/release-notes/touch-ui-features-status.md) in AEM.
+The Designer is used to create a design for your website using the [Classic UI](/help/sites-classic-ui-authoring/classicui.md) in AEM.
 
 >[!NOTE]
 >

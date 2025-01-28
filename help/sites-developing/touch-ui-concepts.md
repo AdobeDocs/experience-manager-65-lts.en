@@ -42,10 +42,6 @@ The touch-enabled UI includes:
 
 ![chlimage_1-79](assets/chlimage_1-79.png)
 
->[!NOTE]
->
->Nearly all AEM functionality has been ported to the touch-enabled UI. However, in some limited cases, functionality reverts to the classic UI. See [Touch UI Feature Status](/help/release-notes/touch-ui-features-status.md) for more information.
-
 The touch-enabled UI has been designed by Adobe to provide consistency in the user experience across multiple products. It is based on:
 
 * **Coral UI** (CUI) an implementation of Adobe's visual style for the touch-enabled UI. Coral UI provides everything your product / project / web application needs to adopt the UI visual style.
