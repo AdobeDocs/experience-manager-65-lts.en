@@ -13,7 +13,6 @@ user-guide-title: AEM 6.5
 + Release Notes {#release-notes}
   + [Release notes](/help/release-notes/release-notes.md)
   + [Deprecated and removed features](/help/release-notes/deprecated-removed-features.md)
-  + [Touch UI feature status](/help/release-notes/touch-ui-features-status.md)
 + Security {#security}
   + [User Administration and Security](/help/sites-administering/security.md)
   + [User, Group and Access Rights Administration](/help/sites-administering/user-group-ac-admin.md)
@@ -1133,13 +1132,6 @@ user-guide-title: AEM 6.5
       + [Using CIF catalog pickers](/help/commerce/cif/customizing/use-cif-pickers.md)
   + [Adobe Commerce PWA Studio](/help/commerce/cif/pwa-studio/getting-started.md)
   + [Migration](/help/commerce/cif/migration.md)
-  + Release Notes {#release-notes}
-    + [2024](/help/commerce/cif/release-notes/release-notes-2024.md)
-    + [2023](/help/commerce/cif/release-notes/release-notes-2023.md)
-    + [2022](/help/commerce/cif/release-notes/release-notes-2022.md)
-    + [2021](/help/commerce/cif/release-notes/release-notes-2021.md)
-    + [2020](/help/commerce/cif/release-notes/release-notes-2020.md)
-    + [2019](/help/commerce/cif/release-notes/release-notes-2019.md)
   + [FAQ](/help/commerce/cif/faq.md)
 + Headless {#headless}  
   + [AEM Headless Journeys](/help/journey-headless/overview.md)
