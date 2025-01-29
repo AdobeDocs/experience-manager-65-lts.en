@@ -1,14 +1,6 @@
 ---
 title: Configuration How-To Articles
-
 description: A list of articles that describe how to accomplish specific deployment tasks in AEM.
-
-
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: configuring
-
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
@@ -23,7 +15,7 @@ The following topics describe how to accomplish specific AEM deployment tasks:
 
 * [How to Purge Workflows and the Audit Log](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24590)
 
-* [Performance Tuning Tips](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/configuring/configuring-performance.html)
+* [Performance Tuning Tips](/help/sites-deploying/configuring-performance.md)
 
 <!--
 * [How to Remove Features From the Welcome Screen](/help/sites-developing/customizing-the-welcome-console.md)

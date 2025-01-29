@@ -11,6 +11,10 @@ role: User, Developer
 ---
 # Configuring directories {#configuring-directories}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can configure multiple directories for a domain.
 
 ## Adding directories or custom SPIs {#adding-directories-or-custom-spis}
@@ -18,6 +22,10 @@ For each enterprise domain you configure, specify the directories that the authe
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can add a directory to an existing enterprise domain or to a new enterprise domain that you are adding. You can configure multiple directories for a domain. You can also configure a domain to use a custom Service Provider Interface (SPI) for synchronization.
 
 ### Add a directory {#add-a-directory}
+
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click New Enterprise Domain or select an existing enterprise domain.

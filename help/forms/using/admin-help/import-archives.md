@@ -15,6 +15,10 @@ Use the archives tab to import and manage LCAs that were created in workbench.
 
 ## Import an archive {#import-an-archive}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 1. In administration console, click Services &gt; Applications and Services &gt; Application Management and click thearchives tab.
 1. Click Import.
 1. Click Browse to locate the archive to import, and then click Preview.
