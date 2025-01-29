@@ -11,7 +11,7 @@ role: User, Developer
 ---
 # Configuring directories {#configuring-directories}
 
-> [!NOTE]
+>[!NOTE]
 > 
 > Ensure that the user has admin privileges to access the administrator console.
 
