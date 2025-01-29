@@ -12,8 +12,7 @@ Adaptive Form Core Components allow form authors to add versioning, comments, an
 
 ## Prerequisite {#prerequisite-versioning}
 
-To use versioning, commenting, and annotation features in an Adaptive Form, ensure that the [Adaptive Form Core Components](
-/help/forms/using/enable-adaptive-forms-core-components.md) is enabled on your AEM Forms environment.
+To use versioning, commenting, and annotation features in an Adaptive Form, ensure that the [Adaptive Form Core Components](/help/forms/using/enable-adaptive-forms-core-components.md) is enabled on your AEM Forms environment.
 
 ## Adaptive Form versioning {#adaptive-form-versioning}
 
