@@ -47,7 +47,8 @@ User Management performs the following steps when delta directory synchronizatio
 
 >[!NOTE]
 >
-> Users and groups who were removed from the directory are not deleted from the User Management database until you perform a full directory synchronization.
+>* Users and groups who were removed from the directory are not deleted from the User Management database until you perform a full directory synchronization.
+>* Ensure that the user has admin privileges to access the administrator console.
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Under Delta Synch, select the check box and click Save.

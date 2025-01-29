@@ -11,7 +11,7 @@ role: User, Developer
 ---
 # Configuring authentication providers {#configuring-authentication-providers}
 
-> [!NOTE]
+>[!NOTE]
 > 
 > Ensure that the user has admin privileges to access the administrator console.
 

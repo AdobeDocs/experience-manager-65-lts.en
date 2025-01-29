@@ -1,19 +1,15 @@
 ---
 title: Managing invited and local user accounts
-
 description: Using document security, you can search for, view, edit, lock, unlock, and delete invited and local user accounts.
-
-
-contentOwner: admin
-content-type: reference
-geptopics: SG_AEMFORMS/categories/working_with_document_security
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 ---
 # Managing invited and local user accounts {#managing-invited-and-local-user-accounts}
+
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
 
 Use the Invited and Local Users page to manage your invited and local users. This page is displayed only if the following requirements are met:
 

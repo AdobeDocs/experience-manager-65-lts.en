@@ -11,7 +11,7 @@ role: User, Developer
 ---
 # Editing and converting existing domains{#editing-and-converting-existing-domains}
 
-> [!NOTE]
+>[!NOTE]
 > 
 > Ensure that the user has admin privileges to access the administrator console.
 

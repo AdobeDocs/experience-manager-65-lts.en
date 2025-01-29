@@ -11,7 +11,7 @@ role: User, Developer
 ---
 # Delete a domain {#delete-a-domain}
 
-> [!NOTE]
+>[!NOTE]
 > 
 > Ensure that the user has admin privileges to access the administrator console.
 

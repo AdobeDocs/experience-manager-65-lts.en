@@ -23,6 +23,10 @@ For each enterprise domain you configure, specify the directories that the authe
 
 ### Add a directory {#add-a-directory}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click New Enterprise Domain or select an existing enterprise domain.
 1. Click Add Directory.
