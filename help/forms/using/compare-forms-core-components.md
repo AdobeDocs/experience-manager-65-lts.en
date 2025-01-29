@@ -12,8 +12,7 @@ The Compare feature in Adaptive Forms Core Components helps form authors identif
 
 ## Prerequisite {#prerequisite-versioning}
 
-To use Compare feature in an Adaptive Form based on Core Components, ensure that the [Adaptive Form Core Components](
-/help/forms/using/enable-adaptive-forms-core-components.md) is enabled on your AEM 6.5 Forms environment.
+To use Compare feature in an Adaptive Form based on Core Components, ensure that the [Adaptive Form Core Components](/help/forms/using/enable-adaptive-forms-core-components.md) is enabled on your AEM 6.5 Forms environment.
 
 ## Compare distinct adaptive forms {#compare-af-65}
 
