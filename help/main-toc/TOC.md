@@ -7,7 +7,6 @@ user-guide-description: Use the Adobe Experience Manager 6.5 documentation to le
 breadcrumb-title: User Guide
 user-guide-title: AEM 6.5
 ---
-
 # Adobe Experience Manager 6.5 Documentation {#content}
 
 + Release Notes {#release-notes}
@@ -442,20 +441,6 @@ user-guide-title: AEM 6.5
       + [Install and Configure Forms-centric workflow on OSGi](/help/forms/using/installing-configuring-forms-centric-workflow-on-osgi.md)
       + [Install and configure Interactive Communications](/help/forms/using/installing-configuring-intreactive-communication-correspondence-management.md)
       + [Install and configure Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html)
-    + Install AEM Forms on JEE {#jee-installation}
-      + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
-      + [Installing and Deploying AEM Forms on JEE Using JBoss Turnkey](https://www.adobe.com/go/learn_aemforms_installTurnkey_65)
-      + [Installing and configuring AEM Forms Document Security server](/help/forms/using/installing-and-configuring-the-document-security-server.md)
-      + [Preparing to install AEM Forms (Single Server)](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_65)
-      + [Installing and Deploying Adobe Experience Manager Forms on JEE for JBoss](https://www.adobe.com/go/learn_aemforms_installJBoss_65)
-      + [Installing and Deploying Adobe Experience Manager forms on JEE for WebSphere](https://www.adobe.com/go/learn_aemforms_installWebSphere_65)
-      + [Installing and Deploying AEM Forms on JEE for WebLogic](https://www.adobe.com/go/learn_aemforms_installWebLogic_65)
-      + [Install AEM Forms Workbench](/help/forms/using/install-workbench.md)
-      + [Install and configure Designer](/help/forms/using/installing-configuring-designer.md)
-      + [Preparing to Install AEM Forms (Server Cluster)](https://www.adobe.com/go/learn_aemforms_prepareInstallcluster_65)
-      + [Configuring Adobe Experience Manager Forms on JEE on JBoss Cluster](https://www.adobe.com/go/learn_aemforms_clusterJBoss_65)
-      + [Configuring Adobe Experience Manager Forms on JEE on WebSphere Cluster](https://www.adobe.com/go/learn_aemforms_clusterWebSphere_65)
-      + [Configuring Adobe Experience Manager Forms on JEE on WebLogic Cluster](https://www.adobe.com/go/learn_aemforms_clusterWebLogic_65)
     + Configure AEM Forms {#configure-aem-forms}
       + [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md)
       + [Configure adaptive forms cache](/help/forms/using/configure-adaptive-forms-cache.md)
@@ -471,14 +456,7 @@ user-guide-title: AEM 6.5
       + [Upgrade to AEM 6.5 forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
-    + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
-      + [Preparing to upgrade AEM Forms](https://www.adobe.com/go/learn_aemforms_prepareupgrade_65)
-      + [Adobe Experience Manager Forms on JEE upgrade checklist and planning](https://www.adobe.com/go/learn_aemforms_upgrade_checklist_65)
-     + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)
-      + [Upgrading to Adobe Experience Manager Forms on JEE for JBoss](https://www.adobe.com/go/learn_aemforms_upgradeJBoss_65)
-      + [Upgrading to AEM Forms on JEE for JBoss Turnkey](https://www.adobe.com/go/learn_aemforms_upgradeTurnkey_65)
-      + [Upgrading to Adobe Experience Manager Forms on JEE for WebSphere](https://www.adobe.com/go/learn_aemforms_upgradeWebSphere_65)
-      + [Upgrading to Adobe Experience Manager Forms on JEE for WebLogic](https://www.adobe.com/go/learn_aemforms_upgradeWebLogic_65)
+    + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)
   + Manage AEM Forms {#manage-administer-aem-forms}
     + [AEM Forms on OSGi Groups and Privileges](/help/forms/using/forms-groups-privileges-tasks.md)
     + [Create new folders to categorize forms](/help/forms/using/creating-new-folders-categorize-forms.md)

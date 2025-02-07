@@ -1,14 +1,10 @@
 ---
 title: Architecture and deployment topologies for AEM Forms
-
 description: Architecture details for AEM Forms and recommended topologies for new and existing AEM customers and customers upgrading from LiveCycle ES4 to AEM Forms.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
@@ -38,6 +34,8 @@ The architecture for AEM Forms includes the following components:
 
 **AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](/help/sites-deploying/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
 
+<!--
+
 **AEM Forms on JEE:** AEM Forms on JEE is AEM Forms server running on JEE stack. It has AEM Author with AEM Forms add-on packages and additional AEM Forms JEE capabilities co-deployed on a single JEE stack running on an application server. You can run AEM Forms on JEE in single-server and clustered setups. AEM Forms on JEE is required only to run document security, process management, and for LiveCycle customers upgrading to AEM Forms. Here are a few additional scenarios to use AEM Forms on JEE:
 
 * **HTML workspace support (for customers using HTML workspace):** AEM Forms on JEE enables single sign-on with Processing instances, serves certain assets rendered on Processing instances, and handles submission of forms rendered within the HTML workspace.
@@ -48,9 +46,11 @@ AEM Forms on JEE also includes provides following supporting services to the AEM
 * **Integrated user management:** Allows users of AEM Forms on JEE to be recognized as AEM forms on OSGi users and helps enable SSO for both OSGi and JEE users. This is required for scenarios where single sign-on between AEM forms on OSGi and AEM Forms on JEE is required (for example, HTML workspace).
 * **Asset hosting:** AEM Forms on JEE can serve assets (for example, HTML5 forms) rendered on AEM Forms on OSGi.
 
-AEM Forms authoring user interface does not support creating Document of Record (DOR), PDF Forms, and HTML5 Forms. Such assets are designed using the stand-alone Forms Designer application and uploaded individually to AEM Forms Manager. Alternatively, for AEM Forms on JEE, forms can be designed as application (in AEM Forms Workbench) assets and deployed into AEM Forms on JEE server.
+-->
 
-AEM Forms on OSGi and AEM Forms on JEE both have workflow capabilities. You can rapidly build and deploy basic workflows for various tasks on the AEM forms on OSGi, without having to install the full-fledged Process Management capability of AEM Forms on JEE. There is some difference in the [features of Form-centric workflow on AEM Forms on OSGi and Process Management capability of AEM Forms on JEE](capabilities-osgi-jee-workflows.md). The development and management of Form-centric workflows on AEM Forms on OSGi uses the familiar AEM Workflow and AEM Inbox capabilities.
+AEM Forms authoring user interface does not support creating Document of Record (DOR), PDF Forms, and HTML5 Forms. Such assets are designed using the stand-alone Forms Designer application and uploaded individually to AEM Forms Manager. <!--Alternatively, for AEM Forms on JEE, forms can be designed as application (in AEM Forms Workbench) assets and deployed into AEM Forms on JEE server.-->
+
+AEM Forms on OSGi <!--and AEM Forms on JEE both--> have workflow capabilities. You can rapidly build and deploy basic workflows for various tasks on the AEM forms on OSGi.<!--, without having to install the full-fledged Process Management capability of AEM Forms on JEE. There is some difference in the [features of Form-centric workflow on AEM Forms on OSGi and Process Management capability of AEM Forms on JEE](capabilities-osgi-jee-workflows.md). The development and management of Form-centric workflows on AEM Forms on OSGi uses the familiar AEM Workflow and AEM Inbox capabilities.-->
 
 ## Terminologies {#terminologies}
 
@@ -58,7 +58,7 @@ The following image displays various AEM Form server configurations and their co
 
 ![aem_forms_-_recommendedtopology](assets/aem_forms_-_recommendedtopology.png)
 
-**Author:** An author instance is an AEM Forms server running in the standard Author run mode. It can be AEM Forms on JEE or AEM Forms on OSGi environment. It is intended for internal users, forms and interactive communication designers, and developers. It enables the following functionalities:
+**Author:** An author instance is an AEM Forms server running in the standard Author run mode. <!--It can be AEM Forms on JEE or AEM Forms on OSGi environment.--> It is intended for internal users, forms and interactive communication designers, and developers. It enables the following functionalities:
 
 * **Authoring and managing forms and interactive communications:** Designers and developer can create and edit adaptive forms and interactive communications, upload other types of forms created externally, for example, forms created in Adobe Forms Designer, and manage these assets using the Forms Manager console.
 * **Form and interactive communication publishing:** Assets hosted on an author instance can be published to a publish instance to perform runtime operations. Asset publishing uses AEM's replication features. Adobe recommends that a replication agent is configured on all the author instances to manually push published forms to processing instances, and another replication agent is configured on processing instances with the *On Receive* trigger enabled to automatically replicate the received forms to publish instances.
@@ -69,7 +69,7 @@ The following image displays various AEM Form server configurations and their co
 * Transporting of raw submitted form data to processing instances for further processing and storage in the final system-of-record. The default implementation provided in AEM Forms achieves this using the reverse-replication capabilities of AEM. An alternative implementation is also available for directly pushing the form data to processing servers instead of saving it locally first (the latter being a pre-requisite for reverse-replication to activate). Customers having concerns about storage of potentially sensitive data on publish instances can go in for this [alternative implementation](/help/forms/using/configuring-draft-submission-storage.md), since processing instances typically lie in a more secure zone.
 * Rendering and submitting interactive communications and letters: An interactive communication and letter are rendered on publish instances and corresponding data is submitted to processing instances for storage and post-processing. The data can either be saved locally on a publish instance and reverse-replicated to a processing instance (the default option) later, or pushed directly to processing instance without saving on the publish instance. The latter implementation is useful for security-conscious customers.
 
-**Processing:** An instance of AEM Forms running in Author run mode with no users assigned to the forms-manager group. You can deploy AEM Forms on JEE or AEM Forms on OSGi as a processing instance. The users are not assigned to ensure that form authoring and management activities are not performed on the Processing instance and occur only on the Author instance. A Processing instance enables the following functionalities:
+**Processing:** An instance of AEM Forms running in Author run mode with no users assigned to the forms-manager group. You can deploy <!--AEM Forms on JEE or--> AEM Forms on OSGi as a processing instance. The users are not assigned to ensure that form authoring and management activities are not performed on the Processing instance and occur only on the Author instance. A Processing instance enables the following functionalities:
 
 * **Processing of raw form data arriving from a Publish instance:** This is achieved primarily on a Processing instance via AEM workflows which trigger when the data arrives. The workflows can use the Form Data Model step provided out-of-the-box to archive the data or document to a suitable data store.
 * **Secure storage of form data**: Processing provides a behind-the-firewall repository for raw form data which is isolated from users. Neither form designers on the Author instance nor end users on the Publish instance can access this repository.
@@ -86,6 +86,8 @@ A Processing instance is configured to run in the Author run mode because:
 
 * It enables reverse-replication of raw form data from a Publish instance. The default data storage handler requires the reverse-replication feature.
 * AEM Workflows, which are the primary means of processing raw form data arriving from a Publish instance, are recommended to run on an author-style system.
+
+<!--
 
 ## Sample physical topologies for AEM Forms on JEE {#sample-physical-topologies-for-aem-forms-on-jee}
 
@@ -123,6 +125,8 @@ You can make the following changes/customizations to the above-suggested topolog
 * An AEM Author or Processing instance is required only for Forms-centric workflows on OSGi, adaptive forms, forms portal, and interactive communication.
 * interactive communication Agent UI is generally run within the organization. So, you can keep a publish server for Agent UI within the private network.
 * AEM forms on OSGi instance built-in to AEM Forms on JEE server can also run Forms-centric workflows on OSGi and Watched Folders.
+
+-->
 
 ## Sample physical topologies for using AEM Forms on OSGi {#sample-physical-topologies-for-using-aem-forms-on-osgi}
 

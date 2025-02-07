@@ -8,6 +8,9 @@ docset: aem65
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE,Platform Matrix
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}

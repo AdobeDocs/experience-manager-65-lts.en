@@ -35,7 +35,7 @@ Along with options to create forms, documents, and related assets, AEM provides 
 
 ### Forms & Documents  {#forms-documents}
 
-Forms & Documents provides options to create an Interactive Communication, adaptive form, adaptive form fragment, and form set. Only for AEM [!DNL Forms] on JEE, Forms & Documents provides an option to import files from local storage and sync AEM [!DNL Forms] assets with Workbench.
+Forms & Documents provides options to create an Interactive Communication, adaptive form, adaptive form fragment, and form set. <!--Only for AEM [!DNL Forms] on JEE, Forms & Documents provides an option to import files from local storage and sync AEM [!DNL Forms] assets with Workbench.-->
 
 The create button is the starting point of the process of creating or uploading AEM [!DNL Forms] asset. It provides you options to create:
 
