@@ -16,7 +16,7 @@ Learn how to configure Layout Container and Layout Mode.
 >
 >This document provides an overview of responsive design for site administrators and developers describing how features are realized in AEM.
 >
->For content authors, details of how to use responsive design features on a content page are available in the document [Responsive layout for your content pages.](/help/sites-cloud/authoring/page-editor/responsive-layout.md)
+>For content authors, details of how to use responsive design features on a content page are available in the document [Responsive layout for your content pages.](/help/sites-authoring/responsive-layout.md)
 
 ## Overview {#overview}
 
