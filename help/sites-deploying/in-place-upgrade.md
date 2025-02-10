@@ -10,31 +10,35 @@ role: Admin
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for AEM 6.5. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
+>This page outlines the upgrade procedure for AEM 6.5.2025. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for the new version of AEM. See how Pattern Detector can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for AEM 6.5.2025. See how Analyzer can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information.
 
 <!--Finally, the downtime during the upgrade can be significally reduced by indexing the repository **before** performing the upgrade. For more information, see [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
 
 ## Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version:** The migration tool only works with Java versions 7 and up. Note that for AEM 6.3 and up, Oracle's JRE 8 and IBM's JRE 7 & 8 are the only supported versions.
-
-* **Upgraded Instance:** If you are upgrading from a version **older than 5.6**, make sure that you have performed an in-place upgrade to AEM 6.0 by following the procedure described in the 6.0 version of the Upgrade documentation.
+* **Minimum Required Java version:** Make sure you have Oracle's JRE 17 installed on your system.
 
 ## Preparation of the AEM Quickstart jar file {#prep-quickstart-file}
 
-1. Stop the instance if it is running.
+1. Stop the instance if it is running
 
-1. Download the new AEM jar file and use it to replace the old one outside the `crx-quickstart` folder.
+1. Download the new AEM 6.5.2025 jar file and use it to replace the old one outside the `crx-quickstart` folder
+
+1. Take a backup of the `sling.properties` file (usually present in the `crx-quickstart/conf/`), then delete it
 
 1. Unpack the new quickstart jar by running:
 
    ```shell
    java -Xmx4096m -jar aem-quickstart.jar -unpack
    ```
+
+1. The unpack command will generate a new `sling.properties` file under the `crx-quickstart/conf/` folder. You can now apply your custom changes to newly generated `sling.properties` file.
+
+<!-- Alexandru: drafting temporarily
 
 ## Content Repository Migration {#content-repository-migration}
 
@@ -144,23 +148,28 @@ Where `/path/to/SharedS3DataStore.config` represents the path to your S3 datasto
 
 Where `/path/to/datastore` represents the path to your File Datastore.
 
+-->
+
 ## Performing The Upgrade {#performing-the-upgrade}
 
 **If using S3:**
 
 1. Remove any jars beneath `crx-quickstart/install` associated with an earlier version of the S3 connector.
 
-1. Download the latest release of the 1.10.x S3 connector from [https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/)
+1. Download the latest release of the 1.60.2 S3 connector from [https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/) <!-- Alexandru: this is a stub link for now -->
 
-1. Extract the package to a temporary folder and copy the contents of `jcr_root/libs/system/install` to the `crx-quickstart/install` folder.
+1. Extract the S3 connector (version 1.60.2) and copy the content of the following folders under `crx-quickstart/install`, as follows:
+
+   1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/1` under `crx-quickstart/install/1`
+   1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/15` under `crx-quickstart/install/15` 
 
 ### Determining the correct upgrade start command {#determining-the-correct-upgrade-start-command}
 
-To execute the upgrade, it is important to start AEM using the jar file to bring up the instance. For upgrading to 6.5, see other content restructuring and migration options in [Lazy Content Migration](/help/sites-deploying/lazy-content-migration.md) that you can choose with the upgrade command.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->If you are running Oracle Java 11 (or generally versions of Java newer than 8), additional switches must be added to your command line when starting AEM. For more information, see [Java 11 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations).
+>Support for some of Java 8/11 arguments have been removed in Java 17, see Java arguments considerations for AEM 6.5.2025 (link stub).
+
+To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 
 Note that starting AEM from the start script will not start the upgrade. Most customers start AEM using the start script and have customized this start script to include switches for environment configurations such as memory settings, security certificates, and so on. For this reason, Adobe recommends following this procedure to determine the proper upgrade command:
 
@@ -179,7 +188,7 @@ Note that starting AEM from the start script will not start the upgrade. Most cu
 1. Modify the command by replacing the path to the existing jar ( `crx-quickstart/app/aem-quickstart*.jar` in this case) with the new jar that is a sibling of the `crx-quickstart` folder. Using our previous command as an example, our command would be:
 
    ```shell
-   /usr/bin/java -server -Xmx1024m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar cq-quickstart-6.5.0.jar -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
+   /usr/bin/java -server -Xmx4096m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar cq-quickstart-6.5.2025.0.jar -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
    ```
 
    This will ensure that all proper memory settings, custom runmodes, and other environmental parameters are applied for the upgrade. After the upgrade has completed, the instance may be started from the start script on future startups.
