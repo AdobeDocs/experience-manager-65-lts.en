@@ -163,6 +163,8 @@ Where `/path/to/datastore` represents the path to your File Datastore.
    1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/1` under `crx-quickstart/install/1`
    1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/15` under `crx-quickstart/install/15` 
 
+Now, startthe AEM instance using the new command determined using the information under the [Determining the correct upgrade start command](#determining-the-correct-upgrade-start-command) section.
+
 ### Determining the correct upgrade start command {#determining-the-correct-upgrade-start-command}
 
 >[!NOTE]

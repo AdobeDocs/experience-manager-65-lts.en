@@ -10,14 +10,21 @@ feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---
-# Upgrading to Adobe Experience Manager (AEM) 6.5 {#upgrading-to-aem}
+# Upgrading to Adobe Experience Manager (AEM) 6.5.2025 {#upgrading-to-aem}
+
+>[!NOTE]
+>The upgrade to AEM 6.5.2025 is supported from the last 6 Service packs.
 
 This section covers upgrading an AEM installation to AEM 6.5:
+
+<!-- Alexandru: drafting for now 
 
 * [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
 * [Assessing the Upgrade Complexity with Pattern Detector](/help/sites-deploying/pattern-detector.md)
 * [Backward Compatibility in AEM 6.5](/help/sites-deploying/backward-compatibility.md)
-<!--* [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
+  This was drafted before: * [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
+
+<!--
 * [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)
 * [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md)
 * [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md)
@@ -27,42 +34,45 @@ This section covers upgrading an AEM installation to AEM 6.5:
 * [Lazy Content Migration](/help/sites-deploying/lazy-content-migration.md)
 * [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md)
 
+-->
+
 For easier reference to the AEM instances involved in these procedures, the following terms are used throughout these articles:
 
 * The *source* instance is the AEM instance that you are upgrading from.
 * The *target* instance is the one that you are upgrading to.
 
->[!NOTE]
->
->As part of the efforts to improve the reliability of upgrades, AEM has undergone a comprehensive repository restructuring. For more information on how to align with the new structure, see [Repository Restructuring in AEM.](/help/sites-deploying/repository-restructuring.md)
-
 ## What Has Changed? {#what-has-changed}
+
+### Updates {#updates}
 
 The following are major changes of note over the last several releases of AEM:
 
-AEM 6.0 introduced the new Jackrabbit Oak repository. Persistence Managers were replaced by [Micro Kernels](/help/sites-deploying/platform.md#contentbody_title_4). Starting from version 6.1, CRX2 is no longer supported. A migration tool called crx2oak must be run to migrate CRX2 repositories from 5.6.1 instances. For more information, see [Using the CRX2OAK Migration Tool](/help/sites-deploying/using-crx2oak.md).
+1. The Foundation layer has been upgraded to support Java 17 (which comprises open-source layers of bundles from Apache Sling, Apache Felix and Apache Jackrabbit Oak) 
 
-If Assets Insights is being used and you are upgrading from a version older than AEM 6.2, assets must be migrated and have IDs generated through a JMX bean. For Adobe's internal tests, 125K assets on a TarMK environment were migrated in an hour, but your results may vary.
+1. The AEM 6.5.2025 jar packaging now supports Jarkarta Servlet APIs specifications 5 and war packaging can be deployed to servlet containers implementing Jakarta Servlet API specifications 5/6
 
-6.3 introduced a new format for the `SegmentNodeStore`, which is the basis of the TarMK implementation. If you are upgrading from a version older than AEM 6.3, this requires a repository migration as part of the upgrade, involving system downtime.
+1. Packaging of AEM 6.5.2025 uber-jar has changed. Please refer [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) for more information.
 
-Adobe Engineering estimates this to be around 20 minutes. Reindexing is not necessary. Also, a new version of the crx2oak tool has been released to work with the new repository format.
+### Removed Legacy Features/Artifacts {#removed-legacy-features-artifacts}
 
-**This migration is not required if upgrading from AEM 6.3 to AEM 6.5.**
+Following legacy solutions have been removed from AEM 6.5.2025. For more information, please refer to TBD: link to release notes and [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md) 
 
-The pre-upgrade maintenance tasks have been optimized to support automation.
+1. Social
+1. Commerce
+1. Screens
+1. We-retail
+1. Integration of search and promote 
 
-The crx2oak tool command-line usage options have been changed to be automation-friendly and support more upgrade paths.
+**Removed Artifacts**
 
-The post-upgrade checks have also been made automation friendly.
+1. CRX-explorer
+1. Crx2oak
+1. Google guava (removed due to security vulnerabilities)
+1. Abdera-parser (removed due to security vulnerabilities)
+1. jdom (`org.apache.servicemix.bundles.jdom`) (removed due to security vulnerabilities)
+1. `com.github.jknack.handlebars` (removed due to security vulnerabilities)
 
-Periodic garbage collection of revisions and data store garbage collection are now routine maintenance tasks that must be performed periodically. With the introduction of AEM 6.3, Adobe supports and recommends Online Revision Cleanup. See [Revision Cleanup](/help/sites-deploying/revision-cleanup.md) for information on how to configure these tasks.
-
-AEM recently introduces the [Pattern Detector](/help/sites-deploying/pattern-detector.md) for assessment of complexity of the upgrade as you start planning for the upgrade. 6.5 also has a strong focus on [backward compatibility](/help/sites-deploying/backward-compatibility.md) of features. Finally, best practices for [sustainable upgrades](/help/sites-deploying/sustainable-upgrades.md) are also added.
-
-For more details about what else has changed in recent AEM versions, see the complete release notes:
-
-* [Adobe Experience Manager 6.5 Latest Service Pack Release Notes](/help/release-notes/release-notes.md)
+AEM 6.5.2025 has a strong focus on backward compatibility of features and comes with an analyzer tool. See [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/pattern-detector.md) for assessment of complexity as you start planning for the upgrade. For more details about what else has changed, see the complete release notes here. TBD: Link to release notes of AEM 6.5.2025
 
 ## Upgrade Overview {#upgrade-overview}
 
@@ -70,12 +80,10 @@ Upgrading AEM is a multi-step, sometimes multi-month process. The following outl
 
 ![screen_shot_2018-03-30at80708am](assets/screen_shot_2018-03-30at80708am.png)
 
-## Upgrade Flow {#upgrade-overview-1}
+## Upgrade Flow {#upgrade-flow}
 
-The diagram below captures the overall recommended flow highlight the upgrade approach. Note the reference to the new features that Adobe has introduced. The upgrade should start with the Pattern Detector(see [Assessing the Upgrade Complexity with Pattern Detector](/help/sites-deploying/pattern-detector.md)) which should let you decide the path you want to take for compatibility with AEM 6.4 based on the patterns in the generated report.
+The diagram below captures the overall recommended flow highlight the upgrade approach. Note the reference to the new features that Adobe has introduced. The upgrade should start with the  AEM 6.5.2025 Analyzer tool(see [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/pattern-detector.md)) which should let you decide the path you want to take for compatibility with AEM 6.5 based on the patterns in the generated report.
 
-There was a significant focus in 6.5 to keep all the new features backward compatible, but in cases where you still see some backward compatibility issues, the compatibility mode lets you temporarily defer development to keep your custom code compliant with 6.5. This approach helps you avoid development effort immediately after the upgrade(see [Backward Compatibility in AEM 6.5](/help/sites-deploying/backward-compatibility.md)).
-
-Finally, in your 6.5 development cycle, features introduced under Sustainable Upgrades(see [Sustainable Upgrades](/help/sites-deploying/sustainable-upgrades.md)) help you follow best practices to make future upgrades even more efficient and seamless.
+Aditionally, in your 6.5 development cycle, features introduced under Sustainable Upgrades(see [Sustainable Upgrades](/help/sites-deploying/sustainable-upgrades.md)) help you follow best practices to make future upgrades even more efficient and seamless.
 
 ![6_4_upgrade_overviewflowchart-newpage3](assets/6_4_upgrade_overviewflowchart-newpage3.png)
