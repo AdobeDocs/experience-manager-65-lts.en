@@ -9,6 +9,9 @@ content-type: reference
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configuring file type settings {#configuring-file-type-settings}
 

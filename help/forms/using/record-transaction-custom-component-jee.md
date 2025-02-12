@@ -3,7 +3,10 @@ title: Record a transaction for custom component API for AEM Forms on JEE.
 description: Learn about using the TransactionRecorder API to record transactions for custom component.
 feature: Transaction Reports
 role: Admin, User, Developer
-solution: "Experience Manager, Experience Manager Forms"
+solution: Experience Manager, Experience Manager Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Record a transaction for custom component APIs for AEM Forms on JEE {#record-a-transaction-for-custom-components}
 

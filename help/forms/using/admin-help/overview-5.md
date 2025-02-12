@@ -12,6 +12,9 @@ docset: aem65
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Introduction to working with PDF Generator {#introduction-to-working-with-pdf-generator}
 

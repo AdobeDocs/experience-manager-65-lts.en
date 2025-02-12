@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Workbench
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configure service settings {#configure-service-settings}
 

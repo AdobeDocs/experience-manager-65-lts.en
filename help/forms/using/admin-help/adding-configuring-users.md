@@ -6,6 +6,9 @@ geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Adding and configuring users {#adding-and-configuring-users}
 

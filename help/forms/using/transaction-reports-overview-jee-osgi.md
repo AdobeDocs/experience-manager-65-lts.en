@@ -17,11 +17,15 @@ Transaction report within AEM Forms allows you to monitor all transactions since
 
 You can refer to the following for comprehensive instructions on how to enable transactions, the list of billable APIs, and custom recorder implementations, based on your AEM Forms technology stack:
 
+<!--
+
 **Transaction Reporting for AEM Forms on JEE**
 
 * [Enabling and viewing transaction report for AEM Forms on JEE](/help/forms/using/transaction-report-overview-jee.md)
 * [List of billable APIs for AEM Forms on JEE](/help/forms/using/transaction-reports-billable-apis-jee.md)
 * [Record a transaction for custom component APIs](/help/forms/using/record-transaction-custom-component-jee.md)
+
+-->
 
 **Transaction Reporting for AEM Forms on OSGi**
 

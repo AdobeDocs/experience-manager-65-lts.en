@@ -566,6 +566,7 @@ user-guide-title: AEM 6.5
     + [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
     + [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow-step-reference.md)
     + [Dynamically select a user or group for AEM Forms-centric workflow steps](/help/forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md)
+    + [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](/help/forms/using/capabilities-osgi-jee-workflows.md)
     + [Initiate Document Services APIs from AEM Workflow](/help/forms/using/initiating-document-services-apis-aem.md)
     + [Logging in AEM Forms workflows](/help/forms/using/forms-workflow-logs.md)
     + [Variables in AEM workflows](/help/forms/using/variable-in-aem-workflows.md)
@@ -778,7 +779,6 @@ user-guide-title: AEM 6.5
         + [Viewing and understanding transaction reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
         + [List of billable APIs for AEM Forms on OSGi](/help/forms/using/transaction-reports-billable-apis.md)
         + [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
-      + Transaction Reports for AEM Forms on JEE {#transaction-reports-jee}
         + [Enabling and viewing transaction reports](/help/forms/using/transaction-report-overview-jee.md)
         + [List of billable APIs for AEM Forms on JEE](/help/forms/using/transaction-reports-billable-apis-jee.md)
         + [Record a transaction for custom component APIs](/help/forms/using/record-transaction-custom-component-jee.md)

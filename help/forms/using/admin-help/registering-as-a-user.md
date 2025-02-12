@@ -11,6 +11,9 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Registering as a User {#registering-as-a-user}
 
