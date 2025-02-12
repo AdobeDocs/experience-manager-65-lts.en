@@ -9,7 +9,9 @@ topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 
 docset: aem65
-
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security,Adaptive Forms

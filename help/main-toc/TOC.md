@@ -566,7 +566,6 @@ user-guide-title: AEM 6.5
     + [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
     + [Forms-centric workflow on OSGi - Step Reference](/help/forms/using/aem-forms-workflow-step-reference.md)
     + [Dynamically select a user or group for AEM Forms-centric workflow steps](/help/forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md)
-    + [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](/help/forms/using/capabilities-osgi-jee-workflows.md)
     + [Initiate Document Services APIs from AEM Workflow](/help/forms/using/initiating-document-services-apis-aem.md)
     + [Logging in AEM Forms workflows](/help/forms/using/forms-workflow-logs.md)
     + [Variables in AEM workflows](/help/forms/using/variable-in-aem-workflows.md)

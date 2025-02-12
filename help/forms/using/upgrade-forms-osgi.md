@@ -1,23 +1,53 @@
 ---
-title: Upgrade to AEM 6.5 Forms on OSGi
-
+title: Upgrade to AEM 6.5.2025 Forms on OSGi
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms.
-
-
 content-type: reference
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-topic-tags: installing
-geptopics: SG_AEMFORMS/categories/jee
-
-role: Admin,User
+role: Admin, User
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,AEM Forms on OSGi, AEM Forms Upgrade
+feature: Adaptive Forms, AEM Forms on OSGi, AEM Forms Upgrade
 ---
-# Upgrade to AEM 6.5 Forms on OSGi {#upgrade-to-aem-forms-osgi}
+# Upgrade to AEM 6.5.2025 Forms on OSGi {#upgrade-to-aem-forms-osgi}
+
+You can perform a direct upgrade from AEM 6.5.17.0 Forms, AEM 6.5.18.0 Forms, AEM 6.5.19.0 Forms, AEM 6.5.20.0 Forms, AEM 6.5.21.0 Forms, AEM 6.5.22.0 Forms  to AEM 6.5.2025 Forms.
+
+
+
+
+
+Direct upgrade path from AEM 6.0 Forms, AEM 6.1 Forms, and AEM 6.2 Forms to AEM 6.5 Forms is not available. Perform an intermediate upgrade to AEM 6.2 Forms, upgrade to AEM 6.3 Forms, or upgrade to AEM 6.4 Forms and then upgrade from AEM 6.3 Forms, or AEM 6.4 Forms to AEM 6.5 Forms. Learn more about the [Previous Upgrades](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/upgrade-aem-forms/upgrade).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 You can perform a direct upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms.
 
 Direct upgrade path from **AEM 6.0 Forms, AEM 6.1 Forms**, and **AEM 6.2 Forms** to AEM 6.5 Forms is not available. Perform an intermediate [upgrade to AEM 6.2 Forms](https://helpx.adobe.com/experience-manager/6-2/forms/using/upgrade.html), [upgrade to AEM 6.3 Forms](https://helpx.adobe.com/experience-manager/6-3/forms/using/upgrade.html), or [upgrade to AEM 6.4 Forms](/help/forms/using/upgrade.md) and then upgrade from AEM 6.3 Forms, or AEM 6.4 Forms to AEM 6.5 Forms.
+
+You can upgrade to AEM 6.5.2025, 
+
+
 
 Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms:
 
