@@ -220,4 +220,4 @@ The following is a description of the effects in the repository when moving or m
 
 Since Adobe Experience Manager 6.4, tags are stored under `/content/cq:tags` whereas previous versions stored tags under `/etc/tags`. 
 
-Whenever upgrading an AEM system from a version prior to 6.4, tags must be migrated to `/content/cq:tags`. See [Common Repository Restructuring in AEM 6.5](/help/sites-deploying/all-repository-restructuring-in-aem-6-5.md#tags) for more information.
+Whenever upgrading an AEM system from a version prior to 6.4, tags must be migrated to `/content/cq:tags`.
