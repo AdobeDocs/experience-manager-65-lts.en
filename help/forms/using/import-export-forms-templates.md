@@ -18,11 +18,6 @@ feature: Adaptive Forms,Foundation Components
 
 You can move forms and related assets, themes, data dictionaries, document fragments, and letters between different AEM Forms instances. Such a movement is required when migrating systems or moving forms from a stage server to a production server. For those assets for which upload and import via the AEM Forms UI is supported, using the Forms UI is the recommended way for export or import. Using AEM Package Manager for exporting or importing such assets is not recommended.
 
->[!NOTE]
->
->* In AEM 6.4 Forms, the structure and paths of crx-repository has changed. If you import assets from a previous version to AEM 6.4 Forms and the form has some dependencies on the older structure, you have to manually export the dependencies. For details of changes in the structure and paths of the repository, see [Repository Restructuring in AEM](/help/sites-deploying/repository-restructuring.md).
->
-
 ## Download or upload Forms &amp; Documents assets {#download-or-upload-forms-amp-documents-assets}
 
 AEM Forms user interface lets you export assets from an AEM instance by downloading them as an AEM CRX-package or binary files. You can then import the downloaded AEM CRX-package or the binary file into another AEM instance.

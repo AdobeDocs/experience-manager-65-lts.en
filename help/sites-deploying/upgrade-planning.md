@@ -128,10 +128,6 @@ Review the Technical Requirements for AEM 6.5 and ensure that your current hardw
 
 [How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
 
-#### Content Restructuring Considerations {#content-restructuring-considerations}
-
-AEM has introduced changes to the repository structure that will help in making upgrades more seamless. The changes involve moving content out of the /etc folder to folders including /libs, /apps, and /content, based on whether Adobe or a customer owns the content, thus limiting the chances of overwriting content during releases. The repository restructuring has been done in such a way that it should not require code changes at the time of 6.5 upgrade, although it is recommended to review the details at [Repository Restructuring in AEM](/help/sites-deploying/repository-restructuring.md) while planning an upgrade.
-
 ### Assessing Upgrade Complexity {#assessing-upgrade-complexity}
 
 Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade.

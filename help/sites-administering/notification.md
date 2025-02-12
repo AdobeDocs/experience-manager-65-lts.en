@@ -112,7 +112,7 @@ This is an automatically generated message. Please do not reply.
 
 To customize the English email template for page notification:
 
-1. Create an overlay for [Page notifications](/help/sites-deploying/sites-repository-restructuring-in-aem-6-5.md#page-event-notification-e-mail-template)
+1. Create an overlay for Page notifications
 
 1. Open the file:
 
@@ -176,7 +176,7 @@ This is an automatically generated message. Please do not reply.
 
 To customize the English email template for workflow event notification:
 
-1. Create an overlay for [Workflow notifications](/help/sites-deploying/all-repository-restructuring-in-aem-6-5.md#workflow-notification-email-templates)
+1. Create an overlay for Workflow notifications
 
 1. Open the file:
 
@@ -238,8 +238,8 @@ To add a template for a new language:
 
 1. Create an [overlay](/help/sites-developing/overlays.md) as appropriate.
 
-    * [Page notifications](/help/sites-deploying/sites-repository-restructuring-in-aem-6-5.md#page-event-notification-e-mail-template)
-    * [Workflow notifications](/help/sites-deploying/all-repository-restructuring-in-aem-6-5.md#workflow-notification-email-templates)
+    * Page notifications
+    * Workflow notifications
 
 1. Add a file `<language-code>.txt`.
 1. Adapt the file to the language.

@@ -1476,13 +1476,6 @@ user-guide-title: AEM 6.5
         + [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md)
         + [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md)
         + [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md)
-    + Repository Restructuring {#restructuring}
-        + [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md)
-        + [Common Repository Restructuring in AEM 6.5](/help/sites-deploying/all-repository-restructuring-in-aem-6-5.md)
-        + [Sites Repository Restructuring in AEM 6.5](/help/sites-deploying/sites-repository-restructuring-in-aem-6-5.md)
-        + [Assets Repository Restructuring in AEM 6.5](/help/sites-deploying/assets-repository-restructuring-in-aem-6-5.md)
-        + [Dynamic Media Repository Restructuring in AEM 6.5](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-5.md)
-        + [Forms Repository Restructuring in AEM 6.5](/help/sites-deploying/forms-repository-restructuring-in-aem-6-5.md)
     + Best Practices {#practices}
        + [Deploying Best Practices](/help/sites-deploying/best-practices.md)
        + [Performance Tree](/help/sites-deploying/performance-tree.md)

@@ -14,10 +14,6 @@ role: Admin
 
 ## Overview {#overview}
 
->[!NOTE]
->
->For a list of content and configuration changes that are not under the scope of the Compatibility Package, see [Repository Restructuring in AEM](/help/sites-deploying/repository-restructuring.md).
-
 In Adobe Experience Manager (AEM) 6.5, all features have been developed with backwards compatibility in mind.
 
 Usually, customers running AEM 6.3 should not have to change the code or customizations when doing the upgrade. For AEM 6.1 and 6.2 customers, there are no additional breaking changes than you would be faced with during an upgrade to 6.3.
