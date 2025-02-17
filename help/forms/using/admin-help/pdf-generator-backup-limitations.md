@@ -9,6 +9,9 @@ noindex: true
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # PDF Generator backup limitations {#pdf-generator-backup-limitations}
 
