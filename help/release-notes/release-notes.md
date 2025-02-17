@@ -3,7 +3,15 @@ title: Current Release Notes for Adobe Experience Manager 6.5 2025
 description: These are the current Release Notes for Adobe Experience Manager 6.5 2025.
 ---
 
-# Current Release Notes for Adobe Experience Manager 6.5.2025{#release-notes}
+# Current Release Notes for Adobe Experience Manager 6.5.2025 {#release-notes}
+
+## Release Information {#release-information}
+
+| Product | [!DNL Adobe Experience Manager] |
+|---|---|
+| Version | 6.5.2025 |
+| Type | Major release |
+| General availability date | February 28, 2025 |
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 
