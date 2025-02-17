@@ -147,7 +147,7 @@ Next, you must generate the refresh token, explained in the following steps:
 
    >[!NOTE]
    >
-   > To know more information related to task notifications, [click here](https://experienceleague.adobe.com/docs/experience-manager-65/content/forms/administrator-help/configuring-email-endpoints.html#create-an-email-endpoint-for-the-complete-task-service).
+   > To know more information related to task notifications, [click here](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/forms/administrator-help/configuring-email-endpoints.html#create-an-email-endpoint-for-the-complete-task-service).
  
 ## To configure email endpoint {#configure_email_endpoint}
 
@@ -161,7 +161,7 @@ Next, you must generate the refresh token, explained in the following steps:
 
    >[!NOTE]
    >
-   > To know more information on configuring email endpoints, click [Configure an email endpoint](https://experienceleague.adobe.com/docs/experience-manager-65/content/forms/administrator-help/configuring-email-endpoints.html).
+   > To know more information on configuring email endpoints, click [Configure an email endpoint](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/forms/administrator-help/configuring-email-endpoints.html).
  
 ## Troubleshooting {#troubleshooting}
 

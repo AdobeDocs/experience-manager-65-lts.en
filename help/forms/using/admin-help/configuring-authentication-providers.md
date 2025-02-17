@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Configuring authentication providers {#configuring-authentication-providers}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Hybrid domains require at least one authentication provider, and enterprise domains require at least one authentication provider or directory provider.
 
 If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNEGO enabled and an LDAP provider as a backup. This configuration enables user authentication with a user ID and password if SPNEGO is not working. (See [Enable SSO using SPNEGO](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#enable-sso-using-spnego).)

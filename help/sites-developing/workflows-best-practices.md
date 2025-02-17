@@ -86,10 +86,6 @@ When writing custom workflow processes, there are some things that should be kep
 
 Definitions of workflow models, launchers, scripts and notifications are held in the repository according to type; that is, out-of-the-box, custom, among others.
 
->[!NOTE]
->
->See also [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md).
-
 #### Locations - Workflow Models {#locations-workflow-models}
 
 Workflow models are stored in the repository according to type:
@@ -313,10 +309,6 @@ When upgrading your instance:
 * confirm that none of your custom workflows are stored under the [location](#locations):
 
     * `/libs/settings/workflow/models/projects`
-
->[!NOTE]
->
->See also [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md).
 
 ## System Tools {#system-tools}
 

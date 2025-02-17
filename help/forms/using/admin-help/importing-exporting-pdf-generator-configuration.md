@@ -18,6 +18,10 @@ removedfrom6.5.2025: yes
 ---
 # Importing and exporting PDF Generator configuration files {#importing-and-exporting-pdf-generator-configuration-files}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 The configuration file contains the PDF Generator conversion information, including the PDF, file type, and security settings.
 
 >[!NOTE]

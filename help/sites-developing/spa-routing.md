@@ -17,9 +17,7 @@ role: Developer
 
 For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
 
->[!NOTE]
->
->The SPA Editor is the recommended solution for projects that require SPA framework-based client-side rendering (for example, React or Angular).
+{{ue-over-spa}}
 
 ## Project Routing {#project-routing}
 

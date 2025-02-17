@@ -60,7 +60,8 @@ If your organization contains different sets of users who have different non-bus
 
 >[!NOTE]
 >
->If you do not create a business calendar, then the default calendar is used.
+>* If you do not create a business calendar, then the default calendar is used.
+>* Ensure that the user has admin privileges to access the administrator console.
 
 1. In administration console, click Services &gt; Forms workflow &gt; Business Calendars.
 1. To add a new business calendar, click ![bus_cal_plus](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.

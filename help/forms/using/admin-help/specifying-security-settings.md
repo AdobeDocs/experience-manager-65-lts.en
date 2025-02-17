@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Specifying security settings {#specifying-security-settings}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Forms enables you to control whether external entities in XML inputs are resolved. By default, they are resolved, but you can change this behavior to increase the security of your AEM forms system.
 
 **Prevent the processing of XML data files that contain references to external entities**

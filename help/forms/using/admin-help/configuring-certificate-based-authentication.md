@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
 
 To use certificate-based authentication, import a Certificate Authority (CA) certificate that you trust into the Trust Store and then create a certificate mapping.

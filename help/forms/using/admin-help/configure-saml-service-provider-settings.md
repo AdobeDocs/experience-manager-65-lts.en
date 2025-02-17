@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Configure SAML service provider settings{#configure-saml-service-provider-settings}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Security Assertion Markup Language (SAML) is one of the options that you can select when configuring authorization for an enterprise or hybrid domain. SAML is primarily used to support SSO across multiple domains. When SAML is configured as your authentication provider, users log in and authenticate to AEM forms via a specified third-party identity provider (IDP).
 
 For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 Technical Overview](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html).

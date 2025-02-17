@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Configuring caching for Output  {#configuring-caching-for-output}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 The Output service merges XML form data with a form design created in Designer to create a document output stream in various formats.
 
 The Output page in administration console contains settings that control the way the Output service caches items. You can adjust these settings to optimize the performance of the Output service.

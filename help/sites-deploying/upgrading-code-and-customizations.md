@@ -81,13 +81,7 @@ The following tools are available for analyzing and inspecting query performance
 
 ### Classic UI Authoring {#classic-ui-authoring}
 
-Classic UI authoring is still available in AEM 6.5 but is being deprecated. See [Deprecated and removed features](/help/release-notes/deprecated-removed-features.md#pre-announcement-for-next-release) for more information. If your application is running on the Classic UI author environment, it is recommended to upgrade to AEM 6.5 and continue using the Classic UI. Migration to the Touch UI can then be planned as a separate project to complete over several development cycles. To use the Classic UI in AEM 6.5, several OSGi configurations must be committed to the code base. More details on how to do the configuration can be found under [Enabling Access to Classic UI](/help/sites-administering/enable-classic-ui.md).
-
-## Align with 6.5 Repository Structure {#align-repository-structure}
-
-To make upgrades easier and ensure that configurations are not overwritten during an upgrade, the repository is restructured in 6.4 to separate content from configuration.
-
-Therefore, several settings must be moved to no longer reside under `/etc` as had been the case in the past. To review the full set of repository restructuring concerns that must be reviewed and accommodated in the updated to AEM 6.4, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
+Classic UI authoring is still available in AEM 6.5 but is being deprecated. If your application is running on the Classic UI author environment, it is recommended to upgrade to AEM 6.5 and continue using the Classic UI. Migration to the Touch UI can then be planned as a separate project to complete over several development cycles. To use the Classic UI in AEM 6.5, several OSGi configurations must be committed to the code base. More details on how to do the configuration can be found under [Enabling Access to Classic UI](/help/sites-administering/enable-classic-ui.md).
 
 ## AEM Customizations  {#aem-customizations}
 

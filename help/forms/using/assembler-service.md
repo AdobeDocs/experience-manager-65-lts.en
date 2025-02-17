@@ -1,10 +1,6 @@
 ---
 title: Using Assembler Service
 description: The Assembler service lets you combine, rearrange, and augment PDF and XDP documents and obtain information about PDF documents.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: document_services
-docset: aem65
 feature: Document Services
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
@@ -197,6 +193,22 @@ fragment="myFragment"/>
 </DDX>
 ```
 
+#### Resolve references on CRX repository {#resolve-references-on-crx-repository}
+
+You can selectively specify the source reference that you want to resolve by giving the crx path of the
+fragment reference in the XDP source. In the example given below, the fragments included are also
+resolved.
+
+```xml
+<DDX xmlns="http://ns.adobe.com/DDX/1.0/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://ns.adobe.com/DDX/1.0/ coldfusion_ddx.xsd">
+<XDP result="stitched.xdp">
+<XDP source="crx:///content/dam/formsanddocuments/test-xdp/sample.xdp" />
+</XDP>
+</DDX>
+```
+
 #### Selectively resolve absolute or relative references {#selectively-resolve-absolute-or-relative-references}
 
 You can selectively resolve absolute or relative references in all or some of the source documents, as shown in the example below:
@@ -338,4 +350,4 @@ digitalSignatures="true"/>
 </DDX>
 ```
 
-Using DDX and the Assembler service to call other LiveC ycle services can simplify your process diagram. It can even reduce the effort you spend customizing your workflows. (See also
+Using DDX and the Assembler service to call other LiveC ycle services can simplify your process diagram. It can even reduce the effort you spend customizing your workflows. (See also)

@@ -1,10 +1,6 @@
 ---
 title: Setting timeout values for use with Acrobat Reader DC Extensions
 description: Learn how to set timeout values for use with Acrobat Reader DC Extensions.
-contentOwner: admin
-content-type: reference
-geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -13,6 +9,10 @@ hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---
 # Setting timeout values for use with Acrobat Reader DC Extensions  {#setting-timeout-values-for-use-with-acrobat-reader-dc-extensions}
+
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
 
 When working on many PDF files in Acrobat Reader DC Extensions, ensure that the following time-out values are set appropriately to prevent jobs from timing out and failing:
 

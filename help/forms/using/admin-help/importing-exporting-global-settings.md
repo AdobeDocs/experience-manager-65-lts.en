@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Importing and exporting global settings {#importing-and-exporting-global-settings}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 You can import and export search template definitions and global settings for Workspace.
 
 >[!NOTE]

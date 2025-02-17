@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Searching for process instances{#searching-for-process-instances}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Use the Process Search page to enter search criteria for finding a process instance. You can access the Process Search page from the forms workflow page or by clicking Search on the Process Instance page.
 
 You can enter basic criteria to perform a general search, specific attributes to perform a detailed search, or a combination of basic criteria and specific attributes to perform a combined search.

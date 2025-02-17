@@ -12,6 +12,10 @@ removedfrom6.5.2025: yes
 ---
 # Adding and configuring users {#adding-and-configuring-users}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 User and group information is maintained in a third-party storage system, such as an LDAP directory. User Management does not write to the third-party storage system. Instead, User Management synchronizes the user and group information with its own database
 
 ## Create a user {#create-a-user}
@@ -168,4 +172,4 @@ If a user without the required AEM forms and CQ permissions, attempts to log int
 
 CQ provides a mechanism to override the default 404 handler jsp.
 
-For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/customizing-errorhandler-pages.html?lang=en) in the Adobe Experience Manager documentation.
+For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/platform/customizing-errorhandler-pages.html?lang=en) in the Adobe Experience Manager documentation.

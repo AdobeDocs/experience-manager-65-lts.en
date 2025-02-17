@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Update the license type for the deployment {#update-the-license-type-for-the-deployment}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 As part of the AEM forms installation process, you used Configuration Manager to configure and deploy the AEM forms modules that you require. By default, those modules are configured with a 60-day evaluation license. Use the Change License page in administration console to change the license type for the deployment. The currently deployed modules are displayed on the Change License page.
 
 The Change License page displays information about your license:

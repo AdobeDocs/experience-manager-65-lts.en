@@ -25,16 +25,11 @@ This section covers upgrading an AEM installation to AEM 6.5:
 * [Post Upgrade Checks and Troubleshooting](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md)
 * [Sustainable Upgrades](/help/sites-deploying/sustainable-upgrades.md)
 * [Lazy Content Migration](/help/sites-deploying/lazy-content-migration.md)
-* [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md)
 
 For easier reference to the AEM instances involved in these procedures, the following terms are used throughout these articles:
 
 * The *source* instance is the AEM instance that you are upgrading from.
 * The *target* instance is the one that you are upgrading to.
-
->[!NOTE]
->
->As part of the efforts to improve the reliability of upgrades, AEM has undergone a comprehensive repository restructuring. For more information on how to align with the new structure, see [Repository Restructuring in AEM.](/help/sites-deploying/repository-restructuring.md)
 
 ## What Has Changed? {#what-has-changed}
 

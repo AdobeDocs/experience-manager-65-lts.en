@@ -16,6 +16,10 @@ removedfrom6.5.2025: yes
 ---
 # Converting files using PDF Generator{#converting-files-using-pdf-generator}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 You can use the PDF Generator web pages to convert files.
 
 ## Create a PDF file {#create-a-pdf-file}

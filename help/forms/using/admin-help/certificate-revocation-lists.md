@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Managing certificate revocation lists{#managing-certificate-revocationlists}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Using Trust Store Management, you can import, edit, and delete certificate revocation lists (CRLs). Base64 and DER-encoded certificate revocation lists are supported.
 
 ## Import a CRL {#import-a-crl}

@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Configure the document security server {#configure-the-document-security-server}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 1. In administration console, click Services &gt; document security &gt; Configuration &gt; Server Configuration.
 1. Configure the settings and click OK.
 

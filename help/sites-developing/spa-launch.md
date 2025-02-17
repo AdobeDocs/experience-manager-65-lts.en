@@ -14,9 +14,7 @@ role: Developer
 
 Adobe Experience Platform Launch is the recommended way to implement Analytics, Target, and Audience Manager within Single Page Applications (SPAs).
 
->[!NOTE]
->
->The SPA Editor is the recommended solution for projects that require SPA framework-based client-side rendering (for example, React or Angular).
+{{ue-over-spa}}
 
 ## Tutorial {#tutorial}
 

@@ -19,11 +19,6 @@ Translation rules are expressed in XML format and stored in these possible locat
 * `/conf/global/settings/translation/rules/translation_rules.xml`
 
 The file applies to all translation projects.
-
->[!NOTE]
->
->After an upgrade to 6.4, it is recommended to move the file from /etc. See [Common Repository Restructuring in AEM 6.5](/help/sites-deploying/all-repository-restructuring-in-aem-6-5.md#translation-rules) for more details.
-
 Rules include the following information:
 
 * The path of the node to which the rule applies. The rule also applies to the descendants of the node.

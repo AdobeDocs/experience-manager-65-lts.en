@@ -297,7 +297,7 @@ css.newLoginContentArea {
 1. Add new images in `/apps/livecycle/core/content/login`. To add image:
 
    1. Install WebDAV client.
-   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/webdav-access.html?lang=en).
+   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/webdav-access.html?lang=en).
 
    1. Add new images.
 

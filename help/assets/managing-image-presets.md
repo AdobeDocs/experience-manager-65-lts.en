@@ -397,7 +397,7 @@ When you create or edit image presets, you have the options described in this se
     </ul>
     <div>
       Sharpening is described in
-     <a href="https://experienceleague.adobe.com/docs/experience-manager-65/assets/sharpening_images.pdf">Sharpening Images</a>.
+     <a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/assets/sharpening_images.pdf">Sharpening Images</a>.
     </div> </td>
   </tr>
   <tr>

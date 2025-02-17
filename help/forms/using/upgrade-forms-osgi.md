@@ -76,7 +76,7 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
        1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
        1. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
     1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
-    1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+    1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
     1. Select the package and click **[!UICONTROL Install]**.
 
        You can also download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
@@ -137,7 +137,3 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
       * `https://'[server]:[port]'/crx/packmgr`
       * `https://'[server]:[port]'/crx/de`
       * `https://'[server]:[port]'/aem/forms.html/content/dam/formsanddocuments`
-
-   >[!NOTE]
-   >
-   >In AEM 6.4 Forms, the structure of crx-repository has changed. If upgrade from 6.3 Forms to AEM 6.5 Forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM](/help/sites-deploying/forms-repository-restructuring-in-aem-6-5.md).

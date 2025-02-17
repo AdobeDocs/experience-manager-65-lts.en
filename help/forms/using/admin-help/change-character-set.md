@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Change the character set {#change-the-character-set}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 You can specify the character set used to encode the output stream.
 
 1. In administration console, click **[!UICONTROL Services > output]**.

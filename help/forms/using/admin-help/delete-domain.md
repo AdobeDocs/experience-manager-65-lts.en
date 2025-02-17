@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Delete a domain {#delete-a-domain}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 Use the Domain Management page to mark an existing domain as obsolete.
 
 If you create a domain with the same name as a deleted domain, the deleted domain is reinstated along with the information that it contained. The DefaultDom domain cannot be deleted.

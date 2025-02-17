@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Setting the message of the day {#setting-the-message-of-the-day}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 You can set a message to be displayed on the Welcome page in the Workspace user interface.
 
 If necessary, you can use the HTML tags supported by Adobe Flash® Player to format the appearance of the text:

@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Enabling and disabling safe backup mode {#enabling-and-disabling-safe-backup-mode}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory.
 
 While AEM forms is in safe backup mode, it operates normally, except that it does not actively remove files from the GDS directory.

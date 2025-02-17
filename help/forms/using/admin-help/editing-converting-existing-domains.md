@@ -14,6 +14,10 @@ removedfrom6.5.2025: yes
 ---
 # Editing and converting existing domains{#editing-and-converting-existing-domains}
 
+>[!NOTE]
+> 
+> Ensure that the user has admin privileges to access the administrator console.
+
 You can change the settings for existing domains from the Domain Management page. You can also convert an existing enterprise domain to a hybrid domain.
 
 ## Edit an existing domain {#edit-an-existing-domain}
