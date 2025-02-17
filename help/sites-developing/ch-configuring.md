@@ -34,14 +34,6 @@ or
 
 * Use CRXDE Lite to set the property `disabled` to **true** under `/libs/settings/cloudsettings/legacy/contexthub`
 
->[!NOTE]
->
->[Due to repository restructuring in AEM 6.4,](/help/sites-deploying/repository-restructuring.md) the location of ContextHub configurations changed from `/etc/cloudsettings` to:
->
->* `/libs/settings/cloudsettings`
->* `/conf/global/settings/cloudsettings`
->* `/conf/<tenant>/settings/cloudsettings`
-
 ## Showing and Hiding the ContextHub UI {#showing-and-hiding-the-contexthub-ui}
 
 Configure the Adobe Granite ContextHub OSGi service to show or hide the [ContextHub UI](/help/sites-authoring/ch-previewing.md) on your pages. The PID of this service is `com.adobe.granite.contexthub.impl.ContextHubImpl.`
