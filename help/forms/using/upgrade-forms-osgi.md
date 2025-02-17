@@ -12,8 +12,6 @@ You can perform a direct upgrade from AEM 6.5.17.0 Forms, AEM 6.5.18.0 Forms, AE
 
 
 
-
-
 Direct upgrade path from AEM 6.0 Forms, AEM 6.1 Forms, and AEM 6.2 Forms to AEM 6.5 Forms is not available. Perform an intermediate upgrade to AEM 6.2 Forms, upgrade to AEM 6.3 Forms, or upgrade to AEM 6.4 Forms and then upgrade from AEM 6.3 Forms, or AEM 6.4 Forms to AEM 6.5 Forms. Learn more about the [Previous Upgrades](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/upgrade-aem-forms/upgrade).
 
 
@@ -76,7 +74,7 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
        1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
        1. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
     1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
-    1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+    1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
     1. Select the package and click **[!UICONTROL Install]**.
 
        You can also download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
@@ -137,3 +135,7 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
       * `https://'[server]:[port]'/crx/packmgr`
       * `https://'[server]:[port]'/crx/de`
       * `https://'[server]:[port]'/aem/forms.html/content/dam/formsanddocuments`
+
+   >[!NOTE]
+   >
+   >In AEM 6.4 Forms, the structure of crx-repository has changed. If upgrade from 6.3 Forms to AEM 6.5 Forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM](/help/sites-deploying/forms-repository-restructuring-in-aem-6-5.md).

@@ -10,6 +10,9 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,Document Services,APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Rendering Forms as HTML {#rendering-forms-as-html} 
 

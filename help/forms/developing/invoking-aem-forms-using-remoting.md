@@ -8,6 +8,9 @@ topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,Workbench
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Invoking AEM Forms using Remoting {#invoking-aem-forms-using-remoting} 
 

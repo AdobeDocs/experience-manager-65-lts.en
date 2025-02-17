@@ -11,6 +11,9 @@ topic-tags: coding, development-tools
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Service container {#service-container} 
 

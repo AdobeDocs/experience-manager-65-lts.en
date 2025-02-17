@@ -4,6 +4,9 @@ description: Learn how to fix the error when you are unable to retrieve Email wi
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Unable to get Email with Attachments for AEM Forms on JEE Platforms{#unable-to-get-email-with-attachments}
 

@@ -7,6 +7,9 @@ docset: aem65
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Unable to use Output service, Forms service, or Document of Record (DoR) service {#unable-to-use-output-service-forms-service-or-document-of-record-service}
 

@@ -13,7 +13,10 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,Workbench,APIs & Integrations
+feature: Adaptive Forms, Workbench, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Creating Web Applications that Renders Forms {#creating-web-applications-thatrenders-forms} 
 

@@ -10,6 +10,9 @@ topic-tags: develop, development-tools
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Introducing Java&trade; API Quick Start {#introducing-java-api-quickstart} 
 

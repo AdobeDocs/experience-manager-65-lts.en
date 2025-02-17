@@ -12,8 +12,10 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,APIs & Integrations
----
+feature: Adaptive Forms, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 # Working with AEM Forms Repository {#working-with-aem-forms-repository} 
 
 **Samples and examples in this document are only for AEM Forms on JEE environment.**

@@ -9,6 +9,9 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Output Service Java API Quick Start (SOAP) {#output-service-java-api-quick-start-soap}
 

@@ -11,7 +11,10 @@ topic-tags: operations
 
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,Reader Extensions
+feature: Adaptive Forms,Document Services, Reader Extensions
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assigning Usage Rights {#assigning-usage-rights} 
 

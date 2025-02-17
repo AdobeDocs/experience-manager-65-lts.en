@@ -13,7 +13,10 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,Document Services,APIs & Integrations
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service} 
 

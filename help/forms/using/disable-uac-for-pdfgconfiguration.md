@@ -4,6 +4,9 @@ description: Learn the steps on how you can disable UAC for PDFG Configuration t
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Unable to convert Word or Excel file to PDF on Windows Server {#unable-to-convert-word-excel-files-PDF}
 

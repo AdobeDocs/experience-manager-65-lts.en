@@ -13,6 +13,9 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Programmatically managing the Preferences Nodes {#programmatically-managing-the-preferencesnodes} 
 

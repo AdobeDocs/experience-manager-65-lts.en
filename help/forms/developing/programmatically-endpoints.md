@@ -9,6 +9,9 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Programmatically Managing Endpoints {#programmatically-managing-endpoints} 
 

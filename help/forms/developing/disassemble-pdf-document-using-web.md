@@ -12,7 +12,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,Document Services,APIs & Integrations
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api} 
 

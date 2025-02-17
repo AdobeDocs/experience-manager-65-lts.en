@@ -12,7 +12,10 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,Document Services,APIs & Integrations
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with PDF/A Documents {#working-with-pdf-a-documents}
 

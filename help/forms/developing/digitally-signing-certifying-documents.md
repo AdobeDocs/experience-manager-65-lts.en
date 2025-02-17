@@ -9,6 +9,9 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 
 feature: Adaptive Forms,Document Services,APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Digitally Signing and Certifying Documents {#digitally-signing-and-certifying-documents} 
 

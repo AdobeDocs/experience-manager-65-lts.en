@@ -12,7 +12,10 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 
-feature: Adaptive Forms,APIs & Integrations,Barcoded Forms
+feature: Adaptive Forms, APIs & Integrations, Barcoded Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with barcoded forms {#working-with-barcoded-forms} 
 
