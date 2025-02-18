@@ -1,11 +1,6 @@
 ---
 title: Landing Pages
 description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page. A web developer can prepare the HTML and additional assets that can be imported as a full page or only a part of a page.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: personalization
-content-type: reference
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
@@ -25,7 +20,7 @@ Preparing the design package for importing is covered in [Extending and Configur
 
 >[!CAUTION]
 >
->The Design Importer, used to import landing pages, [has been deprecated with AEM 6.5](/help/release-notes/deprecated-removed-features.md#deprecated-features).
+>The Design Importer, used to import landing pages, has been deprecated with AEM 6.5.
 
 >[!CAUTION]
 >
