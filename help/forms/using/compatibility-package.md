@@ -1,16 +1,6 @@
 ---
 title: Compatibility Package
-
-description: Installing the Compatibility package on AEM Forms 6.5 lets you use the Correspondence Management assets from AEM Forms 6.4 and earlier versions and deprecated adaptive forms templates and pages
-
-
-contentOwner: gtalwar
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: correspondence-management, installing
-geptopics: SG_AEMFORMS/categories/jee
-
-docset: aem65
-
+description: Installing the Compatibility package on AEM Forms 6.5.2025 lets you use the Correspondence Management assets from AEM Forms 6.5 and earlier versions and deprecated adaptive forms templates and pages
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
@@ -19,9 +9,9 @@ feature: Adaptive Forms
 
 ## Overview {#overview}
 
-Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.5. To continue using letters in AEM Forms 6.5, you need to install the latest [AEMFD Compatibility package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html).
+Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.5.2025. To continue using letters in AEM Forms 6.5.2025, you need to install the latest [AEMFD Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases).
 
-The AEMFD Compatibility package also lets you [use the following assets from AEM Forms 6.4, 6.3 and 6.2 on AEM Forms 6.5:](../../forms/using/compatibility-package.md#add-support-for-aem-forms-and-assets-in-aem-forms)
+The AEMFD Compatibility package also lets you [use the following assets from AEM Forms 6.5, 6.4, 6.3 and 6.2 on AEM Forms 6.5.2025](../../forms/using/compatibility-package.md#add-support-for-aem-forms-and-assets-in-aem-forms)
 
 * Document fragments
 * Letters
@@ -30,28 +20,28 @@ The AEMFD Compatibility package also lets you [use the following assets from AEM
 
 For more information, see [Assets made compatible with AEM Forms 6.5 by installing the Compatibility package](../../forms/using/compatibility-package.md#assetsmadecompatible).
 
-## Add support for AEM Forms 6.4, 6.3 and 6.2 assets in AEM Forms 6.5 {#add-support-for-aem-forms-and-assets-in-aem-forms}
+## Add support for AEM Forms 6.5, 6.4, 6.3 and 6.2 assets in AEM Forms 6.5.2025 {#add-support-for-aem-forms-and-assets-in-aem-forms-6.5.2025}
 
 After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.5:
 
-Ensure that you have [AEM Compatibility package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) pre-installed.
+Ensure that you have [AEM Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) pre-installed.
 
-1. Install the latest 6.5 [Compatibility package](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html).
+1. Install the latest 6.5.2025 [Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases).
 
    For more information on uploading and installing the package, see [How to work with packages](/help/sites-administering/package-manager.md).
 
 1. After the logs are stabilized, restart the server.
-1. Use the migration utility for making your assets compatible with 6.5.
+1. Use the migration utility for making your assets compatible with 6.5.2025.
 
     >[!NOTE]
     >
-    > It is recommended to use the 'Ctrl + C' command to restart the SDK. Restarting the AEM SDK using alternative methods, for example, stopping Java processes, may lead to inconsistencies in the AEM development environment.
+    > It is recommended to use the `Ctrl + C` command to restart the SDK. Restarting the AEM SDK using alternative methods, for example, stopping Java processes, may lead to inconsistencies in the AEM development environment.
 
    For more information, see [migration utility](../../forms/using/migration-utility.md).
 
-## Assets made compatible with AEM Forms 6.5 by installing the Compatibility package {#assetsmadecompatible}
+## Assets made compatible with AEM Forms 6.5.2025 by installing the Compatibility package {#assetsmadecompatible}
 
-By installing the Compatibility package, you can make the following assets and templates compatible with AEM Forms 6.5:
+By installing the Compatibility package, you can make the following assets and templates compatible with AEM Forms 6.5.2025:
 
 * Correspondence Management Assets from AEM 6.4 and earlier:
 

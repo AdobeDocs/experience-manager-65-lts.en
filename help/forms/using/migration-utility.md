@@ -13,7 +13,7 @@ feature: Adaptive Forms
 ---
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
 
-The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in Adobe Experience Manager (AEM) 6.5 Forms. When you run the migration utility, the following are migrated:
+The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in Adobe Experience Manager (AEM) 6.5.2025 Forms. When you run the migration utility, the following are migrated:
 
 * Custom components for adaptive forms
 * Adaptive forms and correspondence management Templates
@@ -26,11 +26,11 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.5 from AEM Forms 6.4, 6.3, or 6.2, or a new installation. Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
+You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.5.2025 from AEM Forms 6.5, 6.4, 6.3, or 6.2, or a new installation. Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
 
 **If there is an in-place upgrade**
 
-If you performed an in-place upgrade, the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you must install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en) (includes Correspondence Management Compatibility package)
+If you performed an [in-place upgrade](/help/sites-deploying/in-place-upgrade.md), the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you must install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en) (includes Correspondence Management Compatibility package).
 
 Then you must update the assets and documents by [running the Migration utility](#runningmigrationutility).
 
@@ -55,7 +55,7 @@ For Correspondence Management assets:
 * The Ready to Publish state is deprecated since AEM 6.1 Forms, so all the assets in the Ready to Publish state is changed to Modified state.
 * Since the user interface is updated in AEM Forms 6.3, the steps to perform the customizations are also different. Redo the customization if you are migrating from a version before 6.3.
 * Layout Fragments move from `/content/apps/cm/layouts/fragmentlayouts/1001` to `/content/apps/cm/modules/fragmentlayouts`. Data Dictionary reference in assets displays the path of the Data Dictionary instead of its name.
-* Any tab spaces being used for alignment in text modules must be readjusted. For more information, see [Correspondence Management - Using tab spacing for arranging text](https://helpx.adobe.com/aem-forms/kb/cm-tab-spacing-limitations.html).
+* Any tab spaces being used for alignment in text modules must be readjusted. <!--For more information, see [Correspondence Management - Using tab spacing for arranging text](https://helpx.adobe.com/aem-forms/kb/cm-tab-spacing-limitations.html)-->.
 * Asset composer configurations changes to Correspondence Management configurations.
 * Assets are moved under folders with names such as Existing Text and Existing List.
 

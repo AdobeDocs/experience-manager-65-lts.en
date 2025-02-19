@@ -452,7 +452,7 @@ user-guide-title: AEM 6.5
   + Upgrade AEM Forms {#upgrade-aem-forms}
     + [Available upgrade paths](/help/forms/using/upgrade.md)
     + Upgrade AEM Forms on OSGi {#aem-forms-osgi-upgrade}
-      + [Upgrade to AEM 6.5 forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
+      + [Upgrade to AEM 6.5.2025 forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
     + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)

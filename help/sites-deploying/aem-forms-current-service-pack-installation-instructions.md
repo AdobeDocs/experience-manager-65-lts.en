@@ -4,32 +4,35 @@ description: AEM Forms service pack installation instructions for OSGi and JEE e
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
+exl-id: ae4c7e9d-9af8-4288-a6f9-e3bcbe7d153d
 ---
-# AEM 6.6 Forms Service Pack installation instructions {#aem-form-patch-installation-instructions}
+# AEM 6.5 Forms Service Pack installation instructions {#aem-form-patch-installation-instructions}
 
 ## Release information
 
-| Product   | Adobe Experience Manager 6.6 Forms  |
+| Product   | Adobe Experience Manager 6.5 Forms  |
 |---|---|
-| Version  |  6.5.2025|
+| Version  |  6.5.22.0|
 | Type  |  Service Pack release |
-| Date  |  28 Feb 2025 |
+| Date  |  29 November 2024 |
 | Download URL | [Latest AEM Forms Releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) |
 
 >[!NOTE]
 >
->See the latest [AEM Service Pack Release Notes](/help/release-notes/release-notes.md) for a complete list of the latest features.
+>See the latest [AEM Service Pack Release Notes](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/release-notes.html) for a complete list of fixed issues.
 
-## What is included in Experience Manager Forms 6.6
+## What is included in Experience Manager Forms 6.5
 
-Adobe Experience Manager (AEM) Forms service pack 6.5.2025 includes new and upgraded features, such as performance, stability, and security improvements. AEM Forms release service packs at a regular interval to provide latest features and improvements. Depending on your technology stack, choose one of the following paths to download and install service pack on your environment: 
+<span class="preview"> These instructions for downloading and installing the current service pack apply up to AEM Forms Service Pack 22. To upgrade to AEM Forms Service Pack 6.5.2025, refer to [Upgrade to AEM Forms 6.5.2025 on OSGi](/help/forms/using/upgrade-to-forms-6.5.2025.md). </span>
+
+Adobe Experience Manager (AEM) Forms service pack includes new and upgraded features, such as key customer-requested enhancements, performance, stability, and security improvements. AEM Forms release service packs at a regular interval to provide latest features and improvements. Depending on your technology stack, choose one of the following paths to download and install service pack on your environment: 
 
 * [Download and install Service Pack on an AEM Form on JEE environment](#download-and-install-for-jee-service-pack) 
 * [Download and install Service Pack on an AEM Form on OSGi environment](#download-and-install-for-osgi-service-pack) 
 
 >[!NOTE]
 >
-> * Adobe releases a full installer every sixth service pack. AEM 6.6 Forms Service Pack is the latest JEE full installer. The full installer supports new platforms while the regular service pack installer includes new features, bug fixed and general improvements. If you are performing a fresh installation or planning to use latest software for your AEM 6.5 Forms on JEE environment, Adobe recommends using AEM 6.5.18.0 Forms on JEE full installer released on 31 August 2023 instead of AEM 6.5 Forms installer released on 08 April 2019 or AEM 6.5.12.0 Forms Installer released on 03 March 2022. After using the full installer, install the latest service pack.
+> * Adobe releases a full installer every sixth service pack. AEM 6.5 Forms Service Pack 18 (6.5.18.0) is the latest JEE full installer. The full installer supports new platforms while the regular service pack installer includes new features, bug fixed and general improvements. If you are performing a fresh installation or planning to use latest software for your AEM 6.5 Forms on JEE environment, Adobe recommends using AEM 6.5.18.0 Forms on JEE full installer released on 31 August 2023 instead of AEM 6.5 Forms installer released on 08 April 2019 or AEM 6.5.12.0 Forms Installer released on 03 March 2022. After using the full installer, install the latest service pack.
 > * The AEM Forms feature, such as Adaptive Forms, available in [AEM 6.5 QuickStart](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html), are intended for exploration and evaluation purposes only. For production use, it is essential to obtain a valid license for AEM Forms. 
 
 <!--
@@ -272,36 +275,3 @@ From AEM Service Pack 6.5.19.0 and onwards, XMLFM (XML output) will be available
 * Check the monitor logs (error.log) once the installation is complete for any activity. Wait for few minutes until there is no activity in the logs. Restart the AEM instance.
 
 * In case you get a **service-unavailable error** after installing the AEM Forms 6.5.15.0 or later service pack, [install the servlet fragment and bundle](/help/forms/using/aem-service-pack-installation-solution.md) to fix the error.
-
-
-
-
-
-UPGRADE
-For an existing customer, we could say its an upgrade and the customer will follow the steps shared below.
-Download 6.5 QS image
-Download SP21
-Start AEM 6.5
-Install with SP21 using http://localhost:4502/crx/packmgr/index.js
-Stop AEM
-Remove crx-quickstart/conf/sling.properties
-Replace AEM 6.5 jar file with AEM 6.6 LTS image
-Change JAVA version from java 8/11 to java 17
-[OPTIONAL STEP]: Do out-of-band indexing in case of large repository
-
-^^^Will be done by AEM
-We will add
-install forms add-on
-
-
-INSTALLATION
-Note: Customers on any SP have to follow the same steps.
-For a new customer having no AEM licensing, we must guide them to follow the steps:
-Change JAVA version from java 8/11 to java 17
-Install AEM 6.6 LTS image or quick-start
-Install the Add-On
-[OPTIONAL STEP]: Do out-of-band indexing in case of large repository
-Basically we have only two things for 6.5 2025 - quickstart and add-on, and the next releases would come up with the patch updates.
-
-
-https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/upgrade-offline-reindexing
