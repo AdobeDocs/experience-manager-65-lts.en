@@ -91,6 +91,7 @@ The feature pack installs a number of new packages for which additional configur
    * In the **Sling:resourceTypes which shall be opened by Universal Editor** field, provide a list of resources which are opened directly by the Universal Editor.
 1. Click **Save**.
 1. Check your [externalizer configuration](/help/sites-developing/externalizer.md) and ensure at a minimum you have the local, author, and publish environments set as in the following example.
+
    ```text
    "local $[env:AEM_EXTERNALIZER_LOCAL;default=http://localhost:4502]",
    "author $[env:AEM_EXTERNALIZER_AUTHOR;default=http://localhost:4502]",
