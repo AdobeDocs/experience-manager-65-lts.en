@@ -676,7 +676,7 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 **Linux&reg;**
 
-* Install the [supported version](/help/sites-deploying/technical-requirements#requirements-for-aem-forms-designer-requirements-for-aem-forms-designer) of OpenOffice. AEM Forms supports both 32-bit and 64-bit versions. After installing, open all the OpenOffice applications, cancel all the dialog windows, and close the applications. Reopen the applications and ensure that no dialog box is displayed on opening an OpenOffice application.
+* Install the [supported version](/help/sites-deploying/technical-requirements) of OpenOffice. AEM Forms supports both 32-bit and 64-bit versions. After installing, open all the OpenOffice applications, cancel all the dialog windows, and close the applications. Reopen the applications and ensure that no dialog box is displayed on opening an OpenOffice application.
 
 * Create an environment variable `OpenOffice_PATH` and set it to point it to OpenOffice installation is set in the [console](https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/) or the dt (Device Tree) profile.  
 * If there are issues in installing OpenOffice, ensure that [32-bit libraries](#extrarequirements) required for OpenOffice installation are available.
