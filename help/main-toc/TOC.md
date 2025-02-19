@@ -10,7 +10,6 @@ user-guide-title: AEM 6.5
 # Adobe Experience Manager 6.5 Documentation {#content}
 
 + Release Notes {#release-notes}
-  + [Release notes](/help/release-notes/release-notes.md)
   + [Deprecated and removed features](/help/release-notes/deprecated-removed-features.md)
 + Security {#security}
   + [User Administration and Security](/help/sites-administering/security.md)
@@ -440,6 +439,7 @@ user-guide-title: AEM 6.5
       + [Install and Configure Forms-centric workflow on OSGi](/help/forms/using/installing-configuring-forms-centric-workflow-on-osgi.md)
       + [Install and configure Interactive Communications](/help/forms/using/installing-configuring-intreactive-communication-correspondence-management.md)
       + [Install and configure Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html)
+    + [Install and configure Designer](/help/forms/using/installing-configuring-designer.md)
     + Configure AEM Forms {#configure-aem-forms}
       + [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md)
       + [Configure adaptive forms cache](/help/forms/using/configure-adaptive-forms-cache.md)
