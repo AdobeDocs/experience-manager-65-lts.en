@@ -8,11 +8,11 @@ feature: Adaptive Forms, AEM Forms on OSGi, AEM Forms Upgrade
 ---
 # Upgrade to AEM 6.5.2025 Forms on OSGi {#upgrade-to-aem-forms-osgi}
 
-Once you have upgraded to AEM 6.5 Forms, you can directly upgrade from versions AEM 6.5.17.0, AEM 6.5.18.0, AEM 6.5.19.0, AEM 6.5.20.0, AEM 6.5.21.0, and AEM 6.5.22.0 to AEM 6.5.2025 Forms.
+After [upgrading from AEM 6.5 to AEM 6.5.2025](/help/sites-deploying/upgrade.md), you can upgrade your AEM 6.5 Forms version. A direct upgrade is supported from AEM 6.5.17.0, AEM 6.5.18.0, AEM 6.5.19.0, AEM 6.5.20.0, AEM 6.5.21.0, and AEM 6.5.22.0 to AEM 6.5.2025 Forms.  
 
-However, a direct upgrade path is not available from AEM 6.0 Forms, AEM 6.1 Forms, or AEM 6.2 Forms to AEM 6.5 Forms. To upgrade, you must first upgrade to AEM 6.2 Forms, then proceed to AEM 6.3 Forms or AEM 6.4 Forms before finally upgrading to AEM 6.5 Forms. For more details, refer to the [Previous Upgrades](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/upgrade-aem-forms/upgrade) documentation.
+However, if you are using AEM 6.0 Forms, AEM 6.1 Forms, or AEM 6.2 Forms, a direct upgrade to AEM 6.5 Forms is not available. You must first upgrade to AEM 6.2 Forms, then proceed to AEM 6.3 Forms or AEM 6.4 Forms before upgrading to AEM 6.5 Forms. For detailed upgrade steps, refer to the [Previous Upgrades](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/upgrade-aem-forms/upgrade) documentation.  
 
-Once you have upgraded to any of the six last service packs, do the following to upgrade from AEM (6.5.17.0 - 6.5.22.0) Forms to AEM 6.5.2025 Forms:
+After upgrading to any of the supported service packs (AEM Forms 6.5.17.0 - 6.5.22.0), follow these steps to upgrade to AEM 6.5.2025 Forms:
 
 1. Install AEM Forms add-on package. The steps are listed below:
 
