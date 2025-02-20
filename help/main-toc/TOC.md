@@ -12,7 +12,6 @@ user-guide-title: AEM 6.5
 
 + Release Notes {#release-notes}
   + [Release notes](/help/release-notes/release-notes.md)
-  + [Deprecated and removed features](/help/release-notes/deprecated-removed-features.md)
 + Security {#security}
   + [User Administration and Security](/help/sites-administering/security.md)
   + [User, Group and Access Rights Administration](/help/sites-administering/user-group-ac-admin.md)

@@ -34,7 +34,7 @@ Here are the logical steps to make design importer recognize your custom compone
 
 >[!CAUTION]
 >
->The Design Importer, used to import landing pages, [has been deprecated with AEM 6.5](/help/release-notes/deprecated-removed-features.md#deprecated-features).
+>The Design Importer, used to import landing pages, has been deprecated with AEM 6.5.
 
 ## Preparing the HTML for Import {#preparing-the-html-for-import}
 
