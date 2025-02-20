@@ -83,7 +83,7 @@ Customers are advised to review if they use the feature/capability in their curr
 
 This section lists features and capabilities that have been removed from AEM 6.5 LTS. Prior releases had these capabilities marked as deprecated.
 
-Area|Feature|Replacement|Version (SP)|
+|Area|Feature|Replacement|Version (SP)|
 |--- |--- |--- |--- |
 | Commerce| AEM CIF Classic is not supported. | You should migrate to [AEM CIF](/help/commerce/cif/migration.md). | 6.5 LTS GA |
 | Solutions| Social/Communities is not supported. | No replacement available. | 6.5 LTS GA |
