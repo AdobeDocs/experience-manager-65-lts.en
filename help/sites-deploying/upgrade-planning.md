@@ -134,7 +134,7 @@ Due to the wide variety in the amount and nature of customizations that Adobe cu
 
 There are two approaches that you can take to assessing the complexity of the upgrade, a preliminary phase can use the newly introduced Pattern Detector which is available to be run on your AEM 6.1, 6.2 and 6.3 instances. The pattern detector is the easiest way to assess the overall complexity of the upgrade to be expected using reported patterns. The pattern detector report includes patterns for identifying unavailable APIs that are in use by the custom codebase(this was done using pre-upgrade compatibility checks in 6.3).
 
-After the initial assessment, a more comprehensive next step could be to perform an upgrade on a test instance and perform some basic smoke testing. Adobe also provides some . Also, the list of [Deprecated and Removed Features](/help/release-notes/deprecated-removed-features.md) should be reviewed not only for the version that you are upgrading to, but also for any versions between your source and target versions. For example, if upgrading from AEM 6.2 to 6.5, it is important to review the AEM 6.3 deprecated and removed features in addition to those for AEM 6.5.
+After the initial assessment, a more comprehensive next step could be to perform an upgrade on a test instance and perform some basic smoke testing. Adobe also provides some . Also, the list of [Deprecated and Removed Features](/help/release-notes/release-notes.md#deprecated-and-removed-features) should be reviewed not only for the version that you are upgrading to, but also for any versions between your source and target versions.
 
 ![trei_cropped](assets/trei_cropped.png)
 
