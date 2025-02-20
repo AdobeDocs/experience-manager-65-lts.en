@@ -1,9 +1,9 @@
 ---
-title: Current Release Notes for Adobe Experience Manager 6.5 2025
-description: These are the current Release Notes for Adobe Experience Manager 6.5 2025.
+title: Current Release Notes for Adobe Experience Manager 6.5 LTS
+description: These are the current Release Notes for Adobe Experience Manager 6.5 LTS.
 ---
 
-# Current Release Notes for Adobe Experience Manager 6.5.2025 {#release-notes}
+# Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
 
 ## Release Information {#release-information}
 
