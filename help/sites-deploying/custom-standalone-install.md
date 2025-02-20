@@ -37,27 +37,15 @@ There are various rules to be followed when renaming the quickstart jar file:
 >
 >You can also change the port number by using the `-port` option in the start command.
 
-### Java 11 Considerations {#java-considerations}
+### Java 17 Considerations {#java-considerations}
 
-If you are running Oracle Java 11 (or generally versions of Java newer than 8), additional switches must be added to your command line when starting AEM.
+If you are running Oracle Java 17, additional switches must be added to your command line when starting AEM.
 
-* The following - `-add-opens` switches need to be added to prevent related reflection access WARNING messages in the `stdout.log`
-
-```shell
---add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED -Dnashorn.args=--no-deprecation-warning
-```
-
-* Additionally, you need to use the `-XX:+UseParallelGC` switch to mitigate any potential performance issues.
-
-Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 11:
+Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 17:
 
 ```shell
--XX:+UseParallelGC --add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED -Dnashorn.args=--no-deprecation-warning
+-XX:+UseG1GC --add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=org.apache.sling.commons.threads -Djdk.util.zip.disableZip64ExtraFieldValidation=true
 ```
-
-Finally, if you are running an instance upgraded from AEM 6.3, make sure the following property is set to **true** under `sling.properties`:
-
-* `felix.bootdelegation.implicit`
 
 ## Run Modes {#run-modes}
 
@@ -100,10 +88,6 @@ To install and start AEM as a Windows service:
     * prunsrv_ia64
 
    This command invokes the appropriate script that starts the Windows service daemon in 64-bit Java instead of 32-bit Java.
-
-1. To prevent the process from forking into more than one process, increase the PermGen JVM parameter. Locate the `set jvm_options` command and set the value as follows:
-
-   `set jvm_options=-Xmx1792m`
 
 1. Open Command Prompt, change the current directory to the crx-quickstart/opt/helpers folder of the AEM installation, and enter the following command to create the service:
 
@@ -152,18 +136,18 @@ to either:
 
 Further options and renaming conventions are described in the Quickstart help file, which is available through the -help option. To access the help, type:
 
-* `java -jar cq-quickstart-6.5.0.jar -help`
+* `java -jar <jar-name>.jar -help`
 
 >[!CAUTION]
 >
->These options are valid as of the original release of AEM 6.5 (6.5.0.0). Changes in later SP releases are possible.
+>These options are valid as of the original release of AEM 6.5 LTS. Changes in later Service Pack releases are possible.
 
 ```shell
 Loading quickstart properties: default
 Loading quickstart properties: instance
-Setting properties from filename '/Users/Desktop/AEM/cq-quickstart-6.5.0.jar'
+Setting properties from filename '/Users/Desktop/AEM/<jar-name>.jar'
 --------------------------------------------------------------------------------
-Adobe Experience Manager Quickstart (build 20190328)                            
+Adobe Experience Manager Quickstart (build 20241127)                            
 --------------------------------------------------------------------------------
 Usage:                                                                          
  Use these options on the Quickstart command line.                              
