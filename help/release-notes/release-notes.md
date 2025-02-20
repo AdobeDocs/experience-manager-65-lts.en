@@ -9,7 +9,7 @@ description: These are the current Release Notes for Adobe Experience Manager 6.
 
 | Product | [!DNL Adobe Experience Manager] |
 |---|---|
-| Version | 6.5.2025 |
+| Version | 6.5 LTS |
 | Type | Major release |
 | General availability date | February 28, 2025 |
 
@@ -32,5 +32,4 @@ Customers are advised to review if they use the feature/capability in their curr
 
 |Area|Feature|Replacement|Version (SP)|
 |---|---|---|---|
-|   |   |   |   |
-| Sites | [SPA Editor](/help/sites-developing/spa-overview.md) | The preferred editors for managing headless content in AEM are:<br>- [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visual editing.<br>- [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing. | 6.5 2025 GA |
+| Sites | [SPA Editor](/help/sites-developing/spa-overview.md) | The preferred editors for managing headless content in AEM are:<br>- [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visual editing.<br>- [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing. | 6.5 LTS GA |
