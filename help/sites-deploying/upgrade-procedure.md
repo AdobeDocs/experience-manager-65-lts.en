@@ -108,7 +108,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 ![mongo-secondaries](assets/mongo-secondaries.jpg)
 
-1. Create new 6.5 Author instances, connected to the upgraded Mongo instance.
+1. Create new 6.5.2025 Author instances, connected to the upgraded Mongo instance. 
 
 1. Rebuild the MongoDB nodes that were removed from the cluster.
 
