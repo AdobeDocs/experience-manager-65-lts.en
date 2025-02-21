@@ -10,21 +10,21 @@ feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---
-# Planning Your Upgrade{#planning-your-upgrade}
+# Planning Your Upgrade {#planning-your-upgrade}
 
-## AEM Project Overview {#aem-project-overview}
+## AEM Upgrade Overview {#aem-upgrade-overview}
 
 AEM is often used in high impact deployments that might serve millions of users. Usually, there are custom applications that are deployed on the instances, which add to the complexity. Any effort to upgrade such a deployment needs to be handled methodically.
 
-This guide helps with establishing clear goals, phases, and deliverables when planning your upgrade. It focuses on the overall project execution and guidelines. While it provides an overview of the actual upgrade steps, it refers to available technical resources where suitable. It should be used with the available technical resources referred to in the document.
+This guide helps with establishing clear goals, phases, and deliverables when planning your upgrade. It focuses on overall upgrade execution and guidelines. While it provides an overview of the actual upgrade steps, it refers to available technical resources where suitable. It should be used with the available technical resources referred to in the document.
 
 The AEM Upgrade process needs carefully handled planning, analysis, and execution phases with key deliverables defined for each phase.
 
 >[!NOTE]
 >
->The upgrade to AEM 6.5.2025 is supported from the last 6 Service packs
+>The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs
 
-It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the TBD: link to technical requirement of AEM 6.5.2025. Upgrading these components must be accounted for in your project plan and should take place before upgrading AEM.
+It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the TBD: link to technical requirement of AEM 6.5 LTS. Upgrading these components must be accounted for in your upgrade plan and should take place before upgrading AEM.
 
 <!-- Alexandru: drafting for now
 
@@ -84,9 +84,9 @@ Below you will find a list of areas that are impacted in a typical AEM Upgrade p
 
 It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the [AEM 6.5 Technical Requirements page](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your project plan and should take place before upgrading AEM. -->
 
-## Project Phases {#project-phases}
+## Upgrade Phases {#upgrade-phases}
 
-Much work goes into planning and running an AEM upgrade. To clarify the different efforts that go into this process, Adobe has broken down the planning and execution exercises into separate phases. In the sections below, each phase results in a deliverable that is often used by a future phase of the project.
+Much work goes into planning and running an AEM upgrade. To clarify the different efforts that go into this process, Adobe has broken down the planning and execution exercises into separate phases. In the sections below, each phase results in a deliverable that is often used by a future phase of the upgrade.
 
 <!-- Alexandru:drafting for now
 
@@ -102,63 +102,37 @@ New features in AEM 6.5 can be found in [the AEM section of adobe.com](/help/rel
 
 Each customer's implementation of AEM is unique and has been customized to meet their business requirements. As a result, it is important to determine all the customizations that have been made to the system so that they can be included in a test plan. This test plan will power the QA process that Adobe performs on the upgraded instance.
 
-![test-plan](assets/test-plan.png)
-
 The exact production environment needs to be duplicated and testing should be performed on it after the upgrade to make sure all applications and custom code still run as desired. Regress all your customization and run performance, load, and security testing. When organizing your test plan, make sure to cover all customizations that have been made to the system in addition to out of the box UIs and workflows that are used in your day to day operations. These can include custom OSGI services and servlets, integrations to the Adobe Experience Cloud, integrations with third parties through AEM connectors, custom third-party integrations, custom components and templates, custom UI overlays in AEM, and custom workflows. Aditionally, custom queries should still be tested to ensure that their indexes are continuing to work effectively after upgrading.
-
-### Determining Architectural and Infrastructure Changes Needed {#determining-architectural-and-infrastructure-changes-needed}
-
-When upgrading, it is possible that you may also need to upgrade other components in your technical stack such as the operating system. Additionally, in order to run AEM 6.5.2025, Java 17 is required. Review the Technical Requirements for AEM 6.5 (TBD: add link to technical requirements of AEM 6.5.2025) and ensure that your current hardware and software will be sufficient.
-
-![doi_cropped](assets/doi_cropped.png)
-
-For potential changes to your operational processes, see the following documents: 
-
-**Monitoring and Maintenance:**
-
-[Operations Dashboard](/help/sites-administering/operations-dashboard.md)
-
-[Assets Monitoring Best Practices](/help/assets/assets-monitoring-best-practices.md)
-
-[Monitoring Server Resources Using the JMX Console](/help/sites-administering/jmx-console.md)
-
-[Revision Cleanup](/help/sites-deploying/revision-cleanup.md)
-
-**Backup/Restore and Disaster Recovery:**
-
-[Backup and Restore](/help/sites-administering/backup-and-restore.md)
-
-[Performance & Scalability](/help/sites-deploying/performance.md)
-
-[How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
 
 ### Assessing Upgrade Complexity {#assessing-upgrade-complexity}
 
-Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade.
+Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade. Analyzer for AEM can help you in assessing the complexity of the upgrade.
 
-Analyzer for AEM (TBD: add link to AEM analyzer) can help you in assessing the complexity of the upgrade. 
-
-The AEM Analyer for AEM 6.5.2025 should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5.2025 according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for 6.5.2025 compatibility. When combined with the AEM analyzer and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
+The AEM Analyer for AEM 6.5 LTS should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5 LTS according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for 6.5 LTS compatibility. When combined with the AEM analyzer and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
 
 ### Building the Upgrade and Rollback Runbook {#building-the-upgrade-and-rollback-runbook}
 
-While Adobe has documented the process for upgrading an AEM instance, each customer's network layout, deployment architecture, and customizations require fine-tuning and tailoring of this approach. For this reason, Adobe encourages you to review all the provided documentation and use it to inform a project-specific runbook that outlines the specific upgrade and rollback procedures that you will be following in your environment. 
+While Adobe has documented the process for upgrading an AEM instance, each customer's network layout, deployment architecture, and customizations require fine-tuning and tailoring of this approach. For this reason, Adobe encourages you to review all the provided documentation and use it to inform a upgrade-specific runbook that outlines the specific upgrade and rollback procedures that you will be following in your environment. 
 
-![runbook-diagram](assets/runbook-diagram.png)
+<!--Alexandru:drafting for now
 
-Adobe has provided upgrade and rollback procedures in [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) and step-by-step instructions for applying the upgrade in Performing an [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). These instructions should be reviewed and considered with your system architecture, customizations, and downtime tolerance to determine the appropriate switch-over and rollback procedures that you will be executing during the upgrade. Any changes to architecture or server sizes should be included when drafting your customized runbook. It is important to note that this should be treated as a first draft. As your team completes their QA and development cycles and deploys the upgrade to the staging environment, it is likely that the need for some additional steps may be required. Ideally, this document should contain enough information such that if it were handed to a member of your operations staff, they would be able to complete the upgrade completely from the information contained within.
+![runbook-diagram](assets/runbook-diagram.png) -->
 
-### Developing a Project Plan {#developing-a-project-plan}
+Adobe has provided upgrade and rollback procedures in [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) and step-by-step instructions for applying the upgrade in Performing an [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). These instructions should be reviewed and considered with your system architecture, customizations, and downtime tolerance to determine the appropriate switch-over and rollback procedures that you will be executing during the upgrade. Any changes to architecture or server sizes should be included when drafting your customized runbook.
 
-The output from the previous exercises can be used to build a project plan covering the expected timelines for your test or development efforts, training, and actual upgrade execution.
+### Developing an Upgrade Plan {#developing-an-upgrade-plan}
 
-![develop-project-plan](assets/develop-project-plan.png)
+The output from the previous exercises can be used to build an upgrade plan covering the expected timelines for your test or development efforts, training, and actual upgrade execution.
+
+<!--Alexandru: drafting for now
+
+![develop-project-plan](assets/develop-project-plan.png) -->
 
 A comprehensive project plan should include:
 
 * Finalization of development and test plans
 * Upgrading development and QA environments
-* Updating the custom code base for AEM 6.5.2025
+* Updating the custom code base for AEM 6.5 LTS
 * A QA test and fix cycle
 * Upgrading the staging environment
 * Integration, performance, and load testing
@@ -167,9 +141,11 @@ A comprehensive project plan should include:
 
 ### Performing Development and QA {#performing-development-and-qa}
 
-Adobe has provided procedures for [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) to be compatible with AEM 6.5.2025. As this iterative process is run, changes should be made to the runbook as needed.
+Adobe has provided procedures for [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) to be compatible with AEM 6.5 LTS. As this iterative process is run, changes should be made to the runbook as needed.
 
-![patru_cropped](assets/patru_cropped.png)
+<!--Alexandru: drafting for now
+
+![patru_cropped](assets/patru_cropped.png) -->
 
 The development and testing process is usually an iterative one. As issues are discovered that require adjustments to the upgrade process, make sure to add them to your custom upgrade runbook. After several iterations of testing and fixing, the code base should be fully validated and ready for deployment to the staging environment.
 
@@ -177,9 +153,11 @@ The development and testing process is usually an iterative one. As issues are d
 
 Adobe recommends a final round of testing after the codebase has been certified by your organization's QA team. This round of testing will involve validating your runbook on a staging environment followed by rounds of user acceptance, performance, and security testing.
 
-![cinci_cropped](assets/cinci_cropped.png)
+<!--Alexandru: drafting for now
 
-This step is vital as it is the only time that you are able to validate the steps in the runbook against a production-like environment. Once the environment has been upgraded, it is important to allow end users some time to log in and go through the activities they do when using the system in their day-to-day activities. It is not uncommon for users to be using a part of the system that was not previously considered. Finding and correcting issues in these areas before go-live can help to prevent costly production outages. As AEM 6.5.2025 contains changes to the underlying platform, it is also important to perform performance, load, and security tests on the system as if you were launching it for the first time. 
+![cinci_cropped](assets/cinci_cropped.png) -->
+
+This step is vital as it is the only time that you are able to validate the steps in the runbook against a production-like environment. Once the environment has been upgraded, it is important to allow end users some time to log in and go through the activities they do when using the system in their day-to-day activities. Finding and correcting issues in these areas before go-live can help to prevent costly production outages.
 
 ### Performing the Upgrade {#performing-the-upgrade}
 

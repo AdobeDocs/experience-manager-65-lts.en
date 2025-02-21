@@ -1,20 +1,20 @@
 ---
 title: Performing an In-Place Upgrade
-description: Learn how to perform an in-place upgrade for AEM 6.5.
+description: Learn how to perform an in-place upgrade for AEM 6.5 LTS.
 topic-tags: upgrading
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---
-# Performing an In-Place Upgrade{#performing-an-in-place-upgrade}
+# Performing an In-Place Upgrade {#performing-an-in-place-upgrade}
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for AEM 6.5.2025. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
+>This page outlines the upgrade procedure for AEM 6.5 LTS. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for AEM 6.5.2025. See how Analyzer can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for AEM 6.5 LTS. See how Analyzer can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information.
 
 <!--Finally, the downtime during the upgrade can be significally reduced by indexing the repository **before** performing the upgrade. For more information, see [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
 
@@ -26,7 +26,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 1. Stop the instance if it is running
 
-1. Download the new AEM 6.5.2025 jar file and use it to replace the old one outside the `crx-quickstart` folder
+1. Download the new AEM 6.5 LTS jar file and use it to replace the old one outside the `crx-quickstart` folder
 
 1. Take a backup of the `sling.properties` file (usually present in the `crx-quickstart/conf/`), then delete it
 
@@ -169,7 +169,7 @@ Now, startthe AEM instance using the new command determined using the informatio
 
 >[!NOTE]
 >
->Support for some of Java 8/11 arguments have been removed in Java 17, see Java arguments considerations for AEM 6.5.2025 (link stub).
+>Support for some of Java 8/11 arguments have been removed in Java 17, see Java arguments considerations for AEM 6.5 LTS (link stub).
 
 To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 
@@ -190,7 +190,7 @@ Note that starting AEM from the start script will not start the upgrade. Most cu
 1. Modify the command by replacing the path to the existing jar ( `crx-quickstart/app/aem-quickstart*.jar` in this case) with the new jar that is a sibling of the `crx-quickstart` folder. Using our previous command as an example, our command would be:
 
    ```shell
-   /usr/bin/java -server -Xmx4096m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar cq-quickstart-6.5.2025.0.jar -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
+   /usr/bin/java -server -Xmx4096m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar cq-quickstart-6.6.0.jar -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
    ```
 
    This will ensure that all proper memory settings, custom runmodes, and other environmental parameters are applied for the upgrade. After the upgrade has completed, the instance may be started from the start script on future startups.
