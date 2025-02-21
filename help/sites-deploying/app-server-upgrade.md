@@ -28,6 +28,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    ```shell
    <path-to-wlp-directory>/bin/server stop server_name
    ```
+
 1. Remove the files and folders that are no longer necessary. The items you need to specifically remove are:
 
    * The `cq-quickstart-65.war` from the `dropins` folder and the expanded folder typically located at `<path-to-aem-server>/dropins/cq-quickstart-65.war` and `<path-to-aem-server>/apps/expanded/cq-quickstart-65.war` respectively
@@ -36,22 +37,26 @@ Before executing your upgrade, there are several steps that must be completed. S
      ```shell
      rm -rf crx-quickstart/launchpad/startup
      ```
+
    * The `base.jar` file. You can do this by running the following commands:
 
      ```shell
      find crx-quickstart/launchpad -type f -name 
      "org.apache.sling.launchpad.base.jar*" -exec rm -f {} \;
      ``` 
+
    * The `BootstrapCommandFile_timestamp.txt` file:
 
       ```shell
       rm -f crx-quickstart/launchpad/felix/bundle0/BootstrapCommandFile_timestamp.txt
-      ``` 
+      ```
+
    * Remove the `sling.options` file by running:
 
       ```shell
       find crx-quickstart/launchpad -type f -name "sling.options.file" -exec rm -rf {} \; 
       ```
+
    * Remove the `sling.bootstrap.txt` file:
 
      ```shell
@@ -66,12 +71,14 @@ Before executing your upgrade, there are several steps that must be completed. S
    ```shell
    java -version
    ```
+
 1. Download the new war 6.5 LTS from Software distribution and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  
    ```shell
    <path-to-wlp-directory>/bin/server start server_name
-   ``` 
+   ```
+    
 1. In case you have custom changes in `sling.properties`, please follow the below instructions:
 
    1. Stop the AEM instance by running `<path-to-wlp-directory>/bin/server stop server_name`
