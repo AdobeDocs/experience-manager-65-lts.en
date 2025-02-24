@@ -83,23 +83,13 @@ Adobe Experience Manager operates with the following versions of the Java&trade;
 
 | **Platform** | **Support Level** | **Link** |
 |---|---|---|
-| Oracle Java&trade; SE 17 JDK | Z: Not supported `[1]` |
-| Oracle Java&trade; SE 11 JDK - 64-bit | A: Supported `[1]` | [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?fulltext=Oracle*+JDK*+11*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=24<td>) |
-| Oracle Java&trade; SE 10 JDK | Z: Not supported `[1]` |
-| Oracle Java&trade; SE 9 JDK | Z: Not supported `[1]` |
-| Oracle Java&trade; SE 8 JDK - 64-bit | A: Supported `[1]` | [Download](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?fulltext=Oracle*+JDK*+8*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=10) |
-| IBM&reg; J9 VM - build 2.9, JRE 1.8.0 | A: Supported `[2]` |
-| IBM&reg; J9 VM - build 2.8, JRE 1.8.0 | A: Supported `[2]` |
-| Azul Zulu OpenJDK 11 - 64-bit | A: Supported `[3]` | |
-| Azul Zulu OpenJDK 8 - 64-bit | A: Supported `[3]` | |
+| Oracle Java&trade; SE 17 JDK | A: Supported `[1]` |
+| IBM&reg; Semeru J9 VM – build 17.0.13.0 | A: Supported `[2]` |
 
-1. Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java&trade; SE products. Java&trade; 9, Java&trade; 10, and Java&trade; 12 are non-LTS releases by Oracle (see [Oracle Java&trade; SE support roadmap](https://www.oracle.com/technetwork/java/eol-135779.html)). To deploy AEM in a production environment, Adobe provides support only for the LTS releases of Java&trade;. Support and distribution of the Oracle Java&trade; SE JDK, including all maintenance updates of LTS releases beyond the end of the public updates, is supported by Adobe directly for all AEM customers that use the Oracle Java&trade; SE technology. See the [Java&trade; support policy for Adobe Experience Manager](assets/Java_Policy_for_Adobe_Experience_Manager.pdf). 
-**Important: Oracle Java&trade; 11 is supported until September 2026 at a minimum. Support for Oracle Java&trade; 17 is in preparation.**
+1. Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java&trade; SE products. Java&trade; 9, Java&trade; 10, Java&trade; 12, Java&trade; 13, Java&trade; 14, Java&trade; 15m Java&trade; 16 are non-LTS releases by Oracle (see [Oracle Java&trade; SE support roadmap](https://www.oracle.com/technetwork/java/eol-135779.html)). To deploy AEM in a production environment, Adobe provides support only for the LTS releases of Java&trade;. Support and distribution of the Oracle Java&trade; SE JDK, including all maintenance updates of LTS releases beyond the end of the public updates, is supported by Adobe directly for all AEM customers that use the Oracle Java&trade; SE technology. See the [Java&trade; support policy for Adobe Experience Manager](assets/Java_Policy_for_Adobe_Experience_Manager.pdf). 
+**This release supports Oracle Java&trade; 17.**
 
 1. The IBM&reg; JRE is only supported along with WebSphere&reg; Application Server.
- 
-1. Azul Zulu OpenJDK LTS versions are supported for on-premises AEM deployments starting with version 6.5 SP9. Support and distribution of the Azul Zulu JDK LTS versions must be licensed directly from Azul by Adobe customers.
-
 
 ### Storage & Persistence {#storage-persistence}
 
@@ -112,28 +102,12 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 | Store binaries in TAR files on file system `[1]` |Binaries |Z: Not supported for production |
 | Amazon S3 |Binaries |A: Supported |
 | Microsoft&reg; Azure Blob Storage |Binaries |A: Supported |
-| MongoDB Enterprise 6.0 |Repository |A: Supported `[3, 4]` |
-| MongoDB Enterprise 5.0 |Repository |A: Supported `[3, 4]` |
-| MongoDB Enterprise 4.4 |Repository |A: Supported `[2, 3, 4, 7]` |
-| MongoDB Enterprise 4.2 |Repository |A: Supported `[2, 3, 4, 7]` |
-| MongoDB Enterprise 4.0 |Repository |Z: Not supported |
-| MongoDB Enterprise 3.6 |Repository |Z: Not supported |
-| MongoDB Enterprise 3.4 |Repository |Z: Not supported |
-| IBM&reg; DB2&reg; 10.5 |Repository & Forms Database |R: Restricted Support `[5]` |
-| Oracle Database 12c (12.1.x) |Repository & Forms Database |R: Restricted Support |
-| Microsoft&reg; SQL Server 2016 |Forms Database |A: Supported |
+| MongoDB Enterprise 6.0 and 7.0|Repository |A: Supported `[3, 4]` |
 | **Apache Lucene (Quickstart built-in)** |Search Service |A: Supported |
-| Apache Solr |Search Service |A: Supported |
 
-1. 'File System' includes block storage that is POSIX-compliant. Includes network storage technology. Mind that file system performance might vary and influences the overall performance. Load test AEM with the network/remote file system.
-1. MongoDB Enterprise versions 4.2 and 4.4 require AEM 6.5 SP9 as a minimum.
+1. 'File System' includes block storage that is POSIX-compliant. Includes network storage technology. Mind that file system performance might vary and influences the overall performance. Load test AEM with the network/remote file system. 
 1. MongoDB Sharding is not supported in AEM.
 1. MongoDB Storage Engine WiredTiger is supported only.
-1. Supported for AEM Forms upgrade customers. Not supported for new installations.
-1. Applicable to AEM Forms only:
-    * Removed support for Oracle Database 12c and added support for Oracle Database 19c.
-    * Removed support for Microsoft&reg; SQL Server 2016 and added support for Microsoft&reg; SQL Server 2019.
-1. Not supported for AEM Forms.
 
 >[!NOTE]
 >
@@ -161,23 +135,16 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 
 Adobe Experience Manager can run either as a stand-alone server (the quickstart JAR file) or as a web application within a third-party application server (the WAR file).
 
-The minimum Servlet API Version required is Servlet 3.1
+The minimum Servlet API Version required is Servlet 3.1. In addition, AEM supports Jakarta servlet 5 for jar and war can be deployed in application servers implementing Jakarta servlet API 5/6.
 
 | Platform |Support Level |
 |---|---|
-| **Quickstart built-in Servlet Engine (Jetty 9.4)** |A: Supported |
-| Oracle WebLogic Server 12.2 (12cR2) |Z: Not supported  |
-| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 7.0 and IBM&reg; JRE 1.8 |R: Restricted Support for new contracts `[2]` |
-| IBM&reg; WebSphere&reg; Application Server 9.0 and IBM&reg; JRE 1.8 |R: Restricted Support for new contracts `[1]` `[2]` |
-| Apache Tomcat 8.5.x |R: Restricted Support for new contracts `[2]` |
-| JBoss&reg; EAP 7.2.x with JBoss&reg; Application Server |Z: Not supported  |
-| JBoss&reg; EAP 7.1.4 with JBoss&reg; Application Server |R: Restricted Support for new contracts `[1]` `[2]` |
-| JBoss&reg; EAP 7.0.x with JBoss&reg; Application Server |Z: Not supported  |
+| **Quickstart built-in Servlet Engine (Jetty 11.0.x)** |A: Supported |
+| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17 |R: Restricted Support for new contracts `[2]` |
+| Apache Tomcat 10.1.x |R: Restricted Support for new contracts `[2]` |
 
 1. Recommended for deployments with AEM Forms.
 1. Starting AEM 6.5 deployments on application servers moves to Restricted Support. Existing customers can upgrade to AEM 6.5 and keep using application servers. For new customers, it comes with support criteria and a support program as stated in the Level-R description above.
-1. Applicable AEM Forms only:
-    * Removed support for JBoss&reg; EAP 7.1.4 and added support for JBoss&reg; EAP 7.4.10. 
 
 ### Server Operating Systems {#server-operating-systems}
 
@@ -188,13 +155,8 @@ Adobe Experience Manager works with the following server platforms for productio
 | **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[3]` |
 | Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` `[2]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
-| Microsoft&reg; Windows Server 2019 `[4]` |R: Restricted Support for new contracts `[5]` |
-| Microsoft&reg; Windows Server 2016 `[4]` |R: Restricted Support for new contracts `[5]` |
-| Microsoft&reg; Windows Server 2012 R2 |Z: Not supported  |
-| Oracle Solaris&trade; 11 |Z: Not supported  |
-| IBM&reg; AIX&reg; 7.2 |Z: Not supported  |
 
-1. Linux&reg; Kernel 2.6, 3. x, 4. x, 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. AEM Forms add-on features are only supported on CentOS 7, Red Hat&reg; Enterprise Linux&reg; 7, Red Hat&reg; Enterprise Linux&reg; 8, and Red Hat&reg; Enterprise Linux&reg; 9. 
+1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. AEM Forms add-on features are only supported on CentOS 7, Red Hat&reg; Enterprise Linux&reg; 7, Red Hat&reg; Enterprise Linux&reg; 8, and Red Hat&reg; Enterprise Linux&reg; 9. 
 1. AEM Forms is supported on Ubuntu 20.04 LTS.
 1. Linux&reg; distribution supported by Adobe Managed Services.
 
@@ -323,7 +285,7 @@ The AEM user interface is optimized for larger screens (typically notebooks and 
 </table>
 
 1. Extended Support Release of Firefox [Learn more on mozilla.org](https://www.mozilla.org/en-US/firefox/enterprise/)
-1. support for Apple iPad
+1. Support for Apple iPad
 
 ### Supported Browsers for Websites {#supported-browsers-for-websites}
 
