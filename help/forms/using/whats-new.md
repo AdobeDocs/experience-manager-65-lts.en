@@ -18,7 +18,7 @@ role: Admin, User, Developer
 
 ## What is included in Adobe Experience Manager 6.5 Forms Service Pack 19 (6.5.19.0)
 
-Experience Manager 6.5.19.0 includes new features, key customer-requested enhancements, bug fixes, and performance, stability, and security improvements that have been released since the initial availability of 6.5 in April 2019. [Install this service pack](https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html) on Experience Manager 6.5. 
+Experience Manager 6.5.19.0 includes new features, key customer-requested enhancements, bug fixes, and performance, stability, and security improvements that have been released since the initial availability of 6.5 in April 2019. [Install this service pack](https://experienceleague.adobe.com/docs/e on Experience Manager 6.5. 
 
 ### New Features
 

@@ -26,7 +26,7 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.5.2025 from AEM Forms 6.5, 6.4, 6.3, or 6.2, or a new installation. Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
+You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.5 LTS from AEM Forms 6.5, 6.4, 6.3, or 6.2, or a new installation. Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
 
 **If there is an in-place upgrade**
 

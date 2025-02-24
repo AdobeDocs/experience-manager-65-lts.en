@@ -23,7 +23,7 @@ exl-id: ae4c7e9d-9af8-4288-a6f9-e3bcbe7d153d
 
 ## What is included in Experience Manager Forms 6.5
 
-<span class="preview"> These instructions for downloading and installing the current service pack apply up to AEM Forms Service Pack 22. To upgrade to AEM Forms Service Pack 6.5.2025, refer to [Upgrade to AEM Forms 6.5.2025 on OSGi](/help/forms/using/upgrade-to-forms-6.5.2025.md). </span>
+<span class="preview"> If you are upgrading to AEM Forms Service Pack 6.5 LTS, refer to [Upgrade to AEM Forms 6.5 LTS on OSGi](/help/forms/using/upgrade-forms-osgi.md). </span>
 
 Adobe Experience Manager (AEM) Forms service pack includes new and upgraded features, such as key customer-requested enhancements, performance, stability, and security improvements. AEM Forms release service packs at a regular interval to provide latest features and improvements. Depending on your technology stack, choose one of the following paths to download and install service pack on your environment: 
 

@@ -17,7 +17,7 @@ feature: Adaptive Forms,AEM Forms Upgrade
 | AEM 6.5     | This article         |
 
 
-AEM 6.5.2025 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms and correspondences. To learn about all the new capabilities and enhancements of AEM 6.5, see [New features summary document](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
+AEM 6.5 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms and correspondences. To learn about all the new capabilities and enhancements of AEM 6.5, see [New features summary document](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 You can upgrade your existing LiveCycle or AEM Forms installation to obtain new capabilities and enhancements offered in AEM 6.5 Forms while retaining existing data, processes, and assets intact. On upgrade, metadata and state of the processes are also preserved. You can choose an upgrade path to get started with upgrade.
 
@@ -29,7 +29,7 @@ You can perform a direct upgrade from:
 
 * AEM 6.3 Forms on OSGi
 * AEM 6.4 Forms on OSGi
-* AEM (6.5.17.0 - 6.5.22.0) to AEM Forms 6.5.2025
+* AEM 6.5.22.0 to AEM Forms 6.5 LTS
 
 You can also perform a multi-hop upgrade from
 
