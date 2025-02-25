@@ -11,7 +11,7 @@ description: These are the current Release Notes for Adobe Experience Manager 6.
 |---|---|
 | Version | 6.5 LTS |
 | Type | Major release |
-| General availability date | February 28, 2025 |
+| General availability date | March 7, 2025 |
 
 ## What's New {#what-s-new}
 
