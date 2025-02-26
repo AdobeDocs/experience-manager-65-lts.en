@@ -326,7 +326,7 @@ Once AEM WCM has been started, you can also access:
 To open CRXDE Lite you can select **CRXDE Lite** from the welcome screen or use your browser to navigate to
 
 ```
- https://<<i>host</i>>:<<i>port</i>>/crx/de/index.jsp
+ https://<host>:<port>/crx/de/index.jsp
 ```
 
 For example:
@@ -350,12 +350,6 @@ or for the Bundles page
 ![chlimage_1-14](assets/chlimage_1-14.png)
 
 See [OSGi Configuration with the Web Console](/help/sites-deploying/configuring-osgi.md#osgi-configuration-with-the-web-console) for further details.
-
-## Troubleshooting {#troubleshooting}
-
-For information on dealing with issues that may come up during installation, see:
-
-* [Troubleshooting](/help/sites-deploying/troubleshooting.md)
 
 ## Uninstalling Adobe Experience Manager {#uninstalling-adobe-experience-manager}
 
