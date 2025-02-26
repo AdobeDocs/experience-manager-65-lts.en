@@ -1,6 +1,6 @@
-# Adobe Experience Manager 6.5 2025 Documentation
+# Adobe Experience Manager 6.5 LTS Documentation
 
-This is the repository for Adobe Experience Manager 6.5 2025 documentation. This documentation covers the installation, administering, authoring use, and how to customize AEM 6.5 2025.
+This is the repository for Adobe Experience Manager 6.5 LTS documentation. This documentation covers the installation, administering, authoring use, and how to customize AEM 6.5 LTS.
 
 Your contributions to the documentation are welcome. See the following resources:
 
