@@ -241,8 +241,3 @@ Before a deployment read the [General Description](#general-description) above.
   * Copy it into tomcat's webapps folder.
   * Wait until AEM is installed.
 
-## Troubleshooting {#troubleshooting}
-
-For information on dealing with issues that may come up during installation, see:
-
-* [Troubleshooting](/help/sites-deploying/troubleshooting.md)
