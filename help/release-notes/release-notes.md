@@ -1,6 +1,9 @@
 ---
 title: Current Release Notes for Adobe Experience Manager 6.5 LTS
 description: These are the current Release Notes for Adobe Experience Manager 6.5 LTS.
+solution: Experience Manager
+feature: Release Information
+role: User,Admin,Architect,Developer
 ---
 
 # Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
