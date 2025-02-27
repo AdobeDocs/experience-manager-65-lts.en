@@ -85,6 +85,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 | Solutions| Social/Communities is not supported. | No replacement available. | 6.5 LTS GA |
 | Screens| Screens is not supported. | No replacement available. | 6.5 LTS GA |
 | Assets| `dam-pim` and `dam-rating` are not supported as bundles are dependent on social. | No replacement available. | 6.5 LTS GA |
+| Assets| `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettings()` has been removed. | Use the alternate api `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettingsList()` that has been added. | 6.5 LTS GA |
 | Granite| Bundle `com.adobe.granite.socketio` is removed. | No replacement available. | 6.5 LTS GA |
 | Granite| `com.adobe.granite.crx-explorer` is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| `crx2oak` is not supported. | Pick relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |

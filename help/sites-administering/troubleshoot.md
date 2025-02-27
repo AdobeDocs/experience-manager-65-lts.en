@@ -59,13 +59,6 @@ The following table provides an overview of problems that administrators can tro
  </tbody>
 </table>
 
-## Installation Issues {#installation-issues}
-
-See [Common Installation Issues](/help/sites-deploying/troubleshooting.md#common-installation-issues) for information about the following troubleshooting scenarios:
-
-* Double-clicking the Quickstart jar has no effect or the JAR file with another program (such as archive manager).
-* Applications running on CRX throw out-of-memory errors.
-* The AEM Welcome screen does not display in the browser after double-clicking AEM Quickstart.
 
 ## Methods for Troubleshooting Analysis {#methods-for-troubleshooting-analysis}
 
