@@ -207,7 +207,6 @@ user-guide-title: AEM 6.5
       + [Integrating with Dynamic Media Classic (Scene7)](/help/sites-administering/scene7.md)
       + [Troubleshooting Integration Issues](/help/sites-administering/troubleshooting-integration-issues.md)
       + [Integrating with BrightEdge Content Optimizer](/help/sites-administering/brightedge.md)
-      + [Catalog Producer](/help/sites-administering/catalog-producer.md)
       + [Integrating with Silverpop Engage](/help/sites-administering/silverpop.md)
       + [Integrating with Adobe Campaign](/help/sites-administering/campaign.md)
       + [Integrating with ExactTarget](/help/sites-administering/exacttarget.md)
@@ -1436,7 +1435,6 @@ user-guide-title: AEM 6.5
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
         + [Troubleshooting Oak Indexes](/help/sites-deploying/troubleshooting-oak-indexes.md)
         + [Opting Into Aggregated Usage Statistics Collection](/help/sites-deploying/opt-in-aggregated-usage-statistics.md)    
-        + [Troubleshooting](/help/sites-deploying/troubleshooting.md)
     + Configuring AEM {#configuring}
         + [Basic Configuration Concepts](/help/sites-deploying/configuring.md)
         + [Logging](/help/sites-deploying/configure-logging.md)
