@@ -16,7 +16,6 @@ role: Admin
 * [Integrating with the Adobe Experience Cloud](/help/sites-administering/marketing-cloud.md)
 * [Integrating with Third-Party Services](/help/sites-administering/third-party-services.md)
 * [Analytics with External Providers](/help/sites-administering/external-providers.md)
-* [Catalog Producer](/help/sites-administering/catalog-producer.md)
 * [Understand, apply, and curate Smart Tags](/help/assets/enhanced-smart-tags.md)
 
 The following information is available about integrating AEM with other Adobe or third-party services:
