@@ -147,7 +147,7 @@ Loading quickstart properties: default
 Loading quickstart properties: instance
 Setting properties from filename '/Users/Desktop/AEM/<jar-name>.jar'
 --------------------------------------------------------------------------------
-Adobe Experience Manager Quickstart (build 20241127)                            
+Adobe Experience Manager Quickstart (build 20250226)                            
 --------------------------------------------------------------------------------
 Usage:                                                                          
  Use these options on the Quickstart command line.                              
@@ -176,9 +176,9 @@ Usage:
          Force forking the JVM if running on a console, using recommended       
          default memory settings for the forked JVM.                            
 -forkargs <args> [<args> ...]
-         Additional arguments for the forked JVM, defaults to '-Xmx1024m        
-         -XX:MaxPermSize=256m '.  Use -- to specify values starting with -,     
-         example: '-forkargs -- -server'                                        
+         Additional arguments for the forked JVM, defaults to '-Xmx1024m '.     
+         Use -- to specify values starting with -, example: '-forkargs --       
+         -server'                                                               
 -a (--interface) <interface>
          Optional IP address (interface) to bind to                             
 -pt <string>
@@ -208,7 +208,7 @@ Usage:
   Options for executing Quickstart extensions:
                                                                                 
     -xargs <arg> [<arg> ...]
-         Construct an arguments list for a Quickstart extension (for example, -xargs -- 
+         Construct an arguments list for a Quickstart extension (e.g. -xargs -- 
          -arg1 val1 -arg2 val2).                                                
 --------------------------------------------------------------------------------
 Quickstart filename options                                                     
@@ -245,7 +245,7 @@ The license.properties file
 Log files
 --------------------------------------------------------------------------------
   Once Quickstart has been unpacked and started, log files can be found under   
-  /Users/aemdocs/CQInstallationKits/AEM-65150-L8/crx-quickstart/logs.           
+  /Users/Desktop/AEM/crx-quickstart/logs.               
 --------------------------------------------------------------------------------
 ```
 
