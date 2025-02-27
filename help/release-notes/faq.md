@@ -1,11 +1,13 @@
 ---
-title: Frequently Asked Questions
-description: Frequently Asked Questions about AEM 6.5 LTS.
+title: Frequently Asked Questions (FAQ)
+description: Frequently asked questions about AEM 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
 ---
-# AEM 6.5 LTS Frequently Asked Questions {#faq}
+# AEM 6.5 LTS Frequently Asked Questions (FAQ) {#faq}
+
+This page is meant to answer some frequently asked questions about AEM 6.5 LTS.
 
 ### I’m an on-Premises customer, what happens if I don’t upgrade to AEM 6.5 LTS? Will my existing customizations and integrations be affected?
 
