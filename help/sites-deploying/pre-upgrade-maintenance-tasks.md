@@ -25,7 +25,6 @@ Before beginning your upgrade, it is important to follow these maintenance tasks
 * [Generate The quickstart.properties File](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#generate-quickstart-properties)
 * [Configure Workflow and Audit Log Purging](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#configure-wf-audit-purging)
 * [Install, Configure, and Run The Pre-Upgrade Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#install-configure-run-pre-upgrade-tasks)
-* [Disable Custom Login Modules](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#disable-custom-login-modules)
 * [Remove Updates From The /install Directory](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#remove-updates-install-directory)
 * [Stop Any Cold Standby Instances](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#stop-tarmk-coldstandby-instance)
 * [Disable Custom Scheduled Jobs](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#disable-custom-scheduled-jobs)
@@ -145,6 +144,10 @@ Disable any OSGi scheduled jobs that are included in your application code.
 >This step is only necessary for TarMK installations
 
 If using TarMK, you should run Offline Revision Cleanup before upgrading. Doing so makes the repository migration step and subsequent upgrade tasks execute much faster and helps to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see [Performing Offline Revision Cleanup](/help/sites-deploying/storage-elements-in-aem-6.md#performing-offline-revision-cleanup).
+
+## Execute Datastore Garbage Collection {#execute-datastore-garbage-collection}
+
+After running revision cleanup on CRX3 instances, you should run Datastore Garbage Collection to remove any unreferenced blobs in the data store. For instructions, see the documentation on [Data Store Garbage Collection](/help/sites-administering/data-store-garbage-collection.md).
 
 ## Rotate Log Files {#rotate-log-files}
 
