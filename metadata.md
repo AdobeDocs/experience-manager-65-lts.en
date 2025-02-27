@@ -1,7 +1,7 @@
 ---
 product: adobe experience manager
-description: Adobe Experience Manager 6.6 documentation.
-git-repo: https://github.com/AdobeDocs/experience-manager-cloud-service.en
+description: Adobe Experience Manager 6.5 LTS documentation.
+git-repo: https://github.com/AdobeDocs/experience-manager-65-lts.en
 index: y
 type: Documentation
 solution: Experience Manager
