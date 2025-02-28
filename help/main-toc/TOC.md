@@ -1,14 +1,14 @@
 ---
 cloud: Experience Cloud
 product: Adobe Experience Manager
-sub-product: Adobe Experience Manager 6.5
+sub-product: Adobe Experience Manager 6.5 LTS
 solution-title: Experience Cloud
-user-guide-description: Use the Adobe Experience Manager 6.5 documentation to learn how it works and what the software can do for you.
+user-guide-description: Use the Adobe Experience Manager 6.5 LTS documentation to learn how it works and what the software can do for you.
 breadcrumb-title: User Guide
-user-guide-title: AEM 6.5
+user-guide-title: AEM 6.5 LTS
 ---
 
-# Adobe Experience Manager 6.5 Documentation {#content}
+# Adobe Experience Manager 6.5 LTS Documentation {#content}
 
 + Release Notes {#release-notes}
   + [Release notes](/help/release-notes/release-notes.md)
@@ -38,7 +38,7 @@ user-guide-title: AEM 6.5
   + [Handling GDPR Requests for the AEM Foundation](/help/sites-administering/handling-gdpr-requests-for-aem-platform.md)
   + [Principal View for Permissions Management](/help/sites-administering/touch-ui-principal-view.md)
   + [Content Disposition Filter](/help/sites-administering/content-disposition-filter.md)
-  + [Custom User Group Mapping in AEM 6.5](/help/sites-administering/cug-mapping.md)
+  + [Custom User Group Mapping](/help/sites-administering/cug-mapping.md)
   + [Same Site Cookie Support](/help/sites-administering/same-site-cookie-support.md)
   + [JWT Credentials Deprecation in Adobe Developer Console](/help/sites-administering/jwt-credentials-deprecation-in-adobe-developer-console.md)
   + [Setting Up IMS Integrations for AEM](/help/sites-administering/setting-up-ims-integrations-for-aem.md)
@@ -1418,7 +1418,7 @@ user-guide-title: AEM 6.5
     + Introduction to the AEM Platform {#introduction}
         + [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
         + [Technical Requirements](/help/sites-deploying/technical-requirements.md)
-        + [Storage Elements in AEM 6.5](/help/sites-deploying/storage-elements-in-aem-6.md)
+        + [Storage Elements in AEM](/help/sites-deploying/storage-elements-in-aem-6.md)
         + [AEM with MongoDB](/help/sites-deploying/aem-with-mongodb.md)
     + Deploying AEM {#deploying}
         + [Deploying and Maintaining](/help/sites-deploying/deploy.md)
@@ -1430,7 +1430,7 @@ user-guide-title: AEM 6.5
         + [Revision Cleanup](/help/sites-deploying/revision-cleanup.md)
         + [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md)
         + [How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
-        + [RDBMS Support in AEM 6.5](/help/sites-deploying/rdbms-support-in-aem.md)
+        + [RDBMS Support in AEM](/help/sites-deploying/rdbms-support-in-aem.md)
         + [Indexing via the Oak-run Jar](/help/sites-deploying/indexing-via-the-oak-run-jar.md)
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
         + [Troubleshooting Oak Indexes](/help/sites-deploying/troubleshooting-oak-indexes.md)
@@ -1456,11 +1456,11 @@ user-guide-title: AEM 6.5
         + [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md)
         + [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
         + [Configuring Web Console](/help/sites-deploying/configuring-web-console.md)
-    + Upgrading to AEM 6.5 {#upgrading}
-        + [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
+    + Upgrading to AEM 6.5 LTS {#upgrading}
+        + [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
         + [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
         + [Assessing the Upgrade Complexity with the Pattern Detector](/help/sites-deploying/pattern-detector.md)
-        + [Backward Compatibility in AEM 6.5](/help/sites-deploying/backward-compatibility.md)
+        + [Backward Compatibility in AEM 6.5 LTS](/help/sites-deploying/backward-compatibility.md)
         + [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)
         + [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md)
         + [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)
