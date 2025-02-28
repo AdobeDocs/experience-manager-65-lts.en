@@ -207,7 +207,6 @@ user-guide-title: AEM 6.5
       + [Integrating with Dynamic Media Classic (Scene7)](/help/sites-administering/scene7.md)
       + [Troubleshooting Integration Issues](/help/sites-administering/troubleshooting-integration-issues.md)
       + [Integrating with BrightEdge Content Optimizer](/help/sites-administering/brightedge.md)
-      + [Catalog Producer](/help/sites-administering/catalog-producer.md)
       + [Integrating with Silverpop Engage](/help/sites-administering/silverpop.md)
       + [Integrating with Adobe Campaign](/help/sites-administering/campaign.md)
       + [Integrating with ExactTarget](/help/sites-administering/exacttarget.md)
@@ -776,7 +775,7 @@ user-guide-title: AEM 6.5
     + [Designer FormCalc Reference](https://www.adobe.com/go/learn_aemforms_formCalc_65)
     + [Using Scribble Signature in HTML5 forms](/help/forms/using/scribble-signature.md)
     + [Changing Page Zero content in Designer](/help/forms/using/changing-page-zero-content-designer.md)
-    + [Accessibility Best Practices]{#accessibility-best-practices}
+    + Accessibility Best Practices {#accessibility-best-practices}
       + [Introduction](/help/forms/using/introduction-accessibility-forms-designer.md)
       + [Best practices for creating forms](/help/forms/using/best-practices-for-creating-forms-in-designer.md)
       + [Techniques for testing form accessibility](/help/forms/using/techniques-for-testing-form-accessibility.md)
@@ -1436,7 +1435,6 @@ user-guide-title: AEM 6.5
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
         + [Troubleshooting Oak Indexes](/help/sites-deploying/troubleshooting-oak-indexes.md)
         + [Opting Into Aggregated Usage Statistics Collection](/help/sites-deploying/opt-in-aggregated-usage-statistics.md)    
-        + [Troubleshooting](/help/sites-deploying/troubleshooting.md)
     + Configuring AEM {#configuring}
         + [Basic Configuration Concepts](/help/sites-deploying/configuring.md)
         + [Logging](/help/sites-deploying/configure-logging.md)
