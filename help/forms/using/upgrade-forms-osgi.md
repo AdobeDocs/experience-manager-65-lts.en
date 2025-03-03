@@ -30,8 +30,9 @@ After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrad
        After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file and the log is stable. Also note, a few packages can remain in the installed state. You can safely ignore the state of these packages.
 
 
-       **Before restarting the AEM server, ensure to add the following JVM parameter**:
-       `add-opens java.base/java.util=ALL-UNNAMED -add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED`
+       **Restart the AEM instance with the following additional JVM command-line parameters**:
+       `--add-opens java.base/java.util=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED`
+       If the server is started via a script or service, update it accordingly to include the above so that these are effective after subsequent restarts as well.
 
 1. Restart the AEM instance.
 

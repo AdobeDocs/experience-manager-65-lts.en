@@ -13,12 +13,12 @@ feature: Adaptive Forms
 ---
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
 
-The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in Adobe Experience Manager (AEM) 6.5.2025 Forms. When you run the migration utility, the following are migrated:
+The Migration utility converts the [Adaptive Forms assets](../../forms/using/introduction-forms-authoring.md), [cloud configurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in Adobe Experience Manager (AEM) 6.5 LTS Forms. When you run the migration utility, the following are migrated:
 
 * Custom components for adaptive forms
-* Adaptive forms and correspondence management Templates
+* Adaptive forms and Correspondence Management Templates
 * Cloud configurations
-* Correspondence Management and adaptive forms assets
+* Correspondence Management and Adaptive Forms assets
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the latest version of AEM Forms 6.5 LTS from AEM Forms 6.5, 6.4, 6.3, or 6.2, or a new installation. Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
+You can [upgrade](../../forms/using/upgrade.md) to the [latest version of AEM Forms 6.5 LTS from AEM Forms 6.5.22.0](/help/forms/using/upgrade-forms-osgi.md). Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
 
 **If there is an in-place upgrade**
 

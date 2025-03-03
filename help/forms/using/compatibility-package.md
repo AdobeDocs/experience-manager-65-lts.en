@@ -26,12 +26,12 @@ After performing an upgrade, do the following to install the AEMFD compatibility
 
 Ensure that you have [AEM Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) pre-installed.
 
-1. Install the latest 6.5.2025 [Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases).
+1. Install the latest AEM 6.5 LTS [Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases).
 
    For more information on uploading and installing the package, see [How to work with packages](/help/sites-administering/package-manager.md).
 
 1. After the logs are stabilized, restart the server.
-1. Use the migration utility for making your assets compatible with 6.5.2025.
+1. Use the migration utility for making your assets compatible with 6.5 LTS.
 
     >[!NOTE]
     >
