@@ -1466,6 +1466,7 @@ user-guide-title: AEM 6.5
         + [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)
         + [Lazy Content Migration](/help/sites-deploying/lazy-content-migration.md)
         + [Using the CRX2Oak Migration Tool](/help/sites-deploying/using-crx2oak.md)
+        + [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
         + [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md)
         + [Post Upgrade Checks and Troubleshooting](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md)
         + [Upgrading Custom Search Forms](/help/sites-deploying/upgrading-custom-search-forms.md)

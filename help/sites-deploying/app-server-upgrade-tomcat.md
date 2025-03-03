@@ -1,6 +1,6 @@
 ---
 title: Upgrade Steps for Application Server Installations (Tomcat)
-description: Learn how to upgrade instances of AEM that are deployed via Webspehere Liberty.
+description: Learn how to upgrade instances of AEM that are deployed via Tomcat.
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
@@ -48,7 +48,7 @@ All the examples in this procedure use Tomcat as the Application Server and impl
    $CATALINA_HOME/bin/catalina.sh stop
    ```
 
-1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS using this tutorial: Content Migration: AEM 6.5 to AEM 6.6 Using Oak-Upgrade (TBD: to add link after page is created)
+1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS using this tutorial: [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
 1. Once the content has been migrated, apply any custom changes required in the `sling.properties` file
 1. Start the AEM 6.5 LTS Tomcat server by running:
 
