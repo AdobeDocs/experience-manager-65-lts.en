@@ -1,11 +1,11 @@
 ---
-title: Upgrade Steps for Application Server Installations
-description: Learn how to upgrade instances of AEM that are deployed via Application Servers.
+title: Upgrade Steps for Application Server Installations (WLP)
+description: Learn how to upgrade instances of AEM that are deployed via Webspehere Liberty.
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 ---
-# Upgrade Steps for Application Server Installations {#upgrade-steps-for-application-server-installations}
+# Upgrade Steps for Application Server Installations (WLP) {#upgrade-steps-for-application-server-installations-wlp}
 
 >[!NOTE]
 >
