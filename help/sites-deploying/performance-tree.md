@@ -156,7 +156,6 @@ The analysis starts at step 0. The goal is to determine which entity (Dispatcher
    <td><br />
     <ol>
      <li><a href="/help/sites-deploying/monitoring-and-maintaining.md#out-of-memory">Out Of Memory</a></li>
-     <li><a href="/help/sites-deploying/troubleshooting.md">My application throws out-of-memory errors</a></li>
      <li><a href="https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17482.html">Analyze Memory Problems.</a><br /> </li>
     </ol> </td>
   </tr>
