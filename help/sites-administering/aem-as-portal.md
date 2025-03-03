@@ -39,7 +39,7 @@ To configure AEM content to appear in a portal, see [Installing, Configuring, an
 
 >[!CAUTION]
 >
->The AEM Portal Director is deprecated as of AEM 6.4. See [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html).
+>The AEM Portal Director is deprecated since AEM 6.4 and is now no longer supported in AEM 6.5 LTS. See [Deprecated and Removed Features](/help/release-notes/release-notes.md#deprecated-and-removed-features).
 
 ## Administering the AEM Content Portlet {#administering-the-aem-content-portlet}
 
