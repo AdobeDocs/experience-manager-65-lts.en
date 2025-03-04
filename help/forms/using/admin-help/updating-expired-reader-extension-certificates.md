@@ -66,7 +66,7 @@ A. Yes, the same Acrobat Reader Extensions certificate can be used across multip
 
 **Q. How do I check the usage rights applied to a PDF document?**
 
-A. You can use the [getDocumentUsageRights](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?lang=en#quick-start-soap-mode-retrieving-credential-information-using-the-java-api) API to retrieve the information about the usage rights applied to a PDF document.
+A. You can use the [getDocumentUsageRights](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?lang=en#quick-start-soap-mode-retrieving-credential-information-using-the-java-api) API to retrieve the information about the usage rights applied to a PDF document.
 
 **Q. How do I change the password of an Acrobat Reader Extensions certificate file?**
 
@@ -90,7 +90,7 @@ You can choose one of the following paths to apply latest certificates:
 Updating the certificates requires using actions available on AEM Forms administrator console and Reader Extension APIs provided by AEM Forms. The document is intended for users and administrators with knowledge of using Adobe Experience Manger Forms APIs. Before you start, ensure that: 
 
 * the user has administrator rights on underlying AEM Forms environment. 
-* the user has setup the [development environment](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/devtools/howto-projects-eclipse.html) and has access to it.
+* the user has setup the [development environment](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/devtools/howto-projects-eclipse.html) and has access to it.
 * [obtain the certificates](#obtain-the-certificates).
 
 

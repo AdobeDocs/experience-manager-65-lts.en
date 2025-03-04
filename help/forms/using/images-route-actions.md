@@ -22,7 +22,7 @@ To customize the images used in route actions, perform the steps described in [G
 
    >[!NOTE]
    >
-   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/webdav-access.html?lang=en).
+   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
 
    >[!NOTE]
    >
