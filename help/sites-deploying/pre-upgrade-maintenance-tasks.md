@@ -35,7 +35,7 @@ Before beginning your upgrade, it is important to follow these maintenance tasks
 
 ## Index Definitions {#index-definitions}
 
-Make sure that you have installed the required index definitions released with AEM 6.5 Sevice Packs provided with AEM Service Pack 22 at a minimum (Refer to [AEM 6.5 servicepack release notes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) for more information). 
+Make sure that you have installed the required index definitions released with AEM 6.5 Service Packs, provided till AEM Service Pack 22 at minimum. (Refer to [AEM 6.5 servicepack release notes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) for more information). 
 
 ## Ensure Sufficient Disk Space {#ensure-sufficient-disk-space}
 
