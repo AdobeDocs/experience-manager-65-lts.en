@@ -9,20 +9,20 @@ role: Admin
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for the AEM 6.5 LTS war on WLP (WebSphere Liberty).
+>This page outlines the upgrade procedure for the AEM 6.5 LTS war on WLP (WebSphere&reg; Liberty).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for AEM 6.5 LTS. See how Analyzer can help you estimate the complexity of your upgrade and also see make a plan for the upgrade (see [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information). 
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md) and see [upgrade planning considerations](/help/sites-deploying/upgrade-planning.md) and how [Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity.
 
 ### Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version**: Make sure you have installed IBM Sumeru JRE 17 on your WLP server.
+* **Minimum Required Java version**: Make sure you have installed IBM&reg; Sumeru JRE 17 on your WLP server.
 
 ### Performing the Upgrade {#performing-the-upgrade}
 
 1. Perform a backup of your instance before starting any upgrade activity.
-1. Identify if you need in-place upgrade or sidegrade depending on the version of WLP server that you are using. If your current WLP server supports Servlet 6, then you can perform in-place upgrade and continue with this documentation. Otherwise, you need to perform sidegrade. For the sidegrade, please follow the Content Migration with Oak-Upgrade documentation - [TBD link to be added]
+1. Identify if you need in-place upgrade or sidegrade depending on the version of WLP server that you are using. If your current WLP server supports Servlet 6, then you can perform in-place upgrade and continue with this documentation. Otherwise, you need to perform sidegrade. For the sidegrade, setup a new WLP instance with AEM 6.5 LTS and migrate the content by following [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md) document.
 1. Stop the AEM instance. It can typically be done by using this command:
 
    ```shell
@@ -31,7 +31,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 1. Remove the files and folders that are no longer necessary. The items you need to specifically remove are:
 
-   * The `cq-quickstart-65.war` from the `dropins` folder and the expanded folder typically located at `<path-to-aem-server>/dropins/cq-quickstart-65.war` and `<path-to-aem-server>/apps/expanded/cq-quickstart-65.war` respectively
+   * The **cq-quickstart-65.war** from the `dropins` folder and the `expanded` folder typically located at `<path-to-aem-server>/dropins/cq-quickstart-65.war` and `<path-to-aem-server>/apps/expanded/cq-quickstart-65.war` respectively
    * The `launchpad/startup` folder. You can delete it by running the following command in the terminal assuming you are in the server folder: 
    
      ```shell
@@ -41,8 +41,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    * The `base.jar` file. You can do this by running the following commands:
 
      ```shell
-     find crx-quickstart/launchpad -type f -name 
-     "org.apache.sling.launchpad.base.jar*" -exec rm -f {} \;
+     find crx-quickstart/launchpad -type f -name "org.apache.sling.launchpad.base.jar*" -exec rm -f {} \;
      ``` 
 
    * The `BootstrapCommandFile_timestamp.txt` file:
@@ -72,7 +71,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    java -version
    ```
 
-1. Download the new war 6.5 LTS from Software distribution and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
+1. Download the new war 6.5 LTS and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  
    ```shell
@@ -87,8 +86,8 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ## Deploy Upgraded Codebase {#deploy-upgraded-codebase}
 
-Once the in-place upgrade process has been completed, the updated code base should be deployed. Steps for updating the code base to work in the target version of AEM can be found in the [Upgrade Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) page.
+Once the upgrade process has been completed, the updated code base should be deployed. Steps for updating the code base to work in the target version of AEM can be found in [Upgrade Code and Customizations page](/help/sites-deploying/upgrading-code-and-customizations.md).
 
 ## Perform Post-Upgrade-Checks-And-Troubleshooting {#perform-post-upgrade-checks-and-troubleshooting}
 
-See [Post Upgrade Checks and Troubleshooting](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md) for more information.
+See [Post Upgrade Checks and Troubleshooting](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md).
