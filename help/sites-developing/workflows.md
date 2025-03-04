@@ -37,7 +37,7 @@ Key aspects are covered below, while the following pages cover further details:
 >
 >* Participating in workflows, see [Using Workflows](/help/sites-authoring/workflows.md).
 >* Administering workflows and workflow instances, see [Administering Workflows](/help/sites-administering/workflows.md).
->* For an end-to-end Community Article, see [Modifying Digital Assets using Adobe Experience Manager Workflows.](https://experienceleague.adobe.com/docs/experience-manager-65-2025/assets/using/assets-workflow.html)
+>* For an end-to-end Community Article, see [Modifying Digital Assets using Adobe Experience Manager Workflows.](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/using/assets-workflow.html)
 >* See the [Ask the AEM Experts Webinar on Workflows](https://communities.adobeconnect.com/p5s33iburd54/).
 >* Changes to the locations of information, see [Workflow Best Practices - Locations](/help/sites-developing/workflows-best-practices.md#locations).
 >

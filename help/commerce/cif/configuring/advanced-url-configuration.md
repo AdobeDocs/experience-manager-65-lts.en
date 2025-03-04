@@ -15,7 +15,7 @@ role: Admin, Developer
 
 >[!NOTE]
 >
->Search Engine Optimization (SEO) has become a key concern for many marketers. As a result, SEO concerns must be addressed on many AEM Projects. See [SEO and URL Management Best Practices](https://experienceleague.adobe.com/docs/experience-manager-65-2025/managing/managing-further-reference/seo-and-url-management.html) for additional information.
+>Search Engine Optimization (SEO) has become a key concern for many marketers. As a result, SEO concerns must be addressed on many AEM Projects. See [SEO and URL Management Best Practices](https://experienceleague.adobe.com/docs/experience-manager-65-lts/managing/managing-further-reference/seo-and-url-management.html) for additional information.
 
 [AEM CIF Core Components](https://github.com/adobe/aem-core-cif-components) provides advanced configurations to customize the URLs for product and category pages. Many implementations customize these URLs for search engine optimization (SEO) purposes. The following video details how to configure the `UrlProvider` Service and features of [Sling Mapping](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html) to customize the URLs for product and category pages.
 
@@ -103,5 +103,5 @@ The [Venia Reference store](https://github.com/adobe/aem-cif-guides-venia) proje
 ## Additional Resources
 
 * [Venia Reference store](https://github.com/adobe/aem-cif-guides-venia)
-* [AEM Resource Mapping](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/resource-mapping.html)
+* [AEM Resource Mapping](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/resource-mapping.html)
 * [Sling Mappings](https://sling.apache.org/documentation/the-sling-engine/mappings-for-resource-resolution.html)

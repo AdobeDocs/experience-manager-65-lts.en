@@ -28,9 +28,9 @@ The following table lists resolution for all the impacted versions:
 
 | Release  | Current Version  | User action  |
 |---|---|---|
-| Experience Manager 6.5 Forms on JEE  |  6.5.19.0 | [Install the latest service pack](https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en) |
-| Experience Manager 6.5 Forms on JEE  |  6.5.13.0 - 6.5.18.0| Use one of the following methods: <ul><li>  <a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en"> Install the latest service pack </a> </li> <li> <a href ="#use-manual-mitigation-steps"> Use manual mitigation steps </a> |
-| Experience Manager 6.5 Forms on JEE  |  6.5 - 6.5.12.0 | [Install the latest service pack](https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en)  </br> </br> **NOTE:** AEM Forms currently support versions 6.5.13.0 through 6.5.19.0. If you're using an older version, we recommend upgrading to 6.5.13.0 or a later release. For instructions to install AEM 6.5.13.0 or later release, see release notes.|
+| Experience Manager 6.5 Forms on JEE  |  6.5.19.0 | [Install the latest service pack](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en) |
+| Experience Manager 6.5 Forms on JEE  |  6.5.13.0 - 6.5.18.0| Use one of the following methods: <ul><li>  <a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en"> Install the latest service pack </a> </li> <li> <a href ="#use-manual-mitigation-steps"> Use manual mitigation steps </a> |
+| Experience Manager 6.5 Forms on JEE  |  6.5 - 6.5.12.0 | [Install the latest service pack](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en)  </br> </br> **NOTE:** AEM Forms currently support versions 6.5.13.0 through 6.5.19.0. If you're using an older version, we recommend upgrading to 6.5.13.0 or a later release. For instructions to install AEM 6.5.13.0 or later release, see release notes.|
 
 ### Use manual mitigation steps {#use-manual-mitigation-steps}
 

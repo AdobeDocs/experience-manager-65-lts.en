@@ -25,7 +25,7 @@ Document security ensures that only authorized users can use your documents. Usi
 * Adobe PDF files
 * Microsoft&reg; Word, Excel, and PowerPoint files
 
-For more information about how policies protect supported file types, see [more document security information](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/use-document-security/document-security-offerings.html?lang=en).
+For more information about how policies protect supported file types, see [more document security information](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/use-document-security/document-security-offerings.html?lang=en).
 
 Using document security, you can easily create, store, and apply predefined confidentiality settings to your documents. To prevent information from spreading beyond your reach, you can also monitor and control how recipients use your documents after you distribute them.
 

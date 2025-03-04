@@ -571,7 +571,7 @@ Let's preview the form to observe how the custom functions are implemented throu
 
 >[!NOTE]
 >
-> You can refer to the following [custom functions](/help/forms/using/assets/customfunctions.zip) folder. Download and install this folder in your AEM instance using the [Package Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65-2025/content/sites/administering/contentmanagement/package-manager).
+> You can refer to the following [custom functions](/help/forms/using/assets/customfunctions.zip) folder. Download and install this folder in your AEM instance using the [Package Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/sites/administering/contentmanagement/package-manager).
 
 ### Support for asynchronous functions in custom functions {#support-of-async-functions}
 
