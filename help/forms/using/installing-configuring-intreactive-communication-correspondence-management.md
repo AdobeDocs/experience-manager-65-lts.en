@@ -92,7 +92,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
    1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
    2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
 1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
-1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
 1. Select the package and click **[!UICONTROL Install]**.
 
    You can also download the package via the direct link listed in the [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en) article.
@@ -142,7 +142,7 @@ Perform the following steps on all the Author and Publish instances to add the p
 
 #### Install Compatibility Package {#install-compatibility-package}
 
-Interactive communication is the default and recommended approach to create customer communications in AEM 6.5 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/upgrade-aem-forms/aem-forms-osgi-upgrade/compatibility-package.html?lang=en).
+Interactive communication is the default and recommended approach to create customer communications in AEM 6.5 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/upgrade-aem-forms/aem-forms-osgi-upgrade/compatibility-package.html?lang=en).
 
 The AEMFD Compatibility package lets you use the following assets from AEM 6.4 Forms, AEM 6.3 Forms, and AEM 6.2 Forms on AEM 6.5 Forms:
 
