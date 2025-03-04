@@ -64,7 +64,7 @@ The following image depicts senarios for using full and patch installer.
 
 ![Full Installer and Patch Installer](/help/forms/using/assets/full-and-patch-installer.png) 
 
-Refer to the [AEM 6.5 Forms Service Pack installation instructions](https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html) article to install the latest Service Pack for JEE environment.
+Refer to the [AEM 6.5 Forms Service Pack installation instructions](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html) article to install the latest Service Pack for JEE environment.
 
 <!--
 [Work in Progress]
