@@ -180,7 +180,7 @@ Before using custom error handler in an Adaptive Forms:
 
 ## Add error handler using Rule Editor {#add-error-handler-using-rule-editor}
 
-Using the [Rule Editor's Invoke Service](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, you define the validation criteria based on the data source that you use with the Adaptive Form. In case, you use RESTful web services as the data source, you can define the validation criteria in a Swagger definition file. By using the error handler functions and Rule Editor in Adaptive Forms, you can effectively manage and customize error handling. You define the conditions using Rule Editor and configure the desired actions to be performed when the rule is triggered. Adaptive Form validates the inputs that you enter in fields based on pre-set validation criteria. In case, the input values do not meet the validation criteria, the error messages are displayed at the field level in an Adaptive Form. 
+Using the [Rule Editor's Invoke Service](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, you define the validation criteria based on the data source that you use with the Adaptive Form. In case, you use RESTful web services as the data source, you can define the validation criteria in a Swagger definition file. By using the error handler functions and Rule Editor in Adaptive Forms, you can effectively manage and customize error handling. You define the conditions using Rule Editor and configure the desired actions to be performed when the rule is triggered. Adaptive Form validates the inputs that you enter in fields based on pre-set validation criteria. In case, the input values do not meet the validation criteria, the error messages are displayed at the field level in an Adaptive Form. 
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Using Rule Editor, you can:
 ### Add default error handler function {#add-default-errror-handler}
 
 A default error handler is supported to display error messages on fields if the error response is in standard schema or in server-side validation failure. 
-To understand how to use a default error handler using the [Rule Editor's Invoke Service](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, take an example of a simple Adaptive Form with two fields, **Pet ID** and **Pet Name** and use a default error handler at the **Pet ID** field to check for various errors returned by the REST endpoint configured to invoke an external service, for example, `200 - OK`,`404 - Not Found`, `400 - Bad Request`. To add a default error handler using the Rule Editor's Invoke Service action, execute the following steps:
+To understand how to use a default error handler using the [Rule Editor's Invoke Service](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, take an example of a simple Adaptive Form with two fields, **Pet ID** and **Pet Name** and use a default error handler at the **Pet ID** field to check for various errors returned by the REST endpoint configured to invoke an external service, for example, `200 - OK`,`404 - Not Found`, `400 - Bad Request`. To add a default error handler using the Rule Editor's Invoke Service action, execute the following steps:
 
 1. Open an Adaptive Form in authoring mode, select a form component and select **[!UICONTROL Rule Editor]** to open the rule editor.
 1. Select **[!UICONTROL Create]**.
@@ -225,7 +225,7 @@ In addition to the mentioned actions, the custom error handlers can be used to e
 
 The custom error handler is a function (Client Library) designed to respond to errors returned by an external service and deliver a customized response to end users. Any Client Library with annotation `@errorHandler` is considered as a custom error handler function. This annotation helps to identify the error handler function specified in the `.js` file. 
 
-To understand how to create and use a custom error handler using the [Rule Editor's Invoke service](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, let's take an example of Adaptive Form with two fields, **Pet ID** and **Pet Name** and use a custom error handler at the **Pet ID** field to check for various errors returned by the REST endpoint configured to invoke an external service, for example, `200 - OK`,`404 - Not Found`, `400 - Bad Request`.  
+To understand how to create and use a custom error handler using the [Rule Editor's Invoke service](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/adaptive-forms-advanced-authoring/rule-editor.html?lang=en#invoke) action, let's take an example of Adaptive Form with two fields, **Pet ID** and **Pet Name** and use a custom error handler at the **Pet ID** field to check for various errors returned by the REST endpoint configured to invoke an external service, for example, `200 - OK`,`404 - Not Found`, `400 - Bad Request`.  
 
 To add and use a custom error handler in an Adaptive Form, perform the following steps:
 

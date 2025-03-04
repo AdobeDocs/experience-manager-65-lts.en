@@ -63,4 +63,4 @@ Before setting communication between a Salesforce application and an AEM environ
 1. Click **[!UICONTROL Test Connection]**.
 1. If the connection succeeds, click the **[!UICONTROL Create]** button.
 
-Now, you can [create the Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/form-data-model/create-form-data-models.html?lang=en) to integrate the configured datasource with your Adaptive Forms.
+Now, you can [create the Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/form-data-model/create-form-data-models.html?lang=en) to integrate the configured datasource with your Adaptive Forms.
