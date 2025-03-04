@@ -169,4 +169,4 @@ If a user without the required AEM forms and CQ permissions, attempts to log int
 
 CQ provides a mechanism to override the default 404 handler jsp.
 
-For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/platform/customizing-errorhandler-pages.html?lang=en) in the Adobe Experience Manager documentation.
+For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/platform/customizing-errorhandler-pages.html?lang=en) in the Adobe Experience Manager documentation.
