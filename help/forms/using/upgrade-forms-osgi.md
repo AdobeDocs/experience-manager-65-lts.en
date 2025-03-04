@@ -8,9 +8,9 @@ feature: Adaptive Forms, AEM Forms on OSGi, AEM Forms Upgrade
 ---
 # Upgrade to AEM 6.5 Forms LTS on OSGi {#upgrade-to-aem-forms-osgi}
 
-After [upgrading from AEM 6.5 to AEM 6.5 LTS](/help/sites-deploying/upgrade.md), you can upgrade your AEM 6.5.22.0 Forms version. A direct upgrade is supported from AEM 6.5.22.0 to AEM 6.5 Forms LTS.  
+To [upgrade from AEM 6.5 to AEM 6.5 LTS](/help/sites-deploying/upgrade.md), upgrade to AEM 6.5.22.0 Forms or later. A direct upgrade from AEM 6.5.22.0 to AEM 6.5 Forms LTS is supported.  
 
-If you are using AEM 6.0 Forms, AEM 6.1 Forms, or AEM 6.2 Forms, a direct upgrade to AEM 6.5 Forms is not available. You must first upgrade to AEM 6.2 Forms, then proceed to AEM 6.3 Forms or AEM 6.4 Forms before upgrading to AEM 6.5 Forms. For detailed upgrade steps, refer to the [Previous Upgrades](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/upgrade-aem-forms/upgrade) documentation.  
+If you are using AEM 6.0 Forms, AEM 6.1 Forms, AEM 6.2 Forms, AEM 6.3 Forms, AEM 6.4 Forms or AEM 6.5 Forms, a direct upgrade to AEM 6.5 Forms LTS is not available. For detailed upgrade paths, refer to the [Upgrade Paths](/help/forms/using/upgrade.md) documentation.  
 
 After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrade to AEM 6.5 LTS Forms:
 
@@ -32,6 +32,7 @@ After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrad
 
        **Restart the AEM instance with the following additional JVM command-line parameters**:
        `--add-opens java.base/java.util=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED`
+       
        If the server is started via a script or service, update it accordingly to include the above so that these are effective after subsequent restarts as well.
 
 1. Restart the AEM instance.

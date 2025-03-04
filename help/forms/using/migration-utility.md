@@ -1,12 +1,7 @@
 ---
 title: Migrate AEM Forms assets and documents
-description: The Migration utility lets you Migrate Adobe Experience Manager (AEM) Forms assets and documents from AEM 6.3 Forms or prior versions to AEM 6.4 Forms.
+description: The Migration utility lets you Migrate Adobe Experience Manager (AEM) Forms assets and documents from AEM 6.5.22.0 Forms to AEM 6.5 Forms LTS.
 content-type: reference
-topic-tags: correspondence-management, installing
-geptopics: SG_AEMFORMS/categories/jee
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-content-strategy: max-2018
-docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
@@ -26,7 +21,7 @@ The Migration utility converts the [Adaptive Forms assets](../../forms/using/int
 
 ## Approach to migration {#approach-to-migration}
 
-You can [upgrade](../../forms/using/upgrade.md) to the [latest version of AEM Forms 6.5 LTS from AEM Forms 6.5.22.0](/help/forms/using/upgrade-forms-osgi.md). Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
+You can [upgrade](../../forms/using/upgrade.md) to the [AEM Forms 6.5 LTS from AEM Forms 6.5.22.0](/help/forms/using/upgrade-forms-osgi.md). Depending on whether you upgraded your previous installation or performed a fresh install, you must do one of the following:
 
 **If there is an in-place upgrade**
 

@@ -13,9 +13,9 @@ Interactive communication is the default and recommended approach to create cust
 
 The AEMFD Compatibility package also lets you [use the following assets from AEM Forms 6.5.22.0, 6.4, 6.3 and 6.2 on AEM Forms 6.5 LTS](../../forms/using/compatibility-package.md#add-support-for-aem-forms-and-assets-in-aem-forms)
 
-* Document fragments
+* Document Fragments
 * Letters
-* Data dictionaries
+* Data Dictionaries
 * Adaptive forms deprecated templates and pages
 
 For more information, see [Assets made compatible with AEM Forms 6.5 by installing the Compatibility package](../../forms/using/compatibility-package.md#assetsmadecompatible).
