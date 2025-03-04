@@ -14,7 +14,7 @@ role: Admin
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md) and see [upgrade planning considerations](help/sites-deploying/upgrade-planning.md) and how [Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md) and see [upgrade planning considerations](/help/sites-deploying/upgrade-planning.md) and how [Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity.
 
 <!--Finally, the downtime during the upgrade can be significally reduced by indexing the repository **before** performing the upgrade. For more information, see [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
 
