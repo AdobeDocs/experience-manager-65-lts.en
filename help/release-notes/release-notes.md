@@ -31,17 +31,13 @@ The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 * For optimal performance, override default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
 * Java&trade; 17 maintenance updates are distributed by Adobe for customer usage in AEM-related projects, when not publicly available from Oracle.
 
-#### Java&trade; Development {#java-development}
+#### Uberjar Packaging {#uber-jar-packaging}
 
-* There are now [two versions of the Uberjar](/help/sites-developing/ht-projects-maven.md#experience-manager-api-dependencies), a recommended version with public interfaces that are not marked for deprecation, and a version that includes only interfaces marked for deprecation.
+* There is slight difference in Uberjar packaging of AEM 6.5 LTS. For more information [refer](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version-update-the-aem-uber-jar-version).
 
 #### Upgrade {#upgrade}
 
 * For details about the upgrade procedure, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
-
-#### Repository {#repository}
-
-* The foundation of Adobe Experience Manager 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.0.
 
 ## Install and Update {#install-update}
 
@@ -56,7 +52,6 @@ Find the complete matrix of supported platforms including support-level on [AEM 
 >[!NOTE]
 >
 >Java&trade; 17 is the recommended version to use with AEM 6.5 LTS.
-
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 
@@ -89,15 +84,20 @@ This section lists features and capabilities that have been removed from AEM 6.5
 | Solutions| Social/Communities is not supported. | No replacement available. | 6.5 LTS GA |
 | Screens| Screens is not supported. | No replacement available. | 6.5 LTS GA |
 | Assets| `dam-pim` and `dam-rating` are not supported as bundles are dependent on social. | No replacement available. | 6.5 LTS GA |
+| Assets| `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettings()` has been removed. | Use the alternate api `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettingsList()` that has been added. | 6.5 LTS GA |
+| Portal| AEM Portal Director is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| Bundle `com.adobe.granite.socketio` is removed. | No replacement available. | 6.5 LTS GA |
 | Granite| `com.adobe.granite.crx-explorer` is not supported. | No replacement available. | 6.5 LTS GA |
+| Granite| `crx2oak` is not supported. | Pick relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
+| Adobe| `com.adobe.cq.cq-searchpromote-integration` is not supported. | No replacement available. | 6.5 LTS GA |
 | Guava| All guava dependencies are now removed in AEM and hence the `com.adobe.granite.osgi.wrapper.guava-15.0.0-0002` bundle is not part of AEM. |Customers can add guava on their own if they are dependent on guava or replace guava code with java collections or other alternates if possible. | 6.5 LTS GA |
 | We.Retail| We-retail sample site is not supported. | No replacement available. | 6.5 LTS GA |
 |Open Source| `oak-solr-osgi` bundle is not supported.| No replacement available. | 6.5 LTS GA |
 |Open Source| `org.apache.servicemix.bundles.abdera-parser`, `org.apache.servicemix.bundles.jdom` and `org.apache.sling.atom.taglib` are not supported.| No replacement available. | 6.5 LTS GA |
-|Open Source| `org.apache.commons.io packages` are now exported from `org.apache.commons.commons-io`.| No change required. | 6.5 LTS GA |
+|Open Source| `org.apache.commons.io` packages are now exported from `org.apache.commons.commons-io`.| No change required. | 6.5 LTS GA |
 |Open Source| `javax.mail` packages are being exported from the `com.sun.javax.mail` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
+|Open Source| `com.github.jknack.handlebars` is not supported| Pick relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
 ## Restricted Websites{#restricted-sites}
 

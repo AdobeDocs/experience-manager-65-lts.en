@@ -24,7 +24,7 @@ The AEM Upgrade process needs carefully handled planning, analysis, and executio
 >
 >The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs
 
-It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the TBD: link to technical requirement of AEM 6.5 LTS. Upgrading these components must be accounted for in your upgrade plan and should take place before upgrading AEM.
+It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, refer the [technical requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your upgrade plan and should take place before upgrading AEM.
 
 <!-- Alexandru: drafting for now
 
@@ -100,15 +100,15 @@ New features in AEM 6.5 can be found in [the AEM section of adobe.com](/help/rel
 
 ### Creating a Test Plan {#creating-a-test-plan}
 
-Each customer's implementation of AEM is unique and has been customized to meet their business requirements. As a result, it is important to determine all the customizations that have been made to the system so that they can be included in a test plan. This test plan will power the QA process that Adobe performs on the upgraded instance.
+Each customer's implementation of AEM is unique and has been customized to meet their business requirements. As a result, it is important to determine all the customizations that have been made to the system so that they can be included in a test plan.
 
 The exact production environment needs to be duplicated and testing should be performed on it after the upgrade to make sure all applications and custom code still run as desired. Regress all your customization and run performance, load, and security testing. When organizing your test plan, make sure to cover all customizations that have been made to the system in addition to out of the box UIs and workflows that are used in your day to day operations. These can include custom OSGI services and servlets, integrations to the Adobe Experience Cloud, integrations with third parties through AEM connectors, custom third-party integrations, custom components and templates, custom UI overlays in AEM, and custom workflows. Aditionally, custom queries should still be tested to ensure that their indexes are continuing to work effectively after upgrading.
 
 ### Assessing Upgrade Complexity {#assessing-upgrade-complexity}
 
-Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade. Analyzer for AEM can help you in assessing the complexity of the upgrade.
+Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade. [AEM Analyzer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) can help you in assessing the complexity of the upgrade.
 
-The AEM Analyer for AEM 6.5 LTS should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5 LTS according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for 6.5 LTS compatibility. When combined with the AEM analyzer and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
+The [AEM Analyer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5 LTS according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for AEM 6.5 LTS compatibility. When combined with the [AEM analyzer](/help/sites-deploying/pattern-detector.md) and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
 
 ### Building the Upgrade and Rollback Runbook {#building-the-upgrade-and-rollback-runbook}
 
@@ -122,7 +122,7 @@ Adobe has provided upgrade and rollback procedures in [Upgrade Procedure](/help/
 
 ### Developing an Upgrade Plan {#developing-an-upgrade-plan}
 
-The output from the previous exercises can be used to build an upgrade plan covering the expected timelines for your test or development efforts, training, and actual upgrade execution.
+The output from the previous exercises can be used to build an upgrade plan covering the expected timelines for your test or development efforts, and actual upgrade execution.
 
 <!--Alexandru: drafting for now
 
