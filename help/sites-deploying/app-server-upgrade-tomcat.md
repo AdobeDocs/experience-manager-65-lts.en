@@ -49,7 +49,7 @@ All the examples in this procedure use Tomcat as the Application Server and impl
    $CATALINA_HOME/bin/catalina.sh stop
    ```
 
-1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS by following the steps defined in [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
+1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS by following the steps here: [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
 1. Once the content has been migrated, apply any custom changes required in the `sling.properties` file
 1. Start the AEM 6.5 LTS Tomcat server by running:
 
