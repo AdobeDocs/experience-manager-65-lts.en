@@ -14,9 +14,9 @@ This document provides a comprehensive guide for upgrading Adobe Experience Mana
 
 Before starting the migration, ensure the following requirements are met:
 
-1. Java Compatibility: AEM 6.5 LTS must be installed and configured to run with Java 17. Once set up, start the AEM instance and verify that all bundles are active and running without issues
+1. Java Compatibility: AEM 6.5 LTS must be installed and configured to run with Java&trade; 17. Once set up, start the AEM instance and verify that all bundles are active and running without issues
 1. System Resources: Ensure adequate disk space and memory are available to handle both repositories during the migration process
-1. Oak-upgrade Tool: Download the `oak-upgrade` jar from the [official Maven repository](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade). Ensure that the version matches the oak-core version used in AEM 6.5 LTS. Oak-upgrade tool runs on Oracle Java 11 or later
+1. Oak-upgrade Tool: Download the `oak-upgrade` jar from the [official Maven repository](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade). Ensure that the version matches the oak-core version used in AEM 6.5 LTS. Oak-upgrade tool runs on Oracle&reg; Java&trade; 11 or later
 
 ## Step by Step Migration Process {#step-by-step-migration-process}
 
