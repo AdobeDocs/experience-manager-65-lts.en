@@ -133,9 +133,9 @@ The 6.5 LTS Analyzer provides an HTTP interface that may be used as an alternati
 
 The following URLs are available for HTTP access, where `<host>` is the hostname, alongside port if necessary, of the server on which the Analyzer is installed:
 
-* *http://<host>/apps/aem66-analyzer/analysis/report.json* for JSON format
-* *http://<host>/apps/aem66-analyzer/analysis/report.csv* for CSV format
-* *http://<host>/apps/aem66-analyzer/analysis/report.tsv* for TSV format
+* `http://<host>/apps/aem66-analyzer/analysis/report.json` for JSON format
+* `http://<host>/apps/aem66-analyzer/analysis/report.csv` for CSV format
+* `http://<host>/apps/aem66-analyzer/analysis/report.tsv` for TSV format
 
 ### Executing an HTTP Request {#executing-an-http-request}
 
