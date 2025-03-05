@@ -28,6 +28,18 @@ The Universal Editor is a service that works in tandem with AEM to author conten
 
 ![Author flow using the Universal Editor](assets/author-flow.png)
 
+## Requirements {#requirements}
+
+The Universal Editor is supported by:
+
+* AEM 6.5 LTS 
+  * Both on-premises and AMS hosting are supported.
+* [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/headless/universal-editor/introduction) (service pack 21 or 22 plus a feature pack)
+  * Both on-premises and AMS hosting are supported.
+* [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction) (release `2023.8.13099` or higher)
+
+This document focuses on AEM 6.5 LTS support of the Universal Editor.
+
 ## Setup {#setup}
 
 In order to test the Universal Editor you will need to:
