@@ -41,7 +41,7 @@ All code and configurations required for your AEM implementation should be manag
 
 ### Update the AEM Uber Jar version {#update-the-aem-uber-jar-version}
 
-The AEM Uber jar includes all AEM APIs as a single dependency in your Maven project's `pom.xml`. It is always a best practice to include the Uber Jar as a single dependency instead of including individual AEM API dependencies. When upgrading the code base, change the version of the Uber Jar to point to the AEM 6.5 LTS version. Update any deprecated APIs or methods so they are compatible with the target version of AEM. Recompile the code base against the new version of the Uber Jar.
+The AEM Uber jar includes all AEM APIs as a single dependency in your Maven project's `pom.xml`. It is always a best practice to include the Uber Jar as a single dependency instead of including individual AEM API dependencies. When upgrading the code base, change the version of the Uber Jar to point to the 6.5 LTS version of AEM. Update any deprecated APIs or methods so they are compatible with the target version of AEM. Recompile the code base against the new version of the Uber Jar.
 
 ```
 <dependency>
