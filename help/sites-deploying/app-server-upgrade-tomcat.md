@@ -9,7 +9,7 @@ role: Admin
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for the AEM 6.5 LTS war on Tomcat.
+>This page outlines the upgrade procedure for the AEM 6.5 LTS on Tomcat.
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
@@ -35,7 +35,7 @@ All the examples in this procedure use Tomcat as the Application Server and impl
    ```
 
 1. Set up an AEM 6.5 LTS compatible Tomcat server
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Custom Standalone install](/help/sites-deploying/custom-standalone-install.md) for more information
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
 1. Deploy the newly downloaded 6.5 LTS war on the Tomcat server using Java 17 and start AEM 6.5 LTS Tomcat server by running:
 
    ```
@@ -43,13 +43,13 @@ All the examples in this procedure use Tomcat as the Application Server and impl
    ```
 
 1. Once the AEM is up and running, make sure all the bundles are in running state by accessing: *`https://<serveraddress:port>/cq/system/console/bundles`*
-1. Now stop the AEM 6.5 LTS Tomcat server. In most situations, you can do this by running the `./catalina.sh` script, by running this command from the terminal:
+1. Stop the AEM 6.5 LTS Tomcat server. In most situations, you can do this by running the `./catalina.sh` script, by running this command from the terminal:
 
    ```
    $CATALINA_HOME/bin/catalina.sh stop
    ```
 
-1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS using this tutorial: [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
+1. Now migrate your content from AEM 6.5 to AEM 6.5 LTS by following the steps defined in [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)
 1. Once the content has been migrated, apply any custom changes required in the `sling.properties` file
 1. Start the AEM 6.5 LTS Tomcat server by running:
 
