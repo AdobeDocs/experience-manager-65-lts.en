@@ -23,10 +23,10 @@ Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how
 
 ### Performing the Upgrade {#performing-the-upgrade}
 
-1. Make sure that you have completed the [pre-upgrade](#pre-upgrade-steps) activities like backup of AEM 6.5 server before performing any upgrade activity
+1. Make sure that you have completed the [pre-upgrade](#pre-upgrade-steps) steps like backing up the AEM 6.5 server before performing any upgrade activity
 1. Depending on your requirements, choose one of the following upgrade paths:
-   1. In-Place Upgrade: If your current WLP server supports Servlet 6, you can perform an in-place upgrade and continue with step 3.
-   1. Sidegrade: If you prefer a fresh setup or if your WLP server does not support Servlet 6, set up a new WLP instance with AEM 6.5 LTS and migrate the content using the [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md) guide and skip to [Deploy Upgraded Codebase](#deploy-upgraded-codebase) section.
+   1. **In-Place Upgrade**: If your current WLP server supports Servlet 6, you can perform an in-place upgrade and continue with step 3.
+   1. **Sidegrade**: If you prefer a fresh setup or if your WLP server does not support Servlet 6, set up a new WLP instance with AEM 6.5 LTS and migrate the content by following the [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md) guide and skip to [Deploy Upgraded Codebase](#deploy-upgraded-codebase) section
 
 1. Stop the AEM instance. It can typically be done by using this command:
 
@@ -75,7 +75,7 @@ Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how
    java -version
    ```
    
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to your requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
 1. Download the new 6.5 LTS war and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  
