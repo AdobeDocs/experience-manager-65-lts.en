@@ -13,7 +13,9 @@ role: Admin
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md) and see [upgrade planning considerations](/help/sites-deploying/upgrade-planning.md) and how [Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md).
+
+Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how the [AEM Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity around upgrading AEM.
 
 ### Migration Prerequisites {#migration-prerequisites}
 
@@ -72,6 +74,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    ```shell
    java -version
    ```
+   
 1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
 1. Download the new 6.5 LTS war and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
