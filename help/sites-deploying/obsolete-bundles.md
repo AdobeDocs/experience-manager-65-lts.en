@@ -93,7 +93,7 @@ When upgrading to AEM 6.5 LTS the following bundles will be automatically uninst
 * org.apache.jackrabbit.oak-solr-osgi
 * com.adobe.cq.cq-searchpromote-integration
 
-The following bundles are not included in fresh AEM 6.5 LTS instance. After the upgrade you might find following bundles in non-active states that can be removed manually: 
+The following bundles are not included in a fresh AEM 6.5 LTS instance. After the upgrade you might find these bundles in non-active states. They can be removed manually:
 
 * org.apache.sling.atom.taglib
 * com.github.jknack.handlebars
