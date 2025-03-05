@@ -31,17 +31,15 @@ Before beginning your upgrade, it is important to follow these maintenance tasks
 * [Execute Offline Revision Cleanup](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#execute-offline-revision-cleanup)
 * [Execute Datastore Garbage Collection](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#execute-datastore-garbage-collection)
 * [Upgrade the Database Schema If Needed](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#upgradethedatabaseschemaifneeded)
-* [Delete Users that Might Hinder the Upgrade](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#delete-users-that-might-hinder-the-upgrade)
-
 * [Rotate Log Files](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#rotate-log-files)
 
 ## Index Definitions {#index-definitions}
 
-Make sure that you have installed the required index definitions released with AEM 6.5 Sevice Packs provided with AEM Service Pack 22 at a minimum (Refer to [AEM 6.5 servicepack release notes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) for more information). 
+Make sure that you have installed the required index definitions released with AEM 6.5 Service Packs provided until AEM Service Pack 22 at a minimum. (Refer to [AEM 6.5 servicepack release notes](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes) for more information). 
 
 ## Ensure Sufficient Disk Space {#ensure-sufficient-disk-space}
 
-When executing the upgrade, in addition to the content and code upgrade activities, a repository migration must be performed. The migration creates a copy of the repository in the new Segment Tar format. As a result, you need enough disk space to retain a second, potentially larger, version of your repository.
+When executing the upgrade, ensure that there is enough disk space.
 
 ## Fully Back Up AEM {#fully-back-up-aem}
 
@@ -55,7 +53,6 @@ When starting AEM from the jar file, a `quickstart.properties` file is generated
 
 The `WorkflowPurgeTask` and `com.day.cq.audit.impl.AuditLogMaintenanceTask` tasks require separate OSGi configurations and cannot work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at [Administering Workflow Instances](/help/sites-administering/workflows-administering.md) and audit log maintenance task configuration can be found at [Audit Log Maintenance in AEM 6](/help/sites-administering/operations-audit-log.md).
 
-For workflow and audit log purging on CQ 5.6 and audit log purging on AEM 6.0, see [Purge workflow and audit nodes](https://helpx.adobe.com/experience-manager/kb/howtopurgewf.html).
 
 ## Install, Configure, and Run The Pre-Upgrade Tasks {#install-configure-run-pre-upgrade-tasks}
 
@@ -143,7 +140,7 @@ Disable any OSGi scheduled jobs that are included in your application code.
 >
 >This step is only necessary for TarMK installations
 
-If using TarMK, you should run Offline Revision Cleanup before upgrading. Doing so makes the repository migration step and subsequent upgrade tasks execute much faster and helps to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see [Performing Offline Revision Cleanup](/help/sites-deploying/storage-elements-in-aem-6.md#performing-offline-revision-cleanup).
+If using TarMK, you should run Offline Revision Cleanup before upgrading. Doing so makes the repository migration step and subsequent upgrade tasks execute much faster and helps to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see [Performing Offline Revision Cleanup](/help/sites-deploying/revision-cleanup.md#revision-cleanuprevision-cleanup).
 
 ## Execute Datastore Garbage Collection {#execute-datastore-garbage-collection}
 
