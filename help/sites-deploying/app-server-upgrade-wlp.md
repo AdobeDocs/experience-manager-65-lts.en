@@ -9,7 +9,7 @@ role: Admin
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for the AEM 6.5 LTS war on WLP (WebSphere&reg; Liberty).
+>This page outlines the upgrade procedure for the AEM 6.5 LTS on WLP (WebSphere&reg; Liberty).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
@@ -21,8 +21,11 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ### Performing the Upgrade {#performing-the-upgrade}
 
-1. Perform a backup of your instance before starting any upgrade activity.
-1. Identify if you need in-place upgrade or sidegrade depending on the version of WLP server that you are using. If your current WLP server supports Servlet 6, then you can perform in-place upgrade and continue with this documentation. Otherwise, you need to perform sidegrade. For the sidegrade, setup a new WLP instance with AEM 6.5 LTS and migrate the content by following [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md) document.
+1. Make sure that you have completed the [pre-upgrade](#pre-upgrade-steps) activities like backup of AEM 6.5 server before performing any upgrade activity
+1. Depending on your requirements, choose one of the following upgrade paths:
+   1. In-Place Upgrade: If your current WLP server supports Servlet 6, you can perform an in-place upgrade and continue with step 3.
+   1. Sidegrade: If you prefer a fresh setup or if your WLP server does not support Servlet 6, set up a new WLP instance with AEM 6.5 LTS and migrate the content using the [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md) guide and skip to [Deploy Upgraded Codebase](#deploy-upgraded-codebase) section.
+
 1. Stop the AEM instance. It can typically be done by using this command:
 
    ```shell
@@ -64,14 +67,13 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 1. Make a backup of the `sling.properties` file (usually present in `crx-quickstart/conf/`) and delete it
 1. Change the version of servlet to **6.0** in the `server.xml` file
-1. Review the start parameters for the AEM server and make sure to update the parameters according to your system requirements. See [Custom Standalone Install](/help/sites-deploying/custom-standalone-install.md) for more information
 1. Install Java 17 and make sure that it is correctly installed by running: 
 
    ```shell
    java -version
    ```
-
-1. Download the new war 6.5 LTS and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
+1. Download the new 6.5 LTS war and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  
    ```shell
@@ -81,7 +83,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 1. In case you have custom changes in `sling.properties`, please follow the below instructions:
 
    1. Stop the AEM instance by running `<path-to-wlp-directory>/bin/server stop server_name`
-   1. Apply your custom `sling.properties` changes to newly generated `sling.properties` file (by referring the backup file created at step 6)
+   1. Apply your custom `sling.properties` changes to newly generated `sling.properties` file (by referring the backup file created at step 5)
    1. Start the AEM instance. It can be done typically by running: `<path-to-wlp-directory>/bin/server start server_name`
 
 ## Deploy Upgraded Codebase {#deploy-upgraded-codebase}
