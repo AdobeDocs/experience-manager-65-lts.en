@@ -1460,6 +1460,7 @@ user-guide-title: AEM 6.5 LTS
         + [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
         + [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
         + [Assessing the Upgrade Complexity with the Pattern Detector](/help/sites-deploying/pattern-detector.md)
+        + [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/aem-analyzer.md)
         + [Backward Compatibility in AEM 6.5 LTS](/help/sites-deploying/backward-compatibility.md)
         + [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)
         + [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md)
