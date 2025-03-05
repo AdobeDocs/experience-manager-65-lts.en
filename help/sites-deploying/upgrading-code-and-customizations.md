@@ -27,7 +27,7 @@ When planning an upgrade, the following areas of an implementation must be inves
 
 ## Overview {#overview}
 
-1. **AEM Analyzer** - Run the AEM Analyzer as described in upgrade planning, and described in detail on the [Assessing the Upgrade Complexity with AEM Analyzer](/help/sites-deploying/pattern-detector.md) page. You get a AEM Analyzer report that contains more details on areas that must be addressed in addition to the unavailable APIs/bundles in the Target version of AEM. The PAEM Analyzer report gives you an indication of any incompatibilities in your code. If none exists, then your deployment is already 6.5 LTS compatible. You can still choose to do new development for using 6.5 LTS functionality, but you do not need it just for maintaining compatibility. 
+1. **AEM Analyzer** - Run the AEM Analyzer as described in upgrade planning, and described in detail on the [Assessing the Upgrade Complexity with AEM Analyzer](/help/sites-deploying/aem-analyzer.md) page. You get a AEM Analyzer report that contains more details on areas that must be addressed in addition to the unavailable APIs/bundles in the Target version of AEM. The AEM Analyzer report gives you an indication of any incompatibilities in your code. If none exists, then your deployment is already 6.5 LTS compatible. You can still choose to do new development for using 6.5 LTS functionality, but you do not need it just for maintaining compatibility. 
 
 1. **Develop Code Base for 6.5 LTS**- Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.
 1. **Compile with 6.5 LTS Uber jar**- Update code base POMs to point to 6.5.2025 uber jar and compile code against it.
