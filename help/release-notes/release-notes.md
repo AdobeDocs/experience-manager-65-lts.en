@@ -21,7 +21,7 @@ The list below provides an overview - while the subsequent pages list the full d
 
 ### [!DNL Experience Manager Foundation] {#experience-manager-foundation}
 
-The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.0.
+The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.x.
 
 The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 
