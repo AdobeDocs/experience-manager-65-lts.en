@@ -5,6 +5,7 @@ contentOwner: AG
 role: Admin, Architect
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: d2cb447c-69d6-4659-a29e-02af22b543fd
 ---
 # Best practices to monitor [!DNL Adobe Experience Manager Assets] deployment {#assets-monitoring-best-practices}
 

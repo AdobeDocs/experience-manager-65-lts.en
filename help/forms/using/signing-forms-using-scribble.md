@@ -1,12 +1,13 @@
 ---
 title: Apply electronic signatures to a form using scribble signatures
-description: Learn how to sign AEM Adaptive Forms using the scribble signature. You can use the scribble signature and signature step to draw the signature on a form. 
+description: Learn how to sign AEM Adaptive Forms using the scribble signature. You can use the scribble signature and signature step to draw the signature on a form.
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 9d1a22da-2eb3-4c79-8c4d-4d0a3ed7fe3b
 ---
 # Apply electronic signatures to a form using scribble signatures{#apply-electronic-signatures-to-a-form-using-deprecated-scribble-signatures}
 

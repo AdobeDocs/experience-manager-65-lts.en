@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: a3108797-8085-4683-971f-509e7bfa06b0
 ---
-
 # Integrating AEM 6.5 with Adobe Campaign Classic {#integrating-campaign-classic}
 
 By integrating AEM with Adobe Campaign Classic (ACC), you can manage email delivery, content, and forms directly in AEM. Configuration steps in both Adobe Campaign Classic and AEM are needed to enable bidirectional communication between solutions.

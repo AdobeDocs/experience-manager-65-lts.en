@@ -4,6 +4,7 @@ description: Learn how to connect AEM to a translation service.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,Language Copy
 role: Admin, Architect,Data Architect,Developer,User,Leader
+exl-id: 8f8f0e13-19ab-4324-a4de-98f0fbfe3882
 ---
 # Configure the Translation Integration {#configure-integration}
 

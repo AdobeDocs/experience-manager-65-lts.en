@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: bc621086-8128-4836-a580-dca99f61c439
 ---
 # Experience Fragments {#experience-fragments}
 

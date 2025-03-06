@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: b8e413e0-1387-46c7-891a-85d5fc61288b
 ---
 # Home screen{#home-screen}
 

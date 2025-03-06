@@ -8,6 +8,7 @@ discoiquuid: 9459c414-eac9-4bd9-a773-cceaeb736c56
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 23ca3bff-1a7e-48cc-83b7-b2ec8545cd00
 ---
 # Layout capabilities of adaptive forms{#layout-capabilities-of-adaptive-forms}
 

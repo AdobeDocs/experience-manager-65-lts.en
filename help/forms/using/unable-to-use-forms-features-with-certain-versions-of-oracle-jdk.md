@@ -4,6 +4,7 @@ description: Unable to use Experience Manager Forms with certain versions of Ora
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 4aa45f02-ff89-4e40-a15d-e62c5879a87d
 ---
 # Unable to use Experience Manager Forms with certain versions of Oracle JDK {#unable-to-use-forms-with-certain-versions-of-oracle-jdk}
 

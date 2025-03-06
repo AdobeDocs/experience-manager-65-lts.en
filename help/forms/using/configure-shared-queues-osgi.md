@@ -7,6 +7,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi
 role: Admin, User, Developer
+exl-id: 085fa402-d521-4863-876d-c674317b9ade
 ---
 # Share and request access to Inbox items of a user {#share-and-request-access}
 

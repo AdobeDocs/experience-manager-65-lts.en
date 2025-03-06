@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 39473f0a-e4ee-4372-a0ea-ccf5d32501b9
 ---
 # Exporting Experience Fragments to Adobe Target{#exporting-experience-fragments-to-adobe-target}
 

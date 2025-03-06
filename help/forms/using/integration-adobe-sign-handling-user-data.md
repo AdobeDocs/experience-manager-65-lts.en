@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Acrobat Sign
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
+exl-id: 90521ad8-703e-402b-81dd-4c06f5894358
 ---
 # Integration with Adobe Sign | Handling user data {#integration-with-adobe-sign-handling-user-data}
 

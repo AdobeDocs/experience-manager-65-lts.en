@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 219555d8-26e1-4047-b885-ec34084154c1
 ---
 # Configuring Cookie Usage{#configuring-cookie-usage}
 

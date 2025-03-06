@@ -4,6 +4,7 @@ description: The RemotePage Component is a custom page component for editing rem
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: 9c8dff52-3860-4f71-a0d9-993574f1d654
 ---
 # The RemotePage Component {#remote-page-component}
 

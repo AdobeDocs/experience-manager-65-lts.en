@@ -1,18 +1,14 @@
 ---
 title: Generate PDF Service Java API QuickStart(SOAP)
-
 description: Use the Generate PDF service to convert a Microsoft Word document to a PDF document, convert HTML content to a PDF document, convert a PDF document to an RTF file using the Java API.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 87b9f386-5a60-48fa-a25f-2aeb166c9d1b
 ---
 # Generate PDF Service Java API Quick Start (SOAP) {#generate-pdf-service-java-api-quickstart-soap}
 

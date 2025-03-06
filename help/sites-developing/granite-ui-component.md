@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: e49d1d3d-984c-4b08-b0e5-2016fbff0b80
 ---
 # Creating a New Granite UI Field Component{#creating-a-new-granite-ui-field-component}
 

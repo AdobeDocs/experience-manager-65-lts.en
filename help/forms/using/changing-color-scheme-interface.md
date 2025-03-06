@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: f15ead5f-d48c-401c-98c5-b58f93776f82
 ---
 # Changing the color scheme of the interface {#changing-the-color-scheme-of-the-interface}
 

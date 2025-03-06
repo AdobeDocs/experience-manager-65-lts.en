@@ -7,6 +7,7 @@ content-type: reference
 feature: Accessibility
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 0aebf16a-4115-4656-b583-1a293478c9a1
 ---
 # Accessibility in [!DNL Dynamic Media] {#working-with-three-d-assets-dm}
 

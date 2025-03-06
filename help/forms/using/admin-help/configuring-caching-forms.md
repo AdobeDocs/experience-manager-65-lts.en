@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 3606e945-7f97-482f-9010-75314c23f6ac
 ---
 # Configuring caching for Forms{#configuring-caching-for-forms}
 

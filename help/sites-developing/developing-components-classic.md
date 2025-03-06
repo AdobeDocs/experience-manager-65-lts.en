@@ -9,6 +9,7 @@ legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d44e6ea8-b4e5-4ed7-a6d0-de1da2709e18
 ---
 # Developing Adobe Experience Manager (AEM) Components (Classic UI){#developing-aem-components-classic-ui}
 

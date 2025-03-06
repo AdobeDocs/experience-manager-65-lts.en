@@ -1,17 +1,14 @@
 ---
 title: Extracting Strings for Translating
-
 description: Use xgettext-maven-plugin to extract strings from your source code that need translating
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: components
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d6aa0ff8-01b8-48ef-93f3-59edb9cd50bd
 ---
 # Extracting Strings for Translating{#extracting-strings-for-translating}
 

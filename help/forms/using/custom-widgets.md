@@ -1,19 +1,15 @@
 ---
 title: Create custom appearances in HTML5 forms
-
 description: You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets.
-
-
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
-
 docset: aem65
-
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 7d9fadf8-c48a-424e-8b71-18ffd0328a13
 ---
 # Create custom appearances in HTML5 forms{#create-custom-appearances-in-html-forms}
 

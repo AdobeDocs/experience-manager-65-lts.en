@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 15471908-feb1-4178-a24d-7cefe7717820
 ---
 # Code Samples{#code-samples}
 

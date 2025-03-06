@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: d6f7807b-e1d9-4ecc-a1f7-c994f55d8ef7
 ---
 # Integrating with Adobe Learning Manager{#integrating-with-adobe-learning}
 

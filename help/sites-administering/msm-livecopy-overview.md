@@ -1,17 +1,14 @@
 ---
 title: Live Copy Overview Console
-
 description: Learn about the basics of the Live Copy Overview Console.
-
-
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: site-features
 content-type: reference
-
 feature: Multi Site Manager
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: ddd50c64-0f17-4638-a57e-17ededaca27b
 ---
 # Live Copy Overview Console{#live-copy-overview-console}
 

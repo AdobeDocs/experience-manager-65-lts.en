@@ -9,6 +9,7 @@ docset: aem65
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: e95f382b-ae89-46d5-b109-ea3257b6b046
 ---
 # Custom User Group Mapping in AEM 6.5 {#custom-user-group-mapping-in-aem}
 

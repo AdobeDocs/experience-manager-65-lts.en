@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: d9ffc796-1c2b-4fa6-b434-fb3ee03d40b5
 ---
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}
 

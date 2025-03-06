@@ -8,6 +8,7 @@ topic-tags: platform
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Search,Query Builder
 role: Developer
+exl-id: c044d541-24d6-4975-9b38-6a4317a16358
 ---
 # Query Builder Predicate Reference{#query-builder-predicate-reference}
 

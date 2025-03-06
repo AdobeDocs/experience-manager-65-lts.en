@@ -5,10 +5,10 @@ contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 14264788-a05a-4a8d-b485-33ae1caac094
 ---
 # Adding, enabling, modifying, or removing endpoints {#adding-enabling-modifying-or-removing-endpoints}
 

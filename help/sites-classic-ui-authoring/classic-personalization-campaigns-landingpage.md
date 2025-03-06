@@ -4,6 +4,7 @@ description: The landing pages feature allows quick and easy importing of a desi
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 827e5440-6451-41be-b565-c2fb7668b3da
 ---
 # Landing Pages{#landing-pages}
 

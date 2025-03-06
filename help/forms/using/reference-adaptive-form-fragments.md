@@ -1,12 +1,13 @@
 ---
 title: Reference adaptive form fragments
-description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. 
+description: AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly.
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer
+exl-id: 98ca5aa6-f801-4940-a458-a8e698ff2842
 ---
 # Reference adaptive form fragments{#reference-adaptive-form-fragments}
 

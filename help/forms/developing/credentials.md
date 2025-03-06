@@ -1,18 +1,14 @@
 ---
 title: Working with Credentials
-
 description: Import credentials into AEM Forms using the Trust Manager API and Java API. In addition, learn how to delete credentials using the Trust Manager API and Java API.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: b3a0eb20-5b85-45a3-a416-a16a9f44acc5
 ---
 # Working with Credentials {#working-with-credentials} 
 

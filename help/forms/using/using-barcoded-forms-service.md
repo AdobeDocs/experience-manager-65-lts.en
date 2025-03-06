@@ -8,6 +8,7 @@ docset: aem65
 feature: Document Services,Assembler,Barcoded Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: f823d240-88c7-4357-9dbb-6cc069451721
 ---
 # Barcoded Forms Service{#barcoded-forms-service}
 

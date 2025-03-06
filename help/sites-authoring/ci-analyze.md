@@ -1,18 +1,15 @@
 ---
 title: Analyzing Page Performance
-
 description: Use the Content Insight page to analyze the performance of the page that you are authoring
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Integration
 role: User,Admin,Architect,Developer
+exl-id: 075c4150-e7e2-4374-afe0-31855bffe438
 ---
 # Analyzing Page Performance{#analyzing-page-performance}
 

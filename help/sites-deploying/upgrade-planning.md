@@ -9,6 +9,7 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 3fe5421e-e97e-43c4-b34b-b84bf189a779
 ---
 # Planning Your Upgrade {#planning-your-upgrade}
 
@@ -106,9 +107,9 @@ The exact production environment needs to be duplicated and testing should be pe
 
 ### Assessing Upgrade Complexity {#assessing-upgrade-complexity}
 
-Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade. [AEM Analyzer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) can help you in assessing the complexity of the upgrade.
+Due to the wide variety in the amount and nature of customizations that Adobe customers apply to their AEM environments, it is important to spend some time up front to determine the overall level of effort that should be expected in your upgrade. [AEM Analyzer for AEM 6.5 LTS](/help/sites-deploying/aem-analyzer.md) can help you in assessing the complexity of the upgrade.
 
-The [AEM Analyer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5 LTS according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for AEM 6.5 LTS compatibility. When combined with the [AEM analyzer](/help/sites-deploying/pattern-detector.md) and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
+The [AEM Analyer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) should give you a fairly accurate estimate of what to expect during an upgrade for most cases. However, for more complex customizations and deployments where you have incompatible changes, you can upgrade a development instance to AEM 6.5 LTS according to the instructions in [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). Once complete, perform some high-level smoke testing on this environment. The goal of this exercise is not to exhaustively complete the test case inventory and produce a formal inventory of defects, but to give us a rough estimate of the amount of work that will be required to upgrade the code for AEM 6.5 LTS compatibility. When combined with the [AEM Analyzer](/help/sites-deploying/aem-analyzer.md) and the architectural changes that were determined in the previous section, a rough estimate can be provided to the project management team for planning the upgrade.
 
 ### Building the Upgrade and Rollback Runbook {#building-the-upgrade-and-rollback-runbook}
 

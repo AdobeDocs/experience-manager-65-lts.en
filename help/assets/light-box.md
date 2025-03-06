@@ -5,6 +5,7 @@ contentOwner: AG
 role: User, Admin
 feature: Developer Tools,Renditions
 solution: Experience Manager, Experience Manager Assets
+exl-id: 913b8c5a-c532-43a0-93ce-0b96dd5eec54
 ---
 # Lightbox {#lightbox}
 

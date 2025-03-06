@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: 558cf29b-34f4-4ead-b8d6-67ef8aaa5dc5
 ---
 # Personalization {#personalization}
 
@@ -160,4 +161,3 @@ Various components are provided with AEM for personalization. Some allow users t
 | Sign out |Indicates the user currently logged in, and gives you a link to log out. |
 | Tag Cloud |A tag cloud to show a graphically presented selection of tags within your website |
 | Teaser |A piece of content (usually an image) displayed on a main page to "tease" users into accessing the underlying content. |
-

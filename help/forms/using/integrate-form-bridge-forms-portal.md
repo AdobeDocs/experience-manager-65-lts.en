@@ -1,18 +1,14 @@
 ---
 title: Integrating Form Bridge with custom portal for HTML5 forms
-
 description: You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
-
 docset: aem65
-
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 41989afc-48a1-4c93-a2af-1b95e5219c4d
 ---
 # Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
 

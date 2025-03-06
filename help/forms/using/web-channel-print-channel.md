@@ -1,17 +1,13 @@
 ---
 title: Print channel and web channel
-
 description: Importing print channel templates and creating and enabling web channel templates
-
-
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: dca7f612-f505-414b-9326-90624be9db39
 ---
 # Print channel and web channel{#print-channel-and-web-channel}
 

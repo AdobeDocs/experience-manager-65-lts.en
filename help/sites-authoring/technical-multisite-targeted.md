@@ -1,17 +1,14 @@
 ---
 title: How Multisite Management for Targeted Content is Structured
-
 description: A diagram shows how multisite support for targeted content is structured
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: personalization
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Architect,Developer
+exl-id: 435fcee8-ddb4-4b3c-a55f-fca1b91b7d52
 ---
 # How Multisite Management for Targeted Content is Structured{#how-multisite-management-for-targeted-content-is-structured}
 

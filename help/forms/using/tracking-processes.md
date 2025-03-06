@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 4c456045-dbd1-491a-a136-3995ae51e629
 ---
 # Tracking processes {#tracking-processes}
 

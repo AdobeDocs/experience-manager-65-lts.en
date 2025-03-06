@@ -8,6 +8,7 @@ geptopics: SG_AEMFORMS/categories/jee
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: f3e4de41-49bd-4766-894a-8bbde5281d8c
 ---
 # Mitigating Struts 2 Vulnerabilities for Experience Manager Forms {#mitigatin-struts2-rce-vulnerabilities-for-aem-forms}
 

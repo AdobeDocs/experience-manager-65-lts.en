@@ -1,15 +1,14 @@
 ---
 title: Work with Dynamic Media in Sites Classic Authoring
 description: Dynamic Media helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of primary source assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 42836ae9-d184-4bef-84dd-e15077909cb3
 ---
 # Work with Dynamic Media{#working-with-dynamic-media}
 

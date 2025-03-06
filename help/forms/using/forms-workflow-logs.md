@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 90a44cab-3ecf-4a71-95d4-e8ce2d996980
 ---
 # Logging in AEM Forms workflows{#logging-in-aem-forms-workflows}
 

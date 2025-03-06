@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
+exl-id: 6dd29f1c-3769-469c-8b8a-464f9ac00b15
 ---
 # Reporting {#reporting}
 

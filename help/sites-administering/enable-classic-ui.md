@@ -1,17 +1,14 @@
 ---
 title: Enabling Access to Classic UI
-
 description: Learn how to enable access to Classic UI in Adobe Experience Manager.
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 667ab9f1-4cff-4aef-94d5-adf478190bb4
 ---
 # Enabling Access to Classic UI{#enabling-access-to-classic-ui}
 

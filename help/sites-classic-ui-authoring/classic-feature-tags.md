@@ -8,6 +8,7 @@ topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 6489c2cf-d4a5-452e-a554-5e814aa196b7
 ---
 # Using Tags{#using-tags}
 

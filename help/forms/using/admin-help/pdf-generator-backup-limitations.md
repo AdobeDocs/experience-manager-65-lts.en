@@ -9,6 +9,7 @@ noindex: true
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: f76ce3be-6d50-4531-a982-2e902f866208
 ---
 # PDF Generator backup limitations {#pdf-generator-backup-limitations}
 

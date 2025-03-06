@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 4a2a06c2-a4fa-463c-9375-bebda426a14c
 ---
 # Initiating a new process with existing process data in AEM Forms workspace{#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}
 

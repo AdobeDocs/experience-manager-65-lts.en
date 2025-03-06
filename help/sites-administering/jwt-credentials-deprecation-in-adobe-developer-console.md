@@ -4,6 +4,7 @@ description: Learn about the impact of JWT credentials deprecation in Adobe Deve
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 7b6b02fd-fcb2-45ae-a239-e0c68de2bcbb
 ---
 # JWT Credentials Deprecation in Adobe Developer Console {#jwt-credentials-deprecation-in-adobe-developer-console}
 

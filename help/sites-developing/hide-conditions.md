@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: b96517c1-e0b9-4ccd-9ac2-f9e56a812382
 ---
 # Using Hide Conditions {#using-hide-conditions}
 

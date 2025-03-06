@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 5454ee3d-45fb-4ed2-b2f2-1fa9e2460759
 ---
 # Manage Forms applications and tasks in AEM Inbox{#manage-forms-applications-and-tasks-in-aem-inbox}
 

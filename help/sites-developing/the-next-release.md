@@ -1,17 +1,14 @@
 ---
 title: The next release...
-
 description: A subsequent release is nearly always foreseen, and can even start during the final stages of the current implementation
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: a541e609-9c42-4b2f-8964-1612f2ed2c07
 ---
 # The next release...{#the-next-release}
 

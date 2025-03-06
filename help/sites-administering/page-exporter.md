@@ -4,6 +4,7 @@ description: Learn how to use the Adobe Experience Manager (AEM) Page Exporter.
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 997637d5-1627-4102-8b7c-a0cfd871a7b2
 ---
 # The Page Exporter{#the-page-exporter}
 

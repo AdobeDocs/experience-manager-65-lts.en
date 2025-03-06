@@ -1,17 +1,14 @@
 ---
 title: Previewing Pages Using ContextHub Data
-
 description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: personalization
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Architect,Developer
+exl-id: 22c0af67-719e-41da-a924-c3d18d56d970
 ---
 # Previewing Pages Using ContextHub Data{#previewing-pages-using-contexthub-data}
 

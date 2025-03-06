@@ -7,6 +7,7 @@ topic-tags: publish
 solution: Experience Manager, Experience Manager Forms
 feature: Forms Portal
 role: Admin, User, Developer
+exl-id: b9b989e3-f204-4929-a03a-857cbb786185
 ---
 # Sample for integrating drafts & submissions component with database {#sample-for-integrating-drafts-submissions-component-with-database}
 

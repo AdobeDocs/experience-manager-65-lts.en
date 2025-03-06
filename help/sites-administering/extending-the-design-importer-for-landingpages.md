@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 1121af36-b07a-4e8d-a60b-6c5b91e56f82
 ---
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}
 

@@ -1,15 +1,14 @@
 ---
 title: Keyboard shortcuts for consoles in AEM
 description: Save time when authoring by using these keyboard shortcuts.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: bff562ff-bf0e-4f56-afd2-77907ec01e2c
 ---
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 

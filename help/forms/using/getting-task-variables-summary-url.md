@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 1cd2aae7-306f-4f7a-b4d2-e8c64827c09a
 ---
 # Getting Task Variables in Summary URL {#getting-task-variables-in-summary-url}
 

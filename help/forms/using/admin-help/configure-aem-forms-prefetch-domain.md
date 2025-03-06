@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 61328a32-d014-4a90-b142-169f4f73b35f
 ---
 # Configure AEM forms to prefetchdomain information {#configure-aem-forms-to-prefetchdomain-information}
 

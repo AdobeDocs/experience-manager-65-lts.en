@@ -1,17 +1,13 @@
 ---
-title: "Tutorial: Publish your adaptive form"
-
+title: 'Tutorial: Publish your adaptive form'
 description: Publish the adaptive form as an AEM page, embed the form to an AEM Sites page, or embed the adaptive form in an external webpage
-
-
 contentOwner: khsingh
 topic-tags: introduction
-
 docset: aem65
-
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: de5cc19f-f3dc-42d5-877d-c15bd00487d7
 ---
 # Tutorial: Publish your adaptive form {#tutorial-publish-your-adaptive-form}
 

@@ -8,6 +8,7 @@ audience: marketer
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 56e7849a-02fe-483d-951d-350caee3423c
 ---
 # Creating Multiple Category and Product Pages
 

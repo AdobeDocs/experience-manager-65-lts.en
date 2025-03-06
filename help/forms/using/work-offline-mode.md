@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 9d55b4de-fee6-49ef-9c76-37f1ca525115
 ---
 # Working in the offline mode {#working-in-the-offline-mode}
 

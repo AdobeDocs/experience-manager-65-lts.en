@@ -1,16 +1,15 @@
 ---
 title: Testing and Tracking Tools
 description: AEM provides a framework for testing component UI and a mechanism for testing and debugging components
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 4aa0f10d-e915-4ad2-a886-080ed8b9b10f
 ---
 # Testing and Tracking Tools{#testing-and-tracking-tools}
 

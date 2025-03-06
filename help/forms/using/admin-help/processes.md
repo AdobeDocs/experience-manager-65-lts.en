@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 6459abd5-6341-4c28-a747-bde9a91e3a88
 ---
 # Managing Processes {#managing-processes}
 

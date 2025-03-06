@@ -8,6 +8,7 @@ topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
 role: User,Admin,Architect,Developer
+exl-id: 1d621e12-6da5-4b49-98c9-3fb9b8189ff7
 ---
 # Working with Adobe Campaign Classic and Adobe Campaign Standard{#working-with-adobe-campaign-classic-and-adobe-campaign-standard}
 

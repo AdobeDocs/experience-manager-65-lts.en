@@ -1,18 +1,14 @@
 ---
 title: AEM Forms Data Integration
-
 description: Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
-
-
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: integration
-
 docset: aem65
-
 feature: Form Data Model
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 69420707-2362-462b-8618-d9bf63881632
 ---
 # [!DNL AEM Forms] Data Integration {#aem-forms-data-integration}
 

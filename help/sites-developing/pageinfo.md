@@ -1,17 +1,14 @@
 ---
 title: Obtaining Page Information in JSON Format
-
 description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: components
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 6c54197f-86da-41bd-93e6-ee78ece91013
 ---
 # Obtaining Page Information in JSON Format{#obtaining-page-information-in-json-format}
 

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 33b531c0-8fda-4649-bad1-d28c58a160e0
 ---
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}
 

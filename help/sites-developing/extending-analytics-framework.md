@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Developer
+exl-id: 6a32bd9d-268d-4d03-b495-47ec6660c138
 ---
 # Customizing the Adobe Analytics Framework{#customizing-the-adobe-analytics-framework}
 

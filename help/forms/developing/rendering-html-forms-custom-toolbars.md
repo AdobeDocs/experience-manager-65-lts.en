@@ -1,19 +1,15 @@
 ---
 title: Rendering HTML Forms with CustomToolbars
-
 description: Use the Forms service to customize a toolbar that is rendered with an HTML form. You can render an HTML Form with a custom toolbar using the Java API and a Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: e4b02c17-dcd1-424b-9aee-579a8346b4d7
 ---
 # Rendering HTML Forms with CustomToolbars {#rendering-html-forms-with-customtoolbars} 
 

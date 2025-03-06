@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d8fe6fb6-8ede-4fa7-95da-adee313bf768
 ---
 # Overlays{#overlays}
 

@@ -9,6 +9,7 @@ docset: aem65
 role: Admin, Developer
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
+exl-id: eb857ab1-ab1b-4c77-af3b-4507f53a8241
 ---
 # Create Core Components based Adaptive Forms {#creating-an-adaptive-form-core-components}
 

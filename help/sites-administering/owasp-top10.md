@@ -8,6 +8,7 @@ content-type: reference
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c49a9876-3a8e-4837-a1a7-e0e62bc60e32
 ---
 # OWASP Top 10{#owasp-top}
 

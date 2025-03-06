@@ -1,17 +1,14 @@
 ---
 title: Adobe Classifications
-
 description: Learn how to use Adobe Classifications to export classifications data to Adobe Analytics.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: f564bda3-4141-40b3-8c08-140d4da92e2c
 ---
 # Adobe Classifications{#adobe-classifications}
 

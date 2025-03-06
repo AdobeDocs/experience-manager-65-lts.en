@@ -4,6 +4,7 @@ description: Use the Structure Tree feature of the Content Fragment Editor in AE
 feature: Content Fragments
 role: User,Developer
 solution: Experience Manager, Experience Manager Assets
+exl-id: 174c34a4-1994-4cb1-9b30-62933c8314ba
 ---
 # Content Fragment Structure Tree {#content-fragment-structure-tree}
 

@@ -4,6 +4,7 @@ description: Learn how Content Fragments in Adobe Experience Manager (AEM) let y
 feature: Content Fragments
 role: User
 solution: Experience Manager, Experience Manager Assets
+exl-id: 7b5a9485-8d07-434e-9871-5f97d6781eaf
 ---
 # Working with Content Fragments {#working-with-content-fragments}
 

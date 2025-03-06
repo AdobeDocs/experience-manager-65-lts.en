@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 6b9b8d8c-8cd5-4c21-9b75-acd74d00354a
 ---
 # Cloud Service Configurations{#cloud-service-configurations}
 

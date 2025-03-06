@@ -5,6 +5,7 @@ contentOwner: Guillaume Carlino
 feature: Language Copy
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: b89e2899-35b9-4105-bfa5-ca21dc6f4e14
 ---
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}
 

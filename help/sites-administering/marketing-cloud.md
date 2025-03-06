@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 456bcdf5-3d43-43d8-b243-70095e0cf58c
 ---
 # Integrating with the Adobe Experience Cloud{#integrating-with-the-adobe-marketing-cloud}
 

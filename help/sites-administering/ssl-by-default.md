@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 3fd6a54b-9220-4bb2-9625-4f459c4d3aa8
 ---
 # SSL/TLS By Default{#ssl-tls-by-default}
 

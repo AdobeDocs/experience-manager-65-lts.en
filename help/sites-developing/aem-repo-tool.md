@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: c762e9dd-cd22-40f4-aee4-fd832032dea4
 ---
 # AEM Repo Tool{#aem-repo-tool}
 

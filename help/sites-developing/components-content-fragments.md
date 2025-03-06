@@ -10,6 +10,7 @@ pagetitle: Components for Content Fragments
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Content Fragments
 role: Developer
+exl-id: 2196af09-8053-49c3-8a23-caf03bb9a39d
 ---
 # Components for Content Fragments{#components-for-content-fragments}
 

@@ -1,17 +1,14 @@
 ---
 title: Adding Fonts for Graphic-Rendering
-
 description: AEM lets you generate graphics incorporating text dynamically taken from your content
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 5ceaa9f0-aba1-40a3-97ef-f5ade0c2a54a
 ---
 # Adding Fonts for Graphic-Rendering{#adding-fonts-for-graphic-rendering}
 

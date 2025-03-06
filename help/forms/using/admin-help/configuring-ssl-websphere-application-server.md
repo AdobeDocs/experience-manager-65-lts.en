@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer
+exl-id: 0caac293-98b4-4e73-9440-f1db68c94054
 ---
 # Configuring SSL for WebSphere Application Server {#configuring-ssl-for-websphere-application-server}
 

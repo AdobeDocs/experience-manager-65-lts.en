@@ -1,17 +1,14 @@
 ---
 title: Integrating with Third-Party Services
-
 description: Learn how to integrate AEM with third-party services.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: a27cd5c7-c0ea-4b94-9d54-95b47671fb44
 ---
 # Integrating with Third-Party Services{#integrating-with-third-party-services}
 

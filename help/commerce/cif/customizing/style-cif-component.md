@@ -10,6 +10,7 @@ kt: 3456
 thumbnail: 3456-style-cif.jpg
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 92689d52-6485-4cd5-a04f-4738096a0dba
 ---
 # Style AEM CIF Core Components {#style-aem-cif-core-components}
 

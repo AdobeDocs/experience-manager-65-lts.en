@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 feature: Adaptive Forms
+exl-id: befc6b96-517b-4ca3-8007-2aa0fd6ed2cb
 ---
 # Analytics using Cloud Service Framework {#analyticsusingcloudframework}
 

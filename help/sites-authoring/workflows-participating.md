@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
 role: User,Admin,Architect,Developer
+exl-id: 2680e967-ec04-4ae6-b379-f1f0e7c6606b
 ---
 # Participating in Workflows{#participating-in-workflows}
 

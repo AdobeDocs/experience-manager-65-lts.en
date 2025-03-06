@@ -9,6 +9,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 1681e92b-2d88-4b10-a700-a516aa5a02c8
 ---
 # AEM Forms on OSGi Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}
 

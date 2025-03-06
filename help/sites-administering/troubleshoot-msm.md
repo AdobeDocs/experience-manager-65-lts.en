@@ -4,6 +4,7 @@ description: Find out how to troubleshoot the most common MSM-related issues and
 feature: Multi Site Manager
 role: Admin
 solution: Experience Manager, Experience Manager Sites
+exl-id: eca28076-bc91-4a6f-aef8-979ad6f761f7
 ---
 # Troubleshooting MSM Issues and FAQ {#troubleshooting-msm}
 

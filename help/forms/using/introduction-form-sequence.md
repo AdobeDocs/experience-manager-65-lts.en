@@ -8,6 +8,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 5455facf-ed09-4266-a43a-61eef3ecc33e
 ---
 # Introduction to multi-step form sequence{#introduction-to-multi-step-form-sequence}
 

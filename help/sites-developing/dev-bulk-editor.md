@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 3ce50030-86c7-4291-98fa-0cc9cb63f45c
 ---
 # Developing the Bulk Editor{#developing-the-bulk-editor}
 

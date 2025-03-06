@@ -8,6 +8,7 @@ topic-tags: deploying
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: ff94f750-c193-438b-8be0-fcd7a40cead4
 ---
 # Command Line Start and Stop{#command-line-start-and-stop}
 

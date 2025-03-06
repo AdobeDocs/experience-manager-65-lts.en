@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 62d31b00-be95-4502-9e97-3ce563192de2
 ---
 # Fine-tuning Health Monitor performance{#fine-tuning-health-monitor-performance}
 

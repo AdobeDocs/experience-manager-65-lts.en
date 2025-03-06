@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 1d614736-5897-4fd3-9ca4-94b115139ba3
 ---
 # Change the character set {#change-the-character-set}
 

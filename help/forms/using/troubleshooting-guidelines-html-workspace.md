@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: d0494d5b-7b03-47e2-a461-7ef8c865069d
 ---
 # Troubleshooting guidelines for AEM Forms workspace {#troubleshooting-guidelines-for-aem-forms-workspace}
 

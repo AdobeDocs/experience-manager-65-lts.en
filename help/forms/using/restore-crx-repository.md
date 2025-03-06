@@ -4,6 +4,7 @@ description: Learn the steps on how you can restore a CRX repository that is cor
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 716d8eb2-2010-4d55-b8fe-bd4f6f256a4d
 ---
 # Unable to restore corrupt CRX repository {#unable-to-restore-corrupt-crx-repository}
 

@@ -1,18 +1,15 @@
 ---
 title: Rendering Forms
-
 description: Use the Forms service to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors can develop a single form design that the Forms service renders in PDF, SWF, or HTML in various browser environments.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 3f1f9ecb-be62-4428-8db8-23c57081b0f7
 ---
 # Rendering Forms {#rendering-forms} 
 

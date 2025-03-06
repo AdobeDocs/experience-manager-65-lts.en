@@ -4,6 +4,7 @@ description: Learn how to upgrade instances of AEM that are deployed via Tomcat.
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 7f8de16f-9e9a-4d37-9978-d26c496b911c
 ---
 # Upgrade Steps for Application Server Installations (Tomcat) {#upgrade-steps-for-application-server-installations-tomcat}
 

@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
+exl-id: d297ab09-2b92-442a-8b19-ffee86e24bb9
 ---
 # Managing local credentials {#managing-local-credentials}
 

@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 7ea1b7d4-6e07-4ad4-9bac-ff2214b8f47e
 ---
 # Working with Page Versions{#working-with-page-versions}
 

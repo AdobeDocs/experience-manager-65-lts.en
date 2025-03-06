@@ -6,6 +6,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: c2e9200f-a4b7-46fc-9dde-425329e5365d
 ---
 # Set up the Visual Studio project and build the Windows app{#set-up-the-visual-studio-project-and-build-the-windows-app}
 

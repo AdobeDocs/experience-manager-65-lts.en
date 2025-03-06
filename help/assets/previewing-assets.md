@@ -9,6 +9,7 @@ docset: aem65
 feature: Asset Management
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: af2673d9-780c-44bf-9c75-4b908cca4e98
 ---
 # Preview assets using the software interface {#previewing-assets}
 

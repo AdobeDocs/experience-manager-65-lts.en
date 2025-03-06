@@ -1,17 +1,14 @@
 ---
 title: Integrating with BrightEdge Content Optimizer
-
 description: Learn about integrating AEM with BrightEdge Content Optimizer.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: fbc55cbd-c754-44f8-8159-72cedc60e137
 ---
 # Integrating with BrightEdge Content Optimizer{#integrating-with-brightedge-content-optimizer}
 

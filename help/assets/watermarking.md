@@ -6,6 +6,7 @@ role: User, Admin
 feature: Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 6c8b4ff5-28ac-4655-b310-4f0b0417bd63
 ---
 # Watermark your digital assets {#watermarking}
 

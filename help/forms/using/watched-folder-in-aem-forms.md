@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 632ecead-f57d-4b43-8a3d-f2b0b8fe1115
 ---
 # Watched folder in AEM Forms{#watched-folder-in-aem-forms}
 

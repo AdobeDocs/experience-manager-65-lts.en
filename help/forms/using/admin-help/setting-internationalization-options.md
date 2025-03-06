@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 47a49147-2921-4d28-8d04-2281c0b9a190
 ---
 # Setting internationalization options{#setting-internationalization-options}
 

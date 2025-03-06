@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer
+exl-id: 65e1df03-8549-4ebb-bd86-7666a19339ed
 ---
 # Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 

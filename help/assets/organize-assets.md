@@ -6,6 +6,7 @@ role: User
 feature: Asset Management,Search
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: cb7d28ce-c6bd-4760-b5fd-d0ecb3426844
 ---
 # Organize your digital assets {#organize-digital-assets}
 

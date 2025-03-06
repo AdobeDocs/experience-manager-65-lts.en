@@ -1,8 +1,6 @@
 ---
 title: Creating and managing reviews in forms
-
 description: A Review is a mechanism that allows one or more reviewers to comment on a form.
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-manager
@@ -10,6 +8,7 @@ docset: aem65
 feature: Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 4937e968-30d2-4852-97d3-e8955bd422e6
 ---
 # Creating and managing reviews to forms{#creating-and-managing-reviews-to-forms}
 

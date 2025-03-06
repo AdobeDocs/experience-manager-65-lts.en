@@ -1,18 +1,14 @@
 ---
 title: Invocation API Quick Starts
-
 description: Use the Quick Starts to programmatically invoke AEM Forms services.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 7e1b29b3-aaab-4e99-bf6e-1f085a71d293
 ---
 # Invocation API Quick Starts {#invocation-api-quick-starts} 
 

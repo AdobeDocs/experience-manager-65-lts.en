@@ -1,18 +1,14 @@
 ---
 title: Encrypting and Decrypting PDF Documents
-
 description: Use the Encryption service to encrypt and decrypt documents. The Encryption service tasks include encrypting a PDF document with a password, encrypting a PDF document with a certificate, removing password-based encryption from a PDF document, removing certificate-based encryption from a PDF document, unlocking the PDF document so that other service operations can be performed, and determining the encryption type of a secured PDF document.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 9f694358-e502-4fc0-8352-4c5119573756
 ---
 # Encrypting and Decrypting PDF Documents {#encrypting-and-decrypting-pdf-documents} 
 

@@ -3,6 +3,7 @@ title: How to use hCaptcha&reg; in an AEM 6.5 Forms?
 description: Enhance form security with hCaptcha&reg; service effortlessly. Step-by-step guide inside!
 feature: Adaptive Forms, Foundation Components
 role: User, Developer
+exl-id: da0f8fc5-732e-41de-b73c-0355ec723d26
 ---
 # Connect your AEM Forms environment with hCaptcha&reg; {#connect-your-forms-environment-with-hcaptcha-service}
 

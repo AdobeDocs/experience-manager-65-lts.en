@@ -1,18 +1,15 @@
 ---
 title: Workflow Step Reference
-
 description: Refer to this step reference for workflows in Adobe Experience Manager.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: e82d97c2-c26a-48df-9210-47dc017c68c8
 ---
 # Workflow Step Reference {#workflow-step-reference}
 

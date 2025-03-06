@@ -1,15 +1,14 @@
 ---
 title: Configuring security settings
-description: Learn how to configure security settings. You can protect PDF documents by limiting the access. You can encrypt, certify or password-protect the document. 
-
+description: Learn how to configure security settings. You can protect PDF documents by limiting the access. You can encrypt, certify or password-protect the document.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: PDF Generator,Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: fee34d9e-6606-40c1-bbbe-e7975ad90a22
 ---
 # Configuring security settings{#configuring-security-settings}
 

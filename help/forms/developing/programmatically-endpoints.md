@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations
+exl-id: 6a0c7dbf-02ae-4211-a5c7-941eb353a403
 ---
 # Programmatically Managing Endpoints {#programmatically-managing-endpoints} 
 

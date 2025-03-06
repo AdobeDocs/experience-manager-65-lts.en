@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: e63c1dc2-9843-47ca-8f3c-c49720659aa0
 ---
 # Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 

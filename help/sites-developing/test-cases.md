@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 29943019-6ff2-440e-8cf8-4b92b0408021
 ---
 # Defining your Test Cases{#defining-your-test-cases}
 

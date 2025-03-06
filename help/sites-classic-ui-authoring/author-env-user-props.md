@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 19930920-ffa5-4cfc-a564-ae004320e143
 ---
 # Configuring your account environment{#configuring-your-account-environment}
 

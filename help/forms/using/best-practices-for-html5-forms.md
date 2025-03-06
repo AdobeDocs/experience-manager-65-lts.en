@@ -1,19 +1,15 @@
 ---
 title: Best practices for HTML5 forms
-
 description: Tune your XFA-based HTML5 Forms for best performance.
-
-
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
 content-type: reference
-
 docset: aem65
-
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 7f66832f-c9d1-43e1-b3a4-a25ea9a8a224
 ---
 # Best practices for HTML5 forms{#best-practices-for-html-forms}
 

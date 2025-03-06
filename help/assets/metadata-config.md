@@ -6,6 +6,7 @@ role: User, Admin
 feature: Metadata
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 43fb8af8-9750-44c1-8e02-34b25b92fd65
 ---
 # Configuration and administration of metadata functionality in [!DNL Assets] {#config-metadata}
 

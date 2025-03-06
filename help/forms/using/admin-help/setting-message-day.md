@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 9581155d-5346-4346-b483-ecb0c51b53e3
 ---
 # Setting the message of the day {#setting-the-message-of-the-day}
 

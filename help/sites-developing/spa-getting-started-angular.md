@@ -1,17 +1,14 @@
 ---
 title: Getting Started with SPAs in AEM - Angular
-
 description: This article presents a sample SPA application, explains how it is put together, and lets you get up-and-running with your own SPA quickly using the Angular framework.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: spa
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: 801364fc-0fde-49d0-a95f-963ed6db189b
 ---
 # Getting Started with SPAs in AEM - Angular{#getting-started-with-spas-in-aem-angular}
 

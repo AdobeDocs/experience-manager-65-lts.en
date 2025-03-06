@@ -4,7 +4,8 @@ description: Keep a count of all the forms submitted, documents submitted, inter
 topic-tags: forms-manager
 feature: Transaction Reports
 role: Admin, User, Developer
-solution: "Experience Manager, Experience Manager Forms"
+solution: Experience Manager, Experience Manager Forms
+exl-id: 4a075532-5ad9-4b1d-9e04-c0b80d215e00
 ---
 # Transaction Reporting for AEM Forms {#transaction-reports-overview}
 

@@ -8,8 +8,8 @@ content-type: reference
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 893d04cb-3a71-4400-9ca4-62ad46aacfdd
 ---
-
 # Service Users in Adobe Experience Manager (AEM) {#service-users-in-aem}
 
 ## Overview {#overview}

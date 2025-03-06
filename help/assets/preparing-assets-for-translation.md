@@ -5,6 +5,7 @@ contentOwner: AG
 role: User, Admin
 feature: Projects
 solution: Experience Manager, Experience Manager Assets
+exl-id: de9f266b-a167-4eba-be2c-8f6a0457265f
 ---
 # Prepare assets for translation {#preparing-assets-for-translation}
 

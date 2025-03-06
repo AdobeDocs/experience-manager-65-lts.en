@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: d4cfe1c1-8b44-4bd5-b6ec-29e5f70f0674
 ---
 # Running AEM forms in maintenance mode {#running-aem-forms-in-maintenance-mode}
 

@@ -4,6 +4,7 @@ description: Learn how to configure custom HTTP Headers in Adobe Experience Mana
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: f25cd95c-4235-4430-8a51-38be1f39b880
 ---
 # Custom HTTP Headers {#custom-http-headers}
 

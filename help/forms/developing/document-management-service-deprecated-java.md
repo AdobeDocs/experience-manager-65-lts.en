@@ -8,6 +8,7 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 3d67ebee-de15-4164-a474-670edd682563
 ---
 # Document Management Service (Deprecated) Java API Quick Start (SOAP) {#document-management-service-deprecated-java-api-quick-start-soap}
 

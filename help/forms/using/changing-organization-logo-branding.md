@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 3aa4aca3-3c94-4936-ba9c-484bbb196256
 ---
 # Changing the organization logo for branding {#changing-the-organization-logo-for-branding}
 

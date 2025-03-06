@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: e64a3b6f-7248-4426-9f13-f703eab3632d
 ---
 # Getting Started with Process Reporting{#getting-started-with-process-reporting}
 
@@ -275,5 +276,3 @@ For details on the data publishing service and how to schedule this service, see
 * **[!UICONTROL Sync]**: Synchronize the embedded Process Reporting repository with the AEM Forms database.
 * **[!UICONTROL Help]**: View the Help documentation on Process Reporting.
 * **[!UICONTROL Logout]**: Log out of Process Reporting
-
-

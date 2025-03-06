@@ -1,17 +1,13 @@
 ---
-title: "Tutorial: Create Interactive Communication "
-
+title: 'Tutorial: Create Interactive Communication '
 description: Create an Interactive Communication using all building blocks
-
-
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 532f5e23-876d-477c-a8ab-94b6ae1656df
 ---
 # Tutorial: Create Interactive Communication {#tutorial-create-interactive-communication}
 

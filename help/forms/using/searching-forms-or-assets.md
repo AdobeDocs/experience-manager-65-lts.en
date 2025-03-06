@@ -1,18 +1,14 @@
 ---
 title: Searching for forms and assets
-
 description: You can search forms and assets in your AEM instance using AEM search. Basic and advanced search lets you quickly locate your assets.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-manager
-
 docset: aem65
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 1e3c4724-9dbd-4e39-a0fc-efe7fd8906cd
 ---
 # Searching for forms and assets{#searching-for-forms-and-assets}
 

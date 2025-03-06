@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: 99724bd6-41b4-4491-9958-1f5d9e1f5050
 ---
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}
 

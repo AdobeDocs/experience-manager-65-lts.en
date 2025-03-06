@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 2fcb0241-8018-4bdd-b89d-44b8fc063ff3
 ---
 # Managing tasks in an organizational hierarchy using Manager View{#managing-tasks-in-an-organizational-hierarchy-using-manager-view}
 

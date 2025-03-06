@@ -1,14 +1,13 @@
 ---
 title: Configuring file type settings
 description: Learn how to configure file type settings. In PDF Generator, you can set up the application setting for supported file types to configure file type settings.
-
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 content-type: reference
-
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 68896dab-2d46-4998-9918-40efb8554143
 ---
 # Configuring file type settings {#configuring-file-type-settings}
 

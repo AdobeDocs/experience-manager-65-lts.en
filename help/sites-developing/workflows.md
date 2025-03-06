@@ -1,19 +1,15 @@
 ---
 title: Developing and Extending Workflows
-
 description: AEM provides several tools and resources for creating workflow models, developing workflow steps, and for programmatically interacting with workflows
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 625affd0-0e1a-4db8-812f-b6ce70cfe035
 ---
-
 # Developing and Extending Workflows{#developing-and-extending-workflows}
 
 AEM provides several tools and resources for creating workflow models, developing workflow steps, and for programmatically interacting with workflows.

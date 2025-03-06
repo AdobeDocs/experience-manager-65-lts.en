@@ -4,6 +4,7 @@ description: Learn about the different configurations available to enable GraphQ
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: 7da2c607-b407-4e4b-bfba-bfaa78aff475
 ---
 # Caching & Performance {#caching}
 

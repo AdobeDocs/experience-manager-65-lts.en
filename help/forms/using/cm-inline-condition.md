@@ -1,18 +1,14 @@
 ---
 title: Inline condition and repeat in Interactive Communications and letters
-
 description: Using inline condition and repeat in Interactive Communications and letters, you can create communications that are highly contextual and well structured.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: interactive-communications, correspondence-management
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 2d05a36e-c02e-41ef-a03d-2a799aa6eab3
 ---
 # Inline condition and repeat in Interactive Communications and letters{#inline-condition-and-repeat-in-interactive-communications-and-letters}
 

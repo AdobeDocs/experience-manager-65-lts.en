@@ -1,15 +1,14 @@
 ---
 title: Converting files using PDF Generator
 description: The PDF Generator service converts native file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents.
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 1d2adc53-498f-43f5-b664-0b9dd864b9a1
 ---
 # Converting files using PDF Generator{#converting-files-using-pdf-generator}
 

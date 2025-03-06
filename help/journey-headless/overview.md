@@ -4,6 +4,7 @@ description: A collection of documentation journeys describing how to use Adobe 
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Developing,Content Fragments
 role: Admin, Developer
+exl-id: 77f797c8-d8ed-42ea-ad5f-988d976e0ce5
 ---
 # AEM Headless Journeys {#aem-headless-journeys}
 

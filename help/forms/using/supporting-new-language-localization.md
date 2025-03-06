@@ -8,6 +8,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
+exl-id: 9c516c90-1b1d-406a-b42d-909aae8bb634
 ---
 # Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}
 

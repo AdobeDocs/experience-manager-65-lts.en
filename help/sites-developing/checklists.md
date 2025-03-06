@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7ddd318e-8290-449c-bc19-f997d2cae4de
 ---
 # Checklists{#checklists}
 

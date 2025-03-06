@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7e14471e-8bb5-4cce-9175-3bbff9d803a9
 ---
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
 

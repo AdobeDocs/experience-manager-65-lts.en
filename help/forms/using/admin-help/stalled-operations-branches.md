@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 35ad7804-be01-4ce9-8e68-22734b24d5a8
 ---
 # Working with stalled operations and branches {#working-with-stalled-operations-and-branches}
 
