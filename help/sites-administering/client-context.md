@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: 976512a9-5edf-4d55-82c0-24fe97dc71a1
 ---
-
 # Client Context{#client-context}
 
 >[!NOTE]

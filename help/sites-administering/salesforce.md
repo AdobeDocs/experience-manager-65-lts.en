@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 68003650-76d7-40b3-860b-70454c13211e
 ---
-
 # Integrating with Salesforce {#integrating-with-salesforce}
 
 Integrating Salesforce with Adobe Experience Manager (AEM) provides lead management capabilities and uses the existing capabilities provided out of the box by Salesforce. You can configure AEM to post leads to Salesforce and create components that access data directly from Salesforce.

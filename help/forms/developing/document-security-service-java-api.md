@@ -1,16 +1,14 @@
 ---
 title: Document Security Service JavaAPI Quick Start(SOAP)
-
 description: Document Security Service JavaAPI Quick Start(SOAP)
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 7c92e9bb-aa68-4d4b-bf62-060a213e50f3
 ---
 # Document Security Service Java API Quick Start (SOAP) {#document-security-service-javaapi-quick-start-soap}
 

@@ -8,6 +8,7 @@ discoiquuid: f276d150-8936-4bfb-8475-7ca36815b233
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 48cb61d1-4f2f-43c4-bf19-0a6987916ea2
 ---
 # Getting started with HTML5 forms {#getting-started-with-html-forms}
 

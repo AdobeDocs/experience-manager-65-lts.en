@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: f33950b1-6164-4e02-b666-50af84647852
 ---
 # Encapsulated Token Support{#encapsulated-token-support}
 

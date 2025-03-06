@@ -10,6 +10,7 @@ docset: aem65
 feature: Viewers
 role: User, Admin,Developer,Data Engineer,Data Architect
 solution: Experience Manager, Experience Manager Assets
+exl-id: 3aea14f7-052d-4f23-b65d-e648623146e7
 ---
 # Integrate Dynamic Media Viewers with Adobe Analytics and Experience Platform Tags {#integrating-dynamic-media-viewers-with-adobe-analytics-and-adobe-launch}
 

@@ -5,10 +5,10 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: f74fbf2b-62bb-4fac-9ecb-5ace90ba0275
 ---
 # Which Test Environments are needed?{#which-test-environments-will-be-needed}
 

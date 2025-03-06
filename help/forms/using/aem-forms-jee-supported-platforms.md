@@ -12,7 +12,6 @@ hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---
-
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Supported Platforms {#supported-platforms}
@@ -925,5 +924,4 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 
     - Changed supported version of iOS for AEM Forms App to iOS 12. The previous version was iOS 11.
 
-    --> 
-
+    -->

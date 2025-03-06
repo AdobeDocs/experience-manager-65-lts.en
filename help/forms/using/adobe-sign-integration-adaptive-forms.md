@@ -1,16 +1,14 @@
 ---
 title: Integrate Adobe Sign with AEM Forms
-
 description: Learn to configure Adobe Sign for your AEM Adaptive Forms. Adobe Sign improves workflow and process the documents for legal, sales, payroll, human resource management, and many more areas.
-
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components,Acrobat Sign
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: fdf95738-3075-43d6-9d51-64c83cf0f0b7
 ---
 # Integrate [!DNL Adobe Sign] with AEM [!DNL Forms]{#integrate-adobe-sign-with-aem-forms}
 

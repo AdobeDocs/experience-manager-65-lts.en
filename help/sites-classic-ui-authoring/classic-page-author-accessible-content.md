@@ -9,6 +9,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 1ea2f849-ef36-47bf-ac3a-49d1984efca5
 ---
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}
 

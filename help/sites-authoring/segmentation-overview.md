@@ -8,6 +8,7 @@ topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
 role: User,Admin,Architect,Developer
+exl-id: 7167c672-8d24-4493-aff6-b5b453074bff
 ---
 # Understanding Segmentation{#understanding-segmentation}
 

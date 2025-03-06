@@ -1,18 +1,15 @@
 ---
 title: Integrating with Adobe Analytics
-
 description: Learn how to integrate Adobe Experience Manager (AEM) with Adobe Analytics.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 4f7e1794-af5a-45a2-8dc6-80029c47caeb
 ---
 # Integrating with Adobe Analytics{#integrating-with-adobe-analytics}
 

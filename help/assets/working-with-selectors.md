@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin
 feature: Selectors
 solution: Experience Manager, Experience Manager Assets
+exl-id: 2651bfe9-98c8-4bb0-ab8a-9f9d96bfcba8
 ---
 # Work with Selectors {#working-with-selectors}
 

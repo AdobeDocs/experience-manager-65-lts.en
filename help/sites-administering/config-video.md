@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 0eac1568-cddb-4d26-b04c-78a2681cf44a
 ---
 # Configure the Video component {#configure-the-video-component}
 

@@ -4,6 +4,7 @@ description: Define the required properties for a page in Adobe Experience Manag
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 5148afb9-f447-4475-a15c-1fa345325711
 ---
 # Editing Page Properties{#editing-page-properties}
 

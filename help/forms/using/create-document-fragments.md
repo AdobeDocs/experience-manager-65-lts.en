@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create document fragments"
+title: 'Tutorial: Create document fragments'
 description: Create document fragments for Interactive Communication
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -7,6 +7,7 @@ docset: aem65
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 6c23092f-49ac-4133-baf0-87e4deaabeb0
 ---
 # Tutorial: Create document fragments{#tutorial-create-document-fragments}
 

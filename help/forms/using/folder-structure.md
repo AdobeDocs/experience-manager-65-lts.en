@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer
+exl-id: 08e6b25c-eef5-4f29-99fa-524f563e7f25
 ---
 # Understanding the folder structure {#understanding-the-folder-structure}
 

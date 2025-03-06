@@ -9,6 +9,7 @@ docset: aem65
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 0c20efb1-9b01-41ef-b38d-261fb4b0ff91
 ---
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
 

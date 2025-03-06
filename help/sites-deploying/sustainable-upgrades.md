@@ -9,6 +9,7 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 5a93918b-3b5f-49e0-9283-86776f9d8fb4
 ---
 # Sustainable Upgrades{#sustainable-upgrades}
 

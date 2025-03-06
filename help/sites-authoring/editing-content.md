@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 07048aa7-5f38-4810-9ef2-ce6892f9b9b6
 ---
 # Editing Page Content{#editing-page-content}
 

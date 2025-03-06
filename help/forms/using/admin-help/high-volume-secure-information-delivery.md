@@ -1,14 +1,10 @@
 ---
 title: High-volume secure information delivery
-
 description: Document security supports the association of licenses to users, rather than to the documents in mass production environments.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer

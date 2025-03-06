@@ -1,5 +1,5 @@
 ---
-title: "DB2&reg; database: Running a process weekly"
+title: 'DB2&reg; database: Running a process weekly'
 description: Learn how you can improve the performance of your AEM Forms DB2&reg; database.
 contentOwner: admin
 content-type: reference

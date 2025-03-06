@@ -1,17 +1,14 @@
 ---
 title: Choosing a persistence type for an AEM Forms installation
-
 description: Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
+exl-id: 8ddfc767-08a5-4045-86a7-97150e028a14
 ---
 # Choosing a persistence type for an AEM Forms installation {#choosing-a-persistence-type-for-an-aem-forms-installation}
 

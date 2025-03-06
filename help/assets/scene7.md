@@ -9,6 +9,7 @@ feature: Dynamic Media Classic
 role: User, Admin
 mini-toc-levels: 3
 solution: Experience Manager, Experience Manager Assets
+exl-id: 80ffa496-880a-4638-bf78-1aab0c052983
 ---
 # Add Dynamic Media Classic features to pages {#adding-scene-features-to-your-page}
 

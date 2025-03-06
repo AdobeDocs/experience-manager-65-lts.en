@@ -8,6 +8,7 @@ content-type: reference
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: b21555f2-bc07-4653-a5da-966b9aa7ea1f
 ---
 # Run Modes{#run-modes}
 

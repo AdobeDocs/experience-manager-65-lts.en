@@ -7,6 +7,7 @@ topic-tags: document_services
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
 role: User, Developer
+exl-id: 22a7744e-0af6-4aac-a8a1-156b563c627c
 ---
 # Initiate Document Services APIs from AEM Workflow  {#initiate-document-services-apis-from-aem-workflow}
 

@@ -8,6 +8,7 @@ content-type: reference
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 1c437771-cec5-48b8-8d77-a66c269420ec
 ---
 # Single Sign On {#single-sign-on}
 

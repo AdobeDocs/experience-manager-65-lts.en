@@ -5,6 +5,7 @@ keywords: Enable Core Components, Core Components Adaptive Forms, Core Component
 role: Admin, Developer
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
+exl-id: a163598d-0a6e-45a8-b3b2-1f260007952b
 ---
 # Enable Adaptive Forms Core Components on AEM 6.5 Forms {#enable-adaptive-forms-core-components}
 

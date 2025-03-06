@@ -8,6 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 solution: Experience Manager, Experience Manager Assets
+exl-id: 5aa07827-8483-4a99-9197-a17485226a13
 ---
 # Dynamic Media Limitations
 
@@ -72,4 +73,3 @@ Effective April 30, 2024, Adobe Dynamic Media will end support for the following
   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
-

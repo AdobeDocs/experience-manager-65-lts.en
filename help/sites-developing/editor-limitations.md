@@ -8,6 +8,7 @@ topic-tags: introduction
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 9f66c1c5-0fe7-47be-ad78-ef4548e4e26b
 ---
 # Editor Limitations{#editor-limitations}
 

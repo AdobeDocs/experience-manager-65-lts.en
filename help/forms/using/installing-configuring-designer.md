@@ -4,6 +4,7 @@ description: Designer is available as a stand-alone installer and is also bundle
 role: Admin, User, Developer
 feature: Forms Designer,Designer
 solution: Experience Manager, Experience Manager Forms
+exl-id: 526bbc59-62c3-4e6d-a938-e368d07fe6b0
 ---
 # Installing and configuring Designer{#installing-and-configuring-designer}
 
@@ -112,4 +113,3 @@ There are two cases while updating the latest version of AEM Forms Designer 6.5.
       1. Open Designer, goto Help, click About designer and you see designer version information along with the bits information, for example, you see 64-bit is written at the end of the version as shown here:
       `6.5.21.20240522.1.161 | 64 bit`
       1. Open Designer, On the upper left you see a branding icon contains 64-bit information with the product name.
-   

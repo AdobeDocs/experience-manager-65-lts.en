@@ -4,6 +4,7 @@ description: In this part of the AEM Headless Developer Journey, learn how to mo
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin, Developer
+exl-id: b95b8f27-dbcd-4335-ac50-266ab3461d44
 ---
 # How to Model Your Content {#model-your-content}
 

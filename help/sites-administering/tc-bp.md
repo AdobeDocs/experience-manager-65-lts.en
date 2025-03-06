@@ -4,6 +4,7 @@ description: Find best practices compiled by Adobe engineering and consulting te
 feature: Language Copy
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c09cce08-4df4-4de8-9402-3905d8430794
 ---
 # Translation Best Practices{#translation-best-practices}
 

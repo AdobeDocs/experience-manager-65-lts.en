@@ -7,6 +7,7 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 6ed130d5-30b5-4864-8bea-dfe41bed5422
 ---
 # Consistency and Traversal Checks{#consistency-and-traversal-checks}
 

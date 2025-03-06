@@ -7,6 +7,7 @@ topic-tags: author, correspondence-management
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 12d27b12-5093-4513-919a-b70f189020d2
 ---
 # AEM Forms Keyboard Shortcuts {#aem-forms-keyboard-shortcuts}
 

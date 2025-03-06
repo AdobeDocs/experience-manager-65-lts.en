@@ -1,20 +1,16 @@
 ---
 title: Frequently asked questions (FAQ) for HTML5 forms
-
 description: Frequently Asked Questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
-
-
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
-
 docset: aem65
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: fc98390c-8517-46fc-9f15-bac5d4327c60
 ---
-
 # Frequently asked questions (FAQ) for HTML5 forms{#frequently-asked-questions-faq-for-html-forms}
 
 There are some frequently asked questions (FAQ) about layout, scripting support, and scope of HTML5 forms.

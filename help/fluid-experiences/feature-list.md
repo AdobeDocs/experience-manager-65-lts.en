@@ -5,6 +5,7 @@ index: n
 feature: Authoring
 solution: Experience Manager Sites,Experience Manager Assets
 role: Admin
+exl-id: 9bb1ff8b-5fcb-44df-8c45-2306e127410d
 ---
 # AEM Fluid Experiences Feature List{#aem-fluid-experiences-feature-list}
 

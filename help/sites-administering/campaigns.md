@@ -1,17 +1,14 @@
 ---
 title: Campaigns
-
 description: Learn the basics of using Adobe Experience Manager (AEM) Campaigns.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: 7f50db27-b5dd-4949-95d5-6d0beb813f10
 ---
 # Campaigns{#campaigns}
 

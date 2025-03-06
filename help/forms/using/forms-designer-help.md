@@ -7,6 +7,7 @@ topic-tags: publish
 feature: Forms Designer,Designer
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 9eaf253f-628b-4d80-bb83-388c5afcc457
 ---
 # Forms Designer help {#form-designer-help}
 

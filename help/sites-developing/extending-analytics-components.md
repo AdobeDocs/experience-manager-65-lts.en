@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Developer
+exl-id: 94bdf379-d10f-4dd3-b250-f2d1a3e4c251
 ---
 # Adding Adobe Analytics Tracking to Components{#adding-adobe-analytics-tracking-to-components}
 

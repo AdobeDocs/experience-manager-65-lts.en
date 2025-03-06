@@ -8,6 +8,7 @@ topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 347354ce-36f3-4e17-acda-0f34b60069f6
 ---
 # Working with Workflows{#working-with-workflows}
 

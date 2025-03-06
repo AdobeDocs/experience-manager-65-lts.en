@@ -1,16 +1,13 @@
 ---
 title: APIs to work with submitted forms on forms portal
-
 description: AEM Forms provides APIs that you can use to query and take actions on submitted forms data in forms portal.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: publish, developer-reference
-
 feature: Forms Portal
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: a24d0218-d534-49c9-81c1-12b38d794caa
 ---
 # APIs to work with submitted forms on forms portal {#apis-to-work-with-submitted-forms-on-forms-portal}
 

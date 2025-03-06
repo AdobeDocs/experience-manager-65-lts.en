@@ -8,6 +8,7 @@ content-type: reference
 feature: Asset Management
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 30038003-e307-46d1-b5f9-624d98a672a7
 ---
 # Best practices for optimizing the quality of your images in Dynamic Media {#best-practices-for-optimizing-the-quality-of-your-images}
 

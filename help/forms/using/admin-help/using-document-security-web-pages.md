@@ -1,14 +1,10 @@
 ---
 title: Using the document security webpages
-
 description: Learn how you can login, navigate and use the document security web pages.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 6659ca39-f297-40b9-88e2-d942aa653e9b
 ---
 # Administering Tags {#administering-tags}
 

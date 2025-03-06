@@ -4,6 +4,7 @@ description: Learn how Adobe Experience Manager 6.5 can create personalized cont
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Architect,Developer
+exl-id: da8a1341-55a9-46bb-b78d-ced79e22e87e
 ---
 # Personalization and Content Targeting {#personalization}
 

@@ -5,6 +5,7 @@ contentOwner: AG
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 5511817e-dcf8-463d-8e62-cbbef64ad162
 ---
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
@@ -378,4 +379,3 @@ Also, verify that your multifield implementation code and node structure are cor
 **Configuration available to administrators are not available to authors**
 
 If the interface configurations updates are reflected for administrators but not for author accounts, ensure that the configuration node is not named `config`. Use the [`configPath` property](/help/sites-developing/components-basics.md#cq-inplaceediting).
-

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: bc424dcd-f3a7-48f5-848d-1b14b8e26862
 ---
 # Basic Handling{#basic-handling}
 

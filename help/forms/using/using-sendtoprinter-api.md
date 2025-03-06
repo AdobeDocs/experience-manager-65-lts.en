@@ -7,6 +7,7 @@ topic-tags: document_services
 feature: Document Services,APIs & Integrations
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 34fb3ffc-c928-4cbd-b9f4-d22ab0ca633c
 ---
 # Using the sendToPrinter API {#using-the-sendtoprinter-api}
 

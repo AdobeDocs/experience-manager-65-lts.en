@@ -8,6 +8,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 5e5ce783-8d0c-421c-b938-7020215682a0
 ---
 # Save forms as templates {#save-forms-as-templates}
 

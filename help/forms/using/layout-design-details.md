@@ -8,6 +8,7 @@ docset: aem65
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 197f0c6e-8319-453c-b082-183de1b7ba2e
 ---
 # Layout Design{#layout-design}
 

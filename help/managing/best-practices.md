@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager 6.5
 feature: Compliance
 role: Admin,Architect,Data Architect,Developer,Leader
+exl-id: 8f8883d8-4e2b-4ba0-bd83-414a96e7d382
 ---
 # Managing Projects - Best Practices Checklist{#managing-projects-best-practices-checklist}
 

@@ -1,18 +1,13 @@
 ---
 title: Rendering Forms Based on Fragments
-
 description: Use the Forms service to render forms that are based on fragments created using Designer.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes

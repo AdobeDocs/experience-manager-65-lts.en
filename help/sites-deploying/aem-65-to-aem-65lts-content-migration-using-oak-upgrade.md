@@ -4,8 +4,8 @@ description: Learn how to migrate content from AEM 6.5 to AEM 6.5 LTS using the 
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 8c4ffb0e-b4dc-4a81-ac43-723754cbc0de
 ---
-
 # AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade {#aem-65-to-aem-65lts-content-migration-using-oak-upgrade}
 
 This document provides a comprehensive guide for upgrading Adobe Experience Manager from version **6.5** to **6.5 LTS**, focusing on content repository migration using the oak-upgrade tool, a powerful utility for transferring content between different repositories with precision and control.
@@ -14,9 +14,9 @@ This document provides a comprehensive guide for upgrading Adobe Experience Mana
 
 Before starting the migration, ensure the following requirements are met:
 
-1. Java Compatibility: AEM 6.5 LTS must be installed and configured to run with Java 17. Once set up, start the AEM instance and verify that all bundles are active and running without issues
+1. Java Compatibility: AEM 6.5 LTS must be installed and configured to run with Java&trade; 17. Once set up, start the AEM instance and verify that all bundles are active and running without issues
 1. System Resources: Ensure adequate disk space and memory are available to handle both repositories during the migration process
-1. Oak-upgrade Tool: Download the `oak-upgrade` jar from the [official Maven repository](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade). Ensure that the version matches the oak-core version used in AEM 6.5 LTS. Oak-upgrade tool runs on Oracle Java 11 or later
+1. Oak-upgrade Tool: Download the `oak-upgrade` jar from the [official Maven repository](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade). Ensure that the version matches the oak-core version used in AEM 6.5 LTS. Oak-upgrade tool runs on Oracle&reg; Java&trade; 11 or later
 
 ## Step by Step Migration Process {#step-by-step-migration-process}
 

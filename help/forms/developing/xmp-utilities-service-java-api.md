@@ -1,17 +1,12 @@
 ---
 title: XMP Utilities Service Java APIQuick Start(SOAP)
-
 description: Use the XMP Utilities service to export and import XMP metadata.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes

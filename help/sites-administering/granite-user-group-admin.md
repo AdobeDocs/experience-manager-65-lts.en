@@ -1,19 +1,15 @@
 ---
 title: Granite Operations - User and Group Administration
-
 description: Learn about Granite user and group administration.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: ba02f9d4-5286-41d6-995c-307d6e13431b
 ---
-
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}
 
 As Granite incorporates the CRX Repository implementation of the JCR API Specification it has its own user and group administration.

@@ -4,6 +4,7 @@ description: Learn how to persist GraphQL queries in Adobe Experience Manager to
 solution: Experience Manager, Experience Manager Sites
 feature: Content Fragments,GraphQL API
 role: Developer
+exl-id: 686d5510-8cdb-49eb-9ed0-f360be9bdc6d
 ---
 # Persisted GraphQL queries {#persisted-queries-caching}
 

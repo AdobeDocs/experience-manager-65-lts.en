@@ -5,6 +5,7 @@ topic-tags: upgrading
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c7351625-b29e-45a7-b966-e7c0f56d4f22
 ---
 # Performing an In-Place Upgrade {#performing-an-in-place-upgrade}
 
@@ -173,7 +174,7 @@ Now, start the AEM instance using the new command determined using the informati
 
 >[!NOTE]
 >
->Support for some of Java 8/11 arguments have been removed in Java 17, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](https://git.corp.adobe.com/AdobeDocs/experience-manager-65-lts.en/blob/main/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
+>Support for some of Java 8/11 arguments have been removed in Java 17, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
 
 To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 

@@ -1,8 +1,8 @@
 ---
 title: Current Release Notes for Adobe Experience Manager 6.5 LTS
 description: These are the current Release Notes for Adobe Experience Manager 6.5 LTS.
+exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ---
-
 # Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
 
 ## Release Information {#release-information}
@@ -105,3 +105,4 @@ These websites are only available to customers. If you are a customer and need a
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact Adobe Customer Support](https://experienceleague.adobe.com/en/docs/customer-one/using/home).
+ 

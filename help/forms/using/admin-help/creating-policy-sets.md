@@ -1,14 +1,10 @@
 ---
 title: Creating and managing policy sets
-
 description: Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer

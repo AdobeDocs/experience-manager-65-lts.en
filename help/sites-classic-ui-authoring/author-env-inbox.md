@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 2f760a0e-bee3-4803-b0db-6e1137396600
 ---
 # Your Inbox{#your-inbox}
 

@@ -1,6 +1,6 @@
 ---
 title: Configure service settings
-description: Learn how to configure service settings. You can use Service Management page for configuring the settings for each of the services that are part of AEM forms. 
+description: Learn how to configure service settings. You can use Service Management page for configuring the settings for each of the services that are part of AEM forms.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services

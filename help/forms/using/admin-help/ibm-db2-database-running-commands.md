@@ -1,5 +1,5 @@
 ---
-title: "IBM DB2 database: Running commands for regular maintenance"
+title: 'IBM DB2 database: Running commands for regular maintenance'
 description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database.
 contentOwner: admin
 content-type: reference

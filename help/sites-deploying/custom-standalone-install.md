@@ -6,6 +6,7 @@ topic-tags: deploying
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: 93dc74b3-dfe3-442f-9dec-1b7af41cd4a1
 ---
 # Custom Standalone Install{#custom-standalone-install}
 

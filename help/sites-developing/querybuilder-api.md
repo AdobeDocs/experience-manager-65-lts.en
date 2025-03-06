@@ -10,6 +10,7 @@ tagskeywords: querybuilder
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Search,Query Builder
 role: Developer
+exl-id: a87c571e-7afb-42e7-836c-170dcfb0d03b
 ---
 # Query Builder API{#query-builder-api}
 

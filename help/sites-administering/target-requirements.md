@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: e1771229-b2ce-406a-95a5-99b11fafbe34
 ---
 # Prerequisites for Integrating with Adobe Target{#prerequisites-for-integrating-with-adobe-target}
 

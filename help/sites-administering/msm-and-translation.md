@@ -1,16 +1,14 @@
 ---
 title: Multi Site Manager and Translation
 description: Learn how to reuse your content across your project and manage multilingual websites in Adobe Experience Manager.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: site-features
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Multi Site Manager, Language Copy
 role: Admin
+exl-id: 325089d0-9310-4219-b0e3-9645c3189d37
 ---
 # Multi Site Manager and Translation {#msm-and-translation}
 

@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes

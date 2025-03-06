@@ -1,17 +1,13 @@
 ---
 title: Document Fragments in AEM
-
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
-
-
 topic-tags: correspondence-management
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: ece49f03-e711-439f-9c2d-6308fe2998ae
 ---
 # Document Fragments{#document-fragments}
 

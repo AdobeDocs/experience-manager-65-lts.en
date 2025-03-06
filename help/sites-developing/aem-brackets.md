@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: 103b6fde-e001-4332-9927-5cdf2acbc40c
 ---
 # AEM Brackets Extension{#aem-brackets-extension}
 

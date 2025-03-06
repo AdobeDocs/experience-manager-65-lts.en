@@ -7,6 +7,7 @@ role: User, Admin
 feature: Collaboration,Adobe Asset Link,Desktop App
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 51a2f4bb-5fca-48fa-855d-1d610a5eb7c0
 ---
 # [!DNL Adobe Experience Manager] and [!DNL Creative Cloud] integration best practices {#aem-and-creative-cloud-integration-best-practices}
 

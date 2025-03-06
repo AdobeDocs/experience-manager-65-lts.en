@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components
+exl-id: 1af9a6a6-b2ac-4178-a36b-f1250239d57d
 ---
 # Creating a custom toolbar action{#creating-a-custom-toolbar-action}
 

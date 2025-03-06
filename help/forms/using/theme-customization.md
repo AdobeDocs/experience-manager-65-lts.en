@@ -8,6 +8,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 5765b456-c6e8-4498-ade0-b36c95aadd71
 ---
 # Theme Customization {#theme-customization}
 

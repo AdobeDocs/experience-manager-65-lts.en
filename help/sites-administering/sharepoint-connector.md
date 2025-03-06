@@ -1,6 +1,6 @@
 ---
 title: SharePoint Connector
-description:  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
+description: Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
@@ -8,6 +8,7 @@ content-type: reference
 docset: aem65
 feature: Integration
 role: Admin
+exl-id: 3f8ec723-2705-4ce5-8cb2-e7e6bfe94512
 ---
 # SharePoint Connector{#sharepoint-connector}
 

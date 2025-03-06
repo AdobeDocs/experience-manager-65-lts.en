@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components
+exl-id: 4678557b-904d-43c4-b53c-5710ab081f0f
 ---
 # Adding custom action on form lister items{#adding-custom-action-on-form-lister-items}
 

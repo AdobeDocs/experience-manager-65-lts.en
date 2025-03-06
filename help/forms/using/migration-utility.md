@@ -5,6 +5,7 @@ content-type: reference
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 636f7b61-549e-45c7-ab21-94bb90db2b22
 ---
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
 

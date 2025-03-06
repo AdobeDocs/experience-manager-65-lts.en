@@ -1,16 +1,13 @@
 ---
 title: Configuring redirect page
-
 description: After filling an adaptive form, users can be redirected to a webpage that form authors can configure while creating the form.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: dba191d6-4fe9-40e7-a995-00f0c3fd335d
 ---
 # Configuring redirect page{#configuring-redirect-page}
 

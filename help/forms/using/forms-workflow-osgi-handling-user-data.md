@@ -1,11 +1,8 @@
 ---
 title: Forms-centric workflows on OSGi | Handling user data
-
 description: Forms-centric workflows on OSGi | Handling user data
-
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi

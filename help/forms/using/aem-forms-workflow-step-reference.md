@@ -7,6 +7,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: User, Developer
+exl-id: 13d84b04-dab6-453f-bc0d-62a5f557c4f2
 ---
 # Forms-centric workflow on OSGi - Step Reference {#forms-centric-workflow-on-osgi-step-reference}
 

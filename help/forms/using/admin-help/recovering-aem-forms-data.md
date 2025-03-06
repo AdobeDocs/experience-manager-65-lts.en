@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 6345edda-cdc6-4e13-ade6-2dd6de9d9616
 ---
 # Recovering the AEM forms data {#recovering-the-aem-forms-data}
 

@@ -1,14 +1,11 @@
 ---
 title: AEM Commerce - GDPR Readiness
-
 description: Learn about the procedures to handle GDPR requests in AEM Commerce and how to use them.
-
-
 contentOwner: carlino
-
 solution: Experience Manager, Experience Manager Sites
 feature: Compliance
 role: Admin, Architect, Developer, Leader, User, Data Architect, Data Engineer
+exl-id: 2d7ae2ad-a7ad-4b7d-bfa4-167caa49a087
 ---
 # AEM Commerce - GDPR Readiness{#aem-commerce-gdpr-readiness}
 

@@ -1,15 +1,14 @@
 ---
 title: Selecting your UI
 description: For convenience to authoring users, the touch-enabled UI does allow for switching to the classic UI when necessary.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 781b580a-e4d1-419e-afb1-884c8fb634b9
 ---
 # Selecting your UI{#selecting-your-ui}
 

@@ -6,8 +6,8 @@ solution: Experience Manager, Experience Manager Sites
 role: Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 0b4d1cb7-b3a7-4bcd-ad37-d718b2a0abd5
 ---
-
 # Upgrade Steps for Application Server Installations {#upgrade-steps-for-application-servers}
 
 This section describes the procedure that needs to be followed to update AEM for Application Server installations.

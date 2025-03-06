@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: fb2fd382-e06a-4779-a4c5-e483ef42796d
 ---
 # Working with the Marketing Campaign Manager{#working-with-the-marketing-campaign-manager}
 

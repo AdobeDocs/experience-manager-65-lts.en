@@ -8,6 +8,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: a17cc96f-b0f0-48c7-9685-d065a6fc1514
 ---
 # Grant rule editor access to select user groups{#grant-rule-editor-access-to-select-user-groups}
 

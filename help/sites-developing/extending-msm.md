@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 46300f72-730e-444c-8677-352a890e9910
 ---
 # Extending the Multi Site Manager{#extending-the-multi-site-manager}
 

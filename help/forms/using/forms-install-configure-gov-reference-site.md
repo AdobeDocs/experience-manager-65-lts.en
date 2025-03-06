@@ -6,6 +6,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer
+exl-id: 9c05a71b-70fa-4470-afdf-823fd5da5ad1
 ---
 # Set up and configure We.Gov and We.Finance reference site {#set-up-and-configure-we-gov-reference-site}
 

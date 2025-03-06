@@ -5,9 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: customization
 docset: aem65
-solution: "Experience Manager, Experience Manager Forms"
+solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components
+exl-id: f9ff1458-6fc9-476a-a03e-c651464105d4
 ---
 # Creating custom toolbar layout{#creating-custom-toolbar-layout}
 

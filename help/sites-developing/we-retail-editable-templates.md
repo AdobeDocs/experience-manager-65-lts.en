@@ -1,17 +1,14 @@
 ---
 title: Trying out Editable Templates in We.Retail
-
 description: Learn how to try out Editable Templates in Adobe Experience Manager using We.Retail.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: f1141b8c-12a2-44a0-8c15-b614398b5174
 ---
 # Trying out Editable Templates in We.Retail{#trying-out-editable-templates-in-we-retail}
 

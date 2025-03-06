@@ -1,18 +1,15 @@
 ---
 title: Compiling your Test Plan
-
 description: The individual test cases are amalgamated into your Test Plan
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: b2dfc8fb-7bc4-4b5e-8c8f-1463fdc18e50
 ---
 # Compiling your Test Plan{#compiling-your-test-plan}
 

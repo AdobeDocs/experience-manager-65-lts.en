@@ -9,6 +9,7 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c499432d-6aa4-481f-821d-bd2f9b7a911d
 ---
 # Assessing the Upgrade Complexity with the Pattern Detector
 

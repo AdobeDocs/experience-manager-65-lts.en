@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 0c72fe67-13da-4eac-8cd6-8699e546f8f4
 ---
 # Displaying the user avatar {#displaying-the-user-avatar}
 

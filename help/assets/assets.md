@@ -5,8 +5,8 @@ hide: yes
 feature: Asset Management
 role: Leader, Architect, User
 solution: Experience Manager, Experience Manager Assets
+exl-id: 2f2eb576-4924-4314-b348-c4b290a57fe3
 ---
-
 # About [!DNL Adobe Experience Manager Assets] as a DAM solution {#administering-assets}
 
 | Version | Article link |

@@ -1,16 +1,13 @@
 ---
 title: Enabling forms portal components
-
 description: Out of the box, Forms Portal components are disabled. Enable Document Services and Document Services Predicates groups to enable Forms Portal components.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: publish
-
 feature: Forms Portal
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: a537fc63-b894-4e47-a71f-98ea07747baa
 ---
 # Enabling forms portal components {#enabling-forms-portal-components}
 

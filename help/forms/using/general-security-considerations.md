@@ -1,13 +1,9 @@
 ---
 title: General Security Considerations for AEM Forms on JEE
-
 description: Learn how to prepare for hardening your AEM Forms on JEE environment.
-
-
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-
 docset: aem65
 hide: yes
 hidefromtoc: yes
@@ -15,6 +11,7 @@ removedfrom6.5.2025: yes
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security,Adaptive Forms
+exl-id: 5d0ba475-06be-47fd-8ea2-9160c2d86b07
 ---
 # General Security Considerations for AEM Forms on JEE{#general-security-considerations-for-aem-forms-on-jee}
 

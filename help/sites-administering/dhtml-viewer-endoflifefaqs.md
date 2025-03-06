@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: b17b7c6b-e41c-457c-8f2c-872790eacd98
 ---
 # DHTML Viewer End-of-Life {#dhtml-viewer-end-of-life}
 

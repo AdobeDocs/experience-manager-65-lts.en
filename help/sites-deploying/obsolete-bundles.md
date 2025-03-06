@@ -1,21 +1,18 @@
 ---
 title: List of Obsolete Bundles Uninstalled After the Upgrade
-
 description: A list detailing the bundles that are automatically uninstalled when upgrading to AEM 6.3.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: upgrading
 content-type: reference
-
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 29f1d07b-925b-4612-aa1b-34c387a5765f
 ---
 # List of Obsolete Bundles Uninstalled After the Upgrade{#list-of-obsolete-bundles-uninstalled-after-the-upgrade}
 
-When upgrading to AEM 6.5.2025 the following bundles will be automatically uninstalled, depending from which AEM 6.5 servicepack version the upgrade was performed:
+When upgrading to AEM 6.5 LTS the following bundles will be automatically uninstalled, depending from which AEM 6.5 servicepack version the upgrade was performed:
 
 * com.adobe.cq.social.cq-social-activitystreams
 * com.adobe.cq.social.cq-social-as-provider
@@ -93,7 +90,7 @@ When upgrading to AEM 6.5.2025 the following bundles will be automatically unins
 * org.apache.jackrabbit.oak-solr-osgi
 * com.adobe.cq.cq-searchpromote-integration
 
-The following bundles are not included in a fresh AEM 6.5.2025 instance. After the upgrade you might find these bundles in non-active states. They can be removed manually:
+The following bundles are not included in a fresh AEM 6.5 LTS instance. After the upgrade you might find these bundles in non-active states. They can be removed manually:
 
 * org.apache.sling.atom.taglib
 * com.github.jknack.handlebars

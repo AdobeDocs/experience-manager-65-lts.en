@@ -1,9 +1,10 @@
 ---
-title: Experience Fragments 
+title: Experience Fragments
 description: Experience Fragments in Adobe Experience Manager Sites authoring.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Experience Fragments
 role: User
+exl-id: 97736093-021a-4487-8818-c0e3f1e2b4e5
 ---
 # Experience Fragments{#experience-fragments}
 

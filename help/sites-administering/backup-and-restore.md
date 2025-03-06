@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
+exl-id: 3150a605-f735-4187-ad69-a6fe330dcd4e
 ---
 # Backup and Restore{#backup-and-restore}
 

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 8d53072b-826d-4ff4-843b-09204fb5a455
 ---
 # Customizing Page Authoring{#customizing-page-authoring}
 

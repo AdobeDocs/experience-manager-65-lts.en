@@ -5,6 +5,7 @@ contentOwner: AG
 role: Architect, Admin
 feature: Developer Tools
 solution: Experience Manager, Experience Manager Assets
+exl-id: bf1dee29-75bb-445b-a661-fc7c52d78b63
 ---
 # [!DNL Assets] network considerations {#assets-network-considerations}
 

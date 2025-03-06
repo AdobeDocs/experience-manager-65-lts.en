@@ -1,19 +1,16 @@
 ---
 title: Developing AEM Components
-
 description: AEM components are used to hold, format, and render the content made available on your webpages.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: components
 content-type: reference
-
 docset: aem65
 legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: ff9c9e25-13a8-4ca7-a347-1da1352ef223
 ---
 # Developing AEM Components{#developing-aem-components}
 

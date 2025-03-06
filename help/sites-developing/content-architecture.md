@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: eb47f730-ac26-47a0-9bd7-3b7e94c79ecd
 ---
 # Content Architecture{#content-architecture}
 

@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 4d4c96ea-b7dd-49b9-86b5-2507e7518ba4
 ---
-
 # Classic UI Tagging Console{#classic-ui-tagging-console}
 
 This section is for the Classic UI Tagging Console.

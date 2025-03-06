@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer
+exl-id: 1b6c09f7-6f89-4fe9-8217-bf1a301bf9cb
 ---
 # AEM Forms workspace JSON object description {#aem-forms-workspace-json-object-description}
 

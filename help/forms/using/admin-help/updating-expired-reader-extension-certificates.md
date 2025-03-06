@@ -1,6 +1,6 @@
 ---
-title: Expiration of Reader Extensions certificates and its impact 
-description: Expiration of Reader Extensions certificates and its impact 
+title: Expiration of Reader Extensions certificates and its impact
+description: Expiration of Reader Extensions certificates and its impact
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -8,7 +8,6 @@ hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---
-
 # Expiration of Reader Extensions certificates and its impact {#expiration-of-reader-extensions-certificates-and-its-impact}
 
 Adobe Experience Manager Forms (AEM Forms) customers with Adobe Managed Services or On-premise Enterprise Base licenses are entitled to use Acrobat Reader DC Extensions service. The service enables an organization to easily share interactive PDF documents by extending the functionality of Acrobat Reader with additional usage rights. The service adds usage rights to a PDF document and activates features that are not available when a PDF document is opened using Adobe Acrobat Reader, such as adding comments to a document, filling forms, and saving the document. Third-party users do not require additional software or plug-ins to work with rights-enabled documents. PDF documents that have usage rights added are called rights-enabled documents. A user who opens a rights-enabled PDF document in Acrobat Reader can perform the operations that are enabled for that document.

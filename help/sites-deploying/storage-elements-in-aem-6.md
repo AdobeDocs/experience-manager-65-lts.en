@@ -1,18 +1,15 @@
 ---
 title: Storage Elements in AEM 6.5
-
 description: Learn about the node storage implementations available in AEM 6.5 and how to maintain the repository.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/microkernels-in-aem-6-0
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: e51842b5-fa91-42d2-a490-5a7e867dada7
 ---
 # Storage Elements in AEM 6.5{#storage-elements-in-aem}
 

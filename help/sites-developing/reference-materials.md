@@ -1,19 +1,16 @@
 ---
 title: API Guides
-
 description: Documentation for the APIs that AEM provides for developing applications
-
-
 contentOwner: Guillaume Carlino
 topic-tags: introduction
 audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SITES
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 34dbd86b-7131-405b-a963-7b332232997c
 ---
 # API Guides {#api-guides}
 

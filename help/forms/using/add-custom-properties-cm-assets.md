@@ -1,18 +1,14 @@
 ---
 title: Add custom properties to Correspondence Management assets
-
 description: Learn how to add custom properties to Correspondence Management assets.
-
-
 content-type: reference
 topic-tags: correspondence-management
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 248692f7-0718-4a12-9f82-24b4cef2b1e2
 ---
 # Add custom properties to Correspondence Management assets{#add-custom-properties-to-correspondence-management-assets}
 

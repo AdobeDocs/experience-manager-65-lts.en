@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: e33640ba-6039-4057-8942-b4faa9b2e250
 ---
 # How to use the Proxy Server Tool{#how-to-use-the-proxy-server-tool}
 

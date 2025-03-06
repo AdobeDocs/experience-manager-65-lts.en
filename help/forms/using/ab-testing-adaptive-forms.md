@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 5e7165e5-b2bf-4716-82d3-de02f669cd6e
 ---
 # Create and manage A/B test for adaptive forms{#create-and-manage-a-b-test-for-adaptive-forms}
 

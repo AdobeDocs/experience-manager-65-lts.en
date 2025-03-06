@@ -6,7 +6,6 @@ content-type: reference
 topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Reader Extensions,APIs & Integrations
 hide: yes
 hidefromtoc: yes

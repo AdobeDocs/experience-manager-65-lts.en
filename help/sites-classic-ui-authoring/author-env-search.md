@@ -1,16 +1,15 @@
 ---
 title: Search
 description: The author environment of AEM provides various mechanisms for searching for content, dependent on the resource type.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 2e4f4444-5005-4b46-8bbc-eb935b3a19a5
 ---
 # Search{#searching}
 

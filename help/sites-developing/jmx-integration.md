@@ -6,6 +6,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: ca929fe7-8393-42df-983d-e2005d8434ac
 ---
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}
 

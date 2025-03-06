@@ -5,6 +5,7 @@ contentOwner: AG
 role: Admin
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
+exl-id: f0db5ec6-45ea-418e-ae5f-e6e307a40a38
 ---
 # Integrate [!DNL Adobe Experience Manager Assets] with [!DNL Adobe InDesign Server] {#integrating-aem-assets-with-indesign-server}
 

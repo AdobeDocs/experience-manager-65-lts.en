@@ -5,6 +5,7 @@ role: Admin
 feature: Workfront Integrations and Apps
 hide: yes
 solution: Experience Manager, Workfront
+exl-id: dd6eec1e-fa63-410a-bcd3-61892861fd0c
 ---
 # Install [!DNL Workfront for Experience Manager enhanced connector] {#assets-integration-overview}
 

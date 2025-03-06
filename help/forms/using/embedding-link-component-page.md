@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Forms Portal
 role: Admin, User, Developer
+exl-id: a6ae1633-63a8-4364-b298-bc569459a136
 ---
 # Embedding link component in a page{#embedding-link-component-in-a-page}
 

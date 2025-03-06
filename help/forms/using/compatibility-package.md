@@ -4,6 +4,7 @@ description: Installing the Compatibility package on AEM Forms 6.5 LTS lets you 
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 3a529a82-e2fd-423c-96c1-a5accc87775e
 ---
 # Compatibility Package{#compatibility-package}
 

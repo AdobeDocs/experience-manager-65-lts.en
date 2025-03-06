@@ -1,17 +1,13 @@
 ---
 title: Install and configure data capture capabilities
-
 description: Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
-
-
 topic-tags: installing
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi
+exl-id: ee917b4b-fd38-4e05-8632-8efb82d9cddc
 ---
 # Install and configure data capture capabilities{#install-and-configure-data-capture-capabilities}
 

@@ -5,6 +5,7 @@ contentOwner: AG
 role: Architect, Admin
 feature: Translation
 solution: Experience Manager, Experience Manager Assets
+exl-id: e6b78580-a96e-4560-8f25-b62bb04b060e
 ---
 # Create translation projects {#creating-translation-projects}
 

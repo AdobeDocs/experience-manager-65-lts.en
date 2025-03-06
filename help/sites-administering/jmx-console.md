@@ -1,18 +1,15 @@
 ---
 title: Monitoring Server Resources Using the JMX Console
-
 description: Learn how to monitor server resources using the JMX console.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Operations
 role: Admin
+exl-id: c5907a0b-031f-4e3a-8a5c-5daf31eb71fc
 ---
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 

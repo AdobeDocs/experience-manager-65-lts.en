@@ -4,6 +4,7 @@ description: Create a variable, set a value for the variable, and use it in OR S
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: eb75efb8-c59a-4d51-af54-942cca178f2e
 ---
 # Variables in AEM workflows{#variables-in-aem-workflows}
 

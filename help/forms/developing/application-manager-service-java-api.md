@@ -1,13 +1,10 @@
 ---
 title: Application Manager Service JavaAPI Quick Start(SOAP)
-
 description: Application Manager Service JavaAPI Quick Start(SOAP)
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations

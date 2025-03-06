@@ -1,15 +1,14 @@
 ---
 title: Naming conventions of nodes in the Java Content Repository
 description: Nodes in the repository are subject to naming conventions of the Java Content Repository
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 36025dac-890e-45ba-adea-a230a5231a0b
 ---
 # Naming Conventions {#naming-conventions}
 

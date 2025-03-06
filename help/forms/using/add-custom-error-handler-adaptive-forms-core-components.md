@@ -7,6 +7,7 @@ content-type: reference
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User
+exl-id: de6f259f-87d9-4862-a20e-3825be15dd6e
 ---
 # Error Handlers in Adaptive Forms (Core Components) {#error-handlers-in-adaptive-form}
 

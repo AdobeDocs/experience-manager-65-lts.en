@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 2ccd8c75-e4d0-40f9-bc8f-352b408b5c62
 ---
 # Prepare and send Interactive Communication using the Agent UI {#prepare-and-send-interactive-communication-using-the-agent-ui}
 

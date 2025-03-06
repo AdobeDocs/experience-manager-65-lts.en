@@ -1,15 +1,11 @@
 ---
 title: Assembling PDF Documents
-
 description: Use the Assembler service to assemble multiple PDF documents into one PDF document or disassemble one PDF document into multiple PDF documents.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, Document Services

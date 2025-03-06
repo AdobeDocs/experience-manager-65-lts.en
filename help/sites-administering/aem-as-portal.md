@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 448715f1-ccec-4fb8-92d7-b7458cf9e6d4
 ---
 # AEM Portals and Portlets{#aem-portals-and-portlets}
 

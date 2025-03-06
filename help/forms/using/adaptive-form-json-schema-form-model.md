@@ -5,6 +5,7 @@ role: User, Developer
 level: Beginner, Intermediate
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
+exl-id: 8d2781e7-732e-42e4-b18b-e6d9ceaa7abe
 ---
 # Creating adaptive forms using JSON Schema {#creating-adaptive-forms-using-json-schema}
 

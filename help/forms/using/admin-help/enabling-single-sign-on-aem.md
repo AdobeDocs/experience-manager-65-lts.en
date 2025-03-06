@@ -192,4 +192,3 @@ Click to know the steps to [assign roles to users and groups](/help/forms/using/
    ![Search user group](/help/forms/using/assets/search-user-group.png)
 1. Assign the roles to the users or groups as required.
    ![User role assignment](/help/forms/using/assets/user-role-assign.png)
-

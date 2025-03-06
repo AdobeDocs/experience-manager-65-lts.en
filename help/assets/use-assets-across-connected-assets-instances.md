@@ -7,6 +7,7 @@ role: User, Admin, Leader
 feature: Connected Assets,User and Groups
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 61a1c41a-7aec-4ffb-b622-905b3ca62c1b
 ---
 # Use Connected Assets to share DAM assets in [!DNL Experience Manager Sites] {#use-connected-assets-to-share-dam-assets-in-aem-sites}
 
@@ -361,5 +362,4 @@ To troubleshoot common errors, follow these steps:
 
   ![failure to retrieve asset remote references](assets/reference-report-failure.png)
 
-* If the cookies are not sent from the Sites server to the Assets server in Google Chrome, this is because the Assets connection is not over HTTPS. If you do not use HTTPS on the Assets instance then the `SameSite=None` header cannot be added to the response after you authenticate with the Assets server. 
-
+* If the cookies are not sent from the Sites server to the Assets server in Google Chrome, this is because the Assets connection is not over HTTPS. If you do not use HTTPS on the Assets instance then the `SameSite=None` header cannot be added to the response after you authenticate with the Assets server.

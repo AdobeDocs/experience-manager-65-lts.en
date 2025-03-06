@@ -8,6 +8,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms Upgrade
+exl-id: 93126750-4645-4084-a21b-5362e3cc08a9
 ---
 # Upgrade to AEM 6.5 Forms {#upgrade-to-aem-forms}
 
@@ -103,5 +104,3 @@ Migration involves moving only assets (PDF, XDP, images, adaptive forms, corresp
 
       
       -->
-
-

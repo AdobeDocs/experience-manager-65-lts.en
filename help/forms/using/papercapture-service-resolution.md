@@ -8,7 +8,6 @@ hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---
-
 # PaperCature service fails to perform OCRs operation on PDFs
 
 ## Issue

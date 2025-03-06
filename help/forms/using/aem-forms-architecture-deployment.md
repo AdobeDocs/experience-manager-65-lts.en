@@ -8,6 +8,7 @@ geptopics: SG_AEMFORMS/categories/jee
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
+exl-id: 23ffbaa6-1bd9-48c3-afa3-19737bb15de0
 ---
 # Architecture and deployment topologies for AEM Forms {#architecture-and-deployment-topologies-for-aem-forms}
 

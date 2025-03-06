@@ -4,6 +4,7 @@ description: When a component in a web page is rendered, an HTML element can be 
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 085192a0-0415-4861-8bea-a66cd50d9487
 ---
 # Decoration Tag{#decoration-tag}
 

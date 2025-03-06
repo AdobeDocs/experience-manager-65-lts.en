@@ -9,6 +9,7 @@ docset: aem65
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 71e3d2cd-4e22-44a2-88dd-1f165bf2b3d8
 ---
 # How to Run AEM with TarMK Cold Standby{#how-to-run-aem-with-tarmk-cold-standby}
 

@@ -1,17 +1,14 @@
 ---
 title: Trying out Experience Fragments in We.Retail
-
 description: Learn how to try out Experience Fragments in Adobe Experience Manager using We.Retail.
-
-
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Experience Fragments,Developing
 role: Developer
+exl-id: 1d0c8304-32ec-4bfb-a3f5-7c1a8d6979dc
 ---
 # Trying out Experience Fragments in We.Retail{#trying-out-experience-fragments-in-we-retail}
 

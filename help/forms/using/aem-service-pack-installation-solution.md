@@ -3,7 +3,6 @@ title: CRX/bundle and Start page service unavailable errors once latest 6.5.15.0
 description: CRX/bundle and Start page service unavailable errors once latest 6.5.15.0 service pack is installed
 SEO Description: Trouble shooting steps to resolve the errors after installing latest 6.5.15.0 service pack
 solution: Experience Manager, Experience Manager Forms
-
 role: User, Developer
 feature: Adaptive Forms,AEM Forms on JEE,AEM Forms on OSGi
 hide: yes

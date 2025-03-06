@@ -1,15 +1,11 @@
 ---
 title: Assembling Documents Using Bates Numbering
-
-description: Use Bates numbering to assemble PDF documents using the Java and Web Service API. 
-
-
+description: Use Bates numbering to assemble PDF documents using the Java and Web Service API.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services

@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SQL Server database: Fine-tuning the configuration"
+title: 'Microsoft SQL Server database: Fine-tuning the configuration'
 description: Learn how you can fine-tune the configuration of your Microsoft SQL Server database.
 contentOwner: admin
 content-type: reference

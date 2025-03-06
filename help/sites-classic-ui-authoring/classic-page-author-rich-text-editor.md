@@ -7,6 +7,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: f5114938-1279-4f00-9c2b-bd9ecd8eef6f
 ---
 # Rich Text Editor {#rich-text-editor}
 

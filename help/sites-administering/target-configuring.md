@@ -4,6 +4,7 @@ description: Learn how to manually configure the integration with Adobe Target.
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 55f100b2-625a-4d0e-b8bb-011c7e3e3580
 ---
 # Manually Configuring the Integration with Adobe Target {#manually-configuring-the-integration-with-adobe-target}
 
