@@ -4,7 +4,9 @@ description: Learn how to configure and troubleshoot an Adobe Experience Manager
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: f7279bba-b889-4431-9cfd-79e140d46e05
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configuring and troubleshooting an AEM Forms on JEE server cluster {#configuring-troubleshooting-aem-forms-jee-server-cluster}
 

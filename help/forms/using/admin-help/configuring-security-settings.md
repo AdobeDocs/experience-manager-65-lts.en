@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: PDF Generator,Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: fee34d9e-6606-40c1-bbbe-e7975ad90a22
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configuring security settings{#configuring-security-settings}
 

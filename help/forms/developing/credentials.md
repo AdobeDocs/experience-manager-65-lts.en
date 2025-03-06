@@ -8,7 +8,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: b3a0eb20-5b85-45a3-a416-a16a9f44acc5
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with Credentials {#working-with-credentials} 
 

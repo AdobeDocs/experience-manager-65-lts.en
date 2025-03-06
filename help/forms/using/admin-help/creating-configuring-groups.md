@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
-exl-id: e8824453-8891-40e0-9948-c0c0f0fdce62
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Creating and configuring groups{#creating-and-configuring-groups}
 

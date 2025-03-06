@@ -5,6 +5,9 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 role: Admin,User
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security,Adaptive Forms
 exl-id: 3de38e4d-6a12-470e-aded-7eb75a9cdcd8

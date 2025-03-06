@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 054d31c3-bd58-4596-8c06-4909d75e9569
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 

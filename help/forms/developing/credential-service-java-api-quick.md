@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 7314fbae-05af-423d-92c8-f8c608048956
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Credential Service Java&trade; API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 

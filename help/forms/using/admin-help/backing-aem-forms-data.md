@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: cbcb9301-48c9-4394-b8c0-766eed76101d
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Backing up the Adobe Experience Manager (AEM) Forms data {#backing-up-the-aem-forms-data}
 

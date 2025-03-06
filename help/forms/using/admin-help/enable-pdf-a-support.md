@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: 6eb93270-bea0-4409-8e80-4d040be41eab
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Enable PDF/A support {#enable-pdf-a-support}
 

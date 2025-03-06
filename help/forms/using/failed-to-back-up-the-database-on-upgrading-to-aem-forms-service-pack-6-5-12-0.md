@@ -4,7 +4,9 @@ description: When a user upgrades to Experience Manager 6.5.12.0 and click "Upgr
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE
 role: User, Developer
-exl-id: afc09a9f-58ef-4292-a2f2-b62d3246c006
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Failure to backup database during upgrade to 6.5.12.0 for MySQL {#issue}
 

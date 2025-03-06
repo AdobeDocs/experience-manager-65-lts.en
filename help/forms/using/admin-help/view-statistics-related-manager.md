@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 7c1023ac-9d52-49f8-8e92-20e2d9d7079b
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # View statistics related to Work Manager {#view-statistics-related-to-work-manager}
 

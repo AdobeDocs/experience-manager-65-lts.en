@@ -7,8 +7,10 @@ geptopics: SG_AEMFORMS/categories/programmatically_disassembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 35802b50-71ca-4bb2-8f2c-7452b81a6b1f
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api} 
 

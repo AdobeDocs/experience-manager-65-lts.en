@@ -7,8 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 8de9682f-8332-4f6e-ac4b-295fca82a424
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts1}
 

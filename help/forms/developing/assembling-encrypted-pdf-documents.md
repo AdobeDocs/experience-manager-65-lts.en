@@ -9,7 +9,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
-exl-id: d9884c3e-47d2-400a-98c3-13cc37be6786
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assembling Encrypted PDF Documents {#assembling-encrypted-pdf-documents} 
 

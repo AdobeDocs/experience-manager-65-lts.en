@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 8aeacdb7-68a7-476f-a725-f9ad7406cc9c
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 

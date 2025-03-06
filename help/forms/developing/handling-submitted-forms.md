@@ -8,8 +8,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 31a10544-0be7-4ef7-ba0f-c37099d36bcb
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Handling Submitted Forms {#handling-submitted-forms} 
 

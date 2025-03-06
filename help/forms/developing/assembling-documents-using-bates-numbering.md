@@ -9,7 +9,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
-exl-id: 310d0566-673a-4b78-9f0d-86f56c495105
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assembling Documents Using Bates Numbering {#assembling-documents-using-bates-numbering} 
 

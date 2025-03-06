@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 0fe9b02a-96b4-462f-a940-a2d6084ed0a4
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Strategy for backup and restore in a clustered environment {#strategy-for-backup-and-restore-in-a-clustered-environment}
 

@@ -9,7 +9,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: f1e6adca-0591-4974-9c12-66706aa35247
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Rendering Forms as HTML {#rendering-forms-as-html} 
 

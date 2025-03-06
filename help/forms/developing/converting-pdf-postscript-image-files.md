@@ -8,7 +8,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 509b9e53-9af4-4916-afba-2db358ec0764
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Converting PDF to Postscript and Image Files {#converting-pdf-to-postscript-andimage-files} 
 

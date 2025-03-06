@@ -7,8 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: e319bb36-d32b-4535-8bdd-33afec822fc9
+feature: Adaptive Forms, APIs & Integrations,AEM Forms on JEE
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Task Manager Service Java API Quick Start (SOAP) {#task-manager-service-java-api-quickstart-soap}
 
