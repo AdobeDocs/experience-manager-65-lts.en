@@ -1,11 +1,6 @@
 ---
 title: Deliver Dynamic Media assets
 description: Learn how to deliver Dynamic Media assets, such as video and images, to your web pages.
-contentOwner: Rick Brough
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: dynamic-media
-content-type: reference
-docset: aem65
 role: User, Admin
 feature: Asset Management,Renditions
 solution: Experience Manager, Experience Manager Assets
@@ -36,9 +31,7 @@ For more information, see the following topics:
 * [Link URLs to your web application](/help/assets/linking-urls-to-yourwebapplication.md)
 * [Deliver optimized images for a responsive site](/help/assets/responsive-site.md)
 * [HTTP2 delivery of content](/help/assets/http2.md)
-* [Invalidate your CDN cache by way of Dynamic Media Classic](/help/assets/invalidate-cdn-cache-dm-classic.md)
 * [Use Rulesets to transform URLs](/help/assets/using-rulesets-to-transform-urls.md)
-
 
 ## HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 

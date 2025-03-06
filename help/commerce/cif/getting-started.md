@@ -11,9 +11,6 @@ exl-id: 15face30-3039-49a0-bfee-56bff21e5c27
 
 To get started with AEM Content and Commerce, you need to install the AEM Content and Commerce Add-On for AEM 6.5.
 
-## Minimum Software Requirement
-
-[AEM 6.5 Service Pack](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 7 or later is required.
 
 ## Onboarding {#onboarding}
 

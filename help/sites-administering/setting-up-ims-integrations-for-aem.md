@@ -10,7 +10,7 @@ exl-id: 05ba39fc-4b53-43c0-9a9f-7da3293b1ca2
 
 >[!NOTE]
 >
->Adobe customers use the [Adobe Developer Console](https://developer.adobe.com/console) to generate credentials that enable access to various APIs. Customers select from various credential types ranging from OAuth Server-to-Server to Single-Page App. The credential type Service Account (JWT) is now deprecated in favor of the OAuth Server-to-Server credentials with Service Pack 20. This change can be back ported to older Service Packs, starting with Service Pack 11 up to Service Pack 20 with the use of a hotfix that you can [download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/ims-jwt-compatibility-package-6.5-1.0.zip). 
+>Adobe customers use the [Adobe Developer Console](https://developer.adobe.com/console) to generate credentials that enable access to various APIs. Customers select from various credential types ranging from OAuth Server-to-Server to Single-Page App. The credential type Service Account (JWT) is now deprecated in favor of the OAuth Server-to-Server credentials.
 
 Adobe Experience Manager (AEM) can be integrated with many other Adobe solutions. For example, Adobe Target, Adobe Analytics, and others. 
 

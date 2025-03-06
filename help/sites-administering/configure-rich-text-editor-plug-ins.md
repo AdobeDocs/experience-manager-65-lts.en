@@ -280,10 +280,6 @@ Then, specify the locations of the style sheets that you want to reference:
 
 Authors using AEM to author Japanese language content can apply a style to characters to avoid line breaks where a break is not required. This allows authors to let the sentences break at the desired position. The style for this functionality is based on CSS class that is pre-defined in the CSS style sheet.
 
->[!NOTE]
->
->This feature requires at least AEM 6.5 Service Pack 1.
-
 To create the style that authors can apply to Japanese text, follow these steps:
 
 1. Create a node under the styles node. See [specify a new style](#stylesindropdown).

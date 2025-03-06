@@ -62,11 +62,11 @@ You require the following to configure AEM Assets with Brand Portal:
 
 [Download and install the latest AEM Service Pack](#servicepack)
 
-### Download and install AEM 6.5 {#aemquickstart}
+### Download and install AEM 6.5 LTS {#aemquickstart}
 
-It is recommended to have AEM 6.5 to set up an AEM Author instance. If you do not have AEM up and running, download it from the following locations:
+It is recommended to have AEM 6.5 LTS to set up an AEM Author instance. If you do not have AEM up and running, download it from the following locations:
 
-* If you are an existing AEM customer, download AEM 6.5 from the [Adobe Licensing website](https://licensing.adobe.com).
+* If you are an existing AEM customer, download AEM 6.5 LTS from the [Adobe Licensing website](https://licensing.adobe.com).
 
 * If you are an Adobe partner, use the [Adobe Partner Training Program](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=82357Q) to request AEM 6.5.
 
@@ -74,7 +74,7 @@ After you download AEM, for instructions to set up an AEM Author instance, see [
 
 ### Download and install AEM latest Service Pack {#servicepack}
 
-For detailed instructions, see the current [AEM 6.5 Service Pack Release Notes](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/release-notes.html). 
+For detailed instructions, see the current [AEM 6.5 LTS Service Pack Release Notes](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/release-notes.html). 
 
 **Contact Adobe Customer Support** if you cannot find the latest AEM package or Service Pack.
 
