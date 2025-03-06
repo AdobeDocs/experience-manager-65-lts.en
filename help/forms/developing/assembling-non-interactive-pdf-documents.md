@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: fc5ea2a6-79b4-436e-b5bc-c4beaf3619ee
 ---
 # Assembling Non-Interactive PDF Documents {#assembling-non-interactive-pdf-documents}
 

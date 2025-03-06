@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: de3cd0ad-0b18-4d9a-8c6b-72cc16149cfc
 ---
 # PaperCature service fails to perform OCRs operation on PDFs
 

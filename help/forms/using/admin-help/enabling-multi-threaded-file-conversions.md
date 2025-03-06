@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 46b3ac33-9c02-4c53-91d5-44ba49ab5c36
 ---
 # Enabling multi-threaded file conversions {#enabling-multi-threaded-file-conversions}
 

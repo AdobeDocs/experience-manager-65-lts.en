@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 6eb93270-bea0-4409-8e80-4d040be41eab
 ---
 # Enable PDF/A support {#enable-pdf-a-support}
 

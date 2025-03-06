@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 62d31b00-be95-4502-9e97-3ce563192de2
 ---
 # Fine-tuning Health Monitor performance{#fine-tuning-health-monitor-performance}
 

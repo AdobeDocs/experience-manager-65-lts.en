@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5df8c609-8007-4422-9bf8-5bae6d53b9b7
 ---
 # High-volume secure information delivery {#high-volume-secure-information-delivery}
 

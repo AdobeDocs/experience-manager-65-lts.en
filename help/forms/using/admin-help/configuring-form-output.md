@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 2823d38e-f544-408e-9437-3d0fc622dc34
 ---
 # Configuring form output{#configuring-form-output}
 

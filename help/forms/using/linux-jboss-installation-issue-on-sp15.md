@@ -8,6 +8,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ba3a5c1e-19db-49cf-ac64-513a6077f3e9
 ---
 # AEM Forms 6.5.15.0 JEE Service Pack installation issue on JBoss® environment {#aem-forms-installation-issue-environment}
 

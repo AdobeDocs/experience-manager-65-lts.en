@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 65e1df03-8549-4ebb-bd86-7666a19339ed
 ---
 # Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ee73f6a1-712c-461f-95e8-85f8c5694293
 ---
 # Configuring SSL on Windows Vista {#configuring-ssl-on-windows-vista}
 

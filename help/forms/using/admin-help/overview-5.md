@@ -12,6 +12,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: cc0a3d56-3adc-4d6e-87a3-9a8587bbe3f2
 ---
 # Introduction to working with PDF Generator {#introduction-to-working-with-pdf-generator}
 

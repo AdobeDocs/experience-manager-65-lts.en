@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 23fab14d-3658-4fd3-88c1-fc71f1ac0400
 ---
 # Configuring Business Calendars {#configuring-business-calendars}
 

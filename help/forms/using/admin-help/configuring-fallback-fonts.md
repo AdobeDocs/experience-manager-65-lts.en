@@ -11,7 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
-
+exl-id: d11bb8dc-d0fe-4182-88dd-9ef1ecf687db
 ---
 # Configuring fallback fonts {#configuring-fallback-fonts}
 

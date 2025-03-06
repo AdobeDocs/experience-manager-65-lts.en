@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 558d9b27-8734-4da2-b498-5bb2361ac65b
 ---
 # Passing credentials using WS-Security headers {#using-execute-script-service-aem-forms-jee-workbench}
 

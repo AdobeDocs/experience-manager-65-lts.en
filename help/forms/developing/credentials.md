@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: b3a0eb20-5b85-45a3-a416-a16a9f44acc5
 ---
 # Working with Credentials {#working-with-credentials} 
 

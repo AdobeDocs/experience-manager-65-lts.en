@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d4809a55-aff5-41ac-b75e-81e3a6bf47ca
 ---
 # Adding and removing user name and password credentials {#adding-and-removing-user-name-and-password-credentials}
 

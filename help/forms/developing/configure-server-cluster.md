@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f7279bba-b889-4431-9cfd-79e140d46e05
 ---
 # Configuring and troubleshooting an AEM Forms on JEE server cluster {#configuring-troubleshooting-aem-forms-jee-server-cluster}
 

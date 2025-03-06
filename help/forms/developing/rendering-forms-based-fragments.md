@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 3af4361d-ff30-46db-ac88-64bfae8f63a4
 ---
 # Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments} 
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 2c0dd472-9697-4b96-b3fa-3c50883bf425
 ---
 # Configuring directories {#configuring-directories}
 

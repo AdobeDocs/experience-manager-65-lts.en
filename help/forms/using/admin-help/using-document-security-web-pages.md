@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 90628021-75cb-41f3-a5f7-66c4f1ed0f3a
 ---
 # Using the document security webpages {#using-the-document-security-webpages}
 

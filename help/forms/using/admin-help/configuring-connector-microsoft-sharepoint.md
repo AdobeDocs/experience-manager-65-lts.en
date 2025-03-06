@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d1575576-3a05-496c-b683-bb5badc02711
 ---
 # Configuring Connector for Microsoft SharePoint {#configuring-connector-for-microsoft-sharepoint}
 

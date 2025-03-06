@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 7c1023ac-9d52-49f8-8e92-20e2d9d7079b
 ---
 # View statistics related to Work Manager {#view-statistics-related-to-work-manager}
 

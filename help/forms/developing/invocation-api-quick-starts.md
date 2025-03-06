@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 7e1b29b3-aaab-4e99-bf6e-1f085a71d293
 ---
 # Invocation API Quick Starts {#invocation-api-quick-starts} 
 

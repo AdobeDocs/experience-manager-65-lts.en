@@ -7,6 +7,7 @@ solution: Experience Manager, Experience Manager Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f2703820-8701-4b48-be9c-12daa73d5408
 ---
 # Enabling and viewing transaction reports for AEM Forms on JEE {#transaction-reports-overview}
 

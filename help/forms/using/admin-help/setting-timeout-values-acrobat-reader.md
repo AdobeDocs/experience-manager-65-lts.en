@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: c2f96686-15e3-4d92-acfe-f971c5849de4
 ---
 # Setting timeout values for use with Acrobat Reader DC Extensions  {#setting-timeout-values-for-use-with-acrobat-reader-dc-extensions}
 
