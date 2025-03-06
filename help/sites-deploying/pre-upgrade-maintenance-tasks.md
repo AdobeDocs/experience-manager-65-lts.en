@@ -1,19 +1,15 @@
 ---
 title: Pre-Upgrade Maintenance Tasks
-
 description: Learn about the pre-upgrade tasks recommended for AEM.
-
-
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: upgrading
-
 docset: aem65
-
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 1dd5d370-d1d4-4d15-9663-35b941b9076b
 ---
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}
 

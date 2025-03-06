@@ -1,18 +1,14 @@
 ---
 title: PDF Utilities Service Java APIQuick Start(SOAP)
-
 description: Use the PDF Utilities service to convert a PDF document to an XDP document, convert an XDP document to a PDF document, retrieve PDF document properties, setting the save style for a PDF document, and sanitize PDF documents.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 546f42dd-a1bc-42cb-bbee-50a541f71d55
 ---
 # PDF Utilities Service Java API Quick Start (SOAP) {#pdf-utilities-service-java-apiquick-start-soap}
 

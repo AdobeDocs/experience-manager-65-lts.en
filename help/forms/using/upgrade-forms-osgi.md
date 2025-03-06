@@ -1,17 +1,14 @@
 ---
 title: Upgrade to AEM 6.5 Forms on OSGi
-
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi, AEM Forms Upgrade
+exl-id: 9233d4b7-441c-4cbd-86f8-2c52b99c3330
 ---
 # Upgrade to AEM 6.5 Forms on OSGi {#upgrade-to-aem-forms-osgi}
 

@@ -9,6 +9,7 @@ discoiquuid: ec062567-1c6b-497b-a1e7-1dbac2d60852
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 17d1976e-96bd-4f8a-8be5-ea208c5ba93f
 ---
 # Error Handlers in Adaptive Forms {#error-handlers-in-adaptive-form}
 

@@ -1,6 +1,6 @@
 ---
 title: Authoring Targeted Content Using Targeting Mode
-description:  Targeting mode and the Target component provide tools for creating content for experiences
+description: Targeting mode and the Target component provide tools for creating content for experiences
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Architect,Developer
+exl-id: 650ba9be-6546-46dc-b4ab-ea0b97abff40
 ---
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}
 

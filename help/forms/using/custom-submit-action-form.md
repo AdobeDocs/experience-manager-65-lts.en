@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components,Form Data Model
+exl-id: dc3bd697-5b1a-4efe-9554-c6aa1575c1c0
 ---
 # Writing custom Submit action for adaptive forms{#writing-custom-submit-action-for-adaptive-forms}
 

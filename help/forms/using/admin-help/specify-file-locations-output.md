@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: aff0274a-bbb7-4062-afaf-7f9c31f57cb1
 ---
 # Specify file locations for Output {#specify-file-locations-for-output}
 

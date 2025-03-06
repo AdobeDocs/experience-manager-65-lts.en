@@ -5,6 +5,7 @@ contentOwner: AG
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 68e6ddea-1a50-4238-a13d-883a1b0b798d
 ---
 # Configure multiple in-place editors {#configure-multiple-in-place-editors}
 

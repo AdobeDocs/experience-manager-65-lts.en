@@ -4,6 +4,7 @@ description: Learn how to configure Out of Office settings to your Adobe Experie
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: ea10d2e1-9f17-4757-ae2e-67447ff0ad0a
 ---
 # Configure Out of Office setting {#configure-out-of-office-settings}
 

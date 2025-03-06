@@ -4,6 +4,7 @@ description: Start here for a guided journey through the powerful and flexible h
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
 role: Admin, Architect,Data Architect
+exl-id: b5f5e214-d8b3-4066-b834-0ba74d773bbc
 ---
 # AEM Headless Content Architect Journey {#aem-headless-content-architect-journey}
 

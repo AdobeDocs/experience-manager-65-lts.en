@@ -6,6 +6,7 @@ role: Admin, Developer
 feature: Search
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 2645d78b-e678-4ade-b707-5301cc2b3e75
 ---
 # Search facets {#search-facets}
 

@@ -5,10 +5,10 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 8bf470d5-1824-41d6-80e4-4af1eb6df713
 ---
 # Integrating with Adobe Dynamic Tag Management {#integrating-with-adobe-dynamic-tag-management}
 

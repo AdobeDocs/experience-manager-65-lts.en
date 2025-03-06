@@ -1,16 +1,15 @@
 ---
 title: Testing Your UI
 description: AEM provides a framework for automating tests for your AEM UI
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: components, testing
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 8f00a86f-0fd0-480d-84a9-89a948840a0b
 ---
 # Testing Your UI{#testing-your-ui}
 

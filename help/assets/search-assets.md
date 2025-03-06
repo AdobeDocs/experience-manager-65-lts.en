@@ -7,6 +7,7 @@ feature: Search, Metadata
 role: User
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 3511e07b-f6d0-435a-aa80-55357d3dccf5
 ---
 # Search digital assets in [!DNL Adobe Experience Manager] {#search-assets-in-aem}
 

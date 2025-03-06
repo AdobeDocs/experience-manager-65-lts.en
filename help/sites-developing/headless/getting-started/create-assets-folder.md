@@ -4,6 +4,7 @@ description: Use AEM Content Fragment Models to define the structure of Content 
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: 4b23daf6-ea08-4cc6-b91d-0b4b029df3a5
 ---
 # Creating an Assets Folder Headless Quick Start Guide {#creating-an-assets-folder}
 

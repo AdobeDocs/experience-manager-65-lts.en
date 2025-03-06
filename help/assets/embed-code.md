@@ -8,6 +8,7 @@ content-type: reference
 feature: Viewers
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: b98729d3-111a-446b-915a-ca85b3cd75f0
 ---
 # Embed the Dynamic Media Video, Image viewer, or Dimensional viewer on a web page {#embedding-the-video-or-image-viewer-on-a-web-page}
 

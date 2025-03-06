@@ -6,6 +6,7 @@ role: User, Admin
 feature: DRM,Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 5870209f-9e0c-4e60-a083-e46edb707ae7
 ---
 # Digital Rights Management for assets {#digital-rights-management-in-assets}
 

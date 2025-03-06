@@ -1,15 +1,14 @@
 ---
 title: Best Practices for Performance Testing
 description: Learn about the overall strategies and methodologies used for performance testing, and some of the tools that are available to help the process.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 29c20cf3-1694-4d06-ab7c-688018808c44
 ---
 # Best Practices for Performance Testing{#best-practices-for-performance-testing}
 

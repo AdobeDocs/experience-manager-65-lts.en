@@ -4,6 +4,7 @@ description: Learn how to optimize your GraphQL queries when Filtering, Paging, 
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: c2beb0fa-ff6c-4e42-842d-6a73311f4740
 ---
 # Optimizing GraphQL Queries {#optimizing-graphql-queries}
 
@@ -332,4 +333,4 @@ Only modify Content Fragments, and their resources, using the AEM UI or APIs. Do
 
 Processing GraphQL queries is similar to processing search queries, and is significantly more complex than simple GET-all-content API requests. 
 
-Carefully planning, testing, and optimizing your queries in a controlled non-production environment is key for later success when used in production. 
+Carefully planning, testing, and optimizing your queries in a controlled non-production environment is key for later success when used in production.

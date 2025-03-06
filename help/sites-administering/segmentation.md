@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: e024c456-1d50-4ff2-bfb6-aca1cca31632
 ---
 # Configuring Segmentation with ContextHub{#configuring-segmentation-with-contexthub}
 

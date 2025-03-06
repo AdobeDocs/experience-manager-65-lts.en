@@ -6,6 +6,7 @@ content-type: reference
 feature: Language Copy
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 59b4d716-37a2-4f67-88eb-68c93359242c
 ---
 # Translation Enhancements{#translation-enhancements}
 

@@ -1,20 +1,16 @@
 ---
 title: Upgrading Code and Customizations
-
 description: Learn more about upgrading code and customizations in AEM.
-
-
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
-
 docset: aem65
 targetaudience: target-audience upgrader
-
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 6b94caf1-97b7-4430-92f1-4f4d0415aef3
 ---
 # Upgrading Code and Customizations{#upgrading-code-and-customizations}
 

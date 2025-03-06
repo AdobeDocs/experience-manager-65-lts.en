@@ -1,16 +1,15 @@
 ---
 title: Promoting Launches
 description: You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 1167735d-a13a-438e-bef8-205e27f59f4e
 ---
 # Promoting Launches{#promoting-launches}
 

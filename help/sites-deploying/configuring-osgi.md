@@ -8,6 +8,7 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 3bf3ba2e-f5f2-428a-a1fc-36f885350f6b
 ---
 # Configuring OSGi{#configuring-osgi}
 

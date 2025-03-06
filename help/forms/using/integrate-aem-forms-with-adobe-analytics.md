@@ -4,6 +4,7 @@ description: AEM Forms integrates with Adobe Analytics to capture and track perf
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 feature: Adaptive Forms
+exl-id: 5d1bd8c9-2d9b-47a5-9204-9328eadfb102
 ---
 # Analytics using [!DNL Adobe Launch] {#analyticsusingadobelaunch}
 

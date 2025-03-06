@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: 3ef72c05-1301-402e-94ce-49fbaf26fb98
 ---
-
 # Configuring Email Notification{#configuring-email-notification}
 
 AEM sends email notifications to users who:

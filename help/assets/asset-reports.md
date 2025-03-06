@@ -6,6 +6,7 @@ role: User, Admin
 feature: Asset Reports,Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 434a081a-f9e4-4a0d-8468-55b4ab5a6287
 ---
 # Asset reports {#asset-reports}
 

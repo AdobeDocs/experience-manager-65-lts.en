@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: e9b26de3-6e14-4187-8f25-6e56ee3092a7
 ---
 # Migration to the Touch UI{#migration-to-the-touch-ui}
 

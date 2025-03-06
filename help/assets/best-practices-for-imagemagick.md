@@ -5,6 +5,7 @@ contentOwner: AG
 role: Admin
 feature: Renditions,Developer Tools
 solution: Experience Manager, Experience Manager Assets
+exl-id: 258c0d5e-ce2a-48c5-be79-bf5fac70ca96
 ---
 # Install and configure ImageMagick to work with [!DNL Experience Manager Assets] {#install-and-configure-imagemagick-to-work-with-aem-assets}
 

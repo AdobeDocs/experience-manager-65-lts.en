@@ -8,6 +8,7 @@ content-type: reference
 feature: Content Fragments
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: cad7253d-95fb-47eb-b1c9-2d22a9e34481
 ---
 # Creating Translation Projects for Content Fragments {#creating-translation-projects-for-content-fragments}
 

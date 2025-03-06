@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager 6.5
 feature: Compliance
 role: Admin,Architect,Data Architect,Developer,Leader
+exl-id: e6542ba9-1182-4b81-b251-537747b89e4c
 ---
 # Glossary{#glossary}
 

@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: e99f1cbd-492e-4cc2-9975-8f17c885dd8c
 ---
 # Updating the link to the documentation {#updating-the-link-to-the-documentation}
 

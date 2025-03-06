@@ -7,6 +7,7 @@ topic-tags: correspondence-management
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: f698980d-d6f9-435d-853f-4d2827640aaf
 ---
 # APIs to access letter instances {#apis-to-access-letter-instances}
 

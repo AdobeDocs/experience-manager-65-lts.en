@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: 410691eb-27a9-4f8e-b926-01027c7f84d4
 ---
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
 

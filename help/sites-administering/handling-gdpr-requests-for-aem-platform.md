@@ -5,6 +5,7 @@ contentOwner: sarchiz
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 9445c51a-eb0b-41d0-9a23-ed75a5cd879e
 ---
 # Handling GDPR Requests for the Adobe Experience Manager (AEM) Foundation{#handling-gdpr-requests-for-the-aem-foundation}
 

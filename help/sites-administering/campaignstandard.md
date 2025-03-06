@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: fbc73503-efa3-480b-bdc6-9f997c3f3474
 ---
-
 # Integrating AEM 6.5 with Adobe Campaign Standard {#integrating-with-adobe-campaign-standard}
 
 By integrating AEM 6.5 with Adobe Campaign Standard (ACS), you can manage email delivery, content, and forms directly in AEM. Configuration steps in both Adobe Campaign Standard and AEM are needed to enable bidirectional communication between solutions.

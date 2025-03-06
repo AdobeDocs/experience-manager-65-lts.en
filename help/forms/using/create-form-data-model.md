@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create form data model "
+title: 'Tutorial: Create form data model '
 description: Learn how to configure MySQL as data source, create form data model (FDM), configure it, and test for AEM Forms.
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
@@ -7,6 +7,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Form Data Model
 role: Admin, User, Developer
+exl-id: 12f99159-d252-44a5-8daa-938640360445
 ---
 # Tutorial: Create form data model {#tutorial-create-form-data-model}
 

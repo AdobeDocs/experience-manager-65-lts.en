@@ -4,6 +4,7 @@ description: Learn how to upgrade instances of AEM that are deployed via Webspeh
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 2a5d9026-49bc-4766-bcbe-38d834c14f72
 ---
 # Upgrade Steps for Application Server Installations (WLP) {#upgrade-steps-for-application-server-installations-wlp}
 

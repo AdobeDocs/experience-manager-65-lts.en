@@ -8,6 +8,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: df2621db-59a1-4031-8856-7c2de766c099
 ---
 # Asynchronous submission of adaptive forms{#asynchronous-submission-of-adaptive-forms}
 

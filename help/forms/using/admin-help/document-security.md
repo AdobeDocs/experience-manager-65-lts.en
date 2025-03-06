@@ -1,19 +1,15 @@
 ---
-title: What is document security? 
-
+title: What is document security?
 description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 5e7fe85e-3c7f-4a37-8f65-5c0ad4bbd66c
 ---
 # About document security {#about-document-security}
 

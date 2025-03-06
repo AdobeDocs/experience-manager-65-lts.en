@@ -1,17 +1,14 @@
 ---
 title: Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens
-
-description:  Create a client application using Flash Builder that performs single-sign on (SSO) authentication using HTTP tokens. Authenticate a user for an operation once and use that authentication to perform multiple AEM Forms operations.
-
-
+description: Create a client application using Flash Builder that performs single-sign on (SSO) authentication using HTTP tokens. Authenticate a user for an operation once and use that authentication to perform multiple AEM Forms operations.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: coding
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
+exl-id: 6c384e25-f53f-44aa-9043-b9f9f659f987
 ---
 # Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens} 
 

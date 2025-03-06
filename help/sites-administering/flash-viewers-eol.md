@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: e1cf3e82-4dbc-4d5a-b53d-df77f252c2b7
 ---
 # Flash Viewers End-of-Life Notice{#flash-viewers-end-of-life-notice}
 

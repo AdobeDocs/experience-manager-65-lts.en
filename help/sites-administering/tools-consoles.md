@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: b81d2f39-1517-49f0-9d16-bcde514cc199
 ---
 # Tools Consoles{#tools-consoles}
 

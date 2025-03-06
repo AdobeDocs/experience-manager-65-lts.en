@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: f3755499-472b-4eb9-bc98-7918b77f7ab0
 ---
 # Understanding Segmentation{#understanding-segmentation}
 

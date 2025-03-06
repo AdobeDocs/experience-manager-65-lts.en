@@ -1,17 +1,14 @@
 ---
 title: Workflow Best Practices
-
 description: Learn the best practices for working with workflows in Adobe Experience Manager.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: f7d67e71-3148-4b27-a61e-ff64d3bf9b72
 ---
 # Workflow Best Practices{#workflow-best-practices}
 

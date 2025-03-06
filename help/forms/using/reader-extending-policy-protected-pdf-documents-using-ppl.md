@@ -1,17 +1,14 @@
 ---
 title: Reader extending policy-protected PDF documents using Portable Protection Library
-
 description: Reader extensions enable interactive features in Adobe PDF documents through Acrobat Reader. You can use the Portable Protection Library (PPL) to reader extend the DRM protected PDF documents.
-
-
 contentOwner: khsingh
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: document_services
-
 feature: Document Security,Reader Extensions
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: b1430a30-313f-4efc-85c5-ccb914923031
 ---
 # Reader extending policy-protected PDF documents using Portable Protection Library {#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}
 

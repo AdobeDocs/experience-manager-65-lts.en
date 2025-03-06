@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d918ddf2-aa70-4742-97d5-24a2c51f578a
 ---
 # Proxy Server Tool (proxy.jar){#proxy-server-tool-proxy-jar}
 

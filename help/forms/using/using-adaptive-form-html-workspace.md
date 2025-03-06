@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Workbench
 role: User, Developer
+exl-id: 3fdd889d-0984-457e-9b12-b55a4593a573
 ---
 # Using an adaptive form in HTML Workspace{#using-an-adaptive-form-in-html-workspace}
 

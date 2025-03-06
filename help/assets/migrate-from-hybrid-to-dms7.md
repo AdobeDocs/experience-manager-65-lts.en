@@ -9,6 +9,7 @@ docset: aem65
 role: User, Admin
 feature: Scene7 Mode,Hybrid Mode
 solution: Experience Manager, Experience Manager Assets
+exl-id: 7d21d993-f7a3-4c12-aa4d-03057c8f29fc
 ---
 # About moving from Dynamic Media&ndash;Hybrid to Dynamic Media&ndash;Scene7 {#about-migrating}
 

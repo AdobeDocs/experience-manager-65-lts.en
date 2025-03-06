@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 7f952e69-f219-4ade-a187-2a4cbc1600f3
 ---
-
 # Principal View for Permissions Management{#principal-view-for-permissions-management}
 
 ## Overview {#overview}

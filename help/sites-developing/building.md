@@ -1,17 +1,14 @@
 ---
 title: Building Tagging into an AEM Application
-
 description: Programmatically work with tags or extending tags within a custom AEM application
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 feature: Developing,Tagging
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: c835a110-89cf-4857-9ee0-c0ad781a66ae
 ---
 # Building Tagging into an AEM Application{#building-tagging-into-an-aem-application}
 

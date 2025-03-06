@@ -1,17 +1,14 @@
 ---
 title: Request Analysis Script
-
 description: The request analysis script is made to ease the analysis of the access.log files producing a readable report for later processing
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 9fe575ad-1e8d-460f-a933-ddc2e927a6e8
 ---
 # Request Analysis Script{#request-analysis-script}
 

@@ -1,16 +1,15 @@
 ---
 title: Publishing pages
 description: After you have created and reviewed your content on the author environment, make it available on your public website.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 20aea30b-9cfe-45c1-aa8d-08085f8e3e7d
 ---
 # Publishing Pages{#publishing-pages}
 

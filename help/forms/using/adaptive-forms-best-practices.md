@@ -6,6 +6,7 @@ topic-tags: author
 feature: Adaptive Forms,Foundation Components,Core Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: b87629fa-85a9-4024-963a-4761bc093e62
 ---
 # Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 
@@ -413,6 +414,3 @@ Before you decide to use custom client libraries, it's important to consider the
 * **Efficient Development Process:**
    * Modularity allows developers to focus on specific functionalities.
    * Lowers the burden of developers by reducing the complexities of the entire codebase for a more efficient development process.
-
-
-

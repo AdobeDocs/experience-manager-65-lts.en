@@ -1,17 +1,14 @@
 ---
 title: Tracking results and providing feedback
-
 description: How and where you define the test cases, and the resulting test plan, is at your own discretion
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 29dfc265-e5e4-413f-b488-57366b000f4e
 ---
 # Tracking results and providing feedback{#tracking-results-and-providing-feedback}
 

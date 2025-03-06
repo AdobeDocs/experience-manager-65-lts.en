@@ -1,11 +1,12 @@
 ---
 title: Dynamic Media newsletter archive
-description: The archived Dynamic Media Newsletter by Experience League was a monthly newsletter. It was designed to help you get up to speed with Dynamic Media and Dynamic Media Classic so that you could realize value right away. The archived newsletters contain valuable knowledge-building resources that were available in this one-stop shop newsletter that is now discontinued. Archived newsletters include how-to videos and solution overviews. There are also introductions to key features and capabilities like image presets, viewer presets, and video profiles. 
+description: The archived Dynamic Media Newsletter by Experience League was a monthly newsletter. It was designed to help you get up to speed with Dynamic Media and Dynamic Media Classic so that you could realize value right away. The archived newsletters contain valuable knowledge-building resources that were available in this one-stop shop newsletter that is now discontinued. Archived newsletters include how-to videos and solution overviews. There are also introductions to key features and capabilities like image presets, viewer presets, and video profiles.
 keywords: Dynamic Media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
-contentOwner: Rick Brough 
+contentOwner: Rick Brough
 solution: Experience Manager, Experience Manager Assets
 role: User, Admin
 feature: Collaboration,Dynamic Media Classic
+exl-id: ee098fae-cc6f-4c6e-8475-1737134543df
 ---
 # ![Dynamic Media Newsletter logo](/help/assets/assets/dynamic-media-newsletter-logo.png)
 
@@ -154,4 +155,3 @@ In this one-stop shop archived newsletter, you can find valuable knowledge-build
   * To help you develop your rich media strategy, learn about Adobe's on-demand webinar series.
   * Read about key rich media use cases and Adobe's solutions for them.
   * ... and much more!
-

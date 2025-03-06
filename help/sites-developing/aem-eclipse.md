@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: 5aaf9560-fa44-49d3-96c0-47cc71e7e658
 ---
 # AEM Developer Tools for Eclipse{#aem-developer-tools-for-eclipse}
 

@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: f7402f0d-7c19-4a56-8630-208faa197f94
 ---
 # Recognizing valid and expired certificates in PDF documents {#recognizing-valid-and-expired-certificates-in-pdf-documents}
 

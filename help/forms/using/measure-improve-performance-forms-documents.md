@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 6c99920d-d424-4a69-b7cc-a5e99257c923
 ---
 # Measure and improve effectiveness and conversion of forms{#measure-and-improve-effectiveness-and-conversion-of-forms}
 

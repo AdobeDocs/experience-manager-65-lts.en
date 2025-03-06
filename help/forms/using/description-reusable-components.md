@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 8ecb0f5a-e11a-4371-8136-5db8c98c6043
 ---
 # Description of reusable components {#description-of-reusable-components}
 

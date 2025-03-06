@@ -4,6 +4,7 @@ description: Learn how to create and synchronize Live Copies in Adobe Experience
 feature: Multi Site Manager
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 47128d86-ee8d-4a15-ba3e-4cf2e2ec6191
 ---
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
 

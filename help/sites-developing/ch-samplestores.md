@@ -1,8 +1,6 @@
 ---
 title: Sample ContextHub Store Candidates
-
 description: ContextHub provides several sample store candidates that you can use in your solutions
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
@@ -10,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Personalization
 role: Developer
+exl-id: b49aee0b-292c-4854-83cb-2e70e05b0a17
 ---
 # Sample ContextHub Store Candidates{#sample-contexthub-store-candidates}
 

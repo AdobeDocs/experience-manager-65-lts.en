@@ -1,15 +1,12 @@
 ---
 title: Document Fragments
-
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 568a1513-1de9-4f68-be09-f47cd5b30847
 ---
 # Document Fragments {#document-fragments}
 

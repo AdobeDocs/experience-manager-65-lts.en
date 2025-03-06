@@ -1,16 +1,13 @@
 ---
-title: Placeholder text in AEM Forms 
-
+title: Placeholder text in AEM Forms
 description: Placeholder text is intended to aid the user with data entry when the control has no value. It could be a sample value or a brief description of the expected format.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 85ea442a-6e92-4fa8-aa0a-3076aac6f134
 ---
 # Placeholder text in AEM Forms {#placeholder-text-in-aem-forms}
 

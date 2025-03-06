@@ -5,8 +5,8 @@ thumbnail: introducing-aem-commerce.jpg
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: 88be03c6-2342-4441-836d-f13b8cdfd629
 ---
-
 # Content and Commerce {#content-commerce}
 
 With Adobe Experience Manager content and commerce, brands can scale and innovate faster to differentiate commerce experiences and capture accelerating online spend. AEM Content and Commerce combines the immersive, omnichannel, and personalized experiences in Experience Manager with any number of commerce solutions to bring differentiated experiences to all parts of the shopping journey, reducing time to value and driving higher conversion.

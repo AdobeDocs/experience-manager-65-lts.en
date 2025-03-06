@@ -10,6 +10,7 @@ targetaudience: target-audience upgrader
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 255ef365-0da5-4bc9-b099-2e3bc67dd25a
 ---
 # Upgrade Procedure {#upgrade-procedure}
 

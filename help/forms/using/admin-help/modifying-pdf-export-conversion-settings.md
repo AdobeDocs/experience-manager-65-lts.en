@@ -1,17 +1,14 @@
 ---
 title: Modifying the PDF Export conversion settings
-
 description: Learn how to modify the PDF Export conversion settings.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 58657b0a-bcaa-487a-998b-a9ebbdd15870
 ---
 # Modifying the PDF Export conversion settings {#modifying-the-pdf-export-conversion-settings}
 

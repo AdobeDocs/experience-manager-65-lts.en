@@ -1,18 +1,14 @@
 ---
 title: Post processing of letters and interactive communications
-
 description: Post Processing of Letters in Correspondence Management lets you create AEM and Forms post processes, such as print and email, and integrate them with your letters.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: b48ceb2a-9e5b-4df7-9a3e-2ed7e3849041
 ---
 # Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}
 

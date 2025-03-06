@@ -1,17 +1,14 @@
 ---
 title: Performance Guidelines
-
 description: This article provides general guidelines on how to optimize the performance of your AEM deployment.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: configuring
-
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 2597be01-3f51-4b92-b0d4-f33644afdc54
 ---
 # Performance Guidelines{#performance-guidelines}
 

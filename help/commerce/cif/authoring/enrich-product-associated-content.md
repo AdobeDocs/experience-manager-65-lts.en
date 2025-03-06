@@ -5,6 +5,7 @@ sub-product: Commerce
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 14bfc9cc-68e2-4a61-b6a5-60fb3c229164
 ---
 # Enrich Product Data with Associated AEM Content
 

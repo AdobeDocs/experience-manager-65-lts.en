@@ -8,6 +8,7 @@ discoiquuid: 8eebfcd6-0597-44ed-b718-bf9a1baa6c12
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: dcc82582-0637-44ce-a2b4-68077cbc2200
 ---
 # Enabling attachments for an HTML5 form {#enabling-attachments-for-an-html-form}
 

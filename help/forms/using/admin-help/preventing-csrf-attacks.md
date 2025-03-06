@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
+exl-id: 00f52303-66c3-4865-a74b-eda0e6949193
 ---
 # Preventing CSRF attacks {#preventing-csrf-attacks}
 

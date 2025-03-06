@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: fe3735ff-5c9b-4eb8-bf1d-f2189ec7e26f
 ---
 # AEM Core Concepts {#aem-core-concepts}
 

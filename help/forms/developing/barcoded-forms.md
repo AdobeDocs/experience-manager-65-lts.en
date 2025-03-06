@@ -1,18 +1,14 @@
 ---
 title: Working with barcoded forms
-
 description: Decode data from a PDF form or an image that contains a barcode using the Java API and Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,Barcoded Forms
+exl-id: 71dc8036-f9a3-4e00-bce1-3f162428053d
 ---
 # Working with barcoded forms {#working-with-barcoded-forms} 
 

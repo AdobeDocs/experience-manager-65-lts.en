@@ -1,16 +1,14 @@
 ---
 title: Customizing and Extending Content Fragments
-
 description: A content fragment extends a standard asset. Learn how you can customize them.
-
 topic-tags: extending-aem
 content-type: reference
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Content Fragments
 role: Developer
+exl-id: 705bffea-ef70-40b5-81d8-b130d3908073
 ---
-
 # Customizing and Extending Content Fragments{#customizing-and-extending-content-fragments}
 
 A content fragment extends a standard asset; see:

@@ -7,7 +7,8 @@ topic-tags: customization
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-feature: Adaptive Forms,Foundation Components 
+feature: Adaptive Forms,Foundation Components
+exl-id: 9b934d95-f59f-46d5-9d13-4ad2561453b3
 ---
 # Creating custom layout components for adaptive forms{#creating-custom-layout-components-for-adaptive-forms}
 

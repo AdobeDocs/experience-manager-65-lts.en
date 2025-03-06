@@ -1,17 +1,14 @@
 ---
 title: Configuring your Page for Bulk Editing of Page Properties
-
 description: Bulk editing of page properties lets you edit the properties of multiple pages at once
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Developer
+exl-id: 7ba0a378-0b52-40bd-8dab-32490594558e
 ---
 # Configuring your Page for Bulk Editing of Page Properties {#configuring-your-page-for-bulk-editing-of-page-properties}
 

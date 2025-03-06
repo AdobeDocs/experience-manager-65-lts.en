@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Correspondence Management
 role: Admin, User, Developer
+exl-id: 475e3c95-913d-49ee-8245-b88b967f9b7e
 ---
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
 

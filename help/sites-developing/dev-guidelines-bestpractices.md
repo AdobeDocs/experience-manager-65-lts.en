@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7fd478a6-ddc6-4c7f-b09b-e4de6ec0e897
 ---
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}
 

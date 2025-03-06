@@ -1,6 +1,6 @@
 ---
 title: Promote Launches
-description: You promote launch pages to move the content back into the source (production) before publishing. 
+description: You promote launch pages to move the content back into the source (production) before publishing.
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
@@ -10,6 +10,7 @@ legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Launches
 role: User,Admin,Architect,Developer
+exl-id: fb035c7d-7448-4e74-8b39-a24a385da172
 ---
 # Promoting Launches{#promoting-launches}
 

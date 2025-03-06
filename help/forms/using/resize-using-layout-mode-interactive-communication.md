@@ -1,9 +1,10 @@
 ---
 title: Use Layout mode to resize components for Interactive Communication
-description: Define the position of components using the responsive grid available in Layout mode 
+description: Define the position of components using the responsive grid available in Layout mode
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 39339f53-be4f-46a0-8c39-fd56a7f7e770
 ---
 # Use Layout mode to resize components {#use-layout-mode-to-resize-components}
 

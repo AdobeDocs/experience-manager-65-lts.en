@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: cb00bc09-580a-4c73-b202-d4110fa2f645
 ---
 # Tutorial: Apply rules to adaptive form fields {#tutorial-apply-rules-to-adaptive-form-fields}
 

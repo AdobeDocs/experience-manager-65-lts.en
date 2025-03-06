@@ -1,17 +1,14 @@
 ---
 title: Components Overview
-
 description: Components are modular units which realize specific functionality to present your content on your website
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: components
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 364eebca-b4cf-470b-994e-9e56ec68597b
 ---
 # Components Overview{#components-overview}
 

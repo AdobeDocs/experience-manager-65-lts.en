@@ -4,6 +4,7 @@ description: The AEM SPA Editor SDK was featured in a series of AEM Gems session
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: 37a403c3-666c-46f3-84be-c622baeeccbc
 ---
 # SPA Deep Dives{#spa-deep-dives}
 

@@ -7,6 +7,7 @@ topic-tags: author, interactive-communications
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 9d7f3c62-1b49-437c-9f61-1f0fc0156bdf
 ---
 # Embed an adaptive form or interactive communication in AEM sites page {#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}
 

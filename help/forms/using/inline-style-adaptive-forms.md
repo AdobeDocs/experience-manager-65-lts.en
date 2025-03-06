@@ -1,16 +1,13 @@
 ---
 title: Inline styling of adaptive form components
-
 description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: c074afbb-33d1-4424-bbd2-2acdeeebe9d0
 ---
 # Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
 

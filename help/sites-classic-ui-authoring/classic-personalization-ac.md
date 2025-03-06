@@ -1,15 +1,14 @@
 ---
 title: Working with Adobe Campaign
 description: Adobe Campaign is a set of solutions that lets you personalize and deliver campaigns across all of your online and offline channels.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 4a659a56-ba49-4bfa-8fc2-e0d033f27809
 ---
 # Working with Adobe Campaign{#working-with-adobe-campaign}
 

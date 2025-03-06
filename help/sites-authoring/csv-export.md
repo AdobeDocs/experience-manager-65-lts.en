@@ -1,18 +1,15 @@
 ---
 title: Export to CSV
-
 description: Export information about your pages to a CSV file on your local system
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: ccd2ad37-7708-4422-9724-145628f36afc
 ---
 # Export to CSV{#export-to-csv}
 

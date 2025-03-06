@@ -1,17 +1,13 @@
 ---
 title: Data Dictionary
-
 description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: b73b3adc-e12c-47a8-9342-6214128b72ff
 ---
 # Data Dictionary{#data-dictionary}
 

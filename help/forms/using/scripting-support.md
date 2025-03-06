@@ -8,6 +8,7 @@ topic-tags: hTML5_forms
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 4110e3d5-7242-459b-b249-637b5bf3472d
 ---
 # Scripting support for HTML5 forms {#scripting-support-for-html-forms}
 

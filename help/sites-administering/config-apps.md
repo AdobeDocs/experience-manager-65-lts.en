@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: 4f36487c-45a2-4c18-b3cc-bb9284d68f49
 ---
 # Configuring for AEM Apps{#configuring-for-aem-apps}
 

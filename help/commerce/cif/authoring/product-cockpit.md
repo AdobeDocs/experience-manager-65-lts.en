@@ -4,6 +4,7 @@ description: Working with Product Cockpit which provides a unified overview of l
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: c3a8c33d-2ae7-4a90-862f-3f7faf7b4eb0
 ---
 # Product Cockpit {#product-cockpit}
 

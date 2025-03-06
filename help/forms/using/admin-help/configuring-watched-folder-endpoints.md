@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: ae001541-ae7f-42ce-8236-5fbb6ddb4c1f
 ---
 # Configuring watched folder endpoints {#configuring-watched-folder-endpoints}
 

@@ -1,17 +1,13 @@
 ---
 title: Create form data model
-
 description: Learn how to create form data models with or without configured data sources.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: integration
-
 docset: aem65
-
 feature: Form Data Model
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: b27fceaf-38f8-433e-96c6-4f98bafa31af
 ---
 # Create form data model{#create-form-data-model}
 

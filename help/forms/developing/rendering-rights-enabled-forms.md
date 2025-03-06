@@ -1,19 +1,15 @@
 ---
 title: Rendering Rights-Enabled Forms
-
 description: Use the Forms service to render forms that have usage rights applied to them. You can render rights-enabled forms using the Java API and Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 70b2d1aa-6fcd-461d-b628-e82ddf266f48
 ---
 # Rendering Rights-Enabled Forms {#rendering-rights-enabled-forms}
 

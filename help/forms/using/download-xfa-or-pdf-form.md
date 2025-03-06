@@ -1,16 +1,13 @@
 ---
 title: Download an XFA or a PDF form template
-
 description: You can export forms from the repository to the local system and migrate the downloaded forms to new repository.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-manager
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
+exl-id: eafb1a93-8ee5-4420-830b-aee234988393
 ---
 # Download an XFA or a PDF form template {#download-an-xfa-or-a-pdf-form-template}
 

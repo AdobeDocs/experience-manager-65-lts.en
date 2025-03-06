@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 25dba5c5-0f27-457a-935b-c451e0bf5241
 ---
 # Saving a task or form as a draft {#saving-a-task-or-form-as-a-draft}
 

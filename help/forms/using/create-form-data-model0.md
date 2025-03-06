@@ -1,17 +1,13 @@
 ---
-title: "Tutorial: Create form data model in AEM Forms"
-
+title: 'Tutorial: Create form data model in AEM Forms'
 description: Create form data model for Interactive Communication
-
-
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: ecbfe24e-7662-48a7-9b46-37949f59050e
 ---
 # Tutorial: Create form data model in AEM Forms{#tutorial-create-form-data-model}
 

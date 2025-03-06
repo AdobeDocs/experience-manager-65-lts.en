@@ -6,6 +6,7 @@ role: Admin
 feature: Renditions
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 7f66bc81-c4f7-4267-93b8-b78097ebbb16
 ---
 # Generate For Placement Only renditions for Adobe InDesign {#fpo-renditions}
 

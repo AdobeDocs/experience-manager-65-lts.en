@@ -1,18 +1,15 @@
 ---
 title: Quick Guide to Authoring Pages
-
 description: A quick, high-level guide to the key actions of authoring page content
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 5a962fd3-33bb-44df-a48d-416a04f393eb
 ---
 # Quick Guide to Authoring Pages{#quick-guide-to-authoring-pages}
 

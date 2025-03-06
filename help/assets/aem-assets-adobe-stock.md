@@ -6,6 +6,7 @@ feature: Search, Adobe Stock
 role: User, Admin
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 33f539d2-ae00-4f43-a27a-55c1b55a6c0c
 ---
 # Use [!DNL Adobe Stock] assets in [!DNL Adobe Experience Manager Assets] {#use-adobe-stock-assets-in-aem-assets}
 
@@ -416,4 +417,3 @@ Users can see the properties for both, licensed and unlicensed assets.
 >
 >If there are multiple [!DNL Adobe Stock] configurations, select the desired configuration in [!UICONTROL User Preferences] panel. To access the panel from [!DNL Experience Manager] home page, click the user icon and then click **[!UICONTROL User Preferences]** > **[!UICONTROL Stock Configuration]**.
 -->
-

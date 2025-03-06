@@ -9,6 +9,7 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 96e44da3-da89-4671-a4fb-19ce1b9a38c4
 ---
 # Backward Compatibility in AEM 6.5{#backward-compatibility-in-aem}
 

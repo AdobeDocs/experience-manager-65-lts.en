@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer
+exl-id: 62f70650-71bc-4c16-a947-f3a137ffc4df
 ---
 # Integrating AEM Forms workspace components in web applications {#integrating-aem-forms-workspace-components-in-web-applications}
 

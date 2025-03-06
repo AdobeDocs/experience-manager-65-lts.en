@@ -8,6 +8,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 4009c85e-cb8a-4bed-a6ff-7c76fe78a47f
 ---
 # Performance tuning of AEM Forms Server{#performance-tuning-of-aem-forms-server}
 

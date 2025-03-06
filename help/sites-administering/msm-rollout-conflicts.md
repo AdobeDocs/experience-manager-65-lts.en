@@ -8,6 +8,7 @@ content-type: reference
 feature: Multi Site Manager
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 3c207bfd-5d40-4355-8710-a620f0d66399
 ---
 # MSM Rollout Conflicts{#msm-rollout-conflicts}
 

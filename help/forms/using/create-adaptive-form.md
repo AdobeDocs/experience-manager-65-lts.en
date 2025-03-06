@@ -4,6 +4,7 @@ description: Learn to create, layout, and preview an adaptive form. Also, learn 
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 87e03ff2-1324-42bd-b4da-54a0c17ce98e
 ---
 # Tutorial: Create an adaptive form {#do-not-publish-tutorial-create-an-adaptive-form}
 

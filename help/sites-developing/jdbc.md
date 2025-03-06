@@ -1,17 +1,14 @@
 ---
 title: Connecting to SQL Databases
-
 description: Access an external SQL database to so that your AEM applications can interact with the data
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 0d5e1e83-9ecf-41d6-adbe-8b06a034943e
 ---
 # Connecting to SQL Databases{#connecting-to-sql-databases}
 

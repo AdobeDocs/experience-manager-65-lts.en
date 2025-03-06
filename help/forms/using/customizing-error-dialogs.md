@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 26ae8e19-e998-4c81-a2ec-b25ce94496a4
 ---
 # Customizing error dialogs {#customizing-error-dialogs}
 

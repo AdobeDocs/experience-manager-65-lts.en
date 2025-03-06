@@ -1,16 +1,15 @@
 ---
 title: Comprehensive search
 description: Find your content faster with comprehensive search.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 4c6d1d6a-c000-48cf-9d86-306245a3c10c
 ---
 # Search{#searching}
 

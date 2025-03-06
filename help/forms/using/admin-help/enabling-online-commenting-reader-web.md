@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Document Services,Reader Extensions
+exl-id: db0ac287-bc64-42d6-9201-886df4fd002b
 ---
 # Enabling online commenting for Adobe Reader web browser plug-in {#enabling-online-commenting-for-adobe-reader-web-browser-plug-in}
 

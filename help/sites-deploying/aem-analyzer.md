@@ -6,8 +6,8 @@ content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 87c30912-c89a-42f1-b37b-ec439e7318c7
 ---
-
 # Assessing the Upgrade Complexity with the AEM Analyzer {#assessing-the-upgrade-complexity-with-the-aem-analyzer}
 
 ## Overview {#overview}
@@ -229,8 +229,3 @@ The expiration time left for the AEM Analyzer report is shown on the side rail. 
 
 * Sometimes, the Remove operation may display the notification: *"Some paths have not been removed successfully, please check the logs and try again.*". However, if the paths were actually removed, you can safely ignore this message
 * Similarly, the Package operation may fail with the error: *"Error while performing the desired operation, please check the logs and try again.*". This is likely be due to session expiry. In such cases, retrying the operation should resolve the issue.
-
-
-
-
-

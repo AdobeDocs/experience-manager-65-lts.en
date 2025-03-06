@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 4f98853d-306f-4d11-a3d8-83122b372b2d
 ---
 # Customizing Pages shown by the Error Handler{#customizing-pages-shown-by-the-error-handler}
 

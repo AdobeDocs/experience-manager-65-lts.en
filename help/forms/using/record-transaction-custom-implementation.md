@@ -7,6 +7,7 @@ topic-tags: forms-manager
 feature: Transaction Reports
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 205394bf-4609-4bdd-a030-974e354f9700
 ---
 # Record a transaction for custom implementations for AEM Forms on OSGi {#record-a-transaction-for-custom-implementations}
 

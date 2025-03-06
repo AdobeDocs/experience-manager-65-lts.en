@@ -9,6 +9,7 @@ discoiquuid: a8d986ab-2a4c-488b-957e-4606f7391bd3
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: f7b8a37a-df4c-4db2-a0fc-dabcdbd74e48
 ---
 # Creating CSS styles for HTML5 forms {#creating-css-styles-for-html-forms}
 

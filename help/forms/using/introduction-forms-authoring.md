@@ -1,17 +1,14 @@
 ---
 title: Introduction to authoring adaptive forms
-
 description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: introduction, author
-
 docset: aem65
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: a1791374-d05c-4f60-b178-152a7bc06c45
 ---
 # Introduction to authoring adaptive forms {#introduction-to-authoring-adaptive-forms}
 

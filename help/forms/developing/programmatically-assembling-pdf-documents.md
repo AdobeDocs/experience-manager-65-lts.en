@@ -1,18 +1,15 @@
 ---
 title: Programmatically Assembling PDF Documents
-
 description: Use the Assembler service API to assemble multiple PDF documents into a single PDF document using the Java API and the Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+exl-id: a64f0bd4-8d5c-485d-b620-608bfe33a72f
 ---
 # Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents} 
 

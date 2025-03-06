@@ -1,17 +1,15 @@
 ---
 title: Troubleshooting the Adobe Campaign Classic Integration
 description: Learn how to troubleshoot issues with the Adobe Campaign Classic integration.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: fc60d6a3-b2fd-4991-931f-22924ba8003d
 ---
-
 # Troubleshooting the Adobe Campaign Classic Integration{#troubleshooting-your-adobe-campaign-classic-integration}
 
 Learn how to troubleshoot issues with the Adobe Campaign Classic (ACC) integration.

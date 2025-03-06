@@ -1,6 +1,6 @@
 ---
 title: Edit Launches
-description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the pages. 
+description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the pages.
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
@@ -10,6 +10,7 @@ legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Launches
 role: User,Admin,Architect,Developer
+exl-id: 7b032487-a084-4403-a0d3-e5de62748769
 ---
 # Editing Launches{#editing-launches}
 

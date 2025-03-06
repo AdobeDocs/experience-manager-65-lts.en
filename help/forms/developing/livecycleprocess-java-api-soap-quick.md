@@ -1,18 +1,14 @@
 ---
 title: LiveCycleProcess Java API(SOAP)Quick Start
-
-description: Use the LiveCycleProcess Java API (SOAP) Quick Start to search for process instances, suspend process instances, start suspended process instances, terminate process instances, purge process data, and retrieve the status of a job. 
-
-
+description: Use the LiveCycleProcess Java API (SOAP) Quick Start to search for process instances, suspend process instances, start suspended process instances, terminate process instances, purge process data, and retrieve the status of a job.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: bdc63436-81d7-442a-9516-e6fbcc254d98
 ---
 # LiveCycleProcess Java API (SOAP) Quick Start {#livecycleprocess-java-api-soap-quick-start}
 

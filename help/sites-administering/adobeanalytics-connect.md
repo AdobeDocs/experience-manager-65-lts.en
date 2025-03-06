@@ -1,18 +1,15 @@
 ---
 title: Connecting to Adobe Analytics and Creating Frameworks
-
 description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: a39ed93e-4276-48ff-ba49-d0f630409222
 ---
 # Connecting to Adobe Analytics and Creating Frameworks {#connecting-to-adobe-analytics-and-creating-frameworks}
 

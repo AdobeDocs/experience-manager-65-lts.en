@@ -1,18 +1,14 @@
 ---
 title: Using charts in Interactive Communications
-
 description: Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze visual format
-
-
 content-type: reference
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 2d2b3fb7-80f7-4b55-84c5-c10a03d2a4e1
 ---
 # Using charts in Interactive Communications{#using-charts-in-interactive-communications}
 

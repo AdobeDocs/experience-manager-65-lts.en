@@ -6,6 +6,7 @@ role: User
 feature: Asset Management,Asset Distribution
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 89b14351-c689-42a6-bd89-cc258f601898
 ---
 # Download assets from [!DNL Adobe Experience Manager] {#download-assets-from-aem}
 

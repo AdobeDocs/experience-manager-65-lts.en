@@ -1,18 +1,14 @@
 ---
 title: Custom watermark in letter PDF preview
-
 description: Learn how to create custom watermark in letter PDF preview.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: eb089355-51d9-4c41-bd82-5ca873438410
 ---
 # Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}
 

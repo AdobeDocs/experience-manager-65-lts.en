@@ -1,16 +1,12 @@
 ---
 title: Install and configure Interactive Communications
-
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits.
-
-
 topic-tags: installing
-
 docset: aem65
-
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication,Correspondence Management
+exl-id: d03965e1-4fa3-414c-80b6-c9fca281bee4
 ---
 # Install and configure Interactive Communications{#install-and-configure-interactive-communications}
 

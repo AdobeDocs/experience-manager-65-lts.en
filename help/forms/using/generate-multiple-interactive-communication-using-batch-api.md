@@ -8,6 +8,7 @@ topic-tags: interactive-communication
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 92bb4045-ed22-4cc3-9365-65cb39b3c82d
 ---
 # Generate multiple interactive communications using Batch API {#use-batch-api-to-generate-multiple-ic}
 

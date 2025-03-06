@@ -5,6 +5,7 @@ contentOwner: AG
 role: User
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 7b07a5ce-c438-4e5f-a14c-bf96b42c2a78
 ---
 # Related assets {#related-assets}
 

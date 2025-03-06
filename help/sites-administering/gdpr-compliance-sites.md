@@ -1,5 +1,5 @@
 ---
-title: AEM Sites - GDPR Readiness 
+title: AEM Sites - GDPR Readiness
 description: Learn about the procedures to handle GDPR requests in AEM Sites and how to use them.
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Compliance
 role: Admin, Architect, Developer, Leader, User, Data Architect, Data Engineer
+exl-id: 826dafb8-db6c-4fe4-8b3d-edf7215dc571
 ---
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}
 

@@ -4,6 +4,7 @@ description: This document describes how to set up an AEM project based on Apach
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: ddc629ac-cf76-4608-9e9b-c8bd3e89da3c
 ---
 # How to Build AEM Projects using Apache Maven {#how-to-build-aem-projects-using-apache-maven}
 
