@@ -22,10 +22,6 @@ Multi Site Manager (MSM) functionality in [!DNL Adobe Experience Manager] enable
 * Keep multiple copies in synchronization and update the original primary copy once to push the changes to the child copies.
 * Make local changes by temporarily or permanently suspending the linking between parent and child assets.
 
-## Prerequisites {#prereq}
-
-To use MSM for [!DNL Assets], install at least [!DNL Experience Manager] 6.5 Service Pack 1. For more information, see [the release notes of latest service pack](/help/release-notes/release-notes.md).
-
 ## Understand the benefits and the concepts {#concepts}
 
 ### How it works and the benefits {#how-it-works-and-the-benefits}

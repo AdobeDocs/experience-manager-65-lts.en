@@ -23,9 +23,9 @@ When planning an upgrade, the following areas of an implementation must be inves
 
 1. **AEM Analyzer** - Run the AEM Analyzer as described in upgrade planning, and described in detail on the [Assessing the Upgrade Complexity with AEM Analyzer](/help/sites-deploying/aem-analyzer.md) page. You get a AEM Analyzer report that contains more details on areas that must be addressed in addition to the unavailable APIs/bundles in the Target version of AEM. The AEM Analyzer report gives you an indication of any incompatibilities in your code. If none exists, then your deployment is already 6.5 LTS compatible. You can still choose to do new development for using 6.5 LTS functionality, but you do not need it just for maintaining compatibility. 
 1. **Develop Code Base for 6.5 LTS**- Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.
-1. **Compile with 6.5 LTS Uber jar**- Update code base POMs to point to 6.5.2025 uber jar and compile code against it.
+1. **Compile with 6.5 LTS Uber jar**- Update code base POMs to point to 6.5 LTS uber jar and compile code against it.
 1. **Deploy to 6.5 LTS Environment** - A clean instance of AEM 6.5 LTS (Author + Publish) should be stood up in a Dev/QA environment. Updated code base and a representative sample of content (from current production) should be deployed.
-1. **QA Validation and Bug fix** - QA should validate the application on both Author and Publish instances of 6.5.2025. Any bugs found should be fixed and committed to the 6.5 LTS code base. Repeat Dev-Cycle as necessary until all bugs are fixed. 
+1. **QA Validation and Bug fix** - QA should validate the application on both Author and Publish instances of 6.5 LTS . Any bugs found should be fixed and committed to the 6.5 LTS code base. Repeat Dev-Cycle as necessary until all bugs are fixed. 
 
 Before proceeding with an upgrade, you should have a stable application code base that has been thoroughly tested against AEM 6.5 LTS. 
 

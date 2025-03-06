@@ -1,10 +1,6 @@
 ---
 title: Generate Document of Record for adaptive forms
 description: Explains how you can generate document of record (DoR) for adaptive forms.
-content-type: reference
-topic-tags: adaptive_forms, develop
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
@@ -25,11 +21,6 @@ exl-id: 2d9ec8c4-330e-4474-97f4-1f434025683f
 After submitting a form, your customers generally want to keep a record, in print or in document format, of the information they have filled in the form for their future reference. This is referred to as a document of record.
 
 This article explains how you can generate a document of record for Adaptive Forms or Adaptive Form fragment.
-
->[!NOTE]
->
-> The support to customize your Adaptive Form fragments and its fields in Adaptive Form editor was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0).
-
 
 >[!NOTE]
 >

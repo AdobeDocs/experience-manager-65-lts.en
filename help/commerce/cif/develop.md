@@ -14,7 +14,7 @@ exl-id: 22fcdadf-12c0-4545-a854-76345806386f
 
 Developing AEM Commerce projects based on Commerce Integration Framework (CIF) for AEM follows the same rules and best practices like other AEM projects. Review these first:
 
-- [AEM 6.5 Developing User Guide](/help/sites-developing/getting-started.md)
+- [AEM Developing User Guide](/help/sites-developing/getting-started.md)
 - [AEM Core Concepts](/help/sites-developing/the-basics.md)
 - [AEM Development - Guidelines and Best Practices](/help/sites-developing/dev-guidelines-bestpractices.md)
 - [How to Build AEM Projects using Apache Maven](/help/sites-developing/ht-projects-maven.md)
@@ -25,17 +25,16 @@ A local development environment is recommended to work with CIF projects.
 
 >[!NOTE]
 >
->The following instructions help you setting up a local AEM development environment for AEM Commerce using CIF with focus for AEM 6.5). If you are using AEM as a Cloud Service, see the [AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) documentation.
+>The following instructions help you setting up a local AEM development environment for AEM Commerce using CIF with focus for AEM 6.5 LTS). If you are using AEM as a Cloud Service, see the [AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) documentation.
 
-The AEM Commerce Add-On for AEM 6.5 aka. CIF Add-On is available for local development as well and provided as an AEM package. It can be downloaded from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) as a feature pack.
+The AEM Commerce Add-On for AEM as known as the CIF Add-On is available for local development as well and provided as an AEM package. It can be downloaded from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) as a feature pack.
 
 ### Required Software
 
 The following should be installed locally:
 
-- Local AEM 6.5
-- [AEM 6.5 Service Pack](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 7 or later
-- [Java 11](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
+- Local AEM 6.5 LTS
+- [Java 17](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 - [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 - [Node LTS](https://nodejs.org/en/)
 - [npm 6+](https://www.npmjs.com/)
@@ -52,8 +51,6 @@ The CIF add-on can be downloaded from the [Software Distribution portal](https:/
 ### Local setup
 
 For local CIF project development using the AEM and the CIF add-on following steps:
-
-1. Get the AEM 6.5 release and install the AEM 6.5 Service Pack. AEM 6.5 Service Pack 7 is required, however Adobe recommends installing the last available service pack.
 
 1. Unpack the AEM .jar to create the `crx-quickstart` folder, run:
 

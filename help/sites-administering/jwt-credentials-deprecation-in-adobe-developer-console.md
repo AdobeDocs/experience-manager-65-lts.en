@@ -23,7 +23,7 @@ The sections below list the scenarios where customers must (or in some cases mus
 
 **Action**: Migrate your configuration as AEM now supports OAuth credentials.
 
-**Relevant AEM versions**: Adobe Managed Services (Service Pack 21 and above).
+**Relevant AEM versions**: Adobe Managed Services.
 
 AEM customers use the AEM to configure integrations with all other Adobe solutions. For example, Adobe Target, Adobe Analytics, and others.
 
@@ -38,6 +38,6 @@ See [Setting Up IMS Integrations for AEM](/help/sites-administering/setting-up-i
 
 **Action**: Confirm when these can be migrated from JWT to OAuth credentials.
 
-**Relevant AEM versions**: Adobe Managed Services (Service Pack 21 and above).
+**Relevant AEM versions**: Adobe Managed Services.
 
 Customers create Adobe Developer Console projects so they can invoke [Cloud Manager APIs](https://developer.adobe.com/experience-cloud/cloud-manager/guides/getting-started/create-api-integration/). The credentials in the Adobe Developer project should be migrated to the OAuth Server-to-Server credential type before the deprecated JWT credentials expire in January 2025.
