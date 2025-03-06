@@ -147,7 +147,7 @@ Adobe Experience Manager works with the following server platforms for productio
 | Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
 
-1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. AEM Forms add-on features are only supported on CentOS 7, Red Hat&reg; Enterprise Linux&reg; 7, Red Hat&reg; Enterprise Linux&reg; 8, and Red Hat&reg; Enterprise Linux&reg; 9. 
+1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. 
 1. Linux&reg; distribution supported by Adobe Managed Services.
 
     >[!NOTE]
