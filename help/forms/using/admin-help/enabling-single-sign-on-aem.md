@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
-exl-id: ba02f9b1-209e-42f2-b1df-2ed64fc9fdbc
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Enabling single sign-on in AEM forms{#enabling-single-sign-on-in-aem-forms}
 

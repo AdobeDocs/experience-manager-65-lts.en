@@ -8,7 +8,9 @@ topic-tags: development-tools, coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
-exl-id: 228185f0-deef-4d49-a5b9-0c19411e30c2
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Understanding AEM Forms Processes {#understanding-aem-forms-processes} 
 

@@ -8,7 +8,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 6deed56a-2e87-4444-8fb5-1d06b0792a5e
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with XMP Utilities {#working-with-xmp-utilities} 
 

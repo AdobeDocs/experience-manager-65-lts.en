@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 0d1c08bd-70ee-4027-9209-9843e0ff9fd2
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Convert PDF Service Java&trade; API Quick Start (SOAP) {#convert-pdf-service-java-api-quickstart-soap}
 

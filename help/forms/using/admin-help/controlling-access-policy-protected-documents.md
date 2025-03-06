@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: 553c0a95-26e9-4d2c-b53d-846861c6a1d7
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Controlling access to policy-protected documents {#controlling-access-to-policy-protected-documents}
 

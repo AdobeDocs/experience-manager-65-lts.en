@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 2f34b48a-0b95-4994-ac4f-616620a5b211
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Backup and recovery strategy for AEM forms{#backup-and-recovery-strategy-for-aem-forms}
 

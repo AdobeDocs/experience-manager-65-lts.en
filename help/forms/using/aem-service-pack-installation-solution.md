@@ -5,7 +5,9 @@ SEO Description: Trouble shooting steps to resolve the errors after installing l
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,AEM Forms on JEE,AEM Forms on OSGi
-exl-id: f62d526b-9510-4db8-9351-02fd7f192109
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Service unavailable error after installing AEM (6.5.15.0) service pack {#steps-to-resolve-error-after-installing-service-pack}
 

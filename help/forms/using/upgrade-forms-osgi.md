@@ -1,39 +1,18 @@
 ---
-title: Upgrade to AEM 6.5 Forms on OSGi
-description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms.
+title: Upgrade to AEM 6.5 Forms LTS on OSGi
+description: You can perform a direct upgrade from AEM 6.5.22.0 Forms  to AEM 6.5 Forms LTS.
 content-type: reference
-products: SG_EXPERIENCEMANAGER/6.3/FORMS
-topic-tags: installing
-geptopics: SG_AEMFORMS/categories/jee
-role: Admin,User
+role: Admin, User
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,AEM Forms on OSGi, AEM Forms Upgrade
-exl-id: 9233d4b7-441c-4cbd-86f8-2c52b99c3330
+feature: Adaptive Forms, AEM Forms on OSGi, AEM Forms Upgrade
 ---
-# Upgrade to AEM 6.5 Forms on OSGi {#upgrade-to-aem-forms-osgi}
+# Upgrade to AEM 6.5 Forms LTS on OSGi {#upgrade-to-aem-forms-osgi}
 
-You can perform a direct upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms.
+To [upgrade from AEM 6.5 to AEM 6.5 LTS](/help/sites-deploying/upgrade.md), upgrade to AEM 6.5.22.0 Forms or later. A direct upgrade from AEM 6.5.22.0 to AEM 6.5 Forms LTS is supported.  
 
-Direct upgrade path from **AEM 6.0 Forms, AEM 6.1 Forms**, and **AEM 6.2 Forms** to AEM 6.5 Forms is not available. Perform an intermediate [upgrade to AEM 6.2 Forms](https://helpx.adobe.com/experience-manager/6-2/forms/using/upgrade.html), [upgrade to AEM 6.3 Forms](https://helpx.adobe.com/experience-manager/6-3/forms/using/upgrade.html), or [upgrade to AEM 6.4 Forms](/help/forms/using/upgrade.md) and then upgrade from AEM 6.3 Forms, or AEM 6.4 Forms to AEM 6.5 Forms.
+If you are using AEM 6.0 Forms, AEM 6.1 Forms, AEM 6.2 Forms, AEM 6.3 Forms, AEM 6.4 Forms or AEM 6.5 Forms, a direct upgrade to AEM 6.5 Forms LTS is not available. For detailed upgrade paths, refer to the [Upgrade Paths](/help/forms/using/upgrade.md) documentation.  
 
-Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms:
-
-1. Upgrade the existing AEM instance to AEM 6.5. The steps are listed below:
-
-    1. Install the latest service pack and patches for AEM 6.3 Forms or AEM 6.4 Forms. For details, see [AEM Sustenance Hub](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
-    1. Prepare the source instance for the upgrade. For detailed steps, see [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md).
-    1. Download the [AEM 6.5 QuickStart](/help/sites-deploying/deploy.md#getting%20the%20software).
-    1. **(Unix/Linux-based installations only)** If you are using UNIX or Linux as the underlying operating system, open the terminal window, navigate to the folder containing crx-quickstart, and run the following command:
-
-       `chmod -R 755 ../crx-quickstart`
-
-    1. Upgrade your AEM instance to AEM 6.3. For step by step instructions, see [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md).
-
-       Before continuing with the next steps, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file.
-
-       >[!NOTE]
-       >
-       >After the server is up and running, a few AEM Forms bundles remain in install state. The number of bundles can vary for every installation. You can safely ignore the state these bundles. The bundles are listed at https://'[server]:[port]'/system/console/.
+After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrade to AEM 6.5 LTS Forms:
 
 1. Install AEM Forms add-on package. The steps are listed below:
 
@@ -43,16 +22,21 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
        1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
        1. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
     1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
+    1. Open [Package Manager](/help/sites-administering/package-manager.md)  and click **[!UICONTROL Upload Package]** to upload the package.
     1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
     1. Select the package and click **[!UICONTROL Install]**.
 
-       You can also download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
+       You can also download the package using the direct link listed in [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) article.
+       
+       After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file and the log is stable. Also note, a few packages can remain in the installed state. You can safely ignore the state of these packages.
 
-       >[!NOTE]
-       >
-       >After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file and the log is stable. Also note, a few packages can remain in the installed state. You can safely ignore the state of these packages.
 
-  1. Restart the AEM instance.
+       **Restart the AEM instance with the following additional JVM command-line parameters**:
+       `--add-opens java.base/java.util=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED`
+       
+       If the server is started via a script or service, update it accordingly to include the above so that these are effective after subsequent restarts as well.
+
+1. Restart the AEM instance.
 
       >[!NOTE]
       >
@@ -104,3 +88,7 @@ Do the following to upgrade from AEM 6.3 Forms or AEM 6.4 Forms to AEM 6.5 Forms
       * `https://'[server]:[port]'/crx/packmgr`
       * `https://'[server]:[port]'/crx/de`
       * `https://'[server]:[port]'/aem/forms.html/content/dam/formsanddocuments`
+
+   >[!NOTE]
+   >
+   >In AEM 6.4 Forms, the structure of crx-repository has changed. If upgrade from 6.3 Forms to AEM 6.5 Forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/forms-repository-restructuring-in-aem-6-5).

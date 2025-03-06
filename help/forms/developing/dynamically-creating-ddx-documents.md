@@ -8,8 +8,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 3508d2d1-e05a-4733-b682-4b022348147a
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents} 
 

@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 4ad47959-fe48-4cff-9a54-9a9749cf3d6f
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Encryption Service Java&trade; API Quick Start (SOAP) {#encryption-service-java-api-quickstart-soap}
 

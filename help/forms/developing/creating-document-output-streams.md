@@ -8,7 +8,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: a90ccd28-00ae-4317-bfda-c39acbdb835b
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Creating Document Output Streams  {#creating-document-output-streams} 
 

@@ -8,7 +8,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 9f694358-e502-4fc0-8352-4c5119573756
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Encrypting and Decrypting PDF Documents {#encrypting-and-decrypting-pdf-documents} 
 

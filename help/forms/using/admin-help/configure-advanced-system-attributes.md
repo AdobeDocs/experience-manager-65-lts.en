@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: f1a68461-c66a-4ea4-902b-644c620ea3f6
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configure advanced system attributes {#configure-advanced-system-attributes}
 

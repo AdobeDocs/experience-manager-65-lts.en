@@ -14,7 +14,7 @@ exl-id: 9cc83733-630a-4846-bd9e-72fd76a3286d
 
 ## Overview {#overview}
 
-AEM Forms app enables syncing of adaptive forms, mobile forms, and formsets on mobile devices, based on your server. You can define workflows that are [Forms centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) or Forms workflows on JEE. For example, you run a banking firm, and use AEM Forms to manage customer applications and communications. Your customers fill a form and submit it for verification. If you enable the form on mobile devices, your customers can fill the form in the AEM Forms app. You can also manage the verification workflow by enabling the verification form on mobile devices. Your field worker can carry a mobile device to the customer, verify the details, and submit the form. The AEM Forms app syncs with AEM Forms server and fetches the forms enabled for mobile devices. If the app is offline, it stores data locally.
+AEM Forms app enables syncing of adaptive forms, mobile forms, and formsets on mobile devices, based on your server. You can define workflows that are [Forms centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) <!--or Forms workflows on JEE-->. For example, you run a banking firm, and use AEM Forms to manage customer applications and communications. Your customers fill a form and submit it for verification. If you enable the form on mobile devices, your customers can fill the form in the AEM Forms app. You can also manage the verification workflow by enabling the verification form on mobile devices. Your field worker can carry a mobile device to the customer, verify the details, and submit the form. The AEM Forms app syncs with AEM Forms server and fetches the forms enabled for mobile devices. If the app is offline, it stores data locally.
 
 The source code of the AEM Forms app is available to customers via Software Distribution. The source code package in Software Distribution is available as: `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
@@ -56,9 +56,13 @@ To sync your form in AEM Forms app:
 
 When the form is published, the app syncs with the server and fetches the form. To sync multiple forms, in the author instance, select multiple forms in forms manager and select **[!UICONTROL Sync with AEM Forms App]**.
 
+<!--
+
 ## Mobile device support {#mobile-device-support}
 
 See [AEM Forms app (previously known as Mobile Workspace)](/help/forms/using/aem-forms-jee-supported-platforms.md#aem-forms-workspace-app)
+
+-->
 
 ## Key features of AEM Forms app {#key-features-of-aem-forms-app}
 
@@ -66,7 +70,7 @@ See [AEM Forms app (previously known as Mobile Workspace)](/help/forms/using/aem
 
 You can synchronize your app with the AEM Forms server and can work with forms on your mobile device.
 
-With AEM Forms Workflow server, a form can be associated with a startpoint in a workbench process and AEM Inbox application. An AEM Inbox application can have an adaptive form associated with it. A startpoint can have an adaptive form, HTML5 form, or a formset associated with it. A startpoint can be submitted as a task or the task can be saved as a draft. For more information on differences between an AEM Inbox application and a startpoint see [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](capabilities-osgi-jee-workflows.md).
+With AEM Forms Workflow server, a form can be associated with a startpoint in a workbench process and AEM Inbox application. An AEM Inbox application can have an adaptive form associated with it. A startpoint can have an adaptive form, HTML5 form, or a formset associated with it. A startpoint can be submitted as a task or the task can be saved as a draft. <!--For more information on differences between an AEM Inbox application and a startpoint see [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](capabilities-osgi-jee-workflows.md).-->
 
 With AEM Forms server without AEM Forms workflow, a form enabled for syncing in the app is rendered in the AEM Forms app. Forms are available in the Forms tab of the app, can be submitted or saved as a draft. Adaptive forms and mobile forms are supported in the app.
 
@@ -117,7 +121,7 @@ See [Using autosave in AEM Forms app](/help/forms/using/autosave-data-app.md).
 
 ## Differences between AEM Inbox and AEM Forms app features {#differences-between-aem-inbox-and-aem-forms-app-features}
 
-Two of the prominent ways to launch a Forms-centric workflow are using [AEM Inbox](/help/forms/using/manage-applications-inbox.md) and AEM Forms app. The capabilities of AEM Inbox and AEM Forms app, however, differ. AEM Inbox works only with [Forms-centric workflows](/help/forms/using/aem-forms-workflow.md) while the AEM Forms app works with both Forms-centric workflows and process management. For more information on differences between AEM Inbox and AEM Forms app capabilities, see [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](capabilities-osgi-jee-workflows.md).
+Two of the prominent ways to launch a Forms-centric workflow are using [AEM Inbox](/help/forms/using/manage-applications-inbox.md) and AEM Forms app. The capabilities of AEM Inbox and AEM Forms app, however, differ. AEM Inbox works only with [Forms-centric workflows](/help/forms/using/aem-forms-workflow.md) while the AEM Forms app works with both Forms-centric workflows and process management. <!--For more information on differences between AEM Inbox and AEM Forms app capabilities, see [Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows](capabilities-osgi-jee-workflows.md).-->
 
 ## Supported forms {#supported-forms}
 

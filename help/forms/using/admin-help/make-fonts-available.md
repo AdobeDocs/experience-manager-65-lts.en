@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 2861bde5-b373-4ab2-9808-7d32ef1dc925
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Make fonts available {#make-fonts-available}
 

@@ -4,7 +4,9 @@ description: Best practices to restart AEM SDK
 role: Admin, Developer, User
 feature: Adaptive Forms,AEM Forms on JEE,AEM Forms on OSGi
 solution: Experience Manager, Experience Manager Forms
-exl-id: 68935045-89b1-4219-b111-88a4600200df
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Restarting the AEM SDK 
 

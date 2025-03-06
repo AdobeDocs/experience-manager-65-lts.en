@@ -4,7 +4,9 @@ description: Learn how to set up a PDFG Network Printer ( Windows only )
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: 6e9c42d9-fb1d-432b-95b9-6e21706b2a3e
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Setting up a PDFG Network Printer (Windows only) {#setting-up-a-pdfg-network-printer-windows-only}
 

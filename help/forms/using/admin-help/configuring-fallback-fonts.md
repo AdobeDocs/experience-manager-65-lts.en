@@ -8,7 +8,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: d11bb8dc-d0fe-4182-88dd-9ef1ecf687db
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
+
 ---
 # Configuring fallback fonts {#configuring-fallback-fonts}
 

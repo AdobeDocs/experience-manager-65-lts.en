@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Document Services,Reader Extensions
-exl-id: 0140d0a1-9a8f-4e77-8053-fd03592e967a
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Review the usage rights of a PDF file {#review-the-usage-rights-of-a-pdf-file}
 

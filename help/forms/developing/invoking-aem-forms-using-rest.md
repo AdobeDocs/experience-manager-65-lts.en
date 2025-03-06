@@ -8,7 +8,9 @@ topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 11a7278e-efaa-402c-8add-5280bf5a156a
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests} 
 

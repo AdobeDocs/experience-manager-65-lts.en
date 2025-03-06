@@ -9,7 +9,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
-exl-id: a64f0bd4-8d5c-485d-b620-608bfe33a72f
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents} 
 

@@ -4,7 +4,9 @@ description: Learn how to set timeout values for use with Acrobat Reader DC Exte
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: c2f96686-15e3-4d92-acfe-f971c5849de4
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Setting timeout values for use with Acrobat Reader DC Extensions  {#setting-timeout-values-for-use-with-acrobat-reader-dc-extensions}
 

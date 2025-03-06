@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: e78860dc-9375-465c-b1fa-2a4827ca8dce
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configure account-locking settings {#configure-account-locking-settings}
 

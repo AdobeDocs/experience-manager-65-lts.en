@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 6c2bdfc3-0f7b-4d53-b17e-f4cd11ab40ea
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # XMP Utilities Service Java API Quick Start (SOAP) {#xmp-utilities-service-java-apiquick-start-soap}
 

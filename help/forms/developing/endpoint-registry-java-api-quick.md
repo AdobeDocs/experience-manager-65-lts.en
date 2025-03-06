@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: ac33db6b-9896-4593-9365-62dd924b6bcb
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Endpoint Registry Java&trade; API Quick Start (SOAP) {#endpoint-registry-java-api-quickstart-soap}
 

@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Document Services,Reader Extensions
-exl-id: f9b01de7-1de5-43aa-bcc3-b15719bfa5c0
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configuring Acrobat Reader DC Extensions for data capture {#configuring-acrobat-reader-dc-extensions-for-data-capture}
 

@@ -8,7 +8,9 @@ topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
-exl-id: 6c384e25-f53f-44aa-9043-b9f9f659f987
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens} 
 
