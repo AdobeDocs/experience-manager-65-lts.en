@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: b60b198e-1683-4970-b9b4-f1d0178e00e1
 ---
 # Concepts of the Adobe Experience Manager Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}
 

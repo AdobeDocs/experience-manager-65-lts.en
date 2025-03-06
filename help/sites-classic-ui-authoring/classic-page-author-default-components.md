@@ -9,6 +9,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 1976047c-661a-4398-8dd8-c71cd05d53be
 ---
 # Components{#components}
 

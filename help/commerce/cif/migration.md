@@ -4,6 +4,7 @@ description: How to migrate to the AEM Commerce Integration Framework (CIF) add-
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: 847c33c1-17d6-447a-9f2c-91f2a81a3f04
 ---
 # Migration Guide for the Experience Manager Add-On {#cif-migration}
 

@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 852aaf6e-acf3-4224-bf4c-c0913110abd4
 ---
-
 # Working with Tasks {#working-with-tasks}
 
 Tasks represent items of work to be performed with regard to content. When you are assigned a task, it appears in your Workflow Inbox. Task items can be distinguished from workflow items by the value the **Type** column.

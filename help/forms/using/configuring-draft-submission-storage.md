@@ -7,6 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Forms Portal
 role: Admin, User, Developer
+exl-id: 33769e4f-2213-442b-bd1c-1728cd917460
 ---
 # Configuring storage services for drafts and submissions {#configuring-storage-services-for-drafts-and-submissions}
 

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7eae83bd-7982-4051-821f-b43f65c5af2b
 ---
 # Using Sling Adapters{#using-sling-adapters}
 

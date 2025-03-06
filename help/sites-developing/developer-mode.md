@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: b30bb90b-adca-4d3a-ae15-bede70e1c39a
 ---
 # Developer Mode{#developer-mode}
 

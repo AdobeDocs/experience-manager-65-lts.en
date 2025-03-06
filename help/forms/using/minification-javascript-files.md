@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: d2d17d2c-b82f-4a7b-8ff1-0c226626412a
 ---
 # Minification of the JavaScript files {#minification-of-the-javascript-files}
 

@@ -1,17 +1,14 @@
 ---
 title: Integrating with Adobe Target
-
 description: Learn how to integrate Adobe Experience Manager with Adobe Target.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: d2f5fc90-7047-4a45-9c82-996f0da60782
 ---
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 

@@ -5,6 +5,7 @@ contentOwner: AG
 role: User, Admin
 feature: Developer Tools,Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 39e1b20b-27d5-4869-b7e1-0dd2d087df7b
 ---
 # Create and configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 

@@ -1,17 +1,13 @@
 ---
 title: Use form data model
-
 description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: integration
-
 docset: aem65
-
 feature: Form Data Model
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 900ec6cd-d780-46eb-8ab1-907e563d81d7
 ---
 # Use form data model{#use-form-data-model}
 

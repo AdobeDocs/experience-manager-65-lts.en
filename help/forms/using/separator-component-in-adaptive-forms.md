@@ -7,6 +7,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 8b1a9626-6de1-4b19-bb93-ada667f24e83
 ---
 # Separator component in adaptive forms{#separator-component-in-adaptive-forms}
 

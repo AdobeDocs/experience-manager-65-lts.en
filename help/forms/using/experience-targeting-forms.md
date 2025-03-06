@@ -7,6 +7,7 @@ topic-tags: integrations
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: be7493a9-1e3b-4918-8b3e-fb1a2000b453
 ---
 # Create targeted experiences in AEM Forms {#create-targeted-experiences-in-aem-forms}
 

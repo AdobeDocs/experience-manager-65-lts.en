@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: introduction
 docset: aem65
 feature: Adaptive Forms
-
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: e9549ac9-0ada-4661-969a-709f0ed3b133
 ---
 # Introduction to AEM Forms{#introduction-to-aem-forms}
 
@@ -119,4 +119,3 @@ Personalized documents, like, receipts, welcome kits, and statements can easily 
 ![Layout two](do-not-localize/layout-02.png)
 
 Streamlined personalized communication workflow
-

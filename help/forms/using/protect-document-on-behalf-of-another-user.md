@@ -5,6 +5,7 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 56280931-c88b-46ea-bee6-f5a5494d715a
 ---
 # Protect a document on behalf of another user {#protect-a-document-on-behalf-of-another-user}
 

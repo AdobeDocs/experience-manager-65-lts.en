@@ -7,6 +7,7 @@ topic-tags: deploying
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: a6344463-7796-4ee3-8b2e-b3bfd2aec99a
 ---
 # Indexing by way of the Oak-run Jar {#indexing-via-the-oak-run-jar}
 

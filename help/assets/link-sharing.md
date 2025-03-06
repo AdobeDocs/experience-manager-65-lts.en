@@ -6,6 +6,7 @@ role: User
 feature: Link Sharing,Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: ac7ff784-d331-4437-940f-9ea3ce122f8b
 ---
 # Share asset as a link {#asset-link-sharing}
 

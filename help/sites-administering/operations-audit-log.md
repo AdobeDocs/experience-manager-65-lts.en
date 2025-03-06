@@ -1,17 +1,14 @@
 ---
 title: Audit Log Maintenance in AEM 6
-
 description: Learn about Audit Log Maintenance in Adobe Experience Manager (AEM).
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 feature: Operations
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: dd0f90f7-5e92-49d3-a5b4-17d99ed927b9
 ---
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}
 

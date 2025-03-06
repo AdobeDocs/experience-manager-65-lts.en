@@ -1,18 +1,15 @@
 ---
 title: Developing for Targeted Content
-
 description: Topics about developing components for use with content targeting
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 722c8052-6b1e-4b52-a332-b549f4a6bc05
 ---
 # Developing for Targeted Content{#developing-for-targeted-content}
 

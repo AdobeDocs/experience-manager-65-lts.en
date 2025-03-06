@@ -7,6 +7,7 @@ topic-tags: correspondence-management
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 23be6248-1013-488e-91e6-ac1f6fb7da50
 ---
 # Correspondence Management Configuration Properties {#correspondence-management-configuration-properties}
 

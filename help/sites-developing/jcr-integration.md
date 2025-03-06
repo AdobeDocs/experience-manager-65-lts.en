@@ -1,17 +1,14 @@
 ---
 title: JCR Integration
-
 description: Learn some tips for when you need to integrate with Adobe Experience Manager at the JCR level.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 6c5715f8-ff7e-47c3-8469-f97b6ea6fe03
 ---
 # JCR Integration{#jcr-integration}
 

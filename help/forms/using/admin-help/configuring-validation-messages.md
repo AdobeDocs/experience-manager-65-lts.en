@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 1172f1f2-b297-4021-a9ee-507b0a4e628a
 ---
 # Configuring validation messages {#configuring-validation-messages}
 

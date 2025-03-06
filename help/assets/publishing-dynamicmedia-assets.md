@@ -1,6 +1,6 @@
 ---
 title: Publishing Dynamic Media Assets
-description: Learn how to publish Dynamic Media assets, such as videos and images, including the HTTP/2 delivery of such assets. 
+description: Learn how to publish Dynamic Media assets, such as videos and images, including the HTTP/2 delivery of such assets.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: dynamic-media
@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
+exl-id: 7b31db6e-1b3f-4dfe-8b87-8d70548e9c42
 ---
 # Publish Dynamic Media assets {#publishing-dynamic-media-assets}
 

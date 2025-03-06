@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 3ffa7c80-ce59-41cf-bb50-c6caf77d9baa
 ---
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
 

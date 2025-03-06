@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: a804ba9b-c5c6-4d76-96e4-5d729b673ca4
 ---
 # Build the AEM Forms Android app {#build-the-aem-forms-android-app}
 

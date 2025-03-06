@@ -4,6 +4,7 @@ description: Learn how to enable certain Content Fragment functionality in the C
 feature: Content Fragments
 role: User
 solution: Experience Manager, Experience Manager Assets
+exl-id: b526cd3a-9b04-403a-a6f4-6abe973aaeac
 ---
 # Content Fragments - Configuration Browser{#content-fragments-configuration-browser}
 

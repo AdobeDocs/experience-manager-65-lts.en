@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 622c4899-f75f-4b47-a6c0-f94c8427e977
 ---
 # Forms JEE workflows | Handling user data {#forms-jee-workflows-handling-user-data}
 

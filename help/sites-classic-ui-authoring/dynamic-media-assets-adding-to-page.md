@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 163c1f4e-7d90-44dd-84e7-9f02a9508783
 ---
 # Add Dynamic Media assets to pages{#adding-dynamic-media-assets-to-pages}
 

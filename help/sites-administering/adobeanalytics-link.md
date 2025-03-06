@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: d9318173-c598-4de0-bbbe-2c094da8afa6
 ---
-
 # Configuring Link Tracking for Adobe Analytics{#configuring-link-tracking-for-adobe-analytics}
 
 When users click links on pages of your website you can capture related information in Adobe Analytics. For example, use link tracking to learn how users interact with your site, track file downloads, and track exit links.

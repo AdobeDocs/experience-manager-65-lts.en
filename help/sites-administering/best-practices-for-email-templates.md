@@ -1,18 +1,16 @@
 ---
 title: Best Practices for Email Templates
 description: Find best practices on creating email templates in AEM.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration, best-practices
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 34678cae-3c7f-4c9f-b7b6-c1dd4e0758ad
 ---
-
 # Best Practices for Email Templates {#best-practices-for-email-templates}
 
 >[!CAUTION]

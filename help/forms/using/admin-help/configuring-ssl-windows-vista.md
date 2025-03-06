@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer
+exl-id: ee73f6a1-712c-461f-95e8-85f8c5694293
 ---
 # Configuring SSL on Windows Vista {#configuring-ssl-on-windows-vista}
 

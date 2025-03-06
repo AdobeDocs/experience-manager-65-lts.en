@@ -8,6 +8,7 @@ content-type: reference
 feature: 3D Assets,Asset Management
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: f27b595b-24eb-444c-a598-6f70c59ed8fc
 ---
 # Work with 3D assets in Dynamic Media {#working-with-three-d-assets-dm}
 

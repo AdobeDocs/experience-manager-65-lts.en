@@ -1,15 +1,14 @@
 ---
 title: Create Adobe Campaign Forms in Adobe Experience Manager
 description: Adobe Experience Manager lets you create and use forms that interact with Adobe Campaign on your website
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: personalization
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
 role: User,Admin,Architect,Developer
+exl-id: 6a72ba56-8222-4853-adc6-ee8f3d395d9d
 ---
 # Creating Adobe Campaign Forms in AEM {#creating-adobe-campaign-forms-in-aem}
 

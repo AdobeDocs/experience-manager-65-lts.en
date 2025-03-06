@@ -9,8 +9,8 @@ feature: Brand Portal
 role: Admin
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 22a2428d-3ebd-4368-983e-d140f99de2dd
 ---
-
 # Configure AEM Assets with Brand Portal {#configure-integration-65}
 
 | Version | Article link |

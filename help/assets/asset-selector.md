@@ -6,6 +6,7 @@ feature: Asset Management,Metadata,Search
 role: User
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 9ee9e034-ac69-4c3b-b050-7e829c830bcd
 ---
 # Asset selector {#asset-selector}
 

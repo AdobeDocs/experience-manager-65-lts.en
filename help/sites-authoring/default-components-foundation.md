@@ -4,6 +4,7 @@ description: Learn about Foundation Components in Adobe Experience Manager 6.5.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: c507bef7-4ddc-4e8c-9947-71cb2ecbbf0a
 ---
 # Foundation Components {#foundation-components}
 

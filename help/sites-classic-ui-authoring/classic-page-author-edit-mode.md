@@ -1,18 +1,15 @@
 ---
 title: Components for Page Authoring
-
 description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: f45ae3e8-f2e6-4c4a-9373-667441cb9fdc
 ---
 # Components for Page Authoring{#components-for-page-authoring}
 

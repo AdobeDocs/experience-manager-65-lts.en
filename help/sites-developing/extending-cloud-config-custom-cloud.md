@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7ae41982-8438-41a6-91f9-3b3b6755a39b
 ---
 # Creating a Custom Cloud Service{#creating-a-custom-cloud-service}
 

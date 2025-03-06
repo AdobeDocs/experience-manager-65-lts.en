@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 9f879ab6-6806-4e94-836c-0a7813940914
 ---
 # Integrate Adobe Experience Manager with Dynamic Media Classic {#integrating-with-dynamic-media-classic-scene}
 

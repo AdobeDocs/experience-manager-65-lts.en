@@ -4,6 +4,7 @@ description: Learn how to update your Content Fragments for Optimized GraphQL Fi
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: 40211033-7084-4117-a3e2-73e504283266
 ---
 # Updating your Content Fragments for optimized GraphQL Filtering {#updating-content-fragments-for-optimized-graphql-filtering}
 

@@ -6,6 +6,7 @@ role: User
 feature: Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: bea51406-a033-4db1-ba1d-8596891cd12d
 ---
 # Check-in and check-out files in [!DNL Experience Manager] DAM {#check-in-and-check-out-files-in-assets}
 

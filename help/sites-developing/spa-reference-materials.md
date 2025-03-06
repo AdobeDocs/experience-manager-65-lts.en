@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: ba64fb22-85fb-434b-93fa-be910af107a0
 ---
 # SPA Reference Materials {#spa-reference-materials}
 

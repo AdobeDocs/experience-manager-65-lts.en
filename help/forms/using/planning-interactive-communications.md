@@ -1,15 +1,12 @@
 ---
-title: "Tutorial: Plan the Interactive Communication"
-
+title: 'Tutorial: Plan the Interactive Communication'
 description: Plan the anatomy for your Interactive Communication
-
-
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 8591214f-9c11-4cd3-b2a1-c83040507b20
 ---
 # Tutorial: Plan the Interactive Communication {#tutorial-plan-the-interactive-communication}
 

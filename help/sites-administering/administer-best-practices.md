@@ -1,17 +1,14 @@
 ---
 title: Best practices to help administrators get up and running
-
 description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 933ef22f-d023-44d2-8ec0-4bb47a46bba3
 ---
 # Best Practices{#best-practices}
 

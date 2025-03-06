@@ -4,6 +4,7 @@ description: Using the Rich Text Editor to Author Content in Adobe Experience Ma
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 01c2a67a-7168-4362-ad7d-f4990ea43ed8
 ---
 # Using the Rich Text Editor to Author Content {#use-rich-text-editor-to-author-content}
 

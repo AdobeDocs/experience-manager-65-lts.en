@@ -1,17 +1,14 @@
 ---
 title: Publishing an Email to Email Service Providers
-
 description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 03890f75-bfbc-4f73-85ae-07e991728115
 ---
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
 

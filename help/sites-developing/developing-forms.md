@@ -1,18 +1,15 @@
 ---
 title: Developing Forms (Classic UI)
-
 description: Learn how to develop forms for Adobe Experience Manager's classic UI
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: components
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d1475168-6625-4d27-9c3b-01e415c2f398
 ---
 # Developing Forms (Classic UI){#developing-forms-classic-ui}
 

@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 1a0d00f9-45f7-45af-ab34-d1c164980abb
 ---
 # Variables in AEM Forms workflows{#variables-in-aem-forms-workflows}
 

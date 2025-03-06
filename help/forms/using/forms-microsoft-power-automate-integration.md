@@ -5,6 +5,7 @@ keywords: Adaptive Forms Microsoft Power Automate, Submit Adaptive Forms data to
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: e2c4cae6-67db-4531-b1e1-0a378d9800f2
 ---
 # Connect and submit Adaptive Form data to Microsoft&reg; Power Automate {#connect-adaptive-form-with-power-automate}
 

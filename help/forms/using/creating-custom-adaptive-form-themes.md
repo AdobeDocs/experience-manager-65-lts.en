@@ -7,6 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components
+exl-id: e9853779-e22c-484e-8480-8e724d584ab7
 ---
 # Creating custom adaptive form themes {#creating-custom-adaptive-form-themes}
 

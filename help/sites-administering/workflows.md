@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
+exl-id: 330f5cc5-1af4-4777-b386-b0755e6781df
 ---
 # Administering Workflows{#administering-workflows}
 

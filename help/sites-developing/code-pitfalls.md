@@ -1,17 +1,14 @@
 ---
 title: Code pitfalls
-
 description: Common coding pitfalls to avoid when developing for AEM
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 95656312-2648-455e-80fb-3e03bf1cd633
 ---
 # Code pitfalls{#code-pitfalls}
 

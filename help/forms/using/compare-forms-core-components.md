@@ -3,6 +3,7 @@ title: Compare two distinct adaptive forms.
 description: Compare two distinct forms based on the fields, content, and form components.
 feature: Adaptive Forms, Core Components
 role: User, Developer, Admin
+exl-id: e564101f-2d36-475d-b402-e973d13196ff
 ---
 # Compare Adaptive Forms {#compare-two-forms}
 

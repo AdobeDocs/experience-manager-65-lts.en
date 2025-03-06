@@ -4,6 +4,7 @@ description: The Assembler service lets you combine, rearrange, and augment PDF 
 feature: Document Services
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 5e1c5e07-1848-4784-9bdc-4d3b464baebe
 ---
 # Using Assembler Service{#using-assembler-service}
 

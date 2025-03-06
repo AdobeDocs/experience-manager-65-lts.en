@@ -4,6 +4,7 @@ description: Learn headless concepts, how they map to AEM, and the theory of AEM
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,Language Copy
 role: Admin, Architect,Data Architect,Developer,User,Leader
+exl-id: b81293da-772a-4ff1-8606-cec92d8cbd72
 ---
 # Learn about headless content and how to translate it in AEM {#learn-about}
 

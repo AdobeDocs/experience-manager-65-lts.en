@@ -5,6 +5,7 @@ contentOwner: AG
 role: Admin
 feature: Asset Management,Developer Tools
 solution: Experience Manager, Experience Manager Assets
+exl-id: 28765aeb-1303-40da-bde0-df1b4c625d37
 ---
 # Assets file format best practices {#assets-file-format-best-practices}
 

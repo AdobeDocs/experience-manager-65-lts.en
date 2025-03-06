@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: User, Developer
+exl-id: d8853a0d-1597-473a-b5e6-057f62f84f74
 ---
 # Hosting two AEM Forms workspace instances on one server {#hosting-two-aem-forms-workspace-instances-on-one-server}
 

@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations
+exl-id: 071a6ccb-8204-4cbc-a39b-143da52c16f7
 ---
 # Calculating Form Data {#calculating-form-data} 
 

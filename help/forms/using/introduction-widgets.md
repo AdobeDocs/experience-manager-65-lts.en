@@ -7,6 +7,7 @@ topic-tags: customization
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Mobile Forms
 role: User, Developer
+exl-id: 9d80bc0a-f2b0-4b27-9417-639531cb8415
 ---
 # Appearance framework for adaptive and HTML5 forms {#appearance-framework-for-adaptive-and-html-forms}
 

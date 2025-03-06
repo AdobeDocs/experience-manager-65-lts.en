@@ -8,6 +8,7 @@ topic-tags: components
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 8f6936d0-051f-4966-84ed-87b348eab0b8
 ---
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
 

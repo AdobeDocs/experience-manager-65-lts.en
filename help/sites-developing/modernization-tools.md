@@ -1,13 +1,12 @@
 ---
 title: AEM Modernization Tools
-
 description: AEM Modernization Tools help you convert your legacy AEM features to the latest technology
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: 3eba062c-b95c-4ab5-9814-6948c3e2a7d0
 ---
 # AEM Modernization Tools {#modernization-tools}
 

@@ -5,6 +5,7 @@ contentOwner: AG
 feature: Asset Management
 role: Architect, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 754659d0-7d5f-4e60-a5a1-9bad177de9bc
 ---
 # Best Practices for [!DNL Assets] {#best-practices-for-assets}
 

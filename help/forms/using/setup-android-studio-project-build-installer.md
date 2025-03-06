@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 425c6194-0b87-4b01-a013-f620755072b3
 ---
 # Set up the Android&trade; studio project and build the Android&trade; app {#set-up-the-android-studio-project-and-build-the-android-app}
 

@@ -1,16 +1,13 @@
 ---
 title: Correspondence Management Overview
-
 description: This topic gives you an overview of Correspondence Management.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 242a0157-5863-4f9a-8613-687078fcafb5
 ---
 # Correspondence Management Overview {#correspondence-management-overview}
 

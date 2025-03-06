@@ -1,16 +1,15 @@
 ---
 title: Authoring - the Environment and Tools
 description: The Websites console lets you manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: c4ac3f14-f45a-44f6-a232-69cae483a776
 ---
 # Authoring - the Environment and Tools {#authoring-the-environment-and-tools}
 

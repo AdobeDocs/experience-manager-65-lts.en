@@ -4,6 +4,7 @@ description: Use AEM to help make web content accessible to, and usable by, pers
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 0c3e3b6c-3c41-455e-823a-7cce50f174d4
 ---
 # Creating Accessible Content (WCAG 2.1 Conformance) {#creating-accessible-content-wcag-conformance}
 

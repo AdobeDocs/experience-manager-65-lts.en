@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 6665b95a-39fd-472a-b3b5-8b97257c69a7
 ---
 # Configuring Shared Queues{#configuring-shared-queues}
 

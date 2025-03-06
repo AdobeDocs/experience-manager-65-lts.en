@@ -4,6 +4,7 @@ description: Managing your tasks with the inbox in Adobe Experience Manager 6.5.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 077407ef-1d7f-47ad-b924-0afa19f21119
 ---
 # Your Inbox{#your-inbox}
 

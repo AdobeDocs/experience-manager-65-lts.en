@@ -1,15 +1,14 @@
 ---
 title: Launches
 description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
-
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 7f1b25dd-c58b-4c83-a8f3-2b60dcd478bf
 ---
 # Launches{#launches}
 

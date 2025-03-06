@@ -7,6 +7,7 @@ discoiquuid: 01724ca0-6901-45e7-b045-f44814ed574e
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 3578d81f-25c6-483b-a2ff-75ccb077ca97
 ---
 # Creating forms with repeatable sections {#creating-forms-with-repeatable-sections}
 

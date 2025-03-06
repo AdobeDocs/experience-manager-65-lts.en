@@ -1,19 +1,15 @@
 ---
 title: Interactive Communications configuration properties
-
 description: Edit default configuration properties for Interactive Communications
-
-
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 content-type: reference
 topic-tags: interactive-communications
-
 docset: aem65
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 73e4cd72-0479-4b3c-82d2-653cded590b9
 ---
 # Interactive Communications configuration properties{#interactive-communications-configuration-properties}
 

@@ -7,6 +7,7 @@ docset: aem65
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 6d24ce27-4653-4a70-97d0-e4299eceb32c
 ---
 # Create an Interactive Communication{#create-an-interactive-communication}
 

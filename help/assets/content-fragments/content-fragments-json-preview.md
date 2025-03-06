@@ -4,6 +4,7 @@ description: Learn how to easily preview JSON representation of your Content Fra
 feature: Content Fragments
 role: User,Developer
 solution: Experience Manager, Experience Manager Assets
+exl-id: 12381afc-631e-46a3-813e-ca5584566339
 ---
 # Preview - JSON Representation {#preview-json-representation}
 

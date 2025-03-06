@@ -4,6 +4,7 @@ description: Add ContextHub to your pages to enable the ContextHub features and 
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Personalization
 role: Developer
+exl-id: a2b32ec3-ff1b-47e0-b346-53a5db5ae27f
 ---
 # Adding ContextHub to Pages and Accessing Stores {#adding-contexthub-to-pages-and-accessing-stores}
 

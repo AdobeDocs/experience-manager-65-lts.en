@@ -9,6 +9,7 @@ docset: aem65
 feature: 360 VR Video
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 17e45464-3de4-40a8-b102-ccc9eaba92a3
 ---
 # 360/VR Video {#vr-video}
 

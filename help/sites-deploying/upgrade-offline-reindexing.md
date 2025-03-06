@@ -8,6 +8,7 @@ content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 0001c874-7468-4750-a377-03156674f4b9
 ---
 # Using Offline Reindexing To Reduce Downtime During an Upgrade {#offline-reindexing-to-reduce-downtime-during-upgrades}
 

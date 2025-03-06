@@ -1,18 +1,15 @@
 ---
 title: Templates
-
 description: Templates are used when creating a page which is used as the base for the new page.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 3b3cff43-4edc-4250-8e6d-08eb5906ffcd
 ---
 # Templates{#templates}
 
@@ -127,4 +124,3 @@ To limit what templates can be used to create child pages under a given page, us
 You can use the `cq:allowedTemplates` property on the template's  `jcr:content` node to have this configuration applied to all newly created pages that use this template.
 
 If you want to add more constraints, for example, regarding the template hierarchy, you can use the `allowedParents/allowedChildren` properties on the template. You can then explicitly specify that pages created from a template T have to be parents/children of pages created from a template T.
-

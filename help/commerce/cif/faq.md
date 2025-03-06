@@ -4,6 +4,7 @@ description: AEM - Commerce Integration using Commerce Integration Framework FAQ
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: fd5f4836-ecac-407c-a82e-5f6b47718902
 ---
 # AEM - Commerce Integration using Commerce Integration Framework FAQ
 

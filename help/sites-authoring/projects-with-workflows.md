@@ -1,19 +1,15 @@
 ---
 title: Working with Project Workflows
-
 description: A variety of project workflows are available out of the box.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: projects
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
 role: User,Admin,Architect,Developer
+exl-id: eb19a269-8b3f-476b-b22b-8116dce70388
 ---
-
 # Working with Project Workflows {#working-with-project-workflows}
 
 The project workflows available out of the box include the following:

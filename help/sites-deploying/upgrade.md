@@ -9,6 +9,7 @@ targetaudience: target-audience upgrader
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 ---
 # Upgrading to Adobe Experience Manager (AEM) 6.5 LTS {#upgrading-to-aem}
 

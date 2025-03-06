@@ -4,6 +4,7 @@ description: Learn how to configure smart tagging and enhanced smart tagging in 
 role: Admin
 feature: Tagging,Smart Tags
 solution: Experience Manager, Experience Manager Assets
+exl-id: be7c294c-149b-4825-8376-573f9e2987e2
 ---
 # Prepare [!DNL Assets] for smart tagging {#configure-asset-tagging-using-the-smart-content-service}
 

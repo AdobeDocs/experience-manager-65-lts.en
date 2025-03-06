@@ -1,18 +1,14 @@
 ---
 title: Configuring the synchronization scheduler
-
 description: Learn how to migrate and sync assets, configure sync scheduler, and use folders to arrange assets.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: Configuration
-
 docset: aem65
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Workbench,Adaptive Forms
+exl-id: b41e5e15-eb7f-4404-82a0-2ba034694577
 ---
 # Configuring the synchronization scheduler {#configuring-the-synchronization-scheduler}
 

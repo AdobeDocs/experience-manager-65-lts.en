@@ -1,16 +1,13 @@
 ---
 title: Create an adaptive form using a set of adaptive forms
-
-description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features. 
-
-
+description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features.
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 1e9926ca-70ef-4777-8a79-f608df80ada1
 ---
 # Create an adaptive form using a set of adaptive forms{#create-an-adaptive-form-using-a-set-of-adaptive-forms}
 

@@ -1,18 +1,14 @@
 ---
 title: Integrating Create Correspondence UI with your custom portal
-
 description: Learn how to integrate create correspondence UI with your custom portal
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: correspondence-management
-
 docset: aem65
-
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 496b125b-b091-4843-ba9f-2479dbeba07b
 ---
 # Integrating Create Correspondence UI with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}
 

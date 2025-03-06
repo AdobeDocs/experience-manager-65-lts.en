@@ -1,18 +1,15 @@
 ---
 title: Security Checklist
-
 description: Learn about the various security considerations when configuring and deploying AEM.
-
-
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 docset: aem65
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin,Developer
+exl-id: 9b957118-2a21-4e2b-a575-6518d5dba54f
 ---
 # Security Checklist {#security-checklist}
 

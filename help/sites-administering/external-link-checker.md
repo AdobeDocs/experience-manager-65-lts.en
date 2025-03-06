@@ -4,6 +4,7 @@ description: The Link Checker helps validate both internal and external links an
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 3fafb5e6-f5ac-4c11-809f-6cb2c5269377
 ---
 # The Link Checker {#the-link-checker}
 

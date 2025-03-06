@@ -4,6 +4,7 @@ description: See how you can view and edit the metadata properties for Content F
 feature: Content Fragments
 role: User
 solution: Experience Manager, Experience Manager Assets
+exl-id: 36b6b48b-411c-4ce5-932d-22557cfa0c13
 ---
 # Metadata - Fragment Properties {#metadata-fragment-properties}
 

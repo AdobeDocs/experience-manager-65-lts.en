@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 0f1b39e7-5de5-4b54-b622-61774ce839db
 ---
 # Configure SAML service provider settings{#configure-saml-service-provider-settings}
 

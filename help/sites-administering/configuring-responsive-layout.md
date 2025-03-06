@@ -6,8 +6,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
+exl-id: 413f15c9-5b51-4d8d-8cf0-3e98608b9d9e
 ---
-
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
 Learn how to configure Layout Container and Layout Mode.

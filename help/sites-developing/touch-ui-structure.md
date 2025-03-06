@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 1fcf6de4-30b5-46cb-9c1d-109a160d5030
 ---
 # Structure of the Adobe Experience Manager Touch-Enabled UI{#structure-of-the-aem-touch-enabled-ui}
 

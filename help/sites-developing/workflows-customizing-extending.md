@@ -1,17 +1,14 @@
 ---
 title: Extending Workflow Functionality
-
 description: Learn how to extend Adobe Experience Manager's workflow functionality.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 9036e26c-74cd-4013-a63d-70ece0f80904
 ---
 # Extending Workflow Functionality{#extending-workflow-functionality}
 

@@ -7,6 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.4
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security,Adaptive Forms
+exl-id: 3de38e4d-6a12-470e-aded-7eb75a9cdcd8
 ---
 # Hardening Your AEM Forms on JEE Environment {#hardening-your-aem-forms-on-jee-environment}
 

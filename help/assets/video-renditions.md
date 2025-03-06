@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 solution: Experience Manager, Experience Manager Assets
 feature: Video
 role: User
+exl-id: da33f43b-7375-46f1-a80f-c1891fd90312
 ---
 # Video renditions {#video-renditions}
 

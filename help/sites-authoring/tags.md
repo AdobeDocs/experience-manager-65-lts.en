@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 73fe62f4-a3a6-4cfa-9b31-517653c05269
 ---
-
 # Using Tags {#using-tags}
 
 Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: a3332a82-2017-48cb-a9a7-287dddf719c1
 ---
 # Deliver Dynamic Media assets{#delivering-dynamic-media-assets}
 

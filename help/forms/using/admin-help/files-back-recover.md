@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 2938a1c6-c8fc-420a-8fad-bb39e5a7936b
 ---
 # Files to back up and recover {#files-to-back-up-and-recover}
 

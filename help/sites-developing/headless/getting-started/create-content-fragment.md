@@ -4,6 +4,7 @@ description: Learn how to use AEM's Content Fragments to design, create, curate,
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: 7b26e5cb-3aab-4f69-a0f1-42268c39bba8
 ---
 # Creating Content Fragments Headless Quick Start Guide {#creating-content-fragments}
 

@@ -1,17 +1,14 @@
 ---
 title: Monitoring events
-
 description: When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: cee9cce0-becd-4822-ac37-094d564f2289
 ---
 # Monitoring events {#monitoring-events}
 

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: 99ada664-1b08-4bad-b382-2d8c967f2f74
 ---
 # Dialog Editor{#dialog-editor}
 

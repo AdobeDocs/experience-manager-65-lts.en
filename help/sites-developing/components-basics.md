@@ -9,6 +9,7 @@ legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 3265ad97-75c2-4dc1-8180-71b65cf73d31
 ---
 # Adobe Experience Manager (AEM) Components - The Basics{#aem-components-the-basics}
 

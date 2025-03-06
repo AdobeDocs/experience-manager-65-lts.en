@@ -3,8 +3,8 @@ title: The Universal Editor
 description: Learn about the flexibility of the Universal Editor and how it can help power your headless experiences using AEM 6.5.
 feature: Developing
 role: Developer
+exl-id: 495df631-5bdd-456b-b115-ec8561f33488
 ---
-
 # The Universal Editor {#universal-editor}
 
 Learn about the flexibility of the Universal Editor and how it can help power your headless experiences using AEM 6.5.

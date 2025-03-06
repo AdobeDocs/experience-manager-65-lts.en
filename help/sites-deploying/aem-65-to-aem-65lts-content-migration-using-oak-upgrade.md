@@ -4,8 +4,8 @@ description: Learn how to migrate content from AEM 6.5 to AEM 6.5 LTS using the 
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 8c4ffb0e-b4dc-4a81-ac43-723754cbc0de
 ---
-
 # AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade {#aem-65-to-aem-65lts-content-migration-using-oak-upgrade}
 
 This document provides a comprehensive guide for upgrading Adobe Experience Manager from version **6.5** to **6.5 LTS**, focusing on content repository migration using the oak-upgrade tool, a powerful utility for transferring content between different repositories with precision and control.

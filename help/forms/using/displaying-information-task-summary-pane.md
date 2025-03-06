@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 0ecca051-3ebc-4ace-b550-6e895c582e2c
 ---
 # Displaying information in the Task Summary pane {#displaying-information-in-the-task-summary-pane}
 

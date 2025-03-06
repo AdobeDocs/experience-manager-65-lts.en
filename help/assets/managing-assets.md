@@ -8,6 +8,7 @@ content-type: reference
 feature: Asset Management
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: c4b1960b-6264-43de-9802-3908ce259b2d
 ---
 # About managing Dynamic Media assets {#managing-assets}
 

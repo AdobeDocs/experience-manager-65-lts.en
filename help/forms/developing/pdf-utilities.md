@@ -1,18 +1,14 @@
 ---
 title: Working with PDF Utilities
-
 description: Use the PDF Utilities service to convert between PDF and XDP file formats, set and retrieve PDF document properties, and manipulate XMP metadata.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 06869949-4a71-4d8a-9431-b94df13985e9
 ---
 # Working with PDF Utilities {#working-with-pdf-utilities} 
 

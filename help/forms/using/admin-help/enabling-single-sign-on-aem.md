@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
+exl-id: ba02f9b1-209e-42f2-b1df-2ed64fc9fdbc
 ---
 # Enabling single sign-on in AEM forms{#enabling-single-sign-on-in-aem-forms}
 
@@ -189,4 +190,3 @@ Click to know the steps to [assign roles to users and groups](/help/forms/using/
    ![Search user group](/help/forms/using/assets/search-user-group.png)
 1. Assign the roles to the users or groups as required.
    ![User role assignment](/help/forms/using/assets/user-role-assign.png)
-

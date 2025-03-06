@@ -8,6 +8,7 @@ topic-tags: coding, development-tools
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 8cf0c8ca-12ea-4094-97a6-1cf34042bc8a
 ---
 # Invoking AEM Forms using APIs {#invoking-aem-forms-using-apis} 
 

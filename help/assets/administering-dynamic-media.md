@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 role: User, Admin
 feature: Configuration
 solution: Experience Manager, Experience Manager Assets
+exl-id: 2e03224f-b4eb-4bf5-aba9-a6cc292c96c2
 ---
 # Set up Dynamic Media {#setting-up-dynamic-media}
 
@@ -35,5 +36,3 @@ See also the following topics:
 >**If you are upgrading:**
 >
 >* After you have Experience Manager up and running, any asset you upload has Dynamic Media automatically enabled (unless it was explicitly disabled by your system administrator). If you are on an upgraded instance of Experience Manager and new to Dynamic Media, you must reprocess your assets to make them Dynamic Media-enabled.
-
-

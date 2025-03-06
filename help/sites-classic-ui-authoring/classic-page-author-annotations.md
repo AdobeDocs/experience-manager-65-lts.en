@@ -9,6 +9,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 9fe6be3b-2fd8-4023-9388-d5e80d22895c
 ---
 # Annotations when Editing a Page{#annotations-when-editing-a-page}
 

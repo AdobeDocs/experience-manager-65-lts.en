@@ -1,17 +1,13 @@
 ---
 title: Embed an adaptive form or Interactive Communication in AEM Sites Single Page Application
-
 description: Embed adaptive forms or Interactive Communication in AEM Sites pages. Users can fill and submit forms without leaving the Sites page.
-
-
 topic-tags: author, interactive-communications
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 2ac51487-42e0-4b8a-b224-2858f26e85ef
 ---
 # Embed an adaptive form or Interactive Communication in AEM Sites Single Page Application{#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-single-page-application}
 

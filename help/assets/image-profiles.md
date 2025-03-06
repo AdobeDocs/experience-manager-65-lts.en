@@ -8,6 +8,7 @@ content-type: reference
 feature: Image Profiles
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 73a35073-fbcb-4908-981c-f3d254dffaec
 ---
 # Dynamic Media Image Profiles {#image-profiles}
 

@@ -5,6 +5,7 @@ contentOwner: Vishabh Gupta
 role: Admin
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 110b7175-d398-40ff-886e-5817a1df0ec9
 ---
 # Configure Experience Manager Assets for Adobe Asset Link {#adobe-asset-link}
 

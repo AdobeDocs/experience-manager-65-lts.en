@@ -1,18 +1,15 @@
 ---
 title: Assembling PDF Portfolios
-
 description: Assemble a PDF portfolio to combine several documents of various types, including word file, image files, and PDF documents. You can assemble a PDF portfolio using a Java API and a Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+exl-id: 43460ac1-a152-4a0d-943f-1b3ed007f089
 ---
 # Assembling PDF Portfolios {#assembling-pdf-portfolios} 
 

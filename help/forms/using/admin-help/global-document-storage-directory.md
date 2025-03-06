@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 9a93b8f9-33cb-4aec-81e0-a1146bba955a
 ---
 # Global document storage directory{#global-document-storage-directory}
 

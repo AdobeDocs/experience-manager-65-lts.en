@@ -5,6 +5,7 @@ feature: Image Profiles
 role: User, Admin
 mini-toc-levels: 4
 solution: Experience Manager, Experience Manager Assets
+exl-id: 9cad4bbc-64f6-4ea2-a9b2-b6b9aaa72f11
 ---
 # Configure Dynamic Media Publish Setup for Image Server
 

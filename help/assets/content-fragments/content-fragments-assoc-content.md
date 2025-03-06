@@ -4,6 +4,7 @@ description: Understand how AEM's associated content feature provides the connec
 feature: Content Fragments
 role: User
 solution: Experience Manager, Experience Manager Assets
+exl-id: 5e0a8316-4207-417a-9855-dfac53ca0eb0
 ---
 # Associated Content{#associated-content}
 

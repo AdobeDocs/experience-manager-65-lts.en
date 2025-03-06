@@ -1,15 +1,14 @@
 ---
 title: Annotations when editing a content page
 description: Many components directly related to content let you add an annotation.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 5e0e7d8e-4da2-4304-ac21-7500ca2ba9c6
 ---
 # Annotations when Editing a Page{#annotations-when-editing-a-page}
 

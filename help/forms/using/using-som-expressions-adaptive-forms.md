@@ -8,6 +8,7 @@ discoiquuid: 13f00bb2-561f-4d64-8829-292c663abeab
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: a2a2a6f3-409e-44a2-a85b-9f0bc40cc800
 ---
 # Using SOM expressions in adaptive forms{#using-som-expressions-in-adaptive-forms}
 

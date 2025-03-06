@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 9f18d225-b194-423e-b344-964c9ed5151b
 ---
 # Related Community Articles{#related-community-articles}
 

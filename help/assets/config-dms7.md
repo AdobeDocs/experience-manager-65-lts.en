@@ -10,6 +10,7 @@ role: User, Admin
 mini-toc-levels: 4
 feature: Configuration,Scene7 Mode
 solution: Experience Manager, Experience Manager Assets
+exl-id: 98bd0c24-6c5e-4b96-a3aa-a3e4ef802baf
 ---
 # Configure Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}
 

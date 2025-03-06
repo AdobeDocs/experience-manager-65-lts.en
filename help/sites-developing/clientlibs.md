@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Personalization
 role: Developer
+exl-id: cafc7120-114e-487a-8b81-9c695318731e
 ---
 # Using Client-Side Libraries{#using-client-side-libraries}
 

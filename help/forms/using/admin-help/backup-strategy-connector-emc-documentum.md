@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 019e1a9b-c26c-429f-8153-fceeb85f7096
 ---
 # Backup strategy for Connector for EMC Documentum&reg; users {#backup-strategy-for-connector-for-emc-documentum-users}
 

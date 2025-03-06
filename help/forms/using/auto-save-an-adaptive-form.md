@@ -6,6 +6,7 @@ topic-tags: author
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 4b6497a2-a505-471e-bf06-b385a5684de8
 ---
 # Auto-save an adaptive form {#auto-save-an-adaptive-form}
 

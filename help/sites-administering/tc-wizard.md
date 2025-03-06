@@ -4,6 +4,7 @@ description: Learn about using the Language Copy Wizard in Adobe Exeprience Mana
 feature: Language Copy
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 218b4778-86be-4752-8cdf-37705563be13
 ---
 # Language Copy Wizard{#language-copy-wizard}
 

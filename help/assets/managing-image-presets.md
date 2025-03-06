@@ -11,6 +11,7 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-
 feature: Image Presets
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 1ffc31e1-9e47-40fe-93b8-cd6ef96e0674
 ---
 # Managing Dynamic Media image presets{#managing-image-presets}
 

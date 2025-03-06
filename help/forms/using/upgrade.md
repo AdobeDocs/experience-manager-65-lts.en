@@ -8,6 +8,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms Upgrade
+exl-id: 93126750-4645-4084-a21b-5362e3cc08a9
 ---
 # Upgrade to AEM 6.5 Forms {#upgrade-to-aem-forms}
 
@@ -97,5 +98,3 @@ Migration involves moving only assets (PDF, XDP, images, adaptive forms, corresp
       Methods to calculate average fill time for forms and average read time for have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.
       
       -->
-
-

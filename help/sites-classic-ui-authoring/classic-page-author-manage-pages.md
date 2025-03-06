@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: bff63900-0007-472d-a910-bf20b8013668
 ---
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 

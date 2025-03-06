@@ -1,5 +1,5 @@
 ---
-title: "IBM DB2 database: Running commands for regular maintenance"
+title: 'IBM DB2 database: Running commands for regular maintenance'
 description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database.
 contentOwner: admin
 content-type: reference
@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: cf505217-78c0-4af7-80f6-5ee75f09f46c
 ---
 # IBM DB2 database: Running commands for regular maintenance {#ibm-db-database-running-commands-for-regular-maintenance}
 

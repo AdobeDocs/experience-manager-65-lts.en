@@ -4,6 +4,7 @@ description: Configure which interface you use to work in Adobe Experience Manag
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 508f9dfb-1a4e-45bd-acdd-48cc910bdd0f
 ---
 # Selecting your UI{#selecting-your-ui}
 

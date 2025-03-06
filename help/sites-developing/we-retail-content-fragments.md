@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Content Fragments,Developing
 role: Developer
+exl-id: a772e177-1410-4341-b4be-7e5a658f4c5c
 ---
 # Trying out Content Fragments in We.Retail{#trying-out-content-fragments-in-we-retail}
 

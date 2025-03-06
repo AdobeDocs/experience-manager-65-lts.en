@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin
 feature: Configuration
 solution: Experience Manager, Experience Manager Assets
+exl-id: 56eb956e-c6a8-464b-980a-28e0dab0da7c
 ---
 # Activate hot link protection in Dynamic Media {#activating-hotlink-protection-in-dynamic-media}
 

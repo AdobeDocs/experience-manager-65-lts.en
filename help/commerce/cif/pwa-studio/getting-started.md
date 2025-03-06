@@ -5,6 +5,7 @@ topics: Commerce
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 17c6a9b3-9fa0-432a-b6df-e5e0149a3168
 ---
 # Getting started with AEM Extension for PWA Studio {#getting-started-pwa}
 

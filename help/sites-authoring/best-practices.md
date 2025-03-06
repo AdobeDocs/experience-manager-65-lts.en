@@ -1,17 +1,14 @@
 ---
 title: Best practices for using AEM Authoring
-
 description: How to use AEM in the most efficient and most effective way possible.
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 72ecde6c-0597-4743-aa5e-446a365953a5
 ---
 # Best Practices{#best-practices}
 

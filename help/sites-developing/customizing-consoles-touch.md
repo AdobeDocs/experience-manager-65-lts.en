@@ -1,18 +1,15 @@
 ---
 title: Customizing the Consoles
-
 description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 2a94ea8d-2919-4f30-be31-ce559493805d
 ---
 # Customizing the Consoles {#customizing-the-consoles}
 

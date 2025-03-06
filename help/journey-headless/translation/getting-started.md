@@ -4,6 +4,7 @@ description: Get to know how to organize your headless content and how AEM's tra
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,Language Copy
 role: Admin, Architect,Data Architect,Developer,User,Leader
+exl-id: beebb7b6-5ed8-4cec-84cf-fa90b2ef711a
 ---
 # Get Started with AEM Headless Translation {#getting-started}
 

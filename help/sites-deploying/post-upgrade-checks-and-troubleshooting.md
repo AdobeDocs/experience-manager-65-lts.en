@@ -9,6 +9,7 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 8b3d8d0f-10f7-4736-881d-8f1f21c69182
 ---
 # Post Upgrade Checks and Troubleshooting{#post-upgrade-checks-and-troubleshooting}
 
