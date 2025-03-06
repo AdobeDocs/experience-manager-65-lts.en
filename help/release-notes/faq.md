@@ -9,7 +9,7 @@ role: User,Admin,Architect,Developer
 
 This page is meant to answer some frequently asked questions about AEM 6.5 LTS.
 
-## I’m an on-Premises customer, what happens if I don’t upgrade to AEM 6.5 LTS? Will my existing customizations and integrations be affected?
+## I’m an on-Premise customer, what happens if I don’t upgrade to AEM 6.5 LTS? Will my existing customizations and integrations be affected?
 
 While AEM 6.5 LTS aims to maintain backward compatibility, some legacy features and artifacts have been removed. 
 It is essential to review the [release notes](/help/release-notes/release-notes.md#deprecated-and-removed-features) and use the AEM Analyzer tool to assess the impact on your customizations and integrations.
