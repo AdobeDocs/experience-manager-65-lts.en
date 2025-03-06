@@ -20,13 +20,13 @@ AEM 6.5 LTS includes important security and stability updates including support 
 ## Will my existing customizations and integrations be affected?
 
 While AEM 6.5 LTS aims to maintain backward compatibility, some legacy features and artifacts have been removed. 
-It is essential to review the [release notes](/help/release-notes/release-notes.md#deprecated-and-removed-features) and use the AEM Analyzer tool to assess the impact on your customizations and integrations.
+It is essential to review the [release notes](/help/release-notes/release-notes.md#deprecated-and-removed-features) and use the [AEM Analyzer tool](/help/sites-deploying/aem-analyzer.md) to assess the impact on your customizations and integrations.
 
 ## How can I ensure a smooth transition to AEM 6.5 LTS?
 
 To ensure a smooth transition, it is recommended to: 
 
 * Review the [release notes](/help/release-notes/release-notes.md) and documentation thoroughly. 
-* Use the [Pattern Detector tool](/help/sites-deploying/pattern-detector.md) to assess the complexity of the upgrade. 
+* Use the [AEM Analyzer tool](/help/sites-deploying/aem-analyzer.md) to assess the complexity of the upgrade. 
 * Plan and allocate sufficient time and resources for the upgrade process. 
 * Engage with Adobe support and enablement sessions for guidance and assistance.
