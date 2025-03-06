@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 39d793ca-5909-428e-9f6e-08d587f828c0
 ---
 # Converting Postscript to PDF Documents {#converting-postscript-to-pdf-documents} 
 

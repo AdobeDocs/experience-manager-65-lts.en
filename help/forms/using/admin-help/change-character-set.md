@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 1d614736-5897-4fd3-9ca4-94b115139ba3
 ---
 # Change the character set {#change-the-character-set}
 

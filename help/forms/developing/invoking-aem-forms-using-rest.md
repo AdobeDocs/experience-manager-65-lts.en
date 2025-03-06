@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 11a7278e-efaa-402c-8add-5280bf5a156a
 ---
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests} 
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a90ccd28-00ae-4317-bfda-c39acbdb835b
 ---
 # Creating Document Output Streams  {#creating-document-output-streams} 
 

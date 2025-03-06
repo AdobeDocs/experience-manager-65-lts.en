@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a64f0bd4-8d5c-485d-b620-608bfe33a72f
 ---
 # Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents} 
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 8cf0c8ca-12ea-4094-97a6-1cf34042bc8a
 ---
 # Invoking AEM Forms using APIs {#invoking-aem-forms-using-apis} 
 

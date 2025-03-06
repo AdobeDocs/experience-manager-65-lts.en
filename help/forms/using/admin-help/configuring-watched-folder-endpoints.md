@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ae001541-ae7f-42ce-8236-5fbb6ddb4c1f
 ---
 # Configuring watched folder endpoints {#configuring-watched-folder-endpoints}
 

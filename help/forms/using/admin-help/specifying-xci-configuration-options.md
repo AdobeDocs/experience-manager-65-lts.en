@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 198016d7-0fb5-47e6-91ed-f2f0c98b2224
 ---
 # Specifying XCI configuration options {#specifying-xci-configuration-options}
 

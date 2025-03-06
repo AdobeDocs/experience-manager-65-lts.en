@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a2586a1e-0e7f-4ea4-87ec-fbd82df3ec4c
 ---
 # Configure service settings {#configure-service-settings}
 

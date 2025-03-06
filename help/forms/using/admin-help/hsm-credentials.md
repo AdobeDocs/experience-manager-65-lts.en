@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5e9e0371-018a-496f-aad4-04ff21391d51
 ---
 # Managing HSM credentials {#managing-hsm-credentials}
 

@@ -9,6 +9,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: b3f8e1d6-3e6e-4b2c-8528-3346bbda3396
 ---
 # Adding and configuring users {#adding-and-configuring-users}
 

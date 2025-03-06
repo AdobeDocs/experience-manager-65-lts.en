@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: cbcb9301-48c9-4394-b8c0-766eed76101d
 ---
 # Backing up the Adobe Experience Manager (AEM) Forms data {#backing-up-the-aem-forms-data}
 

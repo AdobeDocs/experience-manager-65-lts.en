@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d19b7265-42cc-41d9-9897-e7b044c4529c
 ---
 # Configuring Remoting endpoints {#configuring-remoting-endpoints}
 

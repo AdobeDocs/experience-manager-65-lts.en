@@ -7,6 +7,7 @@ solution: Experience Manager, Experience Manager Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 68935045-89b1-4219-b111-88a4600200df
 ---
 # Restarting the AEM SDK 
 

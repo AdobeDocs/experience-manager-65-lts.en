@@ -8,6 +8,7 @@ solution: Experience Manager, Experience Manager Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 2bcd650f-c729-43b1-b7a7-9463a47ae25e
 ---
 # Transaction reporting Billable APIs for AEM Forms on JEE {#transaction-reports-billable-apis}
 

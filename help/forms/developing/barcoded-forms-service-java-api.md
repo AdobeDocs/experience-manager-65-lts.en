@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d1350be7-2204-4dc2-814b-4d9e3438a854
 ---
 # Barcoded Forms Service Java&trade; API Quick Start (SOAP) {#barcoded-forms-service-java-apiquick-start-soap}
 

@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 66736a58-b2ef-404e-b94c-9bc407828359
 ---
 # Creating PDF Documents with Submitted XML Data {#creating-pdf-documents-with-submittedxml-data} 
 

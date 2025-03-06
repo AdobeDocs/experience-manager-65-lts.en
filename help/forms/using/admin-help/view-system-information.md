@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 6be4ce1d-39fe-4a25-9d4e-f1cbc593d2c7
 ---
 # View system information {#view-system-information}
 

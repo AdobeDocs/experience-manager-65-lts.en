@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ac3766c5-b741-4e65-8053-0c9cfd66a2f9
 ---
 # Tips for minimizing database growth {#tips-for-minimizing-database-growth}
 

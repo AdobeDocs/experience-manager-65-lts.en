@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ff4dce07-725e-4750-9e95-4261b50580bd
 ---
 # Log files {#log-files}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5670fede-4567-445e-8eeb-84349405db0e
 ---
 # Custom Reports in Process Reporting{#custom-reports-in-process-reporting}
 

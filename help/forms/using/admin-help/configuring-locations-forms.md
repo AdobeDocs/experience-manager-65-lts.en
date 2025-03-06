@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 49e815e9-2087-4a42-b481-dc66de787d67
 ---
 # Configuring locations for Forms {#configuring-locations-for-forms}
 

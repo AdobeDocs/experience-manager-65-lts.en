@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f934b721-1ca3-4626-9039-a38f0dfecea2
 ---
 # Validate a DDX document using the web service API {#validate-a-ddx-document-using-theweb-service-api} 
 

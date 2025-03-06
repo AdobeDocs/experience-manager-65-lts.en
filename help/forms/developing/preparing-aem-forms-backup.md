@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 0fe1aef7-f607-4c40-bfa9-9ec9ebd8abeb
 ---
 # Preparing AEM Forms for Backup {#preparing-aem-forms-for-backup} 
 

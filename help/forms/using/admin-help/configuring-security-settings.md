@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: fee34d9e-6606-40c1-bbbe-e7975ad90a22
 ---
 # Configuring security settings{#configuring-security-settings}
 

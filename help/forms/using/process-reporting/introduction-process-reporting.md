@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 755df7e2-3603-4c0d-ad07-ec6f27de8c64
 ---
 # Introduction to Process Reporting{#introduction-to-process-reporting}
 

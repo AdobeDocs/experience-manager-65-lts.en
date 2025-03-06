@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d9884c3e-47d2-400a-98c3-13cc37be6786
 ---
 # Assembling Encrypted PDF Documents {#assembling-encrypted-pdf-documents} 
 

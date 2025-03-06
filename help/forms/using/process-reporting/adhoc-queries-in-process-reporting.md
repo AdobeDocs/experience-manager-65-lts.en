@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 7380be9a-7f5c-46df-97f8-6309daa2a566
 ---
 # Ad-hoc Queries in Process Reporting{#ad-hoc-queries-in-process-reporting}
 

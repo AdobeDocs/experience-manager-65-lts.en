@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 0f1b39e7-5de5-4b54-b622-61774ce839db
 ---
 # Configure SAML service provider settings{#configure-saml-service-provider-settings}
 

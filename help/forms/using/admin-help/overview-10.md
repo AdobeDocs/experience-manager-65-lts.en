@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ce1629f3-834d-466c-a0e1-aad7a4fff943
 ---
 # Overview of Workspace {#overview-of-workspace}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 34381caa-154e-479c-b475-7b3549909e9a
 ---
 # Enabling and disabling safe backup mode {#enabling-and-disabling-safe-backup-mode}
 

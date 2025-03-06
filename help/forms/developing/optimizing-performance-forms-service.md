@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 63ddfd09-17b5-48b4-b7ee-961f2bdd2ae2
 ---
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service} 
 

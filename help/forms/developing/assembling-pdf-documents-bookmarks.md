@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 40fbbef6-3a2e-455d-81a3-23c7e322c0fb
 ---
 # Assembling PDF Documents with Bookmarks {#assembling-pdf-documents-with-bookmarks} 
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 28a47c2d-5f2d-49c1-8890-512e2873ec29
 ---
 # Performing Service Operations Using APIs {#performing-service-operations-using-apis} 
 

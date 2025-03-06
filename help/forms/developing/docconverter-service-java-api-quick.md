@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations, AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: b42303c4-e328-4c57-8ff5-9f214b6c3acd
 ---
 # DocConverter Service Java&trade; API Quick Start (SOAP) {#docconverter-service-java-api-quickstart-soap}
 

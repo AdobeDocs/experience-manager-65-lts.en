@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: c04e0716-2aa2-420b-bbf5-74ffd1c28794
 ---
 # Unable to get Email with Attachments for AEM Forms on JEE Platforms{#unable-to-get-email-with-attachments}
 
