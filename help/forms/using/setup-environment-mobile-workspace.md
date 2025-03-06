@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 41799183-ef5a-4990-bd7b-7b58cafe3960
 ---
 # Set up environment for AEM Forms app{#set-up-environment-for-aem-forms-app}
 

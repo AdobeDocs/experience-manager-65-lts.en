@@ -1,18 +1,16 @@
 ---
 title: Task Manager Service Java API QuickStart(SOAP)
-
 description: Use the Task Manager service to assign tasks, lock tasks, retrieve tasks assigned to users, retrieve form data from tasks, modify form data, retrieve file attachments, and retrieve task information.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
-feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+feature: Adaptive Forms, APIs & Integrations,AEM Forms on JEE
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Task Manager Service Java API Quick Start (SOAP) {#task-manager-service-java-api-quickstart-soap}
 

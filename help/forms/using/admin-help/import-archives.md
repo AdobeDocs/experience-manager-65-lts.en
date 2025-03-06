@@ -1,6 +1,6 @@
 ---
 title: Import and manage archives
-description: Learn how to import and manage archives. Archives imports and manages LCAs created in workbench. You can import, configure, use and delete an archive. 
+description: Learn how to import and manage archives. Archives imports and manages LCAs created in workbench. You can import, configure, use and delete an archive.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Import and manage archives {#import-and-manage-archives}
 

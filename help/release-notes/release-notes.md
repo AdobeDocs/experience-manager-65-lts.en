@@ -4,8 +4,8 @@ description: These are the current Release Notes for Adobe Experience Manager 6.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
+exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ---
-
 # Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
 
 ## Release Information {#release-information}
@@ -24,7 +24,7 @@ The list below provides an overview - while the subsequent pages list the full d
 
 ### [!DNL Experience Manager Foundation] {#experience-manager-foundation}
 
-The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.0.
+The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.x.
 
 The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 
@@ -55,7 +55,6 @@ Find the complete matrix of supported platforms including support-level on [AEM 
 >[!NOTE]
 >
 >Java&trade; 17 is the recommended version to use with AEM 6.5 LTS.
-
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 
@@ -89,6 +88,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 | Screens| Screens is not supported. | No replacement available. | 6.5 LTS GA |
 | Assets| `dam-pim` and `dam-rating` are not supported as bundles are dependent on social. | No replacement available. | 6.5 LTS GA |
 | Assets| `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettings()` has been removed. | Use the alternate api `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettingsList()` that has been added. | 6.5 LTS GA |
+| Portal| AEM Portal Director is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| Bundle `com.adobe.granite.socketio` is removed. | No replacement available. | 6.5 LTS GA |
 | Granite| `com.adobe.granite.crx-explorer` is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| `crx2oak` is not supported. | Pick relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
@@ -102,10 +102,10 @@ This section lists features and capabilities that have been removed from AEM 6.5
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `com.github.jknack.handlebars` is not supported| Pick relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
-
 ## Restricted Websites{#restricted-sites}
 
 These websites are only available to customers. If you are a customer and need access, contact your Adobe account manager.
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact Adobe Customer Support](https://experienceleague.adobe.com/en/docs/customer-one/using/home).
+ 

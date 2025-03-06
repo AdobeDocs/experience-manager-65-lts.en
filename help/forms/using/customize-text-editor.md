@@ -8,6 +8,7 @@ docset: aem65
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: fbe61ef4-1045-49f7-8280-4bc74288cbec
 ---
 # Customize text editor{#customize-text-editor}
 

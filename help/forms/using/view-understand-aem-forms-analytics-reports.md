@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 feature: Adaptive Forms
+exl-id: b38fac48-04e7-4f10-930d-60107658a1f1
 ---
 # View and understand AEM Forms analytics reports {#view-and-understand-aem-forms-analytics-reports}
 

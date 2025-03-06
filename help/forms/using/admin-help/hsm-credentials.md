@@ -1,6 +1,6 @@
 ---
 title: Managing HSM credentials
-description: Learn how to manage HSM credentials. You can manage HSM from the Trust Store Management page. You can view, check, update, reset and delete HSM components.  
+description: Learn how to manage HSM credentials. You can manage HSM from the Trust Store Management page. You can view, check, update, reset and delete HSM components.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Managing HSM credentials {#managing-hsm-credentials}
 

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create templates"
+title: 'Tutorial: Create templates'
 description: Create Print and Web templates for Interactive Communication
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -7,6 +7,7 @@ docset: aem65
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 0d9ca4ab-51ac-44cb-aac9-79c0d31e6df7
 ---
 # Tutorial: Create templates{#tutorial-create-templates}
 

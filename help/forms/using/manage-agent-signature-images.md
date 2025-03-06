@@ -8,6 +8,7 @@ docset: aem65
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 3081dedf-ba92-4205-af67-930524719e60
 ---
 # Manage agent signature images{#manage-agent-signature-images}
 

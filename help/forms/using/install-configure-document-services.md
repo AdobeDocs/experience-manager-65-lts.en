@@ -5,6 +5,7 @@ topic-tags: installing
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
+exl-id: dd22ea1b-33e9-407d-b7b6-645bdba00b4e
 ---
 # Installing and configuring document services {#installing-and-configuring-document-services}
 
@@ -67,8 +68,8 @@ Before you begin to install and configure AEM Forms document services, ensure th
 
 * Client software required for PDF generator to perform conversion on Microsoft&reg; Windows and Linux&reg; are installed:
 
-  * **Microsoft&reg; Windows**: Install [Microsoft&reg; Office](/help/forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p) or [Apache OpenOffice](/help/forms/using/aem-forms-jee-supported-platforms.md#software-support-for-pdf-generator)
-  * **Linux&reg;**: Install [Apache OpenOffice](/help/forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
+  * **Microsoft&reg; Windows**: Install **Microsoft&reg; Office** or **Apache OpenOffice**
+  * **Linux&reg;**: Install **Apache OpenOffice**
 
 >[!NOTE]
 >
@@ -372,7 +373,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
    1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
    2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
 1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
-1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
 1. Select the package and click **[!UICONTROL Install]**.
 
    You can also download the package via the direct link listed in the [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) article.
@@ -649,7 +650,7 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 +++ Adobe Acrobat
 
-* Ensure only [supported version](aem-forms-jee-supported-platforms.md#software-support-for-pdf-generator) of Microsoft&reg; Office (32-bit) and Adobe Acrobat is installed and opening dialogs are cancelled.
+* Ensure only [supported version](/help/sites-deploying/technical-requirements.md) of Microsoft&reg; Office (32-bit) and Adobe Acrobat is installed and opening dialogs are cancelled.
 * Ensure that Adobe Acrobat Update Service is disabled.
 * Ensure that the [Acrobat_for_PDFG_Configuration.bat](#configure-acrobat-for-the-pdf-generator-service) batch file was run with administrator privileges.
 * Ensure a PDF Generator user is added in PDF configuration UI.
@@ -662,7 +663,7 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 **Microsoft&reg; Windows**
 
-* Ensure that 32-bit [supported version ](aem-forms-jee-supported-platforms.md#software-support-for-pdf-generator) of Microsoft Office is installed and opening dialogs are cancelled for all applications.
+* Ensure that 32-bit [supported version ](/help/sites-deploying/technical-requirements.md) of Microsoft Office is installed and opening dialogs are cancelled for all applications.
 * Ensure a PDF Generator user is added in PDF configuration UI.
 * Ensure the PDF Generator user is a member of administrators group and the [Replace a process level token](#grant-the-replace-a-process-level-token-privilege) privilege is set for the user.
 * Ensure that the user is configured in PDF Generator UI and performs the following actions:
@@ -676,7 +677,7 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 **Linux&reg;**
 
-* Install the [supported version](aem-forms-jee-supported-platforms.md#software-support-for-pdf-generator) of OpenOffice. AEM Forms supports both 32-bit and 64-bit versions. After installing, open all the OpenOffice applications, cancel all the dialog windows, and close the applications. Reopen the applications and ensure that no dialog box is displayed on opening an OpenOffice application.
+* Install the supported version of OpenOffice. AEM Forms supports both 32-bit and 64-bit versions. After installing, open all the OpenOffice applications, cancel all the dialog windows, and close the applications. Reopen the applications and ensure that no dialog box is displayed on opening an OpenOffice application.
 
 * Create an environment variable `OpenOffice_PATH` and set it to point it to OpenOffice installation is set in the [console](https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/) or the dt (Device Tree) profile.  
 * If there are issues in installing OpenOffice, ensure that [32-bit libraries](#extrarequirements) required for OpenOffice installation are available.

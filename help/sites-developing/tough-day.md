@@ -6,6 +6,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 0360a8eb-d4ff-4225-9be3-fa375b5da971
 ---
 # Tough Day{#tough-day}
 

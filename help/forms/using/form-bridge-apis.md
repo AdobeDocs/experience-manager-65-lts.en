@@ -7,6 +7,7 @@ topic-tags: developer-reference
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 46a0ca88-0014-400f-b56f-30afb847e30f
 ---
 # Form Bridge APIs for HTML5 forms {#form-bridge-apis-for-html-forms}
 

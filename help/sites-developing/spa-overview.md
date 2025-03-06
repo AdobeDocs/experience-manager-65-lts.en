@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: b179ca99-c9c6-435a-b000-c7f3fd15cd53
 ---
 # SPA Editor Overview{#spa-editor-overview}
 

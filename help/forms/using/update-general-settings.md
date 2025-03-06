@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 735e4c4a-6580-4698-a1bf-75c4b1e47b5b
 ---
 # Updating general settings{#updating-general-settings}
 

@@ -1,19 +1,17 @@
 ---
 title: Determining Whether Documents Are PDF/A-Compliant
-
 description: Use the Assembler service to determine if a PDF document is PDF/A-compliant using the Java API and Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
-feature: Adaptive Forms,Document Services,APIs & Integrations
+feature: Adaptive Forms,Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Determining Whether Documents Are PDF/A-Compliant {#determining-whether-documents-are-pdf-a-compliant}
 

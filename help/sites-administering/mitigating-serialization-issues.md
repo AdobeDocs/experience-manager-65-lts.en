@@ -1,17 +1,14 @@
 ---
 title: Mitigating serialization issues in AEM
-
 description: Learn how to mitigate serialization issues in AEM.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: eef69d02-2e88-4f44-98bb-d98fa297e3a2
 ---
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
 

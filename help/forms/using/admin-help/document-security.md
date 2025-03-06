@@ -1,19 +1,17 @@
 ---
-title: What is document security? 
-
+title: What is document security?
 description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # About document security {#about-document-security}
 
@@ -22,7 +20,7 @@ Document security ensures that only authorized users can use your documents. Usi
 * Adobe PDF files
 * Microsoft&reg; Word, Excel, and PowerPoint files
 
-For more information about how policies protect supported file types, see [more document security information](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/use-document-security/document-security-offerings.html?lang=en).
+For more information about how policies protect supported file types, see [more document security information](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/use-document-security/document-security-offerings.html?lang=en).
 
 Using document security, you can easily create, store, and apply predefined confidentiality settings to your documents. To prevent information from spreading beyond your reach, you can also monitor and control how recipients use your documents after you distribute them.
 

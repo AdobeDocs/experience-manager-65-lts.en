@@ -1,6 +1,6 @@
 ---
 title: Adding information from user data to form submission metadata
-description: Learn how to add information to metadata of a submitted form with user provided data. 
+description: Learn how to add information to metadata of a submitted form with user provided data.
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
 feature: Adaptive Forms,Foundation Components
@@ -8,6 +8,7 @@ discoiquuid: 2c971da0-5bd5-40d1-820d-4efc2a44b49d
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: c746c8a9-58d5-494b-9846-b84495ebe98b
 ---
 # Adding information from user data to form submission metadata{#adding-information-from-user-data-to-form-submission-metadata}
 

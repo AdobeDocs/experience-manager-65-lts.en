@@ -1,12 +1,13 @@
 ---
 title: Building a secure AEM Forms app for iOS
-description: Learn how to build a secure AEM Forms app for iOS by archiving the Xcode project. This creates installer (an .ipa file) and property list (a .plist file) file. 
+description: Learn how to build a secure AEM Forms app for iOS by archiving the Xcode project. This creates installer (an .ipa file) and property list (a .plist file) file.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 5cfb956a-454c-4bed-a410-003c716c46ed
 ---
 # Building a secure AEM Forms app for iOS {#building-a-secure-aem-forms-app-for-ios}
 

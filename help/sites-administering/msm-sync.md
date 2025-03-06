@@ -1,18 +1,15 @@
 ---
 title: Configuring Live Copy Synchronization
-
 description: Learn about configuring Live Copy Synchronization.
-
-
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: site-features
 content-type: reference
-
 docset: aem65
 feature: Multi Site Manager
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: d50dedf3-1973-471d-b16d-f56d60325bb3
 ---
 # Configuring Live Copy Synchronization{#configuring-live-copy-synchronization}
 

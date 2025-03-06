@@ -1,17 +1,14 @@
 ---
 title: Replicating Using Mutual SSL
-
 description: Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: configuring
-
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: f5944c6e-bf6f-490e-a8b1-3a01b76d32c0
 ---
 # Replicating Using Mutual SSL{#replicating-using-mutual-ssl}
 

@@ -8,6 +8,7 @@ docset: aem65
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 52dc3ecd-339b-4389-b875-4a261d2449e4
 ---
 # Designing form templates for HTML5 forms{#designing-form-templates-for-html-forms}
 

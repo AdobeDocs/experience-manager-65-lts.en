@@ -1,11 +1,11 @@
 ---
 cloud: Experience Cloud
 product: Adobe Experience Manager
-sub-product: Adobe Experience Manager 6.5 2025
+sub-product: Adobe Experience Manager 6.5 LTS
 solution-title: Experience Cloud
-user-guide-description: Use the Adobe Experience Manager 6.5 2025 documentation to learn how it works and what the software can do for you.
+user-guide-description: Use the Adobe Experience Manager 6.5 LTS documentation to learn how it works and what the software can do for you.
 breadcrumb-title: User Guide
-user-guide-title: AEM 6.5 2025
+user-guide-title: AEM 6.5 LTS
 role: user
 hide: yes
 ---

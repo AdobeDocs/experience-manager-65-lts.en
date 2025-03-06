@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: 8028e74e-29df-4081-a567-5eb87ae362d4
 ---
-
 # The Bulk Editor{#the-bulk-editor}
 
 The Bulk Editor allows for efficient editing when the visual page context is not needed as it lets you:

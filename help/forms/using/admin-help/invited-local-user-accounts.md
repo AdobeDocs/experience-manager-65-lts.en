@@ -4,6 +4,9 @@ description: Using document security, you can search for, view, edit, lock, unlo
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Managing invited and local user accounts {#managing-invited-and-local-user-accounts}
 

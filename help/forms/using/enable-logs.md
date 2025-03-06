@@ -1,18 +1,15 @@
 ---
 title: Enable logging for HTML5 forms
-
 description: The logger utility enables logging for a form and helps you debug form-related issues.
-
-
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
-
 docset: aem65
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 755966e5-6267-4633-bcad-05860a2eda6c
 ---
 # Enable logging for HTML5 forms{#enable-logging-for-html-forms}
 

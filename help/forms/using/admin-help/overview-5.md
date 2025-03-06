@@ -1,21 +1,21 @@
 ---
 title: Introduction to working with PDF Generator
 description: Learn how to convert various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents.
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Introduction to working with PDF Generator {#introduction-to-working-with-pdf-generator}
 
-PDF Generator converts various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For a list of supported file formats, see [Software support for PDF Generator](/help/forms/using/aem-forms-jee-supported-platforms.md)
+PDF Generator converts various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For a list of supported file formats, see [Software support for PDF Generator](/help/sites-deploying/technical-requirements.md)
 
 **Sending files to PDF Generator for processing**
 

@@ -7,6 +7,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 768f2f8a-6ac7-4a20-8500-bcfc960861ce
 ---
 # Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}
 

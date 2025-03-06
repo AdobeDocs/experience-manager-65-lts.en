@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 445cb8c3-e0c4-44f8-a140-9e7215e3b73a
 ---
 # Customizing the Websites Console (Classic UI){#customizing-the-websites-console-classic-ui}
 

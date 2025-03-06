@@ -1,5 +1,5 @@
 ---
-title: "Microsoft SQL Server database: Fine-tuning the configuration"
+title: 'Microsoft SQL Server database: Fine-tuning the configuration'
 description: Learn how you can fine-tune the configuration of your Microsoft SQL Server database.
 contentOwner: admin
 content-type: reference
@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS, SG_AEMFORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Microsoft SQL Server database: Fine-tuning the configuration {#microsoft-sql-server-database-fine-tuning-the-configuration}
 

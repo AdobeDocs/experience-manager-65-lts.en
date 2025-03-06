@@ -5,6 +5,7 @@ role: Admin,Leader,Architect
 feature: Workfront Integrations and Apps
 hide: yes
 solution: Experience Manager, Workfront
+exl-id: 5181d278-2e6e-41f7-891e-1067a03de016
 ---
 # [!DNL Adobe Experience Manager Assets] integration with [!DNL Adobe Workfront] {#assets-integration-overview}
 
@@ -33,7 +34,7 @@ See the platform support and [prerequisites for the enhanced connector](https://
 >
 >* Adobe may release updates to [!DNL Adobe Workfront] and [!DNL Adobe Experience Manager] that make this connector redundant; if this occurs, customers may be required to transition from the use of this connector.
 >
->* Adobe supports enhanced connector versions 1.7.4 and higher. Previous prerelease and custom versions are not supported. To check the enhanced connector version, navigate to the `digital.hoodoo` group available in the left pane in [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html?lang=en). 
+>* Adobe supports enhanced connector versions 1.7.4 and higher. Previous prerelease and custom versions are not supported. To check the enhanced connector version, navigate to the `digital.hoodoo` group available in the left pane in [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html?lang=en). 
 >
 >* See [Partner certification exam for Workfront for Experience Manager Assets enhanced connector](https://solutionpartners.adobe.com/solution-partners/home/applications/experience_cloud/workfront/journey/dev_core.html). For information about the exam, see [Exam Guide](https://express.adobe.com/page/Tc7Mq6zLbPFy8/).
 

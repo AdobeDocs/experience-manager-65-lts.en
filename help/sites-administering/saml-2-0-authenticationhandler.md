@@ -1,17 +1,14 @@
 ---
 title: SAML 2.0 Authentication Handler
-
 description: Learn about the SAML 2.0 Authentication Handler in AEM.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: ee438c55-88cd-4f55-873e-16376b36fa7b
 ---
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}
 

@@ -1,18 +1,16 @@
 ---
 title: Validate a DDX document using theweb service API
-
 description: Use the Assembler Service API to validate a DDX document.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/validating_ddx_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Validate a DDX document using the web service API {#validate-a-ddx-document-using-theweb-service-api} 
 

@@ -1,11 +1,13 @@
 ---
-title: Expiration of Reader Extensions certificates and its impact 
-description: Expiration of Reader Extensions certificates and its impact 
+title: Expiration of Reader Extensions certificates and its impact
+description: Expiration of Reader Extensions certificates and its impact
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
-
 # Expiration of Reader Extensions certificates and its impact {#expiration-of-reader-extensions-certificates-and-its-impact}
 
 Adobe Experience Manager Forms (AEM Forms) customers with Adobe Managed Services or On-premise Enterprise Base licenses are entitled to use Acrobat Reader DC Extensions service. The service enables an organization to easily share interactive PDF documents by extending the functionality of Acrobat Reader with additional usage rights. The service adds usage rights to a PDF document and activates features that are not available when a PDF document is opened using Adobe Acrobat Reader, such as adding comments to a document, filling forms, and saving the document. Third-party users do not require additional software or plug-ins to work with rights-enabled documents. PDF documents that have usage rights added are called rights-enabled documents. A user who opens a rights-enabled PDF document in Acrobat Reader can perform the operations that are enabled for that document.
@@ -66,7 +68,7 @@ A. Yes, the same Acrobat Reader Extensions certificate can be used across multip
 
 **Q. How do I check the usage rights applied to a PDF document?**
 
-A. You can use the [getDocumentUsageRights](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?lang=en#quick-start-soap-mode-retrieving-credential-information-using-the-java-api) API to retrieve the information about the usage rights applied to a PDF document.
+A. You can use the [getDocumentUsageRights](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/developer-reference/programming-aem-forms-jee/java-api-quick-start-code-examples/acrobat-reader-dc-extensions-service.html?lang=en#quick-start-soap-mode-retrieving-credential-information-using-the-java-api) API to retrieve the information about the usage rights applied to a PDF document.
 
 **Q. How do I change the password of an Acrobat Reader Extensions certificate file?**
 
@@ -90,7 +92,7 @@ You can choose one of the following paths to apply latest certificates:
 Updating the certificates requires using actions available on AEM Forms administrator console and Reader Extension APIs provided by AEM Forms. The document is intended for users and administrators with knowledge of using Adobe Experience Manger Forms APIs. Before you start, ensure that: 
 
 * the user has administrator rights on underlying AEM Forms environment. 
-* the user has setup the [development environment](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/devtools/howto-projects-eclipse.html) and has access to it.
+* the user has setup the [development environment](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/devtools/howto-projects-eclipse.html) and has access to it.
 * [obtain the certificates](#obtain-the-certificates).
 
 

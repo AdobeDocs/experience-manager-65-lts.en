@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Content Fragments
 role: User,Admin,Architect,Developer
+exl-id: 5bde6c78-84bc-48f5-b06f-1c4282eaf5c1
 ---
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}
 

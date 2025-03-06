@@ -1,17 +1,14 @@
 ---
 title: Performance Optimization
-
 description: Learn how to configure certain aspects of AEM to optimize performance.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: configuring
-
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c46d9569-23e7-44e2-a072-034450f14ca2
 ---
 # Performance Optimization {#performance-optimization}
 
@@ -200,7 +197,7 @@ Certain aspects of AEM (and/or the underlying repository) can be configured to o
 
 >[!NOTE]
 >
->See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/configuring-performance.html).
+>See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html).
 
 ### Search Indexing {#search-indexing}
 

@@ -8,6 +8,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: d89005b3-8478-4b74-b28b-200c121eea3a
 ---
 # Gesture customization {#gesture-customization}
 

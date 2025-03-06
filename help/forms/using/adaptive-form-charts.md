@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 0860f059-d599-4f87-9611-e7fe1c6bc059
 ---
 # Adaptive Form Charts {#af-charts}
 

@@ -4,6 +4,7 @@ description: In this part of the AEM Headless Developer Journey, learn how to us
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin, Developer
+exl-id: f34344c3-c527-45b7-9a0c-fdfa4e8eb7e5
 ---
 # How to Access Your Content via AEM Delivery APIs {#access-your-content}
 

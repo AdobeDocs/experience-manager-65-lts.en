@@ -8,6 +8,9 @@ topic-tags: coding, development-tools
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Invoking AEM Forms using APIs {#invoking-aem-forms-using-apis} 
 

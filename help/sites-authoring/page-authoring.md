@@ -4,6 +4,7 @@ description: The tasks involved when authoring a content page in Adobe Experienc
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: fafe6322-1dc3-4637-8a8a-33143af04c30
 ---
 # Authoring Pages{#authoring-pages}
 

@@ -4,6 +4,7 @@ description: Learn how to use AEM's Assets REST API to manage Content Fragments 
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: a5f7f0b9-7779-49c3-b79f-3dd3762c746a
 ---
 # Accessing and Delivering Content Fragments Headless Quick Start Guide {#accessing-delivering-content-fragments}
 

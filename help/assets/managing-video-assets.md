@@ -6,6 +6,7 @@ role: User
 feature: Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: e2b9b13b-c00c-4bfc-8512-84188e90c0ed
 ---
 # Manage video assets {#manage-video-assets}
 

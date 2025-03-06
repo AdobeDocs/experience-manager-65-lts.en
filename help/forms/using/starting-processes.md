@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 074b0cb2-b060-4180-ab16-ff8f7a4ee625
 ---
 # Starting processes {#starting-processes}
 

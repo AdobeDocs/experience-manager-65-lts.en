@@ -5,6 +5,7 @@ contentOwner: AG
 role: Architect, Admin
 feature: Asset Insights,Asset Reports
 solution: Experience Manager, Experience Manager Assets
+exl-id: ce0e3ebd-9a72-458c-8bb9-80f00d2f1a74
 ---
 # Configure Assets Insights {#configure-asset-insights}
 

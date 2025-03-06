@@ -1,18 +1,16 @@
 ---
 title: Working with AEM Forms Repository
-
 description: Manage AEM Forms repository to create folders, write, list, read, update, and search resources using the Java API and Web Service API. In addition, learn how to create resource relationships, lock and delete resources.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
-feature: Adaptive Forms,APIs & Integrations
+feature: Adaptive Forms, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with AEM Forms Repository {#working-with-aem-forms-repository} 
 

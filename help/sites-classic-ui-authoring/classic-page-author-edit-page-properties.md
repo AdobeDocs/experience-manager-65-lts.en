@@ -1,15 +1,14 @@
 ---
 title: Editing page properties
 description: Properties of a page can vary depending on the nature of the page. For example, some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 0dd160d5-6a08-4c11-92d2-a5a75fc47dba
 ---
 # Editing Page Properties{#editing-page-properties}
 

@@ -4,6 +4,7 @@ description: Adaptive Forms Rule Editor allows you to add dynamic behavior and b
 feature: Adaptive Forms, Core Components
 role: User
 level: Beginner, Intermediate
+exl-id: 01fa9744-775e-4185-aba5-e132011b1b89
 ---
 # Add rules to an Adaptive Form Core Components {#adaptive-forms-rule-editor}
 

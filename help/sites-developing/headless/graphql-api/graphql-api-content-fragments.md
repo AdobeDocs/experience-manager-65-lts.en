@@ -4,6 +4,7 @@ description: Learn how to use Content Fragments in Adobe Experience Manager (AEM
 feature: Content Fragments,GraphQL API
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: 767f0e03-5228-4c85-a0be-9dae90fa5cbd
 ---
 # AEM GraphQL API for use with Content Fragments {#graphql-api-for-use-with-content-fragments}
 

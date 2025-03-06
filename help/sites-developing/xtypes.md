@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 4a78de53-33bf-4999-ba3c-7d0bc33196a4
 ---
 # Using xtypes (Classic UI){#using-xtypes-classic-ui}
 

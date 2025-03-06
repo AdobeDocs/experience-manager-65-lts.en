@@ -6,6 +6,7 @@ topic-tags: author
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Workbench,Adaptive Forms
+exl-id: 3a7b80b1-4b3e-400c-8753-c4453c0d79b3
 ---
 # Install Workbench {#install-workbench}
 
@@ -30,11 +31,11 @@ The resources in this table can help you learn more about and get started using 
   </tr>
   <tr>
    <td><p>General information about AEM Forms and how it integrates with other Adobe products</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/getting-started/introduction-aem-forms.html?lang=en">AEM Forms Overview</a><br /> <br /> </p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/getting-started/introduction-aem-forms.html?lang=en">AEM Forms Overview</a><br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>All the documentation available for AEM Forms</p> </td>
-   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/getting-started/introduction-aem-forms.html?lang=en">AEM Forms documentation</a><br /> <br /> </p> </td>
+   <td><p><a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/getting-started/introduction-aem-forms.html?lang=en">AEM Forms documentation</a><br /> <br /> </p> </td>
   </tr>
   <tr>
    <td><p>Patch updates, technical notes, and additional information on this product version</p> </td>
@@ -184,7 +185,7 @@ To use Workbench, you must have an instance of AEM Forms running, typically on a
 
 ### Configuring time-out settings {#configuring-timeout-settings}
 
-By default, Workbench times out after two hours, regardless of activity or inactivity. To edit the time-out setting, see "Configuring User Management > Configure advanced system attributes" in the <a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/administrator-help/configure-user-management/configure-advanced-system-attributes.html">administration console Help</a>.
+By default, Workbench times out after two hours, regardless of activity or inactivity. To edit the time-out setting, see "Configuring User Management > Configure advanced system attributes" in the <a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/administrator-help/configure-user-management/configure-advanced-system-attributes.html">administration console Help</a>.
 
 ### Configuring Workbench to connect over HTTPS {#configuring-workbench-to-connect-over-HTTPS}
 

@@ -1,18 +1,17 @@
 ---
 title: Assembling Non-Interactive PDF Documents
-
 description: Use a non-interactive PDF form as input to assemble a non-interactive PDF document using the Java API and Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assembling Non-Interactive PDF Documents {#assembling-non-interactive-pdf-documents}
 

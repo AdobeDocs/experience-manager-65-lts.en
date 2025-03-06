@@ -1,18 +1,15 @@
 ---
 title: Page Templates - Editable
-
 description: Editable templates have been introduced that let non-developers create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7831c056-86f8-41c1-bc45-5e9829bc54bc
 ---
 # Page Templates - Editable {#page-templates-editable}
 

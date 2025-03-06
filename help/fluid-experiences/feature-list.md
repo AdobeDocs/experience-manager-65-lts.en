@@ -5,12 +5,13 @@ index: n
 feature: Authoring
 solution: Experience Manager Sites,Experience Manager Assets
 role: Admin
+exl-id: 9bb1ff8b-5fcb-44df-8c45-2306e127410d
 ---
 # AEM Fluid Experiences Feature List{#aem-fluid-experiences-feature-list}
 
 Adobe Experience Manager Fluid Experiences draws from the powerful feature sets of AEM Sites, AEM Dynamic Media, and AEM Assets to provide a robust solution for headless content delivery.
 
-AEM Fluid Experiences differentiates itself from classic AEM in that only the headless delivery use case is addressed. Headful content authoring and delivery and AEM's strong support for hybrid use cases are available with the [full AEM Sites, Assets, and Dynamic Media solutions.](https://experienceleague.adobe.com/docs/experience-manager-65-2025/user-guide/home.html)
+AEM Fluid Experiences differentiates itself from classic AEM in that only the headless delivery use case is addressed. Headful content authoring and delivery and AEM's strong support for hybrid use cases are available with the [full AEM Sites, Assets, and Dynamic Media solutions.](https://experienceleague.adobe.com/docs/experience-manager-65-lts/user-guide/home.html)
 
 The following tables define the features of AEM Fluid Experiences and link to the relevant support documentation.
 

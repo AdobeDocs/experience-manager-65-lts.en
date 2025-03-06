@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 387e2514-722f-4fe6-b375-2f0586eb281f
 ---
 # Logging in to Adobe Experience Manager Forms app{#logging-in-to-aem-forms-app}
 

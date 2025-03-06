@@ -9,33 +9,30 @@ docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 8b3d8d0f-10f7-4736-881d-8f1f21c69182
 ---
 # Post Upgrade Checks and Troubleshooting{#post-upgrade-checks-and-troubleshooting}
 
 ## Post Upgrade Checks {#post-upgrade-checks}
 
-Following the [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the 6.5.2025 jar and that the upgraded code base has been deployed.
+Following the [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the AEM 6.5 LTS jar and that the upgraded code base has been deployed.
 
-* [Verify logs for upgrade success](#main-pars-header-290365562)
+* [Verify logs for upgrade success](#verify-logs-for-upgrade-success)
 
-* [Verify OSGi Bundles](#main-pars-header-1637350649)
+* [Verify OSGi Bundles](#verify-osgi-bundles)
 
-* [Verify Oak Version](#main-pars-header-1293049773)
+* [Verify Oak Version](#verify-oak-version)
 
-* [Inspect the PreUpgradeBackup folder](#main-pars-header-988995987)
+* [Initial Validation of Pages](#initial-validation-of-pages)
 
-* [Initial Validation of Pages](#main-pars-header-20827371)
-* [Apply AEM Service Packs](#main-pars-header-215142387)
+* [Verify Scheduled Maintenance Configurations](#verify-scheduled-maintenance-configurations)
 
-* [Migrate AEM features](#main-pars-header-1434457709)
+* [Enable Replication Agents](#enable-replication-agents)
 
-* [Verify Scheduled Maintenance Configurations](#main-pars-header-1552730183)
+* [Enable Custom Scheduled Jobs](#enable-custom-scheduled-jobs)
 
-* [Enable Replication Agents](#main-pars-header-823243751)
+* [Execute Test Plan](#execute-test-plan)
 
-* [Enable Custom Scheduled Jobs](#main-pars-header-244535083)
-
-* [Execute Test Plan](#main-pars-header-1167972233)
 
 ### Verify logs for Upgrade Success {#verify-logs-for-upgrade-success}
 
@@ -47,7 +44,7 @@ The main purpose of this feature is to reduce the need for manual interpretation
 
 More specifically, it ensures that:
 
-* Upgrade failures detected by the upgrade framework are centralized in a single upgrade report;
+* Upgrade failures detected by the upgrade framework are centralized in a single upgrade report.
 * The upgrade report includes indicators about necessary manual intervention.
 
 To accommodate this, changes have been made in the way logs are generated in the `upgrade.log` file.
@@ -62,7 +59,7 @@ Navigate to the OSGi console `/system/console/bundles` and look to see if any bu
 
 ### Verify Oak Version {#verify-oak-version}
 
-Following the upgrade you, should see that Oak version has been updated to **1.68.0**. To verify the Oak version, navigate to the OSGi console and look at the version associated with Oak bundles: Oak Core, Oak Commons, Oak Segment Tar.
+Following the upgrade, you should see that Oak version has been updated to **1.68.x**. To verify the Oak version, navigate to the OSGi console and look at the version associated with Oak bundles: Oak Core, Oak Commons, Oak Segment Tar.
 
 ### Initial Validation of Pages {#initial-validation-of-pages}
 
@@ -82,10 +79,6 @@ If using a File Data Store, ensure that the Data Store Garbage Collection task i
 
 If using MongoMK or the new TarMK segment format, ensure that the Revision Clean Up task is enabled and added to the Daily Maintenance list. Instructions are outlined under [Revision Cleanup](/help/sites-deploying/revision-cleanup.md).
 
-### Execute Test Plan {#execute-test-plan}
-
-Execute detailed test plan against as defined [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) under the **Test Procedure** section.
-
 ### Enable Replication Agents {#enable-replication-agents}
 
 Once publish environment has been fully upgraded and validated, enable replication agents on the Author Environment. Verify that agents are able to connect to respective Publish instances. See [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) for more details on order of events.
@@ -94,19 +87,21 @@ Once publish environment has been fully upgraded and validated, enable replicati
 
 Any scheduled jobs as part of the code base can be enabled at this point.
 
-## Analyzing Issues With The Upgrade {#analyzing-issues-with-upgrade}
+### Execute Test Plan {#execute-test-plan}
 
-This section contains some issue scenarios one might face along the upgrade procedure to AEM 6.5.2025.
+Execute detailed test plan as defined in [Upgrading Code and Customizations under the **Testing Procedure** section](/help/sites-deploying/upgrading-code-and-customizations.md#testing-procedure-testing-procedure).
 
-These scenarios should help to track down the root cause of issues related to upgrade and should help to identify project or product-specific issues.
+## Analyzing Issues With The Upgrade {#analyzing-issues-with-the-upgrade}
 
-### Packages and Bundles Fail to Update  {#packages-and-bundles-fail-to-update-}
+This section contains some issue scenarios one might face along the upgrade procedure to AEM 6.5 LTS.
+
+### Packages and Bundles Fail to Update  {#packages-and-bundles-fail-to-update}
 
 In case packages fail to install during the upgrade, the bundles they contain will not be updated either. This category of issues is caused by data store misconfiguration. They will also appear as **ERROR** and **WARN** messages in the error.log. Since in most of these cases the default login may fail to work, you can use CRXDE directly to inspect and find the configuration problems.
 
 ### The Upgrade Did Not Run {#the-upgrade-did-not-run}
 
-Before starting the preparation steps, make sure you run the **source** instance first by executing it with the Java&trade; -jar aem-quickstart.jar command. This is required to make sure that the quickstart.properties file is generated properly. If it is missing, the upgrade will not work. Alternatively, you can check whether the file is present by looking under `crx-quickstart/conf` in the installation folder of the source instance. Also, when starting AEM to kick off the upgrade, it must be executed with the Java&trade; -jar aem-quickstart.jar command. Starting up from a start script will not start AEM in upgrade mode.
+Before starting the preparation steps, make sure you run the **source** instance first by executing it with the `java -jar aem-quickstart.jar` command. This is required to make sure that the quickstart.properties file is generated properly. If it is missing, the upgrade will not work. Alternatively, you can check whether the file is present by looking under `crx-quickstart/conf` in the installation folder of the source instance. Also, when starting AEM to kick off the upgrade, it must be executed with the `java -jar <aem-quickstart-6.5-LTS.jar>` command. Starting up from a start script will not start AEM in upgrade mode.
 
 ### Some AEM Bundles are not Switching to the Active State {#some-aem-bundles-are-not-switching-to-the-active-state}
 
@@ -114,13 +109,13 @@ If there are bundles not starting up, check for any unsatisfied dependencies.
 
 In case this problem is present but it is based on a failed package installation which led to bundles not being upgrade they will be deemed incompatible for the new version. For more info on how to troubleshoot this, see **Packages and Bundles Fail to Update** above.
 
-It is also recommended to compare the bundle list of a fresh AEM 6.5.2025 instance with the upgraded one to detect the bundles that were not upgraded. This will provide a closer scope of what to search for in the `error.log`.
+It is also recommended to compare the bundle list of a fresh AEM 6.5 LTS instance with the upgraded one to detect the bundles that were not upgraded. This will provide a closer scope of what to search for in the `error.log`.
 
 ### Custom Bundles not Switching to the Active State {#custom-bundles-not-switching-to-the-active-state}
 
-In case your custom bundles are not switching to the active state, it is most likely that there is code that is not importing change API. This will most often lead to unsatisfied dependencies.
+In case your custom bundles are not switching to the active state, it is most likely that there is code that is not importing changed API. This will most often lead to unsatisfied dependencies.
 
-It is also best to check if the change that has caused the problem was necessary and revert it if it is not. Also check if the version increase of the package export was increased more than necessary, following strict semantic versioning.
+It is also best to check if the change that has caused the problem was necessary and revert if it is not. Also check if the version increase of the package export was increased more than necessary, following strict semantic versioning.
 
 ### Analyzing the error.log and upgrade.log {#analyzing-the-error.log-and-upgrade.log}
 
@@ -144,4 +139,4 @@ In a few cases errors can also be found WARN messages as there can be valid case
 
 ### Contacting Adobe Support {#contacting-adobe-support}
 
-If you have gone through the advice on this page and are still seeing issues, contact Adobe Support. To provide as much information as possible to the support engineer who works on your case, make sure you include the upgrade.log file from your upgrade.
+If you have gone through the advice on this page and are still seeing issues, contact Adobe Support. To provide as much information as possible to the support engineer who works on your case, make sure you include the `error.log` and `upgrade.log` files from your upgrade.

@@ -1,6 +1,6 @@
 ---
 title: Review credential use information
-description: Learn how to review the credential use information. The credential use information which describes its use, is accessible through the Acrobat Reader extension. 
+description: Learn how to review the credential use information. The credential use information which describes its use, is accessible through the Acrobat Reader extension.
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Review credential use information {#review-credential-use-information}
 

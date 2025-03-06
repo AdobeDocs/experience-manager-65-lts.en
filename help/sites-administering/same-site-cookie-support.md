@@ -5,6 +5,7 @@ topic-tags: security
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 8232d8a9-6df4-45f9-8924-7328a55093cb
 ---
 # Same Site Cookie Support for AEM 6.5 {#same-site-cookie-support-for-aem-65}
 

@@ -1,15 +1,14 @@
 ---
 title: Troubleshooting when authoring in AEM
 description: Some issues that you might encounter when using AEM.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 1e735d57-834a-4251-9b92-ccc6d4712f2a
 ---
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}
 

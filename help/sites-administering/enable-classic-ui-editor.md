@@ -1,20 +1,16 @@
 ---
 title: Editor
-
 description: Learn how to switch back to the Classic UI Editor.
-
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 54a97ac0-db9e-4903-b395-b1af87cfd151
 ---
-
 # Editor{#editor}
 
 By default, the ability to switch to the classic UI from the editor has been disabled.

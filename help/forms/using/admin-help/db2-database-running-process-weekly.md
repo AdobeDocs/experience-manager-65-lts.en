@@ -1,5 +1,5 @@
 ---
-title: "DB2&reg; database: Running a process weekly"
+title: 'DB2&reg; database: Running a process weekly'
 description: Learn how you can improve the performance of your AEM Forms DB2&reg; database.
 contentOwner: admin
 content-type: reference
@@ -8,6 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # DB2&reg; database: Running a process weekly{#db-database-running-a-process-weekly}
 

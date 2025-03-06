@@ -9,6 +9,7 @@ docset: aem65
 feature: Context Hub,Developing,Personalization
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: efa4b828-0807-40ac-81a0-1090cac9a257
 ---
 # Client Context in Detail{#client-context-in-detail}
 

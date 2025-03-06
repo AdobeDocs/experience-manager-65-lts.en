@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 9cc6e4b6-7170-4c9a-a2c0-6ba4603cfd17
 ---
-
 # Admin Consoles{#admin-consoles}
 
 By default, the ability to switch to the classic UI by way of the Admin consoles is disabled. Therefore, the pop-up icons that were seen when mousing over certain console icons, allowing access to classic UI, are no longer displayed.

@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 840dadca-6691-4244-9383-7dbc8e14f0a0
 ---
 # Distribute AEM Forms app {#distribute-aem-forms-app}
 

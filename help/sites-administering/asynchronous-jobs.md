@@ -4,6 +4,7 @@ description: Adobe Experience Manager optimizes performance by asynchronously co
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: e095b7d4-b1b4-4070-9264-b23ea2c677f5
 ---
 # Asynchronous Operations {#asynchronous-operations}
 

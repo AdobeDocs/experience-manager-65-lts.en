@@ -8,6 +8,7 @@ discoiquuid: 53c57180-7004-4534-9146-603f7770a6fe
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: cf652b91-ee92-4d54-8a29-2653d882d5f2
 ---
 # Screen readers for HTML5 forms {#screen-readers-for-html-forms}
 

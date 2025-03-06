@@ -5,6 +5,7 @@ contentOwner: AG
 role: User, Admin
 feature: Asset Insights,Asset Reports
 solution: Experience Manager, Experience Manager Assets
+exl-id: 12f457e4-f5d7-47cb-b38a-9d63e7c19475
 ---
 # Use demo package for Assets Insights {#using-demo-package-for-asset-insights}
 

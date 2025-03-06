@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: e6446c01-a34d-4fed-886a-8983cb7edd0d
 ---
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 

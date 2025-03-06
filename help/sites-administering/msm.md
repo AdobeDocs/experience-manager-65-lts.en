@@ -1,5 +1,5 @@
 ---
-title: "Reusing Content: Multi Site Manager and Live Copy"
+title: 'Reusing Content: Multi Site Manager and Live Copy'
 description: Learn about reusing content with Live Copies and the Multi Site Manager.
 contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.5/SITES
@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Multi Site Manager
 role: Admin
+exl-id: e085b4f2-b5f1-4036-bbd5-b719b4ac0c1a
 ---
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}
 

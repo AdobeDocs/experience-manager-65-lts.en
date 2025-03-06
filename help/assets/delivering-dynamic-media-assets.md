@@ -9,6 +9,7 @@ docset: aem65
 role: User, Admin
 feature: Asset Management,Renditions
 solution: Experience Manager, Experience Manager Assets
+exl-id: b91173b4-f1d1-4aad-97d2-782bc8aeaeab
 ---
 # Deliver Dynamic Media assets{#delivering-dynamic-media-assets}
 

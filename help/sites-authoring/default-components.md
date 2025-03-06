@@ -4,6 +4,7 @@ description: Adobe Experience Manager comes with various out-of-the-box componen
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 2a5d3d80-2710-4bb0-ad24-9a86525c6aea
 ---
 # Components{#components}
 

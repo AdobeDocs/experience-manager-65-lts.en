@@ -1,13 +1,13 @@
 ---
 title: Use Media Library for basic digital asset management
-description: "[!DNL Experience Manager Assets] and Media Library for asset management."
+description: '[!DNL Experience Manager Assets] and Media Library for asset management.'
 contentOwner: AG
 role: Architect, Leader
 feature: Asset Management
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 50a980e5-3b35-4485-9a5b-44d1a42a837c
 ---
-
 # Use Media Library for basic asset management {#manage-assets-using-media-library}
 
 | Version | Article link |
@@ -87,6 +87,6 @@ Note that you cannot use smart tags, [!DNL Asset] link, [!DNL Asset] selector, b
 
 >[!MORELIKETHIS]
 >
->* [DAM features in [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65-2025/assets/home.html)
+>* [DAM features in [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/home.html)
 >* [[!DNL Experience Manager] 6.5 Managed Services product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 >* [[!DNL Experience Manager] 6.5 on-premise product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)

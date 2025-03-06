@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 62b6d299-f44e-4af3-b5e1-b0e92ca0598a
 ---
 # Trying out Core Components in We.Retail{#trying-out-core-components-in-we-retail}
 

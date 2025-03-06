@@ -1,9 +1,10 @@
 ---
-title: "Tutorial: Create your first adaptive form"
+title: 'Tutorial: Create your first adaptive form'
 description: Learn to create business class, interactive, and responsive forms.
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: caa79def-4a29-4746-9a35-c362ea1c3c0c
 ---
 # Tutorial: Create your first adaptive form {#tutorial-create-your-first-adaptive-form}
 
@@ -36,7 +37,7 @@ The website runs on Adobe Experience Manager (AEM) and uses AEM [!DNL Forms] for
 
 ### Prerequisite {#prerequisite}
 
-* Set up an [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/implementing/deploying/deploying/deploy.html#author-and-publish-installs)
+* Set up an [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-lts/content/implementing/deploying/deploying/deploy.html#author-and-publish-installs)
 * Install [AEM Forms add-on](../../forms/using/installing-configuring-aem-forms-osgi.md) on author instance.
 * Obtain JDBC database driver (JAR file) from database provider. Examples in the tutorial are based on [!DNL MySQL] database and use [!DNL Oracle's] [MySQL JDBC database driver](https://dev.mysql.com/downloads/connector/j/5.1.html).
 

@@ -7,6 +7,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: 1703cc60-426e-418e-80da-2d599343ae89
 ---
 # Web Console{#web-console}
 

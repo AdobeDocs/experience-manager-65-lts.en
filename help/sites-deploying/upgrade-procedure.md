@@ -10,6 +10,7 @@ targetaudience: target-audience upgrader
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 255ef365-0da5-4bc9-b099-2e3bc67dd25a
 ---
 # Upgrade Procedure {#upgrade-procedure}
 
@@ -94,7 +95,6 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 1. Restart the primary Author to ensure that it restarts properly.
 1. Disable replication agents on the primary Author.
 1. Run [pre-upgrade maintenance tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) on the primary Author instance.
-1. If necessary, upgrade MongoDB on the primary Mongo instance to version 3.2 with WiredTiger.
 
 ### Upgrade Execution {#Upgrade-execution-1}
 
@@ -108,7 +108,7 @@ The assumed topology for this section consists of a MongoMK Author cluster with 
 
 ![mongo-secondaries](assets/mongo-secondaries.jpg)
 
-1. Create new 6.5.2025 Author instances, connected to the upgraded Mongo instance. 
+1. Create new AEM 6.5 LTS Author instances, connected to the upgraded Mongo instance. 
 
 1. Rebuild the MongoDB nodes that were removed from the cluster.
 

@@ -5,6 +5,7 @@ contentOwner: AG
 feature: Workflow, Renditions
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 06785380-07cc-4c8b-b11c-6005471bd058
 ---
 # Process digital assets {#process-assets}
 

@@ -7,6 +7,7 @@ topic-tags: customization
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components
+exl-id: 79f0c1e7-6345-4cfb-8186-3ecca82cac44
 ---
 # Customizing form event tracking {#customizing-form-event-tracking}
 

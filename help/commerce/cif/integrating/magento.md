@@ -5,6 +5,7 @@ thumbnail: aem-magento-architecture.jpg
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: cecd9591-bff4-4b4e-a3fd-4ab4278a0b81
 ---
 # AEM and Adobe Commerce (Magento) integration Using Commerce Integration Framework {#aem-commerce-framework}
 

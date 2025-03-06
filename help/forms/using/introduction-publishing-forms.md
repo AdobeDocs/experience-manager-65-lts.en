@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Forms Portal
 role: Admin, User, Developer
+exl-id: 606cd19d-b244-4c4d-ab25-7709351dcfe0
 ---
 # Introduction to publishing forms on a portal{#introduction-to-publishing-forms-on-a-portal}
 

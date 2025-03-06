@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/SITES
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: aeb8e954-dd6c-4e18-bb78-6eaac86fa4b9
 ---
 # Enabling JSON Export for a Component{#enabling-json-export-for-a-component}
 

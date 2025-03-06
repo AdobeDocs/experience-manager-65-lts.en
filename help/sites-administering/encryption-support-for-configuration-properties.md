@@ -1,17 +1,14 @@
 ---
 title: Encryption Support for Configuration Properties
-
 description: Learn about the encryption support for configuration properties provided in AEM.
-
-
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: security
-
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 28407eda-1854-4816-b877-428c006bdeec
 ---
 # Encryption Support for Configuration Properties{#encryption-support-for-configuration-properties}
 

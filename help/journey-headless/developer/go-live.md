@@ -4,6 +4,7 @@ description: In this part of the AEM Headless Developer Journey, learn how to de
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin, Developer
+exl-id: 8837e7cd-c949-46cc-9c39-3c7a82cc1daf
 ---
 # How to Go Live with Your Headless Application {#go-live}
 
@@ -210,7 +211,7 @@ If this kind of flexibility is something you need for your project, continue to 
 
 ## Additional Resources {#additional-resources}
 
-* [AEM Developing Guide](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/introduction/the-basics.html)
+* [AEM Developing Guide](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/introduction/the-basics.html)
 
 * [WKND Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
@@ -220,7 +221,7 @@ If this kind of flexibility is something you need for your project, continue to 
 
   * [Controlling a CDN Cache](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html#controlling-a-cdn-cache)
 
-  * Configuring the [CDN Rewriter](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/osgi-configuration-settings.html) (*search for CDN Rewriter*)
+  * Configuring the [CDN Rewriter](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/osgi-configuration-settings.html) (*search for CDN Rewriter*)
 
 * [Introduction to AEM as a Headless CMS](/help/sites-developing/headless/introduction.md)
 * [AEM Developer Portal](https://experienceleague.adobe.com/landing/experience-manager/headless/developer.html)

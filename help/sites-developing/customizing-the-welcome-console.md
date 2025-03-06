@@ -1,17 +1,14 @@
 ---
 title: Customizing the Welcome Console (Classic UI)
-
 description: The Welcome console provides a list of links to the various consoles and functionality within AEM
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: a3595673-8d43-4ef2-a00e-ec8aa8d9cb55
 ---
 # Customizing the Welcome Console (Classic UI){#customizing-the-welcome-console-classic-ui}
 

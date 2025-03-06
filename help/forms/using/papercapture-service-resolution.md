@@ -4,8 +4,10 @@ description: Learn the steps to resolve the issue where the PaperCapture service
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
-
 # PaperCature service fails to perform OCRs operation on PDFs
 
 ## Issue

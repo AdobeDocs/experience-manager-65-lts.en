@@ -1,18 +1,14 @@
 ---
 title: Manage form metadata
-
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: forms-manager
-
 docset: aem65
-
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 712590c6-2348-4c0d-93b9-686e6478ca03
 ---
 # Manage form metadata{#manage-form-metadata}
 

@@ -9,6 +9,7 @@ docset: aem65
 feature: Operations
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: cd93bdfb-e8f1-45e8-b2a1-de70aba42581
 ---
 # How to Audit User Management Operations in Adobe Experience Manager (AEM) {#how-to-audit-user-management-operations-in-aem}
 

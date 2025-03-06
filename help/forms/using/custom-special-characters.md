@@ -8,6 +8,7 @@ docset: aem65
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: f4f563ed-ccdd-49f6-885d-48f97a958a8e
 ---
 # Custom special characters in Correspondence Management{#custom-special-characters-in-correspondence-management}
 

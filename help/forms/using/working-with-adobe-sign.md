@@ -9,6 +9,7 @@ discoiquuid: f79828d8-2230-4477-8ffa-eeb6a0413acd
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 3e804a65-156c-40b5-b707-8f20f84a58e5
 ---
 # Using [!DNL Adobe Sign] in an adaptive form{#using-adobe-sign-in-an-adaptive-form}
 

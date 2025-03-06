@@ -8,6 +8,7 @@ content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 0001c874-7468-4750-a377-03156674f4b9
 ---
 # Using Offline Reindexing To Reduce Downtime During an Upgrade {#offline-reindexing-to-reduce-downtime-during-upgrades}
 
@@ -173,7 +174,7 @@ It is recommended to clone the production system and create the offline index us
 
 ### Prepare a Runbook and Trial Run {#prepare-a-runbook-and-trial-run}
 
-It is recommended to prepare a [runbook](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/upgrading/upgrade-planning.html#building-the-upgrade-and-rollback-runbook) and perform a few trials before running the upgrade in production.
+It is recommended to prepare a [runbook](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/upgrading/upgrade-planning.html#building-the-upgrade-and-rollback-runbook) and perform a few trials before running the upgrade in production.
 
 ### Doc Traversal Mode With Offline Indexing {#doc-traversal-mode-with-offline-indexing}
 

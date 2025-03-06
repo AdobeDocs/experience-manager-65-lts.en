@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 1a533ebb-e60d-466f-a723-c8f5039c95f8
 ---
 # Dashboards{#dashboards}
 

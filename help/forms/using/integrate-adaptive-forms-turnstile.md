@@ -3,6 +3,7 @@ title: How to use Turnstile in an AEM Adaptive Form 6.5?
 description: Enhance form security with Turnstile service effortlessly. Step-by-step guide inside!
 feature: Adaptive Forms, Foundation Components
 role: User, Developer
+exl-id: cca80e8d-496b-4d67-a90d-2eadf2931986
 ---
 # Connect your AEM Forms environment with Turnstile {#connect-your-forms-environment-with-turnstile-service}
 

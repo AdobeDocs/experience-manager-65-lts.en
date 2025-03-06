@@ -4,6 +4,7 @@ description: Learn how to use client-side Device Pixel Ratio with Smart Imaging 
 role: Admin,User
 solution: Experience Manager, Experience Manager Assets
 feature: Smart Imaging
+exl-id: 3b4f3624-d76d-4835-834b-e8610c2c40bd
 ---
 # About Smart Imaging with client-side Device Pixel Ratio (DPR) {#client-side-dpr}
 

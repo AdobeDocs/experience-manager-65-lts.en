@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 65a28fda-cf7e-40fe-846a-bd13da14d0ce
 ---
 # Responsive Layout{#responsive-layout}
 

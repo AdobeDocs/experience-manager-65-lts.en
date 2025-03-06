@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin,Developer
 feature: Configuration,Rulesets
 solution: Experience Manager, Experience Manager Assets
+exl-id: 8f005ada-275a-444f-9883-64d847fd9959
 ---
 # Use rule sets to transform URLs {#using-rulesets-to-transform-urls}
 

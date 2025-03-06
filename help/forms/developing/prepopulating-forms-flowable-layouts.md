@@ -1,18 +1,16 @@
 ---
 title: Prepopulating Forms with Flowable Layouts
-
 description: Prepopulate forms with flowable layout to display data to users within a rendered form using the Java API and the Web Service API.
-
-
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
-feature: Adaptive Forms,Document Services,APIs & Integrations
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts1}
 

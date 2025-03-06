@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 6ca4f66d-993b-4cfb-9b09-84bb20a54d4c
 ---
-
 # Developing Reports {#developing-reports}
 
 Adobe Experience Manager (AEM) provides a selection of [standard reports](/help/sites-administering/reporting.md) most of which are based on a reporting framework.

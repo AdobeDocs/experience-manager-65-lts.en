@@ -4,6 +4,7 @@ description: Documentation Journeys provide a narrative structure within AEM doc
 solution: Experience Manager, Experience Manager Sites
 role: Admin, Architect,Data Architect,Developer,User,Leader
 feature: Administering
+exl-id: 5de9469f-b92f-42f6-a187-0c6835ad972c
 ---
 # AEM Documentation Journeys {#aem-documentation-journeys}
 

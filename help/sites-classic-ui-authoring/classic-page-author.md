@@ -1,15 +1,14 @@
 ---
 title: Authoring pages
 description: There are two overviews to authoring with AEM. (1) First Steps for Authors - an introduction for new authors, and (2) Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: page-authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: f8376cde-cfda-461e-8b1c-f958c7ad5cb0
 ---
 # Authoring Pages{#authoring-pages}
 

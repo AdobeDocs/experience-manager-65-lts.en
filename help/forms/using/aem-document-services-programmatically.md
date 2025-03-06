@@ -4,6 +4,7 @@ description: Learn how to use Document Services APIs to Digitally sign, encrypt,
 feature: Document Services,APIs & Integrations
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 5c6fa5ae-ac28-4d92-9123-f4f1404bdc4f
 ---
 # Using AEM Document Services Programmatically  {#using-aem-document-services-programmatically}
 
@@ -5126,5 +5127,3 @@ void tag(File inputFile) throws Exception
 }
 
 ```
-
-

@@ -8,6 +8,7 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: a279ebed-a116-4719-989e-1b2f79f6caa4
 ---
 # Expiration of Static Objects{#expiration-of-static-objects}
 

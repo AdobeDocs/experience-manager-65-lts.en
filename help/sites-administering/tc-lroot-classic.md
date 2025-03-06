@@ -5,6 +5,7 @@ contentOwner: Guillaume Carlino
 feature: Language Copy
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c6e00da5-804f-46cf-b7a9-52e667574394
 ---
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}
 

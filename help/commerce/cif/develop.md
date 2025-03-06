@@ -8,6 +8,7 @@ kt: 5826
 thumbnail: 39476.jpg
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 22fcdadf-12c0-4545-a854-76345806386f
 ---
 # Developing AEM Commerce {#develop}
 

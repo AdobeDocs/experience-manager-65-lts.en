@@ -8,6 +8,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: 4009c85e-cb8a-4bed-a6ff-7c76fe78a47f
 ---
 # Performance tuning of AEM Forms Server{#performance-tuning-of-aem-forms-server}
 
@@ -18,7 +19,10 @@ This article discusses strategies and best practices that you can implement to r
 You can configure and control the caching strategy for AEM Forms using the **Mobile Forms Configurations** component in the AEM Web Configuration Console at:
 
 * (AEM Forms on OSGi) `https://'[server]:[port]'/system/console/configMgr`
+
+<!--
 * (AEM Forms on JEE) `https://'[server]:[port]'/lc/system/console/configMgr`
+-->
 
 The available options for caching are as follows:
 
@@ -143,6 +147,8 @@ To improve the performance, you can direct the antivirus software to exclude the
     * [AEM installation directory]\crx-repository\repository
     * [AEM installation directory]\crx-repository\launchpad
 
+<!--
+
 * Application server temporary directory. The default location is:
 
     * (JBoss&reg;) [AEM installation directory]\jboss\standalone\tmp
@@ -159,6 +165,7 @@ To improve the performance, you can direct the antivirus software to exclude the
 
     * Server logs - [AEM Forms installation directory]\Adobe\AEM forms\[app-server]\server\all\logs
     * Temp directory - [AEM Forms installation directory]\temp
+-->
 
 >[!NOTE]
 >

@@ -5,8 +5,8 @@ contentOwner: AG
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: f185c622-1681-4221-a082-cac71d6b510b
 ---
-
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
 
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable one or more RTE features. This article describes how to specifically configure the RTE plug-ins.

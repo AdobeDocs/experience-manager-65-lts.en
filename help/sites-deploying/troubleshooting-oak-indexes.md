@@ -8,6 +8,7 @@ topic-tags: deploying
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 6f92750a-4eaa-43cf-8f67-b1a65b1c6930
 ---
 # Troubleshooting Oak Indexes{#troubleshooting-oak-indexes}
 

@@ -1,15 +1,14 @@
 ---
 title: Keyboard shortcuts for consoles
 description: Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing.
-
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: introduction
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 2fd45cb4-33e0-47b0-a4cc-4ae039b78e36
 ---
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
 

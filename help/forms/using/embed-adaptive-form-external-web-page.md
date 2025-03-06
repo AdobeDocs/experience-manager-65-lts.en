@@ -7,6 +7,7 @@ docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: ecc90ca2-27a1-4b56-8641-55719240e146
 ---
 # Embed adaptive form in external web page{#embed-adaptive-form-in-external-web-page}
 

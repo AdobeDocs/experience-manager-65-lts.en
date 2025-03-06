@@ -1,15 +1,14 @@
 ---
 title: SPA WKND Tutorial
 description: Immerse yourself in SPA development with this multi-part tutorial. Implement your own SPA that leads you through project setup, component mapping, front-end development tools, and application routing.
-
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: spa
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: 0a72d11c-1411-4b95-bcde-bf7458b7856e
 ---
 # SPA WKND Tutorial{#spa-wknd-tutorial}
 

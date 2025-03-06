@@ -5,10 +5,10 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
 topic-tags: authoring
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 46af0e0d-9f8f-4751-91a8-c39d028e4c91
 ---
 # Video{#video}
 

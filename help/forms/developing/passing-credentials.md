@@ -4,6 +4,9 @@ description: Learn how to pass credentials using WS-security headers
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Passing credentials using WS-Security headers {#using-execute-script-service-aem-forms-jee-workbench}
 

@@ -8,6 +8,7 @@ content-type: reference
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 63f42a35-fbd5-4b1b-bba1-1bdcfd23dd33
 ---
 # Adobe IMS Authentication and [!DNL Admin Console] Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}
 

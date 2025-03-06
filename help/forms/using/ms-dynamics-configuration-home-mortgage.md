@@ -6,6 +6,7 @@ topic-tags: develop, Configuration
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer
+exl-id: 1021fbb4-a12a-4758-8f36-dc9ad73681cd
 ---
 # Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site {#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}
 

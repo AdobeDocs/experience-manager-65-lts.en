@@ -8,6 +8,7 @@ topic-tags: deploying
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: 09d54b52-485a-453c-a2d0-535adead9e6c
 ---
 # Application Server Install{#application-server-install}
 
@@ -240,4 +241,3 @@ Before a deployment read the [General Description](#general-description) above.
   * Rename AEM war file to ROOT.war if you want to deploy it as root webapp. Rename it to aemauthor.war if you want to have aemauthor as context root.
   * Copy it into tomcat's webapps folder.
   * Wait until AEM is installed.
-

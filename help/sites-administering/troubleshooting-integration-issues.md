@@ -1,17 +1,14 @@
 ---
 title: Troubleshooting Integration Issues
-
 description: Learn how to troubleshoot issues when integrating with Adobe Experience Manager.
-
-
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 72293e17-bf29-4b3c-81b4-cd8372694a0d
 ---
 # Troubleshooting Integration Issues{#troubleshooting-integration-issues}
 

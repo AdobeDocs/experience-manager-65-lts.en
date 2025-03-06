@@ -4,6 +4,7 @@ description: In this optional continuation of the Adobe Experience Manager (AEM)
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
 role: Admin, Developer
+exl-id: 47e73efa-997d-44d9-bb41-6f550eac137a
 ---
 # How to Create Single Page Applications (SPAs) with AEM {#create-spa}
 

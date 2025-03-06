@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 86fe233e-b3fb-432e-861e-8134df2744e4
 ---
-
 # Campaign Management{#campaign-management}
 
 Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors.

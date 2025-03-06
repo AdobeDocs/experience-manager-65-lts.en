@@ -1,6 +1,6 @@
 ---
 title: Integrating AEM forms workspace with Microsoft Office SharePoint Server
-description: You can integrate AEM forms workspace with Microsoft Office SharePoint Server. 
+description: You can integrate AEM forms workspace with Microsoft Office SharePoint Server.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: Configuration
@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 907e3702-a71b-4e25-b52b-f33cbb43009a
 ---
 # Integrating AEM forms workspace with Microsoft Office SharePoint Server{#integrating-aem-forms-workspace-with-microsoft-office-sharepoint-server}
 

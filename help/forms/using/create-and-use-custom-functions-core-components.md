@@ -5,6 +5,7 @@ keywords: Add a custom function, use a custom function, create a custom function
 content-type: reference
 feature: Adaptive Forms, Core Components
 role: Admin, User, Developer
+exl-id: 5f6106a9-64a6-45aa-a31d-2075d1e911bf
 ---
 # Custom functions in Adaptive Forms Core Components
 
@@ -571,7 +572,7 @@ Let's preview the form to observe how the custom functions are implemented throu
 
 >[!NOTE]
 >
-> You can refer to the following [custom functions](/help/forms/using/assets/customfunctions.zip) folder. Download and install this folder in your AEM instance using the [Package Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65-2025/content/sites/administering/contentmanagement/package-manager).
+> You can refer to the following [custom functions](/help/forms/using/assets/customfunctions.zip) folder. Download and install this folder in your AEM instance using the [Package Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/sites/administering/contentmanagement/package-manager).
 
 ### Support for asynchronous functions in custom functions {#support-of-async-functions}
 

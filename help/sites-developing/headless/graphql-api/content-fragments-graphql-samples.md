@@ -4,6 +4,7 @@ description: Learn how to use GraphQL with AEM to serve content headlessly by ex
 feature: Content Fragments,GraphQL API
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: 9a953caa-47d3-4e06-a27d-2a0c3fc72597
 ---
 # Learning to use GraphQL with AEM - Sample Content and Queries {#learn-graphql-with-aem-sample-content-queries}
 

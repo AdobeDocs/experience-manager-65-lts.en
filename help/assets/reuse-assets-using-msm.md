@@ -7,6 +7,7 @@ role: User, Admin, Architect
 feature: Asset Management,Multi Site Manager
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 29365a8a-7d29-41b2-9a54-d12fe802f6ed
 ---
 # Reuse assets using MSM for [!DNL Assets] {#reuse-assets-using-msm-for-assets}
 

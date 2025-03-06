@@ -5,6 +5,7 @@ contentOwner: AG
 role: Developer
 feature: Search
 solution: Experience Manager, Experience Manager Assets
+exl-id: 92efe52b-8fa5-4006-bd68-2472b4ba04f6
 ---
 # Extend assets search {#extending-assets-search}
 

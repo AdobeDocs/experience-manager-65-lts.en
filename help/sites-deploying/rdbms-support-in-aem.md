@@ -9,6 +9,7 @@ docset: aem65
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: b6886495-f06e-4e4f-8f38-39206ef43072
 ---
 # RDBMS Support in AEM 6.4{#rdbms-support-in-aem}
 

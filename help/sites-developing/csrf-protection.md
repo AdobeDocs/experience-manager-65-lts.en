@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: d6bd4028-56c9-4e09-9bba-1199a41b41b8
 ---
 # The CSRF Protection Framework{#the-csrf-protection-framework}
 

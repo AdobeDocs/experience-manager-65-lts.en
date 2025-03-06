@@ -4,6 +4,7 @@ description: Learn how to connect AEM to Microsoft Translator out-of-the-box to 
 feature: Language Copy
 role: Admin
 solution: Experience Manager, Experience Manager Sites
+exl-id: e4beda86-2d74-44b9-a5f4-e3671ba9a2da
 ---
 # Connecting to Microsoft Translator {#connecting-to-microsoft-translator}
 
@@ -38,4 +39,4 @@ The following procedure creates a Microsoft Translator configuration.
 
 ## Publishing the Translator Service Configurations {#publishing-the-translator-service-configurations}
 
-As a final step, please publish your Microsoft Translator configurations to support published translated content, using the [publishing a tree](/help/sites-authoring/publishing-pages.md#publishing-and-unpublishing-a-tree) action.  
+As a final step, please publish your Microsoft Translator configurations to support published translated content, using the [publishing a tree](/help/sites-authoring/publishing-pages.md#publishing-and-unpublishing-a-tree) action.

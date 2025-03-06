@@ -8,6 +8,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: c6bdfa6f-0d9b-4473-a2e1-6cad73fbd1ed
 ---
 # Single Sign On and timeout handlers {#single-sign-on-and-timeout-handlers}
 

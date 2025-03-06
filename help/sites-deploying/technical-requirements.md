@@ -5,6 +5,7 @@ topic-tags: platform
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: f65dd129-9e28-4de1-acca-dd31eaf3c19b
 ---
 # Technical Requirements{#technical-requirements}
 
@@ -143,12 +144,11 @@ Adobe Experience Manager works with the following server platforms for productio
 
 | **Platform** |**Support Level** |
 |---|---|
-| **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[3]` |
-| Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` `[2]` |
+| **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[2]` |
+| Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
 
-1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. AEM Forms add-on features are only supported on CentOS 7, Red Hat&reg; Enterprise Linux&reg; 7, Red Hat&reg; Enterprise Linux&reg; 8, and Red Hat&reg; Enterprise Linux&reg; 9. 
-1. AEM Forms is supported on Ubuntu 20.04 LTS.
+1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. 
 1. Linux&reg; distribution supported by Adobe Managed Services.
 
     >[!NOTE]
@@ -159,6 +159,8 @@ Adobe Experience Manager works with the following server platforms for productio
     >* zlib.x86-64 (1.2.7-17)
     >* libxcb.x86_64 (1.13-1.el7)
     >* libXau.x86_64 (1.0.8-2.1.el7)
+    >* glibc-locale.x86_64 (2.17 or later)
+
 
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
 
@@ -427,10 +429,12 @@ For Windows x86:
 >In addition,
 >
 >* PDF Generator requires a 32-bit version of [Acrobat 2020 classic track version 20.004.30006](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html) or Acrobat 2017 version 17.011.30078 to perform the conversion.
->* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
->* PDF Generator supports only the 32-bit Retail version of Microsoft&reg; Office Professional Plus and other software required for conversion on the Windows operating system.
+>* PDF Generator supports only the 32-bit Retail version of Microsoft&reg; Office Professional Plus and other software required for conversion.
+>* The Microsoft® Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
+>* If a Microsoft® Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
 >* PDF Generator supports the 32-bit and 64-bit versions of OpenOffice on the Linux&reg; operating system.
 >* PDF Generator does not support Microsoft&reg; Office 365.
+>* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
 >* The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
 >* A version of Acrobat is bundled with AEM Forms to enable PDF Generator functionality. Programmatically access the bundled version only with AEM Forms, during the term of the AEM Forms license, for use with AEM Forms PDF Generator. For more information, see AEM Forms product description as per your deployment ([On-Premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html) or [Managed Services](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html))
 >* PDF Generator service does not support Microsoft&reg; Windows 10.
