@@ -13,7 +13,7 @@ This page is meant to answer some frequently asked questions about AEM 6.5 LTS.
 
 Adobe remains deeply committed to the security and stability of the applications it provides. AEM 6.5 Long-term Support lays the foundation for future updates for AEM 6.5. Notably, AEM 6.5 LTS includes support for Oracle Java 17, and will be the AEM branch that receives new AEM features and innovations. 
 
-## I’m an on-Premise customer, what happens if I don’t upgrade to AEM 6.5 LTS?
+## I’m an on-premise customer, what happens if I don’t upgrade to AEM 6.5 LTS?
 
 AEM 6.5 LTS includes important security and stability updates including support for Oracle Java 17. While Adobe will continue to support AEM 6.5 for at least the next 3 years, it is recommended that organizations begin to plan for an upgrade to 6.5 LTS. 
 
