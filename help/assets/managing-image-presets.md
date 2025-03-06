@@ -11,6 +11,7 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-
 feature: Image Presets
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 1ffc31e1-9e47-40fe-93b8-cd6ef96e0674
 ---
 # Managing Dynamic Media image presets{#managing-image-presets}
 
@@ -397,7 +398,7 @@ When you create or edit image presets, you have the options described in this se
     </ul>
     <div>
       Sharpening is described in
-     <a href="https://experienceleague.adobe.com/docs/experience-manager-65-2025/assets/sharpening_images.pdf">Sharpening Images</a>.
+     <a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/sharpening_images.pdf">Sharpening Images</a>.
     </div> </td>
   </tr>
   <tr>

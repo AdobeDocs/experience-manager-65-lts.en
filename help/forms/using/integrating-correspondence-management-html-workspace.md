@@ -7,6 +7,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer
+exl-id: b383fa80-1643-41f3-bc6c-176727fea688
 ---
 # Integrating third-party applications in AEM Forms workspace{#integrating-third-party-applications-in-aem-forms-workspace}
 

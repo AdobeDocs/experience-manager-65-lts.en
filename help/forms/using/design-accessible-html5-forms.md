@@ -1,18 +1,14 @@
 ---
 title: Designing accessible HTML5 forms
-
 description: HTML5 forms use the ARIA HTML5 accessibility standard. These forms support tabbed navigation and are certified to be compatible with common screen readers.
-
-
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: hTML5_forms
-
 docset: aem65
-
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 9a23dc13-48e4-44dc-b601-10fa0d56cbc8
 ---
 # Designing accessible HTML5 forms {#designing-accessible-html-forms}
 

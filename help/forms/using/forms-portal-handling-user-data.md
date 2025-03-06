@@ -7,6 +7,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: f9eb6e61-5669-4cb7-a528-f1c09e455a60
 ---
 # Forms Portal | Handling user data {#forms-portal-handling-user-data}
 

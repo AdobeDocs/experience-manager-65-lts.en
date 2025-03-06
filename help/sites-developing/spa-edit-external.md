@@ -4,6 +4,7 @@ description: This document describes the recommended steps to upload a standalon
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: cb5495f9-bc54-4515-ae15-55a5397500aa
 ---
 # Editing an External SPA within Adobe Experience Manager {#editing-external-spa-within-aem}
 

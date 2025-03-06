@@ -1,22 +1,20 @@
 ---
 title: Solutions Integration
 description: Learn more about integrating Adobe Experience Manager (AEM) with other Adobe or third-party services.
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: integration
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: ac7f2ea1-4e0c-44da-8d1d-d65c65d817cb
 ---
 # Solutions Integration{#solutions-integration}
 
 * [Integrating with the Adobe Experience Cloud](/help/sites-administering/marketing-cloud.md)
 * [Integrating with Third-Party Services](/help/sites-administering/third-party-services.md)
 * [Analytics with External Providers](/help/sites-administering/external-providers.md)
-* [Catalog Producer](/help/sites-administering/catalog-producer.md)
 * [Understand, apply, and curate Smart Tags](/help/assets/enhanced-smart-tags.md)
 
 The following information is available about integrating AEM with other Adobe or third-party services:

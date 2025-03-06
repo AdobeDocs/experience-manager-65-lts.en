@@ -5,6 +5,7 @@ contentOwner: AG
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: deba01bd-7a8d-48cd-956d-fbe8eb8671ba
 ---
 # Configure RTE to create accessible webpages and sites {#configure-rte-for-accessibility}
 

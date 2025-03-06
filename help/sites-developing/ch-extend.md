@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Personalization
 role: Developer
+exl-id: 5bece740-d8ec-4cef-89b6-bced158b866d
 ---
 # Extending ContextHub{#extending-contexthub}
 

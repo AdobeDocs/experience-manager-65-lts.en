@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: d19b7265-42cc-41d9-9897-e7b044c4529c
 ---
 # Configuring Remoting endpoints {#configuring-remoting-endpoints}
 

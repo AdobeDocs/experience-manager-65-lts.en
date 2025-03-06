@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 8fc30cfe-cb10-47ba-911c-e4fdfaa970b5
 ---
-
 # First Steps for Authors{#first-steps-for-authors}
 
 This section gives you an overview of the main tasks that you will be using when [starting to author content](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) with Adobe Experience Manager (AEM).

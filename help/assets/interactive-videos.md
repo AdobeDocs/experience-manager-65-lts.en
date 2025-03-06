@@ -9,6 +9,7 @@ docset: aem65
 feature: Interactive Videos
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: caacf3b3-1e12-4ea3-9160-774181aadf41
 ---
 # Interactive videos{#interactive-videos}
 

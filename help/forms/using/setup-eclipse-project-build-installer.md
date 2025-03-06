@@ -7,6 +7,7 @@ topic-tags: forms-app
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: a804ba9b-c5c6-4d76-96e4-5d729b673ca4
 ---
 # Build the AEM Forms Android app {#build-the-aem-forms-android-app}
 
@@ -28,7 +29,7 @@ To download the `adobe-aemfd-forms-app-src-pkg-<version>.zip` file, perform the 
    1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
    2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
 1. Select the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and select **[!UICONTROL Download]**.
-1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Open [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
 1. Select the package and click **[!UICONTROL Install]**.
 1. To download the source-code archive, open **https://&lt;server&gt;:&lt;port&gt;/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-&lt;version&gt;.zip** in your browser. The Android app .zip file is downloaded on your device.
 1. Extract the contents of the .zip file to a folder on your local file system. For example, *C:\<Folder Structure&gt;\adobe-lc-mobileworkspace-src-2.4.20*

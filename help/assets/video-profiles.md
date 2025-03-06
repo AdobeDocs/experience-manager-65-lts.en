@@ -10,6 +10,7 @@ feature: Video Profiles
 role: User, Admin
 mini-toc-levels: 3
 solution: Experience Manager, Experience Manager Assets
+exl-id: b7ee16db-fde2-4d06-b06c-945b6d876f8d
 ---
 # Video profiles {#video-profiles}
 

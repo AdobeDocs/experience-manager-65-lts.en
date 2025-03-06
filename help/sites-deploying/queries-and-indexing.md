@@ -9,6 +9,7 @@ legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 432fc767-a6b8-48f8-b124-b13baca51fe8
 ---
 # Oak Queries and Indexing{#oak-queries-and-indexing}
 

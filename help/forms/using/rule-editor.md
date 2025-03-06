@@ -8,6 +8,7 @@ discoiquuid: 1b905e66-dc05-4f14-8025-62a78feef12a
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 2c0a5185-7759-447a-b4c6-36feaa4a23d3
 ---
 # Adaptive forms rule editor{#adaptive-forms-rule-editor}
 

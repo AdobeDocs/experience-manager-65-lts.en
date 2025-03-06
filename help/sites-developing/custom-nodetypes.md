@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 255f52f3-aff4-432c-a541-3ce03e626742
 ---
 # Custom Node Types{#custom-node-types}
 

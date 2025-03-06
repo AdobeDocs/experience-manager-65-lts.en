@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: cd36d432-ad42-41be-abcf-f74ef2e42544
 ---
 # Integrating with ExactTarget{#integrating-with-exacttarget}
 

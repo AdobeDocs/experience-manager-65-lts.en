@@ -4,6 +4,7 @@ description: Use these FAQs to understand, configure, and troubleshoot common wo
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: b2e73e28-fa34-436d-8a20-848d353e3b8c
 ---
 # AEM FAQs {#aem-faqs}
 

@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: a022067a-3bbe-4bce-9d49-b813fcbf0c6f
 ---
 # Developing with CRXDE Lite{#developing-with-crxde-lite}
 

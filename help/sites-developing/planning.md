@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 82199140-e464-45a5-9c00-dda2d8efde74
 ---
 # Planning{#planning}
 

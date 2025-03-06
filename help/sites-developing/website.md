@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 743645c5-b4c9-45ff-a130-0bf72aa6e6f2
 ---
 # Create a Full-Featured Website (JSP){#create-a-fully-featured-website-jsp}
 

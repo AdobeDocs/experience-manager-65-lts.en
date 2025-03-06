@@ -1,17 +1,14 @@
 ---
 title: Form Data Integration Service JavaAPI Quick Start(SOAP)
-
 description: Use the Form Data Integration service to import data into a PDF form and export data from a PDF form using the Java API.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 1f67fad6-263c-4ee4-9986-1b3df53e1a16
 ---
 # Form Data Integration Service Java API Quick Start (SOAP) {#form-data-integration-service-javaapi-quick-start-soap}
 

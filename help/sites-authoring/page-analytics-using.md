@@ -10,6 +10,7 @@ legacypath: /content/help/en/experience-manager/6-4/help/sites-authoring/pa-usin
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: b47591ac-10ff-4b87-b75d-68ed635ceca8
 ---
 # Seeing Page Analytics Data{#seeing-page-analytics-data}
 

@@ -4,6 +4,7 @@ description: Understand AEM configurations and how they manage workspace setting
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: 73230415-078c-4933-8521-bc18e5490103
 ---
 # Configurations and the Configuration Browser {#configuration-browser}
 

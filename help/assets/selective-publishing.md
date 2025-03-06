@@ -9,6 +9,7 @@ docset: aem65
 role: User, Admin
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
+exl-id: 64468f78-2dc1-4e42-a8c6-3cb81bca0e05
 ---
 # Configure selective publishing at the folder level in Dynamic Media {#selective-publish-configure-folder}
 

@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 20cd6efb-edcf-4c87-b0f5-bdec5a0f6280
 ---
 # Starting and stopping WebSphere Application Server {#starting-and-stopping-websphere-application-server}
 

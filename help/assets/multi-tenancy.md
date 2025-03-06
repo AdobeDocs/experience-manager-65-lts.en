@@ -5,6 +5,7 @@ contentOwner: AG
 role: Architect, Admin, Leader
 feature: Collections
 solution: Experience Manager, Experience Manager Assets
+exl-id: 39e14f89-8e60-4b5e-8859-d69ebd51864e
 ---
 # Multi-tenancy for Collections, snippets, and snippet templates {#multi-tenancy-for-collections-snippets-and-snippet-templates}
 

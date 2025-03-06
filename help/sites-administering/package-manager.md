@@ -8,8 +8,8 @@ topic-tags: content
 content-type: reference
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
+exl-id: 6c0238ca-568e-4a46-a3cc-0b08a10cf324
 ---
-
 # Package Manager {#working-with-packages}
 
 Packages enable the importing and exporting of repository content. You can use packages to install new content, install new functionality, transfer content between instances, and back up repository content.

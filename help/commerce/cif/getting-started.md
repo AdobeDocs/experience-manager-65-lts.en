@@ -5,6 +5,7 @@ topics: Commerce
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 15face30-3039-49a0-bfee-56bff21e5c27
 ---
 # Getting started with AEM Content and Commerce {#start}
 

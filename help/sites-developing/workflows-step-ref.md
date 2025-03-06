@@ -1,18 +1,15 @@
 ---
 title: Workflow Step Reference
-
 description: Refer to this step reference for workflows in Adobe Experience Manager.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: e82d97c2-c26a-48df-9210-47dc017c68c8
 ---
 # Workflow Step Reference {#workflow-step-reference}
 
@@ -185,7 +182,7 @@ The **OR Split** creates a split in the workflow, after which only one branch is
 
 >[!NOTE]
 >
->See [OR Split step](https://experienceleague.adobe.com/docs/experience-manager-65-2025/developing/extending-aem/extending-workflows/using-variables-in-aem-workflows.html#use-a-variable)
+>See [OR Split step](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/extending-aem/extending-workflows/using-variables-in-aem-workflows.html#use-a-variable)
 
 ![Branching using OR Split](assets/variables_orsplit_new.png)
 

@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: User, Developer
+exl-id: 7374797f-4154-402b-bb59-075134763c58
 ---
 # Working with AEM Forms workspace{#working-with-aem-forms-workspace}
 

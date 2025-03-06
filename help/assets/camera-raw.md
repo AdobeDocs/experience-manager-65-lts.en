@@ -1,10 +1,11 @@
 ---
-title: "[!DNL Adobe Camera Raw] support to process digital assets"
+title: '[!DNL Adobe Camera Raw] support to process digital assets'
 description: Learn how to enable [!DNL Adobe Camera Raw] support in [!DNL Adobe Experience Manager Assets]
 contentOwner: AG
 role: Admin
 feature: Developer Tools
 solution: Experience Manager, Experience Manager Assets
+exl-id: 8cf34359-b6e0-4c84-84ec-d9d2b27edc6c
 ---
 # Process images using [!DNL Adobe Camera Raw] {#camera-raw-support}
 

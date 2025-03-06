@@ -11,6 +11,7 @@ legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config
 role: User, Admin
 feature: Configuration,Hybrid Mode
 solution: Experience Manager, Experience Manager Assets
+exl-id: 6252e61f-44b5-4931-80a0-426c6883092e
 ---
 # Configure Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
 

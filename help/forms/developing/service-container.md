@@ -1,16 +1,14 @@
 ---
 title: Service container
-
 description: AEM Forms services in the service container
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: coding, development-tools
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
+exl-id: fea20b34-2f66-460e-8b1c-4e55842bc789
 ---
 # Service container {#service-container} 
 

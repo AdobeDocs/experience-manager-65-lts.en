@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: 4a2ada26-b859-4a32-9ab0-2d4c2b695245
 ---
 # Deploying and Maintaining{#deploying-and-maintaining}
 
@@ -37,7 +38,6 @@ Once you have familiarized yourself with these basics, you can find in more adva
 * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
 * [Custom Standalone Install](/help/sites-deploying/custom-standalone-install.md)
 * [Application Server Install](/help/sites-deploying/application-server-install.md)
-* [Troubleshooting](/help/sites-deploying/troubleshooting.md)
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
 * [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
@@ -289,7 +289,6 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
 * [Custom Standalone Install](/help/sites-deploying/custom-standalone-install.md)
 * [Application Server Install](/help/sites-deploying/application-server-install.md)
-* [Troubleshooting](/help/sites-deploying/troubleshooting.md)
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
 * [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)

@@ -5,6 +5,7 @@ contentOwner: AG
 role: Developer, Admin
 feature: Developer Tools,Renditions
 solution: Experience Manager, Experience Manager Assets
+exl-id: 003ca1f1-5653-4b6c-a63f-ad5196adf3f2
 ---
 # Use PDF Rasterizer {#using-pdf-rasterizer}
 

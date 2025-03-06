@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: d872078f-3aa0-4abe-ac2a-74a1cd47b219
 ---
 # Opting Into Adobe Analytics and Adobe Target{#opting-into-adobe-analytics-and-adobe-target}
 

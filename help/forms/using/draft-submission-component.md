@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Forms Portal
 role: Admin, User, Developer
+exl-id: 3d4ff4d1-aab6-47b9-9804-2a0f3438332d
 ---
 # Drafts and submissions component{#drafts-and-submissions-component}
 

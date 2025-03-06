@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 195c097b-787a-44a2-aa4f-a9f8ccf93e3d
 ---
 # Work with Dynamic Media {#working-with-dynamic-media}
 

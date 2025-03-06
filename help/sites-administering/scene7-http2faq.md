@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 76d20b36-5941-48c0-8e05-f464a418a1e2
 ---
 # HTTP2 Delivery of Content FAQ{#http-delivery-of-content-faq}
 

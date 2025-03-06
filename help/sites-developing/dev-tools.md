@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: 46db0690-03e9-4b31-aa44-200f224f3707
 ---
 # Development Tools{#development-tools}
 

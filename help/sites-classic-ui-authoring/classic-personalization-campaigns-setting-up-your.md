@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: cf510635-6cbf-4f2b-b289-7ad31978c608
 ---
 # Setting up your campaign{#setting-up-your-campaign}
 

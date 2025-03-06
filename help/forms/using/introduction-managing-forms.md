@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User
+exl-id: 7ec29926-a5f6-4080-a981-597f9632f6e8
 ---
 # Introduction to managing forms {#introduction-to-managing-forms}
 

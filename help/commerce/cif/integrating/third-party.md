@@ -5,6 +5,7 @@ thumbnail: cif-third-party-architecture.jpg
 solution: Experience Manager,Commerce
 feature: Commerce Integration Framework
 role: Admin, Developer
+exl-id: 9297db4c-0105-4fec-8498-239a6d63538a
 ---
 # AEM and Third-Party Commerce Integration using Commerce Integration Framework {#aem-third-party}
 

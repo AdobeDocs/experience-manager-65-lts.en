@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: 9889b0fe-f39c-42dc-bc7b-8743d68e7503
 ---
 # Getting Started with SPAs in AEM - React{#getting-started-with-spas-in-aem-react}
 

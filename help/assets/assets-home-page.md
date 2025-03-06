@@ -1,10 +1,11 @@
 ---
-title: "[!DNL Assets] Home Page experience"
+title: '[!DNL Assets] Home Page experience'
 description: Personalize the [!DNL Experience Manager Assets] Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 contentOwner: AG
 feature: Asset Management
 role: Admin, User
 solution: Experience Manager, Experience Manager Assets
+exl-id: cdf1f56c-d9b2-456b-be05-e0394ea6204f
 ---
 # [!DNL Adobe Experience Manager Assets] Home Page Experience {#aem-assets-home-page-experience}
 

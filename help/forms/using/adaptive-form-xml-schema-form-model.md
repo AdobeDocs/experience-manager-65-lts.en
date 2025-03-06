@@ -5,6 +5,7 @@ feature: Adaptive Forms,Foundation Components
 role: User, Developer
 level: Beginner, Intermediate
 solution: Experience Manager, Experience Manager Forms
+exl-id: e0b25ee2-eb48-4766-97e1-8760ef9463a2
 ---
 # Creating adaptive forms using XML Schema {#creating-adaptive-forms-using-xml-schema}
 

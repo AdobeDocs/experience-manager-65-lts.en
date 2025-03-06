@@ -1,18 +1,15 @@
 ---
 title: User Administration and Security
-
 description: Learn about User Administration and Security in AEM.
-
-
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 docset: aem65
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 2661bd32-82c4-4a04-bf85-6ed120a73de4
 ---
 # User Administration and Security{#user-administration-and-security}
 

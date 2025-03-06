@@ -1,18 +1,14 @@
 ---
 title: Programmatically managing the PreferencesNodes
-
 description: Use the Preferences Manager Service API (Java) to programmatically manage the Preferences Nodes.
-
-
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations
+exl-id: 95a83858-c0b7-4c68-b4a9-d525bfc663c0
 ---
 # Programmatically managing the Preferences Nodes {#programmatically-managing-the-preferencesnodes} 
 

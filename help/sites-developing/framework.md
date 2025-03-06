@@ -9,8 +9,8 @@ docset: aem65
 feature: Developing,Tagging
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: 5d1c2c73-c457-49dc-b519-eba5ad9d5722
 ---
-
 # AEM Tagging Framework {#aem-tagging-framework}
 
 Tagging allows content to be categorized and organized. Tags can be classified by a namespace and a taxonomy. For detailed information about using tags:

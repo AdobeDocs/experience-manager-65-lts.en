@@ -1,17 +1,13 @@
 ---
 title: Work with form data model
-
 description: Data Integration provides form data model editor to configure and work with form data models.
-
-
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 docset: aem65
-
 feature: Form Data Model
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: e95c4cc4-1800-4bd8-a3c4-c6c868a1276d
 ---
 # Work with form data model{#work-with-form-data-model}
 

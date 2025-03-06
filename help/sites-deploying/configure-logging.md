@@ -1,17 +1,14 @@
 ---
 title: Logging
-
 description: Learn how to configure global parameters for the central logging service, specific settings for the individual services or how to request data logging.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: configuring
 content-type: reference
-
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 86613671-dacd-487e-b6ff-88365289e591
 ---
 # Logging{#logging}
 

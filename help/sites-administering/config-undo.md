@@ -1,17 +1,14 @@
 ---
 title: Configuring Undo for Page Editing
-
 description: Learn how to configure Undo support for page editing in AEM.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
+exl-id: efeda84f-e04f-4cbd-898c-4754dc29e008
 ---
 # Configuring Undo for Page Editing{#configuring-undo-for-page-editing}
 

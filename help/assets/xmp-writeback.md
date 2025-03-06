@@ -6,6 +6,7 @@ role: User, Admin
 feature: Metadata
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: e3972784-9ded-4da8-b90c-ec2da9c3297a
 ---
 # XMP writeback to renditions {#xmp-writeback-to-renditions}
 

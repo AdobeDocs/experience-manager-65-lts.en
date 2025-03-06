@@ -5,6 +5,7 @@ contentOwner: AG
 role: User, Admin
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 6665a26e-61b3-4780-87e4-1c6824ca5cc0
 ---
 # Add image maps {#adding-image-maps}
 

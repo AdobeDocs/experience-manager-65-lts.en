@@ -1,18 +1,15 @@
 ---
 title: Developing AEM Components - Code Samples
-
 description: This section provides some examples on how to create your own components for AEM.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: components
 content-type: reference
-
 legacypath: /content/docs/en/aem/6-2/develop/components/components-develop
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 879f11eb-0d47-43a7-9a64-53cefd851cf4
 ---
 # Developing AEM Components - Code Samples{#developing-aem-components-code-samples}
 

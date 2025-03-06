@@ -5,6 +5,7 @@ keywords: Enable Core Components, Core Components Adaptive Forms, Core Component
 role: Admin, Developer
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
+exl-id: a163598d-0a6e-45a8-b3b2-1f260007952b
 ---
 # Enable Adaptive Forms Core Components on AEM 6.5 Forms {#enable-adaptive-forms-core-components}
 
@@ -25,7 +26,7 @@ This article provides detailed instructions to setup and deploy AEM Archetype 41
 
 Before enabling Adaptive Forms Core Components on an AEM 6.5 Forms environment: 
 
-* [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/docs/experience-manager-65-2025/release-notes/aem-forms-current-service-pack-installation-instructions.html). 
+* [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html). 
 
 * Install the latest release of [Apache Maven](https://maven.apache.org/download.cgi).
 
@@ -133,7 +134,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     After the AEM Archetype project is successfully built, an AEM Package is generated. You can find the package at [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip
 
-1. Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
+1. Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
 
 >[!NOTE]
 >

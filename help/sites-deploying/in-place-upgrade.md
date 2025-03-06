@@ -5,28 +5,33 @@ topic-tags: upgrading
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: c7351625-b29e-45a7-b966-e7c0f56d4f22
 ---
 # Performing an In-Place Upgrade {#performing-an-in-place-upgrade}
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for AEM 6.5 LTS. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
+>This page outlines the in-place upgrade procedure for AEM 6.5 LTS. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
-Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the requirements for AEM 6.5 LTS. See how Analyzer can help you estimate the complexity of your upgarde and also see the Upgrade Scope and Requirements section of [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) for more information.
+Before executing your upgrade, there are several steps that must be completed. See [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) and [Pre-Upgrade Maintenance Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md) for more information. Additionally, make sure that your system meets the [requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md) and see [upgrade planning considerations](/help/sites-deploying/upgrade-planning.md) and how [Analyzer](/help/sites-deploying/pattern-detector.md) can help you estimate the complexity.
 
 <!--Finally, the downtime during the upgrade can be significally reduced by indexing the repository **before** performing the upgrade. For more information, see [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
 
 ## Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version:** Make sure you have Oracle's JRE 17 installed on your system.
+* **Minimum Required Java version:** Make sure you have Oracle's Java&trade; 17 installed on your system.
 
 ## Preparation of the AEM Quickstart jar file {#prep-quickstart-file}
 
+1. Download the new AEM 6.5 LTS jar file
+
+1. [Determine the correct upgrade start command](/help/sites-deploying/in-place-upgrade.md#determining-the-correct-upgrade-start-command-determining-the-correct-upgrade-start-command)
+
 1. Stop the instance if it is running
 
-1. Download the new AEM 6.5 LTS jar file and use it to replace the old one outside the `crx-quickstart` folder
+1. Use new AEM 6.5 LTS jar to replace the old one outside the `crx-quickstart` folder
 
 1. Take a backup of the `sling.properties` file (usually present in the `crx-quickstart/conf/`), then delete it
 
@@ -163,13 +168,13 @@ Where `/path/to/datastore` represents the path to your File Datastore.
    1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/1` under `crx-quickstart/install/1`
    1. Copy `com.adobe.granite.oak.s3connector-1.60.2/jcr_root/libs/system/install/15` under `crx-quickstart/install/15` 
 
-Now, startthe AEM instance using the new command determined using the information under the [Determining the correct upgrade start command](#determining-the-correct-upgrade-start-command) section.
+Now, start the AEM instance using the new command determined using the information under the [Determining the correct upgrade start command](#determining-the-correct-upgrade-start-command) section.
 
 ### Determining the correct upgrade start command {#determining-the-correct-upgrade-start-command}
 
 >[!NOTE]
 >
->Support for some of Java 8/11 arguments have been removed in Java 17, see Java arguments considerations for AEM 6.5 LTS (link stub).
+>Support for some of Java 8/11 arguments have been removed in Java 17, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
 
 To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 
@@ -187,10 +192,10 @@ Note that starting AEM from the start script will not start the upgrade. Most cu
    /usr/bin/java -server -Xmx1024m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar crx-quickstart/app/cq-quickstart-6.5.0-standalone-quickstart.jar start -c crx-quickstart -i launchpad -p 4502 -Dsling.properties=conf/sling.properties
    ```
 
-1. Modify the command by replacing the path to the existing jar ( `crx-quickstart/app/aem-quickstart*.jar` in this case) with the new jar that is a sibling of the `crx-quickstart` folder. Using our previous command as an example, our command would be:
+1. Modify the command by replacing the path to the existing jar ( `crx-quickstart/app/aem-quickstart*.jar` in this case) with the new AEM 6.5 LTS jar that is a sibling of the `crx-quickstart` folder. Using our previous command as an example, our command would be:
 
    ```shell
-   /usr/bin/java -server -Xmx4096m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar cq-quickstart-6.6.0.jar -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
+   /usr/bin/java -server -Xmx4096m -Djava.awt.headless=true -Dsling.run.modes=author,crx3,crx3tar -jar <AEM-6.5-LTS.jar> -c crx-quickstart -p 4502 -Dsling.properties=conf/sling.properties
    ```
 
    This will ensure that all proper memory settings, custom runmodes, and other environmental parameters are applied for the upgrade. After the upgrade has completed, the instance may be started from the start script on future startups.

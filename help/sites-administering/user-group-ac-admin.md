@@ -8,6 +8,7 @@ docset: aem65
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: a1f4823f-4861-4e99-88cd-4a686abe3f64
 ---
 # User, Group, and Access Rights Administration{#user-group-and-access-rights-administration}
 

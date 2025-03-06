@@ -7,6 +7,7 @@ feature: Tagging, Metadata
 role: Architect, Leader
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: dc231e6b-d656-4626-a800-ee66533b1c86
 ---
 # Manage metadata of your digital assets {#managing-metadata-for-digital-assets}
 

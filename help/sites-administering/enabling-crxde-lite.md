@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 109ab777-c7be-4725-8b91-c4e5d6a735ab
 ---
 # Enabling CRXDE Lite in AEM{#enabling-crxde-lite-in-aem}
 

@@ -5,10 +5,10 @@ contentOwner: Rick Brough
 topic-tags: dynamic-media
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-
 feature: Asset Management,Renditions
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 9f95a54d-6c5e-44c1-965e-631ec7487308
 ---
 # Smart Imaging {#smart-imaging}
 
@@ -437,4 +437,3 @@ To invalidate the entire cache, you must create a support case requesting such e
 Smart Imaging now supports lossy conversion based on the quality level. You can continue using lossless conversion by setting the quality to 100, either through your company's settings, or by adding `qlt=100` to the image's URL path.
 
 +++
-

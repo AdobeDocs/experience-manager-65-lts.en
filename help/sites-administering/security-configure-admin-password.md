@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: cab746a0-4f50-4a0b-8d3a-7140a710fbfa
 ---
 # Configure the Admin Password on Installation{#configure-the-admin-password-on-installation}
 

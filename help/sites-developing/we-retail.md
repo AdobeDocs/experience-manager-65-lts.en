@@ -8,6 +8,7 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 71a49353-5273-46ee-a1ff-5bbfe5b6b0b4
 ---
 # We.Retail Reference Implementation{#we-retail-reference-implementation}
 

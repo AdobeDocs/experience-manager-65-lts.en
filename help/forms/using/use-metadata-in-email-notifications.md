@@ -1,11 +1,12 @@
 ---
-title: Use metadata in an email notification 
+title: Use metadata in an email notification
 description: Use metadata to populate information in a forms workflow email notification
 topic-tags: publish
 docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 64d4ef01-ee33-4c8b-977f-0c9b31755820
 ---
 # Use metadata in an email notification {#use-metadata-in-an-email-notification}
 

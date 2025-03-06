@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: ed55397c-6777-4d00-a6e2-8b1b025e533f
 ---
 # Data Modeling - David Nuescheler's Model{#data-modeling-david-nuescheler-s-model}
 

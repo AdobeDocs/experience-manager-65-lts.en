@@ -9,6 +9,7 @@ role: User, Admin
 mini-toc-levels: 3
 feature: Video
 solution: Experience Manager, Experience Manager Assets
+exl-id: a54d39c3-e3eb-4d09-b79e-b5284e6e3f0b
 ---
 # Video {#video}
 

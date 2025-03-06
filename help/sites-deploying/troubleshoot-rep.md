@@ -9,6 +9,7 @@ docset: aem65
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 015def31-c7de-42b3-8218-1284afcb6921
 ---
 # Troubleshooting Replication{#troubleshooting-replication}
 

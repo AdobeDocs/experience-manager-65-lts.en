@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: ef0917ec-bae2-4a5c-b3ca-5b6e57f8bc93
 ---
 # Adding attachments{#adding-attachments}
 

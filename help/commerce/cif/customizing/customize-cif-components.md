@@ -4,6 +4,7 @@ description: Learn how to customize Adobe Experience Manager CIF Core Components
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: e8f2a771-b2e3-4f3e-85a0-480f783fc313
 ---
 # Customize Adobe Experience Manager CIF Core Components {#customize-cif-components}
 

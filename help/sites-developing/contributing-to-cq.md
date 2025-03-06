@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 1197dc8e-7fbe-4f74-942b-3aa9fafc07ac
 ---
 # Contributing to AEM{#contributing-to-aem}
 

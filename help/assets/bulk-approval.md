@@ -6,6 +6,7 @@ feature: Collaboration, Collections
 role: User
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 9d921487-89a7-4271-bdce-67ae539e5d85
 ---
 # Review folder assets and collections {#review-folder-assets-and-collections}
 

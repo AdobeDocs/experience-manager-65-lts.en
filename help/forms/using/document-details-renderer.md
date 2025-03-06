@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: HTML5 Forms,Adaptive Forms,Mobile Forms
 role: Admin, User, Developer
+exl-id: e1612298-721d-499c-96c9-fd4418725106
 ---
 # Document details for renderer {#document-details-for-renderer}
 

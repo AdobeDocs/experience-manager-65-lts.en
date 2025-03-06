@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 72c31f40-d1b0-47ae-bdeb-e9b92c3d27e1
 ---
 # Configure the document security server {#configure-the-document-security-server}
 

@@ -1,6 +1,6 @@
 ---
 title: Configure adaptive forms cache
-description: The adaptive forms cache is designed specifically for adaptive forms and documents. It caches adaptive forms and adaptive documents with the objective of reducing the time required to render an adaptive form or document on the client. 
+description: The adaptive forms cache is designed specifically for adaptive forms and documents. It caches adaptive forms and adaptive documents with the objective of reducing the time required to render an adaptive form or document on the client.
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: Configuration
@@ -8,6 +8,7 @@ docset: aem65
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
+exl-id: a6793fdf-7ee8-4a54-91d8-635eb79ca702
 ---
 # Configure adaptive forms cache {#configure-adaptive-forms-cache}
 

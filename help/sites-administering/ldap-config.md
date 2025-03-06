@@ -1,15 +1,14 @@
 ---
 title: Configuring LDAP with AEM 6
 description: Learn how to use and configure LDAP services with AEM.
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: Security
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: d19750c4-9477-4bcb-b225-5f089b43194d
 ---
 # Configuring LDAP with AEM 6 {#configuring-ldap-with-aem}
 

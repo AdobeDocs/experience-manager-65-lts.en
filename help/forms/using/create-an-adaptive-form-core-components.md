@@ -9,6 +9,7 @@ docset: aem65
 role: Admin, Developer
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
+exl-id: eb857ab1-ab1b-4c77-af3b-4507f53a8241
 ---
 # Create Core Components based Adaptive Forms {#creating-an-adaptive-form-core-components}
 
@@ -55,7 +56,7 @@ You require the following to create an Adaptive Form:
 
 ## Create an Adaptive Form {#create-an-adaptive-form}
 
-1. Login to your local [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/deploying/deploy.html?lang=en#author-and-publish-installs). 
+1. Login to your local [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/deploy.html?lang=en#author-and-publish-installs). 
 
 1. Enter your credentials on the Experience Manager login page. After you are logged in, in the upper-left corner, select **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 

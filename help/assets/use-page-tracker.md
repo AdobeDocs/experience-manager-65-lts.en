@@ -5,6 +5,7 @@ contentOwner: AG
 role: Architect, Admin
 feature: Asset Reports
 solution: Experience Manager, Experience Manager Assets
+exl-id: bf8b2e51-60f8-423e-8ed6-167d71d6ec94
 ---
 # Use page tracker and embed code in web pages {#using-page-tracker-and-embed-code-in-web-pages}
 

@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 198016d7-0fb5-47e6-91ed-f2f0c98b2224
 ---
 # Specifying XCI configuration options {#specifying-xci-configuration-options}
 

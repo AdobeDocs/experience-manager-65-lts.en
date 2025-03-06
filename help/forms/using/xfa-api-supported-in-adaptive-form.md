@@ -1,16 +1,13 @@
 ---
 title: XFA support in XDP-based adaptive forms
-
 description: Lists supported XFA events, properties, scripts, and validation in adaptive forms.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: develop
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 4efa0c3f-f628-4168-88c9-ba5d0ce075ff
 ---
 # XFA support in XDP-based adaptive forms{#xfa-support-in-xdp-based-adaptive-forms}
 

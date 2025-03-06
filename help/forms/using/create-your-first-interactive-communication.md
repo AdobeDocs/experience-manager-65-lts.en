@@ -1,16 +1,13 @@
 ---
 title: Tutorial - Create your first Interactive Communication
-
 description: Learn to create your first Interactive Communication.
-
-
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: interactive-communications, introduction
-
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 247ea068-6564-4b62-8449-a8800548106f
 ---
 # Tutorial: Create your first Interactive Communication {#tutorial-create-your-first-interactive-communication}
 

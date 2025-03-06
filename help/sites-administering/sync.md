@@ -9,8 +9,8 @@ docset: aem65
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: b7b1bce6-9cea-4f13-955f-f9e361f298bf
 ---
-
 # User Synchronization{#user-synchronization}
 
 ## Introduction {#introduction}

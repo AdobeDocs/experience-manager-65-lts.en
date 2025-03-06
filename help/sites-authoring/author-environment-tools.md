@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 11ab6be0-ed61-4a4b-af82-d26eec982edd
 ---
 # Authoring - the Environment and Tools{#authoring-the-environment-and-tools}
 

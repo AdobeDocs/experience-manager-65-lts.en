@@ -8,6 +8,7 @@ topic-tags: interactive-communication
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 92bb4045-ed22-4cc3-9365-65cb39b3c82d
 ---
 # Generate multiple interactive communications using Batch API {#use-batch-api-to-generate-multiple-ic}
 
@@ -82,7 +83,7 @@ To create interactive communication from records saved in a JSON file:
     1. Specify the **[!UICONTROL Name]** and physical **[!UICONTROL Path]** of the folder. For example, `c:\batchprocessing`.
     1. Select the **[!UICONTROL Service]** option in the **[!UICONTROL Process File Using]** field.
     1. Select the **[!UICONTROL com.adobe.fd.ccm.multichannel.batch.impl.service.InteractiveCommunicationBatchServiceImpl]** service in the **[!UICONTROL Service Name]** field.
-    1. Specify an **[!UICONTROL Output File Pattern]**. For example, the %F/ [pattern](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/forms/administrator-help/configuring-watched-folder-endpoints.html?lang=en#about-file-patterns) specifies the Watched Folder can find input files in a subfolder of the Watched Folder\input folder.
+    1. Specify an **[!UICONTROL Output File Pattern]**. For example, the %F/ [pattern](https://experienceleague.adobe.com/docs/experience-manager-65-lts/content/forms/administrator-help/configuring-watched-folder-endpoints.html?lang=en#about-file-patterns) specifies the Watched Folder can find input files in a subfolder of the Watched Folder\input folder.
 1. Configure advanced parameters:
     1. Open the **[!UICONTROL Advanced]** tab and add the following custom properties:
 
@@ -142,7 +143,7 @@ You combine data (records) saved in an external data source with an interactive 
     1. Specify the **[!UICONTROL Name]** and physical **[!UICONTROL Path]** of the folder. For example, `c:\batchprocessing`.
     1. Select the **[!UICONTROL Service]** option in the **[!UICONTROL Process File Using]** field.
     1. Select the **[!UICONTROL com.adobe.fd.ccm.multichannel.batch.impl.service.InteractiveCommunicationBatchServiceImpl]** service in the **[!UICONTROL Service Name]** field.
-    1. Specify an **[!UICONTROL Output File Pattern]**. For example, the %F/ [pattern](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/forms/administrator-help/configuring-watched-folder-endpoints.html?lang=en#about-file-patterns) specifies the Watched Folder can find input files in a subfolder of the Watched Folder\input folder.  
+    1. Specify an **[!UICONTROL Output File Pattern]**. For example, the %F/ [pattern](https://experienceleague.adobe.com/docs/experience-manager-65-lts/content/forms/administrator-help/configuring-watched-folder-endpoints.html?lang=en#about-file-patterns) specifies the Watched Folder can find input files in a subfolder of the Watched Folder\input folder.  
 1. Configure advanced parameters:
     1. Open the **[!UICONTROL Advanced]** tab and add the following custom properties:
 
@@ -359,4 +360,4 @@ Apart from saving the data on file system, you store JSON files in CRX-repositor
 
 >[!NOTE]
 >
->Only CRX protocol is enabled by default. To enable other supported protocols, see [Configuring prefill service using Configuration Manager](https://experienceleague.adobe.com/docs/experience-manager-65-2025/content/forms/adaptive-forms-advanced-authoring/prepopulate-adaptive-form-fields.html?lang=en).
+>Only CRX protocol is enabled by default. To enable other supported protocols, see [Configuring prefill service using Configuration Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/content/forms/adaptive-forms-advanced-authoring/prepopulate-adaptive-form-fields.html?lang=en).

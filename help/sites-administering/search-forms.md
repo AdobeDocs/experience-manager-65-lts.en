@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 68a4d4b2-91a3-4545-a491-2a1ec08ceec5
 ---
-
 # Configuring Search Forms{#configuring-search-forms}
 
 Use **Search Forms** to customize the selection of search predicates used in the search panels available in various AEM consoles and/or panels of the author environment. Customizing these panels makes the search functionality versatile according your specific needs.

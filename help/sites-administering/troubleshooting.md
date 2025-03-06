@@ -1,18 +1,15 @@
 ---
 title: Working with Logs
-
 description: Learn how to troubleshoot AEM by working with logs.
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: operations
 content-type: reference
-
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: f286ca06-e567-4d77-a0ff-6786a8bbf32a
 ---
 # Working with Logs{#working-with-logs}
 

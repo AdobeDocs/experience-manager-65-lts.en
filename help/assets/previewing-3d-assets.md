@@ -7,6 +7,7 @@ feature: 3D Assets
 role: User
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: 88dc81aa-f8b2-403e-bd87-ea224ac2d0c2
 ---
 # Preview 3D assets in Adobe Experience Manager {#previewing-3d-assets-aem}
 

@@ -1,16 +1,13 @@
 ---
 title: Associating submission reviewers with a form
-
 description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
-
-
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: author
-
 docset: aem65
 feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: fbddbd62-2f21-4eb6-8926-90647846ee8b
 ---
 # Associating submission reviewers with a form {#associating-submission-reviewers-with-a-form}
 

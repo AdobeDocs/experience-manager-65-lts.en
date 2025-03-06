@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
+exl-id: a9eae40f-531f-4354-ade0-853e84dd88d9
 ---
 # Configuring Connector for EMC Documentum {#configuring-connector-for-emc-documentum}
 

@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 755df7e2-3603-4c0d-ad07-ec6f27de8c64
 ---
 # Introduction to Process Reporting{#introduction-to-process-reporting}
 

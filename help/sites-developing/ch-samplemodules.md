@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Personalization
 role: Developer
+exl-id: 523d8bf9-b925-4c09-8452-bb3a31489dd1
 ---
 # Sample ContextHub UI Module Types {#sample-contexthub-ui-module-types}
 

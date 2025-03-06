@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
+exl-id: 11a7278e-efaa-402c-8add-5280bf5a156a
 ---
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests} 
 

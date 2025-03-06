@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 3e20857b-05bb-4f44-8011-550bdaf857c5
 ---
 # Creating a login screen{#creating-a-new-login-screen}
 
@@ -297,7 +298,7 @@ css.newLoginContentArea {
 1. Add new images in `/apps/livecycle/core/content/login`. To add image:
 
    1. Install WebDAV client.
-   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/webdav-access.html?lang=en).
+   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
 
    1. Add new images.
 

@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
 role: Admin, User, Developer
+exl-id: 047437c4-f642-4b77-b5e8-ab2aa34a83e5
 ---
-
 # Interactive Communications Overview {#interactive-communications-overview}
 
 This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.

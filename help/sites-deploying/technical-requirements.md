@@ -5,6 +5,7 @@ topic-tags: platform
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+exl-id: f65dd129-9e28-4de1-acca-dd31eaf3c19b
 ---
 # Technical Requirements{#technical-requirements}
 
@@ -123,14 +124,6 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 >
 >For more information, see the [MongoDB for Adobe Experience Manager page](https://www.mongodb.com/lp/contact/mongodb-adobe-experience-manager).
 
->[!NOTE]
->
->Supported relational databases as listed above are third-party software and are not included in the AEM licensing package.
->
->To run AEM 6.5 with a supported relational database, a separate support contract with a database vendor is required. Adobe Customer Care assists qualifying issues related to the usage of relational databases with AEM 6.5.
->
->**Most relational databases are currently supported within Level-R on AEM 6.5, which comes with support criteria and a support program as stated in the Level-R description above.**
-
 ### Servlet Engines / Application Servers {#servlet-engines-application-servers}
 
 Adobe Experience Manager can run either as a stand-alone server (the quickstart JAR file) or as a web application within a third-party application server (the WAR file).
@@ -140,10 +133,9 @@ The minimum Servlet API Version required is Servlet 3.1. In addition, AEM suppor
 | Platform |Support Level |
 |---|---|
 | **Quickstart built-in Servlet Engine (Jetty 11.0.x)** |A: Supported |
-| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17 |R: Restricted Support for new contracts `[2]` |
-| Apache Tomcat 10.1.x |R: Restricted Support for new contracts `[2]` |
+| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17 |R: Restricted Support for new contracts `[1]` |
+| Apache Tomcat 11.0.x |R: Restricted Support for new contracts `[1]` |
 
-1. Recommended for deployments with AEM Forms.
 1. Starting AEM 6.5 deployments on application servers moves to Restricted Support. Existing customers can upgrade to AEM 6.5 and keep using application servers. For new customers, it comes with support criteria and a support program as stated in the Level-R description above.
 
 ### Server Operating Systems {#server-operating-systems}
@@ -168,21 +160,6 @@ Adobe Experience Manager works with the following server platforms for productio
     >* zlib.x86-64 (1.2.7-17)
     >* libxcb.x86_64 (1.13-1.el7)
     >* libXau.x86_64 (1.0.8-2.1.el7)
-
-1. Microsoft&reg; Windows production deployments are supported for customers upgrading to 6.5 and for non-production usage. New deployments are on-request for AEM Sites and Assets.
-1. AEM Forms is supported on Microsoft&reg; Window Server without the Support-Level R restrictions.
-1. AEM Forms removed support for Microsoft&reg; Windows Server 2016.
-
->[!NOTE]
->
->If you are installing AEM Forms 6.5, make sure you have installed the following 32-bit Microsoft&reg; Visual C++ redistributable.
->
->* Microsoft&reg; Visual C++ 2008 redistributable
->* Microsoft&reg; Visual C++ 2010 redistributable
->* Microsoft&reg; Visual C++ 2012 redistributable
->* Microsoft&reg; Visual C++ 2013 redistributable 
->* Microsoft&reg; Visual C++ 2019(VC14.28 or greater) redistributable
-
 
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
 
@@ -290,18 +267,6 @@ The AEM user interface is optimized for larger screens (typically notebooks and 
 ### Supported Browsers for Websites {#supported-browsers-for-websites}
 
 Generally, browser support for websites rendered by AEM Sites depends on the implementation of AEM page templates, design and component output, and is therefore in the control of the party implementing these parts.
-
-### WebDAV Clients {#webdav-clients}
-
-**Microsoft&reg; Windows 7+**
-
-When connecting with Microsoft&reg; Windows 7+ to an AEM instance that is not secured with SSL, basic authentication over an unsecured network must be enabled in Windows. It requires a change in the Windows Registry of the WebClient:
-
-1. Locate the registry subkey:
-
-    * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WebClient\Parameters
-
-1. Add the BasicAuthLevel registry entry to this subkey using a value of 2 or more.
 
 ## Additional Platform Notes {#additional-platform-notes}
 

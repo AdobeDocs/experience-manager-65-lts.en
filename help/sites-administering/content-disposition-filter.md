@@ -1,15 +1,14 @@
 ---
 title: Content Disposition Filter
 description: Learn how to use the Content Disposition Filter to prevent XSS attacks.
-
 contentOwner: trushton
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: Security
-
 solution: Experience Manager, Experience Manager Sites
 feature: Security
 role: Admin
+exl-id: 997cb6f3-1ef8-409c-acea-157d5b27a6b2
 ---
 # Content Disposition Filter {#content-disposition-filter}
 

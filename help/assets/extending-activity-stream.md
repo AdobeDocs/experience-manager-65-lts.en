@@ -5,6 +5,7 @@ contentOwner: AG
 role: Developer
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 44604607-e49d-469c-a6f1-dedbcd657d65
 ---
 # Integrate [!DNL Assets] with activity stream {#integrating-assets-with-activity-stream}
 

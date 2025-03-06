@@ -4,6 +4,7 @@ description: Learn how to manage translation projects in Adobe Experience Manage
 solution: Experience Manager, Experience Manager Sites
 feature: Language Copy
 role: Admin
+exl-id: 901bd212-3daf-4b1e-a7c3-afb832959913
 ---
 # Managing Translation Projects{#managing-translation-projects}
 

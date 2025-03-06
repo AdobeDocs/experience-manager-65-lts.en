@@ -8,6 +8,7 @@ content-type: reference
 feature: Developing,Tagging
 solution: Experience Manager, Experience Manager Sites
 role: Developer
+exl-id: 2c1d2260-8cda-4dd0-b3c7-a57957282421
 ---
 # Tagging{#tagging}
 

@@ -8,6 +8,7 @@ content-type: reference
 role: User, Admin
 feature: Configuration
 solution: Experience Manager, Experience Manager Assets
+exl-id: 16798533-855d-4f14-8edb-edba79818dbf
 ---
 # Link URLs to your web application {#linking-urls-to-your-web-application}
 

@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer
+exl-id: a2f79634-6eca-479a-89d7-e1ef2e4a6e6d
 ---
 # We.Gov reference site FOIA walkthrough {#we-gov-reference-site-foia-walkthrough}
 

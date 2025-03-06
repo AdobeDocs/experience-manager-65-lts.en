@@ -8,6 +8,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 3b453793-0308-49a9-9d5b-b323780d6903
 ---
 # Sending a form submission acknowledgement via email {#sending-a-form-submission-acknowledgement-via-email}
 

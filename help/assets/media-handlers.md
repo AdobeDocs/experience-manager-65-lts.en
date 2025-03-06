@@ -6,6 +6,7 @@ contentOwner: AG
 role: User
 feature: Workflow,Renditions
 solution: Experience Manager, Experience Manager Assets
+exl-id: f96a2642-f923-481e-9735-14a62a80e6f1
 ---
 # Process assets using media handlers and workflows {#processing-assets-using-media-handlers-and-workflows}
 

@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Administering,Personalization
 role: Admin
+exl-id: bd75453e-8d3f-466e-b573-653eb68429cf
 ---
-
 # Configuring Segmentation {#configuring-segmentation}
 
 >[!NOTE]

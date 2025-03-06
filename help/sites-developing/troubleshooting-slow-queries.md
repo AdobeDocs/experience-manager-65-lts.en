@@ -5,10 +5,10 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 42ad741e-49d6-4acb-a45c-0a6750f6fdbb
 ---
 # Troubleshooting Slow Queries{#troubleshooting-slow-queries}
 

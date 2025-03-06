@@ -1,15 +1,14 @@
 ---
 title: Best Practices for Performance Testing
 description: Learn about the overall strategies and methodologies used for performance testing, and some of the tools that are available to help the process.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 29c20cf3-1694-4d06-ab7c-688018808c44
 ---
 # Best Practices for Performance Testing{#best-practices-for-performance-testing}
 
@@ -115,7 +114,7 @@ The **ObservationQueueMaxLength** section shows the number of events in Oak's ob
 1. Place it under the /crx-­‐quickstart/install folder. 
 
 >[!NOTE]
->See [AEM 6.x | Performance Tuning Tips](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/configuring-performance.html)
+>See [AEM 6.x | Performance Tuning Tips](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html)
 
 The default setting is 10,000, but most deployments must raise it to 20,000 or 50,000.
 
@@ -143,7 +142,7 @@ After running performance tests on the author instance, any issues must be inves
 * Watch the error log for errors or warnings. For more information, see [Logging](/help/sites-deploying/configure-logging.md).
 * Monitor system hardware resources such as memory and CPU utilization, disk I/O, or network I/O. These resources are often the causes of performance bottlenecks.
 * Optimize the architecture of the pages and how they are addressed to minimize the usage of URL parameters to allow for as much caching as possible.
-* Follow the [Performance Optimization](/help/sites-deploying/configuring-performance.md) and [Performance tuning tips](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/configuring/configuring-performance.html) documentation.
+* Follow the [Performance Optimization](/help/sites-deploying/configuring-performance.md) and [Performance tuning tips](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html) documentation.
 
 * If issues are present with editing certain pages or components on author instances, use the TouchUI Developer Mode to inspect the page in question. Doing so provides a breakdown of each content area on the page, and its load time.
 * Minify all JS and CSS on the site. See this [blog post](https://blogs.adobe.com/foxes/enable-js-and-css-minification/).

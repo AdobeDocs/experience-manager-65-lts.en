@@ -9,6 +9,7 @@ audience: developer
 feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
+exl-id: 25442753-8309-452b-881a-d33ab159d5b2
 ---
 # AEM Content & Commerce Authoring Pickers {#cif-pickers}
 

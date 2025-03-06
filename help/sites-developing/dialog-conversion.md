@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,Developer Tools
 role: Developer
+exl-id: c0e3809d-dde0-44a0-b075-e670d86e9d10
 ---
 # Dialog Conversion Tool{#dialog-conversion-tool}
 

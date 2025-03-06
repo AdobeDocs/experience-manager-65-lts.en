@@ -4,6 +4,7 @@ description: Steps to integrate Salesforce integration with AEM Forms using OAut
 solution: Experience Manager, Experience Manager Forms
 feature: Form Data Model
 role: Admin, User, Developer
+exl-id: 56b4a767-1210-47f3-b022-766b0dda9943
 ---
 # Integration of Salesforce using OAuth 2.0 client credentials flow  {#configure-salesforce-with-ouath-2.0-client-credential}
 
@@ -63,4 +64,4 @@ Before setting communication between a Salesforce application and an AEM environ
 1. Click **[!UICONTROL Test Connection]**.
 1. If the connection succeeds, click the **[!UICONTROL Create]** button.
 
-Now, you can [create the Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-65-2025/forms/form-data-model/create-form-data-models.html?lang=en) to integrate the configured datasource with your Adaptive Forms.
+Now, you can [create the Form Data Model](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/form-data-model/create-form-data-models.html?lang=en) to integrate the configured datasource with your Adaptive Forms.

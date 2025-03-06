@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
+exl-id: 2b4214b0-1a38-4e36-b740-16fcaf9ceb54
 ---
 # Data Store Garbage Collection {#data-store-garbage-collection}
 

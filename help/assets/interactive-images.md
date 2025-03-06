@@ -9,6 +9,7 @@ docset: aem65
 feature: Interactive Images
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: e4be0056-1e19-41a8-8d8c-be65999b562d
 ---
 # Interactive images{#interactive-images}
 

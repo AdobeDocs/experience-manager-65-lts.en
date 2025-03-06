@@ -1,18 +1,15 @@
 ---
 title: Assembling PDF Documents with Bookmarks
-
 description: Use the Assembler service to modify a PDF document that does contain bookmarks to include bookmarks using the Java API and the Web Service API.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+exl-id: 40fbbef6-3a2e-455d-81a3-23c7e322c0fb
 ---
 # Assembling PDF Documents with Bookmarks {#assembling-pdf-documents-with-bookmarks} 
 

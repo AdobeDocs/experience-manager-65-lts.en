@@ -1,17 +1,14 @@
 ---
 title: Performance & Scalability
-
 description: This white paper discusses the ways scalability has been built into AEM along with performance indicators and disaster recovery features.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: 81306cad-b968-4bdd-973c-50cbcdd2cee7
 ---
 # Performance & Scalability{#performance-scalability}
 

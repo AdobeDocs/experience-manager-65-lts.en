@@ -1,17 +1,14 @@
 ---
 title: Target offers
-
 description: Create target offers in Adobe Experience Manager for use in Adobe Target.
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 9d1501db-3e0a-4bb8-bec0-5e69dcf7fa37
 ---
 # Target offers{#target-offers}
 

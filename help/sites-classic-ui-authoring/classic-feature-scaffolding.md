@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: 281d8bd3-d6f2-42f8-8d77-b138f0ea5aae
 ---
 # Scaffolding{#scaffolding}
 

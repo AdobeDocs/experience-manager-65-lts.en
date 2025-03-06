@@ -9,13 +9,14 @@ targetaudience: target-audience upgrader
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 ---
 # Upgrading to Adobe Experience Manager (AEM) 6.5 LTS {#upgrading-to-aem}
 
 >[!NOTE]
 >The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs.
 
-This section covers upgrading an AEM installation to AEM 6.5:
+This section covers upgrading an AEM installation to AEM 6.5 LTS:
 
 <!-- Alexandru: drafting for now 
 
@@ -44,31 +45,6 @@ For easier reference to the AEM instances involved in these procedures, the foll
 
 ### Updates {#updates}
 
-The following are major changes of note over the last several releases of AEM:
+Foundation layer now supports Java 17, incorporating latest open-source bundles from Apache Sling, Felix, and Jackrabbit Oak. Additionally, the packaging of the AEM 6.5 LTS uber-jar has changed. Additionally, a few legacy features have been removed from AEM 6.5 LTS. For more information, refer to [Release notes](/help/release-notes/release-notes.md#whats-new-what-s-new) and [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md)
 
-1. The Foundation layer has been upgraded to support Java 17 (which comprises open-source layers of bundles from Apache Sling, Apache Felix and Apache Jackrabbit Oak) 
-
-1. The AEM 6.5 LTS jar packaging now supports Jarkarta Servlet APIs specifications 5 and war packaging can be deployed to servlet containers implementing Jakarta Servlet API specifications 5/6
-
-1. Packaging of AEM 6.5 LTS uber-jar has changed. Please refer [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) for more information.
-
-### Removed Legacy Features/Artifacts {#removed-legacy-features-artifacts}
-
-Following legacy solutions have been removed from AEM 6.5 LTS. For more information, please refer to TBD: link to release notes and [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md) 
-
-1. Social
-1. Commerce
-1. Screens
-1. We-retail
-1. Integration of search and promote 
-
-**Removed Artifacts**
-
-1. CRX-explorer
-1. Crx2oak
-1. Google guava (removed due to security vulnerabilities)
-1. Abdera-parser (removed due to security vulnerabilities)
-1. jdom (`org.apache.servicemix.bundles.jdom`) (removed due to security vulnerabilities)
-1. `com.github.jknack.handlebars` (removed due to security vulnerabilities)
-
-AEM 6.5 LTS has a strong focus on backward compatibility of features and comes with an analyzer tool. See [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/pattern-detector.md) for assessment of complexity as you start planning for the upgrade. For more details about what else has changed, see the complete release notes here. TBD: Link to release notes of AEM 6.5 LTS
+AEM 6.5 LTS has a strong focus on backward compatibility of features and comes with an analyzer tool. See [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/aem-analyzer.md) for assessment of complexity as you start [planning for the upgrade](/help/sites-deploying/upgrade-planning.md).

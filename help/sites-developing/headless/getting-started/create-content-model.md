@@ -4,6 +4,7 @@ description: Define the structure of the content that you create and serve using
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin,Architect,Data Architect,Developer
+exl-id: 768a5d73-521f-47a5-b4a3-d1b0b77798f7
 ---
 # Creating Content Fragment Models Headless Quick Start Guide {#creating-content-fragment-models}
 

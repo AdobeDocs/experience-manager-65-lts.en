@@ -4,6 +4,7 @@ description: Learn how to work with video in Dynamic Media such as best practice
 feature: Asset Management
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
+exl-id: 5dc734b3-22e3-4839-bc72-b96fa6dd8bd2
 ---
 # Video in Dynamic Media {#video}
 

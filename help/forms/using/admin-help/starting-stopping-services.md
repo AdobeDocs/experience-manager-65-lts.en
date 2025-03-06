@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: a4ff69d2-a429-49b9-ba48-9dd56ccdf23e
 ---
 # Starting and stopping services {#starting-and-stopping-services}
 

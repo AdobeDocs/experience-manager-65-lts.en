@@ -7,6 +7,7 @@ topic-tags: publish
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
+exl-id: 8f52ec13-80a9-4b28-824f-0f09fb988529
 ---
 # Create or Configure a watched folder {#create-or-configure-a-watched-folder}
 

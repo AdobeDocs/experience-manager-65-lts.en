@@ -1,17 +1,14 @@
 ---
 title: Integrating Landing Pages with Adobe Analytics
-
 description: Learn how to integrate landing pages with Adobe Analytics.
-
-
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: personalization
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
+exl-id: 24ab494d-4a11-408e-8dc0-de16508edfac
 ---
 # Integrating Landing Pages with Adobe Analytics{#integrating-landing-pages-with-adobe-analytics}
 

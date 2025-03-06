@@ -1,18 +1,14 @@
 ---
 title: Disassemble a PDF document usingthe web service API
-
 description: Disassemble a PDF document using the Assembler Service API
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/programmatically_disassembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 35802b50-71ca-4bb2-8f2c-7452b81a6b1f
 ---
 # Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api} 
 

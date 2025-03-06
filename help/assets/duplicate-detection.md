@@ -6,6 +6,7 @@ role: User, Admin
 feature: Asset Management,Asset Reports
 hide: yes
 solution: Experience Manager, Experience Manager Assets
+exl-id: ba54ecc2-a158-462a-8724-f6103b692edc
 ---
 # Enable detection of duplicate assets {#enable-detection-of-duplicate-assets}
 

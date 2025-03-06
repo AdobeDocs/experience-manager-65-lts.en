@@ -1,17 +1,14 @@
 ---
 title: Customizing Views of Page Properties
-
 description: Every page has a set of properties that you can edit as required
-
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 027e086f-0883-45de-9531-b8119c99b118
 ---
 # Customizing Views of Page Properties{#customizing-views-of-page-properties}
 

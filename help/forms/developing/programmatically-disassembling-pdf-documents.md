@@ -1,17 +1,14 @@
 ---
 title: Programmatically Disassembling PDF Documents
-
 description: Use the Assembler service to disassemble a single PDF document into multiple PDF documents using the Java API and the Web Service API.
-
-
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
+exl-id: 04700c18-c5fe-45c3-b9ad-16d4b427d65e
 ---
 # Programmatically Disassembling PDF Documents {#programmatically-disassembling-pdf-documents} 
 

@@ -8,6 +8,7 @@ discoiquuid: b8465471-0458-42d6-8209-8ba90f41154a
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: ef15d61a-2cfe-4e2b-aa03-685b7db8a7b7
 ---
 # Right-to-left languages in HTML5 forms {#right-to-left-languages-in-html-forms}
 

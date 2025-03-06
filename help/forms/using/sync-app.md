@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: c1c4ab9c-7950-41f8-a493-11e11ebcaa95
 ---
 # Synchronizing the app{#synchronizing-the-app}
 

@@ -1,19 +1,15 @@
 ---
 title: Creative Project and PIM Integration
-
 description: Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets
-
-
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: projects
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 4531a41c-99fa-4e98-b4f4-f8fc92ed9095
 ---
-
 # Creative Project and PIM Integration {#creative-project-and-pim-integration}
 
 If you are a marketer or creative professional, you can use Creative Project tools in Adobe Experience Manager (AEM) to manage eCommerce-related product photography and associated creative processes within your organization.

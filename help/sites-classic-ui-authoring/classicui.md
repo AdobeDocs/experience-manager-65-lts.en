@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: f600102e-87cd-464e-90d4-8e5d2a5608da
 ---
 # Authoring in the Classic UI{#authoring-in-the-classic-ui}
 

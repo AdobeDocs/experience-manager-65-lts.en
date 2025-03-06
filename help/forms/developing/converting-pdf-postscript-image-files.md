@@ -7,8 +7,8 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 509b9e53-9af4-4916-afba-2db358ec0764
 ---
 # Converting PDF to Postscript and Image Files {#converting-pdf-to-postscript-andimage-files} 
 

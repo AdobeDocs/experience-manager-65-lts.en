@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: introduction
 docset: aem65
 feature: Adaptive Forms
-
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: e9549ac9-0ada-4661-969a-709f0ed3b133
 ---
 # Introduction to AEM Forms{#introduction-to-aem-forms}
 
@@ -31,7 +31,7 @@ AEM Forms provides forms management tools that not only lets you manage adaptive
 
 >[!NOTE]
 >
->The Adaptive Forms feature, available in [AEM 6.5 QuickStart](https://experienceleague.adobe.com/docs/experience-manager-65-2025/deploying/deploying/deploy.html), is designed for exploration and evaluation purposes only. For production use, it is essential to obtain a valid license for AEM Forms, as Adaptive Forms functionality requires proper licensing.
+>The Adaptive Forms feature, available in [AEM 6.5 QuickStart](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/deploy.html), is designed for exploration and evaluation purposes only. For production use, it is essential to obtain a valid license for AEM Forms, as Adaptive Forms functionality requires proper licensing.
 
 ![AEM forms capabilities](do-not-localize/4th-draft-updated.gif)
 
@@ -119,4 +119,3 @@ Personalized documents, like, receipts, welcome kits, and statements can easily 
 ![Layout two](do-not-localize/layout-02.png)
 
 Streamlined personalized communication workflow
-

@@ -8,6 +8,7 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 1a11407d-7261-4f1a-bcb9-4c06b8277af4
 ---
 # Managing Subscriptions{#managing-subscriptions}
 

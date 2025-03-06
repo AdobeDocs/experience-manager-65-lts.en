@@ -1,17 +1,14 @@
 ---
 title: Enable PDF/A support
-
 description: Learn how to enable PDF/A support. PDF/A-compliant files can be created from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
-
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
+exl-id: 6eb93270-bea0-4409-8e80-4d040be41eab
 ---
 # Enable PDF/A support {#enable-pdf-a-support}
 

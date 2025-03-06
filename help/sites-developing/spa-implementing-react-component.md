@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
+exl-id: f4a15b51-fbb9-454f-809d-b15ed8cbdd0c
 ---
 # Implementing a React Component for SPA{#implementing-a-react-component-for-spa}
 

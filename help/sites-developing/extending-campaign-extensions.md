@@ -1,15 +1,14 @@
 ---
 title: Creating Custom Extensions
 description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: extending-aem
 content-type: reference
-
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
+exl-id: 7cdce721-ca00-43ac-a543-85bfad382821
 ---
 # Creating Custom Extensions{#creating-custom-extensions}
 

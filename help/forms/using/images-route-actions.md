@@ -7,6 +7,7 @@ topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 782043c0-79f8-42a4-ae1b-4743b480e523
 ---
 # Customize images used in route actions {#customize-images-used-in-route-actions}
 
@@ -22,7 +23,7 @@ To customize the images used in route actions, perform the steps described in [G
 
    >[!NOTE]
    >
-   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-2025/administering/contentmanagement/webdav-access.html?lang=en).
+   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
 
    >[!NOTE]
    >

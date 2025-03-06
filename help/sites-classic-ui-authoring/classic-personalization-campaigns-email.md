@@ -9,8 +9,8 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
+exl-id: 19ff5414-5798-4a89-afab-e0bad0f58b51
 ---
-
 # E-mail Marketing{#e-mail-marketing}
 
 >[!NOTE]

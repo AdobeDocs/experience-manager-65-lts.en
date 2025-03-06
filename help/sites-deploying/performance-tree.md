@@ -1,16 +1,14 @@
 ---
 title: Performance Tree
-
 description: Learn about the steps that to take to troubleshoot performance issues in AEM.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: best-practices
-
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+exl-id: c83fcf96-cc45-40a0-9a50-c60406096de1
 ---
 # Performance Tree{#performance-tree}
 
@@ -156,7 +154,6 @@ The analysis starts at step 0. The goal is to determine which entity (Dispatcher
    <td><br />
     <ol>
      <li><a href="/help/sites-deploying/monitoring-and-maintaining.md#out-of-memory">Out Of Memory</a></li>
-     <li><a href="/help/sites-deploying/troubleshooting.md">My application throws out-of-memory errors</a></li>
      <li><a href="https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17482.html">Analyze Memory Problems.</a><br /> </li>
     </ol> </td>
   </tr>

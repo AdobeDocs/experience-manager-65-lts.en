@@ -1,15 +1,14 @@
 ---
 title: Participating in Workflows
 description: Workflows typically include steps that require a person to perform an activity on a page or asset. The workflow selects a user or group to perform the activity and assigns a work item to that person or group.
-
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
 topic-tags: site-features
-
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
+exl-id: aea2daf6-c1e2-4e17-8c3f-6b25c693a45c
 ---
 # Participating in Workflows{#participating-in-workflows}
 

@@ -9,6 +9,7 @@ docset: aem65
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
+exl-id: 6653649a-5076-48e3-a7ed-5b74d4d2e8e1
 ---
 # Document security offerings{#document-security-offerings}
 

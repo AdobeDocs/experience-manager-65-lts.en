@@ -8,6 +8,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: bdd884c4-ae12-4827-8251-01033cbc0185
 ---
 # Considerations when running Administration Console {#considerations-when-running-administrationconsole}
 

@@ -5,6 +5,7 @@ contentOwner: AG
 role: Admin, Architect
 feature: Metadata,Developer Tools,Asset Management
 solution: Experience Manager, Experience Manager Assets
+exl-id: 4c953b8b-ae50-4c02-889a-78b02b4ba975
 ---
 # Detect MIME type of assets using [!DNL Apache Tika] {#detecting-mime-type-of-assets-using-apache-tika}
 

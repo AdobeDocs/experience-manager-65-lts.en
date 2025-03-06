@@ -6,6 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: Admin, User, Developer
+exl-id: 238cf38b-31f3-4a0b-ad26-b93df2844195
 ---
 # Employee recruitment reference site walkthrough {#employee-recruitment-reference-site-walkthrough}
 

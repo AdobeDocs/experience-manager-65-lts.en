@@ -9,6 +9,7 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
+exl-id: 8f504453-1009-46d9-83a5-d4a8531d7e2c
 ---
 # Using autosave in AEM Forms app{#using-autosave-in-aem-forms-app}
 

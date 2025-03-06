@@ -8,8 +8,8 @@ content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
+exl-id: 53400e3d-542f-4abc-9909-45eb11b0cfcc
 ---
-
 # Managing Projects {#managing-projects}
 
 In the **Projects** console, you access and manage your projects.

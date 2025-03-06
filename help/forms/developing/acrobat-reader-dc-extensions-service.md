@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Reader Extensions,APIs & Integrations
+exl-id: a8ec523c-b304-41ba-9980-8ba84e076c7d
 ---
 # Acrobat Reader DC extensions ServiceJava API Quick Start (SOAP) {#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}
 

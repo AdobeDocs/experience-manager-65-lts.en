@@ -7,6 +7,7 @@ topic-tags: Configuration
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
+exl-id: f6530bd3-16cd-4d6b-b92b-6c96f01f1939
 ---
 # Connecting AEM Forms with Adobe LiveCycle {#connecting-aem-forms-with-adobe-livecycle}
 

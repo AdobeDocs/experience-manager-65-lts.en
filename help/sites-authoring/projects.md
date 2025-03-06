@@ -4,8 +4,8 @@ description: Projects let you group resources into one entity whose common, shar
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Projects
 role: User,Admin,Architect,Developer
+exl-id: c5b4ffe5-b722-4452-8450-1e1089e3ffba
 ---
-
 # Projects {#projects}
 
 Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in [Project Tiles.](#project-tiles)

@@ -1,19 +1,15 @@
 ---
 title: Optimizing the Performance of theForms Service
-
 description: Set run-time options when rendering a form and store XDP files in the repository to optimize the performance of the Forms service.
-
-
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
-
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-
 feature: Adaptive Forms,Document Services,APIs & Integrations
+exl-id: 63ddfd09-17b5-48b4-b7ee-961f2bdd2ae2
 ---
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service} 
 
