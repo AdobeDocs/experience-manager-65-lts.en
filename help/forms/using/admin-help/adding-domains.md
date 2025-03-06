@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 70b0472e-2547-4887-b761-b200dc7b714a
 ---
 # Adding domains {#adding-domains}
 

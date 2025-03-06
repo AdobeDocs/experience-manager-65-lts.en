@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 9f694358-e502-4fc0-8352-4c5119573756
 ---
 # Encrypting and Decrypting PDF Documents {#encrypting-and-decrypting-pdf-documents} 
 

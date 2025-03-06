@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 68e43842-cba9-47b8-b7a3-6f625dbfca08
 ---
 # Basics of configuring forms {#basics-of-configuring-forms}
 

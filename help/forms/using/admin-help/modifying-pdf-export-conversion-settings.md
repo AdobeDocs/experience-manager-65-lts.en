@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 58657b0a-bcaa-487a-998b-a9ebbdd15870
 ---
 # Modifying the PDF Export conversion settings {#modifying-the-pdf-export-conversion-settings}
 

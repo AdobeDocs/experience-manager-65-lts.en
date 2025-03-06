@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: cf505217-78c0-4af7-80f6-5ee75f09f46c
 ---
 # IBM DB2 database: Running commands for regular maintenance {#ibm-db-database-running-commands-for-regular-maintenance}
 

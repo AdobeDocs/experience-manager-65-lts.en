@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 47a49147-2921-4d28-8d04-2281c0b9a190
 ---
 # Setting internationalization options{#setting-internationalization-options}
 

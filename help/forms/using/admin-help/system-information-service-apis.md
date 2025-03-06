@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 93124f35-0323-4f51-9167-9bfcadc819e2
 ---
 # System information Service APIs {#system-information-service-apis}
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 106f01a2-39fb-474b-8c58-5ab08666b918
 ---
 # Configuring Connector for IBM&reg; Content Manager{#configuring-connector-for-ibm-content-manager}
 

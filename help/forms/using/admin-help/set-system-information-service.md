@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e31614a9-d670-4d22-88ba-8953797f6e14
 ---
 # Set up the System information service {#set-up-the-system-information-service}
 

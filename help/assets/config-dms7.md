@@ -1,11 +1,6 @@
 ---
 title: Configure Dynamic Media - Scene7 mode
 description: Learn how to configure Dynamic Media - Scene7 mode.
-contentOwner: Rick Brough
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: dynamic-media
-content-type: reference
-docset: aem65
 role: User, Admin
 mini-toc-levels: 4
 feature: Configuration,Scene7 Mode
@@ -126,7 +121,7 @@ See [Install feature pack 18912 for bulk asset migration](/help/assets/bulk-inge
 
     * **[!UICONTROL Publishing Assets]** - You can choose from the following three options:
       * **[!UICONTROL Immediately]** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. 
-      * **[!UICONTROL Upon Activation]** means that you must explicitly publish the asset first before a URL/Embed link is provided.<br><!-- CQDOC-17478, Added March 9, 2021-->From Experience Manager 6.5.8 onwards, Experience Manager Publish instance reflects accurate Dynamic Media metadata values, such as `dam:scene7Domain` and `dam:scene7FileStatus` in **[!UICONTROL Upon Activation]** publish mode only. To enable this functionality, install Service Pack 8, then restart Experience Manager. Go to the Sling Config Manager. Find the configuration for `Scene7ActivationJobConsumer Component` or create new one). Select the checkbox **[!UICONTROL Replicate Metadata after Dynamic Media publishing]**, then select **[!UICONTROL Save]**.
+      * **[!UICONTROL Upon Activation]** means that you must explicitly publish the asset first before a URL/Embed link is provided.<br><!-- CQDOC-17478, Added March 9, 2021-->From Experience Manager 6.5.8 onwards, Experience Manager Publish instance reflects accurate Dynamic Media metadata values, such as `dam:scene7Domain` and `dam:scene7FileStatus` in **[!UICONTROL Upon Activation]** publish mode only. Go to the Sling Config Manager. Find the configuration for `Scene7ActivationJobConsumer Component` or create new one). Select the checkbox **[!UICONTROL Replicate Metadata after Dynamic Media publishing]**, then select **[!UICONTROL Save]**.
 
          ![Replicate Metadata after Dynamic Media publishing checkbox](assets-dm/replicate-metadata-setting.png)
 
@@ -244,7 +239,7 @@ In Dynamic Media - Scene7 mode, the default asset upload file size is 2 GB or le
 
 If you intend to use this feature, be aware of the following prerequisites and points:
 
-* You must be running Experience Manager 6.5 with Service Pack 6.5.4.0 or later in Dynamic Media - Scene7 mode.
+* You must be running Experience Manager 6.5 LTS in Dynamic Media - Scene7 mode.
 * This large upload feature is only supported for [*Managed Services*](https://business.adobe.com/products/experience-manager/managed-services.html) customers.
 * Be sure that your Experience Manager instance is configured with Amazon S3 or Microsoft&reg; Azure Blob storage.
 

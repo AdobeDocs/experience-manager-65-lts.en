@@ -21,7 +21,7 @@ The AEMFD Compatibility package also lets you [use the following assets from AEM
 
 For more information, see [Assets made compatible with AEM Forms 6.5 by installing the Compatibility package](../../forms/using/compatibility-package.md#assetsmadecompatible).
 
-## Add support for AEM Forms 6.5, 6.4, 6.3 and 6.2 assets in AEM Forms 6.5 LTS {#add-support-for-aem-forms-and-assets-in-aem-forms-6.5.2025}
+## Add support for AEM Forms 6.5, 6.4, 6.3 and 6.2 assets in AEM Forms 6.5 LTS {#add-support-for-aem-forms-and-assets-in-aem-forms-6.5.lts}
 
 After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.5:
 

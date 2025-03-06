@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 14264788-a05a-4a8d-b485-33ae1caac094
 ---
 # Adding, enabling, modifying, or removing endpoints {#adding-enabling-modifying-or-removing-endpoints}
 

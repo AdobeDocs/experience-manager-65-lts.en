@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 55f5d3bb-2a6f-4fac-9d33-7b39e4ca317f
 ---
 # Unable to convert Word or Excel file to PDF on Windows Server {#unable-to-convert-word-excel-files-PDF}
 

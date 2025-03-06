@@ -9,6 +9,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 622c4899-f75f-4b47-a6c0-f94c8427e977
 ---
 # Forms JEE workflows | Handling user data {#forms-jee-workflows-handling-user-data}
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 95a83858-c0b7-4c68-b4a9-d525bfc663c0
 ---
 # Programmatically managing the Preferences Nodes {#programmatically-managing-the-preferencesnodes} 
 

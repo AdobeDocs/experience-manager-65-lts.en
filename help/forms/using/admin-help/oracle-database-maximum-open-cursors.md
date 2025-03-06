@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 98663f16-6c05-4485-9bf2-a2de9d1975c8
 ---
 # Oracle database maximum open cursors threshold {#oracle-database-maximum-open-cursors-threshold}
 

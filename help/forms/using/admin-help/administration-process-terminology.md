@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 2d3f74b6-ecc4-4c5e-906f-3ded1a1bfd3b
 ---
 # About administration and process terminology {#about-administration-and-process-terminology}
 

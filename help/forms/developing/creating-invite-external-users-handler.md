@@ -7,6 +7,7 @@ feature: Adaptive Forms,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5e1f1f3c-a2f3-4bf1-ba96-a02f8b16c180
 ---
 # Creating an Invite External Users Handler {#create-invite-external-users-handler} 
 

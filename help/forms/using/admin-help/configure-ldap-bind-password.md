@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 33e0f81f-7867-4c59-a9e5-75bf5182a27c
 ---
 # Configure the LDAP bind password{#configure-the-ldap-bind-password}
 

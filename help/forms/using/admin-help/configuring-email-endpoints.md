@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 56dac3e2-e330-47c9-a32e-db947272a632
 ---
 # Configuring email endpoints {#configuring-email-endpoints}
 

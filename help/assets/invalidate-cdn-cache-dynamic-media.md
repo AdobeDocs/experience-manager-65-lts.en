@@ -15,18 +15,11 @@ exl-id: bce11a49-bbbe-4dda-8144-7f135bb666d9
 Dynamic Media assets are cached by the CDN (Content Delivery Network) for fast delivery to your customers. However, when you make updates to those assets, you want those changes to take effect immediately on your website. Purging or invalidating the CDN cache lets you quickly update assets that are delivered by Dynamic Media. Instead of waiting for the cache to expire using a TTL (Time To Live) value (default is ten hours), you can send a request from within Dynamic Media to have the cache expire within minutes.
 
 
-
->[!IMPORTANT]
->
->The following steps apply only to Dynamic Media - Scene7 mode in Adobe Experience Manager 6.5, Service Pack 6 (Experience Manager 6.5.6) or later. This CDN invalidation feature also requires that you use the out-of-the-box CDN that is bundled with Adobe Experience Manager - Dynamic Media. Any other custom CDN is not supported with this feature.<br>If you use Dynamic Media in Experience Manager 6.5, Service Pack 5 (Experience Manager 6.5.5) or earlier, follow the steps found in [Invalidating the CDN cache by way of Dynamic Media Classic](/help/assets/invalidate-cdn-cache-dm-classic.md).
-
-<!-- REMOVED MARCH 28, 2022 BECAUSE OF 404; NO REDIRECT WAS PUT IN PLACE BY SUPPORT See also [Caching overview in Dynamic Media](https://helpx.adobe.com/experience-manager/scene7/kb/base/caching-questions/scene7-caching-overview.html). -->
-
 **To invalidate your CDN cached content for Dynamic Media assets:**
 
 *Part 1 of 2: Creating a CDN Invalidation template*
 
-1. In Experience Manager 6.5.6 or later, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL CDN Invalidation]**.
+1. Navigate to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL CDN Invalidation]**.
 
     ![CDN Validation feature](/help/assets/assets-dm/cdn-invalidation-template2.png)
 

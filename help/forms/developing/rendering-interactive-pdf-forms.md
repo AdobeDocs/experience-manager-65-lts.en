@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: de61c579-50ed-423b-adca-60329f3f0b89
 ---
 # Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms} 
 

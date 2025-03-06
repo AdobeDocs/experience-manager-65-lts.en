@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 56603735-959e-4460-b642-bba63fa20c02
 ---
 # Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 

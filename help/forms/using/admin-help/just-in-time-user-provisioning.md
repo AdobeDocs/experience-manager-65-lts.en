@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a7c566f0-ec89-4e98-b31d-e3f23f7e3524
 ---
 # Just-in-time user provisioning {#just-in-time-user-provisioning}
 

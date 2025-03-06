@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 78d72100-b67b-48ac-9479-706fdccbd3cd
 ---
 # Passing Documents to the Forms Service {#passing-documents-to-the-formsservice} 
 

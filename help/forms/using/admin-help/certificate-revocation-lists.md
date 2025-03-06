@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a5e49cc8-cd46-47e6-8ff3-655dcf23296a
 ---
 # Managing certificate revocation lists{#managing-certificate-revocationlists}
 

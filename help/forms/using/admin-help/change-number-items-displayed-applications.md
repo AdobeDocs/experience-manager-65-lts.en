@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a60548c8-42ed-4444-839d-7f33c9d2dd14
 ---
 # Change the number of items displayed on the Applications and Services pages {#change-the-number-of-items-displayed-on-the-applications-and-services-pages}
 

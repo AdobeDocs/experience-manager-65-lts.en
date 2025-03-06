@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: fea20b34-2f66-460e-8b1c-4e55842bc789
 ---
 # Service container {#service-container} 
 

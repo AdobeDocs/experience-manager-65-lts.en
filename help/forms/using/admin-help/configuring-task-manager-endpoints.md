@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 57fd8b5d-6347-4b83-9489-e8ee59ee39a5
 ---
 # Configuring Task Manager endpoints {#configuring-task-manager-endpoints}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d6390e32-d348-42f2-84d0-9c83aff9ee3a
 ---
 # Configuring caching for Output  {#configuring-caching-for-output}
 

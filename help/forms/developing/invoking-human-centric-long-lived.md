@@ -11,6 +11,7 @@ feature: Adaptive Forms, APIs & Integrations, AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 1cc7b91e-c2f1-4831-b8cd-1399e7dd821e
 ---
 # Invoking Human-Centric Long-Lived Processes {#invoking-human-centric-long-lived-processes}
 

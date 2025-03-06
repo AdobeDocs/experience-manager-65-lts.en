@@ -11,6 +11,7 @@ feature: Adaptive Forms, APIs & Integrations, AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: ca620313-8c2c-44e6-9f29-0d91dc9f6e03
 ---
 # Invoking AEM Forms using Web Services {#invoking-aem-forms-using-web-services} 
 

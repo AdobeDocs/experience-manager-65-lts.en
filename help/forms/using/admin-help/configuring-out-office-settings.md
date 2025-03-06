@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: bf4fa6e4-25c7-46a8-9bae-4af7bfc14426
 ---
 # Configuring Out of Office Settings {#configuring-out-of-office-settings}
 

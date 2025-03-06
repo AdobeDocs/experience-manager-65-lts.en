@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e8824453-8891-40e0-9948-c0c0f0fdce62
 ---
 # Creating and configuring groups{#creating-and-configuring-groups}
 

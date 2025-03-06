@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a9790625-af8d-4416-b96f-4724a025260b
 ---
 # Integrate AEM Forms with Microsoft&reg; Office 365 mail server protocols {#oauth2-support-for-the-microsoft-mail-server-protocols}
 

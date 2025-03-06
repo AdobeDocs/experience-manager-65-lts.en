@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5cbb626c-fcd8-4936-acf8-95bac80d06b6
 ---
 # Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 

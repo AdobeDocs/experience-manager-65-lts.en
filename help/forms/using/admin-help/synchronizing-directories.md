@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 8bb1dd68-51ec-4458-9ff8-bfe6fb0b67fd
 ---
 # Synchronizing directories {#synchronizing-directories}
 

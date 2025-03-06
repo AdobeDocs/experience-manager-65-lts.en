@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: bda74b30-28c4-490f-86c3-9c6fce14d79d
 ---
 # Determining Whether Documents Are PDF/A-Compliant {#determining-whether-documents-are-pdf-a-compliant}
 

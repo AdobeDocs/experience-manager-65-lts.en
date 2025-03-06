@@ -298,7 +298,6 @@ user-guide-title: AEM 6.5 LTS
     + [Publish Dynamic Media assets](/help/assets/publishing-dynamicmedia-assets.md)
     + [Work with Selective Publish in Dynamic Media](/help/assets/selective-publishing.md)
     + [Invalidate the CDN cache by way of Dynamic Media](/help/assets/invalidate-cdn-cache-dynamic-media.md)
-    + [Invalidate the CDN cache by way of Dynamic Media Classic](/help/assets/invalidate-cdn-cache-dm-classic.md)
     + [Install Feature Pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md)
     + [Work with Selectors](/help/assets/working-with-selectors.md)
   + Extend Assets {#extending}
@@ -451,7 +450,7 @@ user-guide-title: AEM 6.5 LTS
   + Upgrade AEM Forms {#upgrade-aem-forms}
     + [Available upgrade paths](/help/forms/using/upgrade.md)
     + Upgrade AEM Forms on OSGi {#aem-forms-osgi-upgrade}
-      + [Upgrade to AEM 6.5.2025 forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
+      + [Upgrade to AEM 6.5 LTS forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
     + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)
@@ -1071,12 +1070,8 @@ user-guide-title: AEM 6.5 LTS
     + [Unable to convert Word or Excel file to PDF on Windows Server](/help/forms/using/disable-uac-for-pdfgconfiguration.md)
     + [Unable to open XFA-based PDF forms in Google Chrome, Firefox, Microsoft Edge, Microsoft Internet Explorer, or Apple Safari](/help/forms/using/xfa-based-forms-in-chrome-firefox-ie-internet-explorter-safari-edge.md)
     + [Unable to restore CRX Repository](/help/forms/using/restore-crx-repository.md)
-    + [Service unavailable errors after installing AEM 6.5.15.0 service pack](/help/forms/using/aem-service-pack-installation-solution.md)
-    + [AEM Forms JEE 6.5.15.0 service pack installation issue on JBoss Linux environment](/help/forms/using/linux-jboss-installation-issue-on-sp15.md)
     + [Processing documents even if the AEM Forms server is not fully up and running](/help/forms/using/processing-documents-even-if-aem-forms-server-not-fully-up.md)
     + [Unable to use Output service, Forms service, or Document of Record (DoR) service](/help/forms/using/connection-issues-with-output-forms-and-document-of-record-dor-services.md)
-    + [Mitigating Struts 2 RCE Vulnerabilities for Experience Manager Forms](/help/forms/using/mitigating-struts-2-rce-vulnerabilities-for-experience-manager-manager-form.md)
-    + [Failure to backup database during upgrade to 6.5.12.0 for MySQL](/help/forms/using/failed-to-back-up-the-database-on-upgrading-to-aem-forms-service-pack-6-5-12-0.md)
     + [PDF generation fails to print a large number of PDFs on WorkBench](/help/forms/using/pdf-generation-service-fails-to-print-a-large-number-of-pdfs-on-workbench.md)
     + [How to properly restart AEM SDK](/help/forms/using/restart-aem-sdk.md)
     + [PaperCapture service fails to perform OCRs on PDFs](/help/forms/using/papercapture-service-resolution.md)

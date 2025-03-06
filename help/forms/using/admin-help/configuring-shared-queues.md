@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 6665b95a-39fd-472a-b3b5-8b97257c69a7
 ---
 # Configuring Shared Queues{#configuring-shared-queues}
 

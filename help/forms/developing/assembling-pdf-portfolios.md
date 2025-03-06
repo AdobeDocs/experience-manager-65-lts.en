@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 43460ac1-a152-4a0d-943f-1b3ed007f089
 ---
 # Assembling PDF Portfolios {#assembling-pdf-portfolios} 
 
