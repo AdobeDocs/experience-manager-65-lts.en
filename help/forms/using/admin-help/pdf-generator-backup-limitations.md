@@ -12,6 +12,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f76ce3be-6d50-4531-a982-2e902f866208
 ---
 # PDF Generator backup limitations {#pdf-generator-backup-limitations}
 

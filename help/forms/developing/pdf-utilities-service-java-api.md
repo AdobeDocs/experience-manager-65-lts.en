@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 546f42dd-a1bc-42cb-bbee-50a541f71d55
 ---
 # PDF Utilities Service Java API Quick Start (SOAP) {#pdf-utilities-service-java-apiquick-start-soap}
 

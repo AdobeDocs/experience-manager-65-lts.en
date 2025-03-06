@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a5e6b09a-c4c7-41c0-8221-d563cb74b3b7
 ---
 # Purge records from the Job Manager database {#purge-records-from-the-job-manager-database}
 

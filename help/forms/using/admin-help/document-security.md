@@ -12,6 +12,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 5e7fe85e-3c7f-4a37-8f65-5c0ad4bbd66c
 ---
 # About document security {#about-document-security}
 

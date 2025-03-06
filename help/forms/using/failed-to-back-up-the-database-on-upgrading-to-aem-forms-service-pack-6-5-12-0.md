@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: afc09a9f-58ef-4292-a2f2-b62d3246c006
 ---
 # Failure to backup database during upgrade to 6.5.12.0 for MySQL {#issue}
 

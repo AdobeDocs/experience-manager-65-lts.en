@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 1ac45713-4eca-4def-a030-c7bc3fcdf4c7
 ---
 # Application Manager Client JavaAPI Quick Start (SOAP) {#application-manager-client-javaapi-quick-start-soap}
 

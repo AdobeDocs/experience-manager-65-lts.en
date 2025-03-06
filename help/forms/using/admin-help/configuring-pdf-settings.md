@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 41a8a4b0-cb39-40a6-82b6-085f2c635e0c
 ---
 # Configuring Adobe PDF settings{#configuring-adobe-pdf-settings}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 00f52303-66c3-4865-a74b-eda0e6949193
 ---
 # Preventing CSRF attacks {#preventing-csrf-attacks}
 

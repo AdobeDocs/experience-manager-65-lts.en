@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: dab3ad11-d64a-4a13-a015-379a66e7f29d
 ---
 # Microsoft SQL Server database: Fine-tuning the configuration {#microsoft-sql-server-database-fine-tuning-the-configuration}
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 9a93b8f9-33cb-4aec-81e0-a1146bba955a
 ---
 # Global document storage directory{#global-document-storage-directory}
 

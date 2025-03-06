@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 716d8eb2-2010-4d55-b8fe-bd4f6f256a4d
 ---
 # Unable to restore corrupt CRX repository {#unable-to-restore-corrupt-crx-repository}
 

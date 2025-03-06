@@ -12,6 +12,7 @@ feature: Adaptive Forms,Document Services,APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f1e6adca-0591-4974-9c12-66706aa35247
 ---
 # Rendering Forms as HTML {#rendering-forms-as-html} 
 

@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e78860dc-9375-465c-b1fa-2a4827ca8dce
 ---
 # Configure account-locking settings {#configure-account-locking-settings}
 

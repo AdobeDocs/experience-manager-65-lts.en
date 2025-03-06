@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 553c0a95-26e9-4d2c-b53d-846861c6a1d7
 ---
 # Controlling access to policy-protected documents {#controlling-access-to-policy-protected-documents}
 

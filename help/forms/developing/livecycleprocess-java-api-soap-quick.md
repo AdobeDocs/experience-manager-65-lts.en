@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: bdc63436-81d7-442a-9516-e6fbcc254d98
 ---
 # LiveCycleProcess Java API (SOAP) Quick Start {#livecycleprocess-java-api-soap-quick-start}
 

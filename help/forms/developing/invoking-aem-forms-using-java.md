@@ -11,6 +11,7 @@ feature: Adaptive Forms, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 42c85231-9e65-4c3c-8b86-3efdaa577161
 ---
 # Invoking AEM Forms using the Java API {#invoking-aem-forms-using-the-javaapi} 
 

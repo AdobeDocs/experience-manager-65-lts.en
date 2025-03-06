@@ -10,6 +10,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 68896dab-2d46-4998-9918-40efb8554143
 ---
 # Configuring file type settings {#configuring-file-type-settings}
 

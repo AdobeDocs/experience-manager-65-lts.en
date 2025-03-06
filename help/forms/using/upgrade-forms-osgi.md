@@ -5,6 +5,7 @@ content-type: reference
 role: Admin, User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, AEM Forms on OSGi, AEM Forms Upgrade
+exl-id: 9233d4b7-441c-4cbd-86f8-2c52b99c3330
 ---
 # Upgrade to AEM 6.5 Forms LTS on OSGi {#upgrade-to-aem-forms-osgi}
 

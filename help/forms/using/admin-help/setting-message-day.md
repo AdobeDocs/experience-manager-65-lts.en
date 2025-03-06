@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 9581155d-5346-4346-b483-ecb0c51b53e3
 ---
 # Setting the message of the day {#setting-the-message-of-the-day}
 

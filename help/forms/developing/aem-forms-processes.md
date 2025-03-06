@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 228185f0-deef-4d49-a5b9-0c19411e30c2
 ---
 # Understanding AEM Forms Processes {#understanding-aem-forms-processes} 
 

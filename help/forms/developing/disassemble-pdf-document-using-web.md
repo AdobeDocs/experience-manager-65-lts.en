@@ -11,6 +11,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 35802b50-71ca-4bb2-8f2c-7452b81a6b1f
 ---
 # Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api} 
 

@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 31a10544-0be7-4ef7-ba0f-c37099d36bcb
 ---
 # Handling Submitted Forms {#handling-submitted-forms} 
 

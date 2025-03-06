@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 2861bde5-b373-4ab2-9808-7d32ef1dc925
 ---
 # Make fonts available {#make-fonts-available}
 

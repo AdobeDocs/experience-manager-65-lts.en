@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: d6a0caed-99fa-4121-ac2e-bc21626ff9e0
 ---
 # Working with tasks {#working-with-tasks}
 

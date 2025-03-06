@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: bdd884c4-ae12-4827-8251-01033cbc0185
 ---
 # Considerations when running Administration Console {#considerations-when-running-administrationconsole}
 

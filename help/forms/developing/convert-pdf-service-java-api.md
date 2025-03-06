@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 0d1c08bd-70ee-4027-9209-9843e0ff9fd2
 ---
 # Convert PDF Service Java&trade; API Quick Start (SOAP) {#convert-pdf-service-java-api-quickstart-soap}
 

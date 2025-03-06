@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 6bd234fb-28ad-405f-a018-bdf4fa412839
 ---
 # Enhancing application server performance{#enhancing-application-server-performance}
 

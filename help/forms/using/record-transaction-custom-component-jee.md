@@ -7,6 +7,7 @@ solution: Experience Manager, Experience Manager Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e2d1b548-ce30-471b-b01c-ce37b737aeb5
 ---
 # Record a transaction for custom component APIs for AEM Forms on JEE {#record-a-transaction-for-custom-components}
 

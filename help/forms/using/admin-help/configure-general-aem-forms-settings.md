@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 54e7132d-3009-4a83-9f03-55bb2c41ae90
 ---
 # General AEM Forms settings {#general-aem-forms-settings}
 

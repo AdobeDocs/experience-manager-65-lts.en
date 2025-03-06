@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e8cf9e73-345c-4dea-8361-b678c1a3cd1b
 ---
 # DB2&reg; database: Running a process weekly{#db-database-running-a-process-weekly}
 

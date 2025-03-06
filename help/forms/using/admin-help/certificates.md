@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f38ae7f8-75db-4031-a2a8-782ca3b42fc7
 ---
 # Managing certificates {#managing-certificates}
 

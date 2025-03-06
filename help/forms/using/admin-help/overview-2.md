@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 8aeacdb7-68a7-476f-a725-f9ad7406cc9c
 ---
 # Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 

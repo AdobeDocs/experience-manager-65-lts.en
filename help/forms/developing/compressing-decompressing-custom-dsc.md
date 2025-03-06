@@ -7,6 +7,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: c97a8651-aca7-42e3-bcd0-71d089c3e753
 ---
 # Compressing and decompressing files using a AEM Forms on JEE Custom DSC {#compressing-decompressing-files}
 

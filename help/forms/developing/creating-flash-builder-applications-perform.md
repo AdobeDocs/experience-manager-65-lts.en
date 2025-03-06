@@ -11,6 +11,7 @@ feature: Adaptive Forms,Document Security
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 6c384e25-f53f-44aa-9043-b9f9f659f987
 ---
 # Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens} 
 

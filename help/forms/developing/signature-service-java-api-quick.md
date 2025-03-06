@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 4d35b174-40e5-4d2a-89ad-c3891f206e7e
 ---
 # Signature Service Java API Quick Start (SOAP) {#signature-service-java-api-quickstart-soap}
 

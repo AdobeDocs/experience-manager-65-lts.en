@@ -11,6 +11,7 @@ feature: Adaptive Forms,APIs & Integrations,Workbench
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 37f5efaa-db0b-4035-987d-4140fc5a97be
 ---
 # Invoking AEM Forms using Remoting {#invoking-aem-forms-using-remoting} 
 

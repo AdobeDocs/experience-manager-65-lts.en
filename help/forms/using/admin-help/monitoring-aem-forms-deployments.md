@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: aa02139f-7e47-4979-9560-5d270c36080b
 ---
 # Monitoring AEM forms deployments {#monitoring-aem-forms-deployments}
 

@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: c68c602f-fa93-4e3d-9a8c-b61c3ab53000
 ---
 # Creating and configuring roles{#creating-and-configuring-roles}
 

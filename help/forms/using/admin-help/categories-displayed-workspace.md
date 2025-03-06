@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: f9ffbe56-757b-4fd0-b33a-2522695aed35
 ---
 # Managing the categories displayed in Workspace {#managing-the-categories-displayed-in-workspace}
 

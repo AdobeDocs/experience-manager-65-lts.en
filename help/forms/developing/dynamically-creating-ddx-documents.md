@@ -12,6 +12,7 @@ feature: Adaptive Forms, Document Services, APIs & Integrations
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: 3508d2d1-e05a-4733-b682-4b022348147a
 ---
 # Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents} 
 

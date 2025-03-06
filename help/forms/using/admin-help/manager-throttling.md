@@ -11,6 +11,7 @@ role: User, Developer
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: e0aa9304-3da0-4ae6-a465-089dc96c427e
 ---
 # Work Manager and throttling{#work-manager-and-throttling}
 

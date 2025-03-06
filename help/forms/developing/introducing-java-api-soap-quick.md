@@ -11,6 +11,7 @@ feature: Adaptive Forms
 hide: yes
 hidefromtoc: yes
 removedfrom6.5.2025: yes
+exl-id: a5ae164d-d0c0-40d0-baeb-0e646fc71f55
 ---
 # Introducing Java&trade; API Quick Start {#introducing-java-api-quickstart} 
 
