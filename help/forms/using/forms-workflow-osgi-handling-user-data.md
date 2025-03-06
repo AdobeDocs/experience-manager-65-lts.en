@@ -6,7 +6,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on OSGi
-exl-id: a817fa19-ae22-4c77-8a8e-6c4deed10d67
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Forms-centric workflows on OSGi | Handling user data {#forms-centric-workflows-on-osgi-handling-user-data}
 

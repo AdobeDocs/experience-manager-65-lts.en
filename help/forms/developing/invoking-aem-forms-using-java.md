@@ -7,8 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,APIs & Integrations
-exl-id: 42c85231-9e65-4c3c-8b86-3efdaa577161
+feature: Adaptive Forms, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Invoking AEM Forms using the Java API {#invoking-aem-forms-using-the-javaapi} 
 

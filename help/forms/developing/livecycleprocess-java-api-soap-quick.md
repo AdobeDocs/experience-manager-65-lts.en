@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: bdc63436-81d7-442a-9516-e6fbcc254d98
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # LiveCycleProcess Java API (SOAP) Quick Start {#livecycleprocess-java-api-soap-quick-start}
 

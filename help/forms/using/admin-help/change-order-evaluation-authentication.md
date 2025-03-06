@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 5f9f96ab-4c0a-4a75-856b-d4eceddefbf9
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Change the order of evaluation for authentication {#change-the-order-of-evaluation-for-authentication}
 

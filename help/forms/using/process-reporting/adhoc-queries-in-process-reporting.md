@@ -8,7 +8,9 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 7380be9a-7f5c-46df-97f8-6309daa2a566
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Ad-hoc Queries in Process Reporting{#ad-hoc-queries-in-process-reporting}
 

@@ -7,8 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,APIs & Integrations
-exl-id: 4a911fe6-2939-4c8c-b486-7575c759857d
+feature: Adaptive Forms, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Working with AEM Forms Repository {#working-with-aem-forms-repository} 
 

@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: e0984513-f70c-4409-885b-a2eb50757a7d
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Import and manage applications{#import-and-manage-applications}
 

@@ -5,7 +5,9 @@ SEO Description: AEM Forms JEE 6.5.15.0 service pack  is not installed properly 
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE
 role: User, Developer
-exl-id: ba3a5c1e-19db-49cf-ac64-513a6077f3e9
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # AEM Forms 6.5.15.0 JEE Service Pack installation issue on JBoss® environment {#aem-forms-installation-issue-environment}
 

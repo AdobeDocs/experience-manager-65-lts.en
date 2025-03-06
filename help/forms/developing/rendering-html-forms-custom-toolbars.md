@@ -9,7 +9,9 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: e4b02c17-dcd1-424b-9aee-579a8346b4d7
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Rendering HTML Forms with CustomToolbars {#rendering-html-forms-with-customtoolbars} 
 

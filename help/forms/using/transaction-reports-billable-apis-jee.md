@@ -5,7 +5,9 @@ topic-tags: forms-manager
 feature: Transaction Reports
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
-exl-id: 6b58be5a-822b-48e2-b984-7b72bf24e0fa
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Transaction reporting Billable APIs for AEM Forms on JEE {#transaction-reports-billable-apis}
 

@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 34381caa-154e-479c-b475-7b3549909e9a
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Enabling and disabling safe backup mode {#enabling-and-disabling-safe-backup-mode}
 

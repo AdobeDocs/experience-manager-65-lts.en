@@ -9,11 +9,13 @@ docset: aem65
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: cc0a3d56-3adc-4d6e-87a3-9a8587bbe3f2
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Introduction to working with PDF Generator {#introduction-to-working-with-pdf-generator}
 
-PDF Generator converts various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For a list of supported file formats, see [Software support for PDF Generator](/help/forms/using/aem-forms-jee-supported-platforms.md)
+PDF Generator converts various file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents. For a list of supported file formats, see [Software support for PDF Generator](/help/sites-deploying/technical-requirements.md)
 
 **Sending files to PDF Generator for processing**
 

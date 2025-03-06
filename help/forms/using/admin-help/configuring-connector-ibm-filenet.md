@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORM
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
-exl-id: 5cbb626c-fcd8-4936-acf8-95bac80d06b6
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 

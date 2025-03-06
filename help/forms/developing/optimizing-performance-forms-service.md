@@ -8,8 +8,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,APIs & Integrations
-exl-id: 63ddfd09-17b5-48b4-b7ee-961f2bdd2ae2
+feature: Adaptive Forms, Document Services, APIs & Integrations
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service} 
 

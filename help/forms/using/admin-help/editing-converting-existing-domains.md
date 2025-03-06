@@ -8,7 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 0dafef83-a516-48df-9175-019984843cfa
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Editing and converting existing domains{#editing-and-converting-existing-domains}
 

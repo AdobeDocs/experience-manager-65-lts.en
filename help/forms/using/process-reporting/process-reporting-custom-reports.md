@@ -8,7 +8,9 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-exl-id: 5670fede-4567-445e-8eeb-84349405db0e
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Custom Reports in Process Reporting{#custom-reports-in-process-reporting}
 

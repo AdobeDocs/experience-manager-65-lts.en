@@ -8,7 +8,9 @@ topic-tags: develop
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
-exl-id: 87b9f386-5a60-48fa-a25f-2aeb166c9d1b
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Generate PDF Service Java API Quick Start (SOAP) {#generate-pdf-service-java-api-quickstart-soap}
 

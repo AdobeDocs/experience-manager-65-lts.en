@@ -8,8 +8,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services
-exl-id: 0dd63557-2961-497a-b820-8f2e0a823610
+feature: Adaptive Forms, Document Services
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assembling PDF Documents {#assembling-pdf-documents} 
 

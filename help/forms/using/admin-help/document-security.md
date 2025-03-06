@@ -9,7 +9,9 @@ docset: aem65
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-exl-id: 5e7fe85e-3c7f-4a37-8f65-5c0ad4bbd66c
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # About document security {#about-document-security}
 

@@ -4,7 +4,9 @@ description: Keep a count of all the forms submitted, rendered, documents conver
 feature: Transaction Reports
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
-exl-id: 4dd61c94-0108-49e8-a6c0-dd77e7c09cf1
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Enabling and viewing transaction reports for AEM Forms on JEE {#transaction-reports-overview}
 

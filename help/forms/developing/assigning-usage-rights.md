@@ -7,8 +7,10 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
-feature: Adaptive Forms,Document Services,Reader Extensions
-exl-id: d8027b43-10c7-435c-8fb5-059508966d42
+feature: Adaptive Forms,Document Services, Reader Extensions
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 ---
 # Assigning Usage Rights {#assigning-usage-rights} 
 
