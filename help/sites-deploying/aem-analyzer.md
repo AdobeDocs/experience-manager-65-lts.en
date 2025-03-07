@@ -2,7 +2,6 @@
 title: Assessing the Upgrade Complexity with the AEM Analyzer
 description: Learn how to use the AEM Analyzer to assess the complexity of your upgrade.
 topic-tags: upgrading
-content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
@@ -28,11 +27,11 @@ The AEM 6.5 LTS Analyzer report includes the following categories:
 * AEM 6.5 features that have been removed by new functionality or that are currently not supported on AEM 6.5 LTS
 * Remove Java and Guava API usage
 
-Additional information about the categories and possible implications and solutions associated with those categories are provided via links from within theAEM 6.5 LTS Analyzer Report.
+Additional information about the categories and possible implications and solutions associated with those categories are provided via links from within the AEM 6.5 LTS Analyzer Report.
 
 ## Availability {#analyzer-availability}
 
-The AEM Analyzer can be downloaded as a zip file from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html). You can install the package via [Package Manager](/help/sites-administering/package-manager.md) on your source AEM instance.
+The AEM Analyzer can be downloaded as a zip file from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). You can install the package via [Package Manager](/help/sites-administering/package-manager.md) on your source AEM instance.
 
 ## Important Considerations for Using AEM Analyzer {#important-considerations-for-using-aem-analyzer}
 
