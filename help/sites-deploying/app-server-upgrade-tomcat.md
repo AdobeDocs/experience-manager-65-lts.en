@@ -36,7 +36,7 @@ All the examples in this procedure use Tomcat as the Application Server and impl
    ```
 
 1. Set up an AEM 6.5 LTS compatible Tomcat server
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information
 1. Deploy the newly downloaded 6.5 LTS war on the Tomcat server using Java 17 and start AEM 6.5 LTS Tomcat server by running:
 
    ```
