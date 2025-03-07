@@ -123,7 +123,7 @@ The logic that a video player uses to determine which encoded video to play or t
 
 For detailed technical information about the algorithm, see [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)
 
-For managing single video and Adaptive Video Sets, the following is supported:
+For managing single video and Adaptive Video Sets, the following is are supported:
 
 * Upload videos in various supported formats and encode them to MP4 H.264 for playback on multiple screens. You can use predefined adaptive video presets, single video encoding presets, or customize your own encoding to control the quality and size of the video.
 
@@ -256,10 +256,6 @@ The following table describes the device, browser, and playback method of videos
   </tr>
  </tbody>
 </table>
-
->[!IMPORTANT]
->
->*To use DASH for your videos, Adobe Technical Support must first enable it on your account. See [Enable DASH on your Dynamic Media account](#enable-dash).
 
 ## Architecture of Dynamic Media video solution {#architecture-of-dynamic-media-video-solution}
 
@@ -413,60 +409,6 @@ As an example, suppose that your source video is 1920 &times; 1080. In the follo
 
 Dynamic Media recommends using MP4 H.264 video encoding presets. Because MP4 files use the H.264 video codec, it provides high-quality video but in a compressed file size.
 
-### Enable DASH, multiple caption and audio track support on your Dynamic Media account {#enable-dash}
-
-**About enabling DASH on your account**
-DASH (Digital Adaptive Streaming over HTTP) is the international standard for video streaming and is widely adopted across different video viewers. When DASH is enabled on your account, you get the option to choose from either DASH or HLS for adaptive video streaming. Or, you can opt for both with automatic switching between players when **[!UICONTROL auto]** is selected as the playback type in the Viewer preset.
-
-Some key benefits from enabling DASH on your account include the following:
-     
-* Package DASH stream video for adaptive bitrate streaming. This method leads to higher efficiency of delivery. Adaptive streaming ensures the best viewing experience for your customers.
-* Browser optimized streaming with Dynamic Media players switches between HLS and DASH streaming to ensure the best quality of service. The video player auto-switches to HLS when a Safari browser is used.
-* You can configure your preferred streaming method (HLS or DASH) by editing the video viewer preset.
-* Optimized video encoding ensures that no additional storage is used while enabling DASH capability. A single set of video encodings are created for both HLS and DASH to optimize video storage costs.
-* Helps make video delivery more accessible for your customers.
-* Get the streaming URL by way of APIs, too.
-
-Enabling DASH on your account requires two steps: 
-
-* Configuring Dynamic Media to use DASH, which you can easily do yourself.
-* Configuring Experience Manager to use DASH which is done by way of an Adobe Customer Support case that you create and submit.
-
-When you create an Adobe Support case to enable DASH on your account, multiple caption and audio track support is automatically enabled as well. Once activated, all newly uploaded videos are processed using an updated backend architecture that supports adding multiple caption and audio tracks.
-
->[!IMPORTANT]
->
->Any videos that you uploaded *before* enabling multiple caption and audio track support on your Dynamic Media account, [must be reprocessed](/help/assets/processing-profiles.md#reprocessing-assets). This video reprocessing step is necessary so that multiple caption and audio track capability is available to them. The video URLs continue to work and play as usual, after reprocessing.
-
-**To enable DASH, multiple caption and multiple audio track support on your Dynamic Media account:**
-
-<!-- 1. **Configure Dynamic Media for DASH** - In Dynamic Media on Experience Manager, navigate to [https://localhost:4502/system/console/configMgr](https://localhost:4502/system/console/configMgr).
-
-1. Search for **AEM Assets Dynamic Media Video Advanced Streaming** feature flag.
-1. To enable (turn on) DASH, select the checkbox. -->
-1. Begin by **configuring Dynamic Media for DASH** - From Experience Manager, navigate to **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Web Console]**.
-
-1. From the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** page, scroll to the name *AEM Assets Dynamic Media Video Advanced Streaming Feature Flag*.
-
-1. To the left of the name, select the checkbox to enable (turn on) DASH.
-
-1. Select **[!UICONTROL Save]**.
-
-1. Now, use the Admin Console to start the [creation of a new support case](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
-1. To create a support case, follow the instructions while ensuring you provide the following information:
-
-    * Primary contact name, email, phone.
-    * Name of your Dynamic Media account.
-    * Specify that you want DASH, multiple caption and multiple audio track support enabled on your Dynamic Media account, on Experience Manager.
-   
-1. Adobe Customer Support adds you to the Customer Wait List based on the order in which requests are submitted.
-1. When Adobe is ready to handle your request, Customer Support contacts you to coordinate and set a target date for enablement.
-1. Customer support notifies you after completion.
-1. Now, you can do either one of the following:
-
-    * Create your [video viewer preset](/help/assets/managing-viewer-presets.md#creating-a-new-viewer-preset) as usual.
-    * [Add multiple caption and audio tracks](#add-msma) to your video.
-
 ## View video reports {#viewing-video-reports}
 
 >[!NOTE]
@@ -605,7 +547,6 @@ Before you add multiple caption and audio tracks to your video, be sure you alre
 
 * Dynamic Media is set up in an AEM environment.
 * A [Dynamic Media Video profile is applied to the folder where your videos are ingested](/help/assets/video-profiles.md#applying-a-video-profile-to-folders).
-* [Multiple caption and audio track is enabled on your Dynamic Media account](#enable-dash).
 
 Added captions and captions are supported with WebVTT and Adobe `.vtt` formats. And, added audio track files are supported with MP3 format.
 
@@ -837,10 +778,6 @@ The original audio track extracted from a primary file cannot be downloaded.
 
 
 ## Add closed captions to a video {#adding-captions-to-video}
-
->[!IMPORTANT]
->
->Adobe recommends that you [enable multiple caption and audio track capability](#enable-dash) on your Dynamic Media account. Doing so lets you take advantage of the latest Dynamic Media backend architecture and a simplified workflow for adding captions, subtitles, and audio tracks to your videos.
 
 You can extend the reach of your videos to global markets by adding closed captioning to single videos or to Adaptive Video Sets. By adding closed captioning, you avoid the need to dub the audio, or the need to use native speakers to rerecord the audio for each different language. The video is played in the language that it was recorded. Foreign language captions appear so that people of different languages can still understand the audio portion.
 
