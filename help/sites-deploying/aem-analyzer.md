@@ -38,7 +38,7 @@ The AEM Analyzer can be downloaded as a zip file from the [Software Distribution
 
 Follow the section below to understand the important considerations for running the AEM Analyzer: 
 
-* The Analyzer report is built using the output of the AEM [Pattern Detector](/help/sites-deploying/pattern-detector.md). The version of Pattern Detector used by Analyzer is included in the AEM Analyzer installation package
+* The Analyzer report is built using the output of the AEM Pattern Detector. The version of Pattern Detector used by Analyzer is included in the AEM Analyzer installation package
 * AEM Analyzer may only be run by the **admin** user or a user in the **administrators** group
 * Analyzer is supported on AEM instances with version 6.5 and above.
 
