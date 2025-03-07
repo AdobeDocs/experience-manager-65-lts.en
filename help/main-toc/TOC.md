@@ -397,7 +397,11 @@ user-guide-title: AEM 6.5 LTS
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
     + [What's new](/help/forms/using/whats-new.md)
-    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)  
+    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)
+    + [Signature Service Java API QuickStart(SOAP)](/help/forms/developing/signature-service-java-api-quick.md)
+    + [Introducing Java API QuickStart](/help/forms/developing/introducing-java-api-soap-quick.md)
+    + [Acrobat Reader DC extensions Service Java API Quick Start(SOAP)](/help/forms/developing/acrobat-reader-dc-extensions-service.md)
+    + [Encryption Service Java API QuickStart(SOAP)](/help/forms/developing/encryption-service-java-api-quick.md)  
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
     + [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
