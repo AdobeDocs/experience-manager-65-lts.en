@@ -76,7 +76,7 @@ Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how
    java -version
    ```
    
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to your requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations) for more information
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to your requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information.
 1. Download the new 6.5 LTS war and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  
