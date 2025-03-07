@@ -27,7 +27,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 1. Download the new AEM 6.5 LTS jar file
 
-1. [Determine the correct upgrade start command](/help/sites-deploying/in-place-upgrade.md#determining-the-correct-upgrade-start-command-determining-the-correct-upgrade-start-command)
+1. [Determine the correct upgrade start command](#determining-the-correct-upgrade-start-command)
 
 1. Stop the instance if it is running
 
