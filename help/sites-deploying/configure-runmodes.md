@@ -1,10 +1,6 @@
 ---
 title: Run Modes
 description: Learn how to tune your AEM instance for specific purposes by using run modes.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: configuring
-content-type: reference
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
@@ -32,18 +28,14 @@ Installation run modes are provided out-of-the-box:
 
 * `author`
 * `publish`
-* `samplecontent`
-* `nosamplecontent`
 
 These are two pairs of mutually exclusive run modes; for example, you can:
 
 * define either `author` or `publish`, not both at the same time
 
-* combine `author` with either `samplecontent` or `nosamplecontent` (but not both)
-
 >[!CAUTION]
 >
->When using one of the above run modes (author, publish, samplecontent, nosamplecontent), the value used at installation time defines the run mode for the *entire lifetime* of that installation.
+>When using one of the above run modes (author, publish), the value used at installation time defines the run mode for the *entire lifetime* of that installation.
 >
 >For these run modes you *cannot* change them after installation.
 
@@ -62,16 +54,6 @@ You can also create your own, customized, run modes. These can be combined to co
 * as required . . .
 
 Customized run modes can also be selected at each startup.
-
-## Using samplecontent and nosamplecontent {#using-samplecontent-and-nosamplecontent}
-
-These modes let you control the use of sample content. The sample content is defined before the quickstart is built and can include packages, configurations, and so on:
-
-* The `samplecontent` run mode installs this content (the default mode).
-
-* The `nosamplecontent` mode does not install the sample content.
-
-The nosamplecontent run mode is designed for production installations.
 
 ## Defining configuration properties for a run mode {#defining-configuration-properties-for-a-run-mode}
 
