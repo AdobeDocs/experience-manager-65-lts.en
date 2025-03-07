@@ -36,11 +36,9 @@ After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrad
        
        If the server is started via a script or service, update it accordingly to include the above so that these are effective after subsequent restarts as well.
 
-1. Restart the AEM instance.
-
-      >[!NOTE]
-      >
-      > It is recommended to use the 'Ctrl + C' command to restart the SDK. Restarting the AEM SDK using alternative methods, for example, stopping Java processes, may lead to inconsistencies in the AEM development environment.
+        >[!NOTE]
+        >
+        > It is recommended to use the 'Ctrl + C' command to restart the SDK. Restarting the AEM SDK using alternative methods, for example, stopping Java processes, may lead to inconsistencies in the AEM development environment.
 
 1. Perform post-installation activities.
 
