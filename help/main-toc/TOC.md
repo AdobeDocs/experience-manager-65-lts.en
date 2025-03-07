@@ -397,7 +397,7 @@ user-guide-title: AEM 6.5 LTS
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
     + [What's new](/help/forms/using/whats-new.md)
-    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)  
+    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
     + [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
@@ -965,12 +965,9 @@ user-guide-title: AEM 6.5 LTS
   + Developer Reference {#developer-reference}
     + [HTML Template Language](https://experienceleague.adobe.com/docs/experience-manager-htl/content/overview.html)
     + [AEM plug-in to debug adaptive forms](https://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/adaptive-form/)
-    + [AEM Forms Java API Reference](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html)
-    + [AEM Forms on JEE Java API Reference](https://helpx.adobe.com/experience-manager/6-5/forms/programlc/javadoc/index.html)
     + [Form Bridge APIs for HTML5 forms](/help/forms/using/form-bridge-apis.md)
     + [JavaScript Library API reference for Adaptive Forms](https://helpx.adobe.com/experience-manager/6-5/forms/javascript-api/index.html)
     + [Assembler Service and DDX Reference](https://www.adobe.com/go/learn_aemforms_ddxRef_65)
-    + [Workbench Help](https://www.adobe.com/go/learn_aemforms_workbench_65)
     + Programming with AEM Forms on JEE {#programming-aem-forms-jee}
       + Introduction to programming with AEM Forms on JEE {#introduction-programming-aem-forms-jee}
         + [Introducing Java API QuickStart](/help/forms/developing/introducing-java-api-soap-quick.md)

@@ -1,14 +1,11 @@
 ---
 title: Sustainable Upgrades
 description: Learn about sustainable upgrades in Adobe Experience Manager 6.4.
-contentOwner: sarchiz
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: upgrading
-docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 5a93918b-3b5f-49e0-9283-86776f9d8fb4
 ---
 # Sustainable Upgrades{#sustainable-upgrades}

@@ -7,6 +7,9 @@ docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Release Information
 role: Admin, User, Developer
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 4db457d2-fefb-410d-8e74-58147f52bbd3
 ---
 # New features summary | AEM 6.5 Forms{#new-features-summary-aem-forms}

@@ -1,14 +1,11 @@
 ---
 title: Lazy Content Migration
 description: Learn about Lazy Content Migration in Adobe Experience Manager 6.4.
-contentOwner: sarchiz
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: upgrading
-docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 78c5486c-ed84-4ec8-b0b0-42d4e8611098
 ---
 # Lazy Content Migration {#lazy-content-migration}

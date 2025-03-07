@@ -1,13 +1,11 @@
 ---
 title: Upgrading Custom Search Forms
 description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: upgrading
-content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 9df608f8-cdd0-4820-aab1-eab9fd70f961
 ---
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}
