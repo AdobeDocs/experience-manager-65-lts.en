@@ -1,14 +1,11 @@
 ---
 title: Backward Compatibility in AEM 6.5
 description: Learn how to keep your apps and configurations compatible with Adobe Experience Manager (AEM) 6.5
-contentOwner: sarchiz
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: upgrading
-content-type: reference
-docset: aem65
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 96e44da3-da89-4671-a4fb-19ce1b9a38c4
 ---
 # Backward Compatibility in AEM 6.5{#backward-compatibility-in-aem}
