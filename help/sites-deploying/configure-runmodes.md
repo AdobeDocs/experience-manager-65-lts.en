@@ -4,6 +4,9 @@ description: Learn how to tune your AEM instance for specific purposes by using 
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: b21555f2-bc07-4653-a5da-966b9aa7ea1f
 ---
 # Run Modes{#run-modes}

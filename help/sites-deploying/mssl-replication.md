@@ -8,6 +8,9 @@ topic-tags: configuring
 feature: Security
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: f5944c6e-bf6f-490e-a8b1-3a01b76d32c0
 ---
 # Replicating Using Mutual SSL{#replicating-using-mutual-ssl}

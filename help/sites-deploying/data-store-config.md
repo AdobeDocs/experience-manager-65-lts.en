@@ -7,6 +7,9 @@ docset: aem65
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 69d94737-41d0-47bb-b914-f7606becd038
 ---
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}

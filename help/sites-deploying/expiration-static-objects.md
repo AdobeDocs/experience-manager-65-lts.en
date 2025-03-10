@@ -8,6 +8,9 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: a279ebed-a116-4719-989e-1b2f79f6caa4
 ---
 # Expiration of Static Objects{#expiration-of-static-objects}
