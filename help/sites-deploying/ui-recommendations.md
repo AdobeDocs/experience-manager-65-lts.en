@@ -4,6 +4,9 @@ description: A list of recommendations related to the classic and touch-optimize
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: f65f9e94-0837-48d1-a565-cfb880963790
 ---
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}

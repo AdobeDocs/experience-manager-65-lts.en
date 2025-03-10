@@ -9,6 +9,9 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 9baa4111-831a-4b68-9ce5-82aeeb06e07f
 ---
 # Recommended Deployments{#recommended-deployments}
