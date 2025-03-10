@@ -8,6 +8,9 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 4f830ee9-e0e3-48df-b67d-709258cb1991
 ---
 # Deploying Best Practices{#deploying-best-practices}

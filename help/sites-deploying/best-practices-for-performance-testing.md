@@ -8,6 +8,9 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 29c20cf3-1694-4d06-ab7c-688018808c44
 ---
 # Best Practices for Performance Testing{#best-practices-for-performance-testing}

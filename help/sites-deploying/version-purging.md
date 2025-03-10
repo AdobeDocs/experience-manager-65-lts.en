@@ -9,6 +9,9 @@ docset: aem65
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: e3ef1435-d405-482f-9eb5-f9a64ff03322
 ---
 # Version Purging{#version-purging}
