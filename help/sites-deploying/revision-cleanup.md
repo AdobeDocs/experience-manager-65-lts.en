@@ -8,6 +8,9 @@ topic-tags: deploying
 feature: Administering
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+hide: yes
+hidefromtoc: yes
+removedfrom6.5.2025: yes
 exl-id: 114a77bc-0b7e-49ce-bca1-e5195b4884dc
 ---
 # Revision Cleanup{#revision-cleanup}
