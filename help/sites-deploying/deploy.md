@@ -15,19 +15,22 @@ exl-id: 4a2ada26-b859-4a32-9ab0-2d4c2b695245
 
 In this page you find:
 
-- [Deploying and Maintaining{#deploying-and-maintaining}](#deploying-and-maintainingdeploying-and-maintaining)
-  - [Basic Concepts {#basic-concepts}](#basic-concepts-basic-concepts)
-    - [What is AEM? {#what-is-aem}](#what-is-aem-what-is-aem)
-    - [Typical Deployment Scenarios {#typical-deployment-scenarios}](#typical-deployment-scenarios-typical-deployment-scenarios)
-    - [On-premise {#on-premise}](#on-premise-on-premise)
-    - [Managed Services using Cloud Manager {#managed-services-using-cloud-manager}](#managed-services-using-cloud-manager-managed-services-using-cloud-manager)
-  - [Getting Started {#getting-started}](#getting-started-getting-started)
-    - [Prerequisites {#prerequisites}](#prerequisites-prerequisites)
-    - [Getting the Software {#getting-the-software}](#getting-the-software-getting-the-software)
-    - [Default Local Install {#default-local-install}](#default-local-install-default-local-install)
-    - [Author and Publish Installs {#author-and-publish-installs}](#author-and-publish-installs-author-and-publish-installs)
-    - [Unpacked Install Directory {#unpacked-install-directory}](#unpacked-install-directory-unpacked-install-directory)
-    - [Starting and Stopping {#starting-and-stopping}](#starting-and-stopping-starting-and-stopping)
+* [Basic Concepts](#basic-concepts)
+
+    * [What is AEM?](#what-is-aem)
+    * [Typical Deployments](#typical-deployment-scenarios)
+
+        * [On-premise](#on-premise)
+        * [Managed Services using Cloud Manager](#managed-services-using-cloud-manager)
+
+* [Getting Started](#getting-started)
+
+    * [Prerequisites](#prerequisites)
+    * [Getting the Software](#getting-the-software)
+    * [Default Local Install](#default-local-install)
+    * [Author and Publish Installs](#author-and-publish-installs)
+    * [Unpacked Install Directory](#unpacked-install-directory)
+    * [Starting and Stopping](#starting-and-stopping)
 
 <!-- Once you have familiarized yourself with these basics, you can find in more advanced and detailed information in the following subpages:
 
