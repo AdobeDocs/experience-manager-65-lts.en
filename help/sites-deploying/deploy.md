@@ -259,6 +259,7 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 `https://localhost:4502/`
 
 ![sign in screen](assets/screen_shot_2019-04-08at83533am.png)
+
 <!-- 
 After you are logged in, you have access to AEM. For more information, depending on your role, see the following:
 
