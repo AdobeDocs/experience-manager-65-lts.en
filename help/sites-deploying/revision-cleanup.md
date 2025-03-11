@@ -72,18 +72,15 @@ Due to this fact, it is recommended to size the disk at least two or three times
 
 ## Full And Tail Compaction Modes  {#full-and-tail-compaction-modes}
 
-**AEM 6.5** introduces **two new modes** for the **compaction** phase of the Online Revision Cleanup process:
+**AEM 6.5 LTS** has **two modes** for the **compaction** phase of the Online Revision Cleanup process:
 
-* The **full compaction** mode rewrites all the segments and tar files in the whole repository. The subsequent cleanup phase can thus remove the maximum amount of garbage across the repository. Because full compaction affects the whole repository, it requires a considerable amount of system resources and time to complete. Full compaction corresponds to the compaction phase in AEM 6.3.
+* The **full compaction** mode rewrites all the segments and tar files in the whole repository. The subsequent cleanup phase can thus remove the maximum amount of garbage across the repository. Because full compaction affects the whole repository, it requires a considerable amount of system resources and time to complete.
 * The **tail compaction** mode rewrites only the most recent segments and tar files in the repository. The most recent segments and tar files are those that have been added since the last time either full or tail compaction ran. The subsequent cleanup phase can thus only remove the garbage contained in the recent part of the repository. Because tail compaction only affects a part of the repository, it requires considerably less system resources and time to complete than full compaction.
 
 These compaction modes constitute a trade-off between efficiency and resource consumption: while tail compaction is less effective it also has less impact on normal system operation. In contrast, full compaction is more effective but has a bigger impact on normal system operation.
 
-AEM 6.5 also introduces a more efficient content deduplication mechanism during compaction, which further reduces the on-disk footprint of the repository.
+AEM 6.5 LTS has an efficient content deduplication mechanism during compaction, which further reduces the on-disk footprint of the repository.
 
-The two charts below, present results from internal laboratory testing that illustrate the reduction of average execution times and the average footprint on disk in AEM 6.5 compared to AEM 6.3:
-
-![onrc-duration-6_4vs63](assets/onrc-duration-6_4vs63.png) ![segmentstore-6_4vs63](assets/segmentstore-6_4vs63.png)
 
 ### How To Configure Full and Tail Compaction {#how-to-configure-full-and-tail-compaction}
 
@@ -102,7 +99,7 @@ Also, consider that:
 When using the new compaction modes, keep in mind the following:
 
 * You can monitor the input/output (I/O) activity, for example: I/O operations, CPU waiting for IO, commit queue size. This helps determine whether the system is becoming I/O bound and requires upsizing.
-* The `RevisionCleanupTaskHealthCheck` indicates the overall health status of the Online Revision Cleanup. It works the same way as in AEM 6.3 and does not distinguish between full and tail compaction.
+* The `RevisionCleanupTaskHealthCheck` indicates the overall health status of the Online Revision Cleanup.
 * The log messages carry relevant information about the compaction modes. For example, when Online Revision Cleanup starts, the corresponding log messages indicate the compaction mode. Also, in some corner cases, the system reverts to full compaction when it was scheduled to run a tail compaction and the log messages indicate this change. The log samples bellow indicate the compaction mode and the change from tail to full compaction:
 
 ```
@@ -117,83 +114,6 @@ Sometimes, alternating between the tail and full compaction modes delays the cle
 **It is recommended to size the disk at least two or three times larger than the initially estimated repository size.**
 
 ## Online Revision Cleanup Frequently Asked Questions {#online-revision-cleanup-frequently-asked-questions}
-
-### AEM 6.5 Upgrade Considerations {#aem-upgrade-considerations}
-
-<table style="table-layout:auto">
- <tbody>
-  <tr>
-   <td>Questions </td>
-   <td>Answers</td>
-  </tr>
-  <tr>
-   <td>What should I be aware of when I upgrade to AEM 6.5?</td>
-   <td><p>The persistence format of TarMK changes with AEM 6.5. These changes do not require a proactive migration step. Existing repositories go through a rolling migration, which is transparent to the user. The migration process is initiated the first time AEM 6.5 (or related tools) access the repository.</p> <p><strong>Once the migration to the AEM 6.5 persistence format has been initiated, the repository cannot be reverted to the previous AEM 6.3 persistence format.</strong></p> </td>
-  </tr>
- </tbody>
-</table>
-
-### Migrating to Oak Segment Tar {#migrating-to-oak-segment-tar}
-
-<table style="table-layout:auto">
- <tbody>
-  <tr>
-   <td><strong>Questions</strong></td>
-   <td><strong>Answers</strong></td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Why do I need to migrate the repository?</strong></td>
-   <td><p>In AEM 6.3 changes to the storage format were needed, especially for improving the performance and efficacy of Online Revision Cleanup. These changes are not backwards compatible, and repositories created with the old Oak Segment (AEM 6.2 and previous) must be migrated.</p> <p>Additional benefits of changing the storage format:</p>
-    <ul>
-     <li>Better scalability (optimized segment size).</li>
-     <li>Faster <a href="/help/sites-administering/data-store-garbage-collection.md" target="_blank">Data Store Garbage Collection</a>.<br /> </li>
-     <li>Ground work for future enhancements.</li>
-    </ul> </td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Is the previous Tar format still supported?</strong></td>
-   <td>Only the new Oak Segment Tar is supported with AEM 6.3 or higher.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Is the content migration always mandatory?</strong></td>
-   <td>Yes. Unless you start with a fresh instance, you will always have to migrate the content.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Can I upgrade to 6.3 or higher and do the migration later (for example, using another maintenance window)?</strong></td>
-   <td>No, as explained above, the content migration is mandatory.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Can downtime be avoided when migrating?</strong></td>
-   <td>No. This is a one time effort that cannot be done on a running instance.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>What happens if I accidentally run against the wrong repository format?</strong></td>
-   <td>If you try to run the oak-segment module against an oak-segment-tar repository (or conversely), startup fails with an <em>IllegalStateException</em> with the message "Invalid segment format". No data corruption occurs.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Will a reindex of the search indexes be necessary?</strong></td>
-   <td>No. Migrating from oak-segment to oak-segment-tar introduces changes in the container format. The contained data is not affected and will not be modified.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>How to best calculate the expected disk space needed during and after the migration?</strong></td>
-   <td>The migration is equivalent to recreating the segmentstore in the new format. This can be used to estimate the additional disk space needed during migration. After the migration, the old segment store can be deleted to reclaim space.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>How to best estimate the duration of the migration?</strong></td>
-   <td>Migration performance can be greatly improved if <a href="/help/sites-deploying/revision-cleanup.md#how-to-run-offline-revision-cleanup">offline revision cleanup</a> is executed prior to the migration. All customers are advised to execute it as a pre-requisite of the upgrade process. In general, the duration of the migration should be similar to the duration of the offline revision cleanup task, assuming that the offline revision cleanup task has been executed before the migration.</td>
-   <td> </td>
-  </tr>
- </tbody>
-</table>
 
 ### Running Online Revision Cleanup {#running-online-revision-cleanup}
 
@@ -237,11 +157,6 @@ Sometimes, alternating between the tail and full compaction modes delays the cle
   <tr>
    <td><strong>Would Author and Publish typically have different Online Revision Cleanup windows?</strong></td>
    <td>This depends on office hours and the traffic patterns of the customer online presence. The maintenance windows should be configured outside of the main production times to allow for the best cleanup efficacy. For multiple AEM Publish instances (TarMK Farm), maintenance windows for Online Revision Cleanup should be staggered.</td>
-   <td> </td>
-  </tr>
-  <tr>
-   <td><strong>Are there any prerequisites before running Online Revision Cleanup?</strong></td>
-   <td><p>Online Revision Cleanup is available only with AEM 6.3 and higher releases. Also, if you are using an older version of AEM, you must migrate to the new <a href="/help/sites-deploying/revision-cleanup.md#migrating-to-oak-segment-tar">Oak Segment Tar</a>.</p> </td>
    <td> </td>
   </tr>
   <tr>

@@ -21,16 +21,14 @@ This section tells you how to install Adobe Experience Manager (AEM) with an app
 
 The installation steps of the following Application Servers are described:
 
-* [WebSphere&reg; 8.5](#websphere)
-* [JBoss&reg; EAP 6.3.0/6.4.0](#jboss-eap)
-* [Oracle WebLogic 12.1.3/12.2](#oracle-weblogic)
-* [Tomcat 8/8.5](#tomcat)
+* [WebSphere&reg; 24.0.0.7](#websphere)
+* [Tomcat 11.0.x](#tomcat)
 
 Consult the appropriate application server documentation for more information on installing web applications, server configurations and how to start and stop the server.
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->If you are using Dynamic Media in a WAR deployment, see [Dynamic Media documentation](/help/assets/config-dynamic.md#enabling-dynamic-media).
+>If you are using Dynamic Media in a WAR deployment, see [Dynamic Media documentation](/help/assets/config-dynamic.md#enabling-dynamic-media). -->
 
 ## General Description {#general-description}
 
@@ -43,7 +41,7 @@ If deployed, the following happens by default:
 * the run mode is `author`
 * the instance (Repository, Felix OSGI environment, bundles, and so on) is installed in `${user.dir}/crx-quickstart`where `${user.dir}` is the current working directory, this path to crx-quickstart is called `sling.home`
 
-* the context root is the war file name for example,  `aem-6`
+* the context root is the war file name for example,  `aem-65-lts`
 
 #### Configuration {#configuration}
 
@@ -89,7 +87,7 @@ For demonstration purposes, it can be appropriate to install author and publish 
 
 ## Application Servers Installation Procedures {#application-servers-installation-procedures}
 
-### WebSphere&reg; 8.5 {#websphere}
+### WebSphere&reg; 24.0.0.7 {#websphere}
 
 Before a deployment read the [General Description](#general-description) above.
 
@@ -118,66 +116,7 @@ Before a deployment read the [General Description](#general-description) above.
 
 * Start AEM web application
 
-#### JBoss&reg; EAP 6.3.0/6.4.0 {#jboss-eap}
-
-Before a deployment read the [General Description](#general-description) above.
-
-**Prepare JBoss&reg; server**
-
-Set Memory arguments in your conf file (for example, `standalone.conf`)
-
-* JAVA_OPTS="-Xms64m -Xmx2048m"
-
-If you use the deployment-scanner to install the AEM web application, it might be good to increase the `deployment-timeout,` for that set a `deployment-timeout` attribute in the xml file of your instance (for example, `configuration/standalone.xml)`:
-
-```xml
-<subsystem xmlns="urn:jboss:domain:deployment-scanner:1.1">
-            <deployment-scanner path="deployments" relative-to="jboss.server.base.dir" scan-interval="5000" deployment-timeout="1000"/>
-</subsystem>
-```
-
-**Deploy AEM web application**
-
-* Upload the AEM web application in your JBoss&reg; Administration Console.
-
-* Enable the AEM web application.
-
-#### Oracle WebLogic 12.1.3/12.2 {#oracle-weblogic}
-
-Before a deployment read the [General Description](#general-description) above.
-
-This uses a simple Server Layout with only an Admin Server.
-
-**WebLogic Server Preparation**
-
-* In `${myDomain}/config/config.xml`add to the security-configuration section:
-
-  * `<enforce-valid-basic-auth-credentials>false</enforce-valid-basic-auth-credentials>` see on [https://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd](https://xmlns.oracle.com/weblogic/domain/1.0/domain.xsd) for the correct position (per default to position it at the end of the section is ok)
-
-* Increase VM Memory settings:
-
-  * open `${myDomain}/bin/setDomainEnv.cmd` (resp .sh) search for WLS_MEM_ARGS, set, for example, set `WLS_MEM_ARGS_64BIT=-Xms256m -Xmx2048m`
-  * restart WebLogic Server
-
-* Create in `${myDomain}` a packages folder and inside a cq folder and in it a Plan folder
-
-**Deploy AEM web application**
-
-* Download AEM war file
-* Put the AEM war file into the ${myDomain}/packages/cq folder
-* Make your configurations In `WEB-INF/web.xml` if needed (see above in the General Description)
-
-  * Unpack `WEB-INF/web.xml`file
-  * change sling.run.modes parameter to publish
-  * uncomment sling.home initial parameter and set this path as you need (see General Description)
-  * Repack web.xml file
-
-* Deploy AEM war file as an Application (for the other settings, use the default settings)
-* The installation can take time...
-* Check that the installation has finished as mentioned above in the General Description (for example, tailing the error.log)
-* You can change the context root in the Configuration tab of the web application in the WebLogic `/console`
-
-#### Tomcat 8/8.5 {#tomcat}
+#### Tomcat 11.0.x {#tomcat}
 
 Before a deployment read the [General Description](#general-description) above.
 
