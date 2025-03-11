@@ -38,10 +38,10 @@ AEM comes as a single war file to deploy.
 
 If deployed, the following happens by default:
 
-* the run mode is `author`
-* the instance (Repository, Felix OSGI environment, bundles, and so on) is installed in `${user.dir}/crx-quickstart`where `${user.dir}` is the current working directory, this path to crx-quickstart is called `sling.home`
+* The run mode is `author`
+* The instance (Repository, Felix OSGI environment, bundles, and so on) is installed in is `${user.dir}/crx-quickstart`, where `${user.dir}` is the current working directory. This path to crx-quickstart is called `sling.home`
 
-* the context root is the war file name for example,  `aem-65-lts`
+* The context root is the war file name. For example, `aem-65-lts`.
 
 #### Configuration {#configuration}
 
@@ -49,7 +49,7 @@ You can change the default behavior in the following way:
 
 * run mode : configure the `sling.run.modes` parameter in the `WEB-INF/web.xml` file of the AEM war file before deployment
 
-* sling.home: configure the `sling.home` parameter in the `WEB-INF/web.xml`file of the AEM war file before deployment
+* sling.home: configure the `sling.home` parameter in the `WEB-INF/web.xml` file of the AEM war file before deployment
 
 * context root: rename the AEM war file
 
@@ -57,64 +57,64 @@ You can change the default behavior in the following way:
 
 To get a publish instance deployed, you need to set the run mode to publish:
 
-* Unpack the WEB-INF/web.xml from the AEM war file
-* Change sling.run.modes parameter to publish
-* Repack web.xml file into AEM war file
+* Unpack the `WEB-INF/web.xml` from the AEM war file
+* Change `sling.run.modes` parameter to publish
+* Repack `web.xml` file into the AEM war file
 * Deploy AEM war file
 
 #### Installation check {#installation-check}
 
-To check if all is installed, you can:
+To check if everything is installed, you can:
 
 * tail the `error.log`file to see that all content is installed
 * look in `/system/console` that all bundles are installed
 
 #### Two Instances on the same Application Server {#two-instances-on-the-same-application-server}
 
-For demonstration purposes, it can be appropriate to install author and publish instance in one application server. For that do the following:
+For demonstration purposes, it can be appropriate to install both author and publish instance in one application server. In order achieve that, you need to:
 
-1. Change sling.home variable and sling.run.modes variables of the publish instance.
-1. Unpack WEB-INF/web.xml file from the AEM war file.
-1. Change sling.home parameter to a different path (absolute and relative paths are possible).
-1. Change sling.run.modes to publish for the publish instance.
-1. Repack the web.xml file.
-1. Rename the war files, so they have different names. For example, one rename to aemauthor.war and the other to aempublish.war.
+1. Change `sling.home` variable and `sling.run.modes` variables of the publish instance
+1. Unpack the `WEB-INF/web.xml` file from the AEM war file
+1. Change the `sling.home` parameter to a different path (absolute and relative paths are possible)
+1. Change `sling.run.modes` to `publish` for the publish instance
+1. Repack the `web.xml` file
+1. Rename the war files, so they have different names. For example, rename one to `aemauthor.war` and the other to `aempublish.war`
 1. Use higher memory settings. For example, default AEM instances use `-Xmx3072m`
-1. Deploy the two web applications.
-1. After Deployment stop the two web applications.
-1. In both author and publish instances assure that in the sling.properties files the property felix.service.urlhandlers=false is set to false (default is that it is set to true).
+1. Deploy the two web applications
+1. After Deployment stop the two web applications
+1. In both author and publish instances make sure that in the `sling.properties` file the property `felix.service.urlhandlers` is set to `false`. (The default is that it is set to `true`).
 1. Start the two web applications again.
 
 ## Application Servers Installation Procedures {#application-servers-installation-procedures}
 
 ### WebSphere&reg; 24.0.0.7 {#websphere}
 
-Before a deployment read the [General Description](#general-description) above.
+Before the deployment, please read the [General Description](#general-description) above.
 
 **Server Preparation**
 
 * Let Basic Auth Headers pass through:
 
-  * One way to let AEM to authenticate a user is to disable the global administrative security of the WebSphere&reg; server, to do so: go to Security > Global Security and uncheck the Enable administrative security checkbox, save, and restart the server.
+  * One way to let AEM authenticate a user is to disable the global administrative security of the WebSphere&reg; server. In order to do that, go to **Security > Global Security** and uncheck the **Enable administrative security checkbox**, save, and restart the server.
 
-* set `"JAVA_OPTS= -Xmx2048m"`
+* Set `"JAVA_OPTS= -Xmx2048m"`
 * If you want to install AEM using context root = /, change the context root of the existing Default web application.
 
-**Deploy AEM web application**
+**Deploy the AEM Web Application**
 
-* Download AEM war file
-* Make your configurations In web.xml if needed (see above in the General Description)
+* Download the AEM war file
+* Make your configurations in the `web.xml` file if needed. For more info, see [General Description](#general-description) above.
 
-  * Unpack WEB-INF/web.xml file
-  * change sling.run.modes parameter to publish
-  * uncomment sling.home initial parameter and set this path as you need
-  * Repack web.xml file
+  * Unpack the `WEB-INF/web.xml` file
+  * Change the `sling.run.modes` parameter to `publish`
+  * Uncomment initial `sling.home` parameter and set this path as you need
+  * Repack the `web.xml` file.
 
-* Deploy AEM war file
+* Deploy the AEM war file
 
-  * Choose a context root (if you want to set the sling run modes you need to select the detailed steps of the deploy wizard, then specify it in step 6 of the wizard)
+  * Choose a context root. If you want to set the sling run modes you need to select the detailed steps of the deploy wizard, then specify it in step 6 of the wizard.
 
-* Start AEM web application
+* Startthe AEM web application
 
 #### Tomcat 11.0.x {#tomcat}
 
@@ -125,9 +125,12 @@ Before a deployment read the [General Description](#general-description) above.
   * Increase VM memory settings:
 
     * In `bin/catalina.bat` (resp `catalina.sh` on UNIX&reg;) add the following setting:
-    * `set "JAVA_OPTS= -Xmx2048m`
+      
+      ```
+      set "JAVA_OPTS= -Xmx2048m`
+      ```
 
-  * Tomcat enables not admin or manager access at installation. Therefore, you have to manually edit `tomcat-users.xml` to allow access for these accounts:
+  * Tomcat does not enable admin or manager access at installation. Therefore, you have to manually edit `tomcat-users.xml` to allow access for these accounts:
 
     * Edit `tomcat-users.xml` to include access for admin and manager. The configuration should look similar to the following example:
 
@@ -148,15 +151,15 @@ Before a deployment read the [General Description](#general-description) above.
 
   * If you like to deploy AEM with context root "/", then you have to change context root of the existing ROOT webapp:
 
-    * Stop and undeploy ROOT webapp
-    * Rename ROOT.war folder in tomcat's webapps folder
-    * Start webapp again
+    * Stop and undeploy the ROOT webapp
+    * Rename the `ROOT.war` folder in Tomcat's webapps folder
+    * Start the webapp again
 
-  * If you install the AEM web application using the manager-gui then you need to increase the maximal size of an uploaded file, as the default only allows 50MB upload size. For that open the web.xml of the manager web application,
+  * If you install the AEM web application using the manager-gui, then you need to increase the maximal size of an uploaded file, as the default only allows 50MB upload size. In order to achieven that open the `web.xml` of the manager web application:
 
       `webapps/manager/WEB-INF/web.xml`
 
-      and increase the max-file-size and max-request-size to at least 500MB, see the following `multipart-config` example of such a `web.xml` file.
+      and increase the `max-file-size` and `max-request-size` to at least 500MB. See see the following `multipart-config` in an example `web.xml` file below:
 
       ```xml
       <multipart-config>
@@ -167,16 +170,16 @@ Before a deployment read the [General Description](#general-description) above.
       </multipart-config>
       ```
 
-* **Deploy AEM web application**
+* **Deploy the AEM web application**
 
-  * Download AEM war file.
-  * Make your configurations In web.xml if needed (see above in the General Description).
+  * Download the AEM war file.
+  * Make your configurations in the `web.xml` file if needed.
 
-    * Unpack WEB-INF/web.xml file.
-    * Change sling.run.modes parameter to publish.
-    * Uncomment sling.home initial parameter and set this path as you need.
-    * Repack web.xml file.
+    * Unpack the `WEB-INF/web.xml` file
+    * Change the `sling.run.modes` parameter to `publish`
+    * Uncomment  the initial `sling.home` parameter and set this path as you need
+    * Repack the `web.xml` file.
 
-  * Rename AEM war file to ROOT.war if you want to deploy it as root webapp. Rename it to aemauthor.war if you want to have aemauthor as context root.
-  * Copy it into tomcat's webapps folder.
+  * Rename the AEM war file to `ROOT.war` if you want to deploy it as root webapp. Rename it to `aemauthor.war` if you want to have `aemauthor` as context root.
+  * Copy it into Tomcat's webapps folder
   * Wait until AEM is installed.
