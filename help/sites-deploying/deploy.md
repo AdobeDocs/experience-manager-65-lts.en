@@ -104,11 +104,11 @@ You can install AEM on servers in your Corporate environment. Typical installati
 
 ### Prerequisites {#prerequisites}
 
-While production instances are run on dedicated machines running an officially supported OS (see [Technical Requirements](/help/sites-deploying/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java&trade; Standard Edition 17**](https://www.oracle.com/java/technologies/downloads/#java17a).
+While production instances are run on dedicated machines running an officially supported OS (see [Technical Requirements](/help/sites-deploying/technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java&trade; Standard Edition 17**](https://www.oracle.com/java/technologies/downloads/#java17).
 
 For purposes of familiarization and for developing on AEM, it is common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft&reg; Windows or Linux&reg;.
 
-On the client-side, AEM works with all modern browsers (**Microsoft&reg; Edge**,  **Chrome** 51+, **Firefox** 47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](/help/sites-deploying/technical-requirements.md#supported-client-platforms) for details.
+On the client-side, AEM works with all modern browsers (**Microsoft&reg; Edge**, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](/help/sites-deploying/technical-requirements.md#supported-client-platforms) for details.
 
 ### Getting the Software {#getting-the-software}
 
@@ -261,9 +261,9 @@ After you are logged in, you have access to AEM. For more information, depending
 * [Authoring](/help/sites-authoring/first-steps.md)
 * [Administering](/help/sites-administering/home.md)
 * [Developing](/help/sites-developing/getting-started.md)
-* [Managing](/help/managing/best-practices.md) -->
+* [Managing](/help/managing/best-practices.md)
 
-<!-- ## Advanced Deployment {#advanced-deployment}
+## Advanced Deployment {#advanced-deployment}
 
 The above section should give you a good understanding of the basics of AEM installation. However, installing a full production system of AEM can involve considerably more complexity. For full coverage of advanced installation see the following subpages:
 
