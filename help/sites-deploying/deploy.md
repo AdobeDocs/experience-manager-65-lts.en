@@ -112,7 +112,7 @@ While production instances are run on dedicated machines running an officially s
 
 For purposes of familiarization and for developing on AEM, it is common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft&reg; Windows or Linux&reg;.
 
-On the client-side, AEM works with all modern browsers (**Microsoft&reg; Edge**, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](/help/sites-deploying/technical-requirements.md#supported-client-platforms) for details.
+On the client-side, AEM works with all modern browsers (**Microsoft&reg; Edge**, **Chrome 51+**, **Firefox 47+**, **Safari 8+**) on both desktop and tablet operating systems. See [Supported Client Platforms](/help/sites-deploying/technical-requirements.md#supported-client-platforms) for details.
 
 ### Getting the Software {#getting-the-software}
 
