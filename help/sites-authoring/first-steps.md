@@ -1,11 +1,6 @@
 ---
 title: First steps for authors when creating content in AEM
-description: Explore the key concepts of creating content and authoring in AEM 6.5. You will also find information around using tags, templates and other page features.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: page-authoring
-content-type: reference
-docset: aem65
+description: Explore the key concepts of creating content and authoring in AEM 6.5 LTS. You will also find information around using tags, templates and other page features.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

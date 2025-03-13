@@ -1,6 +1,6 @@
 ---
 title: Introduction to [!DNL Adobe Experience Manager Assets]
-description: Create, manage, process, and distribute digital assets in Experience Manager. These guides describe best practices, accessibility features, and how to use AEM 6.5 assets.
+description: Create, manage, process, and distribute digital assets in Experience Manager. These guides describe best practices, accessibility features, and how to use AEM 6.5 LTS assets.
 hide: yes
 feature: Asset Management
 role: Leader, Architect, User

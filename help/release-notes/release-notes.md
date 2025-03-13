@@ -36,7 +36,7 @@ The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 
 #### Uberjar Packaging {#uber-jar-packaging}
 
-* There is slight difference in Uberjar packaging of AEM 6.5 LTS. For more information [refer](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version-update-the-aem-uber-jar-version).
+* There is slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
 #### Upgrade {#upgrade}
 

@@ -1,10 +1,6 @@
 ---
 title: Introduction to AEM Forms
-description: Use this AEM 6.5 guide to create, manage, publish, and update digital forms. Find help on installing, upgrading, and configuring them, and learn about authoring adaptive forms.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: introduction
-docset: aem65
+description: Use this AEM 6.5 LTS guide to create, manage, publish, and update digital forms. Find help on installing, upgrading, and configuring them, and learn about authoring adaptive forms.
 feature: Adaptive Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
