@@ -1,11 +1,6 @@
 ---
 title: Getting Started Developing AEM Sites - WKND Tutorial
 description: Learn how to build out your AEM instance. Learn more about the platform and components, and find information around development tools and personalization.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: introduction
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
