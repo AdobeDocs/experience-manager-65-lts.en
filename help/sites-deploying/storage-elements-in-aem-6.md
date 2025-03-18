@@ -61,13 +61,13 @@ AEM 6 onwards can be configured to run with MongoDB storage by following the bel
 
    `java -jar <aem-65-lts>.jar -unpack`
 
-2. Make sure that MongoDB is installed and an instance of `mongod` is running. For more info, see [Installing MongoDB](https://docs.mongodb.org/manual/installation/).
-3. Create a folder named `crx-quickstart\install` in the installation directory.
-4. Configure the node store by creating a configuration file with the name of the configuration that you want to use in the `crx-quickstart\install` directory.
+1. Make sure that MongoDB is installed and an instance of `mongod` is running. For more info, see [Installing MongoDB](https://docs.mongodb.org/manual/installation/).
+1. Create a folder named `crx-quickstart\install` in the installation directory.
+1. Configure the node store by creating a configuration file with the name of the configuration that you want to use in the `crx-quickstart\install` directory.
 
    The Document Node Store (which is the basis for AEM's MongoDB storage implementation) uses a file called `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.cfg`
 
-5. Edit the file and set your configuration options. The following options are available:
+1. Edit the file and set your configuration options. The following options are available:
 
     * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`
     * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name.
@@ -75,9 +75,9 @@ AEM 6 onwards can be configured to run with MongoDB storage by following the bel
     * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256.
     * `customBlobStore`: Boolean value indicating that a custom data store is used. The default is false.
 
-6. Create a configuration file with the PID of the data store you want to use and edit the file to set the configuration options. For more info, see [Configuring Node Stores and Data Stores](/help/sites-deploying/data-store-config.md).
+1. Create a configuration file with the PID of the data store you want to use and edit the file to set the configuration options. For more info, see [Configuring Node Stores and Data Stores](/help/sites-deploying/data-store-config.md).
 
-7. Start the AEM 6.5 LTS jar with a MongoDB storage backend by running:
+1. Start the AEM 6.5 LTS jar with a MongoDB storage backend by running:
 
    ```shell
    java -jar <aem-65-lts>.jar -r crx3,crx3mongo
