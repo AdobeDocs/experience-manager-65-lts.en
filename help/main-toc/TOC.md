@@ -1401,7 +1401,6 @@ user-guide-title: AEM 6.5 LTS
         + [Revision Cleanup](/help/sites-deploying/revision-cleanup.md)
         + [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md)
         + [How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
-        + [RDBMS Support in AEM](/help/sites-deploying/rdbms-support-in-aem.md)
         + [Indexing via the Oak-run Jar](/help/sites-deploying/indexing-via-the-oak-run-jar.md)
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
         + [Troubleshooting Oak Indexes](/help/sites-deploying/troubleshooting-oak-indexes.md)

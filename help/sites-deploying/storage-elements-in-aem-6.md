@@ -15,14 +15,14 @@ exl-id: e51842b5-fa91-42d2-a490-5a7e867dada7
 
 This article covers the following:
 
-* [Overview of Storage in AEM 6 onwards](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
+* [Overview of Storage in AEM 6](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
 * [Maintaining the Repository](/help/sites-deploying/storage-elements-in-aem-6.md#maintaining-the-repository)
 
-## Overview of Storage in AEM 6 onwards {#overview-of-storage-in-aem}
+## Overview of Storage in AEM 6 {#overview-of-storage-in-aem}
 
-One of the most important changes in AEM 6 onwards are the innovations at the repository level.
+One of the most important changes in AEM 6 are the innovations at the repository level.
 
-Currently, there are two node storage implementations available in AEM 6 onwards: Tar storage, and MongoDB storage.
+Currently, there are two node storage implementations available in AEM6: Tar storage, and MongoDB storage.
 
 ### Tar Storage {#tar-storage}
 
@@ -32,7 +32,7 @@ Currently, there are two node storage implementations available in AEM 6 onwards
 >
 >The PID for the Segment node store has changed from org.apache.jackrabbit.oak.**plugins**.segment.SegmentNodeStoreService in previous versions of AEM 6 to org.apache.jackrabbit.oak.segment.SegmentNodeStoreService in AEM 6.3. Make sure that the necessary configuration adjustments are made so that the changes are reflected.
 
-By default, AEM 6 onwards uses the Tar storage to store nodes and binaries, using the default configuration options. You can manually configure its storage settings by doing the following:
+By default, AEM 6 uses the Tar storage to store nodes and binaries, using the default configuration options. You can manually configure its storage settings by doing the following:
 
 1. Download the AEM 6.5 LTS quickstart jar and place it in a new folder.
 1. Unpack AEM by running:
@@ -54,7 +54,7 @@ By default, AEM 6 onwards uses the Tar storage to store nodes and binaries, usin
 
 #### Running a freshly installed AEM instance with Mongo Storage {#running-a-freshly-installed-aem-instance-with-mongo-storage}
 
-AEM 6 onwards can be configured to run with MongoDB storage by following the below procedure:
+AEM 6.5 LTS can be configured to run with MongoDB storage by following the below procedure:
 
 1. Download the AEM 6.5 LTS quickstart jar and place it into a new folder.
 1. Unpack AEM by running the following command:
