@@ -51,7 +51,7 @@ In this deployment, all the components are required for a successful implementat
 
 ### Operating Systems {#operating-systems}
 
-For a list of supported operating systems for AEM 6, see the [Technical Requirements page](/help/sites-deploying/technical-requirements.md).
+For a list of supported operating systems for AEM 6.5 LTS, see the [Technical Requirements page](/help/sites-deploying/technical-requirements.md).
 
 ### Environments {#environments}
 

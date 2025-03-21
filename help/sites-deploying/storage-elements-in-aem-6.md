@@ -34,10 +34,10 @@ Currently, there are two node storage implementations available in AEM6: Tar sto
 
 By default, AEM 6 uses the Tar storage to store nodes and binaries, using the default configuration options. You can manually configure its storage settings by doing the following:
 
-1. Download the AEM 6 quickstart jar and place it in a new folder.
+1. Download the AEM 6.5 LTS quickstart jar and place it in a new folder.
 1. Unpack AEM by running:
 
-   `java -jar cq-quickstart-6.jar -unpack`
+   `java -jar <aem-65-lts>.jar -unpack`
 
 1. Create a folder named `crx-quickstart\install` in the installation directory.
 
@@ -54,12 +54,12 @@ By default, AEM 6 uses the Tar storage to store nodes and binaries, using the de
 
 #### Running a freshly installed AEM instance with Mongo Storage {#running-a-freshly-installed-aem-instance-with-mongo-storage}
 
-AEM 6 can be configured to run with MongoDB storage by following the below procedure:
+AEM 6.5 LTS can be configured to run with MongoDB storage by following the below procedure:
 
-1. Download the AEM 6 quickstart jar and place it into a new folder.
+1. Download the AEM 6.5 LTS quickstart jar and place it into a new folder.
 1. Unpack AEM by running the following command:
 
-   `java -jar cq-quickstart-6.jar -unpack`
+   `java -jar <aem-65-lts>.jar -unpack`
 
 1. Make sure that MongoDB is installed and an instance of `mongod` is running. For more info, see [Installing MongoDB](https://docs.mongodb.org/manual/installation/).
 1. Create a folder named `crx-quickstart\install` in the installation directory.
@@ -77,10 +77,10 @@ AEM 6 can be configured to run with MongoDB storage by following the below proce
 
 1. Create a configuration file with the PID of the data store you want to use and edit the file to set the configuration options. For more info, see [Configuring Node Stores and Data Stores](/help/sites-deploying/data-store-config.md).
 
-1. Start the AEM 6 jar with a MongoDB storage backend by running:
+1. Start the AEM 6.5 LTS jar with a MongoDB storage backend by running:
 
    ```shell
-   java -jar cq-quickstart-6.jar -r crx3,crx3mongo
+   java -jar <aem-65-lts>.jar -r crx3,crx3mongo
    ```
 
    Where the backend run mode is **`-r`**, the example starts with MongoDB support.
