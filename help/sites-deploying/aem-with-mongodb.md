@@ -16,6 +16,10 @@ exl-id: af957cd7-ad3d-46f2-9ca5-e175538104f1
 ---
 # Adobe Experience Manager with MongoDB{#aem-with-mongodb}
 
+>[!NOTE]
+>
+>Minimum supported version of Mongo is Mongo 6.
+
 This article aims to improve knowledge on the tasks and considerations that are necessary to successfully deploy AEM (Adobe Experience Manager) with MongoDB.
 
 For more deployment-related information, consult the [Deploying and Maintaining](/help/sites-deploying/deploy.md) section of the documentation.
@@ -84,7 +88,7 @@ While the same limitations apply to the WiredTiger storage engine in MongoDB 3.0
 
 >[!NOTE]
 >
->Adobe recommends using the WiredTiger storage engine for AEM 6.1 deployments that are using MongoDB 3.0.
+>Adobe recommends using the WiredTiger storage engine for AEM 6.5 LTS deployments that are using MongoDB 6 or above.
 
 ### Data Store {#data-store}
 
@@ -671,10 +675,6 @@ For generic information on MongoDB performance, see [Analyzing MongoDB Performan
 While concurrent use of multiple AEM instances with a single database is supported by MongoMK, concurrent installations are not.
 
 To work around this issue, make sure you run the installation with a single member first, and add the other ones after the first has finished installing.
-
-### Page Name Length {#page-name-length}
-
-If AEM is running on a MongoMK persistence manager deployment, [page names are limited to 150 characters.](/help/sites-authoring/managing-pages.md)
 
 >[!NOTE]
 >

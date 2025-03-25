@@ -1,6 +1,6 @@
 ---
-title: Storage Elements in AEM 6.5
-description: Learn about the node storage implementations available in AEM 6.5 and how to maintain the repository.
+title: Storage Elements in AEM 6.5 LTS
+description: Learn about the node storage implementations available in AEM 6.5 LTS and how to maintain the repository.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: platform
@@ -11,7 +11,7 @@ feature: Deploying
 role: Admin
 exl-id: e51842b5-fa91-42d2-a490-5a7e867dada7
 ---
-# Storage Elements in AEM 6.5{#storage-elements-in-aem}
+# Storage Elements in AEM 6.5 LTS{#storage-elements-in-aem}
 
 This article covers the following:
 
@@ -51,6 +51,10 @@ By default, AEM 6 uses the Tar storage to store nodes and binaries, using the de
 1. Start AEM.
 
 ### Mongo Storage {#mongo-storage}
+
+>[!NOTE]
+>
+>Minimum supported version of Mongo is Mongo 6.
 
 #### Running a freshly installed AEM instance with Mongo Storage {#running-a-freshly-installed-aem-instance-with-mongo-storage}
 
