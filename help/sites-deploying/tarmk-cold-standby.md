@@ -63,7 +63,7 @@ The data flow is designed to detect and handle connection and network-related pr
 
 #### Performance {#performance}
 
-Enabling TarMK Cold Standby on the primary instance has almost no measurable impact on the performance. The additional CPU consumption is low and the extra hard disk and network IO should not produce and performance issues.
+Enabling TarMK Cold Standby on the primary instance has almost no measurable impact on the performance. The additional CPU consumption is low and the extra hard disk and network IO should not produce any performance issues.
 
 On the standby, you can expect high CPU consumption during the sync process. Because the procedure is not multithreaded, it cannot be sped up by using multiple cores. If no data is changed or transferred, there is no measurable activity. The connection speed varies depending on the hardware and network environment but it does not depend on the size of the repository or SSL use. Keep this in mind when estimating the time needed for an initial sync or when much data was changed in the meantime on the primary node.
 
