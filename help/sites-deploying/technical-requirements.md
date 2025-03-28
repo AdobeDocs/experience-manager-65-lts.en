@@ -153,7 +153,7 @@ Adobe Experience Manager works with the following server platforms for productio
 
     >[!NOTE]
     >
-    >For Linux based server (OSGI and JEE stack), AEM Forms add-on require runtime dependencies such as:
+    >For Linux based server, AEM Forms add-on require runtime dependencies such as:
     >* glibc.x86_64 (2.17-196)
     >* libX11.x86_64 (1.6.7-4)
     >* zlib.x86-64 (1.2.7-17)
@@ -380,15 +380,7 @@ For Windows x86:
    <td>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</td>
   </tr>
   <tr>
-   <td><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a> latest version (Deprecated)</td>
-   <td>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; Office 2019</td>
-   <td>DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, and TXT</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Office 2016 (Deprecated)</td>
    <td>DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, and TXT</td>
   </tr>
   <tr>
@@ -396,29 +388,13 @@ For Windows x86:
    <td>WP, WPD</td>
   </tr>
   <tr>
-   <td>Microsoft&reg; Office Visio 2016 (Deprecated)<br /> </td>
-   <td>VSD, VSDX</td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; Publisher 2019<br /> </td>
    <td>PUB</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Publisher 2016 (Deprecated)<br /> </td>
-   <td>PUB</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Project 2016 (Deprecated)<br /> </td>
-   <td>MPP</td>
   </tr>
   <tr>
    <td>OpenOffice 4.1.10</td>
    <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td>
   </tr>
-  <tr>
-   <td>OpenOffice 4.1.2 (Deprecated)</td>
-   <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td>
-  </tr>  
  </tbody>
 </table>
 
@@ -455,7 +431,7 @@ For Windows x86:
 * Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC
 * Administrative privileges to install Designer
 * Microsoft Visual C++ 2019 (VC 14.28 or greater) 32-bit runtime for 32-bit AEM Forms Designer
-* Microsoft Visual C++ 2019 (VC 14.28 or greater) 64-bit runtime for 64-bit AEM Forms Designer (For both OSGI and JEE stack)
+* Microsoft Visual C++ 2019 (VC 14.28 or greater) 64-bit runtime for 64-bit AEM Forms Designer
 
 [Install and configure AEM Forms designer](/help/forms/using/installing-configuring-designer.md)
 
