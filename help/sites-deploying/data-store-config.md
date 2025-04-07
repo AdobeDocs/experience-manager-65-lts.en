@@ -1,5 +1,5 @@
 ---
-title: Configuring node stores and data stores in AEM 6
+title: Configuring node stores and data stores in AEM 6.5 LTS
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 content-type: reference
 topic-tags: deploying
@@ -12,7 +12,7 @@ hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 69d94737-41d0-47bb-b914-f7606becd038
 ---
-# Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
+# Configuring node stores and data stores in AEM 6.5 LTS{#configuring-node-stores-and-data-stores-in-aem}
 
 ## Introduction {#introduction}
 
@@ -41,19 +41,10 @@ To configure both the node store and the data store, perform these steps:
 
 ## Node Store Configurations {#node-store-configurations}
 
->[!CAUTION]
->
->Newer versions of Oak employ a new naming scheme and format for OSGi configuration files. The new naming scheme requires that the configuration file be named **.config** and the new format requires values to be typed. For details see [The Apache Sling Provisioning Model and Apache SlingStart - Default Configuration Format](https://sling.apache.org/documentation/development/slingstart.html#default-configuration-format).
->
->If you upgrade from an older version of Oak, ensure that you make a backup of the `crx-quickstart/install`folder first. After the upgrade, restore the contents of the folder to the upgraded installation and modify the extension of the configuration files from **.cfg** to **.config**.
-
 ### Segment Node Store {#segment-node-store}
 
-The segment node store is the basis of Adobe's TarMK implementation in AEM6. It uses the `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` PID for configuration.
+The segment node store is the basis of Adobe's TarMK implementation in AEM 6.5 LTS. It uses the `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` PID for configuration.
 
->[!CAUTION]
->
->The PID for the Segment node store has changed from `org.apache.jackrabbit.oak.plugins.segment.SegmentNodeStoreService in previous versions` of AEM 6 to `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` in AEM 6.3. Make sure you make the necessary configuration adjustments to reflect this change.
 
 You can configure the following options:
 
@@ -81,7 +72,7 @@ The document node store is the basis of AEM's MongoMK implementation. It uses th
 
 * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`
 
-* `db`: Name of the Mongo database. The default is **Oak** ``. However, new AEM 6 installations use **aem-author** ``as the default database name.
+* `db`: Name of the Mongo database. The default is **aem-author**.
 
 * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is `256`
 

@@ -15,24 +15,20 @@ exl-id: e51842b5-fa91-42d2-a490-5a7e867dada7
 
 This article covers the following:
 
-* [Overview of Storage in AEM 6](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
+* [Overview of Storage in AEM 6.5 LTS](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)
 * [Maintaining the Repository](/help/sites-deploying/storage-elements-in-aem-6.md#maintaining-the-repository)
 
-## Overview of Storage in AEM 6 {#overview-of-storage-in-aem}
+## Overview of Storage in AEM 6.5 LTS {#overview-of-storage-in-aem}
 
-One of the most important changes in AEM 6 are the innovations at the repository level.
+One of the most important changes in AEM 6.5 LTS are the innovations at the repository level.
 
-Currently, there are two node storage implementations available in AEM6: Tar storage, and MongoDB storage.
+Currently, there are two node storage implementations available in AEM 6.5 LTS: Tar storage, and MongoDB storage.
 
 ### Tar Storage {#tar-storage}
 
 #### Running a freshly installed AEM instance with Tar Storage {#running-a-freshly-installed-aem-instance-with-tar-storage}
 
->[!CAUTION]
->
->The PID for the Segment node store has changed from org.apache.jackrabbit.oak.**plugins**.segment.SegmentNodeStoreService in previous versions of AEM 6 to org.apache.jackrabbit.oak.segment.SegmentNodeStoreService in AEM 6.3. Make sure that the necessary configuration adjustments are made so that the changes are reflected.
-
-By default, AEM 6 uses the Tar storage to store nodes and binaries, using the default configuration options. You can manually configure its storage settings by doing the following:
+By default, AEM 6.5 LTS uses the Tar storage to store nodes and binaries, using the default configuration options. You can manually configure its storage settings by doing the following:
 
 1. Download the AEM 6.5 LTS quickstart jar and place it in a new folder.
 1. Unpack AEM by running:
@@ -41,7 +37,7 @@ By default, AEM 6 uses the Tar storage to store nodes and binaries, using the de
 
 1. Create a folder named `crx-quickstart\install` in the installation directory.
 
-1. Create a file called `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.cfg` in the newly created folder.
+1. Create a file called `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config` in the newly created folder.
 
 1. Edit the file and set the configuration options. The following options are available for Segment Node Store, which is the basis of AEM's Tar storage implementation:
 
@@ -69,12 +65,12 @@ AEM 6.5 LTS can be configured to run with MongoDB storage by following the below
 1. Create a folder named `crx-quickstart\install` in the installation directory.
 1. Configure the node store by creating a configuration file with the name of the configuration that you want to use in the `crx-quickstart\install` directory.
 
-   The Document Node Store (which is the basis for AEM's MongoDB storage implementation) uses a file called `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.cfg`
+   The Document Node Store (which is the basis for AEM's MongoDB storage implementation) uses a file called `org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.config`
 
 1. Edit the file and set your configuration options. The following options are available:
 
     * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`
-    * `db`: Name of the Mongo database. By default new AEM 6 installations use **aem-author** as the database name.
+    * `db`: Name of the Mongo database. By default new AEM 6.5 LTS installations use **aem-author** as the database name.
     * `cache`: The cache size in megabytes. This cache size is distributed among various caches used in DocumentNodeStore. The default is 256.
     * `changesSize`: Size in MB of capped collection used in Mongo for caching the diff output. The default is 256.
     * `customBlobStore`: Boolean value indicating that a custom data store is used. The default is false.
