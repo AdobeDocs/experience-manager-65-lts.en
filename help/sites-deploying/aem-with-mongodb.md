@@ -16,6 +16,10 @@ exl-id: af957cd7-ad3d-46f2-9ca5-e175538104f1
 ---
 # Adobe Experience Manager with MongoDB{#aem-with-mongodb}
 
+>[!NOTE]
+>
+>Minimum supported version of Mongo is Mongo 6.
+
 This article aims to improve knowledge on the tasks and considerations that are necessary to successfully deploy AEM (Adobe Experience Manager) with MongoDB.
 
 For more deployment-related information, consult the [Deploying and Maintaining](/help/sites-deploying/deploy.md) section of the documentation.
@@ -69,8 +73,6 @@ To achieve the read and write throughput for best performance without the need f
 
 ### RAM {#ram}
 
-MongoDB versions 2.6 and 3.0 that use the MMAP storage engine require that the working set of the database and its indexes fits into RAM.
-
 Insufficient RAM results in a significant reduction of performance. The size of the working set and of the database is highly application-dependent. While some estimates can be made, the most reliable way of determining the amount of RAM required is building the AEM application and load testing it.
 
 To assist with the load testing process, the following ratio of working set to total database size can be assumed:
@@ -80,11 +82,9 @@ To assist with the load testing process, the following ratio of working set to t
 
 These ratios mean that for SSD deployments, 200 GB of RAM is required for a 2 TB database.
 
-While the same limitations apply to the WiredTiger storage engine in MongoDB 3.0, the correlation between the working set, RAM, and page faults is not so strong. WiredTiger does not use memory mapping in the same way the MMAP storage engine does.
-
 >[!NOTE]
 >
->Adobe recommends using the WiredTiger storage engine for AEM 6.1 deployments that are using MongoDB 3.0.
+>Adobe recommends using the WiredTiger storage engine for AEM 6.5 LTS deployments that are using MongoDB 6 or above.
 
 ### Data Store {#data-store}
 
@@ -230,8 +230,6 @@ It is recommended that a persistent cache configuration is enabled for MongoDB d
 
 ### Operating System Support {#operating-system-support}
 
-MongoDB 2.6 uses a memory mapped storage engine that is sensitive to some aspects of the operating system level management between RAM and Disk. Query and read Performance of the MongoDB instance relies on avoiding or eliminating slow I/O operations often referred to as page faults. These issues are page faults that apply to the `mongod` process in particular. Do not confuse this with operating system-level page faults.
-
 For fast operation, the MongoDB database should only access data that is already in RAM. The data that it must access is made up of indexes and data. This collection of indexes and data is called the working set. Where the working set is larger than the available RAM MongoDB has to page that data in from disk incurring an I/O cost, evicting other data already in memory. If the eviction causes data to be reloaded from disk, page faults dominate and performance degrades. Where the working set is dynamic and variable, more page faults are incurred to support operations.
 
 MongoDB runs on several operating systems including a wide variety of Linux&reg; flavors, Windows, and macOS. See [https://docs.mongodb.com/manual/installation/#supported-platforms](https://docs.mongodb.com/manual/installation/#supported-platforms) for additional details. Depending on your operating system choice, MongoDB has different operating system level recommendations. There are documented at [https://docs.mongodb.com/manual/administration/production-checklist-operations/#operating-system-configuration](https://docs.mongodb.com/manual/administration/production-checklist-operations/#operating-system-configuration) and summarized here for convenience.
@@ -241,7 +239,6 @@ MongoDB runs on several operating systems including a wide variety of Linux&reg;
 * Turn off the transparent hugepages and defrag. See [Transparent Huge Pages Settings](https://docs.mongodb.com/manual/tutorial/transparent-huge-pages/) for more information.
 * [Adjust the readahead settings](https://docs.mongodb.com/manual/administration/production-notes/#readahead) on the devices storing your database files so that you fit your use case.
 
-    * For the MMAPv1 storage engine, if your working set is bigger that the available RAM, and the document access pattern is random, consider lowering the readahead to 32 or 16. Evaluate different settings so you can find an optimal value that maximizes the resident memory and lowers the number of page faults.
     * For the WiredTiger storage engine, set readahead to 0 regardless of storage media type (spinning, SSD, and so on). In general, use the recommended readahead setting unless testing shows a measurable, repeatable, and reliable benefit in a higher readahead value. [MongoDB Professional Support](https://docs.mongodb.com/manual/administration/production-notes/#readahead) can provide advice and guidance on non-zero readahead configurations.
 
 * Disable the tuned tool if you are running RHEL 7 / CentOS 7 in a virtual environment.
@@ -353,11 +350,13 @@ To adjust the size of the WiredTiger internal cache, see [storage.wiredTiger.eng
 
 ### NUMA {#numa}
 
-NUMA (Non-Uniform Memory Access) allows a kernel to manage how memory is mapped to the processor cores. Although this process attempts to make memory access faster for cores ensuring that they are able to access the data required, NUMA interferes with MMAP introducing additional latency as reads cannot be predicted. As a result, NUMA must be disabled for the `mongod` process on all capable operating systems.
+NUMA (Non-Uniform Memory Access) allows a kernel to manage how memory is mapped to the processor cores.
 
 In essence, in a NUMA architecture memory is connected to CPUs and CPUs are connected to a bus. In an SMP or a UMA architecture, memory is connected to the bus and shared by CPUs. When a thread allocates memory on a NUMA CPU, it allocates according to a policy. The default is to allocate memory attached to the thread's local CPU unless there is no free, at which point it uses memory from a free CPU at higher cost. Once allocated, the memory does not move between CPUs. The allocation is performed by a policy inherited from the parent thread, which ultimately is the thread that started the process.
 
-In many databases that see the computer as a multicore uniform memory architecture, this scenario leads to the initial CPU getting full first and the secondary CPU filling later. It is especially true if a central thread is responsible for allocating memory buffers. The solution is to change the NUMA policy of the main thread used to start the `mongod` process by running the following command:
+Running MongoDB on a system with Non-Uniform Memory Access (NUMA) can cause a number of operational problems, including slow performance for periods of time, inability to use all available RAM, and high system process usage.
+
+The solution is to change the NUMA policy of the main thread used to start the `mongod` process by running the following command:
 
 ```shell
 numactl --interleaved=all <mongod> -f config
@@ -671,10 +670,6 @@ For generic information on MongoDB performance, see [Analyzing MongoDB Performan
 While concurrent use of multiple AEM instances with a single database is supported by MongoMK, concurrent installations are not.
 
 To work around this issue, make sure you run the installation with a single member first, and add the other ones after the first has finished installing.
-
-### Page Name Length {#page-name-length}
-
-If AEM is running on a MongoMK persistence manager deployment, [page names are limited to 150 characters.](/help/sites-authoring/managing-pages.md)
 
 >[!NOTE]
 >
