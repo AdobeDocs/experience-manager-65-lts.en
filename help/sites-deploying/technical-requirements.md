@@ -147,6 +147,7 @@ Adobe Experience Manager works with the following server platforms for productio
 | **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[2]` |
 | Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
+| Microsoft&reg; Windows Server 2022 |R: Supported|
 
 1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. 
 1. Linux&reg; distribution supported by Adobe Managed Services.
@@ -406,8 +407,8 @@ For Windows x86:
 >
 >* PDF Generator requires a 32-bit version of [Acrobat 2020 classic track version 20.004.30006](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html) or Acrobat 2017 version 17.011.30078 to perform the conversion.
 >* PDF Generator supports only the 32-bit Retail version of Microsoft&reg; Office Professional Plus and other software required for conversion.
->* The Microsoft® Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
->* If a Microsoft® Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
+>* The Microsoft&reg; Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
+>* If a Microsoft&reg; Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
 >* PDF Generator supports the 32-bit and 64-bit versions of OpenOffice on the Linux&reg; operating system.
 >* PDF Generator does not support Microsoft&reg; Office 365.
 >* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
