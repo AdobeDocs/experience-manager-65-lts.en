@@ -4,6 +4,7 @@ description: Frequently asked technical questions about AEM 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
+exl-id: 051244f1-cc67-4222-bd45-0c135c28bb15
 ---
 # AEM 6.5 LTS Technical FAQ {#technical-faq}
 
