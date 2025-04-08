@@ -17,7 +17,7 @@ The Felix System Ready bundle which was configured to provide the `/systemalive`
 
 The new health check endpoint is available at `/system/health` and is implemented using Apache Felix Health Checks.
 
-For detailed documentation on the Felix Health Check framework, refer to the [felix documentation](https://github.com/apache/felix-dev/blob/master/healthcheck/README.md)
+For detailed documentation on the Felix Health Check framework, refer to the [felix documentation](https://github.com/apache/felix-dev/blob/master/healthcheck/README.md).
 
 ### AEM Groovy console support
 
