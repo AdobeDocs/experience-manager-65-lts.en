@@ -1,5 +1,5 @@
 ---
-title: Configuring node stores and data stores in AEM 6
+title: Configuring node stores and data stores in AEM 6.5 LTS
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 content-type: reference
 topic-tags: deploying
@@ -12,7 +12,7 @@ hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 69d94737-41d0-47bb-b914-f7606becd038
 ---
-# Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
+# Configuring node stores and data stores in AEM 6.5 LTS{#configuring-node-stores-and-data-stores-in-aem}
 
 ## Introduction {#introduction}
 
@@ -41,19 +41,10 @@ To configure both the node store and the data store, perform these steps:
 
 ## Node Store Configurations {#node-store-configurations}
 
->[!CAUTION]
->
->Newer versions of Oak employ a new naming scheme and format for OSGi configuration files. The new naming scheme requires that the configuration file be named **.config** and the new format requires values to be typed. For details see [The Apache Sling Provisioning Model and Apache SlingStart - Default Configuration Format](https://sling.apache.org/documentation/development/slingstart.html#default-configuration-format).
->
->If you upgrade from an older version of Oak, ensure that you make a backup of the `crx-quickstart/install`folder first. After the upgrade, restore the contents of the folder to the upgraded installation and modify the extension of the configuration files from **.cfg** to **.config**.
-
 ### Segment Node Store {#segment-node-store}
 
-The segment node store is the basis of Adobe's TarMK implementation in AEM6. It uses the `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` PID for configuration.
+The segment node store is the basis of Adobe's TarMK implementation in AEM 6.5 LTS. It uses the `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` PID for configuration.
 
->[!CAUTION]
->
->The PID for the Segment node store has changed from `org.apache.jackrabbit.oak.plugins.segment.SegmentNodeStoreService in previous versions` of AEM 6 to `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` in AEM 6.3. Make sure you make the necessary configuration adjustments to reflect this change.
 
 You can configure the following options:
 
@@ -81,7 +72,7 @@ The document node store is the basis of AEM's MongoMK implementation. It uses th
 
 * `mongouri`: The [MongoURI](https://docs.mongodb.org/manual/reference/connection-string/) required to connect to Mongo Database. The default is `mongodb://localhost:27017`
 
-* `db`: Name of the Mongo database. The default is **Oak** ``. However, new AEM 6 installations use **aem-author** ``as the default database name.
+* `db`: Name of the Mongo database. The default is **aem-author**.
 
 * `cache`: The cache size in MB. This is distributed among various caches used in DocumentNodeStore. The default is `256`
 
@@ -138,9 +129,9 @@ AEM can be configured to store data in Amazon's Simple Storage Service (S3). It 
 
 >[!NOTE]
 >
->AEM 6.5 supports storing data in Amazon's S3, however support is not extended to storing data in other platforms, whose vendors may have their own implementations of Amazon's S3 APIs.
+>AEM 6.5 LTS supports storing data in Amazon's S3, however support is not extended to storing data in other platforms, whose vendors may have their own implementations of Amazon's S3 APIs.
 
-To enable the S3 data store functionality, a feature pack containing the S3 Datastore Connector must be downloaded and installed. Go to the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/) and download the latest version from the 1.10.x versions of the feature pack (for example, com.adobe.granite.oak.s3connector-1.10.0.zip). Also, you must download and install the latest AEM service pack as listed on the [AEM 6.5 Release Notes](/help/release-notes/release-notes.md) page.
+To enable the S3 data store functionality, a feature pack containing the S3 Datastore Connector must be downloaded and installed. Go to the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/) and download the latest version from the 1.60.x versions of the feature pack (for example, com.adobe.granite.oak.s3connector-1.60.2.zip). Also, you must download and install the latest AEM service pack as listed on the [AEM 6.5 LTS Release Notes](/help/release-notes/release-notes.md) page.
 
 >[!NOTE]
 >
@@ -184,9 +175,9 @@ Once downloaded, you can install and configure the S3 Connector as follows:
 1. Edit the file and add the configuration options required by your setup.
 1. Start AEM.
 
-## Upgrading to a new version of the 1.10.x S3 Connector {#upgrading-to-a-new-version-of-the-s-connector}
+## Upgrading to a new version of the 1.60.x S3 Connector {#upgrading-to-a-new-version-of-the-s-connector}
 
-To upgrade to a new version of the 1.10.x S3 connector (for example, from 1.10.0 to 1.10.4) follow these steps:
+To upgrade to a new version of the 1.60.x S3 connector follow these steps:
 
 1. Stop the AEM instance.
 
@@ -200,7 +191,7 @@ To upgrade to a new version of the 1.10.x S3 connector (for example, from 1.10.0
    >
    >The file names presented above are used for illustration purposes only.
 
-1. Download the latest version of the 1.10.x feature pack from the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/).
+1. Download the latest version of the 1.60.x feature pack from the [Software Distribution.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/granite/s3-connector/6-5-lts/com.adobe.granite.oak.s3connector-1.60.2.zip)
 1. Unzip the contents to a separate folder, then navigate to `jcr_root/libs/system/install/15`.
 1. Copy the jar files to **&lt;aem-install&gt;**/crx-quickstart/install/15 in the AEM installation folder.
 1. Start AEM and check the connector functionality.
@@ -408,7 +399,7 @@ To configure binaryless replication with S3, the following steps are required:
 
 AEM can be configured to store data in Microsoft&reg;'s Azure storage service. It uses the `org.apache.jackrabbit.oak.plugins.blob.datastore.AzureDataStore.config` PID for configuration.
 
-To enable the Azure data store functionality, a feature pack containing the Azure Connector must be downloaded and installed. Go to the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.azureblobconnector/) and download the latest version from the 1.6.x versions of the feature pack (for example, com.adobe.granite.oak.azureblobconnector-1.6.3.zip).
+To enable the Azure data store functionality, a feature pack containing the Azure Connector must be downloaded and installed. Go to the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/granite/azure-connector/6-5-lts/com.adobe.granite.oak.azureblobconnector-1.9.16.zip) and download the latest version from the 1.9.x versions of the feature pack (for example, com.adobe.granite.oak.azureblobconnector-1.9.16.zip).
 
 >[!NOTE]
 >
