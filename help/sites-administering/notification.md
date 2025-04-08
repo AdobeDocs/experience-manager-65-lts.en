@@ -77,7 +77,7 @@ Use the following procedure to define the node in your content package source fo
 
 ## Configuring the Workflow Email Notification Service {#configuring-the-workflow-email-notification-service}
 
-When you receive workflow email notifications, both the from-email address and the host URL prefix are set to default values. You can change these values by configuring the **Day CQ Workflow Email Notification Service** in the Web Console. If you do so, it is recommended to persist the change in the repository.
+When you receive workflow email notifications, both the from-email address and the host URL prefix are set to default values. You can change these values by configuring the **Day CQ Workflow Email Notification Service** in the Web Console. If you do so, you must persist the change in the repository.
 
 The default configuration looks as follows in the Web Console:
 
