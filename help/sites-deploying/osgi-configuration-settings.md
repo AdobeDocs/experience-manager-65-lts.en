@@ -34,10 +34,6 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 >[!NOTE]
 >
->The OSGi Configuration Diff tool, part of the [AEM Tools](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17488.html), can be used to list the default OSGi configurations.
-
->[!NOTE]
->
 >Further bundles may be required for specific areas of functionality within AEM. In these cases, configuration details can be found on the page related to the appropriate functionality.
 
 **AEM Replication Event Listener** Configure:
@@ -76,7 +72,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 See [AEM Logging](/help/sites-deploying/configure-logging.md) and [Sling Logging](https://sling.apache.org/documentation/development/logging.html).
 
-**Apache Sling Eventing Thread Pool** Configure:
+**Apache Sling Thread Pool** Configure:
 
 * **Min Pool Size** and **Max Pool Size**, the size of the pool used to hold event threads.
 
@@ -97,7 +93,7 @@ See [AEM Logging](/help/sites-deploying/configure-logging.md) and [Sling Logging
 >
 >This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites-administering/production-ready.md).
 
-**Apache Sling JavaScript Handler** Configure settings for the compilation of .java files as scripts (servlets).
+**Apache Sling Java Script Handler** Configure settings for the compilation of .java files as scripts (servlets).
 
 Certain settings can affect performance. Disable these settings where possible, especially for a production instance.
 
@@ -113,9 +109,9 @@ Certain settings can affect performance. Disable these settings where possible, 
 
 * **Search Path**, list of paths that jcrinstall searches for resources to be installed, together with a number indicating the weighting factor for that path.
 
-**Apache Sling Job Event Handler** Configure parameters that manage job scheduling:
+**Apache Sling Queue Configuration** Configure parameters that manage job scheduling:
 
-* **Retry interval**, **Maximum Retries**, **Maximum Parallel Jobs**, **Acknowledge Wait Time**, among others.
+* **Retry interval**, **Maximum Retries**, **Maximum Parallel Jobs**, among others.
 
 * Changing these settings can improve performance in scenarios with a high number of jobs; for example, heavy usage of AEM DAM and Workflows.
 * Values specific to your scenario should be established using tests.
@@ -172,7 +168,7 @@ See [AEM Logging](/help/sites-deploying/configure-logging.md) and [Sling Logging
 
 * **Number of Calls per Request** and **Recursion Depth** to protect your system against infinite recursion and excessive script calls.
 
-**Apache Sling MIME Type Service** Configure:
+**Apache Sling Commons MIME Type Service** Configure:
 
 * **MIME Types** to add types that are required by your project to the system. Doing so allows a `GET` request on a file to set the correct content-type header for linking the file type and application.
 
@@ -234,23 +230,11 @@ Various parameters can be set, including:
 * **Execution Paths** - Lists the paths to search for executable scripts. By configuring specific paths, you can limit which scripts can be run. If no path is configured, then the default is used ( `/` = root), allowing the running of all scripts.
   If a configured path value ends with a slash, the whole subtree is searched. Without such a trailing slash, the script is only run if it is an exact match.
 
-* **Script User** - This optional property can specify the repository user account used for reading the scripts. If no account is specified, the `admin` user is used by default.
-
 * **Default Extensions** - The list of extensions for which the default behavior is used. The last path segment of the resource type can be used as the script name.
 
 **Apache HTTP Components Proxy Configuration** - The proxy configuration for all code using the Apache HTTP client, used when an HTTP is made. For example, on replication.
 
 When creating a configuration, do not change the factory configuration. Instead, create a factory configuration for this component using the configuration manager available here: **https://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
-
->[!NOTE]
->
->In AEM 6.0 and earlier releases, proxy was configured in Day Commons HTTP Client. As of AEM 6.1 and later releases, the proxy configuration has moved to the "Apache HTTP Components Proxy Configuration" instead of the 'Day Commons HTTP Client' config.
-
-**Day CQ Antispam** Configure the anti-spam service (Akismet) used. This feature requires you to register the following:
-
-* **Provider**
-* **API key**
-* **Registered URL**
 
 **Adobe Granite HTML Library Manager** Configure to control the handling of client libraries (css or js) including, for example, how the underlying structure is seen.
 
@@ -276,7 +260,7 @@ When creating a configuration, do not change the factory configuration. Instead,
 >
 >This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites-administering/production-ready.md).
 
-**Day CQ HTTP Header Authentication Handler** System wide settings for the basic authentication method of the HTTP request.
+**Adobe Granite HTTP Header Authentication Handler** System wide settings for the basic authentication method of the HTTP request.
 
 When using [closed user groups](/help/sites-administering/cug.md), you can configure, among others, the following:
 
@@ -372,7 +356,7 @@ Various configuration properties are available:
 >
 >This setting is automatically configured for production instances if you run AEM in [Production Ready Mode](/help/sites-administering/production-ready.md).
 
-**Day CQ WCM Link Checker Configurator** Configure:
+**Day CQ WCM Link Checker** Configure:
 
 * **List of rewrite configurations** to specify a list of locations for content-based link checker configurations. The configurations can be based on run mode. This fact is important to distinguish between author and publish environments, as link checker settings can differ.
 
@@ -422,7 +406,7 @@ See [Version Purging](/help/sites-deploying/version-purging.md) for more informa
 
 **Day CQ Workflow Email Notification Service** Configure the email settings for notifications sent by a workflow.
 
-**CQ Rewriter HTML Parser Factory**
+**Adobe AEM Rewriter HTML Parser Factory**
 
 Controls the HTML Parser for the CQ rewriter.
 
