@@ -75,9 +75,9 @@ For each instance in the cluster, you can see several topology-related propertie
 * The job topics for which the instance is registered for offloading.
 * The job topics that the instance processes.
 
-1. Using the Touch UI, click the Tools tab. ([http://localhost:4502/tools.html](http://localhost:4502/tools.html))
-1. In the Granite Operations area, click Offloading Browser.
-1. In the navigation panel, click Topology Browser.
+1. Using the Touch UI, click the Tools tab. ([http://localhost:4502/aem/start.html](http://localhost:4502/aem/start.html))
+1. To view Offloading, click Offloading tile in the Deployment section.
+1. To view Topology, click Topology tile in the Deployment section.
 
    The clusters that are participating in the topology appear.
 
@@ -95,7 +95,7 @@ You can also use the Web Console to view topology information. The console provi
 Use the following procedure to open the Topology Management page of the Web Console:
 
 1. Open the Web Console in your browser. ([http://localhost:4502/system/console](http://localhost:4502/system/console))
-1. Click Main &gt; Topology Management.
+1. Click Sling &gt; Topology Management.
 
    ![chlimage_1-112](assets/chlimage_1-112.png)
 
