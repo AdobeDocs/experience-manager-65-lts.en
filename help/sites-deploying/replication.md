@@ -55,18 +55,25 @@ Reverse replication uses an agent in the Publish environment which references th
 
 ### Replication - Out of the Box {#replication-out-of-the-box}
 
-The we-retail website that is included in a standard installation of AEM can be used to illustrate replication.
+Create a page by following [Creating and Organizing Pages](content/sites/authoring/authoring/managing-pages.md).
 
 To follow this example, and use the default replication agents, [install AEM](/help/sites-deploying/deploy.md) with:
 
 * the Author environment on port `4502`
 * the Publish environment on port `4503`
 
+This replication is actioned from the Author environment by the:
+
+* **Default Agent (publish)**
+  This agent replicates content to the default Publish instance.
+  Details of this (configuration and logs) can be accessed from the Tools console of the Author environment; or:
+  `http://localhost:4502/etc/replication/agents.author/publish.html`.
+
 >[!NOTE]
 >
 >Enabled by default :
 >
->* Agents on Author : Default Agent (publish)
+>* Agents on Author : Default Agent (publish), if not make sure to enable it before proceeding further.
 >
 >Effectively disabled by default (as of AEM 6.1) :
 >
@@ -79,19 +86,13 @@ To follow this example, and use the default replication agents, [install AEM](/h
 #### Replication (Author to Publish) {#replication-author-to-publish}
 
 1. Navigate to the support page on the Author environment.
-   **https://localhost:4502/content/we-retail/us/en/experience.html** `<pi>`
+   **https://localhost:4502/content/site1/test.html** `<pi>`
 1. Edit the page so you can add some new text.
 1. **Activate Page** so you can publish the changes.
 1. Open the support page on the Publish environment:
-   **https://localhost:4503/content/we-retail/us/en/experience.html**
+   **https://localhost:4503/content/site1/test.html**
 1. You can now see the changes that you entered on Author.
 
-This replication is actioned from the Author environment by the:
-
-* **Default Agent (publish)**
-  This agent replicates content to the default Publish instance.
-  Details of this (configuration and logs) can be accessed from the Tools console of the Author environment; or:
-  `https://localhost:4502/etc/replication/agents.author/publish.html`.
 
 #### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
 
@@ -103,7 +104,7 @@ The following agents are available in a standard AEM installation:
 * Dispatcher Flush
   This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance) for more information.
 
-* [Reverse Replication](#reverse-replication-publish-to-author)
+* [Reverse Replication](#configuring-reverse-replication)
   Used for replicating from Publish to Author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.
 
 * Static Agent
