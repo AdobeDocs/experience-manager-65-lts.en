@@ -1426,7 +1426,6 @@ user-guide-title: AEM 6.5 LTS
         + [Performance Optimization](/help/sites-deploying/configuring-performance.md)
         + [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md)
         + [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
-        + [Configuring Web Console](/help/sites-deploying/configuring-web-console.md)
     + Upgrading to AEM 6.5 LTS {#upgrading}
         + [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
         + [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
