@@ -169,9 +169,6 @@ As the same configuration parameter is in several places, the system:
 * filters according to service name
 * filters according to run mode
 
->[!NOTE]
->
->Read also [how to define a repository-based configuration for a specific instance only](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17500.html).
 
 ### Adding a New Configuration to the Repository {#adding-a-new-configuration-to-the-repository}
 
@@ -181,9 +178,9 @@ To add a configuration to the repository, you must know the following:
 
 1. The **Persistent Identity** (PID) of the service.
 
-   Reference the **Configurations** field in the Web console. The name is shown in brackets after the bundle name (or in the **Configuration Information** towards the bottom of the page).
+   Reference the **Configurations** in the Web console. The name is shown in the **Configuration Information** towards the bottom of the page.
 
-   For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**.
+   For example, `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**.
 
    ![chlimage_1-141](assets/chlimage_1-141.png)
 
@@ -232,13 +229,13 @@ To actually add the new configuration to the repository:
 
    >[!NOTE]
    >
-   >When making a Factory Configuration append `-<identifier>` to the name.
+   >When making a Factory Configuration append `~<identifier>` to the name.
    >
-   >As in: `org.apache.sling.commons.log.LogManager.factory.config-<identifier>`
+   >As in: `org.apache.sling.commons.log.LogManager.factory.config~<identifier>`
    >
    >Where `<identifier>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information); for example:
    >
-   >`org.apache.sling.commons.log.LogManager.factory.config-MINE`
+   >`org.apache.sling.commons.log.LogManager.factory.config~MINE`
 
 1. For each parameter that you want to configure, create a property on this node:
 
@@ -305,23 +302,7 @@ The configuration with the highest number of matching run modes is effective for
 
 ### Standard Configurations {#standard-configurations}
 
-The following list shows a small selection of the configurations available (in a standard installation) in the repository:
-
-* Author - AEM WCM Filter:
-
-  `libs/wcm/core/config.author/com.day.cq.wcm.core.WCMRequestFilter`
-
-* Publish - AEM WCM Filter:
-
-  `libs/wcm/core/config.publish/com.day.cq.wcm.core.WCMRequestFilter`
-
-* Publish - AEM WCM Page Statistics:
-
-  `libs/wcm/core/config.publish/com.day.cq.wcm.core.stats.PageViewStatistics`
-
->[!NOTE]
->
->As these configurations reside in `/libs` they must not be edited directly, but copied to your application area ( `/apps`) before customization.
+If any standard configuration is residing in `/libs`, it must not be edited directly, but copied to your application area ( `/apps`) before customization.
 
 To list all configuration nodes in your instance, use the **Query** functionality in CRXDE Lite to submit the following SQL query:
 
