@@ -55,9 +55,10 @@ Reverse replication uses an agent in the Publish environment which references th
 
 ### Replication - Out of the Box {#replication-out-of-the-box}
 
-Create a page by following [Creating and Organizing Pages](content/sites/authoring/authoring/managing-pages.md).
+Create a page by following [Creating and Organizing Pages](/help/sites-authoring/managing-pages.md).
 
 To follow this example, and use the default replication agents, [install AEM](/help/sites-deploying/deploy.md) with:
+
 
 * the Author environment on port `4502`
 * the Publish environment on port `4503`
@@ -73,7 +74,7 @@ This replication is actioned from the Author environment by the:
 >
 >Enabled by default :
 >
->* Agents on Author : Default Agent (publish), if not make sure to enable it before proceeding further.
+>* Agents on Author : Default Agent (publish), if not, make sure to enable it before proceeding further.
 >
 >Effectively disabled by default (as of AEM 6.1) :
 >

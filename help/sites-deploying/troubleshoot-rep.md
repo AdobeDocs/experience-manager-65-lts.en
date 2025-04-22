@@ -69,7 +69,7 @@ Check this by going to /etc/replication/agents.author.html then click the replic
 
 Sometimes it is helpful to set all replication logging to be added in a separate log file at DEBUG level. To do this:
 
-1. Go to https://host:port/system/console/configMgr and login as admin.
+1.  Go to https://host:port/system/console/configMgr and login as admin.
 1. Find the Apache Sling Logging Logger Configuration and create an instance by clicking the **+** button on the right of the factory configuration. This creates a new logging logger.
 1. Set the configuration like this:
 
