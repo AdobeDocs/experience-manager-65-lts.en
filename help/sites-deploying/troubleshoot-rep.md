@@ -28,8 +28,7 @@ There are various reasons for replication to fail. This article explains the app
 
 **Are replications getting triggered at all when clicking the Activate button? If NOT then do the following:**
 
-1. Go to /crx/explorer and login as admin.
-1. Open "Content Explorer"
+1. Go to /crx/de/index.jsp and login as admin.
 1. See if a node /bin/replicate or /bin/replicate.json exists. If the node exists, then delete it and save.
 
 **Are the replications getting queued up in the replication agent queues?**
@@ -70,13 +69,13 @@ Check this by going to /etc/replication/agents.author.html then click the replic
 
 Sometimes it is helpful to set all replication logging to be added in a separate log file at DEBUG level. To do this:
 
-1. Go to https://host:port/system/console/configMgr and login as admin.
-1. Find the Apache Sling Logging Logger factory and create an instance by clicking the **+** button on the right of the factory configuration. This creates a new logging logger.
+1.  Go to https://host:port/system/console/configMgr and login as admin.
+1. Find the Apache Sling Logging Logger Configuration and create an instance by clicking the **+** button on the right of the factory configuration. This creates a new logging logger.
 1. Set the configuration like this:
 
     * Log Level: DEBUG
-    * Log File Path: logs/replication.log
-    * Categories: com.day.cq.replication
+    * Log File: logs/replication.log
+    * Logger: com.day.cq.replication
 
 1. If you suspect the problem to be related to sling eventing/jobs in any way, then you can also add this Java&trade; package under categories:org.apache.sling.event
 
