@@ -56,6 +56,7 @@ Often a full backup is taken at regular intervals (for example, daily, weekly, o
 >
 >Without this testing, the backup is potentially useless (worst case scenario).
 
+<!-- TODO: Remove the note if the backup performance section is removed -->
 >[!NOTE]
 >
 >For more information about backup performances, read the [Back up Performance](/help/sites-deploying/configuring-performance.md#backup-performance) section.

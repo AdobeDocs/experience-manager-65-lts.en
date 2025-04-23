@@ -198,10 +198,6 @@ Certain rules should be kept in mind when optimizing performance:
 
 Certain aspects of AEM (and/or the underlying repository) can be configured to optimize performance. The following are possibilities and suggestions, you must be sure of whether, or how, you use the functionality in question before making changes.
 
->[!NOTE]
->
->See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html).
-
 ### Search Indexing {#search-indexing}
 
 Starting in AEM 6.0, Adobe Experience Manager uses an Oak based repository architecture.
@@ -219,6 +215,7 @@ For example, when images (or DAM assets in general) are uploaded, workflows auto
 
 The workflow engine uses Apache Sling job queues for handling and scheduling work item processing. The following job queue services have been created by default from the Apache Sling Job Queue Configuration service factory for processing workflow jobs:
 
+<!-- TODO: Change the reference to 6.5 LTS javadocs -->
 * Granite Workflow Queue: Most workflow steps, such as the ones that process DAM assets, use the Granite Workflow Queue service.
 * Granite Workflow External Process Job Queue: This service is used for special external workflow steps that are typically used for contacting an external system and polling for results. For example, the InDesign Media Extraction Process step is implemented as an external process. The workflow engine uses the external queue for processing the polling. (See [com.day.cq.workflow.exec.WorkflowExternalProcess](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/day/cq/workflow/exec/WorkflowExternalProcess.html).)
 
@@ -457,7 +454,6 @@ A selection of tools is available to help you with load-generation, performance 
 
 * [JMeter](https://jmeter.apache.org/)
 * [Load Runner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
-* [InfraRED](https://www.infraredsoftware.com/)
 * [Java&trade; Interactive Profile](https://jiprof.sourceforge.net/)
 
 After optimization, test again to confirm the impact.
