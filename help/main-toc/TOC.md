@@ -1422,7 +1422,6 @@ user-guide-title: AEM 6.5 LTS
         + [Offloading Jobs](/help/sites-deploying/offloading.md)
         + [Resource Mapping](/help/sites-deploying/resource-mapping.md)
         + [Consistency and Traversal Checks](/help/sites-deploying/consistency-check.md)
-        + [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
         + [Performance Optimization](/help/sites-deploying/configuring-performance.md)
         + [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md)
         + [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)

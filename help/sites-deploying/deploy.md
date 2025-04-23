@@ -45,8 +45,7 @@ In this page you find:
 * [Web Console](/help/sites-deploying/web-console.md)
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
-* [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
-* [Performance Guidelines](/help/sites-deploying/performance-guidelines.md) -->
+* [Introduction to the AEM Platform](/help/sites-deploying/platform.md) -->
 
 ## Basic Concepts {#basic-concepts}
 
@@ -284,4 +283,4 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
-* [Performance Guidelines](/help/sites-deploying/performance-guidelines.md) -->
+ -->
