@@ -48,10 +48,6 @@ A forced shutdown results in AEM suspending asynchronous indexing for up to 30 m
 
 ## Thread pool overloaded {#thread-pool-overloaded}
 
->[!NOTE]
->
->For AEM 6.1, ensure that [AEM 6.1 CFP 11](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) is installed.
-
 In exceptional circumstances, the thread pool used to manage asynchronous indexing may become overloaded. To isolate the indexing process, a thread pool can be configured to prevent other AEM work from interfering with Oak's ability to index content in a timely manner. In such cases, do the following:
 
 1. Define a new, isolated thread pool for the Apache Sling Scheduler to use for asynchronous indexing:
