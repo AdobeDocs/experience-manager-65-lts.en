@@ -19,7 +19,7 @@ Oak-run supports indexing use cases on the command line without having to orches
 
 The overarching benefits of using the oak-run.jar index command approach for managing Oak indexes are:
 
-1. Oak-run index command  provides  a new indexing toolset for AEM 6.4.
+1. Oak-run index command  provides  a new indexing toolset since AEM 6.4.
 1. Oak-run decreases time-to-reindex which reduces reindex times on larger repositories.
 1. Oak-run reduces resource consumption during reindexing in AEM, resulting in overall better system performance.
 1. Oak-run provides out-of-band reindexing, supporting situations where production must be available, and cannot tolerate maintenance or downtime otherwise required to reindex.

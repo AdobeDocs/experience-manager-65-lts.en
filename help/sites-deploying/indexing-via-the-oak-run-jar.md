@@ -16,7 +16,7 @@ exl-id: a6344463-7796-4ee3-8b2e-b3bfd2aec99a
 
 Oak-run supports all indexing use cases on the command line without having to operate from the JMX level. Advantages of the oak-run approach are:
 
-1. It is a new indexing toolset for AEM 6.4
+1. It is a new indexing toolset since AEM 6.4
 1. It decreases time-to-re-index which beneficially impacts reindex times on larger repositories
 1. It is reducing resource consumption during reindexing in AEM which results in better system performance for other AEM activities
 1. Oak-run provides Out-of-band support: If production conditions do not let you run reindex on production instances, a cloned environment can be used for reindexing to avoid critical performance impact.
@@ -59,7 +59,7 @@ This diagram is a decision tree for when to use the various reindexing approache
 
 ### Text Pre-extraction for SegmentNodeStore and DocumentNodeStore {#textpre-extraction}
 
-[Text pre-extraction](/help/sites-deploying/best-practices-for-queries-and-indexing.md#how-to-perform-text-pre-extraction) (a feature that has existed with AEM 6.3) can be used to reduce the time to reindex. Text pre-extraction can be used with all reindexing approaches.
+[Text pre-extraction](/help/sites-deploying/best-practices-for-queries-and-indexing.md#how-to-perform-text-pre-extraction) (a feature that has existed since AEM 6.3) can be used to reduce the time to reindex. Text pre-extraction can be used with all reindexing approaches.
 
 Depending on the `oak-run.jar` indexing approach, there are various steps on either side of the Perform Reindex step in the diagram below.
 

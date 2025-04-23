@@ -1,6 +1,6 @@
 ---
 title: Oak Queries and Indexing
-description: Learn how to configure indexes in Adobe Experience Manager (AEM) 6.5.
+description: Learn how to configure indexes in Adobe Experience Manager (AEM) 6.5 LTS.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
@@ -18,7 +18,7 @@ exl-id: 432fc767-a6b8-48f8-b124-b13baca51fe8
 
 >[!NOTE]
 >
->This article is about configuring indexes in AEM 6. For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
+>This article is about configuring indexes in AEM 6.5 LTS. For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
 
 ## Introduction {#introduction}
 
@@ -45,7 +45,7 @@ The Apache Oak-based backend allows different indexers to be plugged into the re
 
 One indexer is the **Property Index**, for which the index definition is stored in the repository itself.
 
-Implementations for **Apache Lucene** and **Solr** are also available by default, which both support fulltext indexing.
+Implementation for **Apache Lucene** is available by default, which support fulltext indexing.
 
 The **Traversal Index** is used if no other indexer is available. This means that the content is not indexed and content nodes are traversed to find matches to the query.
 
@@ -104,7 +104,7 @@ The Ordered index is an extension of the Property index. However, it has been de
 
 ### The Lucene Full Text Index {#the-lucene-full-text-index}
 
-A full text indexer based on Apache Lucene is available in AEM 6.
+A full text indexer based on Apache Lucene is available in AEM 6.5 LTS.
 
 If a full-text index is configured, all queries that have a full-text condition use the full-text index, no matter if there are other conditions that are indexed, and no matter if there is a path restriction.
 
@@ -306,7 +306,7 @@ If you wish to use any out of the box analyzer, you can configure it following t
 
 #### Creating Analyzers by way of Composition {#creating-analyzers-via-composition}
 
-Analyzers can also be composed based on `Tokenizers`, `TokenFilters`, and `CharFilters`. You can do this by specifying an analyzer and creating children nodes of its optional tokenizers and filters that are applied in listed order. See also [https://cwiki.apache.org/confluence/display/solr/AnalyzersTokenizersTokenFilters#Specifying_an_Analyzer_in_the_schema](https://cwiki.apache.org/confluence/display/solr/AnalyzersTokenizersTokenFilters#Specifying_an_Analyzer_in_the_schema)
+Analyzers can also be composed based on `Tokenizers`, `TokenFilters`, and `CharFilters`. You can do this by specifying an analyzer and creating children nodes of its optional tokenizers and filters that are applied in listed order.
 
 Consider this node structure as an example:
 
@@ -357,87 +357,6 @@ The name of the filters, charFilters, and tokenizers are formed by removing the 
 Any configuration parameter required for the factory is specified as the property of the node in question.
 
 For cases such as loading stop words where content from external files must be loaded, the content can be provided by creating a child node of `nt:file` type for the file in question.
-
-### The Solr Index {#the-solr-index}
-
-The purpose of the Solr index is full-text search but it can also be used to index search by path, property restrictions, and primary type restrictions. This means that the Solr index in Oak can be used for any type of JCR query.
-
-The integration in AEM happens at the repository level so that Solr is one of the possible indexes that can be used in Oak, the new repository implementation shipped with AEM.
-
-It can be configured to work as a remote server with the AEM instance.
-
-### Configuring AEM with a single remote Solr server {#configuring-aem-with-a-single-remote-solr-server}
-
-AEM can also be configured to work with a remote Solr server instance:
-
-1. Download and extract the latest version of Solr. For more info on how to do this, see the [Apache Solr Installation documentation](https://solr.apache.org/guide/6_6/installing-solr.html).
-1. Now, create two Solr shards. You can do this by creating folders for each shard in the folder where Solr has been unpacked:
-
-    * For the first shard, create the folder:
-
-   `<solrunpackdirectory>\aemsolr1\node1`
-
-    * For the second shard, create the folder:
-
-   `<solrunpackdirectory>\aemsolr2\node2`
-
-1. Locate the example instance in the Solr package. It is in a folder called " `example`" in the root of the package.
-1. Copy the following folders from the example instance to the two shard folders ( `aemsolr1\node1` and `aemsolr2\node2`):
-
-    * `contexts`
-    * `etc`
-    * `lib`
-    * `resources`
-    * `scripts`
-    * `solr-webapp`
-    * `webapps`
-    * `start.jar`
-
-1. Create a folder called " `cfg`" in each of the two shard folders.
-1. Place your Solr and Zookeeper configuration files in the newly created `cfg` folders.
-
-   >[!NOTE]
-   >
-   >For more info on Solr and ZooKeeper configuration, consult the [Solr Configuration documentation](https://cwiki.apache.org/confluence/display/solr/ConfiguringSolr) and the [ZooKeeper Getting Started Guide](https://zookeeper.apache.org/doc/r3.1.2/zookeeperStarted.html).
-
-1. Start the first shard with ZooKeeper support by going to `aemsolr1\node1` and running the following command:
-
-   ```xml
-   java -Xmx2g -Dbootstrap_confdir=./cfg/oak/conf -Dcollection.configName=myconf -DzkRun -DnumShards=2 -jar start.jar
-   ```
-
-1. Start the second shard by going to `aemsolr2\node2` and running the following command:
-
-   ```xml
-   java -Xmx2g -Djetty.port=7574 -DzkHost=localhost:9983 -jar start.jar
-   ```
-
-1. After both shards have been started, test that everything is up and running by connecting to the Solr interface at `http://localhost:8983/solr/#/`
-1. Start AEM and go to the Web Console at `http://localhost:4502/system/console/configMgr`
-1. Set the following configuration under **Oak Solr remote server configuration**:
-
-    * Solr HTTP URL: `http://localhost:8983/solr/`
-
-1. Choose **Remote Solr** in the drop-down list under **Oak Solr** server provider.
-
-1. Go to CRXDE and login as Admin.
-1. Create a node called **solrIndex** under **oak:index**, and set the following properties:
-
-    * **type:** solr (of type String)
-    * **async:** async (of type String)
-    * **reindex:** true (of type Boolean)
-
-1. Save the changes.
-
-#### Recommended configuration for Solr {#recommended-configuration-for-solr}
-
-Below is an example of a base configuration that can be used with all three Solr deployments described in this article. It accommodates the dedicated property indexes that are already present in AEM; do not use with other applications.
-
-To properly use it, you must place the contents of the archive directly in the Solr Home Directory. If there are multi-node deployments, it should go directly under the root folder of each node.
-
-Recommended Solr configuration files
-
-[Get File](assets/recommended-conf.zip)
 
 ### AEM Indexing Tools {#aem-indexing-tools}
 
