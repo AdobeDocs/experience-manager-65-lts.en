@@ -56,11 +56,6 @@ Often a full backup is taken at regular intervals (for example, daily, weekly, o
 >
 >Without this testing, the backup is potentially useless (worst case scenario).
 
-<!-- TODO: Remove the note if the backup performance section is removed -->
->[!NOTE]
->
->For more information about backup performances, read the [Back up Performance](/help/sites-deploying/configuring-performance.md#backup-performance) section.
-
 ### Backing up your software installation {#backing-up-your-software-installation}
 
 After installation, or significant changes in the configuration, create a backup of your software installation.
@@ -649,11 +644,6 @@ Some of these tools depend on your operating system.
    <td><p>Usage: jconsole</p> <p>See <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html">jconsole</a> and <a href="#monitoring-performance-using-jconsole">Monitoring Performance using JConsole</a>.</p> <p><strong>Note:</strong> With JDK 1.8, JConsole is extensible with plug-ins; for example, Top or TDA (Thread Dump Analyzer).</p> </td>
   </tr>
   <tr>
-   <td>Java&trade; VisualVM</td>
-   <td>Observe JVM metrics, threads, memory, and profiling.</td>
-   <td><p>Usage: visualvm or visualvm<br /> </p> <p>See <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/">visualvm</a> and <a href="#monitoring-performance-using-j-visualvm">Monitoring Performance using (J)VisualVM</a>.</p> <p><strong>Note:</strong> With JDK 1.8, VisualVM is extensible with plug-ins. VisualVM is discontinued after JDK 9. Use the Java&trade; Flight Recorder instead.</p> </td>
-  </tr>
-  <tr>
    <td>truss/strace, lsof</td>
    <td>In-depth kernel call and process analysis (UNIX&reg;).</td>
    <td>Unix/Linux commands.</td>
@@ -922,31 +912,6 @@ The tool command `jconsole` is available with the JDK.
 
    Now you can select other options.
 
-### Monitoring Performance using (J)VisualVM {#monitoring-performance-using-j-visualvm}
-
-For JDK 6-8, the tool command `visualvm` is available. After you have installed a JDK, you can do the following:
-
-1. Start your AEM instance.
-
-   >[!NOTE]
-   >
-   >If using Java&trade; 5, you can add the `-Dcom.sun.management.jmxremote` argument to the Java&trade; command line that starts your JVM. JMX is enabled per default with Java&trade; 6.
-
-1. Run either:
-
-    * `jvisualvm`: in the JDK 1.6 bin folder (tested version)
-    * `visualvm`: can be downloaded from [VisualVM](https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/) (bleeding edge version)
-
-1. From within the `Local` application, double-click `com.day.crx.quickstart.Main`. The Overview is shown as the default:
-
-   ![chlimage_1-2](assets/chlimage_1-2.png)
-
-   Now you can select other options, including Monitor:
-
-   ![chlimage_1-3](assets/chlimage_1-3.png)
-
-You can use this tool to generate thread dumps and memory head dumps. This information is often requested by the technical support team.
-
 ### Information Collection {#information-collection}
 
 Knowing as much as possible about your installation can help you track down what might have caused a change in performance, and whether these changes are justified. Collect these metrics at regular intervals so you can easily see significant changes.
@@ -1100,16 +1065,11 @@ The following is a list of suggestions on what to check if you start experiencin
 >* [Thread dumps](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17452.html)
 >* [Analyze memory problems](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17482.html)
 >* [Analyze using built-in profiler](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17499.html)
->* [Analyze slow and blocked processes](https://helpx.adobe.com/experience-manager/kb/AnalyzeSlowAndBlockedProcesses.html)
 >
 
 ### CPU at 100% {#cpu-at}
 
-If the CPU of your system is constantly running at 100%, see the following:
-
-* The Knowledge Base:
-
-    * [Analyze Slow and Blocked Processes](https://helpx.adobe.com/experience-manager/kb/AnalyzeSlowAndBlockedProcesses.html)
+If the CPU of your system is constantly running at 100%, check AEM logs and use tools like top, htop, or jstack to identify high-CPU threads. Analyze thread dumps for infinite loops, blocked threads, or excessive garbage collection.
 
 ### Out of Memory {#out-of-memory}
 
@@ -1143,20 +1103,17 @@ If your system is either running out of diskspace, or you notice disk thrashing,
 * The Knowledge Base:
 
     * [Too Many Open Files](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17470.html)
-    * [Journal consumes too much diskspace](https://helpx.adobe.com/experience-manager/kb/JournalTooMuchDiskSpace.html)
 
 ### Regular Performance Degradation {#regular-performance-degradation}
 
 If you see the performance of your instance deteriorating after each reboot (sometimes a week or later), then the following can be checked:
 
 * [Out of Memory](#outofmemory)
-* The Knowledge Base:
-
-    * [Unclosed Sessions](https://helpx.adobe.com/experience-manager/kb/AnalyzeUnclosedSessions.html)
+* [Unclosed Sessions](/help/sites-administering/troubleshoot.md#checking-for-unclosed-jcr-sessions-checking-for-unclosed-jcr-sessions)
 
 ### JVM Tuning {#jvm-tuning}
 
-The Java&trade; Virtual Machine (JVM) has improved in respect to tuning (especially since Java&trade; 7). As such, specifying a reasonable fixed JVM size and using the defaults is often suitable.
+The Java&trade; Virtual Machine (JVM) has improved in respect to tuning. As such, specifying a reasonable fixed JVM size and using the defaults is often suitable.
 
 If the default settings are not suitable, then it is important to establish a method to monitor and assess GC performance. Do so before attempting to tune the JVM. This process can involve monitoring factors including, heap size, algorithm, and other aspects.
 
@@ -1187,12 +1144,6 @@ Or JConsole:
   ```
 
 * Then connect to the JVM with the JConsole; see the following:
-  ` [https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html](https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html)`
+  ` [https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)`
 
 You can see how much memory is being used, what GC algorithms are being used, how long they take to run, and what effect this process has on your application performance. Without it, tuning is just "randomly twiddling knobs".
-
->[!NOTE]
->
->For Oracle's VM, there is also information at:
->
->[https://docs.oracle.com/javase/8/docs/technotes/guides/vm/server-class.html](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/server-class.html)
