@@ -1422,11 +1422,9 @@ user-guide-title: AEM 6.5 LTS
         + [Offloading Jobs](/help/sites-deploying/offloading.md)
         + [Resource Mapping](/help/sites-deploying/resource-mapping.md)
         + [Consistency and Traversal Checks](/help/sites-deploying/consistency-check.md)
-        + [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
         + [Performance Optimization](/help/sites-deploying/configuring-performance.md)
         + [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md)
         + [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
-        + [Configuring Web Console](/help/sites-deploying/configuring-web-console.md)
     + Upgrading to AEM 6.5 LTS {#upgrading}
         + [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
         + [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
@@ -1453,7 +1451,6 @@ user-guide-title: AEM 6.5 LTS
        + [Performance Tree](/help/sites-deploying/performance-tree.md)
        + [Best Practices for Performance Testing](/help/sites-deploying/best-practices-for-performance-testing.md)
        + [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md)
-       + [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md)
        + [Performance & Scalability](/help/sites-deploying/performance.md)
   + Fluid Experiences {#fluid-experiences}
      + [Feature List](/help/fluid-experiences/feature-list.md)

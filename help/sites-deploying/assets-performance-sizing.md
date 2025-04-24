@@ -70,9 +70,9 @@ The following legend describes the possible performance pitfall areas with some 
 
 **Temporary File System** A slow local file system can cause interactive performance problems, especially when searching, because the search indexes are stored on the local disk. It can also cause asset processing problems if the command-line process is being used.
 
-**AEM DAM Finder** Interactive performance problems, often experienced in searches are caused by high CPU utilization due to many concurrent users or other CPU-consuming processes on the same instance. Moving from virtual machines to dedicated machines and making sure no other services run on the machine can help improving performance. If high CPU load is caused due to asset processing and many concurrent users, Day recommends adding additional cluster nodes.
+**AEM DAM Finder** Interactive performance problems, often experienced in searches are caused by high CPU utilization due to many concurrent users or other CPU-consuming processes on the same instance. Moving from virtual machines to dedicated machines and making sure no other services run on the machine can help improving performance. If high CPU load is caused due to asset processing and many concurrent users, Adobe recommends adding additional cluster nodes.
 
-**AEM DAM Workflow** Long-running workflow processes during asset ingestion cause asset processing performance problems. Depending on the type of assets being processed, this can indicate CPU over-utilization. Day recommends that you reduce the number of other processes running on the system and to increase the number of available CPUs by adding cluster nodes.
+**AEM DAM Workflow** Long-running workflow processes during asset ingestion cause asset processing performance problems. Depending on the type of assets being processed, this can indicate CPU over-utilization. Adobe recommends that you reduce the number of other processes running on the system and to increase the number of available CPUs by adding cluster nodes.
 
 **NAS Connectivity** Poor network connectivity to the NAS causes interactive performance problems, because accessing new nodes during asset processing is slowed down due to network latency. Also, slow network throughput adversely affects throughput, but also asset processing performance, because loading and saving renditions is slowed down.
 

@@ -17,8 +17,6 @@ exl-id: c46d9569-23e7-44e2-a072-034450f14ca2
 
 >[!NOTE]
 >
->For general guidelines about performance, read the [Performance Guidelines](/help/sites-deploying/performance-guidelines.md) page.
->
 >For more information about troubleshooting and fixing performance issues, also see the [Performance tree](/help/sites-deploying/performance-tree.md).
 >
 >Also, you can review a Knowledge Base article on [Performance Tuning Tips](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-17466).
@@ -198,10 +196,6 @@ Certain rules should be kept in mind when optimizing performance:
 
 Certain aspects of AEM (and/or the underlying repository) can be configured to optimize performance. The following are possibilities and suggestions, you must be sure of whether, or how, you use the functionality in question before making changes.
 
->[!NOTE]
->
->See [Performance Optimization](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html).
-
 ### Search Indexing {#search-indexing}
 
 Starting in AEM 6.0, Adobe Experience Manager uses an Oak based repository architecture.
@@ -219,6 +213,7 @@ For example, when images (or DAM assets in general) are uploaded, workflows auto
 
 The workflow engine uses Apache Sling job queues for handling and scheduling work item processing. The following job queue services have been created by default from the Apache Sling Job Queue Configuration service factory for processing workflow jobs:
 
+<!-- TODO: Change the reference to 6.5 LTS javadocs -->
 * Granite Workflow Queue: Most workflow steps, such as the ones that process DAM assets, use the Granite Workflow Queue service.
 * Granite Workflow External Process Job Queue: This service is used for special external workflow steps that are typically used for contacting an external system and polling for results. For example, the InDesign Media Extraction Process step is implemented as an external process. The workflow engine uses the external queue for processing the polling. (See [com.day.cq.workflow.exec.WorkflowExternalProcess](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/day/cq/workflow/exec/WorkflowExternalProcess.html).)
 
@@ -457,7 +452,6 @@ A selection of tools is available to help you with load-generation, performance 
 
 * [JMeter](https://jmeter.apache.org/)
 * [Load Runner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
-* [InfraRED](https://www.infraredsoftware.com/)
 * [Java&trade; Interactive Profile](https://jiprof.sourceforge.net/)
 
 After optimization, test again to confirm the impact.
@@ -638,87 +632,3 @@ To make sure that files are cached properly, follow these guidelines:
 
 * Make sure that files always have the proper extension.
 * Avoid generic file serve scripts, which have URLs such as `download.jsp?file=2214`. To use URLs containing the file specification, rewrite the script. For the previous example, this rewrite is `download.2214.pdf`.
-
-## Backup Performance {#backup-performance}
-
-This section presents a series of benchmarks used to assess the performance of AEM backups and effects of backup activity on application performance. AEM backups present a significant load on the system while it runs, and Adobe measures this impact, and the effects of the backup delay settings that attempt to modulate these effects. The objective is to offer some reference data about the expected performance of backups in realistic configurations and quantities of production data, and to provide guidance about how to estimate backup times for planned systems.
-
-### Reference Environment {#reference-environment}
-
-#### Physical System {#physical-system}
-
-The results reported in this document were obtained from benchmarks run in a reference environment with the following configuration. This configuration is similar to a typical production environment in a data center:
-
-* HP ProLiant DL380 G6, 8 CPUs x 2.533 GHz
-* Serial attached SCSI 300 GB, 10,000-RPM drives
-* Hardware RAID controller; eight drives in a RAID0+5 array
-* VMware image CPU x 2 Intel Xeon&reg; E5540 @ 2.53 GHz
-* Red Hat&reg; Linux&reg; 2.6.18-194.el5; Java&trade; 1.6.0_29
-* Single Author instance
-
-The disk subsystem on this server is fast, representative of a high-performance RAID configuration that might be used in a production server. Backup performance can be sensitive to disk performance, and the results in this environment reflect performance on a fast RAID configuration. The VMWare image is configured to have a single large disk volume which physically resides in local disk storage, on the RAID array.
-
-The AEM configuration places the repository and datastore on the same logical volume, alongside the operating system and AEM software. The target directory for backups also resides on this logical filesystem.
-
-#### Data Volumes {#data-volumes}
-
-The following table illustrates the size of data volumes that are used in the backup benchmarks. The initial baseline content is first installed, then additional known amounts of data are added to increase the size of the content backed up. Backups are created at specific increments to represent a large increase in content and what may be produced in a day. The distribution of content (pages, images, tags) is roughly based on realistic production asset composition. Pages, images, and tags are limited to a maximum of 800 child pages. Each page includes title, Flash, text/image, video, slideshow, form, table, cloud, and carousel components. Images are uploaded from a pool of 400 unique files size from 37 KB to 594 KB.
-
-|Content|Nodes|Pages|Images|Tags|
-|---|---|---|---|---|
-|Base install|69 610|562|256|237|
-|Small content for incremental back-up||+100|+2|+2|
-|Large content for full back-up||+10 000|+100|+100|
-
-The backup benchmark is repeated with the additional content sets added at each repetition.
-
-#### Benchmark Scenarios {#benchmark-scenarios}
-
-The backup benchmarks cover two main scenarios: backups when the system is under significant application load, and backups when the system is idle. Although the general recommendation is that backups should be performed when AEM is as idle as possible, there are situations where it is necessary that the backup must be run when the system is under load.
-
-* **Idle State** - Backups are performed with no other activity on AEM.
-* **Under Load** - Backups are performed while the system is under 80% load from online processes. Backup delay varied to see the impact on load.
-
-Backup times and size of resulting backup are obtained from the AEM server logs. It is normally recommended that backups be scheduled for off-times when AEM is idle, such as in the middle of the night. This scenario is representative of the recommended approach.
-
-Load consists of pages created, pages deleted, traversals, and queries with most load coming from page traversals and queries. Adding and removing too many pages continually increase the workspace size and prevent the back-ups from completing. The distribution of load the script uses is 75% page traversals, 24% queries, and 1% page creations (single level with no nested subpages). Peak average transactions per second on an idle system is achieved with four concurrent threads, which is used when testing back-ups under load.
-
-Impact of load on backup performance can be estimated by the difference between performance with and without this application load. Impact of the backup on application throughput is found by comparing the scenario throughput in transactions per hour with and without a concurrent backup ongoing, and with backups operating with different "backup delay" settings.
-
-* **Delay Setting** - For several of the scenarios, the backup delay setting was also varied, using values of 10 milliseconds (default), 1 milliseconds, and 0 milliseconds, to explore how this setting affected the performance of backups.
-* **Backup Type** - All backups were external backups of the repository made to a backup directory without creating a zip, except in one case for comparison where the tar command was used directly. Since incremental backups cannot be created to a zip file, or when the prior full backup is a zip file, the backup directory method is the most often used in production situations.
-
-### Summary of Results {#summary-of-results}
-
-#### Backup Time and Throughput {#backup-time-and-throughput}
-
-The main result of these benchmarks is to show how backup times vary as a function of the backup type and overall quantity of data. The following chart shows the obtained backup time using the default backup configuration, as a function of the number of total number of pages.
-
-![chlimage_1-81](assets/chlimage_1-81.png)
-
-Backup times on an idle instance are fairly consistent, averaging 0.608 MB per second, regardless of full, or incremental backups (see chart below). The backup time is simply a function of the amount of data that is being backed up. The time to complete a full backup clearly increases with the total number of pages. The time to complete an incremental backup also climbs with the total number of pages, but at a much lower rate. The time taken to complete the incremental backup is much shorter owing to the relatively small amount of data being backed up.
-
-The size of the backup produced is the main determinant of the time taken to complete a backup. The following chart shows time taken as a function of final backup size.
-
-![chlimage_1-82](assets/chlimage_1-82.png)
-
-This chart illustrates that both incremental and full backups follow a simple size versus time pattern that Adobe can measure as throughput. Backup times on an idle instance are fairly consistent, averaging 0.61 MB per second regardless of full or incremental backups on the benchmark environment.
-
-#### Backup Delay {#backup-delay}
-
-The backup delay parameter is provided to limit the extent to which backups may interfere with production workloads. The parameter specifies a wait time in milliseconds, which is interspersed into the backup operation on a file-by-file basis. The overall effect depends partly on the size of files affected. Measuring backup performance in MB/sec gives a reasonable way to compare the effects of delay on the backup.
-
-* Running a backup concurrently with regular application load has a negative impact on the throughput of the regular load.
-* The impact may be slight (as little as 5%) or significant, causing as much as 75% drop in throughput. It likely depends most on the application.
-* Backup is not a heavy load on the CPU, and so CPU-intensive production workloads would be less affected by backup than I/O intensive ones.
-
-![chlimage_1-83](assets/chlimage_1-83.png)
-
-For comparison, the throughput obtained using a file system backup ('tar') to back up the same repository files. The performance of the tar is comparable, but slightly higher than the backup with delay set to zero. Setting even a small delay greatly reduces the backup throughput and the default delay of 10-milliseconds results in vastly reduced throughput. In situations where backups may be scheduled when overall application usage is low, or the application can be idle, reduce the delay below the default value to permit the backup to proceed more quickly.
-
-The actual impact of application throughput of an ongoing backup does depend on the application and infrastructure details. The choice of delay value should be made by empirical analysis of the application, but should be chosen as small as possible, so that backups can complete as quickly as possible. Because there is only a weak correlation between the choice of delay value and the impact on application throughput, the choice of delay should favor shorter overall backup times to minimize the overall impact of backups. A backup that takes eight hours to complete, but affects throughput by -20% is likely to have a greater overall impact than one which takes two hours to complete but affects throughput by -30%.
-
-### References {#references}
-
-* [Administering - Back up and Restore](/help/sites-administering/backup-and-restore.md)
-* [Managing - Capacity and Volume](/help/managing/best-practices-further-reference.md#capacity-and-volume)
