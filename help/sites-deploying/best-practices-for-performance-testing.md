@@ -58,7 +58,6 @@ There are many commercially available performance testing tools on the market. W
 
 * **Load Runner** is an enterprise grade load testing product. A free evaluation version is available. More information can be found at [https://www.microfocus.com/en-us/portfolio/performance-engineering/overview](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
 
-* Website load testing tools like [Vercara](https://vercara.com/website-performance-management) can also be used.
 * When testing mobile or responsive websites, a separate set of tools must be used. They work by throttling network bandwidth, simulating slower mobile connections like 3G or EDGE. Among the more widely used tools include the following:
 
     * **[Network Link Conditioner](https://nshipster.com/network-link-conditioner/)** - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS;
@@ -103,21 +102,18 @@ On systems with MongoDB backends, AEM provides several [JMX](/help/sites-adminis
 
 * The **Consolidated Cache Statistics** MBean. It can be accessed directly by going to:
 
-`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22`
+`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3DConsolidated+Cache+statistics%2Ctype%3DConsolidatedCacheStats`
 
 For the cache named **Document-Diff**, the hit rate should be over `.90`. If the hit rate falls below 90%, it is likely that you must edit your `DocumentNodeStoreService` configuration. Adobe product support can recommend optimal settings for your environment.
 
 * The **Oak Repository Statistics** Mbean. It can be accessed directly by going to:
 
-`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22`
+`https://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3DOak+Repository+Statistics%2Ctype%3DRepositoryStats`
 
 The **ObservationQueueMaxLength** section shows the number of events in Oak's observation queue over the last hours, minutes, seconds, and weeks. Find the largest number of events in the "per hour" section. Compare this number to the `oak.observation.queue-length` setting. If the highest number shown for the observation queue exceeds the `queue-length` setting:
 
-1. Create a file named: `com.adobe.granite.repository.impl.SlingRepositoryManager.cfg` containing the parameter `oak.observation.queue‐length=50000`
+1. Create a file named: `com.adobe.granite.repository.impl.SlingRepositoryManager.config` containing the parameter `oak.observation.queue‐length=50000`
 1. Place it under the /crx-­‐quickstart/install folder. 
-
->[!NOTE]
->See [AEM 6.x | Performance Tuning Tips](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html)
 
 The default setting is 10,000, but most deployments must raise it to 20,000 or 50,000.
 
@@ -145,10 +141,9 @@ After running performance tests on the author instance, any issues must be inves
 * Watch the error log for errors or warnings. For more information, see [Logging](/help/sites-deploying/configure-logging.md).
 * Monitor system hardware resources such as memory and CPU utilization, disk I/O, or network I/O. These resources are often the causes of performance bottlenecks.
 * Optimize the architecture of the pages and how they are addressed to minimize the usage of URL parameters to allow for as much caching as possible.
-* Follow the [Performance Optimization](/help/sites-deploying/configuring-performance.md) and [Performance tuning tips](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/configuring-performance.html) documentation.
-
+* Follow the [Performance Optimization](/help/sites-deploying/configuring-performance.md) documentation.
 * If issues are present with editing certain pages or components on author instances, use the TouchUI Developer Mode to inspect the page in question. Doing so provides a breakdown of each content area on the page, and its load time.
-* Minify all JS and CSS on the site. See this [blog post](https://blogs.adobe.com/foxes/enable-js-and-css-minification/).
+* Minify all JS and CSS on the site..
 * Eliminate embedded CSS and JS from the components. They should be included and minified with the client-side libraries to minimize the number of requests required to render the page.
 * To inspect the server requests and see which are taking the longest, use browser tools like Chrome's Network tab.
 

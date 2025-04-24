@@ -1451,7 +1451,6 @@ user-guide-title: AEM 6.5 LTS
        + [Performance Tree](/help/sites-deploying/performance-tree.md)
        + [Best Practices for Performance Testing](/help/sites-deploying/best-practices-for-performance-testing.md)
        + [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md)
-       + [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md)
        + [Performance & Scalability](/help/sites-deploying/performance.md)
   + Fluid Experiences {#fluid-experiences}
      + [Feature List](/help/fluid-experiences/feature-list.md)
