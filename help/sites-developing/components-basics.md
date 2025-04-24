@@ -46,8 +46,6 @@ Before any serious discussion starts about developing components, you must know 
 * **Classic UI**
   User interface based on ExtJS technology that was deprecated with AEM 6.4.
 
-See [UI Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) for more details.
-
 Components can be implemented to support the touch-enabled UI, the classic UI or both. When looking at a standard instance you will also see out-of-the-box components that were originally designed for the classic UI, or the touch-enabled UI, or both.
 
 The basics of both are covered on this page, and how to recognize them.

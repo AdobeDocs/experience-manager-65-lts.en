@@ -149,7 +149,7 @@ The analysis starts at step 0. The goal is to determine which entity (Dispatcher
   <tr>
    <td><strong>Step 19</strong></td>
    <td>100% CPU</td>
-   <td><a href="/help/sites-deploying/monitoring-and-maintaining.md#monitoring-performance">https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html</a></td>
+   <td>See <a href="/help/sites-deploying/monitoring-and-maintaining.md#cpu-at">CPU at 100%</a></td>
   </tr>
   <tr>
    <td><strong>Step 20</strong></td>
@@ -283,7 +283,7 @@ The analysis starts at step 0. The goal is to determine which entity (Dispatcher
   <tr>
    <td><strong>Steps 45<br /> and 47</strong><br /> </td>
    <td>Using HTTP/2</td>
-   <td>See the Gem Session for steps 37,38 and 39. Also, check out <a href="https://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.topic.html/forum__kdzc-does_anyoneknowwhe.html">this</a> forum post on HTTP/2 support.<br /> </td>
+   <td>See the Gem Session for steps 37,38 and 39.<br /> </td>
   </tr>
   <tr>
    <td><strong>Step 49</strong></td>
