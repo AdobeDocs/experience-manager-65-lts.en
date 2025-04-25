@@ -147,7 +147,8 @@ Adobe Experience Manager works with the following server platforms for productio
 | **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[2]` |
 | Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
-| Microsoft&reg; Windows Server 2022 |R: Supported|
+
+<!--| Microsoft&reg; Windows Server 2022 |R: Supported|-->
 
 1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. 
 1. Linux&reg; distribution supported by Adobe Managed Services.
