@@ -8,9 +8,6 @@ topic-tags: configuring
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c46d9569-23e7-44e2-a072-034450f14ca2
 ---
 # Performance Optimization {#performance-optimization}
