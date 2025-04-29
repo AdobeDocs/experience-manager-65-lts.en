@@ -343,8 +343,6 @@ These settings are used to define triggers for automated replication:
 
 ## Configuring your Replication Agents {#configuring-your-replication-agents}
 
-For information about connecting replication agents to the Publish instance using MSSL, see [Replicating Using Mutual SSL](/help/sites-deploying/mssl-replication.md).
-
 ### Configuring your Replication Agents from the Author Environment {#configuring-your-replication-agents-from-the-author-environment}
 
 From the Tools tab in the Author environment, you can configure replication agents that reside in either the Author environment (**Agents on Author**) or the Publish environment (**Agents on Publish**). The following procedures illustrate the configuration of an agent for the Author environment, but can be used for both.

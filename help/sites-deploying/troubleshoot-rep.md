@@ -55,16 +55,6 @@ Check this by going to /etc/replication/agents.author.html then click the replic
     1. Click "Search".
     1. In the results, the top items are the latest sling eventing jobs. Click each one and find the stuck replications that match what shows up in the top of the queue.
 
-1. There might be something wrong with sling eventing framework job queues. Try restarting the org.apache.sling.event bundle in the/system/console.
-1. It might be that job processing is turned off. You can check that under Felix Console in the Sling Eventing Tab. Check if it displays - Apache Sling Eventing (JOB PROCESSING IS DISABLED!)
-
-    * If yes, then check Apache Sling Job Event Handler under Configuration tab in Felix Console. Might be that 'Job processing Enabled' checkbox is unchecked. If that is checked and still it displays that 'job processing is disabled', then check if there is any overlay under /apps/system/config that is disabling the job processing. Try creating an osgi:config node for jobmanager.enabled with a boolean value to true and re-check if the activation started and there are no more jobs in queue.
-
-1. It might also be the case that DefaultJobManager configuration gets into an inconsistent state. This can happen when someone manually modifies the 'Apache Sling Job Event Handler' configuration via the OSGiconsole (For example, disable and re-enable the 'Job Processing Enabled' property and Save the configuration).
-
-    * At this point the DefaultJobManager configuration which is stored at crx-quickstart/launchpad/config/org/apache/sling/event/impl/jobs/DefaultJobManager.config gets into an inconsistent state. And even though the 'Apache Sling Job Event Handler' property shows 'Job Processing Enabled' to be in checked state, when one navigates to the Sling Eventing tab, it shows the message - JOB PROCESSING IS DISABLED and the replication does not work.
-    * To resolve this issue, navigate to the Configuration page of the OSGi console and delete the 'Apache Sling Job Event Handler' configuration. Then restart the Master node of the cluster to get the configuration back into a consistent state. This should fix the issue and replication starts working again.
-
 **Create a replication.log**
 
 Sometimes it is helpful to set all replication logging to be added in a separate log file at DEBUG level. To do this:
