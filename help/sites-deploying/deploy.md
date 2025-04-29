@@ -32,7 +32,7 @@ In this page you find:
     * [Unpacked Install Directory](#unpacked-install-directory)
     * [Starting and Stopping](#starting-and-stopping)
 
-<!-- Once you have familiarized yourself with these basics, you can find in more advanced and detailed information in the following subpages:
+Once you have familiarized yourself with these basics, you can find in more advanced and detailed information in the following subpages:
 
 * [Technical Requirements](/help/sites-deploying/technical-requirements.md)
 * [Recommended Deployments](/help/sites-deploying/recommended-deploys.md)
@@ -40,12 +40,12 @@ In this page you find:
 * [Application Server Install](/help/sites-deploying/application-server-install.md)
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
-* [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
+* [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
 * [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
 * [Web Console](/help/sites-deploying/web-console.md)
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
-* [Introduction to the AEM Platform](/help/sites-deploying/platform.md) -->
+* [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
 
 ## Basic Concepts {#basic-concepts}
 
@@ -259,7 +259,7 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 
 ![sign in screen](assets/screen_shot_2019-04-08at83533am.png)
 
-<!-- 
+
 After you are logged in, you have access to AEM. For more information, depending on your role, see the following:
 
 * [Authoring](/help/sites-authoring/first-steps.md)
@@ -277,10 +277,10 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Application Server Install](/help/sites-deploying/application-server-install.md)
 * [Command Line Start and Stop](/help/sites-deploying/command-line-start-and-stop.md)
 * [Configuring](/help/sites-deploying/configuring.md)
-* [Upgrading to AEM 6.5](/help/sites-deploying/upgrade.md)
+* [Upgrading to AEM 6.5 LTS](/help/sites-deploying/upgrade.md)
 * [Configuration How-To Articles](/help/sites-deploying/ht-deploy.md)
 * [Web Console](/help/sites-deploying/web-console.md)
 * [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
 * [Best Practices](/help/sites-deploying/best-practices.md)
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
- -->
+
