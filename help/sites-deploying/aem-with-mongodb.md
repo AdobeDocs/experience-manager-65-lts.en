@@ -9,9 +9,6 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: af957cd7-ad3d-46f2-9ca5-e175538104f1
 ---
 # Adobe Experience Manager with MongoDB{#aem-with-mongodb}
