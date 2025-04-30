@@ -14,7 +14,7 @@ exl-id: c835a110-89cf-4857-9ee0-c0ad781a66ae
 
 For programmatically working with tags or extending tags within a custom AEM application, this page describes use of the
 
-* [Tagging API](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/day/cq/tagging/package-summary.html)
+* [Tagging API](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/tagging/package-summary.html)
 
 That interacts with the
 
@@ -27,7 +27,7 @@ For related information regarding tagging, see :
 
 ## Overview of the Tagging API {#overview-of-the-tagging-api}
 
-The implementation of the [tagging framework](/help/sites-developing/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/index.html?com/day/cq/tagging/package-summary.html) package:
+The implementation of the [tagging framework](/help/sites-developing/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/index.html?com/day/cq/tagging/package-summary.html) package:
 
 * JcrTagManagerFactory - returns a JCR-based implementation of a `TagManager`. It is the reference implementation of the Tagging API.
 * `TagManager` - allows for resolving and creating tags by paths and names.
@@ -150,7 +150,7 @@ When the **Animals** tag is added to the **Products** page, the value `stockphot
 
 The server-side API has localized `title`-related methods:
 
-* [com.day.cq.tagging.Tag](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/index.html?com/day/cq/tagging/Tag.html)
+* [com.day.cq.tagging.Tag](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/index.html?com/day/cq/tagging/Tag.html)
 
     * getLocalizedTitle(Locale locale)
     * getLocalizedTitlePaths()
@@ -158,7 +158,7 @@ The server-side API has localized `title`-related methods:
     * getTitle(Locale locale)
     * getTitlePath(Locale locale)
 
-* [com.day.cq.tagging.TagManager](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/index.html?com/day/cq/tagging/TagManager.html)
+* [com.day.cq.tagging.TagManager](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/index.html?com/day/cq/tagging/TagManager.html)
 
     * canCreateTagByTitle(String tagTitlePath, Locale locale)
     * createTagByTitle(String tagTitlePath, Locale locale)
