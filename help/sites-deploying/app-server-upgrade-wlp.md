@@ -70,13 +70,13 @@ Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how
 
 1. Make a backup of the `sling.properties` file (usually present in `crx-quickstart/conf/`) and delete it
 1. Change the version of servlet to **6.0** in the `server.xml` file
-1. Install Java 17 and make sure that it is correctly installed by running: 
+1. Install Java 17/Java 21 and make sure that it is correctly installed by running: 
 
    ```shell
    java -version
    ```
    
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to your requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information.
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to your requirements. See [Java 17/Java 21 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information.
 1. Download the new 6.5 LTS war and copy it to dropins folder located at: `/<path-to-aem-server>/dropins/`
 1. Start AEM instance: It can be done typically by using this command:
  

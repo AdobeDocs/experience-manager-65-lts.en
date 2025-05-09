@@ -174,7 +174,7 @@ Now, start the AEM instance using the new command determined using the informati
 
 >[!NOTE]
 >
->Support for some of Java 8/11 arguments have been removed in Java 17, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
+>Support for some of Java 8/11 arguments have been removed in Java 17/21, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html), [Oracle Java&trade; 21 documents](https://docs.oracle.com/en/java/javase/21/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
 
 To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 

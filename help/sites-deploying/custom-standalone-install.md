@@ -38,11 +38,11 @@ There are various rules to be followed when renaming the quickstart jar file:
 >
 >You can also change the port number by using the `-port` option in the start command.
 
-### Java 17 Considerations {#java-considerations}
+### Java 17/Java 21 Considerations {#java-considerations}
 
-If you are running Oracle Java 17, additional switches must be added to your command line when starting AEM.
+If you are running Oracle Java 17 or Java 21, additional switches must be added to your command line when starting AEM.
 
-Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 17:
+Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 17/Java 21:
 
 ```shell
 -XX:+UseG1GC --add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=org.apache.sling.commons.threads -Djdk.util.zip.disableZip64ExtraFieldValidation=true

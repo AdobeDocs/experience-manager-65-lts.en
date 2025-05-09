@@ -18,7 +18,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## What's New {#what-s-new}
 
-[!DNL Adobe Experience Manager] 6.5 LTS is an upgrade release to the [!DNL Adobe Experience Manager] 6.5 code base. It provides new and enhanced functionality, key customer fixes, high priority customer enhancements, and general bug fixes oriented toward product stabilization. It also includes [!DNL Adobe Experience Manager] 6.5 Service Pack releases up to SP22.
+[!DNL Adobe Experience Manager] 6.5 LTS is an upgrade release to the [!DNL Adobe Experience Manager] 6.5 code base. It provides key customer fixes, high priority customer enhancements, and general bug fixes oriented toward product stabilization. It also includes [!DNL Adobe Experience Manager] 6.5 Service Pack releases up to SP22.
 
 The list below provides an overview - while the subsequent pages list the full details.
 
