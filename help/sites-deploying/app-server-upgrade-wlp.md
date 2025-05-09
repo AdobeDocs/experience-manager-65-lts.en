@@ -20,7 +20,7 @@ Check [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md) and how
 
 ### Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version**: Make sure you have installed IBM&reg; Sumeru JRE 17 on your WLP server.
+* **Minimum Required Java version**: Make sure you have installed IBM&reg; Sumeru JRE 17/21 on your WLP server.
 
 ### Performing the Upgrade {#performing-the-upgrade}
 

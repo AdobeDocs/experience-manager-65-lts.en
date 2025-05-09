@@ -30,9 +30,9 @@ The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 
 #### Java&trade; Support  {#java-support}
 
-* Support for Java&trade; 17.
+* Support for Java&trade; 17 and Java&trade; 21.
 * For optimal performance, override default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
-* Java&trade; 17 maintenance updates are distributed by Adobe for customer usage in AEM-related projects, when not publicly available from Oracle.
+* Java&trade; 17  and Java&trade; 21 maintenance updates are distributed by Adobe for customer usage in AEM-related projects, when not publicly available from Oracle.
 
 #### Uberjar Packaging {#uber-jar-packaging}
 
@@ -54,7 +54,7 @@ Find the complete matrix of supported platforms including support-level on [AEM 
 
 >[!NOTE]
 >
->Java&trade; 17 is the recommended version to use with AEM 6.5 LTS.
+>Java&trade; 17/Java&trade; 21 are the recommended versions to use with AEM 6.5 LTS.
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 

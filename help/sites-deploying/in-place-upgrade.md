@@ -21,7 +21,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ## Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version:** Make sure you have Oracle's Java&trade; 17 installed on your system.
+* **Minimum Required Java version:** Make sure you have Oracle's Java&trade; 17/21 installed on your system.
 
 ## Preparation of the AEM Quickstart jar file {#prep-quickstart-file}
 
