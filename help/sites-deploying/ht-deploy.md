@@ -4,9 +4,6 @@ description: A list of articles that describe how to accomplish specific deploym
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c316a5d6-0e4a-4710-b4d0-3467f1d5085b
 ---
 # Configuration How-To Articles{#configuration-how-to-articles}

@@ -9,9 +9,6 @@ docset: aem65
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: b840d970-9365-4df3-8467-e34abd940074
 ---
 # Replication{#replication}
@@ -342,8 +339,6 @@ These settings are used to define triggers for automated replication:
   When checked, the agent does not force versioning of activated pages.
 
 ## Configuring your Replication Agents {#configuring-your-replication-agents}
-
-For information about connecting replication agents to the Publish instance using MSSL, see [Replicating Using Mutual SSL](/help/sites-deploying/mssl-replication.md).
 
 ### Configuring your Replication Agents from the Author Environment {#configuring-your-replication-agents-from-the-author-environment}
 

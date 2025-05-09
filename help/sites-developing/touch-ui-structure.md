@@ -161,4 +161,4 @@ Depending on the space available, the component toolbars are positioned at the t
 
 For more details about the concepts around the touch-enabled UI, read [Concepts of the AEM Touch-Enabled UI](/help/sites-developing/touch-ui-concepts.md).
 
-For more technical information, see [JS documentation set](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.html) for the touch-enabled page editor.
+For more technical information, see [JS documentation set](https://developer.adobe.com/experience-manager/reference-materials/6-5/jsdoc/ui-touch/editor-core/index.html) for the touch-enabled page editor.

@@ -8,9 +8,6 @@ topic-tags: configuring
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 49225f9f-d09e-4ab6-9e29-b47ba41e8889
 ---
 # Assets Performance Guide{#assets-performance-guide}
