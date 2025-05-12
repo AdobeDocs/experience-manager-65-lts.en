@@ -85,10 +85,12 @@ Adobe Experience Manager operates with the following versions of the Java&trade;
 | **Platform** | **Support Level** | **Link** |
 |---|---|---|
 | Oracle Java&trade; SE 17 JDK | A: Supported `[1]` |
+| Oracle Java&trade; SE 21 JDK | A: Supported `[1]` |
 | IBM&reg; Semeru J9 VM – build 17.0.13.0 | A: Supported `[2]` |
+| IBM&reg; Semeru J9 VM – build 21.0.6.0 | A: Supported `[2]` |
 
 1. Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java&trade; SE products. Java&trade; 9, Java&trade; 10, Java&trade; 12, Java&trade; 13, Java&trade; 14, Java&trade; 15m Java&trade; 16 are non-LTS releases by Oracle (see [Oracle Java&trade; SE support roadmap](https://www.oracle.com/technetwork/java/eol-135779.html)). To deploy AEM in a production environment, Adobe provides support only for the LTS releases of Java&trade;. Support and distribution of the Oracle Java&trade; SE JDK, including all maintenance updates of LTS releases beyond the end of the public updates, is supported by Adobe directly for all AEM customers that use the Oracle Java&trade; SE technology. See the [Java&trade; support policy for Adobe Experience Manager](assets/Java_Policy_for_Adobe_Experience_Manager.pdf). 
-**This release supports Oracle Java&trade; 17.**
+**This release supports Oracle Java&trade; 17 and Oracle Java&trade; 21.**
 
 1. The IBM&reg; JRE is only supported along with WebSphere&reg; Application Server.
 
@@ -133,7 +135,7 @@ The minimum Servlet API Version required is Servlet 3.1. In addition, AEM suppor
 | Platform |Support Level |
 |---|---|
 | **Quickstart built-in Servlet Engine (Jetty 11.0.x)** |A: Supported |
-| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17 |R: Restricted Support for new contracts `[1]` |
+| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17/21 |R: Restricted Support for new contracts `[1]` |
 | Apache Tomcat 11.0.x |R: Restricted Support for new contracts `[1]` |
 
 1. Starting AEM 6.5 deployments on application servers moves to Restricted Support. Existing customers can upgrade to AEM 6.5 and keep using application servers. For new customers, it comes with support criteria and a support program as stated in the Level-R description above.
