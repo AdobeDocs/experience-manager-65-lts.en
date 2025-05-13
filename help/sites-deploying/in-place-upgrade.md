@@ -41,7 +41,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    java -Xmx4096m -jar aem-quickstart.jar -unpack
    ```
 
-1. The unpack command will generate a new `sling.properties` file under the `crx-quickstart/conf/` folder. You can now apply your custom changes to newly generated `sling.properties` file.
+1. If custom sling.properties need to be applied, create a fresh local AEM instance and retrieve the sling.properties file from its crx-quickstart/conf directory. Apply the required custom changes to this file, then copy it to the crx-quickstart/conf directory of the AEM instance being upgraded. If there are no custom properties, this step can be skipped.
 
 <!-- Alexandru: drafting temporarily
 
