@@ -102,6 +102,24 @@ This section lists features and capabilities that have been removed from AEM 6.5
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `com.github.jknack.handlebars` is not supported| Pick relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
+## Known Issues {#known-issues}
+
+### Dispatcher Connection Failure with SSL-Only Feature {#ssl-only-feature}
+
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between dispatcher and AEM instances can be disrupted.
+
+**Impact:**
+- Health check failures with HTTP 500 response codes
+- Broken traffic between dispatcher and AEM instances
+- Content cannot be properly served through the dispatcher
+
+**Affected Environments:**
+- AEM deployments with dispatcher configurations
+- Systems where the SSL-only feature has been enabled
+
+**Workaround:**
+If you experience this issue, please contact Adobe Customer Support. A hotfix is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
+
 ## Restricted Websites{#restricted-sites}
 
 These websites are only available to customers. If you are a customer and need access, contact your Adobe account manager.
