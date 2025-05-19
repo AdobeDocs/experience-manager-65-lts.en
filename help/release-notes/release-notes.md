@@ -109,13 +109,13 @@ This section lists features and capabilities that have been removed from AEM 6.5
 When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between dispatcher and AEM instances can be disrupted.
 
 **Impact:**
-- Health check failures with HTTP 500 response codes
-- Broken traffic between dispatcher and AEM instances
-- Content cannot be properly served through the dispatcher
+* Health check failures with HTTP 500 response codes
+* Broken traffic between dispatcher and AEM instances
+* Content cannot be properly served through the dispatcher
 
 **Affected Environments:**
-- AEM deployments with dispatcher configurations
-- Systems where the SSL-only feature has been enabled
+* AEM deployments with dispatcher configurations
+* Systems where the SSL-only feature has been enabled
 
 **Solution:**
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.0.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
