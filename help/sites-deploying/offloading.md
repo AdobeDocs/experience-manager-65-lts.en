@@ -8,9 +8,6 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c0b285b7-3b20-4412-88b8-04de4a703f42
 ---
 # Offloading Jobs{#offloading-jobs}

@@ -46,7 +46,7 @@ You can add additional search tabs by configuring them in the [!DNL Assets] admi
 
 In addition to using pre-existing predicates, [!DNL Experience Manager] developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/widgets-api/index.html).
+Creating custom predicates requires basic knowledge about the [Widgets framework](https://developer.adobe.com/experience-manager/reference-materials/6-5/widgets-api/index.html).
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are in **/libs/cq/search/components/predicates**.
 

@@ -8,9 +8,6 @@ noindex: true
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: a7a8a20a-e513-43df-80b7-1e6daf957f20
 ---
 # Oak-run.jar Indexing Use Cases{#oak-run-jar-indexing-use-cases}

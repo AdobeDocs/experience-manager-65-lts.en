@@ -34,7 +34,7 @@ The AEM Commerce Add-On for AEM as known as the CIF Add-On is available for loca
 The following should be installed locally:
 
 - Local AEM 6.5 LTS
-- [Java 17](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
+- [Java 17/Java 21](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/general.html)
 - [Apache Maven](https://maven.apache.org/) (3.3.9 or newer)
 - [Node LTS](https://nodejs.org/en/)
 - [npm 6+](https://www.npmjs.com/)

@@ -9,9 +9,6 @@ docset: aem65
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c8bab030-053f-47d1-94f7-b7ff08bfaab0
 ---
 # Monitoring and maintaining your Adobe Experience Manager instance{#monitoring-and-maintaining-your-aem-instance}

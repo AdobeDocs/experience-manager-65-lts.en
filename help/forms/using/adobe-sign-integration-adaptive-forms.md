@@ -36,7 +36,7 @@ You require the following to integrate [!DNL Adobe Sign] with AEM [!DNL Forms]:
 
 * An active [Adobe Sign developer account.](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
 * An [SSL enabled](/help/sites-administering/ssl-by-default.md) AEM [!DNL Forms] server.
-* An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
+* An [Adobe Sign API application](https://developer.adobe.com/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of [!DNL Adobe Sign] API application.
 * When reconfiguring, remove the existing [!DNL Adobe Sign] configuration from both author and publish instances.
 * Use [identical crypto key](/help/sites-administering/security-checklist.md#make-sure-you-properly-replicate-encryption-keys-when-needed) for author and publish instances.
@@ -106,7 +106,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
     * widget_write
     * workflow_read
 
-   For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
+   For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://developer.adobe.com/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
 
    ![OAuth Config](assets/oauthconfig_new.png)
 

@@ -19,7 +19,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ### Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version**: Make sure you have installed Oracle&reg; JRE 17 on your Tomcat server. 
+* **Minimum Required Java version**: Make sure you have installed Oracle&reg; JRE 17/21 on your Tomcat server. 
 * **Tomcat server**: The version of the Tomcat server required for 6.5 LTS is **11.0.x**.
 
 ### Performing the Upgrade {#performing-the-upgrade}
@@ -29,15 +29,15 @@ All the examples in this procedure use Tomcat as the Application Server and impl
 1. If AEM 6.5 is already deployed, check that the bundles are functioning correctly by accessing: *`https://<serveraddress:port>/system/console/bundles`*
 1. Next, stop AEM 6.5. This can be done from the Tomcat App Manager at: *`https://<serveraddress:port>/manager/html`*
 1. Make sure that you have completed the [pre-upgrade](#pre-upgrade-steps) activities like backup of AEM 6.5 server before performing any upgrade activity
-1. Install Java 17 and make sure that it is correctly installed by running the command:
+1. Install Java 17/Java 21 and make sure that it is correctly installed by running the command:
 
    ```
    java –version
    ```
 
 1. Set up an AEM 6.5 LTS compatible Tomcat server
-1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information
-1. Deploy the newly downloaded 6.5 LTS war on the Tomcat server using Java 17 and start AEM 6.5 LTS Tomcat server by running:
+1. Review the start parameters for the AEM server and make sure to update the parameters accoding to the system requirements. See [Java 17/Java 21 Considerations](/help/sites-deploying/custom-standalone-install.md#java-considerations) for more information
+1. Deploy the newly downloaded 6.5 LTS war on the Tomcat server using Java 17/Java 21 and start AEM 6.5 LTS Tomcat server by running:
 
    ```
    $CATALINA_HOME/bin/catalina.sh start

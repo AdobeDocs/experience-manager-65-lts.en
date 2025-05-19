@@ -8,9 +8,6 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c83fcf96-cc45-40a0-9a50-c60406096de1
 ---
 # Performance Tree{#performance-tree}
