@@ -1414,7 +1414,6 @@ user-guide-title: AEM 6.5 LTS
         + [Run Modes](/help/sites-deploying/configure-runmodes.md)
         + [Web Console](/help/sites-deploying/web-console.md)
         + [Replication](/help/sites-deploying/replication.md)
-        + [Replicating Using Mutual SSL](/help/sites-deploying/mssl-replication.md)
         + [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
         + [Expiration of Static Objects](/help/sites-deploying/expiration-static-objects.md)
         + [Version Purging](/help/sites-deploying/version-purging.md)

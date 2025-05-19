@@ -4,9 +4,6 @@ description: Learn about the AEM platform and its most important components incl
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Architect
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: c9ea613d-f1d1-49be-bd52-95d489442f46
 ---
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}

@@ -8,9 +8,6 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 3ffa7c80-ce59-41cf-bb50-c6caf77d9baa
 ---
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
@@ -140,7 +137,7 @@ The recommended values are :
 * `-Doak.queryLimitInMemory=500000`
 * `-Doak.queryLimitReads=100000`
 
-In AEM 6.3, the above two parameters are preconfigured out-of-the-box, and can be persisted via the OSGi QueryEngineSettings.
+AEM 6.3 onwards, the above two parameters are preconfigured out-of-the-box, and can be persisted via the OSGi QueryEngineSettings.
 
 More information available under : [https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits](https://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits)
 
@@ -163,20 +160,6 @@ Lucene indexes were introduced in Oak 1.0.9 and offer some powerful optimization
 * By virtue of being asynchronous, Lucene indexes cannot enforce uniqueness constraints. If this is required, then a property index needs to be put in place.
 
 In general, it is recommended you use Lucene indexes unless there is a compelling need to use property indexes so that you can gain the benefits of higher performance and flexibility.
-
-### Solr Indexing {#solr-indexing}
-
-AEM also supports Solr indexing by default. This is used to support full text search, but it can also be used to support any type of JCR query. Solr should be considered when the AEM instances do not have the CPU capacity to handle the number of queries required in search intensive deployments like search driven websites with a high number of concurrent users. Alternately, Solr can be implemented in a crawler-based approach to use some of the more advanced features of the platform.
-
-Solr indexes can be configured to run embedded on the AEM server for development environments or can be offloaded to a remote instance to improve search scalability on the production and staging environments. While offloading search improves scalability, it introduces latency and because of this, is not recommended unless required. For more info on how to configure Solr integration and how to create Solr indexes see the [Oak Queries and Indexing documentation](/help/sites-deploying/queries-and-indexing.md#the-solr-index).
-
->[!NOTE]
->
->While taking the integrated Solr search approach would allow for offloading of indexing to a Solr server. If the more advanced features of the Solr server are used through a crawler-based approach, additional configuration work is required.
-
-The downside to taking this approach is that while by default, AEM queries respect ACLs and thus hide results that a user does not have access to, externalizing search to a Solr server will not support this feature. If search is to be externalized in this way, extra care must be taken to ensure that users are not presented with results that they should not see.
-
-Potential use cases where this approach may be appropriate are cases where search data from multiple sources may need to be aggregated. For instance, you may have a site being hosted on AEM and a second site being hosted on a third-party platform. Solr could be configured to crawl the content of both sites and store them in an aggregated index. This would allow for cross-site searches.
 
 ### Design Considerations {#design-considerations}
 
@@ -211,7 +194,7 @@ When removing an index on a MongoDB instance, the cost of deletion is proportion
 
 ### The JCR Query Cheat Sheet {#jcrquerycheatsheet}
 
-To support the creation of efficient JCR queries and index definitions, the [JCR Query Cheat Sheet](assets/JCR_query_cheatsheet-v1.1.pdf) is available for download and use as a reference during development. It contains sample queries for QueryBuilder, XPath, and SQL-2, covering multiple scenarios which behave differently in terms of query performance. It also provides recommendations for how to build or customize Oak indexes. The content of this Cheat Sheet applies to AEM 6.5 and AEM as a Cloud Service.
+To support the creation of efficient JCR queries and index definitions, the [JCR Query Cheat Sheet](assets/JCR_query_cheatsheet-v1.1.pdf) is available for download and use as a reference during development. It contains sample queries for QueryBuilder, XPath, and SQL-2, covering multiple scenarios which behave differently in terms of query performance. It also provides recommendations for how to build or customize Oak indexes. The content of this Cheat Sheet applies to AEM 6.5, AEM 6.5 LTS and AEM as a Cloud Service.
 
 ## Reindexing {#re-indexing}
 
@@ -375,7 +358,7 @@ The following detail possible issues together with resolutions:
 
 >[!NOTE]
 >
->In AEM 6.5, [oak-run.jar is the ONLY supported method](/help/sites-deploying/indexing-via-the-oak-run-jar.md#reindexingapproachdecisiontree) for reindexing on MongoMK or RDBMK repositories.
+>In AEM 6.5 LTS, [oak-run.jar is the ONLY supported method](/help/sites-deploying/indexing-via-the-oak-run-jar.md#reindexingapproachdecisiontree) for reindexing on MongoMK or RDBMK repositories.
 
 #### Reindexing Property indexes {#re-indexing-property-indexes}
 

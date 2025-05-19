@@ -8,9 +8,6 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 86613671-dacd-487e-b6ff-88365289e591
 ---
 # Logging{#logging}
