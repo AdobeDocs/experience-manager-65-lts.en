@@ -1,6 +1,6 @@
 ---
 title: Current Release Notes for Adobe Experience Manager 6.5 LTS
-description: These are the current Release Notes for Adobe Experience Manager 6.5 LTS.
+description: Find current release information for Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
@@ -26,17 +26,17 @@ The list below provides an overview - while the subsequent pages list the full d
 
 The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java&trade; Content Repository: Apache Jackrabbit Oak 1.68.x.
 
-The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
+Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 #### Java&trade; Support  {#java-support}
 
 * Support for Java&trade; 17 and Java&trade; 21.
-* For optimal performance, override default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
-* Java&trade; 17  and Java&trade; 21 maintenance updates are distributed by Adobe for customer usage in AEM-related projects, when not publicly available from Oracle.
+* For optimal performance, override the default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
+* Adobe distributes Java&trade; 17  and Java&trade; 21 maintenance updates for customer usage in AEM-related projects, when not publicly available from Oracle.
 
 #### Uberjar Packaging {#uber-jar-packaging}
 
-* There is slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
+* There is a slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
 #### Upgrade {#upgrade}
 
@@ -46,7 +46,7 @@ The Quickstart uses Eclipse Jetty 11.0.x as servlet engine.
 
 For setup requirements, see [installation instructions](/help/sites-deploying/custom-standalone-install.md).
 
-For detailed instructions, see [upgrade documentation](/help/sites-deploying/upgrade.md).
+For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
 
 ## Supported Platforms {#supported-platforms}
 
@@ -58,18 +58,19 @@ Find the complete matrix of supported platforms including support-level on [AEM 
 
 ## Deprecated and Removed Features {#deprecated-and-removed-features}
 
-Adobe constantly evaluates product capabilities, to over time reinvent or replace older features with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
+Adobe continually reviews product capabilities to improve customer value by modernizing or replacing older features. These changes are made with careful attention to backward compatibility.
 
 To communicate the impending removal or replacement of Adobe Experience Manager (AEM) capabilities, the following rules apply:
 
 1. Announcement of deprecation comes first. While deprecated, capabilities are still available but are not further enhanced.
-1. Removal of deprecated capabilities occurs in the following major release at the earliest. Actual target date for removal will be announced later.
+1. Removal of deprecated capabilities occurs in the following major release at the earliest. The actual target date for removal is planned for announcement later.
 
 This process gives customers at least one release cycle to adapt their implementation to a new version or successor of a deprecated capability, before actual removal.
 
 ### Deprecated features {#deprecated-features}
 
-This section lists features and capabilities that have been marked as deprecated with AEM 6.5 LTS. Generally, features that are planned for removal in a future release are set to deprecated first, with an alternative provided.
+This section lists features and capabilities that Adobe has deprecated in AEM 6.5 LTS. Typically, Adobe deprecates features before removing them in a future release and provides an alternative.
+
 
 Customers are advised to review if they use the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided.
 
@@ -83,15 +84,15 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 |Area|Feature|Replacement|Version (SP)|
 |--- |--- |--- |--- |
-| Commerce| AEM CIF Classic is not supported. | You should migrate to [AEM CIF](/help/commerce/cif/migration.md). | 6.5 LTS GA |
+| Commerce| AEM CIF Classic is not supported. | Migrate to [AEM CIF](/help/commerce/cif/migration.md). | 6.5 LTS GA |
 | Solutions| Social/Communities is not supported. | No replacement available. | 6.5 LTS GA |
-| Screens| Screens is not supported. | No replacement available. | 6.5 LTS GA |
+| Screens| Screens are not supported. | No replacement available. | 6.5 LTS GA |
 | Assets| `dam-pim` and `dam-rating` are not supported as bundles are dependent on social. | No replacement available. | 6.5 LTS GA |
 | Assets| `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettings()` has been removed. | Use the alternate api `com.day.cq.dam.scene7.api.model.Scene7ViewerConfig#getSettingsList()` that has been added. | 6.5 LTS GA |
 | Portal| AEM Portal Director is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| Bundle `com.adobe.granite.socketio` is removed. | No replacement available. | 6.5 LTS GA |
 | Granite| `com.adobe.granite.crx-explorer` is not supported. | No replacement available. | 6.5 LTS GA |
-| Granite| `crx2oak` is not supported. | Pick relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
+| Granite| `crx2oak` is not supported. | Pick the relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
 | Adobe| `com.adobe.cq.cq-searchpromote-integration` is not supported. | No replacement available. | 6.5 LTS GA |
 | Guava| All guava dependencies are now removed in AEM and hence the `com.adobe.granite.osgi.wrapper.guava-15.0.0-0002` bundle is not part of AEM. |Customers can add guava on their own if they are dependent on guava or replace guava code with java collections or other alternates if possible. | 6.5 LTS GA |
 | We.Retail| We-retail sample site is not supported. | No replacement available. | 6.5 LTS GA |
@@ -100,21 +101,38 @@ This section lists features and capabilities that have been removed from AEM 6.5
 |Open Source| `org.apache.commons.io` packages are now exported from `org.apache.commons.commons-io`.| No change required. | 6.5 LTS GA |
 |Open Source| `javax.mail` packages are being exported from the `com.sun.javax.mail` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
-|Open Source| `com.github.jknack.handlebars` is not supported| Pick relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
+|Open Source| `com.github.jknack.handlebars` is not supported| Pick the relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
 ## Known Issues {#known-issues}
 
+### Issue with JSP scripting bundle in AEM 6.5.21-6.5.23 and AEM 6.5 LTS GA**
+
+AEM 6.5.21, 6.5.22, 6.5.23, and AEM 6.5 LTS GA ship with the `org.apache.sling.scripting.jsp:2.6.0` bundle, which contains a known issue. The issue typically occurs under high load when the AEM instance handles many concurrent requests.
+
+When this issue occurs, one of the following exceptions may appear in the error logs alongside references to `org.apache.sling.scripting.jsp:2.6.0`:
+
+* `java.io.IOException: classFile.delete() failed`
+* `java.io.IOException: tmpFile.renameTo(classFile) failed`
+* `java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0`
+* `java.io.FileNotFoundException`
+
+When this error occurs, the only recovery method is to restart the AEM instance.
+
+Contact Adobe Customer Support and reference this release note for a resolution.
+
 ### Dispatcher Connection Failure with SSL-Only Feature {#ssl-only-feature}
 
-When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between dispatcher and AEM instances can be disrupted.
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted.
 
 **Impact:**
+
 * Health check failures with HTTP 500 response codes
-* Broken traffic between dispatcher and AEM instances
-* Content cannot be properly served through the dispatcher
+* Broken traffic between Dispatcher and AEM instances
+* Content cannot be properly served through the Dispatcher
 
 **Affected Environments:**
-* AEM deployments with dispatcher configurations
+
+* AEM deployments with Dispatcher configurations
 * Systems where the SSL-only feature has been enabled
 
 **Solution:**
