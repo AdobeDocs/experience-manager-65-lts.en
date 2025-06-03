@@ -20,7 +20,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 ### Migration Prerequisites {#migration-prerequisites}
 
 * **Minimum Required Java version**: Make sure you have installed Oracle&reg; JRE 17/21 on your Tomcat server. 
-* **Tomcat server**: The version of the Tomcat server required for 6.5 LTS is **10.x**.
+* **Tomcat server**: The supported versions of the Tomcat server for AEM 6.5 LTS are **10.0.x** and **10.1.x**.
 
 ### Performing the Upgrade {#performing-the-upgrade}
 
