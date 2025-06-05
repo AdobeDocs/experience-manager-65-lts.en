@@ -136,7 +136,7 @@ The minimum Servlet API Version required is Servlet 3.1. In addition, AEM suppor
 |---|---|
 | **Quickstart built-in Servlet Engine (Jetty 11.0.x)** |A: Supported |
 | IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17/21 |R: Restricted Support for new contracts `[1]` |
-| Apache Tomcat 11.0.x |R: Restricted Support for new contracts `[1]` |
+| Apache Tomcat 10.0.x/10.1.x |R: Restricted Support for new contracts `[1]` |
 
 1. Starting AEM 6.5 deployments on application servers moves to Restricted Support. Existing customers can upgrade to AEM 6.5 and keep using application servers. For new customers, it comes with support criteria and a support program as stated in the Level-R description above.
 
