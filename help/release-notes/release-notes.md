@@ -116,9 +116,7 @@ When this issue occurs, one of the following exceptions may appear in the error 
 * `java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0`
 * `java.io.FileNotFoundException`
 
-When this error occurs, the only recovery method is to restart the AEM instance.
-
-Contact Adobe Customer Support and reference this release note for a resolution.
+A hotfix [cq-6.5.lts.0-hotfix-NPR-42640](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-NPR-42640-1.2.zip) is available to resolve this problem.
 
 ### Dispatcher Connection Failure with SSL-Only Feature {#ssl-only-feature}
 
@@ -136,7 +134,7 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 * Systems where the SSL-only feature has been enabled
 
 **Solution:**
-If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.0.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
+If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
 
 ## Restricted Websites{#restricted-sites}
 
