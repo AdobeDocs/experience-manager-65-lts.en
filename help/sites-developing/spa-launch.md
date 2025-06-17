@@ -10,7 +10,9 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: aa4471bf-8477-4377-b474-861269f69334
+index: no
 ---
+
 # SPA and Adobe Experience Platform Launch Integration{#spa-and-adobe-experience-platform-launch-integration}
 
 Adobe Experience Platform Launch is the recommended way to implement Analytics, Target, and Audience Manager within Single Page Applications (SPAs).

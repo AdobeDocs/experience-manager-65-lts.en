@@ -9,7 +9,9 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: ba64fb22-85fb-434b-93fa-be910af107a0
+index: no
 ---
+
 # SPA Reference Materials {#spa-reference-materials}
 
 ## SPA JavaScript API References{#spa-javascript-api-references}
