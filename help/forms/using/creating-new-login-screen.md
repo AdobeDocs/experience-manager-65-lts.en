@@ -1,10 +1,6 @@
 ---
 title: Creating a login screen
 description: How-to modify the login page of LiveCycle modules, for example, of AEM Forms workspace or Forms Manager.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: forms-workspace
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -298,7 +294,7 @@ css.newLoginContentArea {
 1. Add new images in `/apps/livecycle/core/content/login`. To add image:
 
    1. Install WebDAV client.
-   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
+   1. Navigate to `/apps/livecycle/core/content/login` folder, using webDAV client. For more information, see [WebDAV Access](/help/sites-administering/webdav-access.md).
 
    1. Add new images.
 
