@@ -26,7 +26,7 @@ The REST API provides access to the same features through HTTP with responses be
 
 >[!NOTE]
 >
->The QueryBuilder API is built using the JCR API. You can also query the Adobe Experience Manager JCR by using the JCR API from within an OSGi bundle. For information, see [Adobe Experience Manager using the JCR API](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/platform/access-jcr.html).
+>The QueryBuilder API is built using the JCR API. You can also query the Adobe Experience Manager JCR by using the JCR API from within an OSGi bundle. For information, see [Adobe Experience Manager using the JCR API](/help/sites-developing/access-jcr.md).
 
 ## Gem Session {#gem-session}
 
