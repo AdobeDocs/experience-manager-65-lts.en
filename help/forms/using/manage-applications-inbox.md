@@ -1,10 +1,6 @@
 ---
 title: Manage Forms applications and tasks in AEM Inbox
 description: AEM Inbox lets you launch Forms-centric workflows through submitting applications and manage tasks.
-contentOwner: vishgupt
-topic-tags: document_services, publish
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: Admin, User, Developer
@@ -134,7 +130,7 @@ A workflow model owner is unable to view items related to AEM Workflow in AEM in
       | allowExplicitSharing  |  allowExplicitSharing | BOOLEAN  |
       
 
-   * Deploy the indices by way of an AEM package. You can use an [AEM Archetype](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en) project to create a deployable AEM package. Use the following sample code to add indices to an AEM Archetype project:
+   * Deploy the indices by way of an AEM package. You can use an [AEM Archetype](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/developing/archetype/using) project to create a deployable AEM package. Use the following sample code to add indices to an AEM Archetype project:
 
    ``` Java
       .property("sharedWith", "sharedWith").type(TYPENAME_STRING).propertyIndex()
@@ -144,8 +140,6 @@ A workflow model owner is unable to view items related to AEM Workflow in AEM in
       .property("allowExplicitSharing", "allowExplicitSharing").type(TYPENAME_BOOLEAN).propertyIndex()
    ``` 
 
-1. [Create a Property Index and set it to true](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/queries-and-indexing.html#the-property-index). 
+1. [Create a Property Index and set it to true](/help/sites-deploying/queries-and-indexing.md#the-property-index). 
 
-1. After configuring indices in CRX DE or deploying via a package, [re-index the repository](https://helpx.adobe.com/in/experience-manager/kb/HowToCheckLuceneIndex.html#Completelyrebuildtheindex).
-
-https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/queries-and-indexing.html
+1. After configuring indices in CRX DE or deploying via a package, re-index the repository.

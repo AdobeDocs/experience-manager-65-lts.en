@@ -134,7 +134,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     After the AEM Archetype project is successfully built, an AEM Package is generated. You can find the package at [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip
 
-1. Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
+1. Use the [Package Manager](/help/sites-administering/package-manager.md) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
 
 >[!NOTE]
 >

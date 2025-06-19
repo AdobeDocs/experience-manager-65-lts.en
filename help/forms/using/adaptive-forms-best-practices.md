@@ -10,7 +10,7 @@ exl-id: b87629fa-85a9-4024-963a-4761bc093e62
 ---
 # Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 
-<span class="preview"> Adobe recommends using the modern and extensible data capture [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) for [creating new Adaptive Forms](/help/forms/using/create-an-adaptive-form-core-components.md) or [adding Adaptive Forms to AEM Sites pages](/help/forms/using/create-or-add-an-adaptive-form-to-aem-sites-page.md). These components represent a significant advancement in Adaptive Forms creation, ensuring impressive user experiences. This article describes older approach to author Adaptive Forms using foundation components. </span>
+<span class="preview"> Adobe recommends using the modern and extensible data capture [Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction) for [creating new Adaptive Forms](/help/forms/using/create-an-adaptive-form-core-components.md) or [adding Adaptive Forms to AEM Sites pages](/help/forms/using/create-or-add-an-adaptive-form-to-aem-sites-page.md). These components represent a significant advancement in Adaptive Forms creation, ensuring impressive user experiences. This article describes older approach to author Adaptive Forms using foundation components. </span>
 
 ## Overview {#overview}
 
@@ -93,15 +93,15 @@ For more information, see [Create an adaptive form](/help/forms/using/creating-a
 
 ### Creating Form Templates 
 
-You can create an adaptive form using the form templates enabled in **Configuration Browser**. To enable the form templates, see [Creating Adaptive Form Template](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/create-adaptive-form-template.html?lang=en).
+You can create an adaptive form using the form templates enabled in **Configuration Browser**. To enable the form templates, see [Creating Adaptive Form Template](https://experienceleague.adobe.com/en/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/create-adaptive-form-template).
 
-The form templates can also be uploaded from Adaptive Form packages that are created on another author machine. Form templates are  made available by installing [aemforms-references-* packages](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en). Some of the best practices recommended are:
+The form templates can also be uploaded from Adaptive Form packages that are created on another author machine. Form templates are  made available by installing [aemforms-references-* packages](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases). Some of the best practices recommended are:
 
 * The **nosamplecontent** runmode is recommended only for author and not for the publish nodes.
 * Authoring of assets such as adaptive form, themes, templates, or cloud configurations are performed over Author nodes only, which can be published at the configured Publish nodes.
-For more information, see [Publishing and unpublishing forms and documents](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en)
+For more information, see [Publishing and unpublishing forms and documents](/help/forms/using/publishing-unpublishing-forms.md)
 * Forms addon package is required for Authoring and for Publishing to support the document service operations; hence it can be considered as a dependency. 
-If you only want Forms related sample template, themes, and DOR packages, then you can download them from [aemforms-references-* packages](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/publish-process-aem-forms/publishing-unpublishing-forms.html?lang=en).
+If you only want Forms related sample template, themes, and DOR packages, then you can download them from [aemforms-references-* packages](help/forms/using/upgrade-forms-osgi.md).
 
 For further information, see the best practices in [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
@@ -131,7 +131,7 @@ Rule editor provides a visual editor and a code editor for writing rules. Consid
 * Refer components by relative unique hierarchy to avoid any conflict. For example, `parentName.fieldName`.
 
 * When handling complex or commonly used rules, consider writing business logic as functions in a separate client library that you can specify and reuse across adaptive forms. The client library should be a self-contained library and should not have any external dependencies, except on jQuery and Underscore.js. You can also use the client library to enforce [server-side revalidation](/help/forms/using/configuring-submit-actions.md#server-side-revalidation-in-adaptive-form) of submitted form data.
-* Adaptive forms provide a set of APIs that you can use to communicate with and perform actions on adaptive forms. Some of the key APIs are as follows. For more information, see [JavaScript Library API reference for Adaptive Forms](https://adobe.com/go/learn_aemforms_documentation_63).
+* Adaptive forms provide a set of APIs that you can use to communicate with and perform actions on adaptive forms. Some of the key APIs are as follows. For more information, see [JavaScript Library API reference for Adaptive Forms](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions).
 
     * `guideBridge.reset()`: Resets a form.
     * `guideBridge.submit()`: Submits a form.

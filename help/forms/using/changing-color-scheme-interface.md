@@ -1,10 +1,6 @@
 ---
 title: Changing the color scheme of the interface
 description: How to modify the color scheme of AEM Forms workspace user interface portions selectively.
-contentOwner: robhagat
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: forms-workspace
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -25,7 +21,7 @@ To update the navigation bar at the top of AEM Forms workspace.
 
    >[!NOTE]
    >
-   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
+   >For more information, see [WebDAV Access](/help/sites-administering/webdav-access.md).
 
 1. Reference the new background image in /apps/ws/css/newStyle.css by adding following style.
 

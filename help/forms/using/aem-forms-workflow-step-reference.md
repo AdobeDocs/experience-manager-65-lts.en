@@ -1,9 +1,6 @@
 ---
 title: Forms-centric workflow on OSGi - Step Reference
 description: Forms-centric workflow on OSGi steps let you rapidly build adaptive forms based workflows.
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: publish
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Foundation Components
 role: User, Developer
@@ -13,14 +10,14 @@ exl-id: 13d84b04-dab6-453f-bc0d-62a5f557c4f2
 
 | Version | Article link |
 | -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/aem-forms-workflow-step-reference.html)                  |
+| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/aem-forms-workflow-step-reference)                  |
 | AEM 6.5     | This article         |
 
 You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](/help/sites-developing/workflows-models.md#extending-aem).
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 
-Forms Workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps let you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal- and across- the-firewall business processes. You can also use Forms Workflow steps to start document services, integrate with Adobe Sign signature workflow, and perform other AEM Forms operations. You require [AEM Forms add-on](https://www.adobe.com/go/learn_aemforms_documentation_63) to use these steps in a workflow.
+Forms Workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps let you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal- and across- the-firewall business processes. You can also use Forms Workflow steps to start document services, integrate with Adobe Sign signature workflow, and perform other AEM Forms operations. 
 
 Forms-centric workflow steps perform AEM Forms-specific operations in an AEM Workflow. These steps let you rapidly build Adaptive Forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal and across- the-firewall business processes.
 
@@ -83,7 +80,7 @@ You can also use the component to control the behavior of the task. For example,
     * **Save layout template using:** Save the layout template using a path that is relative to the payload or store it in a variable of Document data type. The [layout template](../../forms/using/layout-design-details.md) refers to an XDP file that you create using Forms Designer. This option is available only if you select Interactive Communication Agent UI from the Type drop-down list.
 
 * **Assignee &gt; Assign options:** Specify the method to assign the task to a user. You can dynamically assign the task to a user or a group using the Participant Chooser script or assign the task to a specific AEM user or group.
-* **Participant Chooser:** The option is available when the **Dynamically to a user or group** option is selected in the Assign options field. You can use an ECMAScript or a service to dynamically select a user or a group. For more information, see [Dynamically assign a workflow to the users](https://helpx.adobe.com/experience-manager/kb/HowToAssignAWorkflowDynamicallyToParticipants.html) and [Creating a custom Adobe Experience Manager Dynamic Participant step.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en&CID=RedirectAEMCommunityKautuk)
+* **Participant Chooser:** The option is available when the **Dynamically to a user or group** option is selected in the Assign options field. You can use an ECMAScript or a service to dynamically select a user or a group.
 
 * **Participants:** The field is available when the **[!UICONTROL com.adobe.granite.workflow.core.process.RandomParticipantChooser]** option is selected in the **Participant Chooser** field. The field lets you select users or groups for the RandomParticipantChooser option.
 

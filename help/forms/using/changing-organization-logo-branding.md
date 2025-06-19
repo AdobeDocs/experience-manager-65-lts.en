@@ -22,9 +22,7 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
 
    >[!NOTE]
    >
-   >For more information, see [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en).
-
-   [WebDAV Access](https://experienceleague.adobe.com/docs/experience-manager-65-lts/administering/contentmanagement/webdav-access.html?lang=en)
+   >For more information, see [WebDAV Access](/help/sites-administering/webdav-access.md).
 
 1. Reference the new logo image in style sheet at /apps/ws/css/newStyle.css by adding following style.
 
