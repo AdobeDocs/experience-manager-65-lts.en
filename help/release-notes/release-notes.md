@@ -48,6 +48,10 @@ For setup requirements, see [installation instructions](/help/sites-deploying/cu
 
 For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
 
+>[!NOTE]
+>
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately.
+
 ## Supported Platforms {#supported-platforms}
 
 Find the complete matrix of supported platforms including support-level on [AEM 6.5 LTS technical requirements](/help/sites-deploying/technical-requirements.md).
