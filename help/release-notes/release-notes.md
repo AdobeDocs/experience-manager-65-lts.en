@@ -50,7 +50,7 @@ For detailed instructions, see the [upgrade documentation](/help/sites-deploying
 
 >[!NOTE]
 >
-> For fresh AEM 6.5 LTS installations, index definitions must be installed separately.
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, refer [this](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
 
 ## Supported Platforms {#supported-platforms}
 

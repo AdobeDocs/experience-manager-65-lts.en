@@ -311,6 +311,10 @@ Although there are many possibilities to configure AEM WCM, certain actions shou
 * Consult the [Security Checklist](/help/sites-administering/security-checklist.md) for tasks required to ensure that your system remains secure.
 * Review the list of default users and groups which are installed with AEM WCM. Check whether you want to take action on any other accounts - see [Security and User Administration](/help/sites-administering/security.md) for further details.
 
+>[!NOTE]
+>
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, refer [this](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
+
 ## Accessing CRXDE Lite and the Web Console {#accessing-crxde-lite-and-the-web-console}
 
 Once AEM WCM has been started, you can also access:
