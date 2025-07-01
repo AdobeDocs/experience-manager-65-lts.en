@@ -123,4 +123,4 @@ You can customize a major part of the interface and core functionality such as, 
 
 By default, for a new process, an XDP form is rendered in PDF format on a desktop and in HTML format on a tablet. It is possible to render an XDP form in HTML format always. For details, see [New Render and Submit Services](/help/forms/using/new-render-submit-service.md).
 
-[Mobile Forms](/help/forms/using/introduction.md) feature, that works with [profiles](/help/forms/offline-mobile-form-submission/custom-profile.md), enables HTML rendition of XDP forms. By default, the 'Render New HTML Form' uses `default.html` profile, that you can change. You can also add custom changes that happen before rendering an XDP form in HTML format.
+[Mobile Forms](/help/forms/using/introduction.md) feature, that works with [profiles](/help/forms/using/custom-profile.md), enables HTML rendition of XDP forms. By default, the 'Render New HTML Form' uses `default.html` profile, that you can change. You can also add custom changes that happen before rendering an XDP form in HTML format.
