@@ -19,7 +19,7 @@ To configure Experience Manager Assets to be used with Asset Link, implement the
 
 1. To map Creative Cloud licensed users with Experience Manager users, manage [user access control](#user-access).
 
-1. Create [custom query index](#create-custom-index), configure [FPO renditions](/help/assets/configure-fpo-renditions.md) for InDesign, configure [Adobe Stock integration](/help/assets/aem-assets-adobe-stock.md), and configure [visual or similarity search](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/using/search-assets.html#configvisualsearch). 
+1. Create [custom query index](#create-custom-index), configure [FPO renditions](/help/assets/configure-fpo-renditions.md) for InDesign, configure [Adobe Stock integration](/help/assets/aem-assets-adobe-stock.md), and configure [visual or similarity search](/help/assets/search-assets.md#configvisualsearch). 
 
 ## Prerequisites and support for various functionalities {#prerequisites}
 
@@ -237,8 +237,7 @@ In Experience Manager 6.4 and Experience Manager 6.5, the administrators can con
 
 The configuration is useful for line-of-business users and marketers, for example, to create a custom workflow on a few specific folders. Say all assets from an agency's photoshoot can be watermarked or all assets uploaded by a freelancer can be processed to create specific renditions.
 
-For more information and for Experience Manager configuration, see [auto-execute workflow on assets](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/using/assets-workflow.html#auto-execute-workflow-on-some-assets).
-
+For more information and for Experience Manager configuration, see [auto-execute workflow on assets](/help/assets/assets-workflow.md#auto-execute-workflow-on-some-assets).
 
 ## Create a custom index in Experience Manager 6.4.x versions {#create-custom-index}
 
@@ -255,7 +254,7 @@ Experience Manager contains indexes that are used for querying. Create the follo
 
 ## Configure visual or similarity search {#configure-visual-similarity-search}
 
-Visual Search capability lets you search for visually similar assets in the AEM Assets repository, using the Adobe Asset Link panel. The functionality is available in 6.5.0 or later versions and only the indexed assets are searched. For more information, see [how to configure visual search](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/using/search-assets.html#configvisualsearch).
+Visual Search capability lets you search for visually similar assets in the AEM Assets repository, using the Adobe Asset Link panel. The functionality is available in 6.5.0 or later versions and only the indexed assets are searched. For more information, see [how to configure visual search](/help/assets/search-assets.md#configvisualsearch).
 
 ## Generate For Placement Only renditions for Adobe InDesign {#fpo-renditions}
 
