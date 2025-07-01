@@ -448,7 +448,7 @@ Any optimizations made must be tested to ensure they have:
 A selection of tools is available to help you with load-generation, performance monitoring, and results analysis. Some of these tools include the following:
 
 * [JMeter](https://jmeter.apache.org/)
-* [Load Runner](https://www.microfocus.com/en-us/portfolio/performance-engineering/overview)
+* [OpenText Professional Performance Engineering](https://www.opentext.com/products/professional-performance-engineering).
 * [Java&trade; Interactive Profile](https://jiprof.sourceforge.net/)
 
 After optimization, test again to confirm the impact.
