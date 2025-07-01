@@ -1,10 +1,6 @@
 ---
 title: Writing custom Submit action for adaptive forms
 description: AEM Forms lets you create custom Submit action for Adaptive forms. This article describes the procedure to add custom Submit action for Adaptive forms.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: customization
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Foundation Components,Form Data Model
@@ -136,7 +132,7 @@ Perform the following steps to create a custom Submit action that saves the data
 
    Add the post.POST.jsp script to your action. (/apps/custom_submit_action/store_and_mail/).
 
-   Run the out-of-the-box Store action (post.POST.jsp script). Use the [FormsHelper.runAction](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en)(java.lang.String, java.lang.String, org.apache.sling.api.resource.Resource, org.apache.sling.api.SlingHttpServletRequest, org.apache.sling.api.SlingHttpServletResponse) API that CQ provides in your code to run the Store action. Add the following code in your JSP file:
+   Run the out-of-the-box Store action (post.POST.jsp script). Use the [FormsHelper.runAction](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/foundation/forms/FormsHelper.html#runAction(java.lang.String,java.lang.String,org.apache.sling.api.resource.Resource,org.apache.sling.api.SlingHttpServletRequest,org.apache.sling.api.SlingHttpServletResponse))(java.lang.String, java.lang.String, org.apache.sling.api.resource.Resource, org.apache.sling.api.SlingHttpServletRequest, org.apache.sling.api.SlingHttpServletResponse) API that CQ provides in your code to run the Store action. Add the following code in your JSP file:
 
    `FormsHelper.runAction("/libs/fd/af/components/guidesubmittype/store", "post", resource, slingRequest, slingResponse);`
 
@@ -146,7 +142,7 @@ Perform the following steps to create a custom Submit action that saves the data
 
    `String mailTo = properties.get("mailTo");`
 
-   Finally, use the CQ Mail API to send the email. Use the [SimpleEmail](https://commons.apache.org/proper/commons-email/apidocs/org/apache/commons/mail/SimpleEmail.html) class to create the Email Object as depicted below:
+   Finally, use the CQ Mail API to send the email. Use the [SimpleEmail](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/org/apache/commons/mail/SimpleEmail.html) class to create the Email Object as depicted below:
 
    >[!NOTE]
    >
