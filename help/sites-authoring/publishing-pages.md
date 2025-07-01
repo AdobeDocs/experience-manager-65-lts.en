@@ -6,6 +6,7 @@ feature: Authoring
 role: User,Admin,Architect,Developer
 exl-id: 89bab7e3-f688-4c95-8571-08477e737bc8
 ---
+
 # Publishing Pages {#publishing-pages}
 
 After you have created and reviewed your content on the author environment, [make it available on your public website](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) (your publish environment).
@@ -190,6 +191,10 @@ To publish or unpublish a page using Manage Publication:
    Click **Publish** or **Publish Later** to complete the publication.
 
    ![chlimage_1-4](assets/chlimage_1-4.png)
+
+>[!TIP]
+>
+>Scheduling content for publishing replicates content and respects publication workflows. If you wish to temporarily hide already published content without unpublishing, consider [**On Time** and **Off Time** available in the page properties.](/help/sites-authoring/editing-page-properties.md#on-time)
 
 ## Unpublishing Pages {#unpublishing-pages}
 
