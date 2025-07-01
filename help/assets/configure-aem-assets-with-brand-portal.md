@@ -1,10 +1,6 @@
 ---
 title: Configure AEM Assets with Brand Portal
 description: Learn how to configure AEM Assets with Brand Portal for publishing assets and Collections to Brand Portal.
-topic-tags: brand-portal
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-docset: aem65
 feature: Brand Portal
 role: Admin
 hide: yes
@@ -68,13 +64,13 @@ It is recommended to have AEM 6.5 LTS to set up an AEM Author instance. If you d
 
 * If you are an existing AEM customer, download AEM 6.5 LTS from the [Adobe Licensing website](https://licensing.adobe.com).
 
-* If you are an Adobe partner, use the [Adobe Partner Training Program](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=82357Q) to request AEM 6.5.
+* If you are an Adobe partner, use the [Adobe Partner Training Program](https://solutionpartners.adobe.com/) to request AEM 6.5.
 
-After you download AEM, for instructions to set up an AEM Author instance, see [deploying and maintaining](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/deploy.html#default-local-install).
+After you download AEM, for instructions to set up an AEM Author instance, see [deploying and maintaining](/help/sites-deploying/deploy.md#default-local-install).
 
 ### Download and install AEM latest Service Pack {#servicepack}
 
-For detailed instructions, see the current [AEM 6.5 LTS Service Pack Release Notes](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/release-notes.html). 
+For detailed instructions, see the current [AEM 6.5 LTS Service Pack Release Notes](/help/release-notes/release-notes.md). 
 
 **Contact Adobe Customer Support** if you cannot find the latest AEM package or Service Pack.
 
