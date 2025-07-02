@@ -1,9 +1,6 @@
 ---
 title: New features summary | AEM 6.5 Forms
 description: Latest features and improvements to AEM forms and documents, world's most advanced digital experience management solution.
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Release Information
 role: Admin, User, Developer
@@ -62,10 +59,7 @@ The release also includes fixes for 20+ customer reported issues. For detailed l
 
 ## Installing the service pack
 
-The service pack brings new features and bug fixes for both AEM Forms on JEE and AEM Forms on OSGi. The installation instructions have changes in comparison to previous service packs. For installation instructions, see [AEM Forms service pack installation instructions](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en).
-
-
-
+The service pack brings new features and bug fixes for both AEM Forms on JEE and AEM Forms on OSGi. The installation instructions have changes in comparison to previous service packs.
 
 <!-- 
 ## Transaction Reports {#transaction-reports}
