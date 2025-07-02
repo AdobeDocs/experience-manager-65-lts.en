@@ -1,7 +1,6 @@
 ---
 title: Search digital assets and images in [!DNL Adobe Experience Manager]
 description: Learn how to find the required assets in [!DNL Adobe Experience Manager] by using Filters panel, and how to use the assets that show up in search.
-contentOwner: AG
 mini-toc-levels: 1
 feature: Search, Metadata
 role: User
@@ -14,7 +13,7 @@ exl-id: 3511e07b-f6d0-435a-aa80-55357d3dccf5
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/search-assets.html?lang=en)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS    | This article         |
 
 [!DNL Adobe Experience Manager Assets] provides robust asset discovery methods that help you achieve higher content velocity. Your teams can reduce time to market with seamless, intelligent search experience using out-of-the-box functionality and custom methods. Searching assets is central to the usage of a digital asset management system -- be it for further use by creatives, for robust management of assets by the business users and marketers, or for administration by DAM administrators. Simple, advanced, and custom searches that you can perform via [!DNL Assets] user interface or other apps and surfaces help fulfill these use cases.
 
@@ -381,7 +380,7 @@ To improve the speed of discovery, [!DNL Experience Manager Assets] offers searc
 
 You can configure [!DNL Experience Manager] to extract the text from the assets when users upload assets, such as PSD or PDF files. [!DNL Experience Manager] indexes the extracted text and helps users search these assets based on the extracted text. See [upload assets](/help/assets/manage-assets.md#uploading-assets).
 
-If text extraction becomes too resource-intensive for your deployment, consider [disabling text extraction](https://helpx.adobe.com/experience-manager/kb/Disable-binary-text-extraction-to-optimize-Lucene-indexing-AEM.html).
+If text extraction becomes too resource-intensive for your deployment, consider disabling text extraction.
 
 ### Custom predicates to filter search results {#custompredicates}
 
@@ -487,5 +486,4 @@ Relate and unrelate assets that display in the search results. Select the assets
 >[!MORELIKETHIS]
 >
 >* [[!DNL Experience Manager] search implementation guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/search-tutorial-develop.html)
->* [Advanced configuration to boost search results](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html)
->* [Configure smart translation search](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/translation/smart-translation-search-technical-video-setup.html)
+>* [Advanced configuration to boost search results](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/search-and-discovery/search-boost)
