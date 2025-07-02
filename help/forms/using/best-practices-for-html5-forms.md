@@ -1,11 +1,6 @@
 ---
 title: Best practices for HTML5 forms
 description: Tune your XFA-based HTML5 Forms for best performance.
-contentOwner: khsingh
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: hTML5_forms
-content-type: reference
-docset: aem65
 feature: HTML5 Forms,Mobile Forms
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
@@ -70,7 +65,6 @@ Adobe Experience Manager (AEM) forms can help you transform complex transactions
 * [Best practices for Administering AEM](/help/sites-administering/administer-best-practices.md)
 * [Best practices for Developing solutions](/help/sites-developing/best-practices.md)
 * [Best practices for working with adaptive forms](/help/forms/using/adaptive-forms-best-practices.md)
-* [AEM Forms server does not embed fonts to a Dynamic PDF form](https://helpx.adobe.com/aem-forms/kb/aem-forms-server-does-not-embed-fonts-to-dynamic-pdf-form.html)
 
 ## Quick reference card {#quick-reference-card}
 
