@@ -28,8 +28,6 @@ You can deploy rule sets in Dynamic Media to transform URLs. Rule sets are sets 
 
 * Request certain characters to be encoded such as `$`, `{`, and `}`, and certain characters to be decoded toward ImageServer. For example, Facebook does not work well with URLs containing special characters.
 
-  See [Remove special characters from URLs](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/remove-special-characters-urls.html).
-
 In the context of Dynamic Media, websites that use an XML-based system to manage asset information can upload XML files to Dynamic Media. You can designate one of these files as the pre-processing rule set file for serving Dynamic Media asset. This file restructures the standard URL protocol format to meet the business logic of systems being integrated with Dynamic Media. You specify an XML file to serve as the rule set definitions file path.
 
 >[!CAUTION]
@@ -40,7 +38,6 @@ There are sample rulesets available that can help you create your own ruleset.
 See [Rule set reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/rule-set-reference/c-rule-set-reference.html).
 
 As with all rule set creation, ensure that your XML file is valid before you upload it by using an XML validator program such as xmlvalid.
-See also [Troubleshoot rule sets](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/scene7-ruleset-troubleshooting.html).
 
 Also, make sure you first test your rule set in a staging environment that does not impact your live production environment.
 Production environments and staging environments typically require different logins.
@@ -50,8 +47,6 @@ See the [Adobe Dynamic Media Classic desktop application for sign-in information
 <!-- OBSOLETE INFORMATION * **NA staging environment** login page: [https://s7sps1-staging.scene7.com/IpsWeb/](https://s7sps1-staging.scene7.com/IpsWeb/)
 * **EMEA staging environment** login page: [https://s7sps3-staging.scene7.com/IpsWeb/](https://s7sps3-staging.scene7.com/IpsWeb/)
 * **JAPAC staging environment** login page: [https://s7sps5-staging.scene7.com/IpsWeb/](https://s7sps5-staging.scene7.com/IpsWeb/) -->
-
-See also [Use 'asset' instead of 'is' image in a rule set](https://helpx.adobe.com/experience-manager/scene7/kb/base/scene7-rulesets/ruleset-asset-instead-image.html).
 
 **To deploy XML rule sets:**
 
