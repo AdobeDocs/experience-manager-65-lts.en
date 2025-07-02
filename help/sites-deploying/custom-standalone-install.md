@@ -48,6 +48,10 @@ Below is a sample of how the additional JVM parameters should look like when sta
 -XX:+UseG1GC --add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=org.apache.sling.commons.threads -Djdk.util.zip.disableZip64ExtraFieldValidation=true
 ```
 
+```shell
+-add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED
+```
+
 ## Run Modes {#run-modes}
 
 **Run modes** let you tune your AEM instance for a specific purpose; for example, author or publish, test, development, intranet, and so on. These modes also let you control the use of sample content. This sample content is defined before the quickstart is built and can include packages, configurations, and so on. This can be particularly useful for production-ready installations when you want to keep your installation lean and without sample content. For more information see:
