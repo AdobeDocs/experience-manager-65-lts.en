@@ -2,9 +2,6 @@
 title: Recovering the AEM forms data
 description: This document describes the steps required to recover the AEM forms data.
 contentOwner: admin
-content-type: reference
-geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -92,7 +89,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 
     * **Standalone**
 
-      *Restore author and publish instances*: If a disaster occurs, you can restore the repository to the last backed up state by performing the steps described in [Backup and Restore.](https://helpx.adobe.com/experience-manager/kb/CRXBackupAndRestoreProcedure.html)
+      *Restore author and publish instances*: If a disaster occurs, you can restore the repository to the last backed up state by performing the steps described in [Backup and Restore](/help/sites-administering/backup-and-restore.md).
 
       The complete restoration of Author node ascertains the restoration of Forms Manager and AEM Forms Workspace data as well.
 
