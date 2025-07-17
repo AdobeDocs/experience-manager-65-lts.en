@@ -31,7 +31,3 @@ To ensure a smooth transition, it is recommended to:
 * Use the [AEM Analyzer tool](/help/sites-deploying/aem-analyzer.md) to assess the complexity of the upgrade. 
 * Plan and allocate sufficient time and resources for the upgrade process. 
 * Engage with Adobe support and enablement sessions for guidance and assistance.
-
-## Is user-sync supported in AEM 6.5 LTS?
-
-Yes, user-sync is supported in AEM 6.5 LTS.
