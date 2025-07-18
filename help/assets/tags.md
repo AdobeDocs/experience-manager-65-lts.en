@@ -2,11 +2,6 @@
 title: Integrate Dynamic Media Viewers with Adobe Analytics and Experience Platform Tags
 description: Learn about the Dynamic Media Viewers extension for Experience Platform Tags and Dynamic Media Viewers 5.13. It lets customers of Adobe Analytics and Experience Platform Tags to use events and data specific for Dynamic Media Viewers in their Experience Platform Tags configuration.
 mini-toc-levels: 3
-contentOwner: Rick Brough
-topic-tags: dynamic-media
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-content-type: reference
-docset: aem65
 feature: Viewers
 role: User, Admin,Developer,Data Engineer,Data Architect
 solution: Experience Manager, Experience Manager Assets
@@ -502,7 +497,7 @@ After you configure Experience Platform Tags, the following is set up for the in
 
 1. Start by accessing Experience Platform Tags from the Experience Cloud [home page](https://experience.adobe.com/#/home). On the menu bar, select the **[!UICONTROL Solutions]** icon (three by three table of dots) near the upper-right corner of the page, then select **[!UICONTROL Tags]**.
 
-   You can also [open Experience Platform Tags directly](https://launch.adobe.com/).
+   You can also [open Experience Platform Tags directly](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home).
 
    ![image2019-7-8_15-38-44](assets/image2019-7-8_15-38-44.png)
 

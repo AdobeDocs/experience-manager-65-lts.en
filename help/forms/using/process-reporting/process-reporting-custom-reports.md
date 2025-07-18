@@ -1,10 +1,6 @@
 ---
 title: Custom Reports in Process Reporting
 description: You can create custom reports and add these reports to the AEM Forms on JEE Process Reporting UI.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: process-reporting
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
@@ -21,8 +17,8 @@ You can use REST interface of QueryBuilder or create an OSGi service using Query
 
 Before adding any custom report, perform the following template procedure:
 
-1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use **[Sync](https://helpx.adobe.com/livecycle/help/process-reporting/install-start-process-reporting.html#Process%20Reporting%20Home%20screen)** option on the Process Reporting UI.
-1. The URL request (encapsulating the desired query) must return an appropriate query result object. To create a query, you can use REST interface of [QueryBuilder](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/search/query-builder-api.html?lang=en) to create an OSGi service using QueryBuilder API. You can create dynamic or static queries.
+1. Data used in custom reports must be available in Process Reporting. To ensure the availability of data, schedule a cron job or use **Sync** option on the Process Reporting UI.
+1. The URL request (encapsulating the desired query) must return an appropriate query result object. To create a query, you can use REST interface of [QueryBuilder](/help/sites-developing/querybuilder-api.md) to create an OSGi service using QueryBuilder API. You can create dynamic or static queries.
 
 1. Create a custom user interface to display the results. You can create a stand-alone user interface or integrate result with existing Process Reporting UI.
 

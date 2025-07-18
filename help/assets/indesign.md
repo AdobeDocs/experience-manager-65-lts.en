@@ -1,7 +1,6 @@
 ---
 title: Integrate [!DNL Assets] with [!DNL InDesign Server]
 description: Learn how to integrate [!DNL Adobe Experience Manager Assets] with [!DNL Adobe InDesign Server].
-contentOwner: AG
 role: Admin
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
@@ -15,11 +14,11 @@ exl-id: f0db5ec6-45ea-418e-ae5f-e6e307a40a38
 * A proxy worker to define and manage a specific task.
   These can cover a wide variety of tasks; for example, using an [!DNL InDesign Server] to process files.
 
-To fully upload files to [!DNL Experience Manager Assets] that you have created with [!DNL Adobe InDesign] a proxy is used. This uses a proxy worker to communicate with the [!DNL Adobe InDesign Server], where [scripts](https://www.adobe.com/devnet/indesign/documentation.html#idscripting) are run to extract metadata and generate various renditions for [!DNL Experience Manager Assets]. The proxy worker enables the two-way communication between the [!DNL InDesign Server] and the [!DNL Experience Manager] instances in a cloud configuration.
+To fully upload files to [!DNL Experience Manager Assets] that you have created with [!DNL Adobe InDesign] a proxy is used. This uses a proxy worker to communicate with the [!DNL Adobe InDesign Server], where [scripts](https://helpx.adobe.com/indesign/using/scripting.html) are run to extract metadata and generate various renditions for [!DNL Experience Manager Assets]. The proxy worker enables the two-way communication between the [!DNL InDesign Server] and the [!DNL Experience Manager] instances in a cloud configuration.
 
 >[!NOTE]
 >
->[!DNL Adobe InDesign] is offered as two separate offerings. [Adobe InDesign](https://www.adobe.com/products/indesign.html) desktop app that is used to design page layouts for print and digital distribution. [Adobe InDesign Server](https://www.adobe.com/products/indesignserver.html) enables you to programmatically create automated documents based on what you have created with [!DNL InDesign]. It operates as a service offering an interface to its [ExtendScript](https://www.adobe.com/devnet/indesign/documentation.html#idscripting) engine.The scripts are written in [!DNL ExtendScript], which is similar to [!DNL JavaScript]. For information about [!DNL InDesign] scripts see [https://www.adobe.com/devnet/indesign/documentation.html#idscripting](https://www.adobe.com/devnet/indesign/documentation.html#idscripting).
+>[!DNL Adobe InDesign] is offered as two separate offerings. [Adobe InDesign](https://www.adobe.com/products/indesign.html) desktop app that is used to design page layouts for print and digital distribution. [Adobe InDesign Server](https://www.adobe.com/products/indesignserver.html) enables you to programmatically create automated documents based on what you have created with [!DNL InDesign]. It operates as a service offering an interface to its [ExtendScript](https://helpx.adobe.com/indesign/using/scripting.html) engine.The scripts are written in [!DNL ExtendScript], which is similar to [!DNL JavaScript].
 
 ## How the extraction works {#how-the-extraction-works}
 

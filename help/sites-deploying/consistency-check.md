@@ -7,9 +7,6 @@ content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 6ed130d5-30b5-4864-8bea-dfe41bed5422
 ---
 # Consistency and Traversal Checks{#consistency-and-traversal-checks}

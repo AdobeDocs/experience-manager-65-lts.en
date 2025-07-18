@@ -21,7 +21,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ## Migration Prerequisites {#migration-prerequisites}
 
-* **Minimum Required Java version:** Make sure you have Oracle's Java&trade; 17 installed on your system.
+* **Minimum Required Java version:** Make sure you have Oracle's Java&trade; 17/21 installed on your system.
 
 ## Preparation of the AEM Quickstart jar file {#prep-quickstart-file}
 
@@ -41,7 +41,7 @@ Before executing your upgrade, there are several steps that must be completed. S
    java -Xmx4096m -jar aem-quickstart.jar -unpack
    ```
 
-1. The unpack command will generate a new `sling.properties` file under the `crx-quickstart/conf/` folder. You can now apply your custom changes to newly generated `sling.properties` file.
+1. If custom sling.properties need to be applied, create a fresh local AEM instance and retrieve the sling.properties file from its crx-quickstart/conf directory. Apply the required custom changes to this file, then copy it to the crx-quickstart/conf directory of the AEM instance being upgraded. If there are no custom properties, this step can be skipped.
 
 <!-- Alexandru: drafting temporarily
 
@@ -174,7 +174,7 @@ Now, start the AEM instance using the new command determined using the informati
 
 >[!NOTE]
 >
->Support for some of Java 8/11 arguments have been removed in Java 17, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
+>Support for some of Java 8/11 arguments have been removed in Java 17/21, see [Oracle Java&trade; 17 documents](https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html), [Oracle Java&trade; 21 documents](https://docs.oracle.com/en/java/javase/21/docs/specs/man/java.html) and [Java&trade arguments considerations for AEM 6.5 LTS](/help/sites-deploying/custom-standalone-install.md#java-17-considerations-java-considerations).
 
 To execute the upgrade, it is important to start AEM using the jar file to bring up the instance.
 

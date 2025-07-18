@@ -418,11 +418,11 @@ For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/form
    >
    >Every time you make any changes at the server side, restart the LiveCycle Server. 
 
-   The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://www.adobe.io/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
+   The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
 
 #### Import DSC to LiveCyle {#import-dsc-to-livecyle}
 
-DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that DSC gives as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://www.adobe.io/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
+DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that DSC gives as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
 
 1. Start Workbench and log in.
 1. Select **Window &gt; Show Views &gt; Components**. The Components view gets added to Workbench ES2.

@@ -83,7 +83,7 @@ Create or edit a file type setting to specify how the application handles the co
 
 1. After you complete all the sections, click **[!UICONTROL Save]** or **[!UICONTROL Save As]** and provide a name for the setting.
 
-Support for various file types can be customized. (See " [Adding Support for Additional Native File Formats](https://help.adobe.com/en_US/AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7756.2.html)" in [Programming with AEM forms](https://www.adobe.com/go/learn_lc_programming_11).)
+Support for various file types can be customized.
 
 ## Change the default settings {#change-the-default-settings}
 

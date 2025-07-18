@@ -8,9 +8,6 @@ topic-tags: configuring
 solution: Experience Manager, Experience Manager Sites
 feature: Configuring
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 49225f9f-d09e-4ab6-9e29-b47ba41e8889
 ---
 # Assets Performance Guide{#assets-performance-guide}
@@ -102,7 +99,3 @@ The following performance tweaks have been used in projects so far:
 
 * Selective rendition generation: only generate the renditions that you need by adding conditions to the asset processing workflow, so that more costly renditions are only generated for select assets.
 * Shared data store among instances: when running low on disk space this can considerably reduce the amount of disk space needed at the cost of higher configuration efforts and losing the auto-cleanup of the datastore.
-
-## Further Reading {#further-reading}
-
-* [Analyzing Slow and Blocked Processes](https://helpx.adobe.com/experience-manager/kb/AnalyzeSlowAndBlockedProcesses.html)

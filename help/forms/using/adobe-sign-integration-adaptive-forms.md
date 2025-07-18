@@ -1,10 +1,6 @@
 ---
 title: Integrate Adobe Sign with AEM Forms
 description: Learn to configure Adobe Sign for your AEM Adaptive Forms. Adobe Sign improves workflow and process the documents for legal, sales, payroll, human resource management, and many more areas.
-contentOwner: sashanka
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: develop
-docset: aem65
 feature: Adaptive Forms,Foundation Components,Acrobat Sign
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
@@ -34,9 +30,9 @@ To connect **[!DNL AEM Forms]** with **[!DNL Adobe Acrobat Sign]**, set up the s
 
 You require the following to integrate [!DNL Adobe Sign] with AEM [!DNL Forms]:
 
-* An active [Adobe Sign developer account.](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html)
+* An active [Adobe Sign developer account.](https://www.adobe.com/acrobat/business/developer-form.html)
 * An [SSL enabled](/help/sites-administering/ssl-by-default.md) AEM [!DNL Forms] server.
-* An [Adobe Sign API application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
+* An [Adobe Sign API application](https://opensource.adobe.com/acrobat-sign/developer_guide/index.html#!adobedocs/adobe-sign/master/gstarted/create_app.md).
 * Credentials (Client ID and Client Secret) of [!DNL Adobe Sign] API application.
 * When reconfiguring, remove the existing [!DNL Adobe Sign] configuration from both author and publish instances.
 * Use [identical crypto key](/help/sites-administering/security-checklist.md#make-sure-you-properly-replicate-encryption-keys-when-needed) for author and publish instances.
@@ -106,7 +102,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
     * widget_write
     * workflow_read
 
-   For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
+   For step-by-step information to configure OAuth settings for an [!DNL Adobe Sign] application and obtain the keys, see [Configure oAuth settings for the application](https://developer.adobe.com/apis/documentcloud/sign/docs.html#!adobedocs/adobe-sign/master/gstarted/configure_oauth.md) developer documentation.
 
    ![OAuth Config](assets/oauthconfig_new.png)
 
@@ -141,7 +137,7 @@ After prerequisites are in place, perform the following steps to configure [!DNL
 1. Open **[!UICONTROL Forms Common Configuration Service].**
 1. In the **[!UICONTROL Allow]** field, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **[!UICONTROL Save].** Author instance is configured to use [!DNL Adobe Sign].
 1. Publish the configuration. 
-1. Use [replication](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/replication.html) to create identical configuration on corresponding publish instances. 
+1. Use [replication](/help/sites-deploying/replication.md) to create identical configuration on corresponding publish instances. 
 
 Now, [!DNL Adobe Sign] is integrated with AEM [!DNL Forms] and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](../../forms/using/working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
 
@@ -256,7 +252,7 @@ The representative generates and shares credentials with you. In the next sectio
 1. In the **[!UICONTROL Allow]** field, **select** All users - All the users, anonymous or logged in, can preview attachments, verify and sign forms, and click **[!UICONTROL Save].** Author instance is configured to use [!DNL Adobe Sign].
 
 1. Publish the configuration. 
-1. Use [replication](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/configuring/replication.html) to create identical configuration on corresponding publish instances. 
+1. Use [replication](/help/sites-deploying/replication.md) to create identical configuration on corresponding publish instances. 
 
 Now, you can [use add Adobe Acrobat Sign fields in an Adaptive Form](working-with-adobe-sign.md) or [AEM Workflow](/help/forms/using/aem-forms-workflow-step-reference.md#sign-document-step-sign-document-step). Ensure that you add the configuration container used for the Cloud Service configuration to all the Adaptive Forms being enabled for [!DNL Adobe Acrobat Sign]. You can specify a configuration container from the properties of an Adaptive Form.
 

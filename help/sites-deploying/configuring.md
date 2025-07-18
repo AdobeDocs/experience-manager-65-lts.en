@@ -1,16 +1,9 @@
 ---
 title: Basic Configuration Concepts
 description: Learn how to configure Adobe Experience Manager for your own specific requirements.
-contentOwner: msm-service
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: configuring
-content-type: reference
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 338ea82e-c248-4118-9d42-e268d6396e65
 ---
 # Basic Configuration Concepts{#basic-configuration-concepts}
@@ -181,7 +174,7 @@ See [Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-disp
 
 ### Configuring AEM LiveCycle Connector {#configuring-aem-livecycle-connector}
 
-With the release of the AEM Doc Services and AEM Doc Security, AEM now has the capability to invoke the LiveCycle doc services to render an XFA form, convert a document to PDF and policy protect a document. See [AEM LiveCycle Connector](https://helpx.adobe.com/livecycle/help/aem/aem-livecycle-connector.html) for more details.
+With the release of the AEM Doc Services and AEM Doc Security, AEM now has the capability to invoke the LiveCycle doc services to render an XFA form, convert a document to PDF and policy protect a document.
 
 ### Job Offloading and Topology Administration {#job-offloading-and-topology-administration}
 

@@ -1271,6 +1271,7 @@ user-guide-title: AEM 6.5 LTS
         + [Introduction](/help/sites-developing/universal-editor/introduction.md)
     + Hybrid and SPA AEM Development {#spas}
       + [Hybrid and SPA with AEM](https://business.adobe.com/content/dam/dx/us/en/products/experience-manager/sites/headless-content-management-system/pdfs/aem-hybrid-architecture-wp-1-18-19.pdf)
+      + [SPA Editor Deprecation](/help/sites-developing/spa-editor-deprecation.md)
       + [SPA Introduction and Walkthrough](/help/sites-developing/spa-walkthrough.md)
       + [SPA WKND Tutorial](/help/sites-developing/spa-wknd.md)
       + [Getting Started using React](/help/sites-developing/spa-getting-started-react.md)
@@ -1414,7 +1415,6 @@ user-guide-title: AEM 6.5 LTS
         + [Run Modes](/help/sites-deploying/configure-runmodes.md)
         + [Web Console](/help/sites-deploying/web-console.md)
         + [Replication](/help/sites-deploying/replication.md)
-        + [Replicating Using Mutual SSL](/help/sites-deploying/mssl-replication.md)
         + [Troubleshooting Replication](/help/sites-deploying/troubleshoot-rep.md)
         + [Expiration of Static Objects](/help/sites-deploying/expiration-static-objects.md)
         + [Version Purging](/help/sites-deploying/version-purging.md)
@@ -1451,7 +1451,6 @@ user-guide-title: AEM 6.5 LTS
        + [Performance Tree](/help/sites-deploying/performance-tree.md)
        + [Best Practices for Performance Testing](/help/sites-deploying/best-practices-for-performance-testing.md)
        + [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md)
-       + [User Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md)
        + [Performance & Scalability](/help/sites-deploying/performance.md)
   + Fluid Experiences {#fluid-experiences}
      + [Feature List](/help/fluid-experiences/feature-list.md)

@@ -9,9 +9,6 @@ legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 432fc767-a6b8-48f8-b124-b13baca51fe8
 ---
 # Oak Queries and Indexing{#oak-queries-and-indexing}
@@ -208,6 +205,10 @@ The only document found that contains both terms is 200, as in the example below
 | --- | --- | --- |
 
 When multiple entries are found, they are then sorted by score.
+
+>[!NOTE]
+>
+>The search mechanism described in this section uses Lucene indexing, not partial matching like the Linux `grep` command.
 
 ### The Lucene Property Index {#the-lucene-property-index}
 

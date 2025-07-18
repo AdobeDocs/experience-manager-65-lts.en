@@ -13,7 +13,7 @@ exl-id: cb6528fd-6761-412d-8413-c72049acf91d
 
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
 
-After a [letter template is created in Correspondence Management](../../forms/using/create-letter.md), the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.
+After a [letter template is created in Correspondence Management](/help/forms/using/create-letter.md), the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.
 
 ### Preview a correspondence {#preview-a-correspondence}
 
@@ -45,13 +45,13 @@ Select the letter to preview using the following steps:
 
 1. The letter HTML preview (mobile forms preview) opens with the Data tab in focus by default.
 
-   For more information on mobile forms and the features they support, see [Feature differentiation between Mobile Forms and PDF Forms](https://helpx.adobe.com/livecycle/help/mobile-forms/feature-differentiation-mobile-forms-pdf.html).
+   For more information on mobile forms and the features they support, see [Feature differentiation between Mobile Forms and PDF Forms](/help/forms/using/feature-differentiation-html5-forms-pdf-forms.md).
 
    There are three tabs: data, content, and attachments. If there are no data elements (placeholder variables and layout fields) then the letter directly opens in with the Content tab displayed. Attachments tab is available only when attachments are present or library access is enabled.
 
    >[!NOTE]
    >
-   >For more information on switching between HTML or PDF rendition mode of letter preview, see [Change rendition mode of letter](#changerenditionmode). For more information on PDF support in Correspondence Management and AEM, see [Discontinuation of NPAPI browser plug-ins and its impact](https://helpx.adobe.com/acrobat/kb/change-in-support-for-acrobat-and-reader-plug-ins-in-modern-web-.html). <!-- and [PDF Forms to HTML5 Forms](https://helpx.adobe.com/aem-forms/kb/pdf-forms-to-html5-forms.html). THIS URL IS A 404 AND NO SUITABLE REPLACEMENT TOPIC WAS FOUND. CONSIDER DELETING OR ADDING NEW LINK. COMMENTING OUT SO USERS DON'T CLICK IT. -->
+   >For more information on switching between HTML or PDF rendition mode of letter preview, see [Change rendition mode of letter](#changerenditionmode). For more information on PDF support in Correspondence Management and AEM, see [Discontinuation of NPAPI browser plug-ins and its impact](https://helpx.adobe.com/acrobat/kb/change-in-support-for-acrobat-and-reader-plug-ins-in-modern-web-.html).
 
 ### Enter data {#enterdata}
 
@@ -105,17 +105,13 @@ In the content tab, manage the content such as document fragments and content va
 
    >[!NOTE]
    >
-   >The formatting of pasted text, however, has some [limitations](https://helpx.adobe.com/aem-forms/kb/cm-copy-paste-text-limitations.html).
+   >The formatting of pasted text, however, has some limitations.
 
    You can indent the text and numbers in your letter using the Tab key. For example, you can use the Tab key to align multiple columns of text in a list into a tabular format.
 
    ![tabspaces](assets/tabspaces.png)
 
    Example: Using the Tab key to align multiple columns of text into a tabular format
-
-   >[!NOTE]
-   >
-   >For more information on setting up tab spacing for your text modules and letters, see [More information on using tab spacing for arranging text](https://helpx.adobe.com/aem-forms/kb/cm-tab-spacing-limitations.html).
 
 1. If necessary, insert special characters in the correspondence. For example, you can use the Special Characters palette to insert:
 

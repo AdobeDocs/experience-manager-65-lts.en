@@ -1,11 +1,6 @@
 ---
 title: Adobe Experience Manager Components - The Basics
 description: When you start to develop new components, you need to understand the basics of their structure and configuration.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: components
-content-type: reference
-legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
@@ -45,8 +40,6 @@ Before any serious discussion starts about developing components, you must know 
   [The standard user interface](/help/sites-developing/touch-ui-concepts.md) is based on the unified user experience for the Adobe Experience Cloud, using the underlying technologies of [Coral UI](/help/sites-developing/touch-ui-concepts.md#coral-ui) and [Granite UI](/help/sites-developing/touch-ui-concepts.md#granite-ui).
 * **Classic UI**
   User interface based on ExtJS technology that was deprecated with AEM 6.4.
-
-See [UI Interface Recommendations for Customers](/help/sites-deploying/ui-recommendations.md) for more details.
 
 Components can be implemented to support the touch-enabled UI, the classic UI or both. When looking at a standard instance you will also see out-of-the-box components that were originally designed for the classic UI, or the touch-enabled UI, or both.
 
@@ -308,7 +301,7 @@ A component is a node of type `cq:Component` and has the following properties an
   <tr>
    <td><code>cq:cellName</code></td>
    <td><code>String</code></td>
-   <td>If set, this property is taken as Cell ID. For more information, see the Knowledge Base article <a href="https://helpx.adobe.com/experience-manager/kb/DesigneCellId.html">How are Design Cell IDs built</a>.<br /> </td>
+   <td>If set, this property is taken as Cell ID.<br /> </td>
   </tr>
   <tr>
    <td><code>cq:childEditConfig</code></td>

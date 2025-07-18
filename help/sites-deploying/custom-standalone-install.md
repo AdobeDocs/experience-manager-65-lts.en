@@ -38,11 +38,11 @@ There are various rules to be followed when renaming the quickstart jar file:
 >
 >You can also change the port number by using the `-port` option in the start command.
 
-### Java 17 Considerations {#java-considerations}
+### Java 17/Java 21 Considerations {#java-considerations}
 
-If you are running Oracle Java 17, additional switches must be added to your command line when starting AEM.
+If you are running Oracle Java 17 or Java 21, additional switches must be added to your command line when starting AEM.
 
-Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 17:
+Below is a sample of how the additional JVM parameters should look like when starting AEM on Java 17/Java 21:
 
 ```shell
 -XX:+UseG1GC --add-opens=java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.jrt=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xerces.internal.dom=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/jdk.internal.loader=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=org.apache.sling.commons.threads -Djdk.util.zip.disableZip64ExtraFieldValidation=true
@@ -67,10 +67,6 @@ This is especially interesting for several use cases:
 * During development, it might be easier to put something into the file system.
 * If something goes wrong, the web console and the repository are not reachable. With this you can put additional bundles into this directory and they should get installed.
 * The `crx-quickstart/install` folder can be created before quickstart is started, and additional packages can be put there.
-
->[!NOTE]
->
->See also [How to install CRX packages automatically on server startup](https://helpx.adobe.com/experience-manager/kb/HowToInstallPackagesUsingRepositoryInstall.html) for examples.
 
 ## Installing and Starting Adobe Experience Manager as a Windows Service {#installing-and-starting-adobe-experience-manager-as-a-windows-service}
 
@@ -314,6 +310,10 @@ Although there are many possibilities to configure AEM WCM, certain actions shou
 
 * Consult the [Security Checklist](/help/sites-administering/security-checklist.md) for tasks required to ensure that your system remains secure.
 * Review the list of default users and groups which are installed with AEM WCM. Check whether you want to take action on any other accounts - see [Security and User Administration](/help/sites-administering/security.md) for further details.
+
+>[!NOTE]
+>
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, refer [this](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
 
 ## Accessing CRXDE Lite and the Web Console {#accessing-crxde-lite-and-the-web-console}
 

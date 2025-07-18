@@ -33,7 +33,7 @@ These can be used in many ways to extend your AEM consoles. A small selection ar
 >
 >* Using and creating [clientlibs](/help/sites-developing/clientlibs.md).
 >* Using and creating [overlays](/help/sites-developing/overlays.md).
->* [Granite](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/granite-ui/api/index.html)
+>* [Granite](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/index.html)
 >
 
 
@@ -58,7 +58,7 @@ For example, the following location within the `/libs` structure can be overlaid
 
 >[!NOTE]
 >
->See the Knowledge Base article, [Troubleshooting AEM TouchUI issues](https://helpx.adobe.com/experience-manager/kb/troubleshooting-aem-touchui-issues.html), for further tips and tools.
+>See the Knowledge Base article, [Troubleshooting AEM TouchUI issues](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-16935), for further tips and tools.
 
 ## Customizing the Default View for a Console {#customizing-the-default-view-for-a-console}
 
@@ -144,7 +144,7 @@ To customize the columns in the list view:
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a [PageInforProvider](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.html) with a
+    * If you want to plug additional data, you need to write a [PageInforProvider](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/api/PageInfoProvider.html) with a
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

@@ -1,7 +1,6 @@
 ---
 title: Supported file formats and MIME types
 description: File formats and MIME types supported by [!DNL Assets] and [!DNL Dynamic Media] and the features supported for each format.
-contentOwner: AG
 mini-toc-levels: 1
 role: User, Admin
 feature: Asset Management,Renditions
@@ -295,8 +294,6 @@ In addition to the above functionality, consider the following:
 ## Dynamic Media - Unsupported raster image formats {#unsupported-image-formats-dynamic-media}
 
 The following list describes the subtypes of raster image file formats that are *not* supported in Dynamic Media.
-
-See also [Detect unsupported file formats for Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html) Knowledge Base article.
 
 * PNG files that have an IDAT chunk size greater than 100 MB.
 * PSB files.

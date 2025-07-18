@@ -8,9 +8,6 @@ topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Administering
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 81306cad-b968-4bdd-973c-50cbcdd2cee7
 ---
 # Performance & Scalability{#performance-scalability}

@@ -9,9 +9,6 @@ docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: af957cd7-ad3d-46f2-9ca5-e175538104f1
 ---
 # Adobe Experience Manager with MongoDB{#aem-with-mongodb}
@@ -653,7 +650,7 @@ CSP allows for fine-tuning of policies. However, in a complex application, CSP h
 
 >[!NOTE]
 >
->For more information on how this work, see the [OWASP Page on Content Security Policy](https://owasp.deteact.com/cheat/cheatsheets/Content_Security_Policy_Cheat_Sheet.html).
+>For more information on how this work, see the [OWASP Page on Content Security Policy](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html).
 
 ### Sizing {#sizing}
 

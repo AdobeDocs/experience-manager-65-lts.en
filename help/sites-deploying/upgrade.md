@@ -45,6 +45,6 @@ For easier reference to the AEM instances involved in these procedures, the foll
 
 ### Updates {#updates}
 
-Foundation layer now supports Java 17, incorporating latest open-source bundles from Apache Sling, Felix, and Jackrabbit Oak. Additionally, the packaging of the AEM 6.5 LTS uber-jar has changed. Additionally, a few legacy features have been removed from AEM 6.5 LTS. For more information, refer to [Release notes](/help/release-notes/release-notes.md#whats-new-what-s-new) and [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md)
+Foundation layer now supports Java 17 and Java 21, incorporating latest open-source bundles from Apache Sling, Felix, and Jackrabbit Oak. Additionally, the packaging of the AEM 6.5 LTS uber-jar has changed. Additionally, a few legacy features have been removed from AEM 6.5 LTS. For more information, refer to [Release notes](/help/release-notes/release-notes.md#whats-new-what-s-new) and [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md)
 
 AEM 6.5 LTS has a strong focus on backward compatibility of features and comes with an analyzer tool. See [Assessing the Upgrade Complexity with the AEM Analyzer](/help/sites-deploying/aem-analyzer.md) for assessment of complexity as you start [planning for the upgrade](/help/sites-deploying/upgrade-planning.md).

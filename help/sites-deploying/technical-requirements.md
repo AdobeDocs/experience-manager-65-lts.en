@@ -85,10 +85,12 @@ Adobe Experience Manager operates with the following versions of the Java&trade;
 | **Platform** | **Support Level** | **Link** |
 |---|---|---|
 | Oracle Java&trade; SE 17 JDK | A: Supported `[1]` |
+| Oracle Java&trade; SE 21 JDK | A: Supported `[1]` |
 | IBM&reg; Semeru J9 VM – build 17.0.13.0 | A: Supported `[2]` |
+| IBM&reg; Semeru J9 VM – build 21.0.6.0 | A: Supported `[2]` |
 
 1. Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java&trade; SE products. Java&trade; 9, Java&trade; 10, Java&trade; 12, Java&trade; 13, Java&trade; 14, Java&trade; 15m Java&trade; 16 are non-LTS releases by Oracle (see [Oracle Java&trade; SE support roadmap](https://www.oracle.com/technetwork/java/eol-135779.html)). To deploy AEM in a production environment, Adobe provides support only for the LTS releases of Java&trade;. Support and distribution of the Oracle Java&trade; SE JDK, including all maintenance updates of LTS releases beyond the end of the public updates, is supported by Adobe directly for all AEM customers that use the Oracle Java&trade; SE technology. See the [Java&trade; support policy for Adobe Experience Manager](assets/Java_Policy_for_Adobe_Experience_Manager.pdf). 
-**This release supports Oracle Java&trade; 17.**
+**This release supports Oracle Java&trade; 17 and Oracle Java&trade; 21.**
 
 1. The IBM&reg; JRE is only supported along with WebSphere&reg; Application Server.
 
@@ -133,8 +135,8 @@ The minimum Servlet API Version required is Servlet 3.1. In addition, AEM suppor
 | Platform |Support Level |
 |---|---|
 | **Quickstart built-in Servlet Engine (Jetty 11.0.x)** |A: Supported |
-| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17 |R: Restricted Support for new contracts `[1]` |
-| Apache Tomcat 11.0.x |R: Restricted Support for new contracts `[1]` |
+| IBM&reg; WebSphere&reg; Application Server Continuous Delivery (LibertyProfile) with Web Profile 24.0.0.7 and IBM&reg; Sumeru open JRE&reg; 17/21 |R: Restricted Support for new contracts `[1]` |
+| Apache Tomcat 10.0.x/10.1.x |R: Restricted Support for new contracts `[1]` |
 
 1. Starting AEM 6.5 deployments on application servers moves to Restricted Support. Existing customers can upgrade to AEM 6.5 and keep using application servers. For new customers, it comes with support criteria and a support program as stated in the Level-R description above.
 
@@ -147,13 +149,14 @@ Adobe Experience Manager works with the following server platforms for productio
 | **Linux&reg;, based on the Red Hat&reg; distribution** |A: Supported `[1]` `[2]` |
 | Linux&reg;, based on Debian distribution incl. Ubuntu |A: Supported `[1]` |
 | Linux&reg;, based on SUSE&reg; distribution |A: Supported `[1]`|
+| Microsoft&reg; Windows Server 2022 |R: Supported|
 
 1. Linux&reg; Kernel 5. x and 6. x includes derivatives from Red Hat&reg; distribution, including Red Hat&reg; Enterprise Linux&reg;, CentOS, Oracle Linux&reg;, and Amazon Linux&reg;. 
 1. Linux&reg; distribution supported by Adobe Managed Services.
 
     >[!NOTE]
     >
-    >For Linux based server (OSGI and JEE stack), AEM Forms add-on require runtime dependencies such as:
+    >For Linux based server, AEM Forms add-on require runtime dependencies such as:
     >* glibc.x86_64 (2.17-196)
     >* libX11.x86_64 (1.6.7-4)
     >* zlib.x86-64 (1.2.7-17)
@@ -380,15 +383,7 @@ For Windows x86:
    <td>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</td>
   </tr>
   <tr>
-   <td><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2017 classic track</a> latest version (Deprecated)</td>
-   <td>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; Office 2019</td>
-   <td>DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, and TXT</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Office 2016 (Deprecated)</td>
    <td>DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, and TXT</td>
   </tr>
   <tr>
@@ -396,29 +391,13 @@ For Windows x86:
    <td>WP, WPD</td>
   </tr>
   <tr>
-   <td>Microsoft&reg; Office Visio 2016 (Deprecated)<br /> </td>
-   <td>VSD, VSDX</td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; Publisher 2019<br /> </td>
    <td>PUB</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Publisher 2016 (Deprecated)<br /> </td>
-   <td>PUB</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Project 2016 (Deprecated)<br /> </td>
-   <td>MPP</td>
   </tr>
   <tr>
    <td>OpenOffice 4.1.10</td>
    <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td>
   </tr>
-  <tr>
-   <td>OpenOffice 4.1.2 (Deprecated)</td>
-   <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td>
-  </tr>  
  </tbody>
 </table>
 
@@ -430,8 +409,8 @@ For Windows x86:
 >
 >* PDF Generator requires a 32-bit version of [Acrobat 2020 classic track version 20.004.30006](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html) or Acrobat 2017 version 17.011.30078 to perform the conversion.
 >* PDF Generator supports only the 32-bit Retail version of Microsoft&reg; Office Professional Plus and other software required for conversion.
->* The Microsoft® Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
->* If a Microsoft® Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
+>* The Microsoft&reg; Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
+>* If a Microsoft&reg; Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
 >* PDF Generator supports the 32-bit and 64-bit versions of OpenOffice on the Linux&reg; operating system.
 >* PDF Generator does not support Microsoft&reg; Office 365.
 >* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
@@ -455,7 +434,7 @@ For Windows x86:
 * Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC
 * Administrative privileges to install Designer
 * Microsoft Visual C++ 2019 (VC 14.28 or greater) 32-bit runtime for 32-bit AEM Forms Designer
-* Microsoft Visual C++ 2019 (VC 14.28 or greater) 64-bit runtime for 64-bit AEM Forms Designer (For both OSGI and JEE stack)
+* Microsoft Visual C++ 2019 (VC 14.28 or greater) 64-bit runtime for 64-bit AEM Forms Designer
 
 [Install and configure AEM Forms designer](/help/forms/using/installing-configuring-designer.md)
 
@@ -465,10 +444,9 @@ XMP write-back is supported and enabled for the following platforms and file for
 
 * **Operating Systems:**
 
-    * Linux&reg; (32-bit and 32-bit application support on 64-bit systems). For steps to install 32-bit client libraries, see [How to enable XMP extraction and write-back on 64-bit Red Hat&reg; Linux&reg;](https://helpx.adobe.com/experience-manager/kb/enable-xmp-write-back-64-bit-redhat.html).
-
-    * Windows Server
-    * macOS X (64-bit)
+  * Linux&reg; (32-bit and 32-bit application support on 64-bit systems).
+  * Windows Server
+  * macOS X (64-bit)
 
 * **File Formats**: JPEG, PNG, TIFF, PDF, INDD, AI, and EPS.
 

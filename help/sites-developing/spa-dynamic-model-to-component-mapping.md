@@ -9,7 +9,9 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: 051be106-bb15-46b2-8158-53817f68f57c
+index: no
 ---
+
 # Dynamic Model to Component Mapping for SPAs{#dynamic-model-to-component-mapping-for-spas}
 
 This document describes how the dynamic model to component mapping occurs in the JavaScript SPA SDK for Adobe Experience Manager (AEM).

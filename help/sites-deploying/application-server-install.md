@@ -22,7 +22,7 @@ This section tells you how to install Adobe Experience Manager (AEM) with an app
 The installation steps of the following Application Servers are described:
 
 * [WebSphere&reg; 24.0.0.7](#websphere)
-* [Tomcat 11.0.x](#tomcat)
+* [Tomcat 10.0.x/10.1.x](#tomcat)
 
 Consult the appropriate application server documentation for more information on installing web applications, server configurations and how to start and stop the server.
 
@@ -116,7 +116,7 @@ Before the deployment, please read the [General Description](#general-descriptio
 
 * Startthe AEM web application
 
-#### Tomcat 11.0.x {#tomcat}
+#### Tomcat 10.0.x/10.1.x {#tomcat}
 
 Before a deployment read the [General Description](#general-description) above.
 
