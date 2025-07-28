@@ -34,7 +34,9 @@ The above mentioned and later versions of Java, includes new XML processing limi
 1. Stop your Experience Manager Forms Server.
 1. Configure the following JVM argument for your application server:
 
-    `-Djdk.xml.xpathExprOpLimit=2000`
+    `-Djdk.xml.xpathExprGrpLimit=100` 
+    `-Djdk.xml.xpathExprOpLimit=10000`
+    `-Djdk.xml.xpathTotalOpLimit=10000`
 
     It sets the system property in JVM to a reasonably high value so that default limit is not hit.
 
