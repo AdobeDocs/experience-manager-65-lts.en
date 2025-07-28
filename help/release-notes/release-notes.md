@@ -124,18 +124,21 @@ A hotfix [cq-6.5.lts.0-hotfix-NPR-42640](https://experience.adobe.com/#/download
 
 ### Dispatcher Connection Failure with SSL-Only Feature {#ssl-only-feature}
 
-When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted.
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect via `https + IP` from the Dispatcher to AEM instances and is related to SNI (Server Name Indication) validation problems.
 
 **Impact:**
 
-* Health check failures with HTTP 500 response codes
+* Health check failures with HTTP 400 response codes
 * Broken traffic between Dispatcher and AEM instances
 * Content cannot be properly served through the Dispatcher
+* Connection failures when using HTTPS with IP addresses in Dispatcher configuration
+* HTTP 400 "Invalid SNI" errors when connecting via HTTPS + IP
 
 **Affected Environments:**
 
 * AEM deployments with Dispatcher configurations
 * Systems where the SSL-only feature has been enabled
+* Dispatcher configurations using `https + IP` connection method to AEM instances
 
 **Solution:**
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.

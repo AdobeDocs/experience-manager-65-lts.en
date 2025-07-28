@@ -1,9 +1,6 @@
 ---
 title: Texts in Interactive Communications
 description: Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.
-topic-tags: interactive-communications
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 feature: Interactive Communication
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
@@ -232,10 +229,6 @@ You can copy and paste one or more paragraphs of text in an editable text docume
 You can directly copy and paste the text from the Microsoft® Word document to an editable text document fragment. The formatting such as bulleted list, font, and text color is retained in the text document fragment.
 
 ![pastetexteditablemodule-1](assets/pastetexteditablemodule-1.png)
-
->[!NOTE]
->
->The formatting of pasted text, however, has some [limitations](https://helpx.adobe.com/aem-forms/kb/cm-copy-paste-text-limitations.html).
 
 ## Insert special characters in text {#special}
 

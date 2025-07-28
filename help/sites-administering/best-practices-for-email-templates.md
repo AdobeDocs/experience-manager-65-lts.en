@@ -10,7 +10,9 @@ solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
 exl-id: 34678cae-3c7f-4c9f-b7b6-c1dd4e0758ad
+index: no
 ---
+
 # Best Practices for Email Templates {#best-practices-for-email-templates}
 
 >[!CAUTION]

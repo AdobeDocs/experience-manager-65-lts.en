@@ -10,6 +10,7 @@ feature: Authoring,Personalization,Integration
 role: User,Admin,Architect,Developer
 exl-id: ce6ebfff-3a1d-4c9f-aa50-23d1c3afc852
 ---
+
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 
 To target your Adobe Campaign newsletter, you need to first set up segmentation, which is only available in the Classic UI (for client context). After that you can create targeted experiences for Adobe Campaign. Both are described in this section.
@@ -60,47 +61,3 @@ To create experiences for segments:
 1. Click **Edit**, then below Segments click **Add Item**.
 1. Enter the path to the male segment, for example, **/etc/segmentation/ac-segments/male** and click **OK**. The following message should appear: *Experience is targeted at: Male*
 1. Repeat the previous steps to create an experience for all segments, for example, the female target.
-
-## Creating a newsletter with targeted content {#creating-a-newsletter-with-targeted-content}
-
-After you have created segments, a brand, a campaign, and an experience, you can create a newsletter with targeted content. After creating the experience, you link experiences to your segments.
-
->[!NOTE]
->
->[Email samples are only available in Geometrixx](/help/sites-developing/we-retail.md). Download sample Geometrixx content from Package Share.
-
-To create a newsletter with targeted content:
-
-1. Create a newsletter with targeted content: Below Email Campaigns in Geometrixx Outdoors, click **Create** &gt; **Page**, and select one of the Adobe Campaign Mail templates.
-
-   ![chlimage_1-188](assets/chlimage_1-188.png)
-
-1. In the newsletter, add a Text and Personalization component.
-1. Add text into the Text and Personalization component, such as "This is the default."
-1. Click the arrow next to **Edit** and select **Targeting**.
-1. Select your brand from the Brand drop-down menu and select your Campaign. (This is the brand and campaign you created earlier).
-1. Click **Start Targeting**. You see your segments appear in the Audiences area. The default experience is used if none of the defined segments match.
-
-   >[!NOTE]
-   >
-   >By default, the email samples included with AEM use Adobe Campaign as the targeting engine. For custom newsletters, you may need to select Adobe Campaign as the targeting engine. When targeting, click + in the toolbar, enter a title for the new activity, and select **Adobe Campaign** as the targeting engine.
-
-1. Click **Default** and then the Text and Personalization component you added and you see the Bullseye with an arrow in it. Click the icon to target this component.
-
-   ![chlimage_1-189](assets/chlimage_1-189.png)
-
-1. Navigate to another segment (Male), and click **Add offer** and click the plus icon +. Then edit the offer.
-1. Navigate to another segment (Female) and click **Add offer** and the plus icon +. Then edit this offer.
-1. Click **Next** to see Mapping, then click **Next** to see Settings, which does not apply to Adobe Campaign, and click **Save**.
-
-   AEM automatically generates the correct targeting code for Adobe Campaign when the content is used in a delivery inside Adobe Campaign
-
-1. In Adobe Campaign, create your delivery - select **Email delivery with AEM content** and select the local AEM account, as appropriate and confirm your changes.
-
-   In the HTML view, the different experiences of targeted components are enclosed in Adobe Campaign targeting code.
-
-   ![chlimage_1-190](assets/chlimage_1-190.png)
-
-   >[!NOTE]
-   >
-   >If you also set up the segments in Adobe Campaign, clicking **Preview** will show you the experiences for each segment.

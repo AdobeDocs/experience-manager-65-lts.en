@@ -76,7 +76,7 @@ When uploading large amounts of assets to [!DNL Adobe Experience Manager], to al
 
 Configure the buffered cache size in the OSGi Web Console. At `https://host:port/system/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache`, set the property `cq.dam.image.cache.max.memory` in bytes. For example, 1073741824 is 1 GB (1024 x 1024 x 1024 = 1 GB).
 
-From Experience Manager 6.1 SP1, if you're using a `sling:osgiConfig` node for configuring this property, make sure to set the data type to Long. For more details, see [CQBufferedImageCache consumes heap during Asset uploads](https://helpx.adobe.com/experience-manager/kb/cqbufferedimagecache-consumes-heap-during-asset-uploads.html).
+From Experience Manager 6.1 SP1, if you're using a `sling:osgiConfig` node for configuring this property, make sure to set the data type to Long.
 
 ### Shared data stores {#shared-data-stores}
 
@@ -237,7 +237,7 @@ When replicating assets to a large number of publish instances, for example, in 
 
 ## Search indexes {#search-indexes}
 
-Install [the latest Service Packs](/help/release-notes/release-notes.md) and performance-related hotfixes as those often include updates to system indexes. See [performance tuning tips](https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/administer/performance-tuning-guidelines.html?lang=en) for some index optimizations.
+Install [the latest Service Packs](/help/release-notes/release-notes.md) and performance-related hotfixes as those often include updates to system indexes.
 
 Create custom indexes for queries that you run often. For details, see [methodology for analyzing slow queries](https://aemfaq.blogspot.com/2014/08/oak-query-log-file-analyzer-tool.html) and [crafting custom indexes](/help/sites-deploying/queries-and-indexing.md). For additional insights around query and index best practices, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
 

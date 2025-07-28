@@ -24,6 +24,14 @@ For detailed documentation on the Felix Health Check framework, refer to the [fe
 
 The AEM Groovy console version that was being used in AEM 6.5 might not work in AEM 6.5 LTS due to missing guava dependencies. The newly supported version of the AEM Groovy console is [19.0.8](https://mvnrepository.com/artifact/be.orbinson.aem/aem-groovy-console/19.0.8).
 
+### Does AEM 6.5 LTS support user-sync?
+
+Yes, AEM 6.5 LTS supports user-sync. There is no change in the functionality of user-sync between AEM 6.5 and 6.5 LTS.
+
+### The Uber JAR on Maven Central appears to be corrupted — what’s the issue?
+
+Verify that you are using the Uber JAR with the `apis` classifier. Note that the packaging structure of the Uber JAR has changed in AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
+
 ## Getting Additional Help
 
 If you encounter issues not covered here:

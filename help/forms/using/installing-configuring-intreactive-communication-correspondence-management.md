@@ -1,8 +1,6 @@
 ---
 title: Install and configure Interactive Communications
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits.
-topic-tags: installing
-docset: aem65
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication,Correspondence Management
@@ -138,7 +136,7 @@ Perform the following steps on all the Author and Publish instances to add the p
 
 #### Install Compatibility Package {#install-compatibility-package}
 
-Interactive communication is the default and recommended approach to create customer communications in AEM 6.5 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-65-lts/forms/upgrade-aem-forms/aem-forms-osgi-upgrade/compatibility-package.html?lang=en).
+Interactive communication is the default and recommended approach to create customer communications in AEM 6.5 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](/help/forms/using/compatibility-package.md).
 
 The AEMFD Compatibility package lets you use the following assets from AEM 6.4 Forms, AEM 6.3 Forms, and AEM 6.2 Forms on AEM 6.5 Forms:
 

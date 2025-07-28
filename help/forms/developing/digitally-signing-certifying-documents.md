@@ -1,10 +1,6 @@
 ---
 title: Digitally Signing and Certifying Documents
 description: Use the Signature service to add and delete digital signature fields to a PDF document, retrieve the names of signature fields in a PDF document, modify signature fields, digitally sign PDF documents, certify PDF documents, validate digital signatures in a PDF document, validate all digital signatures in a PDF document, and remove a digital signature from a signature field.
-contentOwner: admin
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services,APIs & Integrations
@@ -398,9 +394,9 @@ To modify a signature field, assign values to its field lock dictionary or seed 
 The following seed value dictionary values can be set:
 
 * **Revision checking**: Specifies whether revocation checking is performed when a signature is applied to the signature field.
-* **Certificate options**: Assigns values to the certificate seed value dictionary. Before specifying certificate options, it is recommended that you become familiar with a certificate seed value dictionary. (See [PDF Reference](https://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
+* **Certificate options**: Assigns values to the certificate seed value dictionary. Before specifying certificate options, it is recommended that you become familiar with a certificate seed value dictionary.
 * **Digest options**: Assigns digest algorithms that are used for signing. Valid values are SHA1, SHA256, SHA384, SHA512, and RIPEMD160.
-* **Filter**: Specifies the filter that is used with the signature field. For example, you can use the Adobe.PPKLite filter. (See [PDF Reference](https://www.adobe.com/devnet/acrobat/pdfs/pdf_reference_1-7.pdf).)
+* **Filter**: Specifies the filter that is used with the signature field. For example, you can use the Adobe.PPKLite filter.
 * **Flag options**: Specifies the flag values that are associated with this signature field. A value of 1 means that a signer must use only the specified values for the entry. A value of 0 means that other values are permitted. Here are the Bit positions:
 
     * **1(Filter):** The signature handler to be used to sign the signature field

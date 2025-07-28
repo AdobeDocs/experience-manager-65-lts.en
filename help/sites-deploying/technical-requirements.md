@@ -105,7 +105,9 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 | Store binaries in TAR files on file system `[1]` |Binaries |Z: Not supported for production |
 | Amazon S3 |Binaries |A: Supported |
 | Microsoft&reg; Azure Blob Storage |Binaries |A: Supported |
-| MongoDB Enterprise 6.0 and 7.0|Repository |A: Supported `[3, 4]` |
+| MongoDB Enterprise 8.0|Repository |A: Supported `[2, 3]` |
+| MongoDB Enterprise 7.0|Repository |A: Supported `[2, 3]` |
+| MongoDB Enterprise 6.0|Repository |A: Supported `[2, 3]` |
 | **Apache Lucene (Quickstart built-in)** |Search Service |A: Supported |
 
 1. 'File System' includes block storage that is POSIX-compliant. Includes network storage technology. Mind that file system performance might vary and influences the overall performance. Load test AEM with the network/remote file system. 
