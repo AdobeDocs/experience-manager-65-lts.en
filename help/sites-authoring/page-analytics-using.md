@@ -1,12 +1,6 @@
 ---
 title: Seeing page analytics data to gauge the effectiveness of page content
 description: Use page analytics data to gauge the effectiveness of their page content
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: site-features
-docset: aem65
-legacypath: /content/help/en/experience-manager/6-4/help/sites-authoring/pa-using.html
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
