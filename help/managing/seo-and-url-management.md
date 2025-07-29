@@ -1,10 +1,7 @@
 ---
 title: SEO and URL Management Best Practices
 description: Learn about SEO best practices and recommendations on an AEM implementation.
-topic-tags: managing
-content-type: reference
-docset: aem65
-solution: Experience Manager, Experience Manager 6.5
+solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Developer,Leader
 exl-id: 3f3437fb-1fff-4703-a50d-28da89b0a856
@@ -363,12 +360,6 @@ The caveat with placing the `robots.txt` file at the site root is that Dispatche
 Crawlers use XML sitemaps to better understand the structure of websites. While there is no guarantee that providing a sitemap leads to improved SEO rankings, it is an agreed-upon best practice. You can manually maintain an XML file on the web server to use as the sitemap. However, Adobe recommends that you generate the sitemap programmatically to ensure that as authors create content, the sitemap automatically reflects their changes.
 
 AEM uses the [Apache Sling Sitemap module](https://github.com/apache/sling-org-apache-sling-sitemap) to generate XML sitemaps, which provides a wide range of options for developers and editors to keep a sites XML sitemap up to date. 
-
->[!NOTE]
->
->Available as product feature since Adobe Experience Manager Version 6.5.11.0.
-> 
->For older versions, you can register a Sling Servlet yourself, to listen for a `sitemap.xml` call. Use the resource provided by way of the servlet API to look up the current page and its descendants to output a `sitemap.xml` file. 
 
 The Apache Sling Sitemap module distinguishes between a top-level sitemap and a nested sitemap, both being generated for any resource that has the `sling:sitemapRoot` property set to `true`. In general, sitemaps are rendered using selectors at the path of the tree's top-level sitemap, which is the resource that has no other sitemap root ancestor. This top-level sitemap root also exposes the sitemap index, which normally is what a site owner would configure in the Search Engine's configuration portal or add to the site's `robots.txt`. 
 
