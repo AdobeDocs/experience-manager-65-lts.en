@@ -1,7 +1,6 @@
 ---
 title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
-contentOwner: AG
 role: Admin
 feature: Renditions,Developer Tools,Asset Processing
 solution: Experience Manager, Experience Manager Assets
@@ -70,7 +69,7 @@ To configure ITL processing, create a configuration file and update the workflow
 
 To configure the library, create a CONF file to indicate the libraries using the following steps. You need administrator or root permissions.
 
-1. Download the [Imaging Transcoding Library package from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg) and install it using the Package Manager. The package is compatible with [!DNL Experience Manager] 6.5.
+1. Download the [Imaging Transcoding Library package from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg) and install it using the Package Manager. The package is compatible with [!DNL Experience Manager] 6.5 LTS.
 
 1. To know a bundle id for `com.day.cq.dam.cq-dam-switchengine`, log in to the Web Console and click **[!UICONTROL OSGi]** > **[!UICONTROL Bundles]**. Alternatively, to open the bundles console, access `https://[aem_server:[port]/system/console/bundles/` URL. Locate `com.day.cq.dam.cq-dam-switchengine` bundle and its ID.
 
