@@ -1,6 +1,6 @@
 ---
 title: Selecting your user interface in AEM
-description: Configure which interface you use to work in Adobe Experience Manager 6.5.
+description: Configure which interface you use to work in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
