@@ -1,9 +1,6 @@
 ---
 title: New features summary | AEM 6.5 Forms
 description: Latest features and improvements to AEM forms and documents, world's most advanced digital experience management solution.
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 solution: Experience Manager, Experience Manager Forms
 feature: Release Information
 role: Admin, User, Developer
@@ -22,7 +19,7 @@ exl-id: 4db457d2-fefb-410d-8e74-58147f52bbd3
 
 ## What is included in Adobe Experience Manager 6.5 Forms Service Pack 19 (6.5.19.0)
 
-Experience Manager 6.5.19.0 includes new features, key customer-requested enhancements, bug fixes, and performance, stability, and security improvements that have been released since the initial availability of 6.5 in April 2019. [Install this service pack](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html) on Experience Manager 6.5. 
+Experience Manager 6.5.19.0 includes new features, key customer-requested enhancements, bug fixes, and performance, stability, and security improvements that have been released since the initial availability of 6.5 in April 2019. 
 
 ### New Features
 
@@ -55,20 +52,14 @@ You can now easily [customize your Adaptive Form fragments and its fields in  Ad
 The 64-bit iteration of XMLFM introduces heightened performance, scalability, and refined memory management. It is the first 64-bit native service deployed on the server-side. By harnessing its inherent capability to access significantly larger memory resources compared to its 32-bit counterpart, XMLFM 64-bit empowers seamless handling of larger rendering workloads. This milestone not only represents a leap in performance but also introduces key enhancements to the native service framework within the AEM Forms server. This update equips AEM Forms server to seamlessly support any 64-bit native service.
 
 
-
 ## Bug Fixes
 
-The release also includes fixes for 20+ customer reported issues. For detailed list of fixes included in the service pack, see [release notes](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/release-notes.html?lang=en#forms-6519)
+The release also includes fixes for 20+ customer reported issues. For detailed list of fixes included in the service pack, see [release notes](/help/release-notes/release-notes.md)
 
 
 ## Installing the service pack
 
-The service pack brings new features and bug fixes for both AEM Forms on JEE and AEM Forms on OSGi. The installation instructions have changes in comparison to previous service packs, For installation instructions, see [AEM Forms service pack installation instructions](https://experienceleague.adobe.com/docs/experience-manager-65-lts/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=en).
-
-
-
-
-
+The service pack brings new features and bug fixes for both AEM Forms on JEE and AEM Forms on OSGi. The installation instructions have changes in comparison to previous service packs.
 
 <!-- 
 ## Transaction Reports {#transaction-reports}

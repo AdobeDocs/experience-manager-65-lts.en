@@ -1,8 +1,6 @@
 ---
 title: Adding and configuring users
 description: The User Management settings in the administration console let you create or delete users  and configure other user settings.
-contentOwner: admin
-geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
@@ -36,10 +34,6 @@ When you create users, you can add the them to groups and assign roles to the th
 
 1. (Optional) To assign roles to the user, click **[!UICONTROL Find Roles]**, select the check box for the roles to assign, and then click **[!UICONTROL OK]**.
 1. Click **[!UICONTROL Finish]**.
-
-   >[!NOTE]
-   >
-   >If you enounter any login issue with the user, see [AEM Forms on JEE user fails to login on AEM Forms on OSGi side](https://helpx.adobe.com/aem-forms/kb/AEM-users-fails-to-login.html).
 
 ## User settings {#user-settings}
 
@@ -173,4 +167,4 @@ If a user without the required AEM forms and CQ permissions, attempts to log int
 
 CQ provides a mechanism to override the default 404 handler jsp.
 
-For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/platform/customizing-errorhandler-pages.html?lang=en) in the Adobe Experience Manager documentation.
+For details on how to customize the error handling page, see [Customizing Pages shown by the Error Handler](/help/sites-developing/customizing-errorhandler-pages.md) in the Adobe Experience Manager documentation.

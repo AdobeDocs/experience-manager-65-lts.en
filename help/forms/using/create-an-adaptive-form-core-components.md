@@ -2,10 +2,6 @@
 title: How to Create an Adaptive Form?
 description: Learn how to create an Adaptive Form using [!DNL Experience Manager Forms]. Adaptive Forms are responsive HTML5 forms that streamline information gathering and processing. Dig deeper on how to create an Adaptive Form based on a Form Data Model and XML or JSON schema.
 Keywords: create adaptive form core component, create core component based adaptive form, creare adaptive form
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-contentOwner: Khushwant Singh
-topic-tags: Adaptive Forms
-docset: aem65
 role: Admin, Developer
 feature: Adaptive Forms,Core Components
 solution: Experience Manager, Experience Manager Forms
@@ -56,7 +52,7 @@ You require the following to create an Adaptive Form:
 
 ## Create an Adaptive Form {#create-an-adaptive-form}
 
-1. Login to your local [AEM author instance](https://experienceleague.adobe.com/docs/experience-manager-65-lts/deploying/deploying/deploy.html?lang=en#author-and-publish-installs). 
+1. Login to your local [AEM author instance](/help/sites-deploying/deploy.md#author-and-publish-installs). 
 
 1. Enter your credentials on the Experience Manager login page. After you are logged in, in the upper-left corner, select **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 

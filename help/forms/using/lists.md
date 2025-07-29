@@ -1,9 +1,6 @@
 ---
 title: Document Fragments in AEM
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
-topic-tags: correspondence-management
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-docset: aem65
 feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
@@ -85,10 +82,6 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
    You can directly copy and paste the text from the MS Word document to an editable text module. The formatting such as bulleted list, font, and text color is retained in the text module.
 
    ![pastetexttextmodule](assets/pastetexttextmodule.png)
-
-   >[!NOTE]
-   >
-   >The formatting of pasted text, however, has some [limitations](https://helpx.adobe.com/aem-forms/kb/cm-copy-paste-text-limitations.html).
 
 1. If necessary, insert special characters in the document fragment. For example, you can use the Special Characters palette to insert:
 

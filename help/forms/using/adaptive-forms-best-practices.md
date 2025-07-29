@@ -1,9 +1,6 @@
 ---
 title: Best practices for working with adaptive forms
 description: Explains best practices for setting up an AEM Forms project, developing adaptive forms, and optimizing the performance for AEM Forms system.
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: author
-feature: Adaptive Forms,Foundation Components,Core Components
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 exl-id: b87629fa-85a9-4024-963a-4761bc093e62
@@ -325,8 +322,8 @@ Some best practices to configure AEM to improve the overall performance are as f
 * Do not cache `/content/forms/af/` and `/content/dam/formsanddocuments/*` paths. for detailed information about configuring adaptive forms caching, see [Caching adaptive forms](/help/forms/using/configure-adaptive-forms-cache.md).
 
 * Enable HTML via web server compression module. For more information, see [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md).
-* Increase calls per request configuration for large forms. See [Optimizing performance of large and complex forms](/help/forms/using/adaptive-forms-best-practices.md#optimizing-performance-of-large-and-complex-forms).
-* Create [custom error pages shown by error handler](https://experienceleague.adobe.com/docs/experience-manager-65-lts/developing/platform/customizing-errorhandler-pages.html).
+* Increase calls per request configuration for large forms. See [Optimizing performance of large and complex forms](#optimizing-performance-of-large-and-complex-forms).
+* Create [custom error pages shown by error handler](/help/sites-developing/customizing-errorhandler-pages.md).
 * Secure AEM Forms server.
 
     * Use `nosamplecontent` run mode to ensure there are no sample content and sample users deployed on the production server. See [Running AEM in Production Ready Mode](/help/sites-administering/production-ready.md).

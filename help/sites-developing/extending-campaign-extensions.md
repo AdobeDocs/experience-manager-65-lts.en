@@ -1,5 +1,5 @@
 ---
-title: Creating Custom Extensions
+title: Custom Adobe Campaign Extensions
 description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
@@ -9,8 +9,10 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 7cdce721-ca00-43ac-a543-85bfad382821
+index: no
 ---
-# Creating Custom Extensions{#creating-custom-extensions}
+
+# Custom Adobe Campaign Extensions {#creating-custom-extensions}
 
 Generally when you implement a project, you have custom code in both AEM and Adobe Campaign. With the use of the existing API, you can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign. This document describes how to do that.
 
@@ -28,10 +30,6 @@ See [Integrating AEM with Adobe Campaign 6.1](/help/sites-administering/campaign
 The standard integration between AEM and Campaign is based on JSON and JSSP (JavaScript Server Page). These JSSP files can be found in the Campaign console, and all start with **aec** (Adobe Experience Cloud).
 
 ![chlimage_1-15](assets/chlimage_1-15a.png)
-
->[!NOTE]
->
->[For this example, see Geometrixx](/help/sites-developing/we-retail.md), which is available from Package Share.
 
 In this example, a new custom JSSP file was created and calls that from the AEM side to retrieve the result. It can be used, for example, to retrieve data from Adobe Campaign or to save data into Adobe Campaign.
 
@@ -160,10 +158,6 @@ public class CustomServlet extends SlingSafeMethodsServlet {
 AEM offers out of the box APIs to retrieve the objects available anywhere in the siteadmin explorer view.
 
 ![chlimage_1-17](assets/chlimage_1-17a.png)
-
->[!NOTE]
->
->[For this example, see Geometrixx](/help/sites-developing/we-retail.md), which is available from Package Share.
 
 For each node in the explorer, there is an API that is linked to it. For example, for the node :
 

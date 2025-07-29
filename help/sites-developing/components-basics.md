@@ -1,11 +1,6 @@
 ---
 title: Adobe Experience Manager Components - The Basics
 description: When you start to develop new components, you need to understand the basics of their structure and configuration.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: components
-content-type: reference
-legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
@@ -306,7 +301,7 @@ A component is a node of type `cq:Component` and has the following properties an
   <tr>
    <td><code>cq:cellName</code></td>
    <td><code>String</code></td>
-   <td>If set, this property is taken as Cell ID. For more information, see the Knowledge Base article <a href="https://helpx.adobe.com/experience-manager/kb/DesigneCellId.html">How are Design Cell IDs built</a>.<br /> </td>
+   <td>If set, this property is taken as Cell ID.<br /> </td>
   </tr>
   <tr>
    <td><code>cq:childEditConfig</code></td>

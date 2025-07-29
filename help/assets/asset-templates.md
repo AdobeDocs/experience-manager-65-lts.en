@@ -1,7 +1,6 @@
 ---
 title: Asset templates
 description: Learn about Asset templates in [!DNL Adobe Experience Manager Assets] and how to use asset templates to create marketing collateral.
-contentOwner: AG
 role: User
 feature: Asset Management,Developer Tools
 solution: Experience Manager, Experience Manager Assets
@@ -120,8 +119,6 @@ You can edit a collateral piece immediately after you create it. Alternatively, 
    >
    >* Embed images while creating [!DNL InDesign] templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
    >* Mount [!DNL Experience Manager] to your local file system, and then map missing icons with existing assets in [!DNL Experience Manager].
-   >
-   >For more information around working with [!DNL InDesign] documents, see [best practices to work with InDesign documents in Experience Manager](https://helpx.adobe.com/experience-manager/kb/best-practices-idd-docs-aem.html).
 
 1. To generate a PDF rendition for the brochure, select the Acrobat option in the dialog and then click **[!UICONTROL Continue]**.
 1. The collateral piece is created in the folder that you started with. To view the renditions, open the collateral and choose **[!UICONTROL Renditions]** from the GlobalNav list.
