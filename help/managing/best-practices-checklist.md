@@ -1,11 +1,7 @@
 ---
 title: The Checklist
 description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/MANAGING
-topic-tags: managing-checklist
-content-type: reference
-solution: Experience Manager, Experience Manager 6.5
+solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Admin,Architect,Data Architect,Developer,Leader
 exl-id: 4a7d8228-101a-47bd-9bcf-d521a69d87a0
