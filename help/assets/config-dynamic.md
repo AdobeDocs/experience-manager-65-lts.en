@@ -2,12 +2,6 @@
 title: Configure Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 mini-toc-levels: 3
-contentOwner: Rick Brough
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: dynamic-media
-content-type: reference
-docset: aem65
-legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 role: User, Admin
 feature: Configuration,Hybrid Mode
 solution: Experience Manager, Experience Manager Assets
@@ -254,22 +248,6 @@ To disable Dynamic Media after you have enabled it, you remove the `-r dynamicme
    >After the Dynamic Media run mode is disabled, the workflow step that generates the `cqdam.pyramid.tiff` rendition is skipped automatically. It also disables dynamic rendition support and other Dynamic Media features.
    >
    >Also note that when Dynamic Media run mode is disabled after configuring the Experience Manager server, all assets that were uploaded under that run mode are now invalid.
-
-## (Optional) Migrate Dynamic Media presets and configurations from 6.3 to 6.5 Zero Downtime {#optional-migrating-dynamic-media-presets-and-configurations-from-to-zero-downtime}
-
-If you are upgrading Experience Manager - Dynamic Media from 6.3 to 6.5 (which now includes the ability for zero downtime deployments), you must run the following curl command. The command migrates all your presets and configurations from `/etc` to `/conf` in CRXDE Lite.
-
->[!NOTE]
->
->If you run your Experience Manager instance in compatibility mode &ndash; that is, you have the compatibility package installed &ndash; you do not need to run these commands.
-
-For all upgrades, either with or without the compatibility package, you can copy the default, out-of-the-box viewer presets that originally came with Dynamic Media by running the following Linux&reg; curl command:
-
-`curl -u admin:admin -X POST https://<server_address>:<server_port>/libs/settings/dam/dm/presets/viewer.pushviewerpresets.json`
-
-To migrate any custom viewer presets and configurations that you have created from `/etc` to `/conf`, run the following Linux&reg; curl command:
-
-`curl -u admin:admin -X POST https://<server_address>:<server_port>/libs/settings/dam/dm/presets.migratedmcontent.json`
 
 ## Configure image replication {#configuring-image-replication}
 
