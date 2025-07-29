@@ -1,6 +1,6 @@
 ---
 title: Using the Rich Text Editor to Author Content
-description: Using the Rich Text Editor to Author Content in Adobe Experience Manager 6.5.
+description: Using the Rich Text Editor to Author Content in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
