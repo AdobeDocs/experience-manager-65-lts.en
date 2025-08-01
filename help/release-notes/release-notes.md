@@ -10,14 +10,15 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## Release Information {#release-information}
 
-| Product | [!DNL Adobe Experience Manager 6.5 LTS] |
+| Product | [!DNL Adobe Experience Manager] 6.5 LTS |
 |---|---|
-| Version | Service Pack 1 |
+| Version | Service Pack 1 (SP1) |
 | Type | Service Pack release |
-| General availability date | August 21, 2025 |
+| Date | August 21, 2025 |
 
-## What is new in [!DNL Adobe Experience Manager 6.5 LTS, SP1] {#what-is-new}
+## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP1 {#what-is-new}
 
+[!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025.
 <!-- UPDATE EACH RELEASE -->
 
 ## Key features and enhancements
