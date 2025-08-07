@@ -691,8 +691,8 @@ After uninstalling the previous version, you need to download and install a comp
 
 After completing all processes, perform a quick action test to confirm the installation is valid:
 
-1. Use Remote Desktop (RDP) to login to server and start AEM Forms server using services.. 
-2. Use Remote Desktop (RDP) to log in to the server and start the AEM Forms server using Windows Services. Once the server is running, do not simply close the RDP window. Instead, gracefully sign out by logging off the user — this ensures the session ends cleanly while the service continues to run in the background.
+1. Use Remote Desktop (RDP) to login to server and start AEM Forms server using services.
+2. Once the server is running, do not simply close the RDP window. Instead, gracefully sign out by logging off the user — this ensures the session ends cleanly while the service continues to run in the background.
 
 ###### Step 10: Test the PDF Generator service
 
