@@ -237,6 +237,12 @@ The installation process for Adobe Acrobat Pro DC for Microsoft Office installat
 * **License Type**: Retail or Volume license
 * **Deployment Type**: Single user or Multiple users
 
+>[!VIDEO](https://video.tv.adobe.com/v/3469669)
+
+>[!NOTE]
+>
+>The video demonstrates the installation process for a Retail License - Single User configuration. For other deployment scenarios (Retail - Multiple Users, Volume License - Single User, or Volume License - Multiple Users), refer to the specific step 9 instructions in the corresponding tabs below to ensure proper server startup and license activation for your deployment type.
+
 Each tab contains tailored instructions optimized for your specific setup, helping you avoid configuration issues and ensure proper licensing compliance.
 
 >[!BEGINTABS]
