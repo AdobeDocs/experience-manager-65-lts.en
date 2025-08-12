@@ -28,7 +28,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 <!-- UPDATE EACH RELEASE -->
 
-## Fixed issues in Service Pack 1 {#fixed-issues}
+## Fixed issues in 6.5 LTS, Service Pack 1 {#fixed-issues}
 
 <!-- UPDATE BELOW FOR EACH NEW RELEASE --> 
 
@@ -67,7 +67,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 
-* Canvas sections in AEM Editor pages now support full keyboard accessibility. Users can activate section titles and edit buttons using only the keyboard, without relying on mouse hover. This update ensures compliance with WCAG 2.1.1 and improves usability across components (such as Teaser, Image, Carousel, Layout, Timewarp, and Annotation modals). (SITES-25256) CRITICAL
+
 * Fixed an accessibility issue in the AEM Page Editor where keyboard focus unexpectedly resets to the start of the Demographic toolbar after activating buttons such as Persona, Cart, or Abandoned. Focus now remains on the activated button to support consistent keyboard navigation and screen reader workflows. (SITES-25306) 
 * Fixed accessibility label association issue for page title and tags fields. The AEM interface now correctly associates accessibility labels with the "Title" and "Page Title" fields when using screen readers like JAWS. The fix ensures proper label reading and improves ADA compliance across page creation, properties, and move workflows. (SITES-27149) (MAJOR)
 * Fixed missing visual label for comment input fields in timeline. Corrected missing visual labels for "comment" input fields under the timeline section to improve accessibility. The update ensures that screen readers can accurately announce the field labels. This experience enhances form navigation and submission for all users, particularly those individuals that rely on assistive technologies. (SITES-26903) MAJOR
@@ -81,6 +81,38 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### Admin User Interface{#sites-adminui-65-lts-sp1}
 
 * Fixed an accessibility issue where JAWS did not announce list roles or provide navigation and activation instructions in the Create Site dialog box. (SITES-30661)
+* Screen reader support for status messages in the Sites filter view works as expected, ensuring users receive clear and timely feedback when switching between views. (SITES-24992) MAJOR
+* The Date Picker in the Filters Rail displays fully within its container, providing adequate touch target size and eliminating clipping issues. (SITES-24988) MAJOR
+* Selected filter tags now use semantic HTML and aria-labels that match the visual presentation, ensuring accurate role support and clear actions for assistive technologies. (SITES-24980) MAJOR
+* Added an aria-label attribute to the References Rail region to provide a unique, descriptive label for screen reader users and ensure consistent landmark identification across the page. (SITES-24973)
+* Updated the References Rail to use relative units for sizing and positioning, enabling content to scale and remain fully functional when zoomed to 400% at a 1280x1024 viewport. (SITES-24972) CRITICAL
+* Confirmed table elements in the Sites Home Page List View contain proper column header roles, enabling screen readers to announce headers for each data cell. (SITES-24942) MAJOR
+* NVDA now announces the Modified date in the Tree Directory, ensuring screen reader users receive complete asset detail information. (SITES-24782) MAJOR
+* Fixed issue where NVDA screen reader announced incomplete text for items in the Tree Directory component in AEM Sites. NVDA now reads full text for each item, improving accessibility compliance. (SITES-24780) MAJOR
+* Added keyboard accessibility to the Window Splitter in the Tree Directory, enabling users to resize the left side bar using only a keyboard. (SITES-24779) CRITICAL
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
+* ()
 
 #### Classic UI{#sites-classicui-65-lts-sp1} 
 
@@ -136,8 +168,24 @@ Other authors can still publish Content Fragments even when another author check
 * Fixed an issue in the Demographics Toolbar where adjusting the Cart Slider with keyboard input moved focus to the Cart button instead of retaining focus on the slider, improving navigation efficiency for keyboard users. (SITES-25324) MAJOR
 * Added an accessible name to the Cart Slider in the Demographics Toolbar by assigning a value to its associated `<label>` element, improving compatibility with assistive technologies and enhancing usability for screen reader users. (SITES-25322) MAJOR
 * Added ARIA roles and accessible names to buttons inside the Demographics Toolbar drop-down, enabling proper identification by assistive technologies and improving navigation for keyboard and screen reader users. (SITES-25315) CRITICAL
-* ()
-* ()
+* Adjusted the Demographic Toolbar layout to prevent content overflow beyond the viewport at 200% browser zoom, ensuring all controls remain accessible without horizontal scrolling. (SITES-25309) MAJOR
+* Corrected focus management in the Demographic Toolbar to keep keyboard focus on the activated button instead of resetting focus to the toolbar's starting position. (SITES-25306) CRITICAL
+* The button label overlap functions as designed, using a tooltip to display the label when modes with similar screen widths are active. (SITES-25285) MAJOR
+* The annotation modal includes a visible submit button, allowing users to submit annotations without relying on the Escape key or clicking outside the modal. (SITES-25281) MAJOR
+* The annotation modal includes a pen icon button that allows users to submit annotations, providing a clear and accessible submission method. (SITES-25269) MAJOR
+* Corrected screen reader announcements for the Annotate and Close Annotate buttons to provide accurate, relevant feedback and remove unrelated or confusing information. (SITES-25268) MAJOR
+* Canvas sections in AEM Editor pages now support full keyboard accessibility. Users can activate section titles and edit buttons using only the keyboard, without relying on mouse hover. This update ensures compliance with WCAG 2.1.1 and improves usability across components (such as Teaser, Image, Carousel, Layout, Timewarp, and Annotation modals). (SITES-25256) CRITICAL
+* Removed unnecessary horizontal scrolling in the Carousel Modal at 320px width to ensure all content displays within the viewport without requiring side-to-side navigation. (SITES-25254) MAJOR
+* Removed unnecessary horizontal scrolling in the Image Modal at 320px width to ensure all content displays within the viewport without requiring side-to-side navigation. (SITES-25244) MAJOR
+* Removed unnecessary horizontal scrolling in the Teaser Modal at 320px width to ensure all content displays within the viewport without requiring side-to-side navigation. (SITES-25242) MAJOR
+* Enabled keyboard navigation for the List and Paragraph Format popup menus in the Teaser Modal, allowing users to access and navigate these menus using arrow keys. (SITES-25235) CRITICAL
+* Corrected screen reader announcements for the Annotate and Close Annotate buttons to provide accurate, relevant feedback aligned with the associated actions. (SITES-25234) MAJOR
+* Improved the Help button label in the Teaser Modal to clearly describe its purpose and provide meaningful context for all users, including assistive technology users. (SITES-25224) MAJOR
+* Improved the emulator ruler for screen reader users by associating ruler measurements with their respective devices and replacing the tooltip with an aria-describedby element. (SITES-24955) MAJOR
+* No fix implemented because the Edit button functions as intended and provides informational context rather than performing an action. (SITES-24950) MAJOR
+* Confirmed focus order on the Editor page follows a logical sequence, allowing users to navigate through all interactive elements without skipping or looping back unexpectedly. (SITES-24937) MAJOR
+* Confirmed Preview mode canvas updates text spacing correctly when users apply custom text spacing settings, ensuring consistent formatting across all content areas. (SITES-24936) MAJOR
+* Verified Preview button no longer triggers context or state changes on focus, ensuring users activate the button intentionally before the page view updates. (SITES-24784) MAJOR
 * ()
 * ()
 * ()
