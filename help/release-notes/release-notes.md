@@ -23,11 +23,258 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## Key features and enhancements
 
+<!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
+
 <!-- UPDATE EACH RELEASE -->
 
 ## Fixed issues in Service Pack 1 {#fixed-issues}
 
+
+
 <!-- UPDATE EACH RELEASE -->
+
+## Fixed issues in Service Pack 23 {#fixed-issues}
+
+<!-- UPDATE BELOW FOR EACH NEW RELEASE --> 
+
+### [!DNL Sites]{#sites-65-LTS-SP1}
+
+#### Accessibility {#sites-accessibility-65-lts-sp1}
+
+* Canvas sections in AEM Editor pages now support full keyboard accessibility. Users can activate section titles and edit buttons using only the keyboard, without relying on mouse hover. This update ensures compliance with WCAG 2.1.1 and improves usability across components (such as Teaser, Image, Carousel, Layout, Timewarp, and Annotation modals). (SITES-25256) <!-- 6.5 LTS SP1 -->
+* Fixed an accessibility issue in the AEM Page Editor where keyboard focus unexpectedly resets to the start of the Demographic toolbar after activating buttons such as Persona, Cart, or Abandoned. Focus now remains on the activated button to support consistent keyboard navigation and screen reader workflows. (SITES-25306) 
+* Fixed a critical accessibility issue in AEM Page Editor where canvas elements across multiple dialog boxes and modals (for example, Asset rail or Layout preview) could not be operated using only a keyboard. All interactive canvas elements now support keyboard-only navigation, ensuring compliance with WCAG 2.1 success criterion 2.1.1 (SITE-25256) 
+* Fixed an accessibility issue in the Sites Admin UI where interactive list items in the Create pop-up used incorrect ARIA roles. Elements that behaved like links were assigned `role="listitem"` instead of `role="menuitem"`, violating ARIA design patterns and confusing screen readers. Updates ensure that all list components follow proper semantic roles for improved keyboard and assistive technology support. (SITES-24493) 
+* Fixed accessibility label association issue for page title and tags fields. The AEM interface now correctly associates accessibility labels with the "Title" and "Page Title" fields when using screen readers like JAWS. The fix ensures proper label reading and improves ADA compliance across page creation, properties, and move workflows. (SITES-27149) 
+* Fixed an accessibility issue with table identification in the permissions dialog box. The permissions table in AEM now uses correct ARIA roles and attributes to ensure screen readers like JAWS properly identify it as a table. The fix improves accessibility compliance and ensures that users receive accurate navigation and content announcements. (SITES-27140) 
+* Fixed missing visual label for comment input fields in timeline. Corrected missing visual labels for "comment" input fields under the timeline section to improve accessibility. The update ensures that screen readers can accurately announce the field labels. This experience enhances form navigation and submission for all users, particularly those individuals that rely on assistive technologies. (SITES-26903) 
+* Fixed keyboard accessibility for ellipsis button in timeline comments. Enabled keyboard navigation for the ellipsis (three dots) button next to comments under the timeline section. Users can now access and interact with the button using the tab key, improving accessibility for users who rely on keyboard-only navigation. (SITES-26891) 
+* Improved NVDA/Narrator announcements for search results in selection dialog boxes. Updated the Open Selection dialog box to announce whether search results are found or not when using screen readers, such as NVDA or Narrator. This improvement helps users relying on assistive technologies understand the outcome of their search actions without needing visual confirmation. (SITES-26883) 
+* Corrected ARIA role for ellipsis icon beside comment input field. Updated the ellipsis (three dots) icon beside the comment input field to use the correct ARIA role, ensuring screen readers can accurately identify the element. This improvement enhances accessibility compliance and improves the experience for users relying on assistive technologies. (SITES-26881) 
+* Corrected invalid ARIA attributes in Coral UI components. Updated Coral UI components to ensure all ARIA attributes use valid values, improving accessibility-compliance. In particular, cases were addressed where invalid values like `aria-modal="dialog"` were incorrectly assigned. This enhancement enables screen readers to interpret dialog box elements correctly, improving accessibility for users relying on assistive technologies. (SITES-26873) 
+* Improved visibility and tooltips for icons in Reflow scenarios. Enhanced the Reflow behavior to ensure tooltips display correctly for **Download**, **Reprocess assets**, and **Checkout** icons. Focused on an accessibility issue where icons and their labels became invisible when the viewport resized or browser zoom settings changed. This fix supports users with low vision by maintaining visibility and providing proper icon descriptions during Reflow. (SITES-26871) 
+
+#### Admin User Interface{#sites-adminui-65-lts-sp1}
+
+Fixed Universal Editor URL Service exception with missing Externalizer endpoints. The Universal Editor URL Service now handles missing author, publish, or local Externalizer endpoints without throwing exceptions. Admin users can open the Page Editor successfully even when some Externalizer configurations are incomplete. (SITES-28877)  <!-- LTS -->
+
+#### Classic UI{#sites-classicui-65-lts-sp1} 
+
+
+#### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp1}
+
+* AEM now prevents performance degradation caused by malformed XMP metadata in image assets. Assets that contain invalid or non-compliant XMP property names, such as those with numeric segments or unqualified structures, no longer trigger repeated warning logs during processing. The system filters out problematic metadata to ensure that asset ingestion and validation is complete without errors. (SITES-30683) <!-- AEM 6.5 LTS SP1 -->
+
+
+#### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp1}
+
+
+
+
+#### [!DNL Content Fragments] - Fragments Editor{#sites-fragments-editor-65-lts-sp1}
+
+Other authors can still publish Content Fragments even when another author checks them out, which is contrary to the intended behavior of the checkout feature. This fix prevents other users from seeing or using the publish buttons in the authoring interface when a Content Fragment is checked out. (SITES-30578)  <!-- LTS -->
+
+#### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp1}
+
+Fixed GraphQL QueryValidationError with Content Fragment schemas. Refreshing the `cq-dam-cfm-graphql` bundle corrects schema validation errors when using Content Fragment references. The fix ensures that GraphQL queries function properly without requiring manual schema re-alignment or re-publishing after package deployments. (SITES-27001)  <!-- LTS -->
+
+
+#### [!DNL Content Fragments] - GraphQL Query Editor{#sites-graphql-query-editor-65-lts-sp1}
+
+
+
+#### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp1}
+
+
+
+#### Component Console{#sites-component-console-65-lts-sp1}
+
+
+
+#### Core Backend{#sites-core-backend-65-lts-sp1}
+
+* Improperly formatted XMP metadata triggered an error during processing of image assets in the `ValidationDataServlet`. The fix ensures compliant metadata handling and avoids redundant parsing of invalid properties. (SITE-30683)  <!-- LTS -->
+
+
+#### Core Components{#sites-core-components-65-lts-sp1}
+
+
+
+#### Campaign integration{#sites-campaign-integration-65-lts-sp1}
+
+
+
+#### Experience Fragments{#sites-experiencefragments-65-lts-sp1}
+
+
+
+#### Foundation Components (Legacy){#sites-foundation-components-legacy-65-lts-sp1}
+
+
+
+
+#### Launches{#sites-launches-65-lts-sp1}
+
+
+
+
+#### Link Checker{#sites-link-checker-65-lts-sp1}
+
+
+
+#### MSM - Live Copies{#sites-msm-live-copies-65-lts-sp1}
+
+
+
+
+#### Page Editor{#sites-pageeditor-65-lts-sp1}
+
+
+
+
+#### Replication{#sites-replication-65-lts-sp1}
+
+
+
+
+#### Rich Text Editor{#sites-rte-65-lts-sp1}
+
+
+
+#### Universal editor {#sites-universal-editor-65-lts-sp1}
+
+
+
+### [!DNL Assets]{#assets-65-lts-sp1}
+
+
+
+#### [!DNL Dynamic Media]{#assets-dm-65-lts-sp1}
+ 
+
+#### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp1}
+
+
+
+### [!DNL Forms]{#forms-65-lts-sp1}
+
+
+#### Forms Designer 
+
+
+#### Forms
+
+
+
+
+#### Forms JEE 
+
+ 
+ 
+#### Forms Captcha {#forms-captcha-65-lts-sp1} 
+
+
+
+
+#### XMLFM {#forms-xmlfm-65-lts-sp1}
+
+
+
+
+#### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp1}
+
+
+
+
+#### [!DNL Forms Designer] {#forms-designer-65-lts-sp1}
+
+
+
+
+### Foundation {#foundation-65-lts-sp1}
+
+
+#### Apache Felix {#foundation-apachefelix-65-lts-sp1}
+
+
+
+#### Campaign{#foundation-campaign-65-lts-sp1}
+
+
+#### Cloud Services{#foundation-cloudservices-65-lts-sp1}
+
+
+#### Communities {#foundation-communities-65-lts-sp1}
+
+
+#### Content distribution{#foundation-content-distribution-65-lts-sp1}
+
+
+
+#### CRX {#foundation-crx-65-lts-sp1}
+
+
+
+#### Granite{#foundation-granite-65-lts-sp1}
+
+
+
+
+#### Integrations{#foundation-integrations-65-lts-sp1}
+
+
+
+
+#### Jetty{#foundation-jetty-65-lts-sp1}
+
+Resolved an issue where SNI validation blocked API calls over HTTPS for AEM customers using Dispatcher SSL configurations with custom host headers. Introduces an option to disable SNI validation as part of Jetty configuration, enabling compatibility with specific reverse proxy setups where `mod_proxy` is not feasible. (NPR-42614) 
+
+
+
+#### Localization{#foundation-localization-65-lts-sp1}
+
+
+
+#### Oak {#foundation-oak-65-lts-sp1}
+
+
+
+#### Platform{#foundation-platform-65-lts-sp1}
+
+
+
+
+#### Security{#foundation-security-65-lts-sp1}
+
+
+#### Sling{#foundation-sling-65-lts-sp1}
+
+
+
+#### Translation{#foundation-translation-65-lts-sp1}
+
+
+
+#### User interface{#foundation-ui-65-lts-sp1}
+
+
+
+#### WCM{#foundation-wcm-65-lts-sp1}
+
+ 
+
+#### Workflow{#foundation-workflow-65-lts-sp1}
+
+
+
+
+
+
+
+
+
+
 
 
 
