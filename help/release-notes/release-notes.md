@@ -326,7 +326,6 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Added the missing `data-detailsurl` attribute in inbox items to prevent undefined values from appearing in URLs when using AEM 6.5 LTS with Java 21. (GRANITE-60158)
 * Fixed a NullPointerException in the `deactivate` method of the `WorkflowToPublishEventService` bundle when running AEM 6.5 LTS with Java 21, ensuring proper workflow service shutdown without errors. (GRANITE-58151)
 * Updated the workflow index to support sharing, out-of-office customization, and resolution of timeline query issues. (GRANITE-52640)
-* Validated and updated the CQ/platform workflow to align with the latest Service Pack. Implemented security vulnerability fixes, including Canon raw removal and common collection upgrades. Performed feature and performance testing across solutions, coordinated with the Java 17 core team for upgrade validation, and ensured compatibility with customer customizations and code. (GRANITE-52362)
 * Updated the workflow index to support sharing, out-of-office customization features, and resolution of timeline query issues. (GRANITE-52294)
 * Resolved increased error log failures during log comparison validation for a program upgrade to AEM release 10912, ensuring stable workflow execution. (GRANITE-44268)
 * Updated the URL sanitization method in Workflow Repos to replace `url.searchParams` with `url.search`, improving XSS protection for vulnerable URLs. (CQ-4359585)
