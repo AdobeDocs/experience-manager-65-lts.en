@@ -12,9 +12,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 | Product | [!DNL Adobe Experience Manager] 6.5 LTS |
 |---|---|
-| Version | Service Pack 1 (SP1) |
+| Version | Service Pack 1 (SP1) <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
-| Date | August 21, 2025 |
+| Date | August 21, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
+| Download URL | [Software Distribution]() <!-- UPDATE FOR EACH NEW RELEASE -->
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP1 {#what-is-new}
 
