@@ -15,13 +15,14 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Version | Service Pack 1 (SP1) <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
 | Date | August 21, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution]() <!-- UPDATE FOR EACH NEW RELEASE -->
+| Download URL | [Software Distribution](https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/aem/cq-quickstart/6.6.1/cq-quickstart-6.6.1.jar) | 
+<!-- UPDATE FOR EACH NEW RELEASE -->
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP1 {#what-is-new}
 
 <!-- UPDATE EACH RELEASE -->
 
-[!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025.
+[!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
 ## Key features and enhancements
 
@@ -366,7 +367,7 @@ For detailed instructions, see the [upgrade documentation](/help/sites-deploying
 
 >[!NOTE]
 >
-> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, refer to [this article](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, see [this article](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
 
 ## Supported platforms {#supported-platforms}
 
