@@ -16,7 +16,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Type | Service Pack release |
 | Date | August 21, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Download URL | [Software Distribution](https://artifactory.corp.adobe.com/artifactory/maven-aem-release-local/com/adobe/aem/cq-quickstart/6.6.1/cq-quickstart-6.6.1.jar) | 
-<!-- UPDATE FOR EACH NEW RELEASE -->
+
+<!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP1 {#what-is-new}
 
