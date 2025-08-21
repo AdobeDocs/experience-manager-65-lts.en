@@ -4,7 +4,7 @@ description: Find current release information for Adobe Experience Manager 6.5 L
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
-
+exl-id: 70436606-d95c-4208-94f6-e33f3eefdf66
 ---
 # Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
 
@@ -149,4 +149,3 @@ These websites are only available to customers. If you are a customer and need a
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact Adobe Customer Support](https://experienceleague.adobe.com/en/docs/customer-one/using/home).
- 
