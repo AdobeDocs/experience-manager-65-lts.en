@@ -11,8 +11,6 @@ user-guide-title: AEM 6.5 LTS
 
 + Release Notes {#release-notes}
   + [Release notes](/help/release-notes/release-notes.md)
-  + Previous release notes {#service-pack}
-    + [General Availability](/help/release-notes/previous/ga.md)
   + [Frequently Asked Questions](/help/release-notes/faq.md)
   + [Technical FAQ](/help/release-notes/technical-faq.md)
 + Security {#security}
