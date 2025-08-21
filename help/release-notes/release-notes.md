@@ -16,7 +16,7 @@ exl-id: 70436606-d95c-4208-94f6-e33f3eefdf66
 | Type | Major release |
 | General availability | March 7, 2025 |
 
-## What's New {#what-s-new}
+## What's new {#what-s-new}
 
 [!DNL Adobe Experience Manager] 6.5 LTS is an upgrade release to the [!DNL Adobe Experience Manager] 6.5 code base. It provides key customer fixes, high priority customer enhancements, and general bug fixes oriented toward product stabilization. It also includes [!DNL Adobe Experience Manager] 6.5 Service Pack releases up to SP22.
 
@@ -28,13 +28,13 @@ The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated
 
 Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
-#### Java&trade; Support  {#java-support}
+#### Java&trade; support  {#java-support}
 
 * Support for Java&trade; 17 and Java&trade; 21.
 * For optimal performance, override the default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
 * Adobe distributes Java&trade; 17  and Java&trade; 21 maintenance updates for customer usage in AEM-related projects, when not publicly available from Oracle.
 
-#### Uberjar Packaging {#uber-jar-packaging}
+#### Uberjar packaging {#uber-jar-packaging}
 
 * There is a slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
