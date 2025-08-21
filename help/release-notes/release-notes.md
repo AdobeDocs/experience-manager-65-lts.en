@@ -6,9 +6,9 @@ feature: Release Information
 role: User,Admin,Architect,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ---
-# Current Release Notes for Adobe Experience Manager 6.5 LTS, SP1 {#release-notes}
+# Current release notes for Adobe Experience Manager 6.5 LTS, SP1 {#release-notes}
 
-## Release Information {#release-information}
+## Release information {#release-information}
 
 | Product | [!DNL Adobe Experience Manager] 6.5 LTS |
 |---|---|
@@ -25,7 +25,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-## Key features and enhancements
+<!-- ## Key features and enhancements -->
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
