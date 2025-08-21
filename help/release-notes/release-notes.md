@@ -1,10 +1,10 @@
 ---
-title: Current Release Notes for Adobe Experience Manager 6.5 LTS
+title: Release Notes for [!DNL Adobe Experience Manager] 6.5 LTS
 description: Find current release information for Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
-exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
+exl-id: 70436606-d95c-4208-94f6-e33f3eefdf66
 ---
 # Current Release Notes for Adobe Experience Manager 6.5 LTS {#release-notes}
 
@@ -14,9 +14,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 |---|---|
 | Version | 6.5 LTS |
 | Type | Major release |
-| General availability date | March 7, 2025 |
+| General availability | March 7, 2025 |
 
-## What's New {#what-s-new}
+## What's new {#what-s-new}
 
 [!DNL Adobe Experience Manager] 6.5 LTS is an upgrade release to the [!DNL Adobe Experience Manager] 6.5 code base. It provides key customer fixes, high priority customer enhancements, and general bug fixes oriented toward product stabilization. It also includes [!DNL Adobe Experience Manager] 6.5 Service Pack releases up to SP22.
 
@@ -28,13 +28,13 @@ The platform of [!DNL Adobe Experience Manager] 6.5 LTS builds on top of updated
 
 Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
-#### Java&trade; Support  {#java-support}
+#### Java&trade; support  {#java-support}
 
 * Support for Java&trade; 17 and Java&trade; 21.
 * For optimal performance, override the default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
 * Adobe distributes Java&trade; 17  and Java&trade; 21 maintenance updates for customer usage in AEM-related projects, when not publicly available from Oracle.
 
-#### Uberjar Packaging {#uber-jar-packaging}
+#### Uberjar packaging {#uber-jar-packaging}
 
 * There is a slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
@@ -50,7 +50,7 @@ For detailed instructions, see the [upgrade documentation](/help/sites-deploying
 
 >[!NOTE]
 >
-> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, refer [this](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
+> For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, see [this article](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
 
 ## Supported Platforms {#supported-platforms}
 
@@ -96,10 +96,10 @@ This section lists features and capabilities that have been removed from AEM 6.5
 | Portal| AEM Portal Director is not supported. | No replacement available. | 6.5 LTS GA |
 | Granite| Bundle `com.adobe.granite.socketio` is removed. | No replacement available. | 6.5 LTS GA |
 | Granite| `com.adobe.granite.crx-explorer` is not supported. | No replacement available. | 6.5 LTS GA |
-| Granite| `crx2oak` is not supported. | Pick the relevant version of [oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
+| Granite| `crx2oak` is not supported. | Pick the relevant version of [Oak-upgrade](https://mvnrepository.com/artifact/org.apache.jackrabbit/oak-upgrade) | 6.5 LTS GA |
 | Adobe| `com.adobe.cq.cq-searchpromote-integration` is not supported. | No replacement available. | 6.5 LTS GA |
 | Guava| All guava dependencies are now removed in AEM and hence the `com.adobe.granite.osgi.wrapper.guava-15.0.0-0002` bundle is not part of AEM. |Customers can add guava on their own if they are dependent on guava or replace guava code with java collections or other alternates if possible. | 6.5 LTS GA |
-| We.Retail| We-retail sample site is not supported. | No replacement available. | 6.5 LTS GA |
+| `We.Retail`| `We-retail` sample site is not supported. | No replacement available. | 6.5 LTS GA |
 |Open Source| `oak-solr-osgi` bundle is not supported.| No replacement available. | 6.5 LTS GA |
 |Open Source| `org.apache.servicemix.bundles.abdera-parser`, `org.apache.servicemix.bundles.jdom` and `org.apache.sling.atom.taglib` are not supported.| No replacement available. | 6.5 LTS GA |
 |Open Source| `org.apache.commons.io` packages are now exported from `org.apache.commons.commons-io`.| No change required. | 6.5 LTS GA |
@@ -124,7 +124,7 @@ A hotfix [cq-6.5.lts.0-hotfix-NPR-42640](https://experience.adobe.com/#/download
 
 ### Dispatcher Connection Failure with SSL-Only Feature {#ssl-only-feature}
 
-When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect via `https + IP` from the Dispatcher to AEM instances and is related to SNI (Server Name Indication) validation problems.
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
 
 **Impact:**
 
@@ -149,4 +149,3 @@ These websites are only available to customers. If you are a customer and need a
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact Adobe Customer Support](https://experienceleague.adobe.com/en/docs/customer-one/using/home).
- 

@@ -209,7 +209,7 @@ user-guide-title: AEM 6.5 LTS
       + [Integrating with Adobe Campaign](/help/sites-administering/campaign.md)
       + [Integrating with ExactTarget](/help/sites-administering/exacttarget.md)
       + [Analytics with External Providers](/help/sites-administering/external-providers.md)
-      + [Integrating with the Adobe Marketing Cloud](/help/sites-administering/marketing-cloud.md)
+      + [Integrating with Adobe Experience Cloud](/help/sites-administering/marketing-cloud.md)
       + [Manually Configuring the Integration with Adobe Target](/help/sites-administering/target-configuring.md)
       + [Prerequisites for Integrating with Adobe Target](/help/sites-administering/target-requirements.md)
       + [Adobe Classifications](/help/sites-administering/adobeanalytics-classifications.md)
@@ -438,7 +438,7 @@ user-guide-title: AEM 6.5 LTS
       + [Install and configure Automated Forms Conversion service](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/configure-service.html)
     + [Install and configure Designer](/help/forms/using/installing-configuring-designer.md)
     + Configure AEM Forms {#configure-aem-forms}
-      + [Performance tuning of AEM Forms server](/help/forms/using/performance-tuning-aem-forms.md)
+      + [Performance tuning of AEM Forms Server](/help/forms/using/performance-tuning-aem-forms.md)
       + [Configure adaptive forms cache](/help/forms/using/configure-adaptive-forms-cache.md)
       + [Configuring AEM DS settings](/help/forms/using/configuring-the-processing-server-url.md)
       + [Configuring the synchronization scheduler](/help/forms/using/configure-synchronization-scheduler.md)
@@ -626,8 +626,8 @@ user-guide-title: AEM 6.5 LTS
     + [Set up the Xcode project and build the iOS app](/help/forms/using/setup-xcode-project-build-installer.md)
     + [Building a secure AEM Forms app for iOS](/help/forms/using/building-secure-mobile-workspace-app.md)
     + [Set up the Visual Studio project and build the Windows app](/help/forms/using/setup-visual-studio-project-build-installer.md)
-    + [Set up the Android studio project and build the Android app](/help/forms/using/setup-android-studio-project-build-installer.md)
-    + [Build the AEM Forms Android app](/help/forms/using/setup-eclipse-project-build-installer.md)
+    + [Set up the Android&trade; studio project and build the Android&trade; app](/help/forms/using/setup-android-studio-project-build-installer.md)
+    + [Build the AEM Forms Android&trade; app](/help/forms/using/setup-eclipse-project-build-installer.md)
     + [Distribute AEM Forms app](/help/forms/using/distribute-mobile-workspace-app.md)
     + [Gesture customization](/help/forms/using/gesture-customization.md)
     + [Branding Customization](/help/forms/using/branding-customization.md)
@@ -721,10 +721,10 @@ user-guide-title: AEM 6.5 LTS
     + [Use custom email templates in an Assign Task step](/help/forms/using/use-custom-email-template-assign-task-step.md)
     + [Use metadata in an email notification](/help/forms/using/use-metadata-in-email-notifications.md)
   + Forms Portal {#use-forms-portal}
-    + [Customizing templates for forms portal components](/help/forms/using/customizing-templates-forms-portal-components.md)
-    + [Enabling forms portal components](/help/forms/using/enabling-forms-portal-components.md)
-    + [Creating a forms portal page](/help/forms/using/creating-form-portal-page.md)
-    + [APIs to work with submitted forms on forms portal](/help/forms/using/report-submitted-data-forms.md)
+    + [Customizing templates for Forms Portal components](/help/forms/using/customizing-templates-forms-portal-components.md)
+    + [Enabling Forms Portal components](/help/forms/using/enabling-forms-portal-components.md)
+    + [Creating a Forms Portal page](/help/forms/using/creating-form-portal-page.md)
+    + [APIs to work with submitted forms on Forms Portal](/help/forms/using/report-submitted-data-forms.md)
     + [Custom storage for drafts and submissions component](/help/forms/using/adding-custom-storage-provider-forms.md)
   + Document Services {#use-document-services}
     + [Overview of AEM Document Services](/help/forms/using/overview-aem-document-services.md)
@@ -813,9 +813,9 @@ user-guide-title: AEM 6.5 LTS
       + [Search for a user or group](/help/forms/using/admin-help/search-user-or-group.md)
       + [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md)
     + Connecting to a content management system {#connect-content-management-system}
-      + [Configuring Connector for EMC Documentum](/help/forms/using/admin-help/configuring-connector-emc-documentum.md)
-      + [Configuring Connector for IBM FileNet](/help/forms/using/admin-help/configuring-connector-ibm-filenet.md)
-      + [Configuring Connector for IBM Content Manager](/help/forms/using/admin-help/configuring-connector-ibm-content-manager.md)
+      + [Configuring Connector for EMC Documentum&reg;](/help/forms/using/admin-help/configuring-connector-emc-documentum.md)
+      + [Configuring Connector for IBM&reg; FileNet](/help/forms/using/admin-help/configuring-connector-ibm-filenet.md)
+      + [Configuring Connector for IBM&reg; Content Manager](/help/forms/using/admin-help/configuring-connector-ibm-content-manager.md)
       + [Configuring Connector for Microsoft SharePoint](/help/forms/using/admin-help/configuring-connector-microsoft-sharepoint.md)
     + Managing certificates and credentials {#manage-certificates-credentials}
       + [Adding and removing user name and password credentials](/help/forms/using/admin-help/adding-removing-user-name-password.md)
@@ -833,21 +833,21 @@ user-guide-title: AEM 6.5 LTS
       + [Starting and stopping services](/help/forms/using/admin-help/starting-stopping-services.md)
     + Managing Endpoints {#manage-endpoints}
       + [Adding, enabling, modifying, or removing endpoints](/help/forms/using/admin-help/adding-enabling-modifying-or-removing.md)
-     + [Configuring email endpoints](/help/forms/using/admin-help/configuring-email-endpoints.md)
+      + [Configuring email endpoints](/help/forms/using/admin-help/configuring-email-endpoints.md)
       + [Configure oAuth2.0 authentication](/help/forms/using/oauth2-support-for-mail-service.md)
       + [Configuring Remoting endpoints](/help/forms/using/admin-help/configuring-remoting-endpoints.md)
       + [Configuring watched folder endpoints](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md)
       + [Configuring Task Manager endpoints](/help/forms/using/admin-help/configuring-task-manager-endpoints.md)
       + [Types of endpoints](/help/forms/using/admin-help/types-endpoints.md)
-     + Configuring Acrobat Reader DC extensions {#configure-acrobat-reader-dc-extensions}
-       + [Certificate types used by Acrobat Reader DC extensions](/help/forms/using/admin-help/certificate-types-used-acrobat-reader.md)
+    + Configuring Acrobat Reader DC Extensions {#configure-acrobat-reader-dc-extensions}
+       + [Certificate types used by Acrobat Reader DC Extensions](/help/forms/using/admin-help/certificate-types-used-acrobat-reader.md)
        + [Recognizing valid and expired certificates in PDF documents](/help/forms/using/admin-help/recognizing-valid-expired-certificates-pdf.md)
-       + [Configuring Acrobat Reader DC extensions for data capture](/help/forms/using/admin-help/configuring-acrobat-reader-dc-extensions.md)
+       + [Configuring Acrobat Reader DC Extensions for data capture](/help/forms/using/admin-help/configuring-acrobat-reader-dc-extensions.md)
        + [Review credential use information](/help/forms/using/admin-help/review-credential-information.md)
-       + [Configuring credentials for use with Acrobat Reader DC extensions](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md)
+       + [Configuring credentials for use with Acrobat Reader DC Extensions](/help/forms/using/admin-help/configuring-credentials-acrobat-reader-dc.md)
        + [Review the usage rights of a PDF file](/help/forms/using/admin-help/review-usage-rights-pdf-file.md)
        + [Enabling online commenting for Adobe Reader web browser plug-in](/help/forms/using/admin-help/enabling-online-commenting-reader-web.md)
-       + [Setting timeout values for use with Acrobat Reader DC extensions](/help/forms/using/admin-help/setting-timeout-values-acrobat-reader.md)
+       + [Setting timeout values for use with Acrobat Reader DC Extensions](/help/forms/using/admin-help/setting-timeout-values-acrobat-reader.md)
        + [Updating expired Reader Extension service certificates](/help/forms/using/admin-help/updating-expired-reader-extension-certificates.md)
     + Working with PDF Generator {#work-with-pdf-generator}
       + [Introduction to working with PDF Generator](/help/forms/using/admin-help/overview-5.md)
@@ -863,9 +863,9 @@ user-guide-title: AEM 6.5 LTS
       + [Converting files using PDF Generator](/help/forms/using/admin-help/converting-files-using-pdf-generator.md)
     + Configuring SSL {#configure-ssl}
       + [Overview of configuring SSL](/help/forms/using/admin-help/overview-6.md)
-      + [Configuring SSL for JBoss Application Server](/help/forms/using/admin-help/configuring-ssl-jboss-application-server.md)
+      + [Configuring SSL for JBoss&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-jboss-application-server.md)
       + [Configuring SSL on Windows Vista](/help/forms/using/admin-help/configuring-ssl-windows-vista.md)
-      + [Configuring SSL for WebSphere Application Server](/help/forms/using/admin-help/configuring-ssl-websphere-application-server.md)
+      + [Configuring SSL for WebSphere&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-websphere-application-server.md)
     + Working with document security {#work-with-document-security}
       + [About document security](/help/forms/using/admin-help/document-security.md)
       + [High-volume secure information delivery](/help/forms/using/admin-help/high-volume-secure-information-delivery.md)
@@ -896,11 +896,11 @@ user-guide-title: AEM 6.5 LTS
       + [Specify fonts to embed](/help/forms/using/admin-help/specify-fonts-embed.md)
       + [Specify security settings](/help/forms/using/admin-help/specify-security-settings.md)
       + [Change the character set](/help/forms/using/admin-help/change-character-set.md)
-    + Configuring forms workflow{#configure-forms-workflow}
+    + Configuring Forms Workflow{#configure-forms-workflow}
       + [About administration and process terminology](/help/forms/using/admin-help/administration-process-terminology.md)
       + [Managing Processes](/help/forms/using/admin-help/processes.md)
       + [Configuring Business Calendars](/help/forms/using/admin-help/configuring-business-calendars.md)
-      + [Overview of Forms workflow](/help/forms/using/admin-help/overview-9.md)
+      + [Overview of Forms Workflow](/help/forms/using/admin-help/overview-9.md)
       + [Configuring Out of Office Settings](/help/forms/using/admin-help/configuring-out-office-settings.md)
       + [Searching for process instances](/help/forms/using/admin-help/searching-process-instances.md)
       + [Configuring Server Settings](/help/forms/using/admin-help/configuring-server-settings.md)
@@ -926,9 +926,9 @@ user-guide-title: AEM 6.5 LTS
       + [Work Manager and throttling](/help/forms/using/admin-help/manager-throttling.md)
       + [Running AEM forms in maintenance mode](/help/forms/using/admin-help/running-aem-forms-maintenance-mode.md)
     + Maintaining the AEM forms Database {#maintain-aem-forms-database}
-      + [DB2 database: Running a process weekly](/help/forms/using/admin-help/db2-database-running-process-weekly.md)
+      + [DB2&reg; database: Running a process weekly](/help/forms/using/admin-help/db2-database-running-process-weekly.md)
       + [Oracle database maximum open cursors threshold](/help/forms/using/admin-help/oracle-database-maximum-open-cursors.md)
-      + [IBM DB2 database: Running commands for regular maintenance](/help/forms/using/admin-help/ibm-db2-database-running-commands.md)
+      + [IBM&reg; DB2&reg; database: Running commands for regular maintenance](/help/forms/using/admin-help/ibm-db2-database-running-commands.md)
       + [Purging process data](/help/forms/using/admin-help/purging-process-data.md)
       + [Microsoft SQL Server database: Fine-tuning the configuration](/help/forms/using/admin-help/microsoft-sql-server-database-fine.md)
       + [Tips for minimizing database growth](/help/forms/using/admin-help/tips-minimizing-database-growth.md)
@@ -937,9 +937,9 @@ user-guide-title: AEM 6.5 LTS
       + [Global document storage directory](/help/forms/using/admin-help/global-document-storage-directory.md)
       + [Considerations when running AdministrationConsole](/help/forms/using/admin-help/considerations-running-administration-console.md)
       + [Enhancing application server performance](/help/forms/using/admin-help/enhancing-application-server-performance.md)
-      + [Starting and stopping WebSphere Application Server](/help/forms/using/admin-help/starting-stopping-websphere-application-server.md)
+      + [Starting and stopping WebSphere&reg; Application Server](/help/forms/using/admin-help/starting-stopping-websphere-application-server.md)
     + AEM forms Backup and Recovery {#aem-forms-backup-recovery}
-      + [Backing up and recovering the EMC Documentum repository](/help/forms/using/admin-help/backing-recovering-emc-documentum-repository.md)
+      + [Backing up and recovering the EMC Documentum&reg; repository](/help/forms/using/admin-help/backing-recovering-emc-documentum-repository.md)
       + [Enabling and disabling safe backup mode](/help/forms/using/admin-help/enabling-disabling-safe-backup-mode.md)
       + [Backing up the AEM forms data](/help/forms/using/admin-help/backing-aem-forms-data.md)
       + [Files to back up and recover](/help/forms/using/admin-help/files-back-recover.md)
@@ -947,7 +947,7 @@ user-guide-title: AEM 6.5 LTS
       + [PDF Generator backup limitations](/help/forms/using/admin-help/pdf-generator-backup-limitations.md)
       + [Backup strategies for watched folders](/help/forms/using/admin-help/backup-strategies-watched-folders.md)
       + [Recovering the AEM forms data](/help/forms/using/admin-help/recovering-aem-forms-data.md)
-      + [Backup strategy for Connector for EMC Documentum users](/help/forms/using/admin-help/backup-strategy-connector-emc-documentum.md)
+      + [Backup strategy for Connector for EMC Documentum&reg; users](/help/forms/using/admin-help/backup-strategy-connector-emc-documentum.md)
       + [Strategy for backup and restore in a clustered environment](/help/forms/using/admin-help/strategy-backup-restore-clustered-environment.md)
     + System information service {#system-information-service}
       + [Set up the System information service](/help/forms/using/admin-help/set-system-information-service.md)
@@ -970,7 +970,7 @@ user-guide-title: AEM 6.5 LTS
       + Introduction to programming with AEM Forms on JEE {#introduction-programming-aem-forms-jee}
         + [Introducing Java API QuickStart](/help/forms/developing/introducing-java-api-soap-quick.md)
         + [Invoking AEM Forms using APIs](/help/forms/developing/invoking-aem-forms-using-apis.md)
-       + [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md)
+        + [Understanding AEM Forms Processes](/help/forms/developing/aem-forms-processes.md)
         + [Service container](/help/forms/developing/service-container.md)
       + Developing SPIs for AEM Forms {#developing-spis-aem-forms}
         + [Creating an Invite External Users Handler](/help/forms/developing/creating-invite-external-users-handler.md)
@@ -978,7 +978,7 @@ user-guide-title: AEM 6.5 LTS
         + [Application Manager Client JavaAPI Quick Start(SOAP)](/help/forms/developing/application-manager-client-java-api.md)
         + [Application Manager Service JavaAPI Quick Start(SOAP)](/help/forms/developing/application-manager-service-java-api.md)
         + [Assembler Service Java API QuickStart(SOAP)](/help/forms/developing/assembler-service-java-api-quick.md)
-        + [Acrobat Reader DC extensions Service Java API Quick Start(SOAP)](/help/forms/developing/acrobat-reader-dc-extensions-service.md)
+        + [Acrobat Reader DC Extensions Service Java API Quick Start(SOAP)](/help/forms/developing/acrobat-reader-dc-extensions-service.md)
         + [Backup and Restore Service APIQuick Starts](/help/forms/developing/backup-restore-service-api-quick.md)
         + [Barcoded Forms Service Java APIQuick Start(SOAP)](/help/forms/developing/barcoded-forms-service-java-api.md)
         + [Components and Services Java APIQuick Start(SOAP)](/help/forms/developing/components-services-java-api-quick.md)
@@ -1050,7 +1050,7 @@ user-guide-title: AEM 6.5 LTS
         + [Importing and Exporting Data](/help/forms/developing/importing-exporting-data.md)
         + [Managing Users](/help/forms/developing/users.md)
         + [Working with AEM Forms Repository](/help/forms/developing/aem-forms-repository.md)
-        + [Working with barcoded forms](/help/forms/developing/barcoded-forms.md)
+        + [Working with Barcoded Forms](/help/forms/developing/barcoded-forms.md)
         + [Working with Credentials](/help/forms/developing/credentials.md)
         + [Working with PDF/A Documents](/help/forms/developing/pdf-a-documents.md)
         + [Working with PDF Utilities](/help/forms/developing/pdf-utilities.md)
@@ -1066,7 +1066,7 @@ user-guide-title: AEM 6.5 LTS
     + [Unable to convert Word or Excel file to PDF on Windows Server](/help/forms/using/disable-uac-for-pdfgconfiguration.md)
     + [Unable to open XFA-based PDF forms in Google Chrome, Firefox, Microsoft Edge, Microsoft Internet Explorer, or Apple Safari](/help/forms/using/xfa-based-forms-in-chrome-firefox-ie-internet-explorter-safari-edge.md)
     + [Unable to restore CRX Repository](/help/forms/using/restore-crx-repository.md)
-    + [Processing documents even if the AEM Forms server is not fully up and running](/help/forms/using/processing-documents-even-if-aem-forms-server-not-fully-up.md)
+    + [Processing documents even if the AEM Forms Server is not fully up and running](/help/forms/using/processing-documents-even-if-aem-forms-server-not-fully-up.md)
     + [Unable to use Output service, Forms service, or Document of Record (DoR) service](/help/forms/using/connection-issues-with-output-forms-and-document-of-record-dor-services.md)
     + [PDF generation fails to print a large number of PDFs on WorkBench](/help/forms/using/pdf-generation-service-fails-to-print-a-large-number-of-pdfs-on-workbench.md)
     + [How to properly restart AEM SDK](/help/forms/using/restart-aem-sdk.md)
@@ -1082,7 +1082,7 @@ user-guide-title: AEM 6.5 LTS
   + [Notable Changes to AEM Content and Commerce](/help/commerce/cif/changes.md)
   + Integrations {#integrations}
     + [Adobe Commerce](/help/commerce/cif/integrating/magento.md)
-    + [3rd Party Commerce Solution](/help/commerce/cif/integrating/third-party.md)
+    + [Third-party Commerce Solution](/help/commerce/cif/integrating/third-party.md)
   + AEM Storefront {#storefront}
     + [Getting started](/help/commerce/cif/getting-started.md)
     + Authoring {#authoring}
