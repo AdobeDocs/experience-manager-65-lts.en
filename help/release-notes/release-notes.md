@@ -14,7 +14,7 @@ exl-id: 70436606-d95c-4208-94f6-e33f3eefdf66
 |---|---|
 | Version | 6.5 LTS |
 | Type | Major release |
-| General availability date | March 7, 2025 |
+| General availability | March 7, 2025 |
 
 ## What's New {#what-s-new}
 
