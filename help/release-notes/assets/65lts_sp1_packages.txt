@@ -101,7 +101,7 @@
 "cq-projects-content","1.5.66-V660-B0007","cq-projects-content-1.5.66-V660-B0007.zip"
 "cq-projects-translation-content","1.4.96","cq-projects-translation-content-1.4.96.zip"
 "cq-reporting-content","1.0.4","cq-reporting-content-1.0.4.zip"
-"cq-ui-classic-content","1.5.158","cq-ui-classic-content-1.5.158.zip"
+"cq-ui-classic-content","1.5.168","cq-ui-classic-content-1.5.168.zip"
 "cq-ui-static-typekit-content","1.3.4","cq-ui-static-typekit-content-1.3.4.zip"
 "cq-ui-touch-optimized-content","2.6.242","cq-ui-touch-optimized-content-2.6.242.zip"
 "cq-ui-wcm-admin-content","1.1.184","cq-ui-wcm-admin-content-1.1.184.zip"
