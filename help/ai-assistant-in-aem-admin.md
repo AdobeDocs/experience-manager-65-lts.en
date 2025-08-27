@@ -31,7 +31,7 @@ The configuration process of the AI Assistant in AEM consists of the following s
 Before you begin, be sure you have met the following prerequisites:
 
 * You must have product administrator rights at a minimum in the Adobe Admin Console.
-* You have an understanding of your organization's user management structure.
+* You have an understanding of your organization's user management structure. 
 
 **Configuration considerations**
     
