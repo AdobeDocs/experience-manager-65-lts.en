@@ -1,12 +1,16 @@
 ---
-title: AI Assistant in AEM
+title: AI Assistant in AEM 6.5
 description: Use AI Assistant to help you find answers, and troubleshoot for the solutions that are available in Adobe Experience Manager.
 solution: Experience Manager
 feature: Cloud Manager, Developing
 role: Admin, Architect, Developer
 exl-id: 391d46e3-05c9-4af1-8882-ffd39b04a701
 ---
-# AI Assistant in AEM {#about-ai-assistant-in-aem}
+# AI Assistant in AEM 6.5 {#about-ai-assistant-in-aem}
+
+>[!IMPORTANT]
+>
+>AEM 6.5 and AEM 6.5 LTS customers who are not using Cloud Manager/Experience Hub must contact their Adobe Customer Success Engineer to request access to the AI Assistant.
 
 The AEM (Adobe Experience Manager) AI Assistant offers a conversational interface designed to streamline finding answers to your Adobe Experience Manager-related queries. It helps you get instant answers to your AEM product-related questions (*available to all users*), and automate support ticket creation (*available to Support Admins*). 
 
