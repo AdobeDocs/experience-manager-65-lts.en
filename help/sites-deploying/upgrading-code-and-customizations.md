@@ -77,7 +77,7 @@ For AEM 6.5 LTS, there are again two types of Uber Jars:
     <groupId>com.adobe.aem</groupId>
     <artifactId>uber-jar</artifactId>
     <version>6.6.0</version>
-    <classifier>apis</classifier>
+    <classifier>deprecated-apis</classifier>
     <scope>provided</scope>
 </dependency>
 ```
