@@ -44,7 +44,7 @@ user-guide-title: AEM 6.5 LTS
   + [JWT Credentials Deprecation in Adobe Developer Console](/help/sites-administering/jwt-credentials-deprecation-in-adobe-developer-console.md)
   + [Setting Up IMS Integrations for AEM](/help/sites-administering/setting-up-ims-integrations-for-aem.md)
 + Experience Hub {#experience-hub}
-  + [About Experience Hub](/help/experience-hub) 
+  + [About Experience Hub](/help/experience-hub.md) 
 + Sites {#sites}
   + Authoring {#authoring}
     + Essential tasks, tools and concepts for AEM Authoring {#essentials}
