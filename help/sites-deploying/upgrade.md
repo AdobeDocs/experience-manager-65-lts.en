@@ -16,6 +16,10 @@ exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 >[!NOTE]
 >The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs.
 
+>[!NOTE]
+>
+>The upgrade process from AEM 6.5 LTS to AEM 6.5 LTS Service packs is the same as the upgrade process from AEM 6.5 to AEM 6.5 LTS GA.
+
 This section covers upgrading an AEM installation to AEM 6.5 LTS:
 
 <!-- Alexandru: drafting for now 
