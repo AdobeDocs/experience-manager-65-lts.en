@@ -291,7 +291,6 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 #### Quickstart{#foundation-quickstart-65-lts-sp1} 
 
 * Updated the uninstall script to adjust the version range for the Guava bundle, preventing it from being blocklisted when installed through the Package Manager. (GRANITE-59559)
-* Addressed a multi-part configuration error that occurred during AEMFD package uploads on Tomcat 11 with JDK 17 by updating the server configuration to support large package installations without triggering parsing failures. (GRANITE-58327) 
 * Fixed an issue in the Replication UI that displayed an error (`#1660`) when editing replication agents by correcting the handling of classic checkboxes in the interface. (GRANITE-58302)
 * Resolved multiple startup errors for the S3 datastore when running AEM 6.5 LTS with JDK 21 by addressing missing service permissions, updating configuration handling, and ensuring required services initialize correctly. (GRANITE-57082)
 * Defined the maintenance and sustenance strategy for AEM 6.5. This fix included the following:
@@ -363,6 +362,11 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 ## Install and update {#install-update}
 
 For setup requirements, see [installation instructions](/help/sites-deploying/custom-standalone-install.md).
+
+>[!NOTE]
+>
+> If you are directly upgrading to LTS SP1 from old 6.5 SPs, please follow the instructions given for 6.5 to 6.5 LTS GA [upgrade](/help/sites-deploying/upgrade.md).
+
 
 For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
 
@@ -446,7 +450,11 @@ When this issue occurs, one of the following exceptions may appear in the error 
 
 A hotfix [cq-6.5.lts.0-hotfix-NPR-42640](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-NPR-42640-1.2.zip) is available to resolve this problem.
 
-### Dispatcher connection failure with SSL-only feature {#ssl-only-feature}
+### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
+
+>[!NOTE]
+>
+> This issue is only present in AEM 6.5 LTS GA release.
 
 When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
 
