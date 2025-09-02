@@ -42,7 +42,7 @@ Yes, you can directly upgrade from AEM 6.5 to any AEM 6.5 LTS Service Pack. It i
 
 ## I am currently on AEM 6.5 LTS GA, do I need to make any code changes to upgrade to AEM 6.5 LTS Service Packs?
 
-No, you do not need to make any code changes to upgrade from AEM 6.5 LTS to AEM 6.5 LTS Service Packs. However, it is always recommended review the [release notes](/help/release-notes/release-notes.md) and test your customizations and integrations in a staging environment before applying the service pack to your production instance.
+No, you do not need to make any code changes to upgrade from AEM 6.5 LTS to AEM 6.5 LTS Service Packs. However, it is always recommended to review the [release notes](/help/release-notes/release-notes.md) and test your customizations and integrations in a staging environment before applying the service pack to your production instance.
 
 ## I want to start fresh with a new AEM 6.5 LTS setup, can I directly start with AEM 6.5 LTS Service Pack?
 
