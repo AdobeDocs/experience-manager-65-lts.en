@@ -342,12 +342,15 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 
 * When a user exports the data for an XFA-based PDF using the exportDataAPI, the resulting XML shows discrepancies when compared with the XML data exported manually using Acrobat Reader. Values of some fields were missing in the output compared to the output generated from Acrobat Reader. (LC-3922791)
 * Generating a tagged PDF with the Output Service in Workbench adds an unexpected label tag under the reference tag in a table of contents item. (LC-3922756)
+* When flattening dynamic, fillable PDFs to PDF/A format using the Output Service, the dynamic state is not preserved. This leads to data loss and potential compliance issues, especially when tagging is enabled. (LC-3922708)
 * When a user places field captions with bottom or right alignment in AEM Forms Designer, the tag tree includes only the caption without the corresponding value, leading to incomplete accessibility tagging. (LC-3922619)
 * The QR codes in generated PDFs become unreadable. The alternative text for the QR codes also fails accessibility testing, affecting screen reader compatibility. (LC-3922551)
 * When a user renders a letter in Agent UI the content fails to display correctly due to the FormService render() API. (LC-3922461)
+* When a user tries to create PDF/A files from XDPs with Sunken Square style in AEM Forms, it results in border rendering issues. (LC-3922180)
+* Flattening dynamic forms bound to an XSD schema causes partial data loss, as some bound form data is not retained in the final PDF. (LC-3922008)
+* When a user tries to export data from interactive PDFs using the extractData API in AEM Forms 6.5.13 and later versions, it results in missing data compared to manual export. (LC-3921983)
 
 ### Adaptive Forms
-
 
 * In AEM Forms, enabling "Allow Rich Text for Title" on the root panel causes "Exclude Title from Document of Record" on a nested panel to hide the root panel's title incorrectly. It does so in the generated Document of Record. (FORMS-19696)
 * The system ignores the custom sling:resourceType assigned through aem:afProperties in a JSON schema. The custom resource type is ignored during rendering. (FORMS-19691)
