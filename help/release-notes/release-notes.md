@@ -336,8 +336,81 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Fixed an issue in the Inbox Create Task workflow where the "Add Task" dialog box did not close after clicking Submit, despite the task being created, due to a JavaScript syntax error. (CQ-4355336)
 * Fixed an issue that prevented saving Inbox view configuration due to a missing property definition for `isEndUserConfigurationEnabled`. (CQ-4287757) 
 
+## Forms
+
+### Forms Designer
+
+* When a user exports the data for an XFA-based PDF using the exportDataAPI, the resulting XML shows discrepancies when compared with the XML data exported manually using Acrobat Reader. Values of some fields were missing in the output compared to the output generated from Acrobat Reader. (LC-3922791)
+* Generating a tagged PDF with the Output Service in Workbench adds an unexpected label tag under the reference tag in a table of contents item. (LC-3922756)
+* When a user places field captions with bottom or right alignment in AEM Forms Designer, the tag tree includes only the caption without the corresponding value, leading to incomplete accessibility tagging. (LC-3922619)
+* The QR codes in generated PDFs become unreadable. The alternative text for the QR codes also fails accessibility testing, affecting screen reader compatibility. (LC-3922551)
+* When a user renders a letter in Agent UI the content fails to display correctly due to the FormService render() API. (LC-3922461)
+
+### Adaptive Forms
 
 
+* In AEM Forms, enabling "Allow Rich Text for Title" on the root panel causes "Exclude Title from Document of Record" on a nested panel to hide the root panel's title incorrectly. It does so in the generated Document of Record. (FORMS-19696)
+* The system ignores the custom sling:resourceType assigned through aem:afProperties in a JSON schema. The custom resource type is ignored during rendering. (FORMS-19691)
+* When a user submits an Adaptive Form with prefilled attachments using URIs, the form submission fails with a NullPointerException due to missing binary data. (FORMS-19371) (FORMS-19486)
+* When a user uploads a PDF under the 'Forms and Documents' section, the timeline feature stops functioning. (FORMS-19407)(FORMS-19234)
+* When a user uploads files using the out-of-the-box (OOTB) file attachment component in AEM Forms, security vulnerabilities are identified. This issue leads to potential interception of the submission process by unauthorized entities. (FORMS-19271)
+* When a user configures an out-of-the-box Adaptive Form in AEM Forms to generate a Document of Record (DoR) automatically, the "Title" field in Acrobat Reader's Document Properties does not display the captured DoR title. By default, the form title does not appear in place of the filename. (FORMS-19263)
+* When a user opens an Interactive Communication in Agent UI, the prefilled data cannot be completely erased; upon removal, it automatically refills with the same data. (FORMS-19151)
+* When a user previews a date field in the Agent UI, the date unexpectedly changes. This issue occurs due to time zone discrepancies between the VM's UTC setting and the system's interpretation of the date. (FORMS-19115)
+* When a user submits a form, file attachments may duplicate, leading to multiple uploads of the same file. (FORMS-19045)(FORMS-19051)
+* Adding coordinators to policy sets in Document Security fails across both production and lower environments. (FORMS-18603, FORMS-18212, FORMS-19697)
+* When a user clicks the "datepicker-calendar-icon" in desktop mode with an empty field, an error occurs due to the undefined _$focusedDate variable, disrupting associated custom scripts. (FORMS-18483)(FORMS-18268)
+* When a customer previews a letter, the 'Amount in words' field fails to display or update number values incorrectly, leading to misalignment and missing spaces in the content. (FORMS-18437, FORMS-17330, FORMS-18209, FORMS-18557, CTG-4150848,FORMS-19614, LC-3922004)
+* When a customer previews a saved letter on RHEL, the content misaligns, spaces are missing, and unexpected characters like 'x' appear. (FORMS-18422)(FORMS-17641)
+* When a user navigates between tabs in AEM Forms, selecting components on the first tab becomes unresponsive. (FORMS-18345)
+* When a user converts an HTML file to PDF using the WebToPDF option, the output PDF is missing the header section, including metadata and title tags. (FORMS-18223, FORMS-17835, FORMS-19642, FORMS-18224)
+* In the AEM JEE Process Manager SDK, when a user invokes the retryAction(long actionOid) method, the system incorrectly retries the first action found in the tb_action_instance table. This workflow occurs even when a specific action ID is provided or when the ID is null, resulting in unintended behavior. (FORMS-18187)
+* A user encounters issues where the saved draft and submission functionalities fail without displaying any error message. (FORMS-18069)
+* Transitioning from XSD-based foundation components to core components prevents the implementation of cross-file references in JSON schemas, impacting Adaptive Forms migration. (FORMS-18065)
+* When a user previews a letter in the Agent UI, the date field shows an incorrect value due to IC time conversion issues. These discrepancies arise from time zone differences between the VM environment and the system's interpretation of time (UTC versus local time). (FORMS-17988) (FORMS-17248)
+* When a user previews letters using Notice IC templates in AEM Forms, PDF generation times vary significantly, from 1.5 seconds to more than 10 seconds, even on the same server. This inconsistency affects business critical workflows. (FORMS-17951)
+* When a user binds a Scribble Signature object in an Adaptive Form to an XDP using the 'Data Sources' option, changes cannot be saved. The reason is due to persistent aspect ratio validation errors, even when using valid values. (FORMS-17587)
+* When a user uses a specific XDP with many hidden fields for document fragments, AEM creates CRX nodes with the cm:optional property set to false, which causes the Interactive Communication (IC) submission to fail. (FORMS-17538)
+* When a customer previews a letter, the numeric box field fails to handle negative values correctly when digit limits for Lead and Frac are defined. This issue occurs due to the use of parseFloat, which treats the minus sign as part of the number. (FORMS-17451)
+* When a letter is previewed, the use of the "*" wildcard in the Adobe.json file is noticed, raising a concern about its purpose and potential modification. (FORMS-17317)
+* When a user uses a screen reader on the Apply for a Fixed Rate Saver joint account the headings are incorrectly announced as clickable, causing accessibility issues. (FORMS-17038)
+* When a form is embedded, the generated iframe is missing a title attribute, leading to an accessibility compliance issue. (FORMS-17010)
+* Downloading a form using the Forms Manager UI always includes associated dependencies, such as themes and fragments. (FORMS-15811)
+* When a user accesses the form on mobile devices (iOS and Android&trade;), the 'next' and 'previous' buttons on the first page are disabled. However, the screen reader does not identify them as disabled. (FORMS-15773)
+* When a user saves a large form with fragments and lazy loading enabled, it fails to retrieve drafts, disrupting the workflow. (FORMS-19890, FORMS-19808)
+* Users experienced issues saving form properties for Adaptive Form based on Core Components. This occurred because redundant scripts from the Adaptive Form based on Foundation Components editor are included, causing conflicts in the Adaptive Form based on Core Components. editor. (FORMS-17474)
+* Users experienced issues with the Adobe Sign GovCloud Signature page not rendering in an iframe. (FORMS-16803)
+* Users experiences errors when selecting references for Core Component Adaptive Forms (AF) fragments. The error message "Unable to render reference: Not an absolute path" appeared, preventing proper reference rendering. (FORMS-19678)
+* Added support for multi-threaded conversion with Acrobat DC, enabling users to perform simultaneous Word, Excel, and PowerPoint document conversions to PDF documents more efficiently. (FORMS-21310)
+* Added inclusion of `com.adobe.granite.toggle.impl.dev` bundle in AEM Service Pack 24, enabling more streamlined development processes by removing it from the Forms add-on. (FORMS-20139)
+* Removed FeatureToggleRenderConditionServlet from forms-foundation and com.adobe.granite.toggle.impl.dev bundle from forms add-on. This update ensures that after forms add-on installation, the render condition resolves correctly, improving component functionality for customers. (FORMS-20138)
+* Users experienced slow performance due to long-running queries in Adaptive Forms. This update backports query changes to improve efficiency. Customers can now create index with tag name aemformsAFReferences. (FORMS-21411)
+* Users experienced misaligned header positions when converting HTML to Portable Document Format (PDF) using WebtoPDF. This issue affected document layout consistency and readability of output. (FORMS-21502, FORMS-21540)
+* Users experienced PDF/A-1b validation failures despite successful PreFlight verification. This issue affected document compliance checks for enterprise customers using PDF validation tools. (FORMS-20196)
+* Users experienced untranslated strings on UI, causing confusion and difficulty in understanding the interface. (FORMS-6542)
+* Users experienced issues with email notifications. The Send Email Workflow Step failed to send emails, impacting automated communication processes. (FORMS-17961)
+* Users experienced failing tests for forms workflows, which impacted their ability to complete workflow processes efficiently. (FORMS-16231)
+* Users were unable to use the timeline feature of PDF files in AEM forms. This issue affected users' ability to track document changes and revisions effectively. When uploading any PDF under the 'Forms and Documents' section in the AEM forms area, the timeline view ceases to function. (FORMS-19408)
+* Users experience a null pointer exception when interacting with OData. This cause interruptions in data retrieval processes. (FORMS-20348)
+* Removed the google.common.collect library following the removal of Guava, an open-source Java library. This update ensures better compatibility and performance for enterprise customers using Adaptive Forms. (FORMS-17031)
+
+### Forms Captcha
+
+* Added Hcaptcha and Turnstile support for Adaptive Forms based on Foundation Components. (FORMS-16562)
+* Users experienced icon overlap issues in the Create hCaptcha Configuration dialog. When filling required fields, the information icon overlapped the error icon, causing confusion during configuration setup. (FORMS-16916)
+* Users experienced incorrect configuration being picked up for reCAPTCHA in Adaptive Forms based on foundation components. When the configuration container was not selected for a form, multiple configurations in the `conf/global` folder caused the issue. (FORMS-19237)
+* Users experienced issues with reCAPTCHA not being rendered. This affected form submissions and security validation for enterprise customers. (FORMS-17136, FORMS-19596)
+* Users experience an issue where the size of reCAPTCHA enterprise is not reflected in the User Interface (UI). (FORMS-16574)
+* Users experienced issues with the ReCaptcha functionality due to an unclosed ResourceResolver in 'ReCaptchaConfigurationServiceImpl', causing intermittent validation failures during form submissions. (FORMS-19241)
+* Users experienced issues with reCAPTCHA validation when forms are authored in Sites. AEM forms did not recognize the form name correctly, causing validation failures. (FORMS-20486)
+* Users experienced form submissions even when the enterprise reCAPTCHA score was 1.0, leading to potential security risks. (FORMS-16766){{$include }}
+* Improved reCAPTCHA alerting in Adaptive Forms by updating submit error codes to 400. Also, refined log alerts to distinguish between timeouts, expirations, and bot detection failures, enhancing troubleshooting accuracy and system observability. (FORMS-19240)
+* Closed an unclosed ResourceResolver instance in ReCaptchaConfigurationServiceImpl to prevent potential resource leaks and improve system stability when using reCAPTCHA integrations in AEM Forms. (FORMS-19242)
+* Improved CAPTCHA configuration handling for AEM Forms by ensuring the correct configuration binds to each form when multiple entries exist in the /conf/global folder. Prevents unintended use of incorrect CAPTCHA settings when the configuration container is not explicitly selected. (FORMS-19239)
+
+### Forms Management UI
+
+* Users experienced unlocalized strings in the Forms > Create Watchfolder > Watchfolder creation process. When creating a watched folder, strings such as "Watchfolder creation" and "Watchfolder created successfully" were not found, affecting the user interface experience. (FORMS-15234)
 
 ## [!DNL Experience Manager Foundation] {#experience-manager-foundation}
 
