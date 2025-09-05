@@ -349,6 +349,7 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * When a user tries to create PDF/A files from XDPs with Sunken Square style in AEM Forms, it results in border rendering issues. (LC-3922180)
 * Flattening dynamic forms bound to an XSD schema causes partial data loss, as some bound form data is not retained in the final PDF. (LC-3922008)
 * When a user tries to export data from interactive PDFs using the extractData API in AEM Forms 6.5.13 and later versions, it results in missing data compared to manual export. (LC-3921983)
+* Users face an accessibility compliance issue where multiple Link-OBJR tags are being created when converting XDP forms to static PDFs using AEM Forms Designer or Output service, instead of creating a single unified link tag. (LC-3921977)
 
 ### Adaptive Forms
 
