@@ -451,6 +451,11 @@ For detailed instructions, see the [upgrade documentation](/help/sites-deploying
 >
 > For fresh AEM 6.5 LTS installations, index definitions must be installed separately. For more information, see [this article](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#index-definitions).
 
+## Install and update AEM Forms add-on {#install-update-aem-forms-add-on}
+
+For detailed instructions, see [Performing an In-Place Upgrade](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions).
+
+
 
 ## Supported platforms {#supported-platforms}
 
