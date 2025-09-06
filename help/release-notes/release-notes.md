@@ -453,7 +453,7 @@ For detailed instructions, see the [upgrade documentation](/help/sites-deploying
 
 ## Install and update AEM Forms add-on {#install-update-aem-forms-add-on}
 
-For detailed instructions, see [AEM Forms Service Pack installation instructions](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions).
+For detailed instructions, see [Performing an In-Place Upgrade](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions).
 
 
 
