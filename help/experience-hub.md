@@ -44,11 +44,11 @@ The Adobe Experience Manager page has been refreshed with enhanced navigation an
 >
 >The widgets, tools, and artifacts shown depend on the user persona, entitlements, and AEM deployment type (AEM as a Cloud Service or Managed Services 6.5/6.5 LTS).
 
-These solutions are now moved to the main navigation under **Tools** or **Services**. Additionally, new navigation elements provide quick access to key Adobe Experience Manager features specific for the solutions that are enabled such as Assets, Sites, Forms, Content Fragments, Launches and many more.
+These solutions are now moved to the main navigation under **Tools** or **Services**. Additionally, new navigation elements provide quick access to key Adobe Experience Manager features specific for the solutions that are enabled. Such solutions include Assets, Sites, Forms, Content Fragments, Launches and many more.
 
 ![Experience Hub environments](/help/assets/assets-experience-hub/experience-hub-author-environments-ams.png)
 
-These features are available for the primary production environment that you have access to or you can select a specific environment to target in case you have access to multiple AEM instances.
+These features are available for the primary production environment to which you can access. Or, you can select a specific environment to target in case you have access to multiple AEM instances.
 
 ![Prod and stage environments](/help/assets/assets-experience-hub/experience-hub-prod-stage-ams.png)
 
@@ -60,7 +60,7 @@ Widgets can also be resized and repositioned on the page to suit your needs and 
 
 ![Experience Hub widgets](/help/assets/assets-experience-hub/experience-hub-custom-widgets-ams.png)
 
-The **Authoring Environments** section displays all AEM environments accessible to you, with specific shortcuts for the solutions and pages available for them also letting you pin specific environments that you want displayed at the top of the list.
+The **Authoring Environments** section displays all AEM environments accessible to you. There are specific shortcuts for the solutions and pages available for them also letting you pin specific environments that you want displayed at the top of the list.
 
 The **Recents** section, seen in the image below, lists pages you recently visited in AEM. Depending on your tenant's licensing, the widget may include items such as Program, Pipeline Execution, Assets, Page Editor, and Form Editor.
 
@@ -76,4 +76,4 @@ If no production AEM Cloud Service or Managed Services environments exist, the s
 
 ## AI Assistant in AEM
 
-For customers who have [completed pre-requisite criteria](/help/ai-assistant-in-aem.md#get-access), the AI Assistant in AEM is available to users of their organization. See [AI Assistant in AEM](/help/ai-assistant-in-aem.md).
+For customers who have [completed pre-requisite criteria](/help/ai-assistant-in-aem.md#get-access), AI Assistant in AEM is available to users of their organization. See [AI Assistant in AEM](/help/ai-assistant-in-aem.md).
