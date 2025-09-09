@@ -12,10 +12,14 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 | Product | [!DNL Adobe Experience Manager] 6.5 LTS |
 |---|---|
-| Version | Service Pack 1 (SP1) <!-- UPDATE FOR EACH NEW RELEASE --> |
+| Version | Service Pack 1 (SP1), Hotfix for GRANITE-61551 <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
-| Date | August 28, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | 
+| Date | September 9, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fcq660%2Fhotfixes%2Fcq-6.5.lts.1-hotfix-GRANITE-61551-1.2.zip) |
+
+<!-- OLD URL TO JAR
+(https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | -->
+
 
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
 
