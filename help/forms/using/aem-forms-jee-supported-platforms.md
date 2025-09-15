@@ -112,7 +112,7 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>Minor releases and updates </p> </td>
   </tr>
   <tr> 
-   <td><p>Oracle Java&trade; SE 17 (64 bit) <sup> [8] </sup> </p>  </td>
+   <td><p>Oracle Java&trade; SE 11 (64 bit) <sup> [8] </sup> </p>  </td>
    <td><p>A: Supported</p> </td>
    <td><p>Minor releases and updates </p> </td>
   </tr>
