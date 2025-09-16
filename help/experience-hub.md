@@ -3,8 +3,8 @@ title: About Experience Hub
 description: Learn about the Adobe Experience Hub page.
 landing-page-description: Learn about the Adobe Experience Hub, a centralized starting point for accessing all AEM capabilities.
 solution: Experience Manager, Experience Manager 6.5 LTS
-feature: Cloud Manager, Developing
-role: Admin, Architect, Developer
+feature: Authoring, Getting Started, Onboarding, Central Interface Components, Workflows, AI Assistant, Programs
+role: Admin, Architect, Developer, User
 exl-id: 6dbc943b-3bca-4926-896d-f1471a49a70f
 ---
 # About Experience Hub {#aem-experience-hub}
