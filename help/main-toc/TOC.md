@@ -1081,6 +1081,11 @@ user-guide-title: AEM 6.5 LTS
     + [Configuring and troubleshooting an AEM Forms on JEE server cluster](/help/forms/developing/configure-server-cluster.md)
     + [Generating and working with Hashes in dynamic PDF forms](/help/forms/developing/hashing-forms.md)
     + [Passing credentials using WS-Security headers](/help/forms/developing/passing-credentials.md)
++ AI in AEM {#ai-in-aem}
+  + [Overview](/help/ai-in-aem/overview.md)
+  + AI Assistant {#ai-assistant}
+    + [Configure AI Assistant in AEM](/help/ai-assistant-in-aem-admin.md)
+    + [About AI Assistant in AEM](/help/ai-assistant-in-aem.md)
 + Content and Commerce {#commerce}
   + [Introduction and overview](/help/commerce/cif/introduction.md)
   + [Notable Changes to AEM Content and Commerce](/help/commerce/cif/changes.md)
@@ -1142,9 +1147,6 @@ user-guide-title: AEM 6.5 LTS
     + [Translate content](/help/journey-headless/translation/translate-content.md)
     + [Publish translated content](/help/journey-headless/translation/publish-content.md)
   + [What is a documentation journey?](/help/journey-documentation/home.md)
-+ AI Assistant in AEM 6.5 LTS {#ai-assistant}
-  + [Configure AI Assistant in AEM](/help/ai-assistant-in-aem-admin.md)
-  + [About AI Assistant in AEM](/help/ai-assistant-in-aem.md)
 + Implementing {#implementing}
   + Developing {#developing}
     + Introduction for Developers {#introduction}
