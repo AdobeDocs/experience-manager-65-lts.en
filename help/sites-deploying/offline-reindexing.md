@@ -82,6 +82,7 @@ Where `oak-index-name` is the name of the full text index, for example, "lucene"
 ```
 java -cp oak-run.jar:tika-app-*.jar org.apache.jackrabbit.oak.run.Main tika --data-file text-extraction/oak-binary-stats.csv --store-path text-extraction/store --fds-path <datastore path> extract
 ```
+
 >[!NOTE]
 >
 >Use the same version of Tika as being used in AEM.
@@ -142,7 +143,7 @@ Once this is done, copy the newly created checkpoint id and validate the lifetim
 
 For more details, consult [checkpoint creation](https://jackrabbit.apache.org/oak/docs/query/oak-run-indexing.html#out-of-band-create-checkpoint) from the Oak documentation.
 
-**3. Perform offline indexing for the generated index definitions**
+**Perform offline indexing for the generated index definitions**
 
 Lucene reindexing can be done offline using oak-run. This process creates index data on disk under `indexing-result/indexes`. It does **not** write to the repository and thus does not require stopping the running AEM instance. The created text store is fed into this process:
 
