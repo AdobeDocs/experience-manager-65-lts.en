@@ -81,6 +81,6 @@ The easiest way to fix this issue is specifying the source datastore in the comm
 
 The warning may also be ignored, but in this case the repository will be fully reindexed on the first startup. It may be a long process, especially for the big instance. Repository won't be usable until the reindexing process is done. Use the `--skip-checkpoints` option to suppress the warning.
 
-You can also offline reindex the repository before starting AEM using [offline reindexing](/help/sites-deploying/offline-reindexing.md) avoid full reindexing on first startup.
+You can also offline reindex the repository before starting AEM using [offline reindexing](/help/sites-deploying/upgrade-offline-reindexing.md) avoid full reindexing on first startup.
 
 For more information on the oak-upgrade tool and advanced usage, refer to the [official documentation](https://jackrabbit.apache.org/oak/docs/migration.html).

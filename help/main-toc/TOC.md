@@ -1408,7 +1408,7 @@ user-guide-title: AEM 6.5 LTS
         + [Configuring node stores and data stores in AEM 6](/help/sites-deploying/data-store-config.md)
         + [Revision Cleanup](/help/sites-deploying/revision-cleanup.md)
         + [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md)
-        + [Offline Reindexing for AEM](/help/sites-deploying/offline-reindexing.md)
+        + [Offline Reindexing for AEM](/help/sites-deploying/upgrade-offline-reindexing.md)
         + [How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
         + [Indexing via the Oak-run Jar](/help/sites-deploying/indexing-via-the-oak-run-jar.md)
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
