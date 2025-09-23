@@ -27,7 +27,7 @@ This section covers upgrading an AEM installation to AEM 6.5 LTS:
 * [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
 * [Assessing the Upgrade Complexity with Pattern Detector](/help/sites-deploying/pattern-detector.md)
 * [Backward Compatibility in AEM 6.5](/help/sites-deploying/backward-compatibility.md)
-  This was drafted before: * [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
+-->
 
 <!--
 * [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)
