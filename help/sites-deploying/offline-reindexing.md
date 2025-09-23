@@ -1,6 +1,6 @@
 ---
 title: Offline Reindexing for AEM
-description: Learn how to use offline reindexing methodology to improve system performance and reduce downtime when reindexing AEM repositories.
+description: Learn how to use offline reindexing methodology to reindex AEM repositories.
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: indexing, performance
