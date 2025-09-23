@@ -5,7 +5,7 @@ contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: indexing, performance
 content-type: reference
-feature: Indexing
+feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: 0001c874-7468-4750-a377-03156674f4b9
