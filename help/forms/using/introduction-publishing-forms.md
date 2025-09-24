@@ -12,10 +12,11 @@ exl-id: 606cd19d-b244-4c4d-ab25-7709351dcfe0
 ---
 # Introduction to publishing forms on a portal{#introduction-to-publishing-forms-on-a-portal}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html).
 
 
 ## AEM Forms portal components overview {#aem-forms-portal-components-overview}

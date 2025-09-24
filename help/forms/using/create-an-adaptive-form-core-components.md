@@ -12,10 +12,11 @@ exl-id: eb857ab1-ab1b-4c77-af3b-4507f53a8241
 
 <span class="preview"> Adobe recommends using Core Components to [add Adaptive Forms to an AEM Sites Page](/help/forms/using/create-or-add-an-adaptive-form-to-aem-sites-page.md) or to [create standalone Adaptive Forms](/help/forms/using/create-an-adaptive-form-core-components.md). </span>
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service     | [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)|
-| AEM 6.5  |    This Article                  |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html).
 
 <!--**Applies to:** ✅ Adaptive Form Core Components ❎ [Adaptive Form Foundation Components](/help/forms/using/create-adaptive-form.md).-->
 
