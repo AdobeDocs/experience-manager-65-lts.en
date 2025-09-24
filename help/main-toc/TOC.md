@@ -398,8 +398,6 @@ user-guide-title: AEM 6.5 LTS
     + [Configure [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-configure.md)
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
-    + [What's new](/help/forms/using/whats-new.md)
-    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
     + [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
