@@ -1,14 +1,9 @@
 ---
 title: Offline Reindexing for AEM
 description: Learn how to use offline reindexing methodology to reindex AEM repositories.
-contentOwner: sarchiz
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: indexing, performance
-content-type: reference
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-exl-id: 0001c874-7468-4750-a377-03156674f4b9
 ---
 # Offline Reindexing for AEM {#offline-reindexing-for-aem}
 
