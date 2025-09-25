@@ -3,17 +3,18 @@ title: About Experience Hub
 description: Learn about the Adobe Experience Hub page.
 landing-page-description: Learn about the Adobe Experience Hub, a centralized starting point for accessing all AEM capabilities.
 solution: Experience Manager, Experience Manager 6.5 LTS
-feature: Cloud Manager, Developing
-role: Admin, Architect, Developer
+feature: Authoring, AI Assistant, Central Interface Components, Getting Started, Onboarding, Programs, Workflows 
+feature-set: Experience Cloud,Experience Manager Sites,Experience Cloud Services
+role: Admin, Architect, Developer, User
 exl-id: 6dbc943b-3bca-4926-896d-f1471a49a70f
 ---
 # About Experience Hub {#aem-experience-hub}
 
 Experience Hub introduces a centralized starting point for managing content, assets, and sites within Adobe Experience Manager. Designed to deliver a personalized experience, Experience Hub lets you navigate the AEM ecosystem seamlessly according to your roles and goals. Acting as a guide, it provides key insights and recommended actions to help you achieve your objectives efficiently. With a clear, persona-driven layout, Experience Hub ensures quick access to essential tools, supporting a streamlined and effective experience across all AEM features.
 
-Watch a quick tour of the reimagined AEM Experience Hub workspace (4 minutes, 9 seconds).
+Watch a quick tour of the reimagined AEM Experience Hub workspace (2 minutes, 39 seconds).
 
->[!VIDEO](https://video.tv.adobe.com/v/3471396?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475190/?learn=on&enablevpops)
 
 <!--
 Available as a private beta, Experience Hub offers an optimized experience focused on improving workflows, prioritizing goals, and delivering results. Opting in lets you influence Experience Hub's development by providing feedback that helps shape its future and enhances its value for the entire AEM community. -->
@@ -25,11 +26,11 @@ Available as a private beta, Experience Hub offers an optimized experience focus
     ![Adobe Experience Cloud home page](/help/assets/assets-experience-hub/experience-cloud-experiencemanager-ams.png)
 
 1. In the **Quick access** grouping, click [**Experience Manager**](https://experience.adobe.com).
-1. The first time you access it, on the **Tell us what you want to do** page, click the option you want so Adobe can tailor your experience. 
+1. On first access, the system assigns you the **Content Author** preset (seen near the upper-right corner of the page). It controls the widgets, navigation items, and content that you see.
 
-    You can change this preference at any anytime.
+    You can change this preset at any time.
 
-    ![The Tell us what you want to do page](/help/assets/assets-experience-hub/experience-cloud-tellus-ams.png)
+    ![Preset drop-down list showing Content Author selected](/help/assets/assets-experience-hub/experience-hub-role-selection.png) 
 
 The Adobe Experience Manager page has been refreshed with enhanced navigation and interactive widgets. The previous collection of solution cards provided access to tools like the following: 
 

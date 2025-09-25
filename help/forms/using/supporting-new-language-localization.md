@@ -12,10 +12,11 @@ exl-id: 9c516c90-1b1d-406a-b42d-909aae8bb634
 ---
 # Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/supporting-new-language-localization.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/supporting-new-language-localization.html).
 
 ## About locale dictionaries {#about-locale-dictionaries}
 

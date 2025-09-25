@@ -9,10 +9,11 @@ exl-id: 59b54622-55c4-4526-b584-c08bbd1d08bb
 ---
 # Create or customize an Adaptive Form theme {#introduction-to-theme}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service     | [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)|
-| AEM 6.5  |    This Article                  |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html).
  
 
 <!--**Applies to:** ✅ Adaptive Form Core Components ❎ [Adaptive Form Foundation Components](/help/forms/using/create-adaptive-form.md).-->

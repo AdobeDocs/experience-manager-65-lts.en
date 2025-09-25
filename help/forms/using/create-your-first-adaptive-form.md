@@ -8,10 +8,11 @@ exl-id: caa79def-4a29-4746-9a35-c362ea1c3c0c
 ---
 # Tutorial: Create your first adaptive form {#tutorial-create-your-first-adaptive-form}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form.html).
 
 
  ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)

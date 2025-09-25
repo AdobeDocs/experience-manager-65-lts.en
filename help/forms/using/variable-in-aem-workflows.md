@@ -12,10 +12,11 @@ exl-id: 1a0d00f9-45f7-45af-ab34-d1c164980abb
 ---
 # Variables in AEM Forms workflows{#variables-in-aem-forms-workflows}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/variable-in-aem-workflows.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/variable-in-aem-workflows.html).
 
 A variable in a workflow model is a way to store a value based on its data type. You can then use the name of the variable in any workflow step to retrieve the value stored in the variable. You can also use variable names to define expressions for taking routing decisions.
 

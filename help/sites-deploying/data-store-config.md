@@ -178,19 +178,19 @@ To upgrade to a new version of the 1.60.x S3 connector follow these steps:
 
 1. Stop the AEM instance.
 
-1. Navigate to `<aem-install>/crx-quickstart/install/15` in the AEM installation folder and make a backup of its contents.
-1. After the backup, delete the old version of the S3 Connector and its dependencies by deleting all the jar files in the `<aem-install>/crx-quickstart/install/15` folder, for example:
+1. Navigate to `<aem-install>/crx-quickstart/install` in the AEM installation folder and make a backup of all of its subfolders.
+1. After the backup, delete the old version of the S3 Connector and its dependencies by deleting all the jar files in all the folders under `<aem-install>/crx-quickstart/install/` folder, for example:
 
-    * **oak-blob-cloud-1.6.1.jar**
-    * **aws-java-sdk-osgi-1.10.76.jar**
+    * **15/oak-blob-cloud-1.78.XXX.jar**
+    * **15/aws-java-sdk-osgi-1.12.XXX.jar**
 
    >[!NOTE]
    >
    >The file names presented above are used for illustration purposes only.
 
-1. Download the latest version of the 1.60.x feature pack from the [Software Distribution.](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/granite/s3-connector/6-5-lts/com.adobe.granite.oak.s3connector-1.60.2.zip)
-1. Unzip the contents to a separate folder, then navigate to `jcr_root/libs/system/install/15`.
-1. Copy the jar files to **&lt;aem-install&gt;**/crx-quickstart/install/15 in the AEM installation folder.
+1. Download the latest version of the 1.60.x feature pack from the [Maven repository.](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.oak.s3connector/)
+1. Unzip the contents to a separate folder, then navigate to `jcr_root/libs/system/install/`.
+1. Copy the all the subfolders to **&lt;aem-install&gt;**/crx-quickstart/install/ in the AEM installation folder.
 1. Start AEM and check the connector functionality.
 
 You can use the configuration file with the options detailed below.
