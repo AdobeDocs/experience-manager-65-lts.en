@@ -28,7 +28,7 @@ Available as a private beta, Experience Hub offers an optimized experience focus
 1. In the **Quick access** grouping, click [**Experience Manager**](https://experience.adobe.com).
 1. On first access, the system assigns you the **Content Author** preset (seen near the upper-right corner of the page). It controls the widgets, navigation items, and content that you see.
 
-    You can change this preset at any time.
+    You can change this preset at any time. 
 
     ![The drop-down list showing the Content Author preset is selected](/help/assets/assets-experience-hub/experience-hub-role-selection.png)
 
