@@ -6,14 +6,13 @@ solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 exl-id: e9549ac9-0ada-4661-969a-709f0ed3b133
 ---
-# Introduction to AEM Forms{#introduction-to-aem-forms}
+# Introduction to AEM Forms {#introduction-to-aem-forms}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/forms-overview/home.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
 
-For information about latest features and enhancements in AEM Forms, see [What's new in AEM Forms](../../forms/using/whats-new.md).
+This documentation applies to **AEM 6.5  LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/forms-overview/home.html).
 
 ## About AEM Forms {#about-aem-forms}
 
