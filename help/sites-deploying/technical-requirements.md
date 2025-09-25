@@ -165,7 +165,9 @@ Adobe Experience Manager works with the following server platforms for productio
     >* libxcb.x86_64 (1.13-1.el7)
     >* libXau.x86_64 (1.0.8-2.1.el7)
     >* glibc-locale.x86_64 (2.17 or later)
-
+    >* OpenSSL 3 (required at default location on OS). 
+    
+    *For OpenSSL 3 Installation: The libraries libcrypto.so.3 and libssl.so.3 must be available in the default library path represented by the LD_LIBRARY_PATH environment variable. If they are installed in a non-standard location, ensure that this path is added to LD_LIBRARY_PATH before starting the server.*
 
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
 
