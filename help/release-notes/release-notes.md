@@ -443,6 +443,43 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 * For details about the upgrade procedure, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
 
+#### Best practices for AEM 6.5 LTS Service Pack upgrades
+
+<!-- THE INFORMATION UNDER THIS HEADING CAME FROM CQDOC-23078 -->
+
+**Environment**
+Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 1 (SP1). SP1 is delivered as a Quickstart JAR.
+
+**Why this matters**
+SP1 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-prem customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's in-place upgrade procedure.
+
+**Recommended upgrade flow (Author or Publish)**
+
+1. Verify your AEM 6.5 LTS instance is healthy and accessible.
+1. Download the SP1 Quickstart JAR (for example, `cq-quickstart-6.6.x.jar`) from Software Distribution. 
+1. Stop the running instance. 
+1. In the AEM install directory (outside `crx-quickstart/`), replace the previous Quickstart JAR with the SP1 JAR.
+1. Unpack the JAR:
+
+    ```java
+    java -jar cq-quickstart-6.6.x.jar -unpack
+    ```
+
+    (Adjust heap flags as needed.)
+
+1. Rename the unpacked JAR to match the role and port, for example `cq-author-4502.jar` or `cq-publish-4503.jar`.
+1. Start AEM and confirm the upgrade in the UI (Help > About) and logs.
+
+**Good hygiene**
+
+* Run the upgrade in lower/test environments before production.
+* Take full, restorable backups (repository plus any external datastores) before you begin.
+* Review Adobe's in-place upgrade guidance and technical requirements (Java 17/21 recommended for LTS).
+
+>[!NOTE]
+>
+>File names shown above (for example, `cq-quickstart-6.6.x.jar`) reflect the SP1 Quickstart artifact naming observed for this LTS release; always use the exact file name you download from Software Distribution. 
+
 ## Install and update {#install-update}
 
 For setup requirements, see [installation instructions](/help/sites-deploying/custom-standalone-install.md).
