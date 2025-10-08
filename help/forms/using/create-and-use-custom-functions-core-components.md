@@ -18,10 +18,11 @@ This article describes creating Custom Functions with the latest Adaptive Form C
 Ensure to set the [latest form version](https://github.com/adobe/aem-core-forms-components/tree/release/650) on your AEM Forms Core Component environment to use the latest features in Custom Functions. </span>
 
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM 6.5  |  This Article                    |
-| AEM as a Cloud Service     | [Click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions)         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions).
 
 ## Introduction
 

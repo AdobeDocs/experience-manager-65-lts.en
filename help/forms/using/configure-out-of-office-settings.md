@@ -8,10 +8,11 @@ exl-id: ea10d2e1-9f17-4757-ae2e-67447ff0ad0a
 ---
 # Configure Out of Office setting {#configure-out-of-office-settings}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/configure-out-of-office-settings.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/configure-out-of-office-settings.html).
 
 If you plan to be out of the office, you can specify what happens to items that are assigned to you for that period.
 

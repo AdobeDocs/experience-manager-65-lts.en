@@ -11,10 +11,11 @@ exl-id: 6e69ca67-883f-4079-96e2-5b7a9c843ada
 
 <span class="preview"> Adobe recommends using the modern and extensible data capture [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) for [creating new Adaptive Forms](/help/forms/using/create-an-adaptive-form-core-components.md) or [adding Adaptive Forms to AEM Sites pages](/help/forms/using/create-or-add-an-adaptive-form-to-aem-sites-page.md). These components represent a significant advancement in Adaptive Forms creation, ensuring impressive user experiences. This article describes older approach to author Adaptive Forms using foundation components. </span>
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM 6.5  |   This article                |
-| AEM as a Cloud Service     | [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html).
 
 With AEM Forms, you can seamlessly incorporate adaptive forms into your web pages. This allows your visitors to conveniently fill and submit forms without ever leaving the page they are on. By doing so, they can effortlessly stay engaged with other elements of the website while actively interacting with the form. 
 

@@ -10,7 +10,9 @@ user-guide-title: AEM 6.5 LTS
 # Adobe Experience Manager 6.5 LTS Documentation {#content}
 
 + Release Notes {#release-notes}
-  + [Release notes](/help/release-notes/release-notes.md)
+  + [Current](/help/release-notes/release-notes.md)
+  + Previous release notes {#service-pack}
+    + [GA](/help/release-notes/previous/ga.md)
   + [Frequently Asked Questions](/help/release-notes/faq.md)
   + [Technical FAQ](/help/release-notes/technical-faq.md)
 + Security {#security}
@@ -43,6 +45,8 @@ user-guide-title: AEM 6.5 LTS
   + [Same Site Cookie Support](/help/sites-administering/same-site-cookie-support.md)
   + [JWT Credentials Deprecation in Adobe Developer Console](/help/sites-administering/jwt-credentials-deprecation-in-adobe-developer-console.md)
   + [Setting Up IMS Integrations for AEM](/help/sites-administering/setting-up-ims-integrations-for-aem.md)
++ Experience Hub {#experience-hub}
+  + [About Experience Hub](/help/experience-hub.md) 
 + Sites {#sites}
   + Authoring {#authoring}
     + Essential tasks, tools and concepts for AEM Authoring {#essentials}
@@ -394,8 +398,6 @@ user-guide-title: AEM 6.5 LTS
     + [Configure [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-configure.md)
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
-    + [What's new](/help/forms/using/whats-new.md)
-    + [Frequently asked questions](/help/forms/using/frequently-asked-questions-faq.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
     + [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
@@ -1077,6 +1079,11 @@ user-guide-title: AEM 6.5 LTS
     + [Configuring and troubleshooting an AEM Forms on JEE server cluster](/help/forms/developing/configure-server-cluster.md)
     + [Generating and working with Hashes in dynamic PDF forms](/help/forms/developing/hashing-forms.md)
     + [Passing credentials using WS-Security headers](/help/forms/developing/passing-credentials.md)
++ AI in AEM {#ai-in-aem}
+  + [Overview](/help/ai-in-aem/overview.md)
+  + AI Assistant {#ai-assistant}
+    + [Configure AI Assistant in AEM](/help/ai-assistant-in-aem-admin.md)
+    + [About AI Assistant in AEM](/help/ai-assistant-in-aem.md)
 + Content and Commerce {#commerce}
   + [Introduction and overview](/help/commerce/cif/introduction.md)
   + [Notable Changes to AEM Content and Commerce](/help/commerce/cif/changes.md)
@@ -1399,6 +1406,7 @@ user-guide-title: AEM 6.5 LTS
         + [Configuring node stores and data stores in AEM 6](/help/sites-deploying/data-store-config.md)
         + [Revision Cleanup](/help/sites-deploying/revision-cleanup.md)
         + [Oak Queries and Indexing](/help/sites-deploying/queries-and-indexing.md)
+        + [Offline Reindexing for AEM](/help/sites-deploying/offline-reindexing.md)
         + [How to Run AEM with TarMK Cold Standby](/help/sites-deploying/tarmk-cold-standby.md)
         + [Indexing via the Oak-run Jar](/help/sites-deploying/indexing-via-the-oak-run-jar.md)
         + [Oak-run.jar Indexing Use Cases](/help/sites-deploying/oak-run-indexing-usecases.md)
@@ -1430,7 +1438,6 @@ user-guide-title: AEM 6.5 LTS
         + [Backward Compatibility in AEM 6.5 LTS](/help/sites-deploying/backward-compatibility.md)
         + [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)
         + [Performing an In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md)
-        + [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)
         + [Lazy Content Migration](/help/sites-deploying/lazy-content-migration.md)
         + [Using the CRX2Oak Migration Tool](/help/sites-deploying/using-crx2oak.md)
         + [AEM 6.5 to AEM 6.5 LTS Content Migration Using Oak-upgrade](/help/sites-deploying/aem-65-to-aem-65lts-content-migration-using-oak-upgrade.md)

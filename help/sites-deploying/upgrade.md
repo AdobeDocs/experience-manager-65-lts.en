@@ -14,7 +14,11 @@ exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 # Upgrading to Adobe Experience Manager (AEM) 6.5 LTS {#upgrading-to-aem}
 
 >[!NOTE]
->The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs.
+>The upgrade to AEM 6.5 LTS is available for all supported 6.5 Service Packs.
+
+>[!NOTE]
+>
+>From a technical perspective, the upgrade process from AEM 6.5 LTS to AEM 6.5 LTS Service Packs is designed to be a seamless [in-place upgrade](/help/sites-deploying/in-place-upgrade.md). This process generally does not necessitate any code changes from customers, unless specifically indicated in the release notes.
 
 This section covers upgrading an AEM installation to AEM 6.5 LTS:
 
@@ -23,7 +27,7 @@ This section covers upgrading an AEM installation to AEM 6.5 LTS:
 * [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
 * [Assessing the Upgrade Complexity with Pattern Detector](/help/sites-deploying/pattern-detector.md)
 * [Backward Compatibility in AEM 6.5](/help/sites-deploying/backward-compatibility.md)
-  This was drafted before: * [Using Offline Reindexing To Reduce Downtime During an Upgrade](/help/sites-deploying/upgrade-offline-reindexing.md)-->
+-->
 
 <!--
 * [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md)

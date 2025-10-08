@@ -11,10 +11,11 @@ exl-id: 6c3c4d7f-fc4c-44ad-886f-f76d0532d91a
 ---
 # Microsoft Dynamics OData configuration{#microsoft-dynamics-odata-configuration}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/ms-dynamics-odata-configuration.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/ms-dynamics-odata-configuration.html).
 
  ![data-integeration](assets/data-integeration.png)
 

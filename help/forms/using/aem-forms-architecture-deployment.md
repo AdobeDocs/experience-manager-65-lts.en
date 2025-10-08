@@ -12,10 +12,11 @@ exl-id: 23ffbaa6-1bd9-48c3-afa3-19737bb15de0
 ---
 # Architecture and deployment topologies for AEM Forms {#architecture-and-deployment-topologies-for-aem-forms}
 
-| Version | Article link |
-| -------- | ---------------------------- |
-| AEM as a Cloud Service |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/forms-overview/aem-forms-cloud-service-architecture.html)                  |
-| AEM 6.5     | This article         |
+## Applies to {#applies-to}
+
+This documentation applies to **AEM 6.5 LTS Forms**.
+
+For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/forms-overview/aem-forms-cloud-service-architecture.html).
 
 ## Architecture {#architecture}
 
