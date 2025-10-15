@@ -404,6 +404,7 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Users were unable to use the timeline feature of PDF files in AEM forms. This issue affected users' ability to track document changes and revisions effectively. When uploading any PDF under the 'Forms and Documents' section in the AEM forms area, the timeline view ceases to function. (FORMS-19408)
 * Users experience a null pointer exception when interacting with OData. This cause interruptions in data retrieval processes. (FORMS-20348)
 * Removed the google.common.collect library following the removal of Guava, an open-source Java library. This update ensures better compatibility and performance for enterprise customers using Adaptive Forms. (FORMS-17031)
+* When Server-Side Validation (SSV) is enabled, form submissions may fail. If you encounter this issue, please contact [Adobe Support](https://business.adobe.com/in/support/main.html) for assistance. (FORMS-21966)
 
 ### Forms Captcha
 
