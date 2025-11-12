@@ -1,6 +1,6 @@
 ---
 title: Foundation Components
-description: Learn about Foundation Components in Adobe Experience Manager 6.5.
+description: Learn about Foundation Components in Adobe Experience Manager 6.5  LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
@@ -10,7 +10,7 @@ exl-id: c507bef7-4ddc-4e8c-9947-71cb2ecbbf0a
 
 >[!CAUTION]
 >
->Most Foundation Components are deprecated with AEM 6.5. Adobe recommends using the more modern and extensible [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) in AEM projects. These components are part of the [We.Retail sample content](/help/sites-developing/we-retail.md) and can also be [installed separately and used for development](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/using.html) by your administrator.
+>Most Foundation Components are deprecated with AEM 6.5 LTS. Adobe recommends using the more modern and extensible [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) in AEM projects. These components are part of the [We.Retail sample content](/help/sites-developing/we-retail.md) and can also be [installed separately and used for development](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/using.html) by your administrator.
 >
 >You can use the [AEM Modernize Tools Suite](https://opensource.adobe.com/aem-modernize-tools/) to refactor your Foundation Components-based site to use Core Components.
 

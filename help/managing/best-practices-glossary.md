@@ -1,12 +1,7 @@
 ---
 title: Glossary
 description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/MANAGING
-topic-tags: managing-checklist
-content-type: reference
-docset: aem65
-solution: Experience Manager, Experience Manager 6.5
+solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Admin,Architect,Data Architect,Developer,Leader
 exl-id: e6542ba9-1182-4b81-b251-537747b89e4c

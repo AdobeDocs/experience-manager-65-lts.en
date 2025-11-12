@@ -1,11 +1,6 @@
 ---
 title: Workflow participation
 description: Workflows typically include steps that require a person to perform an activity on a page or asset.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: site-features
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
 role: User,Admin,Architect,Developer

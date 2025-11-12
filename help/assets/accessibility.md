@@ -1,7 +1,6 @@
 ---
 title: Accessible features and interfaces of [!DNL Experience Manager Assets]
-description: Know how accessibility features in [!DNL Adobe Experience Manager] 6.5 [!DNL Assets] help users with disabilities.
-contentOwner: AG
+description: Know how accessibility features in [!DNL Adobe Experience Manager] 6.5 LTS [!DNL Assets] help users with disabilities.
 feature: Asset Management
 role: User, Architect, Leader
 solution: Experience Manager, Experience Manager Assets

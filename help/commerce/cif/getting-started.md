@@ -16,15 +16,15 @@ To get started with AEM Content and Commerce, you need to install the AEM Conten
 
 The onboarding for AEM Content and Commerce is a two-step process:
 
-1. Install the AEM Content and Commerce Add-On for AEM 6.5
+1. Install the AEM Content and Commerce Add-On for AEM 6.5 LTS
 
 2. Connect AEM with your commerce solution
 
-### Install the AEM Content and Commerce Add-On for AEM 6.5 {#install-add-on}
+### Install the AEM Content and Commerce Add-On for AEM 6.5 LTS {#install-add-on}
 
-Download and install the AEM Commerce Add-On for AEM 6.5 from the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) portal.
+Download and install the AEM Commerce Add-On for AEM 6.5 LTS from the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) portal.
 
-Start and install the requiered AEM 6.5 Service Pack. We recommend installing the last available service pack.
+Start and install the requiered AEM 6.5 LTS Service Pack. We recommend installing the last available service pack.
 
 >[!NOTE]
 >

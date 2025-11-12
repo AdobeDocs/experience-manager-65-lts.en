@@ -1,10 +1,6 @@
 ---
 title: Configure Dynamic Media General Settings
 description: Learn how to manage General Settings in Dynamic Media. You can set your publish server name and origin server name here and set an image overwrite option. There are also default upload options for unsharp masking of images, and upload options for how you want to process PostScript, Adobe Photoshop, PDF, and Adobe Illustrator files.
-contentOwner: Rick Brough
-products: SG_EXPERIENCEMANAGER/6.5/ASSETS
-topic-tags: administering
-content-type: reference
 feature: Image Profiles
 role: User, Admin
 mini-toc-levels: 4
@@ -16,7 +12,7 @@ exl-id: 99cd5f46-f1aa-46f5-b112-311724e00490
 Configuring **[!UICONTROL Dynamic Media General Settings]** is available only if:
 
 * You are running Dynamic Media in Scene7 mode. See [Enable Dynamic Media in Scene7 mode](/help/assets/config-dms7.md#enabling-dynamic-media-in-scene-mode).
-* You have an *existing* **[!UICONTROL Dynamic Media Configuration]** (in **[!UICONTROL Cloud Services]**) in Adobe Experience Manager 6.5.11 or above. See [Create a Dynamic Media Configuration in Cloud Services](/help/assets/config-dms7.md#configuring-dynamic-media-cloud-services).
+* You have an *existing* **[!UICONTROL Dynamic Media Configuration]** (in **[!UICONTROL Cloud Services]**). See [Create a Dynamic Media Configuration in Cloud Services](/help/assets/config-dms7.md#configuring-dynamic-media-cloud-services).
 * You are an Experience Manager system administrator with administrator privileges.
 
 Dynamic Media General Settings is intended for use by experienced web site developers and programmers. Adobe Dynamic Media recommends that users who change these publish settings be familiar with Dynamic Media on Adobe Experience Manager and basic imaging technology.

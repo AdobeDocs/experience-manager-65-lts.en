@@ -1,6 +1,6 @@
 ---
 title: Your Inbox to manage tasks
-description: Managing your tasks with the inbox in Adobe Experience Manager 6.5.
+description: Managing your tasks with the inbox in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

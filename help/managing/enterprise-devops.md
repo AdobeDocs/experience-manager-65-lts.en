@@ -1,11 +1,7 @@
 ---
 title: Enterprise DevOps
 description: Learn about the processes, methods, and communication required to ease deployment and simplify collaboration.
-contentOwner: msm-service
-products: SG_EXPERIENCEMANAGER/6.5/MANAGING
-topic-tags: managing
-content-type: reference
-solution: Experience Manager, Experience Manager 6.5
+solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Developer,Leader
 exl-id: bd80a4c5-4b65-43db-af4e-f43849c796be

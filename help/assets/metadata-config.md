@@ -13,7 +13,7 @@ exl-id: 43fb8af8-9750-44c1-8e02-34b25b92fd65
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/metadata-profiles.html?lang=en)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS    | This article         |
 
 <!-- Scope of metadata articles:
 * metadata.md: The scope of this article is basic metadata updates, changes, and so on, operations that end-users can do.
@@ -266,7 +266,7 @@ Enter metadata values in the various fields and click **[!UICONTROL Save]** to s
 
 * To import metadata on custom namespaces, first register the namespaces.
 * Property Picker displays properties that are used in schema editors and search forms. Property Picker does not pick metadata properties from an asset.
-* You may have pre-existing metadata profiles existing since before upgrading to [!DNL Experience Manager] 6.5. After upgrade, if you apply such a profile in folder [!UICONTROL Properties] in [!UICONTROL Metadata Profiles] tab, the metadata form fields do not display. However, if you apply a newly created metadata profile, the form fields are displayed but unavailable as expected. There is no loss of functionality but if you want to see the (unavailable) form fields then edit and save the existing metadata profiles.
+* You may have pre-existing metadata profiles existing since before upgrading to [!DNL Experience Manager] 6.5 LTS. After upgrade, if you apply such a profile in folder [!UICONTROL Properties] in [!UICONTROL Metadata Profiles] tab, the metadata form fields do not display. However, if you apply a newly created metadata profile, the form fields are displayed but unavailable as expected. There is no loss of functionality but if you want to see the (unavailable) form fields then edit and save the existing metadata profiles.
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: Extending [!DNL Adobe Experience Manager] 6.5 using Adobe Developer App Builder.
-description: Extending [!DNL Adobe Experience Manager] 6.5 using Adobe Developer App Builder.
+title: Extending [!DNL Adobe Experience Manager] 6.5 LTS using Adobe Developer App Builder.
+description: Extending [!DNL Adobe Experience Manager] 6.5 LTS using Adobe Developer App Builder.
 solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
