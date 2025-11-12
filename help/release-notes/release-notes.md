@@ -562,8 +562,6 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ## Known issues {#known-issues} 
 
-A hotfix [GRANITE-62993](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip ) is available to resolve this problem. -->
-
 <!-- DO THESE KNOWN ISSUES CARRY OVER EACH RELEASE? THE "PRODUCT UPDATES TEAM" IS SUPPOSED TO VERIFY EACH ISSUE AND LET YOU KNOW IF ANYTHING NEEDS TO BE ADDED, DELETED, OR CHANGED IN THIS LIST. -->
 
 <!-- REMOVED THIS SECTION AS PER CQDOC-23046
@@ -604,6 +602,18 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 **Solution:**
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
+
+### Empty Permissions screen on security UI on AEM 6.5 LTS SP1
+
+>[!NOTE]
+>
+> This issue is only present in the AEM 6.5 LTS SP1 release.
+
+When accessing Permissions page under Tools -> Security  in AEM 6.5 LTS SP1, it gives blank page instead of showing permissions for a user or group.
+
+**Solution:**
+A hotfix [cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip) is available to resolve this problem.
+
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
