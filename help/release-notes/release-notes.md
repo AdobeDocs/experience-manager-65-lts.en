@@ -603,7 +603,7 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 **Solution:**
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
 
-### Empty Permissions screen on security UI on AEM 6.5 LTS SP1
+### Empty Permissions page on security UI on AEM 6.5 LTS SP1
 
 >[!NOTE]
 >
