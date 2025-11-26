@@ -34,7 +34,7 @@ This article lists the critical fixes implemented to address known issues, impro
      <li>OSX- <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]1-hotfix-on-add-on/adobe-aemfd-osx-pkg-6.1.176-RHF-002.zip">Hotfix2 for AEM Service Pack 6.5 LTS on OSX</a></li>
     <td>
     <ul>
-    <li>Improves form submission reliability by addressing an issue where submissions fail when Server-Side Validation (SSV) is enabled and computed Meta Info is empty. If you encounter any issues, contact [Adobe Experience Manager Forms Support](https://business.adobe.com/in/support/main.html)
+    <li>Enhanced form submission reliability by addressing an issue where submissions may fail when Server-Side Validation (SSV) was enabled If you encounter any issues, contact [Adobe Experience Manager Forms Support](https://business.adobe.com/in/support/main.html)
     </li>
     </ul>
     </td>    
