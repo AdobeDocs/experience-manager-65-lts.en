@@ -1,10 +1,6 @@
 ---
 title: Invalidate the Content Delivery Network cache by way of Dynamic Media
 description: Invalidate your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
-contentOwner: Rick Brough
-products: SG_EXPERIENCEMANAGER/6.5.6/ASSETS
-topic-tags: dynamic-media
-content-type: reference
 role: User, Admin
 feature: CDN Cache
 solution: Experience Manager, Experience Manager Assets

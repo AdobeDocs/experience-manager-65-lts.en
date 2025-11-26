@@ -1,6 +1,6 @@
 ---
 title: Authoring content pages in AEM
-description: The tasks involved when authoring a content page in Adobe Experience Manager 6.5.
+description: The tasks involved when authoring a content page in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

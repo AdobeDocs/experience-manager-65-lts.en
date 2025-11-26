@@ -13,7 +13,7 @@ exl-id: 33f539d2-ae00-4f43-a27a-55c1b55a6c0c
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/aem-assets-adobe-stock.html?lang=en)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS    | This article         |
 
 <!-- old content
 
@@ -444,8 +444,6 @@ Users can see the properties for both, licensed and unlicensed assets.
 
 
 ## Known limitations {#known-limitations}
-
-* **Issues in integration with [!DNL Experience Manager] Service Pack 6.5.7.0 and above**: An unexpected issue is identified during integration with [!DNL Experience Manager] 6.5.7.0 and above. The issue is under testing and expected to be available in [!DNL Experience Manager] 6.5.11.0. Contact [!DNL Customer Support] for an immediate hotfix.
 
 * **Functionality to restrict users from licensing is not working properly**: All users having `read` permissions to the stock configuration are allowed to search and license the [!DNL Adobe Stock] assets. 
 

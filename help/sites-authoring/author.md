@@ -1,6 +1,6 @@
 ---
 title: Authoring
-description: Concepts of authoring and publishing in Adobe Experience Manager 6.5.
+description: Concepts of authoring and publishing in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer

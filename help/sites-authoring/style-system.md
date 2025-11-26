@@ -1,9 +1,6 @@
 ---
 title: Style System
 description: The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. These styles can be alternative visual variations of a component, making it more flexible.
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
@@ -123,7 +120,7 @@ With the component configured, the styles configured by the page authors will be
 
 ### Enable Styles Tab in Edit Dialog {#enable-styles-tab-edit}
 
-As of AEM version 6.5.3.0 an optional Styles tab in the Edit Dialog is now available. Unlike the Design Dialog tab, the tab in the Edit Dialog is not essential for the Style System to function, but is an optional alternative interface for a content author to set styles.
+Ann optional Styles tab in the Edit Dialog is now available. Unlike the Design Dialog tab, the tab in the Edit Dialog is not essential for the Style System to function, but is an optional alternative interface for a content author to set styles.
 
 The edit dialog tab can be included in a similar way to the design dialog tab:
 

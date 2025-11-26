@@ -1,11 +1,6 @@
 ---
 title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: site-features
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Architect,Developer
