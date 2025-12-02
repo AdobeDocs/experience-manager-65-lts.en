@@ -1,7 +1,7 @@
 ---
 title: A Quick Guide to WCAG 2.1
 description: A Quick Guide to Web Content Accessibility Guidelines (WCAG) version 2.1.
-solution: Experience Manager, Experience Manager 6.5
+solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Developer,Leader,Architect,Data Architect,User
 exl-id: 57afd8bf-c6d6-47ab-9a30-c5830bc5ea51

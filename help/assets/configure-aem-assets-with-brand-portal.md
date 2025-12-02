@@ -12,7 +12,7 @@ exl-id: 22a2428d-3ebd-4368-983e-d140f99de2dd
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS     | This article         |
 
 Adobe Experience Manager Assets Brand Portal lets you publish approved brand assets from Adobe Experience Manager Assets to Brand Portal and distribute them to the Brand Portal users.
 
@@ -54,17 +54,13 @@ You require the following to configure AEM Assets with Brand Portal:
 * A Brand Portal tenant URL
 * A user with system administrator privileges on the IMS organization of the Brand Portal tenant 
 
-[Download and install AEM 6.5](#aemquickstart)
-
-[Download and install the latest AEM Service Pack](#servicepack)
-
 ### Download and install AEM 6.5 LTS {#aemquickstart}
 
 It is recommended to have AEM 6.5 LTS to set up an AEM Author instance. If you do not have AEM up and running, download it from the following locations:
 
 * If you are an existing AEM customer, download AEM 6.5 LTS from the [Adobe Licensing website](https://licensing.adobe.com).
 
-* If you are an Adobe partner, use the [Adobe Partner Training Program](https://solutionpartners.adobe.com/) to request AEM 6.5.
+* If you are an Adobe partner, use the [Adobe Partner Training Program](https://solutionpartners.adobe.com/) to request AEM 6.5 LTS.
 
 After you download AEM, for instructions to set up an AEM Author instance, see [deploying and maintaining](/help/sites-deploying/deploy.md#default-local-install).
 
@@ -425,5 +421,5 @@ Run the following checklist while deleting the existing configurations:
    ![More detail of replication agent in CRXDE](assets/delete-mac-user.png)
 
 
-You can now [create a configuration](#configure-new-integration-65) by way of the Adobe Developer Console on your AEM 6.5 Author instance. 
+You can now [create a configuration](#configure-new-integration-65) by way of the Adobe Developer Console on your Author instance. 
 -->

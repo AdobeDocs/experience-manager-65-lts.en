@@ -1,7 +1,6 @@
 ---
 title: Use Media Library for basic digital asset management
 description: '[!DNL Experience Manager Assets] and Media Library for asset management.'
-contentOwner: AG
 role: Architect, Leader
 feature: Asset Management
 hide: yes
@@ -13,7 +12,7 @@ exl-id: 50a980e5-3b35-4485-9a5b-44d1a42a837c
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS     | This article         |
 
 [!DNL Adobe Experience Manager] platform provides different capabilities to manage assets. Media Library allows the users to upload a small number of assets to the repository, search and use those in the webpages, and accomplish simple asset management tasks on the assets.
 
@@ -84,9 +83,3 @@ As per PM, we must avoid stating such a list, as we do not have a list that make
 Note that you cannot use smart tags, [!DNL Asset] link, [!DNL Asset] selector, bulk tagging, modify asset workflows, or standard [!DNL Adobe Experience Manager] user interface to access Media Library without [!DNL Assets] license.
 
 <!-- TBD: Add a CTA - how to contact Adobe for queries. -->
-
->[!MORELIKETHIS]
->
->* [DAM features in [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/assets/assets)
->* [[!DNL Experience Manager] 6.5 Managed Services product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
->* [[!DNL Experience Manager] 6.5 on-premise product description](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)

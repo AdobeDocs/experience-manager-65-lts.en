@@ -32,8 +32,6 @@ The focus traversal follows the natural user interface element location on the s
   * The next four `Tab` stops are the frame's four corners. When focus is placed on a frame corner, the corner is highlight. Again, you can use arrow keys on the keyboard to move the focused corner.
   See [Edit the smart crop or smart swatch of a single image](/help/assets/image-profiles.md#editing-the-smart-crop-or-smart-swatch-of-a-single-image)
 
-<!-- Keyboarding is the same because Dynamic Media is using the same UI library (Coral 3 (AEM 6.5) or Coral Spectrum (in Skyline)) as entire AEM Assets.  -->
-
 <!-- In the Hotspot editor, Dynamic Media lets you use arrow keys to control the position of a hot spot. See [Carousel Banners](/help/assets/dynamic-media/carousel-banners.md#adding-hotspots-or-image-maps-to-an-image-banner) or [Interactive Images](/help/assets/dynamic-media/interactive-images.md#adding-hotspots-to-an-image-banner)  -->
 
  <!-- I think we should definitely mention this in the DM-specific area of documentation for keyboard support. -->

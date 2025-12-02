@@ -12,7 +12,7 @@ exl-id: 2f2eb576-4924-4314-b348-c4b290a57fe3
 | Version | Article link |
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)                  |
-| AEM 6.5     | This article         |
+| AEM 6.5 LTS    | This article         |
 
 AEM [!DNL Assets] is a Digital Asset Management (DAM) tool that is a part of the [!DNL Experience Manager] platform and enables your enterprise to manage and distribute digital assets. Users across an organization can manage, store, and access many types of digital assets such as images, videos, documents, audio clips, 3D files, and rich media for use on the web, in print, and for digital distribution.
 

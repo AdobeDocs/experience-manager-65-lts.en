@@ -1,10 +1,6 @@
 ---
 title: Work with Workflows
 description: Workflows in Adobe Experience Manager let you automate a series of steps that are performed on a page or asset.
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
 role: User,Admin,Architect,Developer

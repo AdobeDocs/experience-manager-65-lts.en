@@ -1,10 +1,6 @@
 ---
 title: Understanding Segmentation when creating a campaign
 description: Segmentation is a key consideration when creating a campaign.
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
 role: User,Admin,Architect,Developer

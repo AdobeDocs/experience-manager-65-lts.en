@@ -1,6 +1,6 @@
 ---
 title: Personalization and Content Targeting
-description: Learn how Adobe Experience Manager 6.5 can create personalized content.
+description: Learn how Adobe Experience Manager 6.5 LTS can create personalized content.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Architect,Developer
