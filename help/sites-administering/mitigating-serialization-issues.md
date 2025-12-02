@@ -28,6 +28,10 @@ The agent is intended to help mitigate the latest known vulnerable classes. If y
 
 Adobe officially supports Java&trade; 6, 7, and 8. However, Adobe's understanding is that NotSoSerial supports Java&trade; 5 as well.
 
+>[!WARNING]
+>
+>NotSoSerial should not be used with Java&trade; 17 or higher.
+
 ## Installing the Agent {#installing-the-agent}
 
 >[!NOTE]
