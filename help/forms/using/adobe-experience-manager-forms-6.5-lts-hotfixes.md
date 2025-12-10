@@ -44,6 +44,7 @@ This article lists the critical fixes implemented to address known issues, impro
   <tbody>
 </table>
 
+
 ## Download and install an OSGi Hotfix {#download-install-hotfix}
 
 Perform the following steps to download and install the Hotfix:
