@@ -6,7 +6,6 @@ solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
 ---
-
 # Adobe Experience Manager Forms 6.5 LTS Hotfixes{#aem-form-hotfix}
 
 This article lists the critical fixes implemented to address known issues, improve system stability, and enhance overall performance of AEM Forms 6.5 LTS. 
@@ -31,7 +30,7 @@ This article lists the critical fixes implemented to address known issues, impro
     <ul>
     <li>Windows- <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]1-hotfix-on-add-on/adobe-aemfd-win-pkg-6.1.176-RHF-002.zip">Hotfix2 for AEM Service Pack 6.5 LTS on Windows</a></li>
     <li>Linux- <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]hotfix-on-add-on/adobe-aemfd-linux-pkg-6.1.176-RHF-002.zip">Hotfix2 for AEM Service Pack 6.5 LTS on Linux</a></li>
-     <li>OSX- <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]1-hotfix-on-add-on/adobe-aemfd-osx-pkg-6.1.176-RHF-002.zip">Hotfix2 for AEM Service Pack 6.5 LTS on OSX</a></li>
+     <li>MacOS- <a href="https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?pack[…]1-hotfix-on-add-on/adobe-aemfd-osx-pkg-6.1.176-RHF-002.zip">Hotfix2 for AEM Service Pack 6.5 LTS on MacOS</a></li>
     <td>
     <ul>
     <li>Enhanced form submission reliability by addressing an issue where submissions may fail when Server-Side Validation (SSV) was enabled If you encounter any issues, contact [Adobe Experience Manager Forms Support](https://business.adobe.com/in/support/main.html)
