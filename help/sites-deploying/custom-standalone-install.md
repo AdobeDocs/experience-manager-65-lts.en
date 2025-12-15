@@ -51,7 +51,7 @@ If you are running Oracle Java 17 or Java 21, additional switches must be added 
 * [Forms Only] Below is a sample to ensure AEM Forms works with Java 17/Java21, include the following additional JVM parameters:
 
 ```shell
---add-opens=java.base/java.util=ALL-UNNAMED -add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.serialize=ALL-UNNAMED
 ```
 
 ## Run Modes {#run-modes}
