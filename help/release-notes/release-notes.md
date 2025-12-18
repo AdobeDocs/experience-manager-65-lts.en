@@ -31,7 +31,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## Key features and enhancements
 
-- Added a 508 compliance enhancement to ensure consistent hyperlink objects when converting XDPs to static PDFs, improving accessibility and reliable link tagging for enterprise users. (LC-3921997)
+* Added a 508 compliance enhancement to ensure consistent hyperlink objects when converting XDPs to static PDFs, improving accessibility and reliable link tagging for enterprise users. (LC-3921997)
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
@@ -357,19 +357,12 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * When a user tries to export data from interactive PDFs using the extractData API in AEM Forms 6.5.13 and later versions, it results in missing data compared to manual export. (LC-3921983)
 * Converting XDP forms to static PDFs with AEM Forms Designer or the Output service creates multiple `Link-OBJR` tags. The issues cause an accessibility compliance issue because a single unified link tag is expected. (LC-3921977)
 * Users experienced discrepancies in the extracted XML data when using the extractData API compared to manual export via Acrobat Reader. (LC-3922791)
-
 * Users experienced tagging issues with PDFs generated through Output Service in AEM Forms 6.5.22. When a subform role was set to Reference under the accessibility tab, the tags were not applied correctly, affecting document accessibility. (LC-3922756)
-
 * Users experienced an issue in AEM Forms Output Service where flattening a dynamic, fillable XFA PDF into a PDF/A format for long-term archival failed to preserve the dynamic form state. (LC-3922708)
-
 * Users experienced an issue where field captions placed on the Master page were incorrectly tagged only the caption was included in the tag tree, not the field value. This occurred for both bottom and right caption placements. (LC-3922619)
-
 * Users experienced QR code accessibility issues after upgrading AEM Forms from version 6.5.0 SP6 to SP20. During accessibility testing, alternative text for the QR codes failed. (LC-3922551)
-
 * Users experienced inconsistencies in form rendering between Service Pack 17 (SP17) and Service Pack 18 (SP18) when using the FormService.render() API. LC-3922180: Users experienced border issues when creating PDF/A documents from XDP files with Sunken Square style in AEM Forms. (LC-3922461)
-
 * Users experienced data loss when flattening dynamic forms. Enterprise customers reported that sections of form data bound using an Extensible Markup Language (XML) Schema Definition (XSD) were not retained. (LC-3922008)
-
 * Users experienced missing values when exporting form data using the extractdata Application Programming Interface (API) in Adobe Experience Manager (AEM) Form server version 6.5.13 and later. (LC-3921983)
 
 ### Adaptive Forms
