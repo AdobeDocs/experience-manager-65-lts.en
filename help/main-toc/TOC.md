@@ -431,9 +431,10 @@ user-guide-title: AEM 6.5 LTS
   + Install and configure AEM Forms {#install-aem-forms}
     + [Architecture and deployment topologies for AEM Forms](/help/forms/using/aem-forms-architecture-deployment.md)
     + [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md)
+    + Install AEM Forms on JEE {#jee-installation}
+      + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
     + Install AEM Forms on OSGi {#osgi-installation}
       + [Supported platforms for AEM forms on OSGi](/help/forms/using/supported-platforms.md)
-      + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
       + [Install and configure document services](/help/forms/using/install-configure-document-services.md)
       + [Install and configure data capture capabilities](/help/forms/using/installing-configuring-aem-forms-osgi.md)
       + [Install and Configure Forms-centric workflow on OSGi](/help/forms/using/installing-configuring-forms-centric-workflow-on-osgi.md)
