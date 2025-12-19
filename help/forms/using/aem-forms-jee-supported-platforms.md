@@ -9,6 +9,7 @@ role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE,Platform Matrix
 ---
+
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Support levels {#support-levels}
