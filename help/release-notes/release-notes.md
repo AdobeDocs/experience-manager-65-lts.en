@@ -33,7 +33,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ### Forms
 
-AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the Supported Platform Combinations document. Installer links are available on the AEM Forms releases page.
+AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the [Supported Platform](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms) Combinations document. Installer links are available on the [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page.
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
