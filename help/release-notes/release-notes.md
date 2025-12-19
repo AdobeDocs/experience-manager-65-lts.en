@@ -29,7 +29,11 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-<!-- ## Key features and enhancements -->
+## Key features and enhancements 
+
+### Forms
+
+AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the Supported Platform Combinations document. Installer links are available on the AEM Forms releases page.
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
@@ -207,10 +211,7 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 
 #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp1}
 
-
-
 ### [!DNL Forms]{#forms-65-lts-sp1}
-
 
 #### Forms Designer 
 
@@ -225,8 +226,6 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 #### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp1}
 
 #### [!DNL Forms Designer] {#forms-designer-65-lts-sp1} -->
-
-
 
 ### Foundation {#foundation-65-lts-sp1}
 
@@ -599,6 +598,9 @@ When accessing Permissions page under Tools -> Security  in AEM 6.5 LTS SP1, it 
 **Solution:**
 A hotfix [cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip) is available to resolve this problem.
 
+### Forms JEE 
+
+* Users on Linux environments may encounter installer or Configuration Manager (LCM) script failures due to Windows-style line endings. Convert all .sh files using dos2unix before running the installer or LCM to prevent execution errors. 
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
