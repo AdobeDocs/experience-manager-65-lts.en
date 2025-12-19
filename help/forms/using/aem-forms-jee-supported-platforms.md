@@ -608,11 +608,11 @@ For additional requirements see:
 
 AEM Forms app is available on the following platforms:
 
-| **Platform**      | **Supported Devices**                                                                                               |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Apple iOS         | Apple iPhone, iPad, iPad Air, and iPad mini running iOS 15.1 and above.                                               |
-| Google Android&trade;    | Android&trade; 5.1 and above. AEM Forms app is certified on 7-inch and 10-inch Samsung Galaxy tablets and popular smartphones. |
-| Microsoft&reg; Windows | Microsoft&reg; Surface devices, tablets, laptops, and desktops running Microsoft&reg; Windows 10 operating system.            |
+| **Platform** | **Supported Devices** |
+| --- | --- |
+| Apple iOS | Apple iPhone, iPad, iPad Air, and iPad mini running iOS 15.1 and above. |
+| Google Android&trade; | Android&trade; 5.1 and above. AEM Forms app is certified on 7-inch and 10-inch Samsung Galaxy tablets and popular smartphones. |
+| Microsoft&reg; Windows | Microsoft&reg; Surface devices, tablets, laptops, and desktops running Microsoft&reg; Windows 10 operating system. |
 
 ### Adobe Document Security Extension for Microsoft&reg; Office {#adobe-rights-management-extension-for-microsoft-office}
 
@@ -837,4 +837,4 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 
     - Changed supported version of iOS for AEM Forms App to iOS 12. The previous version was iOS 11.
 
-    -->
+-->
