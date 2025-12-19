@@ -29,9 +29,11 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-## Key features and enhancements
+## Key features and enhancements 
 
-* Added a 508 compliance enhancement to ensure consistent hyperlink objects when converting XDPs to static PDFs, improving accessibility and reliable link tagging for enterprise users. (LC-3921997)
+### Forms
+
+AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the Supported Platform Combinations document. Installer links are available on the AEM Forms releases page.
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
@@ -209,10 +211,7 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 
 #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp1}
 
-
-
 ### [!DNL Forms]{#forms-65-lts-sp1}
-
 
 #### Forms Designer 
 
@@ -227,8 +226,6 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 #### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp1}
 
 #### [!DNL Forms Designer] {#forms-designer-65-lts-sp1} -->
-
-
 
 ### Foundation {#foundation-65-lts-sp1}
 
@@ -356,14 +353,6 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Flattening dynamic forms bound to an XSD schema causes partial data loss, as some bound form data is not retained in the final PDF. (LC-3922008)
 * When a user tries to export data from interactive PDFs using the extractData API in AEM Forms 6.5.13 and later versions, it results in missing data compared to manual export. (LC-3921983)
 * Converting XDP forms to static PDFs with AEM Forms Designer or the Output service creates multiple `Link-OBJR` tags. The issues cause an accessibility compliance issue because a single unified link tag is expected. (LC-3921977)
-* Users experienced discrepancies in the extracted XML data when using the extractData API compared to manual export via Acrobat Reader. (LC-3922791)
-* Users experienced tagging issues with PDFs generated through Output Service in AEM Forms 6.5.22. When a subform role was set to Reference under the accessibility tab, the tags were not applied correctly, affecting document accessibility. (LC-3922756)
-* Users experienced an issue in AEM Forms Output Service where flattening a dynamic, fillable XFA PDF into a PDF/A format for long-term archival failed to preserve the dynamic form state. (LC-3922708)
-* Users experienced an issue where field captions placed on the Master page were incorrectly tagged only the caption was included in the tag tree, not the field value. This occurred for both bottom and right caption placements. (LC-3922619)
-* Users experienced QR code accessibility issues after upgrading AEM Forms from version 6.5.0 SP6 to SP20. During accessibility testing, alternative text for the QR codes failed. (LC-3922551)
-* Users experienced inconsistencies in form rendering between Service Pack 17 (SP17) and Service Pack 18 (SP18) when using the FormService.render() API. LC-3922180: Users experienced border issues when creating PDF/A documents from XDP files with Sunken Square style in AEM Forms. (LC-3922461)
-* Users experienced data loss when flattening dynamic forms. Enterprise customers reported that sections of form data bound using an Extensible Markup Language (XML) Schema Definition (XSD) were not retained. (LC-3922008)
-* Users experienced missing values when exporting form data using the extractdata Application Programming Interface (API) in Adobe Experience Manager (AEM) Form server version 6.5.13 and later. (LC-3921983)
 
 ### Adaptive Forms
 
@@ -412,12 +401,6 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Users experience a null pointer exception when interacting with OData. This cause interruptions in data retrieval processes. (FORMS-20348)
 * Removed the google.common.collect library following the removal of Guava, an open-source Java library. This update ensures better compatibility and performance for enterprise customers using Adaptive Forms. (FORMS-17031)
 * When Server-Side Validation (SSV) is enabled, form submissions may fail. If you encounter this issue, please contact [Adobe Support](https://business.adobe.com/in/support/main.html) for assistance. (FORMS-21966)
-* Users experienced application failures due to a null pointer exception in OdataResponse, causing interruptions in data retrieval processes. (FORMS-20348)
-* Users experienced PDF/A-1b validation failures despite successful PreFlight verification. This issue was reported by enterprise customers using version 6.5 LTS SP1. (FORMS-20196)
-* Users experienced issues with the Adobe Sign GovCloud Signature page not rendering in the iframe for version 6.6, preventing them from completing signature workflows within embedded forms. (FORMS-16803)
-* Users were unable to use the timeline feature of Portable Document Format (PDF) files in Adaptive Forms (AF). This issue affected their ability to track document changes and revisions effectively. (FORMS-19408)
-* Users experienced issues with secureDocument applying usage rights. When executing client-side XFA scripts, the scripts were erroneously triggered, affecting document security and functionality. (FORMS-20755)
-* Users experienced issues with reCAPTCHA validation when forms were authored in Sites. The backend did not recognize the form name correctly, causing validation failures. (FORMS-20486)
 
 ### Forms Captcha
 
@@ -615,6 +598,9 @@ When accessing Permissions page under Tools -> Security  in AEM 6.5 LTS SP1, it 
 **Solution:**
 A hotfix [cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip) is available to resolve this problem.
 
+### Forms JEE 
+
+* Users on Linux environments may encounter installer or Configuration Manager (LCM) script failures due to Windows-style line endings. Convert all .sh files using dos2unix before running the installer or LCM to prevent execution errors. 
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 

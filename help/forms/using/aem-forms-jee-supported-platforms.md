@@ -8,22 +8,10 @@ docset: aem65
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE,Platform Matrix
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 ---
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
-## Supported Platforms {#supported-platforms}
-
-<div class="preview">
-
-Adobe has released a [full installer](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) with AEM 6.5 Forms Service Pack 18 (6.5.18.0) on JEE along with the patch installers. The full installer supports new platforms while the patch installer includes only bug fixes.
-If you are performing a fresh installation or planning to use latest software for your AEM 6.5 Forms on JEE environment, Adobe recommends using [AEM 6.5.18.0 Forms on JEE full installer](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) released on 31 August 2023 instead of AEM 6.5 Forms installer released on 08 April 2019 or AEM 6.5.12 Forms Installer released on 03 March 2022.
-
-</div>
-
-### Support levels {#support-levels}
+## Support levels {#support-levels}
 
 AEM Forms on JEE server can be set up using any combination of supported operating systems, application servers, databases, database drivers, JDK, LDAP servers, and email servers.
 
@@ -38,7 +26,7 @@ This document lists the supported client and server platforms for AEM Forms on J
  
 #### Full Installer
 
-- **Upgrade Support for full installers**: A full installer is released with every sixth AEM Service Pack Release. For example, there was a full installer released with 6.5.12.0 and 6.5.18.0 SP releases. AEM Forms allows direct upgrades exclusively from the last two full installers. For example, AEM Forms facilitates direct upgrades to version 6.5.18.0 only from the last two full installers, namely 6.5.12.0 and 6.5.6.0. If you need to upgrade from an earlier upgrade, you can use a multi-hop upgrade to first go to a supported full installer release and then to the latest release. 
+- **Upgrade Support for full installers**: A full installer is released with every sixth AEM Service Pack. Full installer–based upgrades are supported starting from AEM 6.5.23.0 only.
 
 - **Deprecation and Removal**: The platform support is updated with each full installer release. Any software marked as deprecated in the platform matrix during a full installer release is entitled to be removed from the supported platform matrix in a subsequent full installer release, indicating the end of support for the software.
  
@@ -85,12 +73,6 @@ Adobe recommends these configurations and provides full or restricted support as
 >[!NOTE]
 >
 >To help AEM Forms customers reduce the cost of ownership, simplify the deployment architecture, and modernize the development stack, Adobe Experience Manager enterprise platform is moving away from application server-based deployments in favor of standalone OSGi-based deployments. Adobe continues to support the AEM Forms JEE stack with a reduced matrix of infrastructure components.
->
->With the release of 6.5, infrastructure components that have the lowest usage among Adobe customers are no longer supported, as follows:
->
->- IBM&reg; DB2&reg; database
->- IBM&reg; AIX&reg; and Sun Solaris&trade; operating systems
->
 >For new installations, where feasible it is recommended to deploy AEM Forms on the modern OSGi stack to use the latest innovations around responsive Adaptive Forms for mobile, multi-channel Interactive Communications, and backend data integrations using Form Data Model.
 >
 >Adobe recognizes that existing users must continue to deploy AEM Forms on JEE stack. In such scenarios, Adobe requires the deployment of AEM Forms JEE on supported infrastructure as described in this documentation. If you are upgrading to AEM 6.5 Forms and using a non-supported platform on the previous AEM Forms release, you can contact Adobe Support for help on upgrading to a supported platform.
@@ -106,45 +88,15 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <th><p><strong>Support Level</strong></p> </th>
    <th><p><strong>Supported Patch Definitions</strong></p> </th>
   </tr>
+   <tr> 
+   <td><p>Oracle Java&trade; SE 21 (64 bit) <sup> [8] </sup> </p>  </td>
+   <td><p>A: Supported</p> </td>
+   <td><p>Minor releases and updates </p> </td>
+  </tr>
   <tr> 
    <td><p>Oracle Java&trade; SE 17 (64 bit) <sup> [8] </sup> </p>  </td>
    <td><p>A: Supported</p> </td>
    <td><p>Minor releases and updates </p> </td>
-  </tr>
-  <tr> 
-   <td><p>Oracle Java&trade; SE 11 (64 bit) <sup> [8] </sup> </p>  </td>
-   <td><p>A: Supported</p> </td>
-   <td><p>Minor releases and updates </p> </td>
-  </tr>
-  <tr>
-   <td>Azul Zulu OpenJDK 11 - 64 bit</td>
-   <td>Z: Not supported</td>
-   <td><p> </p> </td>
-  </tr>
-  <tr>
-   <td>Azul Zulu OpenJDK 8 - 64 bit</td>
-   <td>Z: Not supported</td>
-   <td><p> </p> </td>
-  </tr>
-  <tr>
-   <td>Oracle Java&trade; SE 8 (64 bit)</td>
-   <td>A: Supported</td>
-   <td>Minor releases and updates</td>
-  </tr>
-  <tr>
-   <td>IBM&reg; J17 Virtual Machine (with Websphere Liberty only)<br /> </td>
-   <td>A: Supported</td>
-   <td>Minor releases and updates</td>
-  </tr>
-  <tr>
-   <td>IBM&reg; J9 Virtual Machine (build 2.9, JRE 1.8.0) IBM&reg; JDK SR6-FP26<br /> </td>
-   <td>A: Supported</td>
-   <td>Minor releases and updates</td>
-  </tr>
-  <tr>
-   <td>IBM&reg; JAVA1.8.0_291(build 8.0.6.30)<br /> </td>
-   <td>A: Supported</td>
-   <td>Minor releases and updates</td>
   </tr>
  </tbody>
 </table>
@@ -169,68 +121,45 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>Supported</p> </td>
   </tr>
   <tr>
-   <td><p> MongoDB Enterprise 7.0 </p> </td>
+   <td><p> MongoDB Enterprise 9.0 </p> </td>
    <td><p>Repository Microkernel</p> </td>
    <td><p>Supported</p> </td>
   </tr>
   <tr>
-   <td><p> MongoDB Enterprise 6.0</p> </td>
+   <td><p> MongoDB Enterprise 8.0</p> </td>
    <td><p>Repository Microkernel</p> </td>
    <td><p>Supported</p> </td>
   </tr>
     <tr>
-   <td><p> MongoDB Enterprise 5.0 </p> </td>
+   <td><p> MongoDB Enterprise 7.0 </p> </td>
    <td><p>Repository Microkernel</p> </td>
    <td><p>Supported</p> </td>
   </tr>
    <tr>
    <td>Oracle Database 19c (Standard, Real Application Clusters (RAC) and Enterprise editions) </td>
-   <td>Repository Microkernal </td>
+   <td>-</td>
    <td>Supported</td>
   </tr>
   <tr>
-   <td><p>Repository Microkernel</p> </td>
-   <td><p>Supported</p> </td>
-  </tr>
-  <tr>
    <td><p>Microsoft&reg; SQL Server 2022 </p> </td>
-   <td><p>Repository Microkernel</p> </td>
+   <td><p>-</p> </td>
    <td><p>Supported</p> </td>
-  </tr>
-  <tr>
-   <td><p>Microsoft&reg; SQL Server 2019 </p> </td>
-   <td><p>Repository Microkernel</p> </td>
-   <td><p>Supported</p> </td>
-  </tr>
-  <tr>
-   <td>IBM&reg; DB2&reg; 11.1 (Deprecated)</td>
-   <td>Repository Microkernel</td>
-   <td>R: Restricted Support</td>
   </tr>
   <tr>
    <td>MySQL 8.4</td>
    <td>-</td>
    <td>R: Restricted Support</td>
   </tr>
-  <tr>
-  <tr>
-   <td>MySQL 8.0.27</td>
-   <td>-</td>
-   <td>R: Restricted Support</td>
-  </tr>
  </tbody>
 </table>
 
-- IBM&reg; DB2&reg; is not supported for fresh installations. It is supported only for existing customers upgrading to AEM 6.5 Forms.
 - MongoDB is third-party software and is not included in the AEM licensing package. For more information, see [MongoDB licensing policy](https://www.mongodb.org/about/licensing/).
 - To get the most of your AEM deployment, Adobe recommends licensing the MongoDB Enterprise version to benefit from professional support.
 - Adobe Customer Care assists qualifying issues related to the usage of MongoDB with AEM. For more information, see the [MongoDB for Adobe Experience Manager page](https://www.mongodb.com/lp/contact/mongodb-adobe-experience-manager).
 - 'File System' includes block storage that is POSIX-compliant. This includes network storage technology. Mind that file system performance might vary and influences the overall performance. It is recommended to load test AEM with the network/remote file system.
 - Only MongoDB Storage Engine WiredTiger is supported.
 - MongoDB Sharding is not supported in AEM.
-- AEM Forms on JEE do not support MySQL for RDBMK persistence.
 - The Document Security module does not use Content Repository. It implies, if you are using only Document Security and do not plan to use HTML Workspace, HTML5 forms, or adaptive forms, then do not install Content Repository.
-- AEM Forms on JEE do not support using MySQL for persisting AEM Repository (CRX-Repository).
 
 ### Database drivers {#database-drivers}
 
@@ -247,18 +176,8 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>Supplied with AEM Forms on JEE installation</p> </td>
   </tr>
   <tr>
-   <td>MySQL</td>
-   <td><p>MySQL Connector/J 5.7</p> <p>mysql-connector-java-5.1.44-bin.jar(version 5.1.44)</p> </td>
-   <td><p>Supplied with AEM Forms on JEE installation</p> </td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; SQL Server<br /> </td>
    <td><p>Microsoft&reg; SQL Server JDBC driver 12.10.0<br /> </p> <p>sqljdbc12.10.0.jar</p> </td>
-   <td><p>Download from Microsoft&reg; Website.</p> </td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; SQL Server<br /> </td>
-   <td><p>Microsoft&reg; SQL Server JDBC driver 8.2.2<br /> </p> <p>sqljdbc8.jar</p> </td>
    <td><p>Download from Microsoft&reg; Website.</p> </td>
   </tr>
   <tr>
@@ -279,41 +198,12 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p><strong>Supported Patch Definitions</strong></p> </td>
   </tr>
   <tr>
-   <td>Oracle WebLogic Server 14.1.2 <sup>[9]</sup></td>
-   <td>A: Supported</td>
-   <td>Service pack and critical updates</td>
-  </tr>
-  <tr>
-   <td>Oracle WebLogic Server 12.2.1 (12c R2) (Deprecated) <sup>[9]</sup></td>
-   <td>A: Supported</td>
-   <td>Service pack and critical updates</td>
-  </tr>
-  <tr>
-   <td>Oracle WebLogic Server 14c <sup>[9]</sup></td>
-   <td>A: Supported</td>
-   <td>Service pack and critical updates</td>
-  </tr>
-  <tr>
-   <td>IBM&reg; WebSphere&reg; Application Server 9.0.0.10 <sup>[1] [4]</sup><br /> </td>
-   <td>A: Supported</td>
-   <td>Service pack and critical updates</td>
-  </tr>
-  <tr>
-   <td><p>JBoss&reg; Enterprise Application Platform (EAP) 7.4.22 <sup>[2] [3] [7]</sup> </p> </td>
-   <td><p>A: Supported</p> </td>
-   <td><p>Patches and cumulative patches for the supported EAP version</p> </td>
-  </tr>
-  <tr>
-   <td><p>JBoss&reg; Enterprise Application Platform (EAP) 7.4 <sup>[2] [3] [7]</sup> </p> </td>
+   <td><p>JBoss&reg; Enterprise Application Platform (EAP) 8.0.6 <sup>[2] [3] [7]</sup> </p> </td>
    <td><p>A: Supported</p> </td>
    <td><p>Patches and cumulative patches for the supported EAP version</p> </td>
   </tr>
  </tbody>
 </table>
-
->[!NOTE]
->
->IBM&reg; WebSphere&reg; clusters are only supported in Network Deployment editions.
 
 ### Server operating systems {#server-operating-systems}
 
@@ -325,11 +215,6 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <th><p><strong> Platform</strong></p> </th>
    <th><p><strong>Support level</strong></p> </th>
    <th><p><strong>Supported Patch Definitions</strong></p> </th>
-  </tr>
-   <tr>
-   <td>Microsoft&reg; Windows Server 2019 (64-bit)(Deprecated)</td>
-   <td>A: Supported</td>
-   <td>Service packs and critical updates</td>
   </tr>
      <tr>
    <td>Microsoft&reg; Windows Server 2022 (64-bit)</td>
@@ -352,19 +237,9 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>Minor releases, cumulative updates, and critical updates</p> </td>
   </tr>
   <tr>
-   <td><p>SUSE&reg; Linux&reg; Enterprise Server 12 (64-bit)</p> </td>
+   <td><p>SUSE&reg; Linux&reg; Enterprise Server 15-SP6 (64-bit)</p> </td>
    <td><p>A: Supported</p> </td>
    <td><p>Service packs, cumulative patches, and critical security updates</p> </td>
-  </tr>
-  <tr>
-   <td>Oracle Linux&reg; 7 Update 3 (64-bit)</td>
-   <td>A: Supported</td>
-   <td>Service packs, cumulative patches, and critical security updates</td>
-  </tr>
-  <tr>
-   <td>CentOS 7 (64-bit)<sup> [6]</sup></td>
-   <td>A: Supported</td>
-   <td>Service packs, cumulative patches, and critical security updates</td>
   </tr>
  </tbody>
 </table>
@@ -394,16 +269,8 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
 
 Consider the following exceptions while choosing a platform to set up your AEM Forms on JEE server.
 
-1. AEM Forms on JEE do not support IBM&reg; WebSphere&reg; with MySQL.
-1. AEM Forms on JEE do not support and JBoss&reg; on SUSE&reg; Linux&reg; Enterprise Server 12. Only IBM&reg; WebSphere&reg; is supported on SUSE&reg; Linux&reg; Enterprise Server 12.
-1. AEM Forms on JEE do not support any JDK with JBoss&reg; other than Oracle Java&trade; SE.
-1. AEM Forms on JEE do not support any JDK with IBM&reg; WebSphere&reg; other than IBM&reg; JDK.
-1. CRX-repository supports persistence of type TarMK, MongoDB, and relational databases (RDBMK). You cannot have two different database systems between the application server and the CRX-repository. However, on an AEM Forms on JEE environment, you can use MongoMK with CRX-repository and a supported relational database with application server.
-1. AEM Forms on JEE do not support WebSphere&reg; application server on CentOS.
+1. CRX-repository supports persistence of type TarMK and MongoDB. 
 1. AEM Forms on JEE do not support JBoss&reg; role-based access control (RBAC).
-1. AEM Forms on JEE support Oracle Java&trade; SE 11 (64 bit) SDK for application server JBoss&reg; EAP 7.4 only.
-1. JDK versions higher than 1.8.0_281 are not supported for WebLogic server. (FORMS-8498)
-1. JDK 11.0.20 is not supported to install AEM Forms on JEE Installer. Only JDK 11.0.19 or earlier versions are supported to install AEM Forms on JEE Installer.
 
 <!-- 
 1. [!DNL Microsoft&reg; Windows Server 2019] does not support [!DNL MySQL 5.7] and [!DNL JBoss&reg; EAP 7.1], [!DNL Microsoft&reg; Windows Server 2019] does not support turnkey installations for [!DNL Experience Manager Forms Service Pack 6.5.10.0 and later]. (CQDOC-18312) 
@@ -427,10 +294,6 @@ In addition, consider the following points while choosing software for Adobe AEM
   <tr>
    <th><p><strong>Product (Base Version)</strong></p> </th>
    <th><p><strong>Supported Patch Definitions</strong></p> </th>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Active Directory 2016 (Deprecated)</td>
-   <td>Maintenance release and fix packs</td>
   </tr>
   <tr>
    <td>Microsoft&reg; Active Directory 2022</td>
@@ -630,10 +493,6 @@ For additional requirements see:
    <td>Service packs and critical updates</td>
   </tr>
   <tr>
-   <td>Microsoft&reg; Windows&reg; 2019 Server (Deprecated)</td>
-   <td>Service packs and critical updates</td>
-  </tr>
-  <tr>
    <td>Microsoft&reg; Windows&reg; 2022 Server</td>
    <td>Service packs and critical updates</td>
   </tr>
@@ -801,7 +660,7 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 -->
 
 
-## Revision History {#revision-history}
+<!--## Revision History {#revision-history}-->
 
 <!--
 
@@ -883,7 +742,7 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 
 
 -->
-
+<!--
 ### Release 6.5.19.1 (Dec 15, 2023)
 
 | Added Support | Removed Support | Deprecated Support |
@@ -954,7 +813,7 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 >[!NOTE]
 >
 > A deprecated platform continue to receive support until the next full installer release or until third-party vendor support for the platform reaches its end-of-life, whichever is earlier.
-
+-->
 <!-- 
 - Oct 10, 2021
 
