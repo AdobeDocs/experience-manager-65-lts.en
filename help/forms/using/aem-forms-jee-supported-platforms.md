@@ -286,7 +286,6 @@ In addition, consider the following points while choosing software for Adobe AEM
 - AEM Forms on JEE do not support TarMK Cold Standby.
 - AEM Forms on JEE do not support vertical clustering.
 - AEM Forms on JEE do not support MySQL database on a clustered environment.
-- For the list of removed or updated platforms, see [AEM 6.5 Forms New Feature Summary](../../forms/using/whats-new.md) document.
 
 ### LDAP servers (optional) {#ldap-servers-optional}
 
