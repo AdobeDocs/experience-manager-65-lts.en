@@ -17,6 +17,10 @@ To use Content Fragment Models, you can:
 1. [Enable your Content Fragment Models](#enabling-disabling-a-content-fragment-model) for use when creating Content Fragments. 
 1. [Allow your Content Fragment Models on the required Assets folders](#allowing-content-fragment-models-assets-folder) by configuring **Policies**.
 
+>[!NOTE]
+>
+>Be aware of the [Best Practices](/help/assets/content-fragments/content-fragments.md#best-practices) when working with your Content Fragment Models and Content Fragments.
+
 ## Creating a Content Fragment Model {#creating-a-content-fragment-model}
 
 1. Navigate to **Tools**, **Assets**, then open **Content Fragment Models**.
@@ -99,13 +103,6 @@ A selection of data types is available for defining your model:
   * Add one, or more, fields of a single line of text; the maximum length can be defined
 * **Multi line text**
   * A text area that can be Rich Text, Plain Text, or Markdown
-
-    >[!NOTE]
-    >
-    >For performance reasons it is not recommended to have more than ten Rich Text fields in one model. 
-    >
-    >If needed, it is recommended that you use [nested Content Fragments](#fragment-reference-nested-fragments).
-
 * **Number**
   * Add one, or more, numerical fields
 * **Boolean**

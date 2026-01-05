@@ -29,7 +29,11 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP1 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-<!-- ## Key features and enhancements -->
+## Key features and enhancements 
+
+### Forms
+
+AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the [Supported Platform](/help/forms/using/aem-forms-jee-supported-platforms.md) Combinations document. Installer links are available on the [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page.
 
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
@@ -207,10 +211,7 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 
 #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp1}
 
-
-
 ### [!DNL Forms]{#forms-65-lts-sp1}
-
 
 #### Forms Designer 
 
@@ -225,8 +226,6 @@ Fixed an issue where syncing assets from remote DAM to Sites local AEM removed t
 #### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp1}
 
 #### [!DNL Forms Designer] {#forms-designer-65-lts-sp1} -->
-
-
 
 ### Foundation {#foundation-65-lts-sp1}
 
