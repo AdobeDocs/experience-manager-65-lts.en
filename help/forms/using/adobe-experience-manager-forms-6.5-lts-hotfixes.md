@@ -6,6 +6,7 @@ solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
 ---
+
 # Adobe Experience Manager Forms 6.5 LTS Hotfixes{#aem-form-hotfix}
 
 This article lists the critical fixes implemented to address known issues, improve system stability, and enhance overall performance of AEM Forms 6.5 LTS. 
