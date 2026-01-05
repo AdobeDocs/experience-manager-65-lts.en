@@ -313,6 +313,10 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Fixed unexpected JSP compilation error with `org.apache.sling.scripting.jsp 2.6.0`. (NPR-42640)
 
 <!--
+* Backported the fix for Sling Scripting issue that caused `DataTimeParseException` and `String.length()` null pointer exceptions during package installation. Updated Sling Scripting to version 2.8.3-1.0.10.6 to reduce installation errors and improve stability. (NPR-42640) -->
+
+<!--
+
 #### Translation{#foundation-translation-65-lts-sp1} -->
 
 #### User interface{#foundation-ui-65-lts-sp1}
@@ -400,7 +404,6 @@ Fixed an accessibility issue where placeholders incorrectly appeared as labels f
 * Users were unable to use the timeline feature of PDF files in AEM forms. This issue affected users' ability to track document changes and revisions effectively. When uploading any PDF under the 'Forms and Documents' section in the AEM forms area, the timeline view ceases to function. (FORMS-19408)
 * Users experience a null pointer exception when interacting with OData. This cause interruptions in data retrieval processes. (FORMS-20348)
 * Removed the google.common.collect library following the removal of Guava, an open-source Java library. This update ensures better compatibility and performance for enterprise customers using Adaptive Forms. (FORMS-17031)
-* When Server-Side Validation (SSV) is enabled, form submissions may fail. If you encounter this issue, please contact [Adobe Support](https://business.adobe.com/in/support/main.html) for assistance. (FORMS-21966)
 
 ### Forms Captcha
 
@@ -561,6 +564,19 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 <!-- DO THESE KNOWN ISSUES CARRY OVER EACH RELEASE? THE "PRODUCT UPDATES TEAM" IS SUPPOSED TO VERIFY EACH ISSUE AND LET YOU KNOW IF ANYTHING NEEDS TO BE ADDED, DELETED, OR CHANGED IN THIS LIST. -->
 
+<!-- REMOVED THIS SECTION AS PER CQDOC-23046
+### Issue with JSP scripting bundle in AEM 6.5.21-6.5.23 and AEM 6.5 LTS GA
+
+AEM 6.5.21, 6.5.22, 6.5.23, and AEM 6.5 LTS GA ship with the `org.apache.sling.scripting.jsp:2.6.0` bundle, which contains a known issue. The issue typically occurs under high load when the AEM instance handles many concurrent requests.
+
+When this issue occurs, one of the following exceptions may appear in the error logs alongside references to `org.apache.sling.scripting.jsp:2.6.0`:
+
+* `java.io.IOException: classFile.delete() failed`
+* `java.io.IOException: tmpFile.renameTo(classFile) failed`
+* `java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0`
+* `java.io.FileNotFoundException`
+
+A hotfix [cq-6.5.lts.0-hotfix-NPR-42640](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-NPR-42640-1.2.zip) is available to resolve this problem. -->
 
 ### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
 
@@ -586,21 +602,6 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 **Solution:**
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
-
-### Empty Permissions page on security UI on AEM 6.5 LTS SP1
-
->[!NOTE]
->
-> This issue is only present in the AEM 6.5 LTS SP1 release.
-
-When accessing Permissions page under Tools -> Security  in AEM 6.5 LTS SP1, it gives blank page instead of showing permissions for a user or group.
-
-**Solution:**
-A hotfix [cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-62993-1.0.zip) is available to resolve this problem.
-
-### Forms JEE 
-
-* Users on Linux environments may encounter installer or Configuration Manager (LCM) script failures due to Windows-style line endings. Convert all .sh files using dos2unix before running the installer or LCM to prevent execution errors. 
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
