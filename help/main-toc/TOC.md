@@ -398,7 +398,7 @@ user-guide-title: AEM 6.5 LTS
     + [Configure [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-configure.md)
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
-  + [AEM Forms Service Pack Hotfix](/help/forms/using/adobe-experience-manager-forms-6.5-lts-hotfixes.md)
+  + [AEM Forms Service Pack Hotfix](/help/forms/using/adobe-experience-manager-forms-65-lts-hotfixes.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
     + [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md)
