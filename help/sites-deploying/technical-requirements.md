@@ -132,7 +132,7 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 
 Adobe Experience Manager can run either as a stand-alone server (the quickstart JAR file) or as a web application within a third-party application server (the WAR file).
 
-The minimum Servlet API Version required is Servlet 3.1. In addition, AEM supports Jakarta servlet 5 for jar and war can be deployed in application servers implementing Jakarta servlet API 5/6.
+The minimum Servlet API Version required is Servlet 3.1. In addition, AEM Forms supports Jakarta servlet 5 for jar and war can be deployed in application servers implementing Jakarta servlet API 5/6.
 
 | Platform |Support Level |
 |---|---|
@@ -407,9 +407,8 @@ For Windows x86:
 >* PDF Generator supports only the 32-bit version of Microsoft&reg; Office Professional Plus and other software required for conversion.
 >* If a Microsoft&reg; Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
 >* PDF Generator does not support Microsoft&reg; Office 365.
->* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
+>* PDF Generator conversions for OpenOffice are supported on both Windows and Linux&reg;.
 >* The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
->* A version of Acrobat is bundled with AEM Forms to enable PDF Generator functionality. The bundled version should only be accessed programmatically with AEM Forms, during the term of the AEM Forms license, for use with AEM Forms PDF Generator only. For more information, see AEM Forms product description as per your deployment ([On-Premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html) or [Managed Services](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)).
 >* PDF Generator service does not support Microsoft&reg; Windows 11.
 
 
