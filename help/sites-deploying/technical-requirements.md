@@ -409,57 +409,7 @@ For Windows x86:
 >* PDF Generator does not support Microsoft&reg; Office 365.
 >* PDF Generator conversions for OpenOffice are supported on both Windows and Linux&reg;.
 >* The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
->* PDF Generator service does not support Microsoft&reg; Windows 11.
-
-
-<table>
- <tbody>
-  <tr>
-   <th><p><strong>Product</strong></p> </th>
-   <th><p><strong>Supported Formats for Conversion to PDF</strong></p> </th>
-  </tr>
-  <tr>
-   <td><a href="https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html">Acrobat 2020 classic track</a> latest version</td>
-   <td>XPS, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, DWG, DXF, and DWF</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Office 2019</td>
-   <td>DOC, DOCX, XLS, XLSX, PPT, PPTX, RTF, and TXT</td>
-  </tr>
-  <tr>
-   <td>WordPerfect 2020<br /> </td>
-   <td>WP, WPD</td>
-  </tr>
-  <tr>
-   <td>Microsoft&reg; Publisher 2019<br /> </td>
-   <td>PUB</td>
-  </tr>
-  <tr>
-   <td>OpenOffice 4.1.10</td>
-   <td>ODT, ODP, ODS, ODG, ODF, SXW, SXI, SXC, SXD, XLS, XLSX, DOC, DOCX, PPT, PPTX, image formats (BMP, GIF, JPEG, JPG, TIF, TIFF, PNG, JPF, JPX, JP2, J2K, J2C, JPC), HTML, HTM, RTF, and TXT</td>
-  </tr>
- </tbody>
-</table>
-
->[!NOTE]
->
->PDF Generator supports only English, French, German, and Japanese versions of the supported operating systems and applications.
->
->In addition,
->
->* PDF Generator requires a 32-bit version of [Acrobat 2020 classic track version 20.004.30006](https://helpx.adobe.com/acrobat/release-note/release-notes-acrobat-reader.html) or Acrobat 2017 version 17.011.30078 to perform the conversion.
->* PDF Generator supports only the 32-bit Retail version of Microsoft&reg; Office Professional Plus and other software required for conversion.
->* The Microsoft&reg; Office Professional Plus installation may use Retail or MAK/KMS/AD based volume licensing.
->* If a Microsoft&reg; Office installation becomes deactivated or unlicensed due to any reason, such as a volume licensed installation unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
->* PDF Generator supports the 32-bit and 64-bit versions of OpenOffice on the Linux&reg; operating system.
->* PDF Generator does not support Microsoft&reg; Office 365.
->* PDF Generator conversions for OpenOffice are supported only on Windows and Linux&reg;.
->* The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
->* A version of Acrobat is bundled with AEM Forms to enable PDF Generator functionality. Programmatically access the bundled version only with AEM Forms, during the term of the AEM Forms license, for use with AEM Forms PDF Generator. For more information, see AEM Forms product description as per your deployment ([On-Premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html) or [Managed Services](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html))
->* PDF Generator service does not support Microsoft&reg; Windows 10.
->* PDF Generator fails to convert files using Microsoft&reg; Visio 2019. You can continue to use Microsoft&reg; Visio 2016 to convert `.VSD` and `.VSDX` files.
->* PDF Generator fails to convert files using Microsoft&reg; Project 2019. You can continue to use Microsoft&reg; Project 2016 to convert `.VSD` and `.VSDX` files.
->
+>* PDF Generator service does not support Microsoft&reg; Windows 11
 
 ### Requirements for AEM Forms Designer {#requirements-for-aem-forms-designer}
 
@@ -493,3 +443,5 @@ XMP write-back is supported and enabled for the following platforms and file for
 ### Requirements for AEM Assets to process metadata-heavy assets on Linux&reg; {#assetsonlinux}
 
 The XMPFilesProcessor process requires the library GLIBC_2.14 to work. Use a Linux&reg; kernel that contains GLIBC_2.14, for example, Linux&reg; kernel version 3.1.x. It improves performance for processing assets that contain a large amount of metadata, like PSD files. Using a previous version of GLIBC leads to error in logs starting with `com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler Failed to read XMP`.
+
+For any query related to supported formats or platform versions, contact [AEM Forms support](https://business.adobe.com/in/support/main.html)
