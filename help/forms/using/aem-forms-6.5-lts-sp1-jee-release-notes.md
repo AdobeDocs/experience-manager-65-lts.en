@@ -64,21 +64,15 @@ For more information, see **Migration from javax to jakarta Namespace**.
 
 For detailed upgrade instructions, see the **Upgrade Guide for AEM Forms 6.5 LTS SP1 on JEE**.
 
----
-
 ## Installation
 
 For installation steps and prerequisites, refer to the **Installation Guide for AEM Forms 6.5 LTS SP1 (JEE)**.
-
----
 
 ## Supported Platforms
 
 For the complete list of supported platforms, operating systems, databases, and application servers, see the:
 
 **Supported Platforms Matrix – AEM Forms 6.5 LTS SP1 (JEE)**
-
----
 
 ## Deprecated and Removed Features
 

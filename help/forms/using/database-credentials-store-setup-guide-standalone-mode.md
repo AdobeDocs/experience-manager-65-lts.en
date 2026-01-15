@@ -1,10 +1,19 @@
-# Database Credential Store Setup Guide  Standalone Mode
+---
+title: Database Credential Store Setup Guide (Standalone Mode)
+description: Find the database credential store setup for AEM Forms JEE on JBoss/Red Hat EAP in standalone mode.
+solution: Experience Manager
+feature: Deploying
+role: User,Admin,Developer
+---
+
+# Database Credential Store Setup Guide (Standalone Mode)
 
 ## Overview
 
 This guide covers the **database credential store setup** for AEM Forms JEE on JBoss/Red Hat EAP in **standalone mode**. This is required when performing manual installation.
 
 **This guide covers:**
+
 - Creating the database credential store (`cred-store.p12`)
 - Adding database password aliases securely
 - Configuring JBoss to use the credential store
@@ -12,6 +21,7 @@ This guide covers the **database credential store setup** for AEM Forms JEE on J
 **CRITICAL:** These scripts operate in **OFFLINE MODE ONLY**. JBoss must be stopped before running these scripts. The scripts use `embed-server` mode which requires the server to be stopped.
 
 **Note:** This is **not** a complete standalone installation guide. This document assumes:
+
 - JBoss is already installed
 - Standalone configuration files (`lc_oracle.xml`, `lc_mysql.xml`, or `lc_mssql.xml`) are already configured
 - Database is set up and accessible
@@ -61,6 +71,7 @@ Use the provided scripts to create the database credential store and add all req
 4. **Database password** (your actual database password)
 
 **What the script does:**
+
 - Creates credential store at: `JBOSS_HOME\standalone\configuration\cred-store.p12`
 - Temporarily modifies the configuration file to enable credential store creation
 - Adds the following aliases with your database password:
@@ -78,12 +89,14 @@ Use the provided scripts to create the database credential store and add all req
 `bash cd /path/to/script/location chmod +x create-elytron-cred-standalone.sh./create-elytron-cred-standalone.sh`
 
 **The script will prompt you for:**
+
 1. **JBOSS_HOME path** (e.g., `/opt/Adobe/Adobe_Experience_Manager_Forms/jboss`)
 2. **Configuration file name** (e.g., `lc_oracle.xml`, `lc_mysql.xml`, or `lc_mssql.xml`)
 3. **Credential store password** (this protects the keystore file - remember this password)
 4. **Database password** (your actual database password)
 
 **What the script does:**
+
 - Creates credential store at: `JBOSS_HOME/standalone/configuration/cred-store.p12`
 - Temporarily modifies the configuration file to enable credential store creation
 - Adds the following aliases with your database password:
@@ -95,6 +108,7 @@ Use the provided scripts to create the database credential store and add all req
 - Verifies all aliases were added successfully
 
 **Expected Output:**
+
 ```
 === JBoss Elytron Credential Store Setup ===
 Enter JBOSS_HOME path (e.g. /opt/jboss): /opt/Adobe/Adobe_Experience_Manager_Forms/jboss
@@ -147,31 +161,30 @@ JAVA_OPTS="$JAVA_OPTS -DCS_PASS=YourActualPassword123"
 
 Replace `YourActualPassword123` with the **credential store password** you used in Step 1.
 
----
-
 ### Step 3: Start JBoss
 
 After completing the credential store setup, start JBoss with the appropriate configuration file.
 
 **Note:** For the exact startup commands and procedures to start JBoss in standalone mode, please refer to the **main installation guide**. The startup commands may vary depending on your specific configuration and database type (`lc_oracle.xml`, `lc_mysql.xml`, or `lc_mssql.xml`).
 
----
-
 ## Verification
 
 ### Check Server Logs
 
 **Log Location:**
+
 - Windows: `<JBOSS_HOME>\standalone\log\server.log`
 - Linux: `<JBOSS_HOME>/standalone/log/server.log`
 
 **Look for successful startup messages:**
+
 ```
 INFO  [org.jboss.as.server] WFLYSRV0025: JBoss EAP started
 INFO  [org.jboss.as.connector.deployers.jdbc] Bound data source [java:/AdobeDataSource]
 ```
 
 **No errors related to:**
+
 - Credential store loading
 - Database connection
 - Missing aliases
@@ -181,11 +194,13 @@ INFO  [org.jboss.as.connector.deployers.jdbc] Bound data source [java:/AdobeData
 ### Issue 1: Credential Store Not Found
 
 **Error Message:**
+
 ```
 ERROR Unable to load credential store
 ```
 
 **Solution:**
+
 1. Verify the credential store file exists:
    - Windows: `dir <JBOSS_HOME>\standalone\configuration\cred-store.p12`
    - Linux: `ls -l <JBOSS_HOME>/standalone/configuration/cred-store.p12`
@@ -194,6 +209,7 @@ ERROR Unable to load credential store
 ### Issue 2: Wrong Credential Store Password
 
 **Error Message:**
+
 ```
 ERROR Unable to load credential store - Invalid password
 ```
@@ -203,6 +219,7 @@ Verify that the password in `standalone.conf.bat` / `standalone.conf` (Step 2) m
 
 **To Fix:**
 Edit `standalone.conf.bat` / `standalone.conf` and update the password:
+
 ```
 set "JAVA_OPTS=%JAVA_OPTS% -DCS_PASS=CorrectPassword"
 ```
@@ -210,16 +227,19 @@ set "JAVA_OPTS=%JAVA_OPTS% -DCS_PASS=CorrectPassword"
 ### Issue 3: Database Connection Failed
 
 **Error Message:**
+
 ```
 ERROR Failed to obtain connection
 ```
 
 **Solution:**
+
 1. Verify the database password used in the credential store is correct
 2. Check that the datasource configuration references the correct alias
 3. Verify network connectivity to the database server
 
 **To Recreate Credential Store:**
+
 1. Stop JBoss
 2. Delete the existing credential store:
    - Windows: `del <JBOSS_HOME>\standalone\configuration\cred-store.p12`
@@ -229,6 +249,7 @@ ERROR Failed to obtain connection
 ### Issue 4: Script Fails During Execution
 
 **Error Message:**
+
 ```
 ERROR: jboss-cli.bat is not found
 ```
@@ -237,11 +258,13 @@ ERROR: jboss-cli.bat is not found
 Verify that JBOSS_HOME path is correct and points to the JBoss installation directory.
 
 **Error Message:**
+
 ```
 ERROR: Configuration file not found
 ```
 
 **Solution:**
+
 1. Verify the configuration file name is correct
 2. Check that the file exists in `JBOSS_HOME\standalone\configuration\` directory
 3. Ensure you're using the correct database-specific configuration file
@@ -253,14 +276,17 @@ ERROR: Configuration file not found
 **Purpose:** Store database passwords securely
 
 **Script:**
+
 - Windows: `create-elytron-cred-standalone.bat`
 - Linux: `create-elytron-cred-standalone.sh`
 
 **Creates:**
+
 - File: `standalone/configuration/cred-store.p12`
 - Aliases: `EncryptDBPassword`, `EncryptDBPassword_IDP_DS`, `EncryptDBPassword_EDC_DS`, `EncryptDBPassword_AEM_DS`
 
 **Configuration:**
+
 - Variable: `-DCS_PASS=password`
 - File: `standalone.conf.bat` (Windows) or `standalone.conf` (Linux)
 

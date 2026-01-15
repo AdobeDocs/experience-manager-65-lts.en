@@ -1,3 +1,11 @@
+---
+title: Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)
+description: setting up JBoss EAP 8.0 (AEM Forms 6.5.1 LTS) on a Linux environment, you may encounter certain error while running shell scripts or startup files
+solution: Experience Manager
+feature: Deploying
+role: User,Admin,Developer
+---
+
 # Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)
 
 ## Issue
@@ -7,7 +15,7 @@ When setting up **JBoss EAP 8.0 (AEM Forms 6.5.1 LTS)** on a **Linux** environme
 ```text
 /bin/sh^M: bad interpreter
 $'\r': command not found
-````
+```
 
 These errors occur when shell scripts or configuration files were created or edited on a **Windows** system and contain **CRLF (Carriage Return + Line Feed)** line endings.
 Linux systems support only **LF (Line Feed)** line endings, and Windows-style line endings cause script execution failures.
@@ -30,6 +38,7 @@ Linux systems support only **LF (Line Feed)** line endings, and Windows-style li
      ```bash
      dos2unix <file_name>
      ```
+   
    * Replace `<file_name>` with the actual script or configuration file throwing the error.
 
 3. **Repeat if required**
