@@ -37,7 +37,6 @@ The following diagram displays the available upgrade paths for AEM Forms LTS on 
 
 You can perform a direct upgrade from:
 
-* AEM 6.5.17.0 Forms on JEE
 * AEM 6.5.23.0 Forms on JEE
 
 
