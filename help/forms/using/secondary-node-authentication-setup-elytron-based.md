@@ -4,6 +4,9 @@ description: JBoss EAP 8 uses Elytron to enable secure communication and registr
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
+hide: yes
+index: no
+hidefromtoc: yes
 ---
 
 # Secondary Node Authentication Setup (Elytron-based)

@@ -81,4 +81,53 @@ For the complete list of supported platforms, operating systems, databases, and 
 
 ## Migration from javax to jakarta Namespace
 
-Starting with **AEM Forms 6.5 LTS SP1**, only application servers implementing the **Jakarta Servlet API** are supported. Customers must migrate all custom code, including DSCs and integrations, from the `javax.*` namespace to `jakarta.*`.
+### Migration from `javax` to `jakarta` Namespace
+
+Starting with **AEM Forms 6.5 LTS SP1**, only application servers that implement **Jakarta Servlet API 5/6** are supported. With **Jakarta EE 9 and later**, all APIs transitioned from the `javax.{}` namespace to `jakarta.`.
+
+As a result, **all custom DSCs must use the `jakarta` namespace**. Custom components built using `javax.{}` APIs are **not compatible** with the supported application servers.
+
+### Migration Options for Custom DSCs
+
+You can migrate existing custom DSCs using one of the following approaches:
+
+#### Option 1: Source Code Migration (Recommended)
+
+* Update all import statements from `javax.{}` to `jakarta.`
+* Rebuild and recompile the custom DSC projects
+* Re-deploy the updated components to the application server
+
+**Benefits:**
+
+* Ensures long-term compatibility with Jakarta EE 9+
+* Best suited for actively maintained projects
+
+#### Option 2: Binary Migration Using Eclipse Transformer
+
+* Use the **Eclipse Transformer** tool to convert compiled binaries (`.jar`, `.war`) from `javax` to `jakarta`
+* No source code changes or recompilation required
+* Re-deploy the transformed binaries to the application server
+
+>[!NOTE]
+>
+> Binary transformation is performed at the **bytecode level**.
+
+Sample Import Mappings
+
+Below are common examples of namespace changes required during migration:
+
+Before (javax)    After (jakarta)
+javax.servlet.*    jakarta.servlet.*
+javax.servlet.http.*    jakarta.servlet.http.*
+
+### Sample Import Mappings
+
+The following table shows common namespace changes required when migrating from `javax` to `jakarta`:
+
+| Before (`javax`)       | After (`jakarta`)        |
+| ---------------------- | ------------------------ |
+| `javax.servlet.*`      | `jakarta.servlet.*`      |
+| `javax.servlet.http.*` | `jakarta.servlet.http.*` |
+
+Use these mappings as a reference when updating custom DSC source code or validating transformed binaries.
+

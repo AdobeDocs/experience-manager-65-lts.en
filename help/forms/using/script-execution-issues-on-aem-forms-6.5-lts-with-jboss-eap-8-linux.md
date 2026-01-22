@@ -4,6 +4,9 @@ description: setting up JBoss EAP 8.0 (AEM Forms 6.5.1 LTS) on a Linux environme
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
+hide: yes
+index: no
+hidefromtoc: yes
 ---
 
 # Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)
