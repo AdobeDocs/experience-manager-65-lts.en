@@ -258,7 +258,7 @@ Handling the action/button on clicking action/button includes logic for:
            };
            /**
             * Should the action be enabled in toolbar
-            * @param extraParams additional arguements that may be passed to handler (For future use)
+            * @param extraParams additional arguments that may be passed to handler (For future use)
             * @return flag indicating whether the action should be enabled
             */
           CCRCustomActionHandler.prototype.actionEnabled = function(extraParams){
