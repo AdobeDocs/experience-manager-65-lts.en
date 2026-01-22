@@ -62,7 +62,7 @@ For more information, see **Migration from javax to jakarta Namespace**.
 
 ## Upgrade
 
-For detailed upgrade instructions, see the **Upgrade Guide for AEM Forms 6.5 LTS SP1 on JEE**.
+For detailed upgrade instructions, see the [Upgrade Guide for AEM Forms 6.5 LTS SP1 on JEE](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/forms/upgrade-aem-forms/upgrade)
 
 ## Installation
 
