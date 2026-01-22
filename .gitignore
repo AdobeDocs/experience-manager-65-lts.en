@@ -4,6 +4,7 @@
 settings.json
 .history
 Thumbs.db
+.vscode/
 .gitignore
 desktop.ini
 experience-manager-cloud-service.en.code-workspace
@@ -15,3 +16,4 @@ experience-manager-cloud-service.en.code-workspace
 usage-agents.log
 setup-agent.md
 .cursor/
+.cursorrules
