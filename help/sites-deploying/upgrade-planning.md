@@ -23,7 +23,7 @@ The AEM Upgrade process needs carefully handled planning, analysis, and executio
 
 >[!NOTE]
 >
->The upgrade to AEM 6.5 LTS is supported from the last 6 Service packs
+>The upgrade to AEM 6.5 LTS is available for all supported 6.5 Service Packs.
 
 It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, refer the [technical requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your upgrade plan and should take place before upgrading AEM.
 

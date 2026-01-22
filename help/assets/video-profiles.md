@@ -93,7 +93,7 @@ The following table identifies best practice encoding profiles for adaptive vide
 
 ## About using smart crop in video profiles {#about-smart-crop-video}
 
-Smart crop for video &ndash; an optional feature available in Video Profiles &ndash; is a tool that uses the power of artificial intelligence in Adobe Sensei. It automatically detects and crops the focal point in any adaptive video or progressive video that you have uploaded, regardless of size. 
+Smart crop for video &ndash; an optional feature available in Video Profiles &ndash; is a tool that uses the power of artificial intelligence in Adobe AI. It automatically detects and crops the focal point in any adaptive video or progressive video that you have uploaded, regardless of size. 
 
 Supported video formats for smart cropping include MP4, MKV, MOV, AVI, FLV, and WMV.
 
@@ -103,7 +103,7 @@ The maximum supported video file size for smart crop is the following criteria:
 * 30 frames per second (FPS).
 * 300-MB file size.
 
-Adobe Sensei is limited to 9000 frames. That is, five minutes at 30 FPS. If your video has a higher FPS, the maximum supported video duration decreases. For example, Adobe Sensei and smart crop support a 60 FPS video only if it is at least two and a half minutes long.
+Adobe AI is limited to 9000 frames. That is, five minutes at 30 FPS. If your video has a higher FPS, the maximum supported video duration decreases. For example, Adobe AI and smart crop support a 60 FPS video only if it is at least two and a half minutes long.
 
 ![Smart Crop for Video](assets/smart-crop-video.png)
 
