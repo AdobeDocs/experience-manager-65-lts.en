@@ -9,3 +9,7 @@ desktop.ini
 experience-manager-cloud-service.en.code-workspace
 .idea
 *.iml
+.cursor/mcp.json
+.cursor-agents
+usage-agents.log
+setup-agent.md
