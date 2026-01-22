@@ -8,7 +8,7 @@ exl-id: be7c294c-149b-4825-8376-573f9e2987e2
 ---
 # Prepare [!DNL Assets] for smart tagging {#configure-asset-tagging-using-the-smart-content-service}
 
-Before you can start tagging your assets using Smart Content Services, integrate [!DNL Experience Manager Assets] with Adobe Developer Console to use smart service of [!DNL Adobe Sensei]. Once configured, train the service using a few images and a tag.
+Before you can start tagging your assets using Smart Content Services, integrate [!DNL Experience Manager Assets] with Adobe Developer Console to use smart service of [!DNL Adobe AI]. Once configured, train the service using a few images and a tag.
 Before you use the Smart Content Service, ensure the following:
 
 * [Integrate with Adobe Developer Console](#integrate-adobe-io).
