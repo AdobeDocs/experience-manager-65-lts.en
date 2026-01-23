@@ -436,7 +436,6 @@ user-guide-title: AEM 6.5 LTS
     + Install AEM Forms on JEE {#jee-installation}
       + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
       + [Installing and Deploying AEM Forms 6.5 LTS on JEE Using JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-turnkey.pdf)
-      + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
     + Install AEM Forms on OSGi {#osgi-installation}
       + [Supported platforms for AEM forms on OSGi](/help/forms/using/supported-platforms.md)
       + [Install and configure document services](/help/forms/using/install-configure-document-services.md)
@@ -461,6 +460,7 @@ user-guide-title: AEM 6.5 LTS
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
     + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)
+      + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
   + Manage AEM Forms {#manage-administer-aem-forms}
     + [AEM Forms on OSGi Groups and Privileges](/help/forms/using/forms-groups-privileges-tasks.md)
     + [Create new folders to categorize forms](/help/forms/using/creating-new-folders-categorize-forms.md)
