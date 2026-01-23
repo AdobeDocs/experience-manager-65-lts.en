@@ -33,7 +33,7 @@ The following 3-minute, 25-second video delivers a step-by-step walkthrough of A
 
 ## Get access to AI Assistant in AEM{#get-access}
 
-o get access to AI Assistant in AEM, customers must have the following:
+To get access to AI Assistant in AEM, customers must have the following:
 
 * Permission to use AI Assistant in AEM for Product Knowledge. This permission lets you ask product-related questions in AI Assistant chat. This permission must be enabled.
 * Permission to open support tickets, which requires the **Support Admin** role.
@@ -53,7 +53,7 @@ o get access to AI Assistant in AEM, customers must have the following:
 
 ## Scope {#scope}
 
-The current scope of AI Assistant in AEM focuses on addressing product knowledge questions for AEMr as a Cloud Service. This scope includes comprehensive support for key areas. <!--, such as Sites, Assets, Forms, Edge Delivery Services, Dynamic Media, and Cloud Manager. -->
+The current scope of AI Assistant in AEM focuses on addressing product knowledge questions for AEM as a Cloud Service. This scope includes comprehensive support for key areas. <!--, such as Sites, Assets, Forms, Edge Delivery Services, Dynamic Media, and Cloud Manager. -->
 
 * **Surfaces**: Available across AEM Experience Hub, Author UI, Cloud Manager.
 * **Capabilities**: Product‑knowledge and first-stop for troubleshooting and guidance, automated creation of support tickets and lookup.

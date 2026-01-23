@@ -204,7 +204,7 @@ Encrypt a PDF document with a password by using the Encryption API (web service)
 
     * Create a `PasswordEncryptionOptionSpec` object by using its constructor.
     * Specify the PDF document resources to encrypt by assigning a `PasswordEncryptionOption` enumeration value to the `PasswordEncryptionOptionSpec` object’s `encryptOption` data member. To encrypt the entire PDF, including its metadata and its attachments, assign `PasswordEncryptionOption.ALL` to this data member.
-    * Specify the Acrobat compatibility option by assigning a `PasswordEncryptionCompatability` enumeration value to the `PasswordEncryptionOptionSpec` object’s `compatability` data member. For example, assign `PasswordEncryptionCompatability.ACRO_7` to this data member.
+    * Specify the Acrobat compatibility option by assigning a `PasswordEncryptionCompatibility` enumeration value to the `PasswordEncryptionOptionSpec` object's `compatibility` data member. For example, assign `PasswordEncryptionCompatibility.ACRO_7` to this data member.
     * Specify the password value that lets a user open the encrypted PDF document by assigning a string value that represents the open password to the `PasswordEncryptionOptionSpec` object’s `documentOpenPassword` data member.
     * Specify the password value that lets a user remove encryption from the PDF document by assigning a string value that represents the master password to the `PasswordEncryptionOptionSpec` object’s `permissionPassword` data member.
 

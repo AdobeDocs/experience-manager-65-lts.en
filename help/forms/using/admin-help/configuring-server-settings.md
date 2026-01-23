@@ -45,7 +45,7 @@ If your processes are designed and implemented without requiring email, you do n
 
    >[!NOTE]
    >
-   >If you are using Microsoft Exchange Server and the Email Address is an invalid email address, Microsoft Exchange server fails to send an email to Distribution Lists. To resolve the issue, select the **Enable External Communication** option seperately for every Distribution List on Microsoft Exchange server.
+   >If you are using Microsoft Exchange Server and the Email Address is an invalid email address, Microsoft Exchange server fails to send an email to Distribution Lists. To resolve the issue, select the **Enable External Communication** option separately for every Distribution List on Microsoft Exchange server.
 
 1. Click Save.
 

@@ -284,7 +284,7 @@ Information about the CRX repository
   </tr>
   <tr>
    <td>option.observation.supported</td>
-   <td>true indicates that asynchronous observation of repository changes is supported. Support of asynchronous observation enables applications to recieve and respond to notifications about each change as they occur.</td>
+   <td>true indicates that asynchronous observation of repository changes is supported. Support of asynchronous observation enables applications to receive and respond to notifications about each change as they occur.</td>
   </tr>
   <tr>
    <td>query.jcrscore</td>

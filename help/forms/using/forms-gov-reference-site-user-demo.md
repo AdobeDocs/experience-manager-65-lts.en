@@ -218,12 +218,12 @@ Aya must review some documents at home before she can complete the service reque
 1. Use the following **dynamic logic** to demonstrate dynamic feature using the **Family Status** dropdown:
 
     1. **Single**: Show next of kin panel
-    1. **Married**: Show marital dependant panel
+    1. **Married**: Show marital dependent panel
     1. **Divorced**: Show next of kin panel
     1. **Widowed**: Show next of kin panel
-    1. **Do you have Children?**: (Yes/No) radio button to show child dependant panel.
+    1. **Do you have Children?**: (Yes/No) radio button to show child dependent panel.
 
-        1. (Add/Remove) button to add/remove multiple child dependant panels.
+        1. (Add/Remove) button to add/remove multiple child dependent panels.
 
 1. Click the right arrow in the gray menu bar.
 1. Click the Save button at the bottom.

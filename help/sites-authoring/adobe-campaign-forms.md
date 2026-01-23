@@ -50,7 +50,7 @@ First of all, check the connection between the author and publish instances and 
 >
 
 1. In AEM, in Sites, navigate to where you want to create a page.
-1. Create a page and select **Adobe Campaign Classic Profile **or** Adobe Campaign Standard Profile** and click **Next**.
+1. Create a page and select **Adobe Campaign Classic Profile** or **Adobe Campaign Standard Profile** and click **Next**.
 
    ![chlimage_1-43](assets/chlimage_1-43a.png)
 
@@ -64,7 +64,7 @@ First of all, check the connection between the author and publish instances and 
 
    ![chlimage_1-44](assets/chlimage_1-44a.png)
 
-1. On the page, in the **Form Start** component, select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile**. You can only have one type per form. You can now [edit the form's content](#editing-form-content).
+1. On the page, in the **Form Start** component, select the type of form it is - **Subscribe, Unsubscribe,** or **Save Profile**. You can only have one type per form. You can now [edit the form's content](#editing-form-content).
 
 ## Editing Form Content {#editing-form-content}
 
@@ -90,7 +90,7 @@ This section only details specific links to Adobe Campaign. For more information
     * **Adobe Campaign: Subscribe to Services**: lets you manage the subscriptions of a recipient in Adobe Campaign.
     * **Adobe Campaign: Unsubscribe from Services**: lets you cancel the subscriptions of a recipient in Adobe Campaign.
 
-1. You must have an **Encrypted Primary Key** component on each form. This component defines which URL parameter is used to accept the encrypted primary key of an Adobe Campaign profile. In Components, select Adobe Campaign so only those componente are visible.
+1. You must have an **Encrypted Primary Key** component on each form. This component defines which URL parameter is used to accept the encrypted primary key of an Adobe Campaign profile. In Components, select Adobe Campaign so only those components are visible.
 1. Drag the component **Encrypted Primary Key** to the form (anywhere) and click the **Configuration** icon. In the **Adobe Campaign** tab, specify any name for the URL parameter. Click the check mark to save your changes.
 
    Generated links to this form need to use this URL parameter and assign it the encrypted primary key of an Adobe Campaign profile. The encrypted primary key must be properly URL (percent) encoded.
@@ -112,7 +112,7 @@ This section only details specific links to Adobe Campaign. For more information
 
    >[!CAUTION]
    >
-   >You need to provide read permisssions to the anonymous user on the cloud service to use forms on publish. However, be aware of the potential security issues with providing read permissions to the anonymous user and be sure to mitigate it by, for example, configuring the dispatcher.
+   >You need to provide read permissions to the anonymous user on the cloud service to use forms on publish. However, be aware of the potential security issues with providing read permissions to the anonymous user and be sure to mitigate it by, for example, configuring the dispatcher.
 
 ## Testing a Form {#testing-a-form}
 
@@ -120,7 +120,7 @@ After you create a form and edit form content, you may want to manually test tha
 
 >[!NOTE]
 >
->You must have an **Encryted Primary Key** component on each form. In Components, select Adobe Campaign so only those componente are visible.
+>You must have an **Encrypted Primary Key** component on each form. In Components, select Adobe Campaign so only those components are visible.
 >
 >Although in this procedure you enter the epk number manually, in practice, users would get a link to this page (whether to unsubscribe, subscribe, or update your profile) within a newsletter. Based on the user, the epk automatically updates.
 >
@@ -128,7 +128,7 @@ After you create a form and edit form content, you may want to manually test tha
 
 To do this, you need to manually get the EPK of an Adobe Campaign profile and then append it to the URL:
 
-1. To get the encrypted primarly key (EPK) of an Adobe Campaign profile:
+1. To get the encrypted primary key (EPK) of an Adobe Campaign profile:
 
     * In Adobe Campaign Standard - Navigate to **Profiles and Audiences** &gt; **Profiles**, which lists the existing profiles. Make sure the table displays the **Main Resource Identifier** field in a column (This can be configured by clicking/tapping **Configure list**). Copy the main resource identifier of the desired profile.
     * In Adobe Campaign Classic, go to **Profiles and Targets** &gt;  **Recipients**, which lists the existing profiles. Make sure the table displays the **Encrypted identifier** field in a column (This can be configured by right-clicking on an entry and selecting **Configure list...**). Copy the encrypted identifier of the desired profile.

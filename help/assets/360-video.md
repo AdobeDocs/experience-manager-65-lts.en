@@ -45,7 +45,7 @@ See [Edit 360/VR video](https://helpx.adobe.com/premiere-pro/how-to/edit-360-vr-
 
 **Upload assets for use with the 360 Video viewer:**
 
-1. Created a folder that is dedicated to your 360-video asset.
+1. Create a folder that is dedicated to your 360-video asset.
 1. [Apply an adaptive video profile to the folder](/help/assets/video-profiles.md#applying-a-video-profile-to-folders).
 
    Rendering 360-video content places higher requirements for source video resolution and for encoded renditions resolution than standard non-360 video content.

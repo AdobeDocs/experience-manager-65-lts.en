@@ -49,7 +49,7 @@ Some of the features of tags within AEM include:
 
 The Tagging console is used to create and manage tags and their taxonomies. One goal is to avoid having many similar tags relating to basically the same thing : for example, page and pages or footwear and shoes.
 
-Tags are managed by grouping into namespaces, reviewing usage of exiting tags before creating new ones, and re-organizing without disconnecting the tag from currently referenced content.
+Tags are managed by grouping into namespaces, reviewing usage of existing tags before creating new ones, and re-organizing without disconnecting the tag from currently referenced content.
 
 To access the Tagging console :
 
