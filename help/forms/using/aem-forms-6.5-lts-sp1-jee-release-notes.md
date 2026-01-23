@@ -4,6 +4,7 @@ description: Find release information, what's new, install how-tos, and a detail
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Developer
+exl-id: 811fccbc-6f63-4309-93c8-13b7ace07925
 ---
 
 # Adobe Experience Manager (AEM) Forms 6.5 LTS SP1 on JEE Release Notes
