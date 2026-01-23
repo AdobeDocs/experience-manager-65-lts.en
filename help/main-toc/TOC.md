@@ -459,7 +459,7 @@ user-guide-title: AEM 6.5 LTS
       + [Upgrade to AEM 6.5 LTS forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
-    + [Upgrade to AEM 6.5 forms on JEE](/help/forms/using/upgrade-forms-jee.md)
+    + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
       + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
   + Manage AEM Forms {#manage-administer-aem-forms}
     + [AEM Forms on OSGi Groups and Privileges](/help/forms/using/forms-groups-privileges-tasks.md)
