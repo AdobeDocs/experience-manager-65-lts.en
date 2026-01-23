@@ -28,7 +28,7 @@ To configure the `UrlProvider` service according to the SEO requirements and nee
 
 >[!NOTE]
 >
->Since release 2.0.0 of the AEM CIF Core Components, the URL Provider configuration only provides pre-defined url formats, instead of the free-text configureable formats known from 1.x releases. Furthermore the use of selectors to pass data in URLs has been replaced with suffixes.
+>Since release 2.0.0 of the AEM CIF Core Components, the URL Provider configuration only provides pre-defined url formats, instead of the free-text configurable formats known from 1.x releases. Furthermore the use of selectors to pass data in URLs has been replaced with suffixes.
 
 ### Product Page URL Format {#product}
 

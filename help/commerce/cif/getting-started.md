@@ -24,7 +24,7 @@ The onboarding for AEM Content and Commerce is a two-step process:
 
 Download and install the AEM Commerce Add-On for AEM 6.5 LTS from the [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) portal.
 
-Start and install the requiered AEM 6.5 LTS Service Pack. We recommend installing the last available service pack.
+Start and install the required AEM 6.5 LTS Service Pack. We recommend installing the last available service pack.
 
 >[!NOTE]
 >

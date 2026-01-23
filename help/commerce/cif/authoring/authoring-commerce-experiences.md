@@ -10,7 +10,7 @@ exl-id: b749ec33-9a78-41d5-889f-73dbdb33ceed
 
 ## Overview {#overview}
 
-The CIF add-on extends AEM authoring with commerce-specific capabilities. This enables authors to build and managed commerce-related experiences efficiently by getting access to product data and content without leaving the context.
+The CIF add-on extends AEM authoring with commerce-specific capabilities. This enables authors to build and manage commerce-related experiences efficiently by getting access to product data and content without leaving the context.
 
 ## Pickers {#pickers}
 
@@ -58,7 +58,7 @@ The 'Assets' tab in the editor's Side panel offers access to product data by sel
 
 ![Product data side panel](/help/commerce/cif/assets/authoring/products-side-panel.png)
 
-Analog to assets, products can be dnd on a page (Which creates a product teaser component as default) or components (Currently supported are product teaser and product carousel).
+Analog to assets, products can be dragged and dropped on a page (which creates a product teaser component as default) or components (currently supported are product teaser and product carousel).
 
 ### Adding Links in Textfields Using RTE {#rte}
 
