@@ -30,7 +30,7 @@ Because of the RESTful nature of the Sling framework upon which AEM is built, mo
 
 ## Downloading cURL {#downloading-curl}
 
-cURL is a standard part of macOS and some Linux distros. However it is avaialble for most every operating system. The latest downloads can be found at [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html).
+cURL is a standard part of macOS and some Linux distros. However it is available for most every operating system. The latest downloads can be found at [https://curl.haxx.se/download.html](https://curl.haxx.se/download.html).
 
 cURL's source repository can be found on GitHub as well.
 
@@ -42,7 +42,7 @@ To find the exact command you need for your particular operation, you need to us
 
 The following steps describe how to do this using the creation of a new page within the Chrome browser as an example.
 
-1. Prepare the action you wish to invoke within AEM. In this case, we have proceded to the end of the **Create Page** wizard, but have not yet clicked **Create**.
+1. Prepare the action you wish to invoke within AEM. In this case, we have proceeded to the end of the **Create Page** wizard, but have not yet clicked **Create**.
 
    ![chlimage_1-66](assets/chlimage_1-66a.png)
 
@@ -55,7 +55,7 @@ The following steps describe how to do this using the creation of a new page wit
 
    ![chlimage_1-68](assets/chlimage_1-68a.png)
 
-1. Copy the cURL command to a text editor and remove all headers from the command, which start with `-H` (highligted in blue in the image below) and add the proper authentication parameter such as `-u <user>:<password>`.
+1. Copy the cURL command to a text editor and remove all headers from the command, which start with `-H` (highlighted in blue in the image below) and add the proper authentication parameter such as `-u <user>:<password>`.
 
    ![chlimage_1-69](assets/chlimage_1-69a.png)
 
