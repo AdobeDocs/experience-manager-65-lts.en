@@ -398,6 +398,7 @@ user-guide-title: AEM 6.5 LTS
     + [Configure [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-configure.md)
 + Forms {#forms}
   + Release Notes {#release-notes-new-features}
+  + [Current Release Notes](/help/forms/using/aem-forms-6.5-lts-sp1-jee-release-notes.md)
   + [AEM Forms Service Pack Hotfix](/help/forms/using/adobe-experience-manager-forms-65-lts-hotfixes.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
@@ -434,6 +435,8 @@ user-guide-title: AEM 6.5 LTS
     + [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md)
     + Install AEM Forms on JEE {#jee-installation}
       + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
+      + [Installing and Deploying AEM Forms 6.5 LTS on JEE Using JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-turnkey.pdf)
+      + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
     + Install AEM Forms on OSGi {#osgi-installation}
       + [Supported platforms for AEM forms on OSGi](/help/forms/using/supported-platforms.md)
       + [Install and configure document services](/help/forms/using/install-configure-document-services.md)

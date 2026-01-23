@@ -1,6 +1,6 @@
 ---
 title: Database Credential Store Setup (Elytron-based)
-description: JBoss EAP 8 supports Elytron credential stores for secure database password management in AEM Forms, with automated scripts for domain mode setup.
+description: JBoss EAP 8 supports Elytron credential stores for secure database password management in AEM Forms for domain mode setup.
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
