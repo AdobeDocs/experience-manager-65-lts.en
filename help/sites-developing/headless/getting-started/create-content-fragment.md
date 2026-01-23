@@ -39,7 +39,7 @@ Content authors will create any number of Content Fragments to represent the con
 1. Provide the details of the Content Fragment in the Content Fragment Editor.
 
    ![Content Fragment Editor](assets/content-fragment-edit.png)
-1. Click **Save** or  **Save & close**.
+1. Click **Save** or **Save & close**.
 
 Content Fragments can reference other Content Fragments, allowing for a nested content structure if necessary.
 

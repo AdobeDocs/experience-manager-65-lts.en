@@ -33,7 +33,7 @@ The following 3-minute, 25-second video delivers a step-by-step walkthrough of A
 
 ## Get access to AI Assistant in AEM{#get-access}
 
-o get access to AI Assistant in AEM, customers must have the following:
+To get access to AI Assistant in AEM, customers must have the following:
 
 * Permission to use AI Assistant in AEM for Product Knowledge. This permission lets you ask product-related questions in AI Assistant chat. This permission must be enabled.
 * Permission to open support tickets, which requires the **Support Admin** role.

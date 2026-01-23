@@ -301,7 +301,7 @@ You can configure the number of columns available for each specific instance of 
 
 There may be occasions when you find it necessary to nest responsive grids to support your project's needs. However, keep in mind that Adobe's recommended best practice is to keep the structure as flat as possible.
 
-When you can not avoid using nested responsive grids, make sure:
+When you cannot avoid using nested responsive grids, make sure:
 
 * All containers (containers, tabs, accordions, etc.) have the property `layout = responsiveGrid`.
 * Do not mix the property `layout = simple` in the container hierarchy. 
