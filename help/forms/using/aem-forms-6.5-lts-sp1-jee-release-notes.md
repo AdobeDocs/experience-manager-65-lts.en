@@ -8,7 +8,6 @@ role: User,Admin,Developer
 
 # Adobe Experience Manager (AEM) Forms 6.5 LTS SP1 on JEE Release Notes
 
-
 ## Release Information
 
 | **Product**          | Adobe Experience Manager Forms       |
