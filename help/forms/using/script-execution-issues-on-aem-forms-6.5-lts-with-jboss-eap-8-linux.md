@@ -1,6 +1,6 @@
 ---
 title: Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)
-description: setting up JBoss EAP 8.0 (AEM Forms 6.5.1 LTS) on a Linux environment, you may encounter certain error while running shell scripts or startup files
+description: Setting up JBoss EAP 8.0 on a Linux environment, you may encounter certain error while running shell scripts or startup files
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
