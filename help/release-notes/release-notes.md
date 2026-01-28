@@ -35,6 +35,90 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 AEM 6.5 Forms LTS on JEE is now available. For details about supported environments, see the [Supported Platform](/help/forms/using/aem-forms-jee-supported-platforms.md) Combinations document. Installer links are available on the [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page.
 
+#### What Is Included in AEM Forms 6.5 LTS SP1
+
+**Java Support Updates**
+
+Support for newer Java versions has been introduced:
+
+* Java&trade; 17
+* Java&trade; 21
+
+**Application Server Support Updates**
+
+* Support for JBoss EAP 8 has been added.
+* The legacy PicketBox security framework has been removed.
+* Elytron-based credential stores are now supported for secure credential management.
+
+**Configuration: Credential Store (Elytron-based)**
+
+AEM Forms on JBoss EAP 8 uses Elytron for managing secure credentials. Customers must configure an Elytron-based Credential Store to ensure successful server startup and secure database authentication.
+
+For configuration details, refer to the installation and configuration guide.
+
+**Platform and Compatibility Changes**
+
+* Support for Servlet Specification 5+
+* Based on Jakarta EE 9 compliance
+
+**Namespace Migration Requirement**
+
+* Jakarta EE 9 introduces a namespace change from `javax.*` to `jakarta.*`
+* All **custom DSCs** must be migrated to the `jakarta.*` namespace
+* AEM Forms 6.5 LTS SP1 supports **only Jakarta EE 9+–based application servers**
+
+For more information, see **Migration from javax to jakarta Namespace**.
+
+**Migration from javax to jakarta Namespace**
+
+#### Migration from `javax` to `jakarta` Namespace
+
+Starting with **AEM Forms 6.5 LTS SP1**, only application servers that implement **Jakarta Servlet API 5/6** are supported. With **Jakarta EE 9 and later**, all APIs transitioned from the `javax.{}` namespace to `jakarta.`.
+
+As a result, **all custom DSCs must use the `jakarta` namespace**. Custom components built using `javax.{}` APIs are **not compatible** with the supported application servers.
+
+**Migration Options for Custom DSCs**
+
+You can migrate existing custom DSCs using one of the following approaches:
+
+**Option 1: Source Code Migration (Recommended)**
+
+* Update all import statements from `javax.{}` to `jakarta.`
+* Rebuild and recompile the custom DSC projects
+* Re-deploy the updated components to the application server
+
+**Benefits:**
+
+* Ensures long-term compatibility with Jakarta EE 9+
+* Best suited for actively maintained projects
+
+**Option 2: Binary Migration Using Eclipse Transformer**
+
+* Use the **Eclipse Transformer** tool to convert compiled binaries (`.jar`, `.war`) from `javax` to `jakarta`
+* No source code changes or recompilation required
+* Re-deploy the transformed binaries to the application server
+
+>[!NOTE]
+>
+> Binary transformation is performed at the **bytecode level**.
+
+Below are common examples of namespace changes required during migration:
+
+Before (javax)    After (jakarta)
+javax.servlet. **jakarta.servlet**
+javax.servlet.http. **jakarta.servlet.http.**
+
+**Sample Import Mappings**
+
+The following table shows common namespace changes required when migrating from `javax` to `jakarta`:
+
+| Before (`javax`)       | After (`jakarta`)        |
+| ---------------------- | ------------------------ |
+| `javax.servlet.*`      | `jakarta.servlet.*`      |
+| `javax.servlet.http.*` | `jakarta.servlet.http.*` |
+
+Use these mappings as a reference when updating custom DSC source code or validating transformed binaries.
+
 <!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
 
 <!-- UPDATE EACH RELEASE -->
@@ -442,6 +526,7 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 ### Upgrade {#upgrade}
 
 * For details about the upgrade procedure, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
+* For detailed upgrade instructions, see the [Upgrade Guide for AEM Forms 6.5 LTS SP1 on JEE](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/forms/upgrade-aem-forms/upgrade)
 
 #### Best practices for AEM 6.5 LTS Service Pack upgrades
 
@@ -514,14 +599,15 @@ Find the complete matrix of supported platforms including support-level on [AEM 
 
 <!-- CARRY OVER EACH RELEASE -->
 
-Adobe continually reviews product capabilities to improve customer value by modernizing or replacing older features. These changes are made with careful attention to backward compatibility.
+Adobe continually reviews and evolves product capabilities to deliver greater customer value by modernizing or replacing legacy features. These changes are implemented with careful consideration for backward compatibility.
 
-To communicate the impending removal or replacement of Adobe Experience Manager (AEM) capabilities, the following rules apply:
+To ensure transparency and allow adequate planning, Adobe follows this deprecation process for Adobe Experience Manager (AEM):
 
-1. Announcement of deprecation comes first. While deprecated, capabilities are still available but are not further enhanced.
-1. Removal of deprecated capabilities occurs in the following major release at the earliest. The actual target date for removal is planned for announcement later.
+* Deprecation is announced first. Deprecated capabilities remain available but are no longer enhanced.
 
-This process gives customers at least one release cycle to adapt their implementation to a new version or successor of a deprecated capability, before actual removal.
+* Removal occurs no earlier than the next major release. The planned removal timeline is communicated separately.
+
+* A minimum of one release cycle is provided for customers to transition to supported alternatives before a capability is removed.
 
 ### Deprecated features {#deprecated-features}
 
@@ -537,6 +623,10 @@ Customers are advised to review if they use the feature/capability in their curr
 ### Removed features {#removed-features}
 
 This section lists features and capabilities that have been removed from AEM 6.5 LTS. Prior releases had these capabilities marked as deprecated.
+
+* Support for RDBMK for CRX repository persistence has been removed.
+
+* In clustered environments, MongoMK is now the only supported option for repository persistence.
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
