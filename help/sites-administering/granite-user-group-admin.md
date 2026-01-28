@@ -48,7 +48,7 @@ Choosing either **Users** or **Groups** from the Tools console opens the appropr
 
 1. Use the **Add User** icon:
 
-   ![Add Useer icon](do-not-localize/chlimage_1-1.png)
+   ![Add User icon](do-not-localize/chlimage_1-1.png)
 
 1. The **Create User** form opens:
 

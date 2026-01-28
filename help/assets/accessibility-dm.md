@@ -29,7 +29,7 @@ The focus traversal follows the natural user interface element location on the s
 * In the Image Crop/Smart Crop editor, you can do the following:
   * Use arrow keys to crop the frame size, or reposition the image, or both.
   * The first `Tab` stop highlights the entire image frame. You can then use arrow keys on the keyboard to reposition the frame.
-  * The next four `Tab` stops are the frame's four corners. When focus is placed on a frame corner, the corner is highlight. Again, you can use arrow keys on the keyboard to move the focused corner.
+  * The next four `Tab` stops are the frame's four corners. When focus is placed on a frame corner, the corner is highlighted. Again, you can use arrow keys on the keyboard to move the focused corner.
   See [Edit the smart crop or smart swatch of a single image](/help/assets/image-profiles.md#editing-the-smart-crop-or-smart-swatch-of-a-single-image)
 
 <!-- In the Hotspot editor, Dynamic Media lets you use arrow keys to control the position of a hot spot. See [Carousel Banners](/help/assets/dynamic-media/carousel-banners.md#adding-hotspots-or-image-maps-to-an-image-banner) or [Interactive Images](/help/assets/dynamic-media/interactive-images.md#adding-hotspots-to-an-image-banner)  -->

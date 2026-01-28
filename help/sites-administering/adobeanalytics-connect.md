@@ -66,7 +66,7 @@ Use the [Web Console to configure the OSGi bundle](/help/sites-deploying/configu
 
    >[!NOTE]
    >
-   >To find out if you have access to this console, contact you site administrator.
+   >To find out if you have access to this console, contact your site administrator.
 
 1. Select the Configuration item named **Adobe AEM Analytics HTTP Client**.
 1. To add the URL for a data center, press the + button next to the **Data Center URLs** list, and type the URL in the box.

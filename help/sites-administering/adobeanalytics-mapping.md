@@ -13,7 +13,7 @@ exl-id: d9ffc796-1c2b-4fa6-b434-fb3ee03d40b5
 ---
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}
 
-Add components to the framework that gather the data to send to Adobe Analytics. Components that are designed to gather analytics data store the data in the appropriate **CQ variable**. When you add such a component to a framework, the framework displays the list of CQ variables so that you can each to the appropriate **Analytics variable**.
+Add components to the framework that gather the data to send to Adobe Analytics. Components that are designed to gather analytics data store the data in the appropriate **CQ variable**. When you add such a component to a framework, the framework displays the list of CQ variables so that you can map each to the appropriate **Analytics variable**.
 
 ![aa-11](assets/aa-11.png)
 
@@ -84,7 +84,7 @@ Several AEM Commerce components use these variable names.
 
 1. Login to the Adobe Analytics website using the same credentials provided to AEM.
 1. Make sure the RSID selected is the one used in the previous steps.
-1. In **Reports** (on the left side of the page) select **Custom Conversion**, then **Custom Conversion 1-10** and select the variable coresponding to `eVar7`
+1. In **Reports** (on the left side of the page) select **Custom Conversion**, then **Custom Conversion 1-10** and select the variable corresponding to `eVar7`
 
 1. Depending on the version of Adobe Analytics that you are using, you need to wait on average 45 minutes for the report to be updated with the search term used; for example, aubergine in the example
 

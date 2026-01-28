@@ -89,7 +89,7 @@ After the customer details are retrieved from the database, you can update the s
      >
      >Do not drag-and-drop the **[!UICONTROL Name]** and **[!UICONTROL Customer ID]** fields to the corresponding tablename.property (for example, customerdetails.name). It helps avoid updating name and ID of the customer by mistake.
 
-1. Drag-and-drop the **[!UICONTROL Customer ID]** field from the [!UICONTROL Form Objects] tab to the id field in the **[!UICONTROL INPUT]** box. Fields without a prefixed  tablename  (for example,  customerdetails  in this use case) serve as a search parameter for the update service. The **[!UICONTROL id]** field in this use case uniquely identifies a record in the  **customerdetails**  table.
+1. Drag-and-drop the **[!UICONTROL Customer ID]** field from the [!UICONTROL Form Objects] tab to the id field in the **[!UICONTROL INPUT]** box. Fields without a prefixed tablename (for example, customerdetails in this use case) serve as a search parameter for the update service. The **[!UICONTROL id]** field in this use case uniquely identifies a record in the **customerdetails** table.
 1. Select **[!UICONTROL Done]** to save the rule. On the rule editor window, select **[!UICONTROL Close]**.
 1. Preview the adaptive form. Retrieve details of a customer, update the shipping address, and submit the form. When you retrieve details of the same customer again, the updated shipping address is displayed.
 
