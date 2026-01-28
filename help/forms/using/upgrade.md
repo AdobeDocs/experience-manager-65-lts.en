@@ -23,13 +23,13 @@ AEM 6.5 LTS Forms includes several new features and enhancements that streamline
 
 You can upgrade your existing LiveCycle or AEM Forms installation to obtain new capabilities and enhancements offered in AEM 6.5 LTS Forms while retaining existing data, processes, and assets intact. On upgrade, metadata and state of the processes are also preserved. You can choose an upgrade path to get started with upgrade.
 
-The following diagram displays the available upgrade paths for AEM Forms LTS on OSGi:
+The following diagram displays the available upgrade paths for AEM Forms LTS on OSGi: 
 
 ![OSGi upgrade flow](/help/forms/using/assets/updated-img-forms-upgrade-lts.png) 
 
 You can perform a direct upgrade from:
 
-* AEM 6.5.23.0 to AEM Forms 6.5 LTS
+* AEM 6.5.17.0 to AEM Forms 6.5 LTS
 
 The following diagram displays the available upgrade paths for AEM Forms LTS on JEE:
 
