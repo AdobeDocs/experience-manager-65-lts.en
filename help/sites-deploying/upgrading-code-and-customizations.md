@@ -86,6 +86,7 @@ For AEM 6.5 LTS, there are again two types of Uber Jars:
 
 * AEM 6.5 LTS does not include Google guava library out-of-the-box, the required version can be installed as per requirement.
 * Sling XSS bundle now uses Java HTML Sanitizer library, and usage of the `XSSAPI#filterHTML()` method should be used for rendering HTML content safely and not for passing data to other APIs.
+* Update to Apache Felix HTTP SSL Filter Configuration: In AEM 6.5 LTS, the `org.apache.felix.http.sslfilter` bundle has been upgraded from version 1.2.6 to 2.0.2. As part of this upgrade, the OSGi configuration PID `org.apache.felix.http.sslfilter.SslFilter` has been deprecated and replaced with a new PID: `org.apache.felix.http.sslfilter.Configuration`. If the SSL Filter is used in the deployment, existing configurations must be manually migrated to the new PID using the OSGi Configuration Manager (`/system/console/configMgr`). Failure to migrate the configuration may result in the SSL filter not being applied as expected after the upgrade.
 
 ## Testing Procedure {#testing-procedure}
 
