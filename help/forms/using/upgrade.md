@@ -25,7 +25,7 @@ You can upgrade your existing LiveCycle or AEM Forms installation to obtain new 
 
 The following diagram displays the available upgrade paths for AEM Forms LTS on OSGi: 
 
-![OSGi upgrade flow](/help/forms/using/assets/updated-img-forms-upgrade-lts.png) 
+![OSGi upgrade flow](/help/forms/using/assets/updated-img-forms-upgrade-lts.png)  
 
 You can perform a direct upgrade from:
 
