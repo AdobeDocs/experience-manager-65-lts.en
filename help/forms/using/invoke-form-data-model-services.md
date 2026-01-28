@@ -122,7 +122,7 @@ The call back function can have `success` and `failure` callback functions.
 
 The following sample script uses the `guidelib.dataIntegrationUtils.executeOperation` API to invoke the `GETOrder` service operation configured in the `employeeOrder` form data model.
 
-The `GETOrder` operation takes the value in the `Order ID` form field as input for the `orderId` argument and returns order quantity value in the `success` callback function.  If the `success` callback function does not return the order quantity, the `failure` callback function displays the `Error occured` message.
+The `GETOrder` operation takes the value in the `Order ID` form field as input for the `orderId` argument and returns order quantity value in the `success` callback function.  If the `success` callback function does not return the order quantity, the `failure` callback function displays the `Error occurred` message.
 
 >[!NOTE]
 >

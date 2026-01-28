@@ -1,3 +1,0 @@
-[submodule ".cursor-agents"]
-	path = .cursor-agents
-	url = git@git.corp.adobe.com:AdobeDocs/CursorAgents.git

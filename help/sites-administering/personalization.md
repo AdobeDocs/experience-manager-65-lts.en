@@ -55,7 +55,7 @@ Personalization can be used in many cases, for example:
 
 ### Intranet Pages {#intranet-pages}
 
-* Content can be proffered based on the location, department, and/or role of a user - already defined within an internal network.
+* Content can be offered based on the location, department, and/or role of a user - already defined within an internal network.
 * Dependent on the choice available, the user can make further selections.
 
 ### Specific, Limited, Target User Groups - Extranets {#extranets}

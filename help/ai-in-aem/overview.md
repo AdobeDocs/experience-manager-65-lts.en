@@ -7,7 +7,7 @@ exl-id: 312e1d66-ba2e-4b9a-a679-4e44112f3222
 ---
 # AI in AEM {#ai-in-aem}
 
-AI is an integral part of Adobe Experience Manager, being used to support users in finding information, or generate experiences.
+AI is an integral part of Adobe Experience Manager, being used to support users in finding information or generating experiences.
 
 ## AI Assistant {#ai-assistant}
 

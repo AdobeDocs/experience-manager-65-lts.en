@@ -133,7 +133,7 @@ You can use an existing AEM user group if it meets AI Assistant access requireme
 
 1. In the **User groups** page for the **AI Assistant in AEM**, click the **Users** tab, then click **Add users**.
 
-    ![AI Assistant in AEM user groups page, showing the Users tab and the Add users buttion](/help/assets/assets-ai/ai-assistant-add-users.png)
+    ![AI Assistant in AEM user groups page, showing the Users tab and the Add users button](/help/assets/assets-ai/ai-assistant-add-users.png)
 
 1. On the **`Add users to this user group`** page, search for and select users who need access to AI Assistant in AEM.
 

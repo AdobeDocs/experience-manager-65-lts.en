@@ -45,7 +45,7 @@ There are two methods to identify the locale of the adaptive form. When an adapt
   * Browser locale is enabled, by default. To change browser locale setting,
     * Open the configuration manager. The URL is `http://[server]:[port]/system/console/configMgr`
     * Locate and open the **[!UICONTROL Adaptive Form and Interactive Communication Web Channel]** configuration.
-    * Change status of the **[!UICONTROL Use Browser Locale]** option and  **[!UICONTROL Save]** the configuration. 
+    * Change status of the **[!UICONTROL Use Browser Locale]** option and **[!UICONTROL Save]** the configuration. 
 
 Once the locale is identified, the adaptive forms picks the form-specific dictionary. If the form-specific dictionary for the requested locale is not found, it uses the dictionary for language in which adaptive form was authored.
 
