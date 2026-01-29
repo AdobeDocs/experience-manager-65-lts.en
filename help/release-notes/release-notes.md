@@ -69,8 +69,6 @@ For configuration details, refer to the installation and configuration guide.
 
 For more information, see **Migration from javax to jakarta Namespace**.
 
-**Migration from javax to jakarta Namespace**
-
 #### Migration from `javax` to `jakarta` Namespace
 
 Starting with **AEM Forms 6.5 LTS SP1**, only application servers that implement **Jakarta Servlet API 5/6** are supported. With **Jakarta EE 9 and later**, all APIs transitioned from the `javax.{}` namespace to `jakarta.`.
@@ -104,9 +102,9 @@ You can migrate existing custom DSCs using one of the following approaches:
 
 Below are common examples of namespace changes required during migration:
 
-Before (javax)    After (jakarta)
-javax.servlet. **jakarta.servlet**
-javax.servlet.http. **jakarta.servlet.http.**
+* Before (javax)    After (jakarta)
+* javax.servlet. **jakarta.servlet**
+* javax.servlet.http. **jakarta.servlet.http.**
 
 **Sample Import Mappings**
 
