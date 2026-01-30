@@ -1,5 +1,5 @@
 ---
-title: `We.Finance` Auto Insurance Renewal reference site walkthrough
+title: We.Finance Auto Insurance Renewal reference site walkthrough
 description: Learn about the `We.Finance` Auto Insurance Renewal reference site by taking a walkthrough.
 contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.5/FORMS

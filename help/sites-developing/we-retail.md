@@ -1,6 +1,6 @@
 ---
-title: `We.Retail` Reference Implementation
-description: `We.Retail` is a technology preview of a reference implementation that illustrates the recommended way of setting up an online presence with AEM
+title: We.Retail Reference Implementation
+description: We.Retail is a technology preview of a reference implementation that illustrates the recommended way of setting up an online presence with AEM
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 content-type: reference
