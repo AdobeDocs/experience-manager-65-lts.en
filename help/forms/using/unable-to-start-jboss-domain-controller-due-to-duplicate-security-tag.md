@@ -4,9 +4,6 @@ description: In AEM Forms 6.5.1 LTS cluster deployments using JBoss EAP 8, the c
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
-hide: yes
-index: no
-hidefromtoc: yes
 ---
 
 # Unable to Start JBoss Domain Controller 
