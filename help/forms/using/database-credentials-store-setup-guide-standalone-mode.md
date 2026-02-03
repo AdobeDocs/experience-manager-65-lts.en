@@ -4,9 +4,6 @@ description: Find the database credential store setup for AEM Forms JEE on JBoss
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
-hide: yes
-index: no
-hidefromtoc: yes
 ---
 
 # Database Credential Store Setup Guide (Standalone Mode)
