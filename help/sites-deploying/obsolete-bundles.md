@@ -95,5 +95,5 @@ The following bundles are not included in a fresh AEM 6.5 LTS instance. After th
 * org.apache.sling.atom.taglib
 * com.github.jknack.handlebars
 * com.adobe.granite.osgi.wrapper.guava
-* com.adobe.cq.core.wcm.components.core (Can be replaced with AEM 6.5 LTS compatible version)
+* com.adobe.cq.core.wcm.components.core (Can be replaced with [AEM 6.5 LTS compatible version](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/versions))
 * com.adobe.cq.core.wcm.components.extension.contentfragment.bundle (Can be replaced with AEM 6.5 LTS compatible version)
