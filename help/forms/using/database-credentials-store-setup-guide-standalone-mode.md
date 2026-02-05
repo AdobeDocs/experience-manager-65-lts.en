@@ -12,6 +12,7 @@ role: User,Admin,Developer
 
 This guide covers the **database credential store setup** for AEM Forms JEE on JBoss/Red Hat EAP in **standalone mode**. This is required when performing manual installation.
 
+
 **This guide covers:**
 
 - Creating the database credential store (`cred-store.p12`)

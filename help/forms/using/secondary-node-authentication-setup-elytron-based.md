@@ -14,6 +14,7 @@ JBoss EAP 8 uses **Elytron** to authenticate communication between **primary and
 
 Two setup options are available depending on the environment and security requirements.
 
+
 ## Prerequisites
 
 * A **management user named `secondary`** must be created on the **primary node**.

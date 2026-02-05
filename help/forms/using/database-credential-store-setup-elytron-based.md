@@ -12,6 +12,7 @@ role: User,Admin,Developer
 
 JBoss EAP 8 uses **Elytron credential stores** to securely manage database passwords for AEM Forms deployments. Adobe provides **automated scripts** to simplify the creation and configuration of the Elytron-based credential store in domain mode.
 
+
 This setup must be completed **before starting the JBoss Domain Controller**.
 
 ### Prerequisites
