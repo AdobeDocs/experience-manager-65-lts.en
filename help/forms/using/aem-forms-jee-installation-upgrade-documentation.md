@@ -8,7 +8,7 @@ geptopics: SG_AEMFORMS/categories/jee
 docset: aem65
 role: Admin
 solution: Experience Manager, Experience Manager Forms
-feature: AEM Forms on JEE,Installation,Upgrade
+feature: AEM Forms on JEE,AEM Forms Upgrade
 exl-id: 6d8c0e24-7f08-4e66-bb12-2cf1cfe1d5d3
 ---
 
