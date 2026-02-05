@@ -1,6 +1,6 @@
 ---
 title: Dynamically select a user or group for AEM Forms-centric workflow steps
-description: Learn how to select a user or group for an AEM Forms workflow at the runtime.
+description: Learn how to select a user or group for an AEM Forms Workflow at the runtime.
 content-type: troubleshooting
 topic-tags: publish
 solution: Experience Manager, Experience Manager Forms
@@ -10,15 +10,15 @@ exl-id: b3b3567f-df0a-4a24-849c-dcc0b745de63
 ---
 # Dynamically select a user or group for AEM Forms-centric workflow steps {#dynamically-select-a-user-or-group-for-aem-forms-centric-workflow-steps}
 
-Learn how to select a user or group for an AEM Forms workflow at the runtime. 
+Learn how to select a user or group for an AEM Forms Workflow at the runtime. 
 
-In large organizations, there are requirements to dynamically select users for a process. For example, selecting a field agent to serve a customer based on the proximity of the agent to the customer. In such a scenario, the agent is selected dynamically.
+In large organizations, there are requirements to select users dynamically for a process. For example, selecting a field agent to serve a customer based on the proximity of the agent to the customer. In such a scenario, the agent is selected dynamically.
 
-Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) provide options to dynamically select a user. You can use ECMAScript or OSGi bundles to dynamically select an assignee for the Assign Task step or to select signers for the Sign Document step.
+Assign task and Adobe Sign steps of [Forms-centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) provide options to select a user dynamically. You can use ECMAScript or OSGi bundles to select an assignee dynamically for the Assign Task step or to select signers for the Sign Document step.
 
-## Use ECMAScript to dynamically select a user or group {#use-ecmascript-to-dynamically-select-a-user-or-group}
+## Use ECMAScript to select a user or group dynamically {#use-ecmascript-to-dynamically-select-a-user-or-group}
 
-ECMAScript is a scripting language. It is used for client-side scripting and server applications. Perform the following steps to dynamically select a user or a group using ECMAScript:
+ECMAScript is a scripting language. It is used for client-side scripting and server applications. Perform the following steps to select a user or a group dynamically using ECMAScript:
 
 1. Open CRXDE Lite. The URL is `https://'[server]:[port]'/crx/de/index.jsp`
 1. Create a file with extension .ecma at the following path. If the path (node structure) does not exist, create it:
@@ -26,25 +26,25 @@ ECMAScript is a scripting language. It is used for client-side scripting and ser
     * (Path for Assign Task step) `/apps/fd/dashboard/scripts/participantChooser`
     * (Path for Signature step) `/apps/fd/workflow/scripts/adobesign`
 
-1. Add ECMAScript that has the logic to dynamically select a user, to the .ecma file. Click **[!UICONTROL Save All]**.
+1. Add ECMAScript that has the logic to select a user dynamically to the `.ecma` file. Click **[!UICONTROL Save All]**.
 
    For sample scripts, see [Sample ECMAScripts for dynamically selecting a user or a group](/help/forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group). 
 
 1. Add display name of the script. This name is displayed in workflow steps. To specify the name:
 
-    1. Expand the script node, right-click the **[!UICONTROL jcr:content]** node, and click **[!UICONTROL Mixins]**.
+    1. Expand the script node, right-click the **`jcr:content`** node, and click **[!UICONTROL Mixins]**.
     1. Add the `mix:title` property in Edit Mixins dialog and click **OK**.
-    1. Add the following property to the jcr:content node of script:
+    1. Add the following property to the `jcr:content` node of script:
 
        |Name|Type|Value|
        |--- |--- |--- |
-       |jcr:title|String|Specify the name of the script. For example, Choose nearest field agent. This name is displayed in Assign Task and Sign Document steps.|
+       |`jcr:title`|String|Specify the name of the script. For example, Choose nearest field agent. This name is displayed in the `Assign Task` and the Sign Document steps.|
 
     1. Click **Save All**. The script becomes available for selection in the components of AEM Workflow.
        
        ![script](assets/script.png)
 
-### Sample ECMAScripts to dynamically choose a user or a group {#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group}
+### Sample ECMAScripts to choose a user or a group dynamically {#sample-ecmascripts-to-dynamically-choose-a-user-or-a-group}
 
 The following sample ECMAScript dynamically selects an assignee for the Assign Task step. In this script, a user is selected based on the path of the payload. Before using this script, ensure that all the users mentioned in the script exist in AEM. If the users mentioned in the script do not exist in AEM, the related process can fail.
 
@@ -108,11 +108,11 @@ function getAdobeSignRecipients() {
 
 ```
 
-## Use Java interface to dynamically choose a user or group {#use-java-interface-to-dynamically-choose-a-user-or-group}
+## Use Java interface to choose a user or group dynamically {#use-java-interface-to-dynamically-choose-a-user-or-group}
 
-You can use the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for Adobe Sign and Assign Task steps. You can create an OSGi bundle that used the use the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms server. It makes the option available for selection in the Assign Task and Adobe Sign components of AEM Workflow.
+You can use the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Adobe Sign and Assign Task steps. You can create an OSGi bundle that uses the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms Server. It makes the option available for selection in the `Assign Task` and Adobe Sign components of AEM Workflow.
 
-You require [AEM Forms Client SDK](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) jar and [granite jar](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
+You require [AEM Forms Client SDK](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases#) jar and [granite jar](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
 
 1. Open Eclipse IDE. Navigate to **[!UICONTROL File]**> **[!UICONTROL New Project]**.
 1. On the Select a wizard screen, select **[!UICONTROL Maven Project]**, and click **[!UICONTROL Next]**.
@@ -219,16 +219,16 @@ You require [AEM Forms Client SDK](https://experienceleague.adobe.com/docs/exper
    </project>
    ```
 
-1. Add source code that uses [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to dynamically choose a user or a group for the Assign task step. For sample code, see [Sample for dynamically choosing a user or a group using Java interface](#-sample-scripts-for).
+1. Add source code that uses the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Assign Task step. For sample code, see [Sample for dynamically choosing a user or a group using a Java interface](#-sample-scripts-for).
 1. Open a command prompt and navigate to the directory containing the OSGi bundle project. Use the following command to create the OSGi bundle:
 
    `mvn clean install`
 
-1. Upload the bundle to an AEM Forms server. You can use AEM Package Manager to import the bundle to AEM Forms server.
+1. Upload the bundle to an AEM Forms Server. You can use AEM Package Manager to import the bundle to AEM Forms Server.
 
 After the bundle is imported, the option to choose the Java interface for dynamically selecting a user or a group becomes available in for Adobe Sign and Assign Task steps.
 
-### Sample Java code to dynamically choose a user or a group {#sample-java-code-to-dynamically-choose-a-user-or-a-group}
+### Sample Java code to choose a user or a group dynamically {#sample-java-code-to-dynamically-choose-a-user-or-a-group}
 
 The following sample code dynamically chooses an assignee for the Adobe Sign step. You use the code in an OSGi bundle. Before using the below-listed code, ensure that the user information (email addresses and phone numbers) mentioned in the code is correct. If user information mentioned in the code is incorrect, the related process can fail.
 
