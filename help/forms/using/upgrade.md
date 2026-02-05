@@ -49,6 +49,10 @@ You can perform a direct upgrade from:
 
 * AEM 6.5.23.0 Forms on JEE
 
+#### How do I upgrade Adobe Experience Manager Forms (AEM Forms) on JEE? {#how-do-i-upgrade-aem-forms-on-jee}
+
+For step-by-step upgrade PDFs (JBoss turnkey, single server, and cluster), see [Installation and upgrade workflow for AEM Forms on JEE](/help/forms/using/aem-forms-jee-installation-upgrade-documentation.md).
+
 
 <!--
 AEM 6.5.18.0 Forms on JEE provides two types of installers: [Full installer](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) and [Patch installer](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html).
