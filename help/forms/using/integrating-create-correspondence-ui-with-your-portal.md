@@ -1,5 +1,5 @@
 ---
-title: Integrating Create Correspondence UI with your custom portal
+title: Integration of the Create Correspondence Solution with your Custom Portal
 description: Learn how to integrate create correspondence UI with your custom portal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.5/FORMS
@@ -10,15 +10,15 @@ solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 exl-id: 496b125b-b091-4843-ba9f-2479dbeba07b
 ---
-# Integrating Create Correspondence UI with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}
+# Integration of the `Create Correspondence` solution with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}
 
 ## Overview {#overview}
 
-This article details how you can integrate the Create Correspondence Solution with your environment.
+This article details how you can integrate the `Create Correspondence` solution with your environment.
 
 ## URL-based invocation {#url-based-invocation}
 
-One way to call the Create Correspondence application from a custom portal is to prepare the URL with the following request parameters:
+One way to call the `Create Correspondence` application from a custom portal is to prepare the URL with the following request parameters:
 
 * the identifier for the letter template (using the cmLetterId parameter).
 
@@ -33,18 +33,18 @@ For example, the custom portal would prepare the URL as
 
 >[!NOTE]
 >
->Before calling the Create Correspondence application, save and upload the data to call the Create Correspondence UI at the given dataURL. This could either be done from the custom portal itself or through another back end process.
+>Before calling the `Create Correspondence` application, save and upload the data to call the `Create Correspondence` UI at the given dataURL. This process can be done either from the custom portal itself or through another back end process.
 
 ## Inline data-based invocation {#inline-data-based-invocation}
 
-Another (and a more secure) way to call the Create Correspondence application could be to simply hit the URL at https://'[server]:[port]'/[contextPath]/aem/forms/createcorrespondence.html, while sending the parameters and data to call the Create Correspondence application as a POST request (hiding them from the end user). This also means that you can now pass along the XML data for the Create Correspondence application inline (as part of the same request, using the cmData parameter), which was not possible/ideal in the previous approach.
+Another, more secure, way to call the `Create Correspondence` application is to go to the URL at https://'[server]:[port]'/[contextPath]/aem/forms/createcorrespondence.html. Run this URL while sending the parameters and data to call the `Create Correspondence` application as a POST request, hiding them from the end user. This workflow also means that you can now pass along the XML data for the `Create Correspondence` application inline (as part of the same request, using the `cmData` parameter). This workflow was not possible or ideal in the previous approach.
 
 ### Parameters for specifying letter {#parameters-for-specifying-letter}
 
-| **Name** |**Type** |**Description** |
-|---|---|---|
-| cmLetterInstanceId |String |The identifier for the letter instance. |
-| cmLetterId |String |The name of the Letter template. |
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| cmLetterInstanceId | String | The identifier for the letter instance. |
+| cmLetterId | String |The name of the Letter template. |
 
 The order of parameters in the table specifies the preference of parameters used for loading the letter.
 
@@ -60,17 +60,17 @@ The order of parameters in the table specifies the preference of parameters used
   <tr>
    <td>cmDataUrl<br /> </td> 
    <td>URL</td> 
-   <td>XML data from a source file using basic protocols such as cq, ftp, http, or file.<br /> </td> 
+   <td>XML data from a source file using basic protocols, such as cq, ftp, http, or file.<br /> </td> 
   </tr>
   <tr>
    <td>cmLetterInstanceId</td> 
    <td>String</td> 
-   <td>Using xml data available in Letter Instance.</td> 
+   <td>Using xml data available in letter instance.</td> 
   </tr>
   <tr>
    <td>cmUseTestData</td> 
    <td>Boolean</td> 
-   <td>To reuse the test data attached in data dictionary.</td> 
+   <td>To reuse the test data attached in a data dictionary.</td> 
   </tr>
  </tbody>
 </table>
@@ -99,4 +99,4 @@ The order of parameters in the table specifies the preference of parameters used
  </tbody>
 </table>
 
-If you using http or cq protocol for cmDataURL, URL of http/cq should be accessible anonymously.
+If you use http or cq protocol for `cmDataURL`, the URL of `http/cq` must be accessible anonymously.
