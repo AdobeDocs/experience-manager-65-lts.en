@@ -53,6 +53,7 @@ Use the following workflow and tables to pick the correct guide(s) for your scen
 | Preparing to Install AEM Forms (Server Cluster) (PDF) (**TBD**) | Use **before** a **fresh cluster installation**. Describes prerequisites and environment preparation steps for installing AEM Forms on JEE in a server cluster topology. *(Link will be added once the PDF is available.)* |
 | [Configuring AEM Forms on JEE on JBoss Cluster (PDF)](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/cluster-jboss.pdf) | Use when setting up and configuring a **JBoss cluster topology** for AEM Forms on JEE. |
 -->
+
 ## How do I upgrade Adobe Experience Manager Forms (AEM Forms) on JEE on JBoss? {#upgrading-aem-forms-jee-jboss}
 
 ### Turnkey {#upgrade-jee-jboss-turnkey}
