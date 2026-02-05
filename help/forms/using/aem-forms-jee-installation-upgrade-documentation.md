@@ -26,7 +26,7 @@ Use the following workflow and tables to pick the correct guide(s) for your scen
 2. Decide whether you are performing a **fresh installation** or an **upgrade**.
 3. For your chosen path, follow the sequence described below (some scenarios require more than one guide).
 
-## Start here {#start-here}
+## Validate prerequisites before you begin an installation or upgrade {#start-here}
 
 | Guide | Description |
 | --- | --- |
