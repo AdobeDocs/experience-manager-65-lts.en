@@ -4,8 +4,8 @@ description: Find the database credential store setup for AEM Forms JEE on JBoss
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
+exl-id: f6e29287-a558-43ad-8465-ebf167c79c63
 ---
-
 # Database Credential Store Setup Guide (Standalone Mode)
 
 ## Overview
@@ -290,4 +290,3 @@ ERROR: Configuration file not found
 
 - Variable: `-DCS_PASS=password`
 - File: `standalone.conf.bat` (Windows) or `standalone.conf` (Linux)
-
