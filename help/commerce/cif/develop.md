@@ -10,26 +10,26 @@ solution: Experience Manager,Commerce
 role: Admin, Developer
 exl-id: 22fcdadf-12c0-4545-a854-76345806386f
 ---
-# Developing AEM Commerce {#develop}
+# Develop AEM Commerce {#develop}
 
-Developing AEM Commerce projects based on Commerce Integration Framework (CIF) for AEM follows the same rules and best practices like other AEM projects. Review these first:
+Developing AEM Commerce projects based on Commerce Integration Framework (CIF) for AEM follows the same rules and best practices like other AEM Projects. Review the following first:
 
 - [AEM Developing User Guide](/help/sites-developing/getting-started.md)
 - [AEM Core Concepts](/help/sites-developing/the-basics.md)
 - [AEM Development - Guidelines and Best Practices](/help/sites-developing/dev-guidelines-bestpractices.md)
 - [How to Build AEM Projects using Apache Maven](/help/sites-developing/ht-projects-maven.md)
 
-## Local Development for AEM Commerce {#local}
+## Local development for AEM Commerce {#local}
 
 A local development environment is recommended to work with CIF projects.
 
 >[!NOTE]
 >
->The following instructions help you set up a local AEM development environment for AEM Commerce using CIF with focus for AEM 6.5 LTS). If you are using AEM as a Cloud Service, see the [AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) documentation.
+>The following instructions help you set up a local AEM development environment for AEM Commerce using CIF with focus for AEM 6.5 LTS). If you are using AEM as a Cloud Service, see the [AEM Commerce as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction#) documentation.
 
-The AEM Commerce Add-On for AEM as known as the CIF Add-On is available for local development as well and provided as an AEM package. It can be downloaded from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) as a feature pack.
+The AEM Commerce add-on for AEM as known as the CIF add-on is available for local development as well and provided as an AEM package. It can be downloaded from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) as a feature pack.
 
-### Required Software
+### Required software
 
 The following should be installed locally:
 
@@ -40,17 +40,17 @@ The following should be installed locally:
 - [npm 6+](https://www.npmjs.com/)
 - [Git](https://git-scm.com/)
 
-### Accessing the CIF Add-On
+### Accessing the CIF add-On
 
-The CIF add-on can be downloaded from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html), search for 'AEM Commerce add-on'.
+The CIF add-on can be downloaded from the [Software Distribution portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html), search for `AEM Commerce add-on`.
 
 >[!TIP]
 >
->Make sure you always use the latest CIF Add-On version.
+>Make sure you always use the latest CIF add-on version.
 
 ### Local setup
 
-For local CIF project development using the AEM and the CIF add-on following steps:
+For local CIF project development using AEM and the add-on CIF, do the following:
 
 1. Unpack the AEM .jar to create the `crx-quickstart` folder, run:
 
@@ -64,25 +64,25 @@ For local CIF project development using the AEM and the CIF add-on following ste
 
 >[!TIP]
 >
->Alternatively the CIF add-on package can also be installed via Package Manager.
+>Alternatively, install the CIF add-on package using Package Manager.
 
 1. Start the AEM quickstart
 
-Verify the setup via OSGI console: `http://localhost:4502/system/console/osgi-installer`. The list should include the CIF add-on related bundles, content-package, and OSGI configurations. Make sure that all bundles are started.
+Verify the setup through the OSGI console: `http://localhost:4502/system/console/osgi-installer`. The list should include the CIF add-on related bundles, content-package, and OSGI configurations. Make sure that all bundles are started.
 
-## Project Setup {#project}
+## Project setup {#project}
 
 There are two ways to start your AEM Commerce project using CIF.
 
 ### Use AEM Project Archetype
 
-The [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) is the main tool to bootstrap a preconfigured project to get started with CIF. CIF Core Components and all the required configurations can be included in a generated project with one extra option.
+The [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) is the main tool to Bootstrap a preconfigured project to get started with CIF. CIF Core Components and all the required configurations can be included in a generated project with one extra option.
 
 >[!TIP]
 >
 >Use [AEM Project Archetype 25 or later](https://github.com/adobe/aem-project-archetype/releases) to generate the project.
 
-See AEM Project Archetype [usage instructions](https://github.com/adobe/aem-project-archetype#usage) on how to generate an AEM project. To include CIF into the project use the `includeCommerce` option.
+See AEM Project Archetype [usage instructions](https://github.com/adobe/aem-project-archetype#usage) on how to generate an AEM project. To include CIF into the project, use the `includeCommerce` option.
 
 For example:
 
@@ -99,7 +99,7 @@ mvn -B archetype:generate \
  -D includeCommerce=y
 ```
 
-CIF Core Components can be used in any project by either including the provided `all` package or individual using the CIF content package and related OSGI bundles. To manually add CIF Core Components to a project use the following dependencies:
+You can use CIF Core Components in any project. Just include the provided `all` package or use the CIF content package and related OSGi bundles individually. Add CIF Core Components to a project manually by using the following dependencies:
 
 ```java
 <dependency>
@@ -131,11 +131,11 @@ CIF Core Components can be used in any project by either including the provided 
 </dependency>
 ```
 
-### Use AEM Venia Reference Store
+### Use AEM Venia reference store
 
 A second option to start a CIF project is to clone and use the [AEM Venia Reference Store](https://github.com/adobe/aem-cif-guides-venia). The AEM Venia Reference Store is a sample reference storefront application that demonstrates the usage of CIF Core Components for AEM. It is intended as a best-practice set of examples and a potential starting point to develop your own functionality.
 
-To get started with the Venia Reference Store simply clone the [Git repository](https://github.com/adobe/aem-cif-guides-venia) and start customizing the project according to your needs.
+Get started with the Venia Reference Store by cloning the [Git repository](https://github.com/adobe/aem-cif-guides-venia) and start customizing the project according to your needs.
 
 >[!NOTE]
 >
@@ -143,19 +143,19 @@ To get started with the Venia Reference Store simply clone the [Git repository](
 
 ### Connect AEM to the Commerce System
 
-To connect your project to the commerce system AEM must be configured with the GraphQL endpoint of your commerce system. 
+To connect your project to the commerce system, AEM must be configured with the GraphQL endpoint of your commerce system. 
 
-Both, a project generated by the [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) or the [AEM Venia Reference Store](https://github.com/adobe/aem-cif-guides-venia), already include a [default config](https://github.com/adobe/aem-cif-guides-venia/blob/main/ui.config/src/main/content/jcr_root/apps/venia/osgiconfig/config/com.adobe.cq.commerce.graphql.client.impl.GraphqlClientImpl~default.cfg.json) which must be adjusted.
+Both, a project generated by the [AEM Project Archetype](https://github.com/adobe/aem-project-archetype) or the [AEM Venia Reference Store](https://github.com/adobe/aem-cif-guides-venia), already include a default configuration that must be adjusted.
 
 Replace the value of the `url` in `com.adobe.cq.commerce.graphql.client.impl.GraphqlClientImpl~default.cfg.json` with the GraphQL endpoint of your commerce system used by the project.
 
-The AEM Commerce Add-On and CIF Core Components connect to the commerce GraphQL endpoint via the AEM server and directly via the browser. Client-side CIF Core Components and CIF Add-On authoring tools by default connect to `/api/graphql`. If needed this can be adjusted via the CIF Cloud Service config (see below).
+The AEM Commerce add-on and CIF Core Components connect to the Commerce GraphQL endpoint through the AEM server. Or, directly from the browser. Client-side CIF Core Components and CIF add-on authoring tools by default connect to `/api/graphql`. If needed, you can adjust it by way of the CIF Cloud Service config (see below).
 
 The CIF add-on provides a GraphQL proxy servlet at `/api/graphql`. If you do not plan to use a local AEM Dispatcher, it is recommended to configure the GraphQL proxy servlet as well.
 
 Navigate to http://localhost:4502/system/console/configMgr and create an OSGI config for the `Adobe CIF GraphQL Proxy Configuration` service. Use the same GraphQL endpoint of your commerce system as used for the GraphQL client above.
 
-## Additional Resources
+## Additional resources
 
 - [AEM Project Archetype](https://github.com/adobe/aem-project-archetype)
 - [AEM Venia Reference Store](https://github.com/adobe/aem-cif-guides-venia)
