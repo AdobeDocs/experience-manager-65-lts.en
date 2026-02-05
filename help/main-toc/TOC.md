@@ -438,6 +438,9 @@ user-guide-title: AEM 6.5 LTS
       + [Installing and Deploying AEM Forms 6.5 LTS on JEE Using JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-turnkey.pdf)
       + [Installing and Deploying AEM Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-jboss.pdf)
       + [Preparing to Install AEM Forms (Single Server)](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-install-single-server.pdf)
+      + [Database Credential Store Setup Guide (Standalone Mode)](/help/forms/using/database-credentials-store-setup-guide-standalone-mode.md)
+      + [Database Credential Store Setup (Elytron-based)](/help/forms/using/database-credential-store-setup-elytron-based.md)
+      + [Secondary Node Authentication Setup (Elytron-based)](/help/forms/using/secondary-node-authentication-setup-elytron-based.md)
     + Install AEM Forms on OSGi {#osgi-installation}
       + [Supported platforms for AEM forms on OSGi](/help/forms/using/supported-platforms.md)
       + [Install and configure document services](/help/forms/using/install-configure-document-services.md)
@@ -1084,6 +1087,8 @@ user-guide-title: AEM 6.5 LTS
     + [PDF generation fails to print a large number of PDFs on WorkBench](/help/forms/using/pdf-generation-service-fails-to-print-a-large-number-of-pdfs-on-workbench.md)
     + [How to properly restart AEM SDK](/help/forms/using/restart-aem-sdk.md)
     + [PaperCapture service fails to perform OCRs on PDFs](/help/forms/using/papercapture-service-resolution.md)
+    + [Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)](/help/forms/using/script-execution-issues-on-aem-forms-6.5-lts-with-jboss-eap-8-linux.md)
+    + [Unable to Start JBoss Domain Controller](/help/forms/using/unable-to-start-jboss-domain-controller-due-to-duplicate-security-tag.md)
   + Legacy documentation {#legacy-documentation}
     + [Using the execute script service in AEM Forms on JEE Workbench to build XML data](/help/forms/developing/building-xml.md)
     + [Compressing and decompressing files using a AEM Forms on JEE Custom DSC](/help/forms/developing/compressing-decompressing-custom-dsc.md)
