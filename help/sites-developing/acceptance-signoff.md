@@ -1,6 +1,6 @@
 ---
 title: Acceptance and Sign-off
-description: Acceptance Tests are a special category of test used to verify that the project fulfils the customer's requirements and that the customer accepts the project
+description: Acceptance Tests are a special category of test used to verify that the project fulfills the customer's requirements and that the customer accepts the project
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.5/SITES
 topic-tags: testing
@@ -12,15 +12,16 @@ exl-id: 22a779bc-efc3-416e-8f8a-8558c5db055a
 ---
 # Acceptance and Sign-off{#acceptance-and-sign-off}
 
-As mentioned, [Acceptance Tests](/help/sites-developing/planning.md) are a special category of test used to verify that the:
+As mentioned, [Acceptance Tests](/help/sites-developing/planning.md) are a special category of test used to verify the following:
 
-* Project fulfills the customer's requirements.
+* The project fulfills the customer's requirements.
 * Customer accepts the project.
 
-They should be defined by the customer and project manager. They have particular significance as they are often related to the final invoicing.
+The customer and project manager should define the requirements. They each have particular significance as they are often related to the final invoicing.
 
-For this reason they must be:
+For this reason, the requirements must be:
 
 * Defined as early as possible.
 * Updated whenever necessary.
-* Any changes must be formally accepted and signed by both parties (partner and the customer).
+* Both the partner and the customer must formally accept and sign any changes.
+

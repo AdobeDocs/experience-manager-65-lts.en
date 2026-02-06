@@ -5,16 +5,16 @@ feature: Developing
 role: Developer
 exl-id: 495df631-5bdd-456b-b115-ec8561f33488
 ---
-# The Universal Editor {#universal-editor}
+# About the Universal Editor {#universal-editor}
 
 Learn about the flexibility of the Universal Editor and how it can help power your headless experiences using AEM 6.5 LTS.
 
 ## Overview {#overview}
 
-The Universal Editor is a versatile visual editor that is part of Adobe Experience Manager Sites. It enables authors to do what-you-see-is-what-you-get (WYSIWYG) editing of any headless experience.
+The Universal Editor is a versatile visual editor that is part of Adobe Experience Manager Sites. It lets authors do what-you-see-is-what-you-get (WYSIWYG) editing of any headless experience.
 
-* Authors benefit from the Universal Editor's flexibility as it is supports the same consistent visual editing for all forms of AEM headless content.
-* Developers benefit from Universal Editor's versatility as it also supports true decoupling of the implementation. It allows developers to utilize virtually any framework or architecture of their choice, without imposing any SDK or technology constraints.
+* Authors benefit from the Universal Editor's flexibility. It supports the same consistent visual editing for all forms of AEM headless content.
+* Developers benefit from Universal Editor's versatility as it also supports true decoupling of the implementation. It lets developers use virtually any framework or architecture of their choice, without imposing any SDK or technology constraints.
 
 Please see the [AEM as a Cloud Service documentation on the Universal Editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction) for more detail.
 
@@ -23,37 +23,37 @@ Please see the [AEM as a Cloud Service documentation on the Universal Editor](ht
 The Universal Editor is a service that works in tandem with AEM to author content headlessly.
 
 * The Universal Editor is hosted at `https://experience.adobe.com/#/aem/editor/canvas` and can edit pages rendered by AEM 6.5 LTS.
-* The AEM page is read by the Universal Editor via the dispatcher from the AEM author instance.
+* The Universal Editor reads the AEM page through the Dispatcher from the AEM author instance.
 * The Universal Editor Service, which runs on the same host as the Dispatcher, writes changes back to the AEM author instance.
 
 ![Author flow using the Universal Editor](assets/author-flow.png)
 
 ## Requirements {#requirements}
 
-The Universal Editor is supported by:
+The following supports the Universal Editor:
 
 * AEM 6.5 LTS GA
-  * Both on-premises and AMS hosting are supported.
+  * Both on-premise and Adobe Managed Services (AMS) hosting are supported.
 * [AEM 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/headless/universal-editor/introduction)
-  * Both on-premises and AMS hosting are supported.
+  * Both on-premise and AMS hosting are supported.
 * [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/introduction) (release `2023.8.13099` or higher)
 
-This document focuses on AEM 6.5 LTS support of the Universal Editor. To use the Universal Editor with AEM 6.5 LTS, you will need:
+This document focuses on AEM 6.5 LTS support of the Universal Editor. To use the Universal Editor with AEM 6.5 LTS, you need the following:
 
 * AEM 6.5 LTS GA
 * Dispatcher properly configured
 
 ## Setup {#setup}
 
-In order to use the Universal Editor you will need to:
+To use the Universal Editor, do the following:
 
 1. [Configure services on your AEM authoring instance.](#configure-aem)
 1. [Set up a local Universal Editor Service.](#set-up-ue)
-1. [Adjust your dispatcher to allow the Universal Editor Service.](#update-dispatcher)
+1. [Adjust your Dispatcher to allow the Universal Editor Service.](#update-dispatcher)
 
 Once you have complete the setup, you can [instrument your applications to use the Universal Editor.](#instrumentation)
 
-### Configure Services {#configure-aem}
+### Configure services {#configure-aem}
 
 The Universal Editor relies on a number of services that must be configured.
 
@@ -73,7 +73,7 @@ The Universal Editor relies on a number of services that must be configured.
 1. Delete the `X-Frame-Options=SAMEORIGIN` value from the **Additional response headers** attribute (`sling.additional.response.headers`) if it exists.
 1. Click **Save**.
 
-#### Configure the Adobe Granite Query Parameter Authentication Handler. {#query-parameter}
+#### Configure the Adobe Granite Query Parameter Authentication Handler {#query-parameter}
 
 1. Open the Configuration Manager.
    * `http://<host>:<port>/system/console/configMgr`
@@ -82,16 +82,16 @@ The Universal Editor relies on a number of services that must be configured.
    * An empty value disables the authentication handler.
 1. Click **Save**.
 
-#### Define for which content paths or `sling:resourceTypes` the Universal Editor shall be opened. {#paths}
+#### Define which content paths or `sling:resourceTypes` open in the Universal Editor {#paths}
 
 1. Open the Configuration Manager.
    * `http://<host>:<port>/system/console/configMgr`
 1. Locate **Universal Editor URL Service** in the list and click **Edit the configuration values**.
 1. Define for which content paths or `sling:resourceTypes` the Universal Editor shall be opened.
    * In the **Universal Editor Opening Mapping** field, provide the paths for which the Universal Editor is opened.
-   * In the **Sling:resourceTypes which shall be opened by Universal Editor** field, provide a list of resources which are opened directly by the Universal Editor.
+   * In the **Sling:resourceTypes which shall be opened by the Universal Editor** field, enter a list of resources that the Universal Editor opens directly.
 1. Click **Save**.
-1. Check your [externalizer configuration](/help/sites-developing/externalizer.md) and ensure at a minimum you have the local, author, and publish environments set as in the following example.
+1. Check your [Externalizer configuration](/help/sites-developing/externalizer.md) and ensure at a minimum that you have the local, author, and publish environments set as in the following example:
 
    ```text
    "local $[env:AEM_EXTERNALIZER_LOCAL;default=http://localhost:4502]",
@@ -99,19 +99,20 @@ The Universal Editor relies on a number of services that must be configured.
    "publish $[env:AEM_EXTERNALIZER_PUBLISH;default=http://localhost:4503]"
    ```
 
-Once those configuration steps are complete, AEM will open the Universal Editor for pages in the following order.
+Once those configuration steps are complete, AEM opens the Universal Editor for pages in the following order:
 
-1. AEM will check the mappings under `Universal Editor Opening Mapping` and if the content is under any paths defined there, the Universal Editor is opened for it.
-1. For content not under paths defined in `Universal Editor Opening Mapping`, AEM checks if the `resourceType` of the content matches those defined in **Sling:resourceTypes which shall be opened by Universal Editor** and if the content matches one of those types, the Universal Editor is opened for it at `${author}${path}.html`.
-1. Otherwise AEM opens the Page Editor.
+1. AEM checks the mappings under `Universal Editor Opening Mapping` and if the content is under any paths defined there, the Universal Editor is opened for it.
+
+1. For content outside the paths defined in `Universal Editor Opening Mapping`, AEM checks whether the content `resourceType` matches an entry in **Sling:resourceTypes which shall be opened by Universal Editor**. If it matches, AEM opens the content in the Universal Editor at `${author}${path}.html`.
+1. Otherwise, AEM opens the Page Editor.
 
 The following variables are available to define your mappings under `Universal Editor Opening Mapping`.
 
 * `path`: Content path of the resource to open
-* `localhost`: Externalizer entry for `localhost` without schema, e.g. `localhost:4502`
-* `author`: Externalizer entry for author without schema, e.g. `localhost:4502`
-* `publish`: Externalizer entry for publish without schema, e.g. `localhost:4503`
-* `preview`: Externalizer entry for preview without schema, e.g. `localhost:4504`
+* `localhost`: Externalizer entry for `localhost` without schema, for example, `localhost:4502`
+* `author`: Externalizer entry for author without schema, for example, `localhost:4502`
+* `publish`: Externalizer entry for publish without schema, for example, `localhost:4503`
+* `preview`: Externalizer entry for preview without schema, for example, `localhost:4504`
 * `env`: `prod`, `stage`, `dev` based on the defined Sling run modes
 * `token`: Query token required for the `QueryTokenAuthenticationHandler`
 
@@ -119,27 +120,27 @@ Example mappings:
 
 * Open all pages under `/content/foo` on the AEM Author: 
   * `/content/foo:${author}${path}.html?login-token=${token}`
-  * This results in opening `https://localhost:4502/content/foo/x.html?login-token=<token>`
+  * Results in opening `https://localhost:4502/content/foo/x.html?login-token=<token>`
 * Open all pages under `/content/bar` on a remote NextJS server, providing all variables as information
   * `/content/bar:nextjs.server${path}?env=${env}&author=https://${author}&publish=https://${publish}&login-token=${token}`
-  * This results in opening `https://nextjs.server/content/bar/x?env=prod&author=https://localhost:4502&publish=https://localhost:4503&login-token=<token>`
+  * Results in opening `https://nextjs.server/content/bar/x?env=prod&author=https://localhost:4502&publish=https://localhost:4503&login-token=<token>`
 
-### Set Up Universal Editor Service {#set-up-ue}
+### Set up Universal Editor Service {#set-up-ue}
 
 With AEM updated and configured, you can set up a local Universal Editor Service for your own local development and testing.
 
 1. Install Node.js version >=20.
-1. Download and unpack latest Universal Editor Service from [Software Distribution](https://experienceleague.adobe.com/en/docs/experience-cloud/software-distribution/home)
-1. Configure Universal Editor Service via environment variables or `.env` file.
+1. Download and unpack the latest Universal Editor Service from [Software Distribution](https://experienceleague.adobe.com/en/docs/experience-cloud/software-distribution/home)
+1. Configure Universal Editor Service by way of environment variables or `.env` file.
    * [See the AEM as a Cloud Service Universal Editor documentation for details.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/local-dev#setting-up-service)
    * Note that you may need to use the `UES_MAPPING` option if internal IP rewriting is required.
 1. Run `universal-editor-service.cjs`
 
 ### Update the Dispatcher {#update-dispatcher}
 
-With AEM configured and a local Universal Editor service running, you will need to allow a reverse proxy for the new service [in the dispatcher.](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/dispatcher)
+With AEM configured and a local Universal Editor Service running, you need to allow a reverse proxy for the new service [in the Dispatcher.](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/dispatcher)
 
-1. Adjust the vhost file of author instance to include a reverse proxy.
+1. Adjust the vhost file of the author instance to include a reverse proxy.
 
    ```html
    <IfModule mod_proxy.c>
@@ -154,11 +155,11 @@ With AEM configured and a local Universal Editor service running, you will need 
 
 1. Restart Apache.
 
-## Instrument Your App {#instrumentation}
+## Instrument your app {#instrumentation}
 
 With AEM updated and a local Universal Editor Service running, you can start editing headless content using the Universal Editor.
 
-However your app must be instrumented to take advantage of the Universal Editor. This involves including meta tags to instruct the editor how and where to persist the content. Details of this instrumentation are available in the [Universal Editor documentation for AEM as a Cloud Service.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/getting-started#instrument-page)
+However, your app must be instrumented to take advantage of the Universal Editor. It involves including meta tags to instruct the editor how and where to persist the content. Details of this instrumentation are available in the [Universal Editor documentation for AEM as a Cloud Service.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/getting-started#instrument-page)
 
 Note that when following documentation for the Universal Editor with AEM as a Cloud Service, the following changes apply when using it with AEM 6.5 LTS.
 
@@ -178,11 +179,11 @@ Note that when following documentation for the Universal Editor with AEM as a Cl
 
 >[!TIP]
 >
->For a comprehensive guide for developers getting started with the Universal Editor, please see the document [Universal Editor Overview for AEM Developers](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/developer-overview) in the AEM as a Cloud Service documentation while keeping in mind the necessary changes needed for AEM 6.5 LTS support as mentioned in this section.
+>For a comprehensive developer guide to the Universal Editor, see [Universal Editor Overview for AEM Developers](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/universal-editor/developer-overview) in the AEM as a Cloud Service documentation. Note the AEM 6.5 LTS changes described in this section.
 
-## Differences Between AEM 6.5 LTS and AEM as a Cloud Service {#differences}
+## Differences between AEM 6.5 LTS and AEM as a Cloud Service {#differences}
 
-The Universal Editor in AEM 6.5 LTS broadly works the same as in AEM as a Cloud Service including the UI and much of the setup. There are, however, differences that should be noted.
+The Universal Editor in AEM 6.5 LTS broadly works the same as in AEM as a Cloud Service including the UI and much of the setup. There are, however, differences that you should note.
 
 * The Universal Editor in 6.5 LTS supports only the headless use case.
 * Setup of the Universal Editor varies slightly for 6.5 LTS ([as described](#setup) in the current document).
