@@ -43,8 +43,7 @@ For example:
 
 >[!NOTE]
 >
->Links always reference the publishing instance. Third parties consume them, so they always call the link from the Publishing instance, not the Authoring instance.
-
+>Links always reference the publishing instance. Third parties consume them, so they always call the link from the Publishing instance, not the Authoring instance..
 >
 >For more information, see [Externalizing URLs](/help/sites-developing/externalizer.md).
 
