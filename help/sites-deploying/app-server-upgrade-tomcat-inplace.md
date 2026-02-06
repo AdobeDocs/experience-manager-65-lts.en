@@ -69,7 +69,7 @@ All the examples in this procedure use Tomcat as the Application Server and impl
      ```
 
 1. Make a backup of the `sling.properties` file (usually present in `<path-to-aem-server>/bin/crx-quickstart/launchpad/`) and delete it
-1. Copy the AEM 6.5 LTS Servicepack war file into <path-to-aem-server>/webapps folder
+1. Copy the AEM 6.5 LTS Servicepack war file into `<path-to-aem-server>/webapps` folder
 1. Start the AEM 6.5 LTS Tomcat server by running:
 
    ```
