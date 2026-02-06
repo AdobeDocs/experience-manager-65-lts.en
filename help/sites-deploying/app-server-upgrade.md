@@ -13,4 +13,6 @@ This section describes the procedure that needs to be followed to update AEM for
 Follow the guide specific to each of the application servers supported by AEM:
 
 * [Upgrade Steps for Application Server Installations (Websphere Liberty)](/help/sites-deploying/app-server-upgrade-wlp.md)
-* [Upgrade Steps for Application Server Installations (Tomcat)](/help/sites-deploying/app-server-upgrade-tomcat.md)
+* [Upgrade Steps for Application Server Installations (Tomcat - Sidegrade)](/help/sites-deploying/app-server-upgrade-tomcat.md)
+* [Upgrade Steps for Application Server Installations (Tomcat - Inplace uprade)](/help/sites-deploying/app-server-upgrade-tomcat-inplace.md)
+
