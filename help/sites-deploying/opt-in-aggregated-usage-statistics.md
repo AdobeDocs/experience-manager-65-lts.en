@@ -11,7 +11,7 @@ feature: Deploying
 role: Admin
 exl-id: 410691eb-27a9-4f8e-b926-01027c7f84d4
 ---
-# Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
+# Opt into aggregated usage statistics Collection{#opting-into-aggregated-usage-statistics-collection}
 
 ## Introduction {#introduction}
 
@@ -21,35 +21,35 @@ You can opt into usage statistics collection by using either the Touch UI or the
 
 >[!NOTE]
 >
->There are various data protection and privacy regulations; including, for example, GDPR and CCPA. AEM Sites is ready to help customers with their data protection and privacy compliance obligations. This page guides customers through the procedures to opt-in (or out) of Aggregated Usage Statistics Collection.
+>There are various data protection and privacy regulations; including, for example, GDPR and CCPA. AEM Sites is ready to help customers with their data protection and privacy compliance obligations. This page guides customers through the procedures to opt in (or out) of the Aggregated Usage Statistics Collection.
 >
 >For further information, also see the [Adobe's Privacy Center](https://www.adobe.com/privacy.html).
 
 >[!NOTE]
 >
->You can opt-out at any time by either using the [Web Console](/help/sites-deploying/opt-in-aggregated-usage-statistics.md#opt-in-by-using-the-web-console) or by not selecting the opt-in option on the AEM opt-in screen.
+>You can opt out at any time by using the [Web Console](/help/sites-deploying/opt-in-aggregated-usage-statistics.md#opt-in-by-using-the-web-console, or not selecting the opt-in option on the AEM opt-in screen.
 
-## Opt-in by using the Touch UI {#opt-in-by-using-the-touch-ui}
+## Opt-in by using the touch UI {#opt-in-by-using-the-touch-ui}
 
-The first time you start AEM, you can opt-in by using the Touch UI as follows:
+The first time you start AEM, you can opt in by using the touch UI as follows:
 
 1. On the AEM Navigation screen, click the **Inbox** (bell) icon.
 
    ![usage_statisticsnavigationscreen](assets/usage_statisticsnavigationscreen.png)
 
-1. On the drop-down list, click "**Enable Aggregated Usage Statistics Collection**".
+1. On the drop-down list, click **Enable Aggregated Usage Statistics Collection**.
 
    ![usage_statisticsnavigationscreen2](assets/usage_statisticsnavigationscreen2.png)
 
-1. On the opt-in screen, select "**Allow collection of aggregated usage statistics**".
+1. On the opt-in screen, click the option **[!UICONTROL Allow collection of aggregated usage statistics]**.
 
    ![usage_statisticsopt-inscreen](assets/usage_statisticsopt-inscreen.png)
 
-1. Click "**Done**".
+1. Click **Done**.
 
 ## Opt-in by using the Web Console {#opt-in-by-using-the-web-console}
 
-You can opt-in (or opt-out) by using the Web Console as follows:
+You can opt in (or opt out) by using the Web Console as follows:
 
 1. On the AEM Navigation screen, click **Tools** and then **Operations**.
 
@@ -59,7 +59,7 @@ You can opt-in (or opt-out) by using the Web Console as follows:
 
    ![usage_statisticswebconsole](assets/usage_statisticswebconsole.png)
 
-1. Search for "**Aggregated Usage Statistics Collection**".
+1. Search for **Aggregated Usage Statistics Collection**.
 1. Click the **Edit** icon.
 
    ![usage_statisticscollectionedit](assets/usage_statisticscollectionedit.png)

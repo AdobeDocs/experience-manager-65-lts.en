@@ -4,8 +4,8 @@ description: JBoss EAP 8 uses Elytron to enable secure communication and registr
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
+exl-id: 212aa75c-7f2a-4140-8051-77643065e429
 ---
-
 # Secondary Node Authentication Setup (Elytron-based)
 
 ## Configure Secondary Node Authentication Using Elytron
@@ -223,4 +223,3 @@ Confirm successful registration using the host-controller logs on both nodes.
 * **Option 2** enables stronger security using a custom credential store password.
 * Configuration must be completed **on secondary nodes only**.
 * Primary node configuration is reused automatically across the domain.
-
