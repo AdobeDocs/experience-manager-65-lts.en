@@ -611,12 +611,12 @@ To ensure transparency and allow adequate planning, Adobe follows this deprecati
 
 This section lists features and capabilities that Adobe has deprecated in AEM 6.5 LTS. Typically, Adobe deprecates features before removing them in a future release and provides an alternative.
 
-
 Customers are advised to review if they use the feature/capability in their current deployment, and make plans to change their implementation to use the alternative provided.
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
 | Sites | [SPA Editor](/help/sites-developing/spa-overview.md) | The preferred editors for managing headless content in AEM are:<br>- [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visual editing.<br>- [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing. | 6.5 LTS GA |
+| [!DNL Foundation]       | Support for com.adobe.granite.oauth.server | Adobe IMS Integration ||
 
 ### Removed features {#removed-features}
 
