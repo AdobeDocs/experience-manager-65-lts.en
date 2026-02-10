@@ -23,6 +23,7 @@ The installation steps of the following Application Servers are described:
 
 * [WebSphere&reg; 24.0.0.7](#websphere)
 * [Tomcat 10.0.x/10.1.x](#tomcat)
+* [JBoss EAP 8](/help/forms/using/upgrade-forms-osgi.md)
 
 Consult the appropriate application server documentation for more information on installing web applications, server configurations and how to start and stop the server.
 

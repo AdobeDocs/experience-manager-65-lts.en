@@ -14,3 +14,6 @@ Follow the guide specific to each of the application servers supported by AEM:
 
 * [Upgrade Steps for Application Server Installations (Websphere Liberty)](/help/sites-deploying/app-server-upgrade-wlp.md)
 * [Upgrade Steps for Application Server Installations (Tomcat)](/help/sites-deploying/app-server-upgrade-tomcat.md)
+* [Upgrade Steps for AEM 6.5 LTS on JBOSS EAP 8 (windows)](/help/forms/using/upgrading-aem-6.5-lts-on-jboss-eap-8)
+
+

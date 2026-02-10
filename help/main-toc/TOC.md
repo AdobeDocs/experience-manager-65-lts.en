@@ -464,6 +464,7 @@ user-guide-title: AEM 6.5 LTS
       + [Upgrade to AEM 6.5 LTS forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
+      + [Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)](/help/forms/using/upgrading-aem-6.5-lts-on-jboss-eap-8)
     + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
       + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
       + [Upgrading to AEM Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-jboss.pdf)
