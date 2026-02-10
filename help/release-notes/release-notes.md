@@ -100,16 +100,27 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 ### [!DNL Forms]{#forms-65-lts-sp2}
-#### Forms Designer 
-#### Forms
-#### Forms JEE 
-#### Forms Captcha {#forms-captcha-65-lts-sp2} 
-#### XMLFM {#forms-xmlfm-65-lts-sp2}
-#### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp2}
-#### [!DNL Forms Designer] {#forms-designer-65-lts-sp2}
+
 #### Forms Designer
+
+#### Forms
+
+#### Forms JEE 
+
+#### Forms Captcha {#forms-captcha-65-lts-sp2}
+
+#### XMLFM {#forms-xmlfm-65-lts-sp2}
+
+#### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp2}
+
+#### [!DNL Forms Designer] {#forms-designer-65-lts-sp2}
+
+#### Forms Designer
+
 #### AdaptIve Forms
+
 #### Forms Captcha
+
 #### Forms Management UI
 
 
