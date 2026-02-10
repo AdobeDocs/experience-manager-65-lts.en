@@ -34,7 +34,7 @@ If you are using MySQL as your AEM forms database, Administration Console cannot
 ## Add a category {#add-a-category}
 
 1. In administration console, click Services &gt; Applications and Services &gt; Category Management.
-1. Click Add. If you wish to add a sub-cateogry, select a category and then click Add.
+1. Click Add. If you want to add a sub-cateogry, select a category and then click Add.
 1. In the Name box, type a name for the category and in the Description box, type a description of the category.
 1. Click Add. The category is displayed on the Category Management page.
 
@@ -43,7 +43,7 @@ If you are using MySQL as your AEM forms database, Administration Console cannot
 ## Edit a category {#edit-a-category}
 
 1. In administration console, click Services &gt; Applications and Services &gt; Category Management.
-1. Select the category you wish to edit and click Edit. Alternatively, you can double-click a category to edit.
+1. Select the category you want to edit and click Edit. Alternatively, you can double-click a category to edit.
 1. Edit the name of the category in the Name box.
 
 ## Remove a category {#remove-a-category}

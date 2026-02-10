@@ -376,7 +376,7 @@ See [Uploading Assets](/help/assets/manage-assets.md#uploading-assets).
 1. Under the mimeTypes folder, select a mime type.
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
-    * Double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **[!UICONTROL true]**), which means the assets are synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **[!UICONTROL false]**.
+    * Double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **[!UICONTROL true]**), which means the assets are synched to Dynamic Media for processing. If you want to exclude this asset mime type from being processed, change this setting to **[!UICONTROL false]**.
 
     * Double-select **[!UICONTROL jobParam]** to open its associated text field. See [Supported Mime Types](/help/assets/assets-formats.md#supported-mime-types) for a list of permitted processing parameter values that you can use for a given mime type.
 
