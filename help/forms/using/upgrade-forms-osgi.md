@@ -90,3 +90,318 @@ After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrad
    >[!NOTE]
    >
    >In AEM 6.4 Forms, the structure of crx-repository has changed. If upgrade from 6.3 Forms to AEM 6.5 Forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/forms-repository-restructuring-in-aem-6-5).
+
+
+## Deploying AEM on JBoss EAP 8 (Windows)
+
+### Overview
+
+This guide provides step-by-step instructions for deploying Adobe Experience Manager (AEM) as a standalone OSGi WAR file on JBoss Enterprise Application Platform (EAP) 8 in a Windows environment using JDK 21.
+
+### System Requirements
+
+Before beginning the deployment process, ensure your environment meets the following requirements:
+
+| Component | Requirement |
+|-----------|-------------|
+| Operating System | Windows Server 2016 or later (64-bit) |
+| Java Development Kit | JDK 21 (Oracle or OpenJDK) |
+| Application Server | JBoss EAP 8.x |
+| AEM Distribution | AEM WAR file (obtained from Adobe) |
+
+>[!NOTE] 
+>
+> Verify that the `JAVA_HOME` environment variable points to your JDK 21 installation directory.
+
+### Step 1: Install JBoss EAP 8
+
+#### Download JBoss EAP
+
+1. Navigate to the Red Hat Developer portal:  
+   [https://developers.redhat.com/products/eap/download](https://developers.redhat.com/products/eap/download)
+
+2. Download the JBoss EAP 8 ZIP distribution for Windows.
+
+#### Extract JBoss EAP
+
+1. Extract the downloaded ZIP file to your preferred installation directory.
+
+2. Note this directory path as `<JBOSS_HOME>` for use throughout this guide.
+
+   **Example:**  
+   ```C:\jboss-eap-8.0```
+
+### Step 2: Prepare the AEM WAR File
+
+#### Obtain AEM WAR
+
+Acquire the AEM WAR file from Adobe Software Distribution or your Adobe representative.
+
+#### Rename WAR File
+
+Rename the WAR file to reflect your desired URL context path:
+
+```
+cq-quickstart.war
+```
+
+>[!IMPORTANT]
+>
+> The WAR filename determines the application's URL context. For example, `cq-quickstart.war` will be accessible at `/cq-quickstart`.
+
+
+### Step 3: Configure the AEM WAR
+
+All configuration modifications must be completed **before** deploying to JBoss.
+
+#### Create Working Directory
+
+1. Create a temporary working directory:
+
+   ```
+   C:\aem\war-config
+   ```
+
+2. Copy `cq-quickstart.war` into this directory.
+
+#### Extract WAR Contents
+
+1. Open **Command Prompt** and navigate to your working directory:
+
+   ```cmd
+   cd C:\aem\war-config
+   ```
+
+2. Extract the WAR file:
+
+   ```cmd
+   jar -xvf cq-quickstart.war
+   ```
+
+   This creates a directory structure with `WEB-INF` and other application files.
+
+### Step 4: Configure JBoss Deployment Descriptor
+
+#### Create Deployment Structure File
+
+1. Navigate to the `WEB-INF` directory within your extracted WAR:
+
+   ```cmd
+   cd WEB-INF
+   ```
+
+2. Create a new file named `jboss-deployment-structure.xml`.
+
+3. Add the following XML content:
+
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+   <jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+       <deployment>
+           <dependencies>
+               <module name="jdk.unsupported" />
+           </dependencies>
+       </deployment>
+   </jboss-deployment-structure>
+   ```
+
+4. Save and close the file.
+
+**Purpose:** This configuration provides access to JDK internal modules required by AEM.
+
+### Step 5: Configure Multipart Upload Settings
+
+>[!NOTE]
+>
+> Step 5 is applicable only to **AEM Forms**. If you are setting up **AEM only**, you can skip this step.
+
+
+#### Modify web.xml
+
+1. Open `WEB-INF\web.xml` in a text editor.
+
+2. Locate the `<servlet>` section containing the run mode configuration:
+
+   ```xml
+   <!-- Set the runmode per default to author -->
+   <init-param>
+       <param-name>sling.run.modes</param-name>
+       <param-value>author</param-value>
+   </init-param>
+   <load-on-startup>100</load-on-startup>
+   </servlet>
+   ```
+
+3. Replace the closing `</servlet>` tag and preceding line with:
+
+   ```xml
+   <init-param>
+       <param-name>sling.run.modes</param-name>
+       <param-value>author</param-value>
+   </init-param>
+   <multipart-config>
+       <max-file-size>1048576000</max-file-size>
+       <max-request-size>1048576000</max-request-size>
+       <file-size-threshold>0</file-size-threshold>
+   </multipart-config>
+   <load-on-startup>100</load-on-startup>
+   </servlet>
+   ```
+
+4. Save and close `web.xml`.
+
+**Purpose:** These settings enable large file uploads (up to 1 GB) for AEM Forms and Digital Asset Management.
+
+### Step 6: Repackage the WAR File
+
+After completing all configuration changes, repackage the WAR file.
+
+1. Navigate back to the working directory containing the extracted contents:
+
+   ```cmd
+   cd C:\aem\war-config
+   ```
+
+2. Create the new WAR file:
+
+   ```cmd
+   jar -cvf cq-quickstart.war *
+   ```
+
+>[!IMPORTANT]
+>
+> Perform this step only once, after all configurations are complete.
+
+### Step 7: Deploy and Start AEM
+
+#### Deploy WAR to JBoss
+
+1. Copy the repackaged `cq-quickstart.war` to the JBoss deployments directory:
+
+   ```
+   <JBOSS_HOME>\standalone\deployments
+   ```
+
+   **Example:**
+   ```C:\jboss-eap-8.0\standalone\deployments```
+
+#### Configure JVM Settings (Optional but Recommended)
+
+Before starting JBoss, configure JVM memory settings:
+
+1. Open `<JBOSS_HOME>\bin\standalone.conf.bat` in a text editor.
+
+1. Modify or add the following line to set heap memory:
+
+   ```batch
+   set "JAVA_OPTS=-Xms4096m -Xmx4096m -XX:MaxMetaspaceSize=512m"
+   ```
+
+>[!NOTE] 
+>
+> Adjust memory values based on your server capacity and AEM requirements.
+
+1. Save and close the file.
+
+#### Start JBoss EAP
+
+1. Open **Command Prompt** as **Administrator**.
+
+1. Navigate to the JBoss bin directory:
+
+   ```cmd
+   cd <JBOSS_HOME>\bin
+   ```
+
+   **Example:**
+   ```cmd cd C:\jboss-eap-8.0\bin```
+
+1. Start the JBoss server:
+
+   ```cmd
+   standalone.bat -b 0.0.0.0 -bmanagement 0.0.0.0
+   ```
+
+   **Parameters:**
+   * `-b 0.0.0.0` — Binds the server to all network interfaces
+   * `-bmanagement 0.0.0.0` — Binds the management interface to all network interfaces
+
+#### Monitor Deployment
+
+Watch the console output for deployment messages. Successful deployment is indicated by:
+
+```
+Deployed "cq-quickstart.war" (runtime-name : "cq-quickstart.war")
+```
+
+### Step 8: Access AEM
+
+Once deployment is complete and AEM has fully started:
+
+**AEM Author URL:**
+```http://<server-ip>:8080/cq-quickstart```
+
+**Default Credentials:**
+
+* Username: `admin`
+* Password: `admin`
+
+**Important:** Change the default password immediately after first login.
+
+### Troubleshooting
+
+#### Common Issues
+
+| Issue | Solution |
+|-------|----------|
+| Deployment fails with ClassNotFoundException | Verify `jboss-deployment-structure.xml` is properly configured |
+| OutOfMemoryError during startup | Increase heap memory in `standalone.conf.bat` |
+| AEM does not start after deployment | Check JBoss logs in `<JBOSS_HOME>\standalone\log\server.log` |
+| Cannot access AEM in browser | Verify firewall settings allow port 8080 |
+
+#### Log Files
+
+* **JBoss Server Log:** `<JBOSS_HOME>\standalone\log\server.log`
+* **AEM Error Log:** Available through AEM Web Console after startup at  
+  `http://<server-ip>:8080/cq-quickstart/system/console`
+
+### Additional Configuration
+
+#### Configuring Run Modes
+
+To change AEM run modes (author/publish), modify the `sling.run.modes` parameter in `WEB-INF\web.xml` before repackaging the WAR:
+
+```xml
+<init-param>
+    <param-name>sling.run.modes</param-name>
+    <param-value>publish</param-value>
+</init-param>
+```
+
+#### Production Recommendations
+
+For production environments:
+
+* Configure SSL/TLS certificates in JBoss
+* Set up AEM replication agents
+* Configure dispatcher for load balancing
+* Enable automated backups
+* Implement monitoring and alerting
+
+### Related Documentation
+
+* [JBoss EAP 8 Documentation](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/8.0)
+* [Adobe Experience Manager Documentation](https://experienceleague.adobe.com/docs/experience-manager-65.html)
+* [AEM Installation and Deployment Guide](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/deploy.html)
+
+### Document Information
+
+| Field | Value |
+|-------|-------|
+| Last Updated | February 2026 |
+| AEM Version | 6.5+ (LTS) |
+| JBoss Version | EAP 8.x |
+| JDK Version | 21 |
+| Platform | Windows |
+
+
