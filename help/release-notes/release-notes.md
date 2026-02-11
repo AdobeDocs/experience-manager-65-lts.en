@@ -45,23 +45,50 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Accessibility {#sites-accessibility-65-lts-sp2}
 
+* The Text component lost keyboard focus when authors hovered items in the Component Browser during editing. This disrupted typing and triggered an accessibility failure under WCAG 3.2.1. The fix prevents hover styling from shifting focus and keeps the Text component focused during Component Browser interaction. (SITES-35370)
+
 #### Admin user interface{#sites-adminui-65-lts-sp2}
+
+* Sites console List View Settings did not reflect the columns shown in List View. The dialog box opened with cleared checkboxes and an incorrect selected-columns count. The fix syncs dialog box state with the active grid columns and updates the counter to match actual column visibility. (SITES-38576)
 
 #### Classic user interface{#sites-classicui-65-lts-sp2} 
 
+* Classic UI Text component editing displayed raw HTML tags instead of rich text after an upgrade. Service Pack 2 corrects Classic UI RTE (Rich Text Editor) rendering so the editor displays formatted content and preserves stored markup. The fix also stops markup expansion during repeated edits and saves. (SITES-38709)
+
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp2}
+
+* Headless eventing support lacked required OSGi events for Content Fragments and Models in 6.5 LTS. The update adds the eventing bundle plus required dependencies and includes a 6.5 LTS build. Content Fragment and Model events now fire correctly and support Launches API workflows. (SITES-35329)
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp2}
 
-#### [!DNL Content Fragments] - Fragments editor{#sites-fragments-editor-65-lts-sp2}
+* A regression broke Assets console list view for Content Fragments and triggered an error during list rendering. The update corrects list-view logic after preview-info removal and restores stable list output. The console now displays Content Fragments without failures and keeps list interactions usable. (SITES-38683)
+
+#### [!DNL Content Fragments] - Fragments Editor{#sites-fragments-editor-65-lts-sp2}
+
+* Content Fragment variation tags disappeared when the feature toggle remained disabled after refactoring. The fix restores variation tag support even when that toggle stays off. Authors can again add and view variation tags in the Content Fragment editor. (SITES-38682) CRITICAL
+* Edited Content Fragments disappeared from the Assets console list after authors navigated back from the Content Fragment editor. Browser caching returned a stale list and hid the updated fragment until a manual refresh. The fix adds cache-control handling for the editor return path so the list reloads correctly and keeps the edited fragment visible. (SITES-35374) CRITICAL
+
+* The Content Fragment RTE showed layout and visual issues after recent UI styling changes. Service Pack 2 refines RTE styling so the toolbar and editable area render correctly and remain readable. The Content Fragment editor now aligns with the Page Editor look and behavior. (SITES-38684)
+* Removing IMS scopes from the Polaris Asset Selector broke Content Fragment integration with the delivery endpoint. Authors hit failures when opening the remote Asset Selector and selecting assets. The update re-adds the needed IMS scopes and restores stable delivery-tier access. (SITES-35837)
+
 
 #### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp2}
 
 #### [!DNL Content Fragments] - GraphQL Query Editor{#sites-graphql-query-editor-65-lts-sp2}
 
+#### [!DNL Content Fragments] - Model Editor{#sites-model-editor-65-lts-sp2}
+
+* Nested Content Fragment models stopped working when refactoring tied the feature to a disabled toggle. The fix restores nested model support without requiring toggle changes. Authors can again create and use nested models in the Model Editor. (SITES-38681) CRITICAL
+
 #### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp2}
 
+* AEM Headless required a dedicated release branch to avoid dependency and bundle version conflicts with mainline builds. The update adds a release/6.5lts headless branch and aligns dependency sets and bundle versions. Jenkins now builds the headless codebase cleanly without version collisions. (SITES-36585)
+
 #### Component console{#sites-component-console-65-lts-sp2}
+
+#### Content API{#sites-content-api-65-lts-sp2}
+
+* A feature-toggle defect misreported Page Management API status. The update adds a dedicated enablement flag and evaluates it alongside the existing toggle. Page Management API now shows stable status. Site Management API remains experimental. (SITES-39284)
 
 #### Core backend{#sites-core-backend-65-lts-sp2}
 
@@ -75,9 +102,21 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Launches{#sites-launches-65-lts-sp2}
 
+* Sites Timeline showed hardcoded English text during Launch promotion: "Created version ... before promoting launch." The update replaces the hardcoded string with localized message handling. Timeline now displays localized text and aligns the entry with standard AEM localization behavior. (SITES-39157)
+* Launch promotion scope drifted when authors promoted a subsection using Promote current page and sub pages. AEM also promoted unrelated pages and caused unexpected live-site modifications. The fix corrects Launch scope calculation so only the chosen subtree promotes. (SITES-38315)
+* Content Fragments inside Launches did not participate in the `damAssetLucene` index and limited search results and query efficiency. This change adds Launch Content Fragment paths to the index definition. Search and custom queries now find Content Fragments under `/content/launches`. (SITES-35634)
+* Launches UI showed Content Fragment Launch controls even though the product does not expose Content Fragment Launches in Touch UI. This change strips Content Fragment Launch code paths from cq-launches-content and adjusts Launch list filtering. Authors now see consistent page Launch options without Content Fragment Launch entries. (SITES-35633)
+* AEM 6.5 LTS Quickstart lacked required Launches bundles and prerequisites, which blocked Launches OpenAPI enablement. The update adds Launches bundles and required dependencies such as metrics support, dam-cfm updates, and queue configuration. Launches APIs now run on 6.5 LTS Quickstart with the required runtime components present. (SITES-35297)
+* CF Launches packaging pulled newer dependency versions and unnecessary GraphQL libraries, which complicated AEM 6.5 LTS integration. This change aligns dependency versions with the AEM 6.5 LTS baseline and strips unused GraphQL dependencies. Bundle resolution now stays consistent and CF Launches startup remains stable. (SITES-35295)
+* AEM Launches now runs a dedicated Jenkins pipeline for the 6.5 LTS branch. The pipeline runs nightly builds and sends failure alerts by email. This setup increases test coverage and catches regressions early. (SITES-35293)
+* AEM 6.5 LTS now ships an updated Launches API bundle with aligned artifact versions. The bundle tracks the primary code line while keeping the correct 6.5 LTS release version. This update stabilizes Launches API consumption across the 6.5 LTS stack. (SITES-35292)
+* AEM 6.5 LTS now includes an updated launches-core bundle with aligned dependency versions. The update adds launches-core handling for Fragment UUID and Reference UUID data types. Launch processing now keeps consistent behavior across Launches and Content Fragment workflows. (SITES-35290) 
+
 #### Link Checker{#sites-link-checker-65-lts-sp2}
 
 #### MSM - Live Copies{#sites-msm-live-copies-65-lts-sp2}
+
+* Administrators had limited visibility into MSM push-on-modify processing during content changes. The fix adds detailed logging around MSM event reception and rollout execution. Debug output now shows which events fired, which content paths changed, and who triggered the change. (SITES-38029)
 
 #### Page editor{#sites-pageeditor-65-lts-sp2}
 
@@ -85,7 +124,13 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Rich Text Editor{#sites-rte-65-lts-sp2}
 
+#### Template Editor{#sites-template-editor-65-lts-sp2}
+
+* Template status text displayed vertically in **Tools** > **General** > **Templates** for some locales. The "outdated" label broke layout and read as a column of characters. The fix corrects template status styling so the label renders on a single horizontal line. (SITES-36797)
+
 #### Universal editor {#sites-universal-editor-65-lts-sp2}
+
+* An OSGi default configuration set `preview=true` and forced Universal Editor to start in Preview mode. This update corrects the default value and restores the standard Production entry behavior. Universal Editor now opens in Production mode unless an admin explicitly enables Preview mode. (SITES-37193)
 
 
 
