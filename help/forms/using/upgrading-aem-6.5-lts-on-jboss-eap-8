@@ -1,0 +1,530 @@
+# Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)
+
+## Overview
+
+This guide provides step-by-step instructions for upgrading an existing Adobe Experience Manager (AEM) 6.5 LTS installation from JBoss EAP 7.4 to JBoss EAP 8 on Windows, using JDK 21.
+
+**Upgrade Path:** JBoss EAP 7.4 (JDK 11) → JBoss EAP 8 (JDK 21)
+
+## Important Notices
+
+>[!NOTE] 
+>
+>This is a critical upgrade procedure. Always perform this upgrade in a non-production environment first and maintain complete backups.
+
+> ** PREREQUISITES:** Complete system backup and a documented rollback plan are mandatory before proceeding.
+
+## Pre-Upgrade Requirements
+
+### System Requirements
+
+| Component | Requirement |
+|-----------|-------------|
+| Operating System | Windows Server 2016 or later (64-bit) |
+| Source Environment | JBoss EAP 7.4 with AEM 6.5 LTS |
+| Target Environment | JBoss EAP 8.x |
+| Java Development Kit | JDK 21 (Oracle or OpenJDK) |
+| AEM Version | AEM 6.5 Service Pack (latest recommended) |
+| Disk Space | Minimum 50 GB free space for upgrade process |
+
+### Required Downloads
+
+Before beginning the upgrade, obtain the following:
+
+1. **JBoss EAP 8.0 Distribution**  
+   Download from: [https://developers.redhat.com/products/eap/download](https://developers.redhat.com/products/eap/download)
+
+2. **JDK 21 Installer**  
+   Download Oracle JDK 21 or OpenJDK 21 for Windows (64-bit)
+
+3. **AEM 6.5 LTS WAR File**  
+   Obtain the latest AEM 6.5 Service Pack WAR from Adobe Software Distribution
+
+## Step 1: Create Complete Backup
+
+>[!CRITICAL]
+>
+> Perform comprehensive backups before proceeding.
+
+### Backup Checklist
+
+- [ ] Full backup of existing JBoss EAP 7.4 installation directory
+- [ ] Backup of `crx-repository` folder
+- [ ] Backup of `crx-quickstart` folder
+- [ ] Export of all custom configurations
+- [ ] Database backup (if using external database)
+- [ ] Document current system state and configurations
+
+### Create Backup
+
+```cmd
+# Example backup location
+C:\AEM-Backups\Pre-Upgrade-<date>
+
+# Copy entire JBoss 7.4 directory
+xcopy "C:\jboss-eap-7.4" "C:\AEM-Backups\Pre-Upgrade-<date>\jboss-eap-7.4" /E /I /H
+```
+
+**Recommended:** Store backups on a separate drive or network location.
+
+## Step 2: Install JBoss EAP 8
+
+### Extract JBoss EAP 8
+
+1. Extract the JBoss EAP 8 ZIP distribution to your target installation directory:
+
+   ```
+   C:\jboss-eap-8.0
+   ```
+
+2. Note this directory path as `<JBOSS_HOME>` for use throughout this guide.
+
+### Replicate Directory Structure
+
+Ensure the new JBoss EAP 8 installation has the same custom directory structure as your previous JBoss EAP 7.4 setup, particularly:
+
+- Custom deployment directories
+- External configuration folders
+- Log file locations
+- Any custom modules or libraries
+
+## Step 3: Migrate Repository Data
+
+### Copy CRX Repository
+
+1. Navigate to your existing JBoss EAP 7.4 installation:
+
+   ```
+   <OLD_JBOSS_HOME>\bin\crx-repository
+   ```
+
+2. Copy the entire `crx-repository` folder to the new JBoss EAP 8 installation:
+
+   ```cmd
+   xcopy "C:\jboss-eap-7.4\bin\crx-repository" "C:\jboss-eap-8.0\bin\crx-repository" /E /I /H
+   ```
+
+**Important:** This folder contains your content repository and must be transferred completely.
+
+### Verify Repository Copy
+
+After copying, verify the repository size and structure match the source:
+
+```cmd
+dir "C:\jboss-eap-8.0\bin\crx-repository" /s
+```
+
+## Step 4: Stop AEM Instance
+
+Before making any changes, ensure AEM is completely stopped.
+
+### Stop via Windows Services
+
+1. Open **Services** (Run: `services.msc`)
+2. Locate your AEM/JBoss service
+3. Right-click and select **Stop**
+4. Wait for the service to fully stop
+
+### Stop via Command Line
+
+If AEM was started manually:
+
+1. Go to the JBoss console window
+2. Press `Ctrl+C`
+3. Wait for graceful shutdown to complete
+
+### Verify Shutdown
+
+Ensure the Java process is no longer running:
+
+```cmd
+tasklist | findstr java
+```
+
+## Step 5: Clean Up Legacy AEM Files
+
+Remove outdated files from the `crx-quickstart` directory to ensure a clean upgrade.
+
+>[!CAUTION]
+>
+> Only delete the specific files and folders listed below. Do not remove any other configuration files, custom code, or repository data.
+
+### 5.1 Remove Launchpad Startup Folder
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\startup
+```
+
+**Action:**
+```cmd
+rd /s /q "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\startup"
+```
+
+**Purpose:** This folder contains old OSGi bundles that will be regenerated during the upgrade.
+
+### 5.2 Remove Base JAR File
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\org.apache.sling.launchpad.base.jar
+```
+
+**Action:**
+```cmd
+del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\org.apache.sling.launchpad.base.jar"
+```
+
+**Purpose:** This JAR will be replaced with the version from the new WAR file.
+
+### 5.3 Remove Bootstrap Command File
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\felix\bundle0\BootstrapCommandFile_*.txt
+```
+
+**Action:**
+```cmd
+del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\bundle0\BootstrapCommandFile_*.txt"
+```
+
+**Purpose:** Bootstrap commands will be regenerated for the new environment.
+
+### 5.4 Remove sling.options File
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\felix\sling.options.file
+```
+
+**Action:**
+```cmd
+del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\sling.options.file"
+```
+
+### 5.5 Remove sling_bootstrap.txt File
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\sling_bootstrap.txt
+```
+
+**Action:**
+```cmd
+del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\sling_bootstrap.txt"
+```
+
+### 5.6 Backup and Remove sling.properties File
+
+This file contains environment-specific configurations that may need to be merged later.
+
+**Location:**
+```
+<JBOSS_HOME>\bin\crx-repository\crx-quickstart\conf\sling.properties
+```
+
+**Action:**
+
+1. **Create backup:**
+   ```cmd
+   copy "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\conf\sling.properties" "C:\AEM-Backups\sling.properties.backup"
+   ```
+
+2. **Delete original:**
+   ```cmd
+   del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\conf\sling.properties"
+   ```
+
+**Purpose:** A new `sling.properties` will be generated. Review your backup to restore any custom configurations after the upgrade.
+
+## Step 6: Install and Configure JDK 21
+
+### Install JDK 21
+
+1. Run the JDK 21 installer for Windows
+2. Install to a standard location (e.g., `C:\Program Files\Java\jdk-21`)
+3. Complete the installation wizard
+
+### Configure Environment Variables
+
+#### Set JAVA_HOME
+
+1. Open **System Properties** → **Advanced** → **Environment Variables**
+2. Under **System Variables**, click **New**
+3. Set:
+   - Variable name: `JAVA_HOME`
+   - Variable value: `C:\Program Files\Java\jdk-21`
+4. Click **OK**
+
+#### Update PATH Variable
+
+1. In **System Variables**, select `Path` and click **Edit**
+2. Add new entry:
+   ```
+   %JAVA_HOME%\bin
+   ```
+3. Move this entry to the top of the list to ensure JDK 21 takes precedence
+4. Click **OK** on all dialogs
+
+### Verify Java Installation
+
+1. Open a **new** Command Prompt (to load updated environment variables)
+2. Verify Java version:
+
+   ```cmd
+   java -version
+   ```
+
+   Expected output:
+   ```
+   java version "21.0.x"
+   Java(TM) SE Runtime Environment (build 21.0.x+...)
+   Java HotSpot(TM) 64-Bit Server VM (build 21.0.x+..., mixed mode, sharing)
+   ```
+
+3. Verify JAVA_HOME:
+
+   ```cmd
+   echo %JAVA_HOME%
+   ```
+
+## Step 7: Configure JVM Settings
+
+Before deploying AEM, configure appropriate JVM memory settings for production use.
+
+### Edit standalone.conf.bat
+
+1. Navigate to:
+   ```
+   <JBOSS_HOME>\bin
+   ```
+
+2. Open `standalone.conf.bat` in a text editor (as Administrator)
+
+3. Locate or add the `JAVA_OPTS` configuration:
+
+   ```batch
+   rem # AEM Production JVM Settings
+   set "JAVA_OPTS=-Xms4096m -Xmx4096m -XX:MaxMetaspaceSize=768m"
+   set "JAVA_OPTS=%JAVA_OPTS% -Djava.net.preferIPv4Stack=true"
+   set "JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8"
+   set "JAVA_OPTS=%JAVA_OPTS% -server"
+   ```
+
+4. Save and close the file
+
+**Recommended Settings:**
+
+| Parameter | Recommended Value | Description |
+|-----------|-------------------|-------------|
+| `-Xms` | 4096m - 8192m | Initial heap size |
+| `-Xmx` | 4096m - 8192m | Maximum heap size |
+| `-XX:MaxMetaspaceSize` | 768m - 1024m | Metaspace limit |
+
+**Note:** Adjust values based on your server's available memory and workload requirements.
+
+## Step 8: Deploy AEM 6.5 LTS WAR
+
+### Prepare WAR File
+
+Ensure your AEM WAR file is properly configured as per the deployment guide:
+- `jboss-deployment-structure.xml` is present
+- `web.xml` includes multipart-config settings
+- WAR is repacked if any modifications were made
+
+### Deploy to JBoss
+
+1. Copy the AEM 6.5 LTS WAR file to the deployments directory:
+
+   ```cmd
+   copy "C:\AEM-Downloads\cq-quickstart-6.5.xx.war" "C:\jboss-eap-8.0\standalone\deployments\cq-quickstart.war"
+   ```
+
+**Important:** Ensure the WAR filename matches your desired URL context path.
+
+## Step 9: Start JBoss EAP 8 with AEM
+
+### Start the Server
+
+1. Open **Command Prompt** as **Administrator**
+
+2. Navigate to JBoss bin directory:
+   ```cmd
+   cd C:\jboss-eap-8.0\bin
+   ```
+
+3. Start JBoss EAP 8:
+   ```cmd
+   standalone.bat -b 0.0.0.0 -bmanagement 0.0.0.0
+   ```
+
+### Monitor Initial Startup
+
+Watch the console output for:
+
+1. **WAR Deployment:**
+   ```
+   Deployed "cq-quickstart.war" (runtime-name : "cq-quickstart.war")
+   ```
+
+2. **AEM Initialization Messages:**
+   ```
+   Apache Sling Application Launcher
+   Sling Home: crx-repository/crx-quickstart
+   ```
+
+3. **Repository Upgrade (if applicable):**
+   ```
+   Performing repository migration...
+   ```
+
+**Expected Startup Time:** 5-15 minutes depending on repository size and system resources.
+
+## Step 10: Verify Upgrade Success
+
+### Check AEM Startup
+
+Monitor the JBoss console for the final startup message:
+
+```
+**** AEM started successfully ****
+```
+
+### Access AEM Interface
+
+1. Open a web browser
+2. Navigate to:
+   ```
+   http://localhost:8080/cq-quickstart
+   ```
+
+3. Log in with admin credentials:
+   - Username: `admin`
+   - Password: `admin` (or your custom password)
+
+### Verify System Information
+
+1. Navigate to **Tools** → **Operations** → **Web Console**
+   ```
+   http://localhost:8080/cq-quickstart/system/console
+   ```
+
+2. Click **System Information**
+
+3. Verify:
+   - **JVM Version:** Should show Java 21
+   - **JBoss Version:** Should show EAP 8.x
+   - **AEM Version:** Should show 6.5.xx
+
+### Check System Health
+
+Navigate to **Tools** → **Operations** → **Diagnosis** to run health checks:
+
+- Bundle Status: All bundles should be "Active"
+- Resource Resolution: Should show healthy status
+- Query Performance: Review for any degradation
+
+## Post-Upgrade Tasks
+
+### Restore Custom Configurations
+
+1. Review the backed-up `sling.properties` file
+2. Restore any custom run modes or configurations to the new file:
+   ```
+   <JBOSS_HOME>\bin\crx-repository\crx-quickstart\conf\sling.properties
+   ```
+
+3. Restart AEM if configurations were changed
+
+### Update Replication Agents
+
+1. Navigate to **Tools** → **Deployment** → **Replication** → **Agents on Author**
+2. Review and test all replication agents
+3. Update any hardcoded references to old server paths
+
+### Test Critical Functionality
+
+- [ ] Content authoring and publishing
+- [ ] Asset upload and processing
+- [ ] Workflow execution
+- [ ] User authentication
+- [ ] Integration endpoints
+- [ ] Custom components and templates
+
+### Performance Optimization
+
+1. Review and clear any temporary caches
+2. Monitor system performance during initial usage
+3. Adjust JVM settings if needed based on actual usage patterns
+
+## Troubleshooting
+
+### Common Issues
+
+| Issue | Possible Cause | Solution |
+|-------|---------------|----------|
+| AEM fails to start | Incorrect Java version | Verify `JAVA_HOME` points to JDK 21 |
+| Repository corruption errors | Incomplete repository copy | Restore from backup and re-copy repository |
+| OutOfMemoryError | Insufficient heap memory | Increase `-Xmx` in `standalone.conf.bat` |
+| Bundles in "Installed" state | Missing dependencies | Check bundle dependencies in Web Console |
+| Port 8080 already in use | Another service using port | Stop conflicting service or change JBoss port |
+
+### Log File Locations
+
+- **JBoss Server Log:**  
+  `<JBOSS_HOME>\standalone\log\server.log`
+
+- **AEM Error Log:**  
+  `<JBOSS_HOME>\bin\crx-repository\crx-quickstart\logs\error.log`
+
+- **AEM Access Log:**  
+  `<JBOSS_HOME>\bin\crx-repository\crx-quickstart\logs\access.log`
+
+### Rollback Procedure
+
+If the upgrade fails and cannot be resolved:
+
+1. Stop JBoss EAP 8
+2. Restore the complete backup of JBoss EAP 7.4
+3. Restore the `crx-repository` folder
+4. Verify `JAVA_HOME` points to JDK 11 (if rolling back)
+5. Start the previous environment
+
+## Best Practices
+
+### Before Production Deployment
+
+- [ ] Test the complete upgrade process in a development environment
+- [ ] Test in a staging environment with production-like data
+- [ ] Document all custom configurations and integrations
+- [ ] Create a detailed rollback plan
+- [ ] Schedule upgrade during maintenance window
+- [ ] Notify all stakeholders of planned downtime
+
+### After Successful Upgrade
+
+- [ ] Monitor system logs for 48-72 hours
+- [ ] Perform load testing to identify performance issues
+- [ ] Update system documentation
+- [ ] Train team on any JBoss EAP 8 differences
+- [ ] Archive all upgrade documentation and backups
+
+## Related Documentation
+
+- [JBoss EAP 8 Migration Guide](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/8.0/html/migration_guide/)
+- [Adobe Experience Manager 6.5 Upgrade Guide](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/upgrade.html)
+- [AEM Installing Service Packs](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
+
+## Document Information
+
+| Field | Value |
+|-------|-------|
+| Document Version | 1.0 |
+| Last Updated | February 2026 |
+| AEM Version | 6.5 LTS |
+| Source Platform | JBoss EAP 7.4 / JDK 11 |
+| Target Platform | JBoss EAP 8.x / JDK 21 |
+| Operating System | Windows Server |
+
+**Legal Notice:** Adobe, Adobe Experience Manager, and AEM are registered trademarks of Adobe Inc. JBoss and Red Hat are registered trademarks of Red Hat, Inc.
