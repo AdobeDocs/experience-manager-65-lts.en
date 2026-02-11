@@ -15,7 +15,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Version | Service Pack 1 (SP1), Hotfix for GRANITE-61551 <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
 | Date | September 9, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution] (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
 
 <!-- OLD URL TO JAR
 (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | -->
