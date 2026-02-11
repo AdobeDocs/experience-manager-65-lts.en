@@ -14,8 +14,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 |---|---|
 | Version | Service Pack 2 (SP2), Hotfix for GRANITE-61551 <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
-| Date | February 19, 2026 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fcq660%2Fhotfixes%2Fcq-6.5.lts.1-hotfix-GRANITE-61551-1.2.zip) |
+| Date | September 9, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
+| Download URL | [Software Distribution] (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
 
 <!-- OLD URL TO JAR
 (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | -->
@@ -280,7 +280,7 @@ SP1 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 >
 >File names shown above (for example, `cq-quickstart-6.6.x.jar`) reflect the SP1 Quickstart artifact naming observed for this LTS release; always use the exact file name you download from Software Distribution. 
 
-## Install and update {#install-update}
+## Install and update{#install-update}
 
 For setup requirements, see [installation instructions](/help/sites-deploying/custom-standalone-install.md).
 
