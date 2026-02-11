@@ -6,11 +6,11 @@ solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: 7f8de16f-9e9a-4d37-9978-d26c496b911c
 ---
-# Upgrade Steps for Application Server Installations (Tomcat) {#upgrade-steps-for-application-server-installations-tomcat}
+# Upgrade Steps for Application Server Installations (Tomcat - Sidegrade) {#upgrade-steps-for-application-server-installations-tomcat}
 
 >[!NOTE]
 >
->This page outlines the upgrade procedure for the AEM 6.5 LTS on Tomcat.
+>This page outlines the upgrade procedure from AEM 6.5 to AEM 6.5 LTS on Tomcat. For upgrading from AEM 6.5 LTS to AEM 6.5 LTS Servicepack [refer this](/help/sites-deploying/app-server-upgrade-tomcat-inplace.md)
 
 ## Pre-Upgrade Steps {#pre-upgrade-steps}
 
