@@ -15,7 +15,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Version | Service Pack 2 (SP2), Hotfix for GRANITE-61551 <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
 | Date | September 9, 2025 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution] (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
 
 <!-- OLD URL TO JAR
 (https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | -->
@@ -46,6 +46,12 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### Accessibility {#sites-accessibility-65-lts-sp2}
 
 * The Text component lost keyboard focus when authors hovered items in the Component Browser during editing. This disrupted typing and triggered an accessibility failure under WCAG 3.2.1. The fix prevents hover styling from shifting focus and keeps the Text component focused during Component Browser interaction. (SITES-35370)
+* Corrected focus management in the Description rich text field that blocked forward navigation with the Tab key. Users became stuck in the RTE because the component relied on a non-standard keyboard command to shift focus, which broke expected dialog box navigation. The change enforces standard keyboard interaction and preserves logical Tab sequencing throughout the dialog box. (SITES-35228)
+* Addressed an issue in the Sites editor that disrupted expected behavior during page authoring and led to inconsistent component interaction. Authors experienced unreliable UI responses that interfered with standard editing tasks and reduced workflow efficiency. The update refines the underlying editor logic and restores stable, predictable interaction across affected components. (SITES-35227)
+* Resolved a regression that broke the asset selector in the page editor and prevented it from loading in specific page editing scenarios. Authors can now open and use the asset selector normally when choosing or browsing assets while editing a page. This restores consistent access to asset selection workflows that were disrupted by the loading failure. (SITES-35226)
+* Eliminated an issue in the Sites editor that caused inconsistent behavior during page interaction and disrupted standard authoring workflows. The defect led to unexpected UI responses that interfered with component configuration and content updates. The update stabilizes the affected functionality and restores reliable execution of editing actions across pages. (SITES-35225)
+* Eliminated a defect in the Sites authoring interface that caused inconsistent behavior during page editing and disrupted normal workflows. Authors encountered unexpected UI responses that interfered with component interaction and content updates. The update stabilizes the affected functionality and restores reliable, predictable behavior across editing scenarios. (SITES-35224)
+
 
 #### Admin user interface{#sites-adminui-65-lts-sp2}
 
@@ -61,7 +67,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp2}
 
+* Adjusted component handling in the Sites authoring interface to stop irregular behavior during page updates. The defect led to unpredictable editor responses that interfered with routine content modifications and reduced workflow efficiency. The update aligns editor logic with expected interaction patterns and delivers dependable performance during authoring activities. (SITES-35078) CRITICAL
+
 * A regression broke Assets console list view for Content Fragments and triggered an error during list rendering. The update corrects list-view logic after preview-info removal and restores stable list output. The console now displays Content Fragments without failures and keeps list interactions usable. (SITES-38683)
+
 
 #### [!DNL Content Fragments] - Fragments Editor{#sites-fragments-editor-65-lts-sp2}
 
@@ -92,6 +101,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Core backend{#sites-core-backend-65-lts-sp2}
 
+* Introduced a change in the Sites authoring experience to resolve inconsistent behavior that disrupted standard page editing workflows. Authors encountered unexpected results during component interaction, which interfered with content updates and reduced reliability. The change restores stable editor behavior and ensures consistent execution of authoring actions across affected scenarios. (SITES-35162) CRITICAL
+
+* Refined Sites authoring behavior to resolve an issue that disrupted page editing and caused inconsistent results during component interaction. Authors experienced unexpected UI responses that interfered with content updates and reduced workflow reliability. The change restores stable editor state management and ensures predictable execution of authoring actions across affected scenarios. (SITES-34499)
+
 #### Core Components{#sites-core-components-65-lts-sp2}
 
 #### Campaign integration{#sites-campaign-integration-65-lts-sp2}
@@ -110,7 +123,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * CF Launches packaging pulled newer dependency versions and unnecessary GraphQL libraries, which complicated AEM 6.5 LTS integration. This change aligns dependency versions with the AEM 6.5 LTS baseline and strips unused GraphQL dependencies. Bundle resolution now stays consistent and CF Launches startup remains stable. (SITES-35295)
 * AEM Launches now runs a dedicated Jenkins pipeline for the 6.5 LTS branch. The pipeline runs nightly builds and sends failure alerts by email. This setup increases test coverage and catches regressions early. (SITES-35293)
 * AEM 6.5 LTS now ships an updated Launches API bundle with aligned artifact versions. The bundle tracks the primary code line while keeping the correct 6.5 LTS release version. This update stabilizes Launches API consumption across the 6.5 LTS stack. (SITES-35292)
-* AEM 6.5 LTS now includes an updated launches-core bundle with aligned dependency versions. The update adds launches-core handling for Fragment UUID and Reference UUID data types. Launch processing now keeps consistent behavior across Launches and Content Fragment workflows. (SITES-35290) 
+* AEM 6.5 LTS now includes an updated launches-core bundle with aligned dependency versions. The update adds launches-core handling for Fragment UUID and Reference UUID data types. Launch processing now keeps consistent behavior across Launches and Content Fragment workflows. (SITES-35290)
+* Refined the Sites editor to resolve inconsistent behavior that disrupted normal page authoring workflows. Authors encountered unexpected component interaction that interfered with content updates and reduced editing reliability. The change restores consistent UI state management and ensures predictable execution of authoring actions across affected scenarios. (SITES-35138)
 
 #### Link Checker{#sites-link-checker-65-lts-sp2}
 
