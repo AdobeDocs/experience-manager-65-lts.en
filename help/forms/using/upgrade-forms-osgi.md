@@ -291,7 +291,7 @@ Before starting JBoss, configure JVM memory settings:
 
 1. Open `<JBOSS_HOME>\bin\standalone.conf.bat` in a text editor.
 
-2. Modify or add the following line to set heap memory:
+1. Modify or add the following line to set heap memory:
 
    ```batch
    set "JAVA_OPTS=-Xms4096m -Xmx4096m -XX:MaxMetaspaceSize=512m"
@@ -301,13 +301,13 @@ Before starting JBoss, configure JVM memory settings:
 >
 > Adjust memory values based on your server capacity and AEM requirements.
 
-3. Save and close the file.
+1. Save and close the file.
 
 #### Start JBoss EAP
 
 1. Open **Command Prompt** as **Administrator**.
 
-2. Navigate to the JBoss bin directory:
+1. Navigate to the JBoss bin directory:
 
    ```cmd
    cd <JBOSS_HOME>\bin
@@ -316,7 +316,7 @@ Before starting JBoss, configure JVM memory settings:
    **Example:**
    ```cmd cd C:\jboss-eap-8.0\bin```
 
-3. Start the JBoss server:
+1. Start the JBoss server:
 
    ```cmd
    standalone.bat -b 0.0.0.0 -bmanagement 0.0.0.0
