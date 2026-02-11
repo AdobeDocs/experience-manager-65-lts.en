@@ -4,8 +4,8 @@ description: JBoss EAP 8 supports Elytron credential stores for secure database 
 solution: Experience Manager
 feature: Deploying
 role: User,Admin,Developer
+exl-id: d7a9502b-8d6a-4d83-9b1f-0c82cbf34b70
 ---
-
 # Database Credential Store Setup (Elytron-based)
 
 ## Configure Database Credential Store Using Elytron

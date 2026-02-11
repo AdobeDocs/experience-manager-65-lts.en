@@ -1,11 +1,11 @@
 ---
-title: Adobe Experience Manager Forms 6.5 LTS SP1 Hotfixes 
-description: Provides information on how to download and install a hotfix for AEM Forms 6.5 LTS. 
+title: Adobe Experience Manager Forms 6.5 LTS SP1 Hotfixes
+description: Provides information on how to download and install a hotfix for AEM Forms 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
 role: User,Admin,Architect,Developer
+exl-id: e485100f-3e16-4fd4-a8ce-af771d765dd1
 ---
-
 # Adobe Experience Manager Forms 6.5 LTS Hotfixes{#aem-form-hotfix}
 
 This article lists the critical fixes implemented to address known issues, improve system stability, and enhance overall performance of AEM Forms 6.5 LTS.   
@@ -52,4 +52,4 @@ Perform the following steps to download and install the Hotfix:
   1. Download [Hotfix](#hotfix-for-adaptive-forms) from the Software Distribution link.
   1. Extract the Hotfix archive file so you can obtain an Experience Manager package (.zip) and bundle (.jar) files.
   1. Upload and install the package (.zip) via the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager.html?lang=es#accessing).
-  1. Open the configuration manager bundles `https://server:host/system/console/bundles`, upload, and install the bundle (.jar). The hotfix is installed. 
+  1. Open the configuration manager bundles `https://server:host/system/console/bundles`, upload, and install the bundle (.jar). The hotfix is installed.

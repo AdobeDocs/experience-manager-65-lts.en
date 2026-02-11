@@ -4,6 +4,7 @@ description: Learn how to use offline reindexing methodology to reindex AEM repo
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
+exl-id: 156f245f-b185-4da4-b9c6-6d0a98405119
 ---
 # Offline Reindexing for AEM {#offline-reindexing-for-aem}
 

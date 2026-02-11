@@ -138,15 +138,15 @@ Before a deployment read the [General Description](#general-description) above.
       ```xml
       <?xml version='1.0' encoding='utf-8'?>
       <tomcat-users>
-      role rolename="manager"/>
-      role rolename="tomcat"/>
-      <role rolename="admin"/>
-      <role rolename="role1"/>
-      <role rolename="manager-gui"/>
-      <user username="both" password="tomcat" roles="tomcat,role1"/>
-      <user username="tomcat" password="tomcat" roles="tomcat"/>
-      <user username="admin" password="admin" roles="admin,manager-gui"/>
-      <user username="role1" password="tomcat" roles="role1"/>
+        <role rolename="manager"/>
+        <role rolename="tomcat"/>
+        <role rolename="admin"/>
+        <role rolename="role1"/>
+        <role rolename="manager-gui"/>
+        <user username="both" password="tomcat" roles="tomcat,role1"/>
+        <user username="tomcat" password="tomcat" roles="tomcat"/>
+        <user username="admin" password="admin" roles="admin,manager-gui"/>
+        <user username="role1" password="tomcat" roles="role1"/>
       </tomcat-users>
       ```
 

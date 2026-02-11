@@ -1464,7 +1464,8 @@ user-guide-title: AEM 6.5 LTS
         + [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md)
         + [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md)
         + [Upgrade Steps for Application Server Installations (WLP)](/help/sites-deploying/app-server-upgrade-wlp.md)
-        + [Upgrade Steps for Application Server Installations (Tomcat)](/help/sites-deploying/app-server-upgrade-tomcat.md)
+        + [Upgrade Steps for Application Server Installations (Tomcat - Sidegrade)](/help/sites-deploying/app-server-upgrade-tomcat.md)
+        + [Upgrade Steps for Application Server Installations (Tomcat - Inplace Upgrade)](/help/sites-deploying/app-server-upgrade-tomcat-inplace.md)
         + [List of Obsolete Bundles Uninstalled After the Upgrade](/help/sites-deploying/obsolete-bundles.md)
     + Best Practices {#practices}
        + [Deploying Best Practices](/help/sites-deploying/best-practices.md)
