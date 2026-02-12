@@ -51,6 +51,55 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Resolved a regression that broke the asset selector in the page editor and prevented it from loading in specific page editing scenarios. Authors can now open and use the asset selector normally when choosing or browsing assets while editing a page. This restores consistent access to asset selection workflows that were disrupted by the loading failure. (SITES-35226)
 * Eliminated an issue in the Sites editor that caused inconsistent behavior during page interaction and disrupted standard authoring workflows. The defect led to unexpected UI responses that interfered with component configuration and content updates. The update stabilizes the affected functionality and restores reliable execution of editing actions across pages. (SITES-35225)
 * Eliminated a defect in the Sites authoring interface that caused inconsistent behavior during page editing and disrupted normal workflows. Authors encountered unexpected UI responses that interfered with component interaction and content updates. The update stabilizes the affected functionality and restores reliable, predictable behavior across editing scenarios. (SITES-35224)
+* AEM Sites now includes `alt` text support on images to meet ADA and WCAG requirements. Page output no longer omits `alt` attributes, so screen readers receive correct alternate text. (SITES-27153)
+* Fixed Note Add toolbar layout so the Add button no longer overlaps the title at 320px viewport width. Improved small-screen reflow so controls remain readable and usable during 400% zoom. (SITES-25376)
+* ixed missing screen reader announcements for Link selection dialog box errors. The UI now publishes error text through a status message container, so NVDA reads the message as soon as it appears. (SITES-25368)
+* Removed ARIA grid and gridcell roles from the side-rail asset list. Restored standard list semantics and keyboard focus order, which improved screen-reader navigation and reduced extra tab stops. (SITES-25361)
+* Corrected focus sequencing in side-rail Assets. Keyboard users now reach every asset action, including Edit, through a consistent Tab path. (SITES-25360)
+* Fixed layout overflow in the Search Assets modal at 320px viewport width. Modal content now reflows and stays readable, so controls no longer overlap or overrun the dialog box. (SITES-25330)
+* Corrected NVDA output for the Edit button. NVDA now announces the Edit action, not "Preview button pressed." (SITES-25320)
+* Fixed unnamed Demographics toolbar text inputs that caused silent or generic screen reader output. Each input now exposes a clear label-based accessible name, which improves keyboard and assistive-tech navigation. (SITES-25316)
+* Corrected keyboard focus order for the Demographic toolbar during Layout Preview navigation. Tab navigation now moves directly from the Demographic button to toolbar controls, without skipping to the secondary toolbar. (SITES-25305)
+* Fixed incorrect announcement order for "Smaller Screens" and "Tablet" labels on the Edit Layout ruler. Screen readers now announce these labels at the correct ruler markers, which matches the page layout. (SITES-25291)
+* Fixed Edit Layout toolbar overflow at 200% zoom. Content now stays within the viewport and remains reachable through scrolling. (SITES-25288)
+* Resolved incorrect focus order in the Annotations overlay. Keyboard tabbing now cycles through overlay controls and annotation items. The parent page no longer takes focus behind the overlay. (SITES-25282)
+* Fixed Swatches pop-over focus handling. The dialog box now moves focus to a clear heading and starts screen reader output at that entry point. NVDA no longer reads the full dialog box content out of sequence. (SITES-25275)
+* Fixed Timewarp modal focus handling after Date Picker close. `Escape` now returns focus to the Date Picker button. Date selection now places focus on the input field next to the Date Picker control, preventing focus loss and background page access. (SITES-25264)
+* Fixed keyboard focus handling for the Delete Annotation dialog box. Cancel now returns focus to the Delete control that opened the dialog box, not the Confirm hex value control. Screen readers no longer announce unrelated dialog box content after Cancel. (SITES-25258)
+* Fixed focus handling for the Annotation modal dialog box. Opening the dialog box now sets focus on the dialog box heading and stops NVDA from reading canvas content and unrelated dialog box text. Keyboard navigation now stays inside the dialog box until close. (SITES-25257)
+* Fixed Search modal layout issues at 320px width. Modal content now reflows cleanly and avoids overlap with the tree directory. Users can view results and navigate the directory without obscured controls. (SITES-25246)
+* Search modal text no longer clips after text spacing increases. Tree directory layout now keeps clear separation, so labels and entries stay readable. Users now complete search and navigation without overlap or cut-off text. (SITES-25245)
+* Activating Annotate now moves keyboard focus into annotation content, not the Exit annotation button. Tab order follows a logical sequence and keeps related controls reachable without reverse navigation. (SITES-25241)
+* Set Date and Exit Timewarp links lacked a visible focus indicator during keyboard navigation. The UI now renders a distinct, high-contrast focus style so users can identify the active link at a glance. (SITES-25232)
+* The Teaser Modal header no longer blocks keyboard users from moving the dialog. Keyboard controls now allow pick-up, move, and drop actions, which improves screen reader usability and overall operability. (SITES-25226)
+* AEM now uses a meaningful accessible label for the Teaser Modal Info button. Screen readers announce a clear action name instead of the default icon alt-text string. (SITES-25223)
+* Screen readers now announce the correct action when users activate the Edit button. NVDA no longer reports "Preview button pressed," which caused misleading feedback and confusion during keyboard navigation. (SITES-25208)
+* Expanding the Left Rail now moves keyboard focus to the first Left Rail control. The Tab sequence no longer jumps to the secondary toolbar or lands mid-list, so keyboard users reach Left Rail content without reverse navigation. (SITES-24998)
+* Device emulator bar content now remains fully visible at 320 px viewport width. Toolbar text and controls wrap instead of truncating, reducing overlap and improving readability. (SITES-24953)
+* AEM now displays the full iPhone device label in the emulator toolbar. Text no longer truncates at default width, improving readability and device selection clarity. (SITES-24952)
+* List View table headers now expose sort state through ARIA. Screen readers announce ascending or descending order after a column sort action. (SITES-24943)
+* AEM now preserves More Actions menu label visibility in Card View during text spacing changes. Menu options keep complete text, including Quick Publish, and the menu remains legible during WCAG text spacing settings. (SITES-24941)
+* Card Actions menu bar now exposes an accessible name in Card View. Screen readers announce the menu bar purpose clearly, and voice control can target the control by name. (SITES-24938)
+* Card View no longer relies on ARIA grid semantics that caused confusing screen reader behavior. The UI now provides meaningful roles and labels for card content and the card action bar, which reduces missed controls during keyboard use. (SITES-24933)
+* Delete Modal tooltip now appears each time users hover the tooltip icon. Focus actions now show the same tooltip text, which improves repeat access for mouse and keyboard users. (SITES-24778)
+* Left Rail navigation now follows expected keyboard focus order after users configure the rail. Tab focus lands on the selected Left Rail area instead of Switch Display, which improves screen reader navigation clarity. (SITES-24754)
+* Fixed incorrect NVDA feedback during color-swatch navigation in the User Preferences modal. NVDA now reads the label for the swatch that receives focus, which removes misleading color output. The swatch set now supports consistent keyboard navigation and clear selection awareness. (SITES-24739)
+* Reduced verbose NVDA output for the Spin control. Removed redundant group labeling that duplicated the input label, so NVDA announces the control name once. Keyboard and screen reader navigation now delivers a single, clear announcement. (SITES-24725)
+* Carousel dialog box now places focus at the dialog box heading instead of the Items tab. Cancel and Esc restore focus to the control that launched the dialog box, which reduces verbose NVDA output. (SITES-24716)
+* Link selection dialog now aligns the programmatic label with the on-screen label for last-level tree items. Arrow-key navigation triggers a reliable screen reader announcement for each item and removes misleading label output. (SITES-24710)
+* Link open selection dialog box now reflows correctly under a 320-px viewport. Content no longer overruns the modal or truncates, and the modal no longer shows a horizontal scrollbar. (SITES-24709)
+* Link open selection dialog box now restores keyboard focus to the dialog box trigger after Close or Cancel. Focus no longer jumps to the Link input, which keeps screen reader context stable and reduces extra navigation. (SITES-24707)
+* Image modal dialog now follows a logical focus sequence. Focus no longer skips earlier controls or drops on the page landmark after Cancel, and users regain focus on the Configure button after exit. (SITES-24693)
+* References Rail modal dialog box now traps keyboard focus. Tab and Shift+Tab stay inside dialog box controls, and focus no longer escapes to page content. Screen readers announce only dialog box content. (SITES-24683)
+* Hyperlink Path Selection modal now sets focus on the dialog box heading at open. Cancel closes the dialog box and restores focus to the Open selection dialog box button, which prevents focus loss and redundant screen reader output. (SITES-24672)
+* Search field now uses a persistent on-screen label instead of placeholder text. The label stays visible during entry, which improves clarity for keyboard, screen reader, and speech users. (SITES-24529)
+* Teaser modal dialog box now sets focus on the dialog box heading at open. Closing the dialog box returns focus to the Configure control, which prevents focus loss and excessive screen reader output. (SITES-24522)
+* Side Rail Assets panel now includes a Close control. Close returns keyboard focus to the Side Rail toggle and prevents forced tabbing through panel content. (SITES-24489)
+* Keyboard tabbing now reaches buttons and links inside admin tables. Users no longer rely on arrow-key cell navigation to find interactive controls. (SITES-24285)
+* The Image component dialog box no longer exposes decorative Help and Full Screen icons as images. Screen readers now skip these icons, keeping focus on actionable controls and field content. (SITES-2940)
+* Sites Admin now removes the image role from folder thumbnail icons. Assistive technology skips these decorative elements, keeping focus on folder names and actions. (SITES-2852)
+* Content Tree now routes keyboard focus to the active tree item or first tree item. The tree container no longer acts as an empty Tab stop, preventing Shift+Tab focus traps. (SITES-1577)
+
 
 
 #### Admin user interface{#sites-adminui-65-lts-sp2}
@@ -70,6 +119,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Adjusted component handling in the Sites authoring interface to stop irregular behavior during page updates. The defect led to unpredictable editor responses that interfered with routine content modifications and reduced workflow efficiency. The update aligns editor logic with expected interaction patterns and delivers dependable performance during authoring activities. (SITES-35078) CRITICAL
 
 * A regression broke Assets console list view for Content Fragments and triggered an error during list rendering. The update corrects list-view logic after preview-info removal and restores stable list output. The console now displays Content Fragments without failures and keeps list interactions usable. (SITES-38683)
+* Content Fragment editor now localizes the Tags label. The editor also localizes the Collections label, so UI text matches the selected locale. (SITES-977)
 
 
 #### [!DNL Content Fragments] - Fragments Editor{#sites-fragments-editor-65-lts-sp2}
@@ -101,6 +151,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Nested Content Fragment models stopped working when refactoring tied the feature to a disabled toggle. The fix restores nested model support without requiring toggle changes. Authors can again create and use nested models in the Model Editor. (SITES-38681) CRITICAL
 
 * Content Fragment Models filter panel no longer exposes unlocalized strings. AEM now displays localized filter labels and localized status values across all locales. (SITES-30863)
+* Content Fragment Model editor now renders localized strings for the lock warning dialog box. The UI replaces unlocalized English messages with locale resources across supported languages. (SITES-28592)
 
 #### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp2}
 
@@ -141,6 +192,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Launches Edit now shows localized error text instead of the hardcoded "Provided path is not a launch" string. The UI now renders translated messaging across languages when Edit receives an invalid launch path. (SITES-33360)
 * AEM 6.5 LTS now includes the Launches OpenAPI side-port work. The update brings Launches API bundles, content packages, and required Quickstart artifacts into parity and enables Content Fragment Launches OpenAPI scenarios with stable CI validation. (SITES-32050)
 * Launches UI now localizes the Overridden template label. Template override details now display translated text instead of an English-only string. (SITES-29525)
+* AEM resolved a missing localization key in **Sites** > **Launches** > **Edit**. Users now see a translated error message instead of the raw "Unable to update launch source list" string. (SITES-21499)
+* Launch promotion UI now displays localized status labels and actions. The preview area shows translated text for **Deleted**, **New**, and **View**, rather than raw English strings. (SITES-13540)
+* Launch creation now shows localized error messages. UI no longer displays raw English strings such as `Unable to create launch page`, `Source root resource is not a page`, or `Mandatory parameter is missing`. (SITES-13085)
 
 
 #### Link Checker{#sites-link-checker-65-lts-sp2}
@@ -148,6 +202,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### MSM - Live Copies{#sites-msm-live-copies-65-lts-sp2}
 
 * Administrators had limited visibility into MSM push-on-modify processing during content changes. The fix adds detailed logging around MSM event reception and rollout execution. Debug output now shows which events fired, which content paths changed, and who triggered the change. (SITES-38029)
+* AEM fixed a localization layout issue on the Blueprint Rollout date field. The date prompt now fits the control and remains readable across supported languages, including `fr_FR`. (SITES-14961)
 
 #### Page editor{#sites-pageeditor-65-lts-sp2}
 
@@ -239,6 +294,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### Quickstart{#foundation-quickstart-65-lts-sp2} 
 
 #### Security{#foundation-security-65-lts-sp2}
+
+* AEM now prevents NullPointerException errors when a logged-in user lacks read access for some groups and opens the Groups tab. The tab now hides groups without access and renders group membership details without blank or unresponsive UI. (NPR-43311)
 
 #### Sling{#foundation-sling-65-lts-sp2}
 
