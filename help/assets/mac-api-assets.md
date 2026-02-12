@@ -34,9 +34,15 @@ After the [!UICONTROL Off Time], an asset and its renditions are not available v
 
 ## Content Fragments {#content-fragments}
 
-A [content fragment](/help/assets/content-fragments/content-fragments.md) is a special type of asset. It can be used to access structured data, such as texts, numbers, dates, among others. As there are several differences to `standard` assets (such as images or documents), some additional rules apply to handling content fragments.
+A [Content Fragment](/help/assets/content-fragments/content-fragments.md) is a special type of asset. It can be used to access structured data, such as texts, numbers, dates, among others. As there are several differences to `standard` assets (such as images or documents), some additional rules apply to handling content fragments.
 
 For further information see [Content Fragments Support in the Experience Manager Assets HTTP API](/help/assets/assets-api-content-fragments.md).
+
+<!-- CQDOC-23375 -->
+
+>[!NOTE]
+>
+>The [Content Fragment and Content Fragment Model OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/) is also available.
 
 ## Data model {#data-model}
 

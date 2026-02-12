@@ -14,8 +14,15 @@ exl-id: c1f80437-275a-48b6-99b9-bec070577da0
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/assets-api-content-fragments.html?lang=en)                  |
 | AEM 6.5     | This article         |
 
-
 ## Overview {#overview}
+
+<!-- CQDOC-23375 -->
+
+>[!CAUTION]
+>
+>Content Fragment Support in Assets HTTP API is now [deprecated](/help/release-notes/release-notes.md#deprecated-features).
+>
+>It has been replaced by [Content Fragment Delivery with OpenAPI](https://developer.adobe.com/experience-cloud/experience-manager-apis/) together with [Content Fragments and Content Fragment Models Management OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/).
 
 Learn about support for Content Fragments in the Assets HTTP API, an important piece of AEM's headless delivery feature.
 
