@@ -79,15 +79,28 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Content Fragment RTE showed layout and visual issues after recent UI styling changes. Service Pack 2 refines RTE styling so the toolbar and editable area render correctly and remain readable. The Content Fragment editor now aligns with the Page Editor look and behavior. (SITES-38684)
 * Removing IMS scopes from the Polaris Asset Selector broke Content Fragment integration with the delivery endpoint. Authors hit failures when opening the remote Asset Selector and selecting assets. The update re-adds the needed IMS scopes and restores stable delivery-tier access. (SITES-35837)
+* The Associated Content panel no longer renders a hardcoded "undefined" placeholder. The Content Fragment Editor now resolves that text through localization resources, so editors see translated UI text. (SITES-33675)
+* Preview error messaging now uses localized strings instead of raw "Cannot print fragment's Json" text. The Content Fragment Editor now shows translated output across locales during GraphQL endpoint resolution failures. (SITES-33666)
+* Content Fragment Editor now displays a translated General tab label across locales. The editor replaces unlocalized tab text and removes internal IDs from tab titles. (SITES-30715)
+* Content Fragment Editor now displays translated names for allowed asset types. The picker list no longer mixes internal strings and English-only labels when authors configure content reference restrictions. (SITES-29699)
 
 
 #### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp2}
 
+* Refined GraphQL query validation handling to stop deployment failures caused by filter execution errors. The defect generated exceptions during application startup and blocked successful rollout in affected environments. The revision ensures consistent validation behavior and enables smooth deployment without runtime query validation interruptions. (SITES-34301) CRITICAL
+
+* The Edit GraphQL endpoint dialog box now displays localized UI strings. The dialog box no longer shows English-only text such as "GraphQL schema is taken from configuration," and related labels render correctly across locales. (SITES-34018)
+
 #### [!DNL Content Fragments] - GraphQL Query Editor{#sites-graphql-query-editor-65-lts-sp2}
+
+* Refined GraphQL query validation handling to stop deployment failures caused by filter execution errors. The defect generated exceptions during application startup and blocked successful rollout in affected environments. The revision ensures consistent validation behavior and enables smooth deployment without runtime query validation interruptions. (SITES-35529)
+* GraphQL Explorer no longer fails when a Configuration Browser name contains CJK characters. Endpoint creation and saved query access work normally and the GraphQL Query Editor page stays error free. (SITES-31616)
 
 #### [!DNL Content Fragments] - Model Editor{#sites-model-editor-65-lts-sp2}
 
 * Nested Content Fragment models stopped working when refactoring tied the feature to a disabled toggle. The fix restores nested model support without requiring toggle changes. Authors can again create and use nested models in the Model Editor. (SITES-38681) CRITICAL
+
+* Content Fragment Models filter panel no longer exposes unlocalized strings. AEM now displays localized filter labels and localized status values across all locales. (SITES-30863)
 
 #### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp2}
 
@@ -125,6 +138,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * AEM 6.5 LTS now ships an updated Launches API bundle with aligned artifact versions. The bundle tracks the primary code line while keeping the correct 6.5 LTS release version. This update stabilizes Launches API consumption across the 6.5 LTS stack. (SITES-35292)
 * AEM 6.5 LTS now includes an updated launches-core bundle with aligned dependency versions. The update adds launches-core handling for Fragment UUID and Reference UUID data types. Launch processing now keeps consistent behavior across Launches and Content Fragment workflows. (SITES-35290)
 * Refined the Sites editor to resolve inconsistent behavior that disrupted normal page authoring workflows. Authors encountered unexpected component interaction that interfered with content updates and reduced editing reliability. The change restores consistent UI state management and ensures predictable execution of authoring actions across affected scenarios. (SITES-35138)
+* Launches Edit now shows localized error text instead of the hardcoded "Provided path is not a launch" string. The UI now renders translated messaging across languages when Edit receives an invalid launch path. (SITES-33360)
+* AEM 6.5 LTS now includes the Launches OpenAPI side-port work. The update brings Launches API bundles, content packages, and required Quickstart artifacts into parity and enables Content Fragment Launches OpenAPI scenarios with stable CI validation. (SITES-32050)
+* Launches UI now localizes the Overridden template label. Template override details now display translated text instead of an English-only string. (SITES-29525)
+
 
 #### Link Checker{#sites-link-checker-65-lts-sp2}
 
@@ -145,6 +162,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### Universal editor {#sites-universal-editor-65-lts-sp2}
 
 * An OSGi default configuration set `preview=true` and forced Universal Editor to start in Preview mode. This update corrects the default value and restores the standard Production entry behavior. Universal Editor now opens in Production mode unless an admin explicitly enables Preview mode. (SITES-37193)
+* The Universal Editor Open command now defaults to Preview mode on Dev and Stage environments. The command adds preview=true, which keeps author checks aligned with preview context and avoids accidental Production opens. (SITES-33839)
 
 
 
