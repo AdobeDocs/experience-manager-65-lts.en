@@ -38,12 +38,6 @@ A [Content Fragment](/help/assets/content-fragments/content-fragments.md) is a s
 
 For further information see [Content Fragments Support in the Experience Manager Assets HTTP API](/help/assets/assets-api-content-fragments.md).
 
-<!-- CQDOC-23375 -->
-
->[!NOTE]
->
->The [Content Fragment and Content Fragment Model OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/) is also available.
-
 ## Data model {#data-model}
 
 The [!DNL Assets] HTTP API exposes two major elements, folders and assets (for standard assets).
