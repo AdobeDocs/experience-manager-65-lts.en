@@ -16,13 +16,11 @@ exl-id: c1f80437-275a-48b6-99b9-bec070577da0
 
 ## Overview {#overview}
 
-<!-- CQDOC-23375 -->
-
 >[!CAUTION]
 >
 >Content Fragment Support in Assets HTTP API is now [deprecated](/help/release-notes/release-notes.md#deprecated-features).
 >
->It has been replaced by [Content Fragments and Content Fragment Models Management OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/).
+>It has been replaced by [Content Fragments and Content Fragment Models Management OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/65lts/).
 
 >[!NOTE]
 >
