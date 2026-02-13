@@ -35,13 +35,6 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 AEM 6.5 LTS SP2 now includes OpenAPIs for Content Fragment and Model Management and Launches. These APIs provide access to Content Fragments and launches for authoring and scheduling. They use the same modern OpenAPIs as AEM as a Cloud Service.
 
 
-
-
-<!-- 6.5 LTS REVIEWERS: WHAT ARE THE KEY FEATURES AND ENHANCEMENTS THAT YOU WANT TO HIGHLIGHT IN THIS RELEASE? -->
-
-
-
-
 <!-- UPDATE THE EACH RELEASE -->
 
 ## Fixed issues in 6.5 LTS, Service Pack 2 {#fixed-issues}
