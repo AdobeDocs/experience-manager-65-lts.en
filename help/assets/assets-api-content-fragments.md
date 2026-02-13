@@ -24,6 +24,19 @@ exl-id: c1f80437-275a-48b6-99b9-bec070577da0
 >
 >It has been replaced by [Content Fragment Delivery with OpenAPI](https://developer.adobe.com/experience-cloud/experience-manager-apis/) together with [Content Fragments and Content Fragment Models Management OpenAPIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/).
 
+>[!NOTE]
+>
+>For the latest information about Experience Manager APIs, visit [Adobe Experience Manager APIs](https://developer.adobe.com/experience-cloud/experience-manager-apis/).
+
+<!-- CQDOC-23375-->
+<!--
+>[!NOTE]
+>
+>See [AEM APIs for Structured Content Delivery and Management](/help/sites-developing/headless/apis-headless-and-content-fragments.md) for an overview of the various APIs available and comparison of some of the concepts involved.
+>
+>The [Content Fragment and Content Fragment Model OpenAPIs](/help/sites-developing/headless/content-fragments-openapis.md) are also available.
+-->
+
 Learn about support for Content Fragments in the Assets HTTP API, an important piece of AEM's headless delivery feature.
 
 >[!NOTE]
