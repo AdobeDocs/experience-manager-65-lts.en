@@ -29,7 +29,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP2 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-## Key features and enhancements 
+## Key feature and enhancement 
 
 **AEM Sites**
 
