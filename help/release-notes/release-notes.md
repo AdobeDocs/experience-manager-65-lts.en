@@ -264,7 +264,7 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp2}
 
-* Felix Web Console no longer throws a NullPointerException at startup. OSGi Manager now handles empty password configuration values and keeps configured credentials usable. (NPR-42750)
+* Sling Resource Access Security now runs on version 1.1.2. ResourceAccessSecurityImpl no longer throws a ClassCastException during initialization when multiple ResourceAccessGateHandler services register. Initialization now completes reliably and avoids startup failures in environments with multiple handlers. (NPR-42750)
 * JMX Console and Web Console now send a `Content-Type: text/css header` for console CSS resources. Strict MIME checking no longer blocks style sheet loading, so the `/system/console/jmx` UI renders with normal styling. (GRANITE-63677)
 * AEM now avoids duplicate ACL entries for the `contributor` group in the generated `WEB-INF/resources/provisioning/model.txt`. The WAR output now contains one consistent ACL block, which prevents confusing permission diffs during review. (GRANITE-63269)
 * AEM no longer clears Deserialization Firewall blocklist and allowlist settings during bundle refresh operations. Updated filter registration logic keeps the active firewall instance aligned with the saved configuration, so protection stays enabled without a restart. (GRANITE-61382)
@@ -312,9 +312,10 @@ AEM now syncs Adobe Target activities even when start and end dates exist. The T
 
 AEM 6.5 LTS SP2 updates the foundation layer bundle set for Sling, Oak, and Felix. These upgrades strengthen core runtime stability and align dependency versions across the platform. (GRANITE-61874)
 
+<!--
 #### Security{#foundation-security-65-lts-sp2}
 
-AEM now prevents NullPointerException errors when a logged-in user lacks read access for some groups and opens the Groups tab. The tab now hides groups without access and renders group membership details without a blank or unresponsive UI. (NPR-43311)
+AEM now prevents NullPointerException errors when a logged-in user lacks read access for some groups and opens the Groups tab. The tab now hides groups without access and renders group membership details without a blank or unresponsive UI. (NPR-43311) -->
 
 #### Sling{#foundation-sling-65-lts-sp2}
 
@@ -444,6 +445,7 @@ Customers are advised to review if they use the feature/capability in their curr
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
+| Quickstart | Mongo APIs | Mongo APIs are now deprecated and are planned for removal in future releases. | 6.5 TS SP2 | 
 | Sites | Content Fragment support in the AEM Assets REST API | AEM 6.5 LTS SP2 provides modern OpenAPIs for Content Fragment and Model Management, so the older Content Fragment Support endpoints in the AEM Assets REST API are now deprecated.<br>Adobe intends to keep these older endpoints available until an end-of-life announcement. Adobe does not plan further enhancements for the deprecated endpoints. |  6.5 LTS SP2 |
 | Sites | [SPA Editor](/help/sites-developing/spa-overview.md) | The preferred editors for managing headless content in AEM are:<br>- [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visual editing.<br>- [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing. | 6.5 LTS GA |
 | [!DNL Foundation]       | Support for com.adobe.granite.oauth.server | Adobe IMS Integration ||
@@ -478,6 +480,19 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 
 ## Known issues {#known-issues} 
+
+### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
+
+Some APIs that moved to Sites Headless require additional Oak indexes for full functionality.
+
+Install the `cq-dam-cfm-indices` package to use the following features:
+
+* List Content Fragment Models
+* List Content Fragments
+* Search API
+* Workflows
+
+Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/cq-dam-cfm-indices-1.1.2.zip) from the Adobe Software Distribution portal. 
 
 ### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
 
