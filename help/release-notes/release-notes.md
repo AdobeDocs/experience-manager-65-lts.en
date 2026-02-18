@@ -15,10 +15,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Version | Service Pack 2 (SP2) <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
 | Date | February 19, 2026 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.1-hotfix-GRANITE-61551-1.4.zip) |
-
-<!-- OLD URL TO JAR
-(https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.1.jar) | -->
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.2.jar) |
 
 
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
@@ -226,11 +223,13 @@ Template status text displayed vertically in **Tools** > **General** > **Templat
 
 Assets Relate now works for filenames that include spaces. Updated Relate client logic now handles space-containing paths correctly and avoids `undefined` source errors during relation selection. The Relate dialog box now opens and saves relations without UI hangs or spinners. DAM users can relate, derive, and unrelate assets without renaming files. (Assets-56418)
 
-<!--
 #### [!DNL Dynamic Media]{#assets-dm-65-lts-sp2}
 
-#### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2}
--->
+* New Dynamic Media video player integration (limited rollout) - A new Dynamic Media video player experience is now available in AEM 6.6 Quickstart. This enhancement is currently enabled only for initial customers as part of a controlled rollout. (Assets-60165)
+* Resolved an issue where the Select Thumbnail option in the video properties dialog box did not open the asset picker, restoring the ability for users to choose custom thumbnails for video assets. (Assets‑58926)
+* In Dynamic Media video, support was added for selecting Arabic in the Subtitles & Audio Tracks language drop-down list, letting authors manage Arabic subtitles directly in AEM. (Assets‑61771)
+
+<!-- #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2} -->
 
 
 <!--
@@ -364,17 +363,17 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 <!-- THE INFORMATION UNDER THIS HEADING CAME FROM CQDOC-23078 -->
 
 **Environment**
-Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 1 (SP1). SP1 is delivered as a Quickstart JAR.
+Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 2 (SP2). SP2 is delivered as a Quickstart JAR.
 
 **Why this matters**
-SP1 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-prem customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's in-place upgrade procedure.
+SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-prem customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's in-place upgrade procedure.
 
 **Recommended upgrade flow (Author or Publish)**
 
 1. Verify that your AEM 6.5 LTS instance is healthy and accessible.
-1. Download the SP1 Quickstart JAR (for example, `cq-quickstart-6.6.x.jar`) from Software Distribution. 
+1. Download the Quickstart JAR (for example, `cq-quickstart-6.6.x.jar`) from Software Distribution. 
 1. Stop the running instance. 
-1. In the AEM install directory (outside `crx-quickstart/`), replace the previous Quickstart JAR with the SP1 JAR.
+1. In the AEM install directory (outside `crx-quickstart/`), replace the previous Quickstart JAR with the SP2 JAR.
 1. Unpack the JAR:
 
     ```java
@@ -394,7 +393,7 @@ SP1 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 
 >[!NOTE]
 >
->File names shown above (for example, `cq-quickstart-6.6.x.jar`) reflect the SP1 Quickstart artifact naming observed for this LTS release; always use the exact file name you download from Software Distribution. 
+>File names shown above (for example, `cq-quickstart-6.6.x.jar`) reflect the Quickstart artifact naming observed for this LTS release; always use the exact file name you download from Software Distribution. 
 
 ## Install and update{#install-update}
 
