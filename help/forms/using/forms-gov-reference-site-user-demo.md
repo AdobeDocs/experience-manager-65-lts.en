@@ -114,7 +114,7 @@ The following groups are also included:
    >
    >The settings in AFC are preconfigured for the end user which means that they should not be altered.
 
-   * **Optional**: If you wish to use the Accessible Ultramarine theme, simply click the Specify an adaptive form theme and select the Accessible-Ultramarine theme that appears in the list of options.
+   * **Optional**: If you want to use the Accessible Ultramarine theme, simply click the Specify an adaptive form theme and select the Accessible-Ultramarine theme that appears in the list of options.
 
    ![Start conversion](assets/aftia-start-conversion.jpg)
 
@@ -493,7 +493,7 @@ George approves Aya's application, and thanks to an existing automated workflow 
 
    ![List view in View drop-down menu](/help/forms/using/assets/list_view_view_dropdown.jpg)
 
-1. From the same menu, select **View Setting** and select the columns you wish to display from the **Analytics** section.
+1. From the same menu, select **View Setting** and select the columns you want to display from the **Analytics** section.
 
    ![Configure the display of columns](/help/forms/using/assets/view_setting_analytics.jpg)
 
