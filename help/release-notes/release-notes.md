@@ -296,9 +296,9 @@ AEM now syncs Adobe Target activities even when start and end dates exist. The T
 <!--
 #### Jetty{#foundation-jetty-65-lts-sp2}
 
-#### Localization{#foundation-localization-65-lts-sp2}
+#### Localization{#foundation-localization-65-lts-sp2} 
 
-#### Oak {#foundation-oak-65-lts-sp2}
+
 
 #### Omnisearch{#foundation-omnisearch-65-lts-sp2}
 
@@ -307,9 +307,36 @@ AEM now syncs Adobe Target activities even when start and end dates exist. The T
 #### Projects{#foundation-projects-65-lts-sp2}
 -->
 
+#### Oak {#foundation-oak-65-lts-sp2}
+
+AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datastore configuration now includes `crossRegionAccess` and `mode` so admins can enable cross-region bucket access and switch storage to GCP when needed. `s3EndPoint` now expects a region aligned to `s3Region`, or it remains empty so the driver generates the endpoint. (GRANITE-64873)
+
+
 #### Quickstart{#foundation-quickstart-65-lts-sp2} 
 
-AEM 6.5 LTS SP2 updates the foundation layer bundle set for Sling, Oak, and Felix. These upgrades strengthen core runtime stability and align dependency versions across the platform. (GRANITE-61874)
+* Sling updates the administrative-login allowlist to use inclusive terminology and new configuration PIDs. This change aligns with Sling JCR Base 3.2.0. (GRANITE-63756)
+
+    **Impact**
+
+    * Sling deprecates these PIDs and you should remove them from your configurations:
+        * Factory PID: `org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment`
+        * Global PID: `org.apache.sling.jcr.base.internal.LoginAdminWhitelist`
+        These older configurations use properties, such as `whitelist.name` and `whitelist.bundles`.
+
+    * Sling still provides partial backward compatibility for the deprecated PIDs, but do not use them for new configurations. Use the newer `LoginAdminAllowList.*` PIDs instead.
+    * Do not run deprecated and new allowlist configurations at the same time. Mixed configurations can create ambiguity and produce unintended behavior. When you migrate to AEM 6.5 LTS SP2, remove the deprecated PIDs completely.
+
+    **What you should do**
+
+    1. Find allowlist configurations that use `LoginAdminWhitelist*` PIDs.
+    1. Replace them with the appropriate new PIDs:
+
+        * Factory PID: `org.apache.sling.jcr.base.LoginAdminAllowList.fragment`
+        * Global PID: `org.apache.sling.jcr.base.LoginAdminAllowList`
+
+        For additional details, see [Deprecated approach to allowlist bundles for administrative login](https://sling.apache.org/documentation/the-sling-engine/service-authentication.html#deprecated-approach-to-allowlist-bundles-for-administrative-login). 
+
+* AEM 6.5 LTS SP2 updates the foundation layer bundle set for Sling, Oak, and Felix. These upgrades strengthen core runtime stability and align dependency versions across the platform. (GRANITE-61874)
 
 <!--
 #### Security{#foundation-security-65-lts-sp2}
