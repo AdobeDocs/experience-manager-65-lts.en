@@ -41,8 +41,8 @@ AEM 6.5 Forms LTS on JEE is now available. For details about supported environme
 
 Support for newer Java versions has been introduced:
 
-* Java&trade; 17
-* Java&trade; 21
+* Java&trade; 8/11– Required for installation purpose only.
+* Java&trade; 17/21– Required for running Configuration Manager (LCM) and JBoss Application Server.
 
 **Application Server Support Updates**
 
