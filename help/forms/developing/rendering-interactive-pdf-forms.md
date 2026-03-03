@@ -147,7 +147,7 @@ When you render an interactive form, you can define URI values such as the targe
 * On the Submit button while designing the form design in Designer
 * By using the Forms service Client API
 
-If the target URL is defined within the form design, do not override it with the Forms service Client API. That is, setting the target URL using the Forms API resets the specified URL in the form design to the one specified using the API. If you wish to submit the PDF form to the target URL specified in the form design, then programmatically set the target URL to an empty string.
+If the target URL is defined within the form design, do not override it with the Forms service Client API. That is, setting the target URL using the Forms API resets the specified URL in the form design to the one specified using the API. If you want to submit the PDF form to the target URL specified in the form design, then programmatically set the target URL to an empty string.
 
 If you have a form that contains a submit button and a calculate button (with a corresponding script that runs at the server), you can programmatically define the URL to where the form is sent to execute the script. Use the submit button on the form design to specify the URL to where form data is posted. (See [Calculating Form Data](/help/forms/developing/calculating-form-data.md).)
 

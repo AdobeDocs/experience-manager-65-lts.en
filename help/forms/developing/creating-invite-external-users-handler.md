@@ -47,7 +47,7 @@ The `invitedUser` method accepts a `java.util.List` instance, which contains str
 >
 >In addition to demonstrating how to create an invite external users handler, this section also uses the AEM Forms API.
 
-The implementation of the invite external users handler contains a user-defined method named `createLocalPrincipalAccount`. This method accepts a string value that specifies an email address as a parameter value. The `createLocalPrincipalAccount` method assumes the pre-existence of a local domain called `EDC_EXTERNAL_REGISTERED`. You can configure this domain name to be anything you wish; however, for a production application, you may want to integrate with an enterprise domain.
+The implementation of the invite external users handler contains a user-defined method named `createLocalPrincipalAccount`. This method accepts a string value that specifies an email address as a parameter value. The `createLocalPrincipalAccount` method assumes the pre-existence of a local domain called `EDC_EXTERNAL_REGISTERED`. You can configure this domain name to be anything you want; however, for a production application, you may want to integrate with an enterprise domain.
 
 The `createUsers` method iterates over every email address and creates a corresponding User object (a local user in the `EDC_EXTERNAL_REGISTERED` domain). Finally, the `doEmails` method is called. This method is intentionally left as a stub in the sample. In a production implementation, it would contain application logic to send invitation email messages to the newly created users. It is left in the sample to demonstrate the application logic flow of a real application.
 
@@ -88,7 +88,7 @@ public class InviteExternalUsersSample implements InvitedUserProvider
     local_user.setEmail( email_address ); 
     local_user.setEmailAliases( aliases ); 
          
-    //  You may wish to disable the local user until, for example, his registration is processed by a confirmation link 
+    //  You may want to disable the local user until, for example, his registration is processed by a confirmation link 
     //local_user.setDisabled( true ); 
  
     DirectoryManager directory_manager = new DirectoryManagerServiceClient( _factory ); 

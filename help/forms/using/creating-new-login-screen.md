@@ -46,7 +46,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
 
 1. On the folder `en`, perform these actions:
 
-   1. Rename the folder to the locale name you wish to support. For example, `ar`.
+   1. Rename the folder to the locale name you want to support. For example, `ar`.
    
    1. Change the property `jcr:language` value to `ar`(for the `ar` folder).
 
@@ -194,7 +194,7 @@ You can modify the login screen of all AEM Forms modules that use the AEM Forms 
    * from `/libs/livecycle/core/components/login`
    * to `/apps/livecycle/core/components/login`
 
-1. Now modify the value of the property `sling:message` of the node (under the desired locale code folder) for which you wish to change the text. Translation is done via the key mentioned in the value of `sling:key` property of the node.
+1. Now modify the value of the property `sling:message` of the node (under the desired locale code folder) for which you want to change the text. Translation is done via the key mentioned in the value of `sling:key` property of the node.
 
 1. For adding new key-value pair, perform the following actions. Check an example in the screenshot that follows.
 
