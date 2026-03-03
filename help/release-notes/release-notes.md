@@ -37,8 +37,6 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 ## Fixed issues in 6.5 LTS, Service Pack 2 {#fixed-issues}
 
-<!-- UPDATE BELOW FOR EACH NEW RELEASE --> 
-
 ### [!DNL Sites]{#sites-65-LTS-SP2}
 
 #### Accessibility {#sites-accessibility-65-lts-sp2}
