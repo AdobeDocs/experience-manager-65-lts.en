@@ -880,8 +880,7 @@ user-guide-title: AEM 6.5 LTS
       + [Converting files using PDF Generator](/help/forms/using/admin-help/converting-files-using-pdf-generator.md)
     + Configuring SSL {#configure-ssl}
       + [Overview of configuring SSL](/help/forms/using/admin-help/overview-6.md)
-      + [Configuring SSL for JBoss&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-jboss-application-server.md)
-      + [Configuring SSL for JBoss&reg; Application Server (AEM Forms 6.5 LTS JEE)](/help/forms/using/admin-help//configuring-ssl-for-jboss-application-server-aem-forms-6.5-lts-jee.md)
+      + [Configuring SSL for JBoss&reg; Application Server](/help/forms/using/admin-help//configuring-ssl-for-jboss-application-server-aem-forms-6.5-lts-jee.md)
       + [Configuring SSL on Windows Vista](/help/forms/using/admin-help/configuring-ssl-windows-vista.md)
       + [Configuring SSL for WebSphere&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-websphere-application-server.md)
     + Working with document security {#work-with-document-security}
