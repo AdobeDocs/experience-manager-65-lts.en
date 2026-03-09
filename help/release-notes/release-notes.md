@@ -307,7 +307,7 @@ AEM now syncs Adobe Target activities even when start and end dates exist. The T
 
 #### Oak {#foundation-oak-65-lts-sp2}
 
-AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datastore configuration now includes `crossRegionAccess` and `mode` so admins can enable cross-region bucket access and switch storage to GCP when needed. `s3EndPoint` now expects a region aligned to `s3Region`, or it remains empty so the driver generates the endpoint. (GRANITE-64873)
+AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datastore configuration now includes `crossRegionAccess` and `mode` so admins can enable cross-region bucket access and switch storage to GCP when needed. The `s3EndPoint` now expects a region aligned to `s3Region`, or it remains empty so the driver generates the endpoint. (GRANITE-64873)
 
 
 #### Quickstart{#foundation-quickstart-65-lts-sp2} 
