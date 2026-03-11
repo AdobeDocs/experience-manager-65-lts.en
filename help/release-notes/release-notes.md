@@ -20,6 +20,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
 
+>[!IMPORTANT]
+>
+> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues with offline compaction when installing SP2, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146).
+
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP2 {#what-is-new}
 
 <!-- UPDATE EACH RELEASE -->
@@ -504,6 +508,20 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 
 ## Known issues {#known-issues} 
+
+### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
+
+Users can experience repository corruption during online compaction if offline compaction had previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
+
+To resolve the issue, install the  hotfix ( Package Manager. Yiu can get the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
+
+Plan for instance downtime when applying it. For offline compaction, use the corresponding [oak-run jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
+
+>[!NOTE]
+>
+> * For any oak-run operations, use the [oak-run 1.88.1-B006 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar).
+>
+> * Start AEM by setting the system property `oak.compaction.legacy=true`.
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
