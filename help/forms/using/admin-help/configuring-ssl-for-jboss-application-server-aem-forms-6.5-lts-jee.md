@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.5/FORMS
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer
-hide: yes
-hidefromtoc: yes
-removedfrom6.5.2025: yes
 exl-id: 8a2fbfdc-2b6a-4c9d-beab-1908a9261003
 ---
 # Configuring SSL for JBoss Application Server (AEM 6.5 LTS JEE)
