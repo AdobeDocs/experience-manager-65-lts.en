@@ -405,6 +405,7 @@ If your code also depends on deprecated APIs, add the following:
     <scope>provided</scope>
 </dependency>
 ```
+
 See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
 ### Upgrade {#upgrade}
