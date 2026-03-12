@@ -380,7 +380,33 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 ### Uberjar packaging {#uber-jar-packaging}
 
-* There is a slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
+The UberJar for AEM 6.5 LTS SP2 uses the AEM 6.5 LTS UberJar version 6.6.0. You can retrieve the corresponding UberJar artifacts from the Maven Central Repository. Unlike AEM 6.5, AEM 6.5 LTS separates public APIs and deprecated APIs into two different artifacts.
+
+To compile against the public APIS, use the following:
+
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.0</version>
+    <classifier>apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
+
+If your code also depends on deprecated APIs, add the following:
+
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.0</version>
+    <classifier>deprecated-apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
+
+See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
 ### Upgrade {#upgrade}
 
@@ -511,11 +537,11 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
-Users can experience repository corruption during online compaction if offline compaction had previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
+Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
 
-To resolve the issue, install the  hotfix ( Package Manager. Yiu can get the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
+To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
 
-Plan for instance downtime when applying it. For offline compaction, use the corresponding [oak-run jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
+Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [oak-run jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
 
 >[!NOTE]
 >
