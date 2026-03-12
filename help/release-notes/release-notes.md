@@ -382,7 +382,7 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 The UberJar for AEM 6.5 LTS SP2 uses the AEM 6.5 LTS UberJar version 6.6.0. You can retrieve the corresponding UberJar artifacts from the Maven Central Repository. Unlike AEM 6.5, AEM 6.5 LTS separates public APIs and deprecated APIs into two different artifacts.
 
-To compile against the public APIS, use the following:
+To compile against the public APIs, use the following:
 
 ```xml
 <dependency>
