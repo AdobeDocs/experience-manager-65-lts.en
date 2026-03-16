@@ -380,7 +380,7 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 ### Uberjar packaging {#uber-jar-packaging}
 
-The UberJar for AEM 6.5 LTS SP2 uses the AEM 6.5 LTS UberJar version 6.6.0. You can retrieve the corresponding UberJar artifacts from the Maven Central Repository. Unlike AEM 6.5, AEM 6.5 LTS separates public APIs and deprecated APIs into two different artifacts.
+The UberJar for AEM 6.5 LTS SP2 uses the AEM 6.5 LTS UberJar version 6.6.2. You can retrieve the corresponding UberJar artifacts from the Maven Central Repository. Unlike AEM 6.5, AEM 6.5 LTS separates public APIs and deprecated APIs into two different artifacts.
 
 To compile against the public APIS, use the following:
 
@@ -388,7 +388,7 @@ To compile against the public APIS, use the following:
 <dependency>
     <groupId>com.adobe.aem</groupId>
     <artifactId>uber-jar</artifactId>
-    <version>6.6.0</version>
+    <version>6.6.2</version>
     <classifier>apis</classifier>
     <scope>provided</scope>
 </dependency>
@@ -400,7 +400,7 @@ If your code also depends on deprecated APIs, add the following:
 <dependency>
     <groupId>com.adobe.aem</groupId>
     <artifactId>uber-jar</artifactId>
-    <version>6.6.0</version>
+    <version>6.6.2</version>
     <classifier>deprecated-apis</classifier>
     <scope>provided</scope>
 </dependency>
