@@ -20,6 +20,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
 
+>[!IMPORTANT]
+>
+> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues with offline compaction when installing SP2, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146).
+
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP2 {#what-is-new}
 
 <!-- UPDATE EACH RELEASE -->
@@ -307,7 +311,7 @@ AEM now syncs Adobe Target activities even when start and end dates exist. The T
 
 #### Oak {#foundation-oak-65-lts-sp2}
 
-AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datastore configuration now includes `crossRegionAccess` and `mode` so admins can enable cross-region bucket access and switch storage to GCP when needed. `s3EndPoint` now expects a region aligned to `s3Region`, or it remains empty so the driver generates the endpoint. (GRANITE-64873)
+AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datastore configuration now includes `crossRegionAccess` and `mode` so admins can enable cross-region bucket access and switch storage to GCP when needed. The `s3EndPoint` now expects a region aligned to `s3Region`, or it remains empty so the driver generates the endpoint. (GRANITE-64873)
 
 
 #### Quickstart{#foundation-quickstart-65-lts-sp2} 
@@ -376,7 +380,33 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 
 ### Uberjar packaging {#uber-jar-packaging}
 
-* There is a slight difference in Uberjar packaging of AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
+The UberJar for AEM 6.5 LTS SP2 uses the AEM 6.5 LTS UberJar version 6.6.2. You can retrieve the corresponding UberJar artifacts from the Maven Central Repository. Unlike AEM 6.5, AEM 6.5 LTS separates public APIs and deprecated APIs into two different artifacts.
+
+To compile against the public APIs, use the following:
+
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.2</version>
+    <classifier>apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
+
+If your code also depends on deprecated APIs, add the following:
+
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.2</version>
+    <classifier>deprecated-apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
+
+See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
 ### Upgrade {#upgrade}
 
@@ -504,6 +534,20 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 
 ## Known issues {#known-issues} 
+
+### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
+
+Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
+
+To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
+
+Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [oak-run jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
+
+>[!NOTE]
+>
+> * For any oak-run operations, use the [oak-run 1.88.1-B006 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar).
+>
+> * Start AEM by setting the system property `oak.compaction.legacy=true`.
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
