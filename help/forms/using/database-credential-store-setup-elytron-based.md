@@ -180,5 +180,5 @@ All aliases reference the same database password stored in the credential store.
 
 >[!NOTE]
 >
->* Configure the credential store only on the primary node.
->* Secondary nodes automatically use the domain configuration synchronized from the primary node.
+>* Copy the credential store file (cred-store.p12) created on primary to each of the slave node.
+
