@@ -535,6 +535,14 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ## Known issues {#known-issues} 
 
+### AEM Forms
+
+* **FORMS-24690:** In Configuration Manager, Database Initialization fails during bootstrap when running AEM Forms 6.5 LTS JEE in Turnkey mode with Custom configuration if no module is selected.
+
+* **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
+
+* **FORMS-24691:** In Partial Turnkey CLI Mode, JBoss service creation fails if the DB-specific configuration file (`lc_oracle.xml`, `lc_mssql.xml`, or `lc_mysql.xml`) is not renamed to `lc_turnkey.xml` before installation.
+
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
 Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
