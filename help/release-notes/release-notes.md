@@ -234,13 +234,18 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 <!-- #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2} -->
 
 
-<!--
-### [!DNL Forms]{#forms-65-lts-sp2}
 
+### [!DNL Forms]{#forms-65-lts-sp2}
+<!--
 #### Forms Designer
+-->
 
 #### Forms
 
+* In AEM Forms 6.5 LTS cluster deployments on JBoss EAP 8, `domain/configuration/domain_oracle.xml` no longer contains a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. (FORMS-24687)
+* In Turnkey Upgrade Mode, updating the database port in `lc_turnkey.xml` is now applied correctly during upgrade and no longer references the old port value. (FORMS-24689)
+* When setting up JBoss EAP 8.0 on Linux, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. (FORMS-24688)
+<!--
 #### Forms JEE 
 
 #### Forms Captcha {#forms-captcha-65-lts-sp2}
@@ -540,8 +545,6 @@ This section lists features and capabilities that have been removed from AEM 6.5
 * **FORMS-24690:** In Configuration Manager, Database Initialization fails during bootstrap when running AEM Forms 6.5 LTS JEE in Turnkey mode with Custom configuration if no module is selected.
 
 * **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
-
-* **FORMS-24691:** In Partial Turnkey CLI Mode, JBoss service creation fails if the DB-specific configuration file (`lc_oracle.xml`, `lc_mssql.xml`, or `lc_mysql.xml`) is not renamed to `lc_turnkey.xml` before installation.
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
