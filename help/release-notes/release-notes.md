@@ -233,8 +233,6 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 <!-- #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2} -->
 
-
-
 ### [!DNL Forms]{#forms-65-lts-sp2}
 <!--
 #### Forms Designer
@@ -545,6 +543,8 @@ This section lists features and capabilities that have been removed from AEM 6.5
 * **FORMS-24690:** In Configuration Manager, Database Initialization fails during bootstrap when running AEM Forms 6.5 LTS JEE in Turnkey mode with Custom configuration if no module is selected.
 
 * **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
+
+* **FORMS-24741:** In AEM Forms 6.5 LTS JEE on Linux, Configuration Manager may fail if OSFileSetIntendedFor is not set correctly. Update it to Linux in the required configuration files before running Configuration Manager.
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
