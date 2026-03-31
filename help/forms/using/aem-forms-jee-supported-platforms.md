@@ -203,11 +203,6 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>A: Supported</p> </td>
    <td><p>Patches and cumulative patches for the supported EAP version</p> </td>
   </tr>
-  <tr>
-   <td><p>WebSphere Liberty Profile (24.0.0.7)</sup> </p> </td>
-   <td><p>A: Supported</p> </td>
-   <td></td>
-  </tr>
  </tbody>
 </table>
 
