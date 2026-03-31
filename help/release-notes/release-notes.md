@@ -233,10 +233,11 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 <!-- #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2} -->
 
-### [!DNL Forms]{#forms-65-lts-sp2}
 <!--
-#### Forms Designer
--->
+#### Forms Designer-->
+
+### [!DNL Forms]{#forms-65-lts-sp2}
+
 
 #### Forms
 
