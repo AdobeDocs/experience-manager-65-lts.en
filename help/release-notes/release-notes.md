@@ -46,7 +46,7 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
     * Providing clear feedback when a rule save operation is unsuccessful (FORMS-21261) 
 
-* Added runtime Application Programming Interface (API) to toggle legacy Extensible Markup Language (XML) export mode in AEM Forms, replacing the -Dcom.adobe.fd.forms.export.legacy parameter. This enhancement enables users to switch export modes more efficiently, improving workflow flexibility. (FORMS-23115)FORMS-23 
+* Added runtime Application Programming Interface (API) to toggle legacy Extensible Markup Language (XML) export mode in AEM Forms, replacing the -Dcom.adobe.fd.forms.export.legacy parameter. This enhancement enables users to switch export modes more efficiently, improving workflow flexibility. (FORMS-23115) 
 
 * Added support for JavaScript Object Notation (JSON) with namespace tags in Adaptive Forms. This enhancement enables users to handle JSON data structures more effectively, improving data integration and processing capabilities. (FORMS-22519) 
 
