@@ -280,9 +280,9 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 * FORMS-20679: Users experienced a security vulnerability in the Adaptive Forms dashboard. Specifically, a cross-site scripting (XSS) issue was identified in the startpointcontrol.js file, which could potentially allow malicious scripts to be executed. 
 
-* FORMS-24687: In AEM Forms 6.5 LTS cluster deployments on JBoss EAP 8, `domain/configuration/domain_oracle.xml` no longer contains a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. 
+* FORMS-24687:  In AEM Forms 6.5 LTS cluster deployments on JBoss EAP 8, the domain/configuration/domain_oracle.xml, domain_mysql.xml, and domain_mssql.xml files no longer contains a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting.
 
-* FORMS-24689:In Turnkey Upgrade Mode, updating the database port in `lc_turnkey.xml` is now applied correctly during upgrade and no longer references the old port value. 
+* FORMS-24689: In Turnkey mode, the database port update is now applied correctly during fresh installation and upgrade. In fresh installation mode, users can select from all available ports, and in Upgrade mode, the database port updated in lc_turnkey.xml is correctly referenced during the upgrade process.
 
 * FORMS-24688: When setting up JBoss EAP 8.0 on Linux, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. 
 
@@ -583,7 +583,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### AEM Forms
 
-* **FORMS-24690:** In Configuration Manager, Database Initialization may fail during bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue.
+* **FORMS-24690:** In Configuration Manager, Database Initialization fail during bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue.
 
 * **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
 
