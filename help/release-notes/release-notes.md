@@ -36,6 +36,23 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/65lts/) and [Launches](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/launches/). These APIs provide access to Content Fragments and launches for authoring and scheduling. They use the same modern OpenAPIs as AEM as a Cloud Service.
 
+**AEM Forms**
+
+* Enhanced user experience in the visual rule editor. This update includes: 
+
+    * Automatically reloading the summary view after a save to show updated rule status 
+
+    * Showing 'Add'/'Delete' buttons and allowing toggling instead of hiding them 
+
+    * Providing clear feedback when a rule save operation is unsuccessful (FORMS-21261) 
+
+* Added runtime Application Programming Interface (API) to toggle legacy Extensible Markup Language (XML) export mode in AEM Forms, replacing the -Dcom.adobe.fd.forms.export.legacy parameter. This enhancement enables users to switch export modes more efficiently, improving workflow flexibility. (FORMS-23115)FORMS-23 
+
+* Added support for JavaScript Object Notation (JSON) with namespace tags in Adaptive Forms. This enhancement enables users to handle JSON data structures more effectively, improving data integration and processing capabilities. (FORMS-22519) 
+
+* Added Download Document of Record (DoR) / Form Submission as an out-of-the-box (OOTB) button in the rule editor. This enhancement allows customers to use the downloadDoR function without writing custom code, improving usability and efficiency. (FORMS-21263) 
+
+* Added support for JavaScript Object Notation (JSON) with namespace tags in Adaptive Forms. This enhancement enables users to prefill forms more accurately and efficiently, improving data integration and reducing manual input errors. (FORMS-10883) 
 
 <!-- UPDATE THE EACH RELEASE -->
 
@@ -241,9 +258,34 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 #### Forms
 
-* In AEM Forms 6.5 LTS cluster deployments on JBoss EAP 8, `domain/configuration/domain_oracle.xml` no longer contains a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. (FORMS-24687)
-* In Turnkey Upgrade Mode, updating the database port in `lc_turnkey.xml` is now applied correctly during upgrade and no longer references the old port value. (FORMS-24689)
-* When setting up JBoss EAP 8.0 on Linux, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. (FORMS-24688)
+* FORMS-23971: Users experienced issues with the Form Data Model (FDM) editor's "Data Source / Enter Keyword" functionality. This affected the ability to search and select data sources. 
+
+* FORMS-23754: On mobile devices, the table component in Adaptive Forms rendered a hidden header at the top, causing screen readers to mis-announce the content. This affected users relying on screen readers for navigation. 
+
+* FORMS-23632: Users experienced issues with Core Components based Adaptive Forms referencing resource types flagged as granite:InternalArea, which affected the functionality of several granite components in the on-premises Forms add-on. 
+
+* FORMS-23457: Form submission fails post-upgrade to AEM 6.5 LTS SP1. Users experienced missing com.adobe.cq.social.commons.CollabUtil causing JSP compilation errors and email action failures. 
+
+* FORMS-23426: Users experienced issues with hCaptcha not translating correctly in Foundation Components based Adaptive Forms. This affected non-English speaking users' ability to complete forms accurately. 
+
+* FORMS-22633: Users experienced form submission failures with a SAXParseException: "Content is not allowed in prolog" (HTTP 500). This issue occurred due to a null value in the prefill data XML, causing server-side XML parsing to fail. 
+
+* FORMS-22101: Users experienced Adaptive Forms failing Web Content Accessibility Guidelines (WCAG) audits because the form's tab-navigation markup was invalid—a non-list element was rendered as a direct child of a list, where only list items are allowed. This prevented the form from passing accessibility validators and affected organizations that must meet legal or internal compliance requirements. 
+
+* FORMS-21989: Users experienced accessibility issues with Document of Record (DoR) / Submission PDF where empty form fields were not tagged as form elements. This caused difficulties for screen readers, impacting the ability of users with disabilities to navigate and complete forms effectively. 
+
+* FORMS-21925: Users experienced an issue where footnotes for components inside a subpanel were not displayed during form load. This occurred when the item with the footnote was the last component on the page. 
+
+* FORMS-21814: Users experienced issues selecting components in the AEM Forms Editor. When navigating between tabs and returning to the first tab, some containers became unselectable, preventing easy identification and interaction. 
+
+* FORMS-20679: Users experienced a security vulnerability in the Adaptive Forms dashboard. Specifically, a cross-site scripting (XSS) issue was identified in the startpointcontrol.js file, which could potentially allow malicious scripts to be executed. 
+
+* FORMS-24687: In AEM Forms 6.5 LTS cluster deployments on JBoss EAP 8, `domain/configuration/domain_oracle.xml` no longer contains a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. 
+
+* FORMS-24689:In Turnkey Upgrade Mode, updating the database port in `lc_turnkey.xml` is now applied correctly during upgrade and no longer references the old port value. 
+
+* FORMS-24688: When setting up JBoss EAP 8.0 on Linux, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. 
+
 <!--
 #### Forms JEE 
 
@@ -541,11 +583,9 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### AEM Forms
 
-* **FORMS-24690:** In Configuration Manager, Database Initialization fails during bootstrap when running AEM Forms 6.5 LTS JEE in Turnkey mode with Custom configuration if no module is selected.
+* **FORMS-24690:** In Configuration Manager, Database Initialization may fail during bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue.
 
 * **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
-
-* **FORMS-24741:** In AEM Forms 6.5 LTS JEE on Linux, Configuration Manager may fail if OSFileSetIntendedFor is not set correctly. Update it to Linux in the required configuration files before running Configuration Manager.
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
