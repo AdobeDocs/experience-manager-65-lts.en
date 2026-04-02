@@ -6,6 +6,7 @@ feature: Release Information
 role: User,Admin,Architect,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ---
+
 # Current release notes for Adobe Experience Manager 6.5 LTS, SP2 {#release-notes}
 
 ## Release information {#release-information}
@@ -37,6 +38,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/65lts/) and [Launches](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/stable/sites/launches/). These APIs provide access to Content Fragments and launches for authoring and scheduling. They use the same modern OpenAPIs as AEM as a Cloud Service.
 
 **AEM Forms**
+
+**What Is Included in AEM Forms 6.5 LTS SP2**
+
+* Support for RDBMK with JBOSS EAP 8.0  has been added.
 
 * Enhanced user experience in the visual rule editor. This update includes: 
 

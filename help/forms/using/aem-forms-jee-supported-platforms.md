@@ -123,6 +123,11 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td><p>Supported</p> </td>
   </tr>
   <tr>
+   <td><p> RDBMK </p> </td>
+   <td><p></p> </td>
+   <td><p>Supported</p> </td>
+  </tr>
+  <tr>
    <td><p> MongoDB Enterprise 9.0 </p> </td>
    <td><p>Repository Microkernel</p> </td>
    <td><p>Supported</p> </td>
