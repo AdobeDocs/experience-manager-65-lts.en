@@ -1,7 +1,7 @@
 ---
 title: AEM Fluid Experiences Feature List
 description: Fluid Experiences Feature List
-index: n
+index: false
 feature: Authoring
 solution: Experience Manager Sites,Experience Manager Assets
 role: Admin
