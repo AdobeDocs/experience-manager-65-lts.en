@@ -46,7 +46,7 @@ Before beginning the upgrade, obtain the following:
 
 ## Step 1: Create Complete Backup
 
->[!CRITICAL]
+>[!IMPORTANT]
 >
 > Perform comprehensive backups before proceeding.
 
