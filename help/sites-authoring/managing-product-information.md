@@ -7,7 +7,7 @@ topic-tags: projects
 content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 4531a41c-99fa-4e98-b4f4-f8fc92ed9095
 ---
 # Creative Project and PIM Integration {#creative-project-and-pim-integration}

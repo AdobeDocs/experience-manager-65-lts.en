@@ -7,7 +7,7 @@ topic-tags: introduction
 content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 72ecde6c-0597-4743-aa5e-446a365953a5
 ---
 # Best Practices{#best-practices}

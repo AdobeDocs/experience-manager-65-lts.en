@@ -3,7 +3,7 @@ title: Adobe Experience Manager (AEM) and the Web Accessibility Guidelines
 description: An Introduction to Adobe Experience Manager (AEM) and the Web Accessibility Guidelines
 solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
-role: Developer,Leader,Architect,Data Architect,User
+role: Developer,Leader,User
 exl-id: 3df5379b-a66f-4d74-bbb1-75440324ef98
 ---
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}

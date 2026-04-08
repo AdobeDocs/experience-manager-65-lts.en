@@ -8,7 +8,7 @@ topic-tags: personalization
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 532d8289-a266-4556-ab59-855460c377cb
 ---
 # Managing Audiences{#managing-audiences}

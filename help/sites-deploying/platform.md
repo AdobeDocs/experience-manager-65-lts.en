@@ -3,7 +3,7 @@ title: Introduction to the AEM Platform
 description: Learn about the AEM platform and its most important components including installing and deploying Adobe Experience Manager 6.5 LTS as well as about its architecture, including Adobe Managed Services cloud deployment.
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
-role: Architect
+role: Developer
 exl-id: c9ea613d-f1d1-49be-bd52-95d489442f46
 ---
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}

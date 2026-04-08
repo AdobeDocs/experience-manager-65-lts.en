@@ -8,7 +8,7 @@ content-type: reference
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 281c96e2-24f8-4568-add2-67972148b406
 ---
 # Basic Handling{#basic-handling}

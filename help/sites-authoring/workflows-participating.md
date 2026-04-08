@@ -3,7 +3,7 @@ title: Workflow participation
 description: Workflows typically include steps that require a person to perform an activity on a page or asset.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 2680e967-ec04-4ae6-b379-f1f0e7c6606b
 ---
 # Participating in Workflows{#participating-in-workflows}

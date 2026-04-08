@@ -3,7 +3,7 @@ title: Creating Content Fragment Models Headless Quick Start Guide
 description: Define the structure of the content that you create and serve using Adobe Experience Manager's (AEM) headless capabilities by using Content Fragment Models.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
-role: Admin,Architect,Data Architect,Developer
+role: Admin,Developer
 exl-id: 768a5d73-521f-47a5-b4a3-d1b0b77798f7
 ---
 # Creating Content Fragment Models Headless Quick Start Guide {#creating-content-fragment-models}

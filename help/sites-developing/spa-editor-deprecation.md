@@ -2,7 +2,7 @@
 title: SPA Editor Deprecation
 description: Though the SPA Editor remains supported by Adobe, learn what its deprecation means to your project and what options you have for future projects.
 feature: Developing
-role: Admin, Architect, Developer
+role: Admin,Developer
 exl-id: 7c1af58f-95b3-4366-96cd-7383ac869923
 ---
 # SPA Editor Deprecation {#spa-editor-deprecation}

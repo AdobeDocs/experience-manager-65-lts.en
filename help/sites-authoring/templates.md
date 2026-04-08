@@ -8,7 +8,7 @@ topic-tags: site-features
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: a0ddb246-64eb-493c-9950-9b7ecb32e555
 ---
 # Creating Page Templates{#creating-page-templates}

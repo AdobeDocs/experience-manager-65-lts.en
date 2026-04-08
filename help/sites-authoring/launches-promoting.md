@@ -9,7 +9,7 @@ docset: aem65
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Launches
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: fb035c7d-7448-4e74-8b39-a24a385da172
 ---
 # Promoting Launches{#promoting-launches}

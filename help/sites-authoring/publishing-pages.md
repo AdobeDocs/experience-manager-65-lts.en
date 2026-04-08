@@ -3,7 +3,7 @@ title: Publishing content pages
 description: Learn how to publish content pages in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 89bab7e3-f688-4c95-8571-08477e737bc8
 ---
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 6a72ba56-8222-4853-adc6-ee8f3d395d9d
 ---
 # Creating Adobe Campaign Forms in AEM {#creating-adobe-campaign-forms-in-aem}

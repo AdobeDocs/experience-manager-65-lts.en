@@ -3,7 +3,7 @@ title: Publish Translated Content
 description: Learn how to publish your translated content and update the translations as the content updates.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,Language Copy
-role: Admin, Architect,Data Architect,Developer,User,Leader
+role: Admin,Developer,User,Leader
 exl-id: 1543c167-ca69-4481-835f-932d93850a53
 ---
 # Publish Translated Content {#publish-content}

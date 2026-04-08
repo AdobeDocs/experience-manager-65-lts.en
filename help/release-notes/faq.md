@@ -3,7 +3,7 @@ title: Frequently Asked Questions (FAQ)
 description: Frequently asked questions about AEM 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: d18c9dc3-fdcc-4558-b9b6-ecf1ce61048a
 ---
 # AEM 6.5 LTS Frequently Asked Questions (FAQ) {#faq}

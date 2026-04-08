@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Integration
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: debcc73f-c2bb-4e3a-8ebf-c7590264d289
 ---
 # Seeing Page Analytics Data{#seeing-page-analytics-data}

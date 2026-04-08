@@ -3,7 +3,7 @@ title: AEM Headless Content Architect Journey
 description: Start here for a guided journey through the powerful and flexible headless features of AEM, their capabilities, and how to model your content on your first headless project.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect
+role: Admin,Developer
 exl-id: b5f5e214-d8b3-4066-b834-0ba74d773bbc
 ---
 # AEM Headless Content Architect Journey {#aem-headless-content-architect-journey}

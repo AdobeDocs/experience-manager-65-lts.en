@@ -3,7 +3,7 @@ title: Creating and organizing pages with AEM
 description: Learn how to create and manage pages with Adobe Experience Manager.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 66bbd6d8-d07c-48ad-b58e-819bf032851a
 ---
 # Creating and Organizing Pages {#creating-and-organizing-pages}

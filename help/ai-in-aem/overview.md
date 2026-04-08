@@ -2,7 +2,7 @@
 title: AI in AEM 6.5 LTS
 description: Learn about AI in Adobe Experience Manager 6.5 LTS
 feature: Generative AI, AI Assistant, AI Tools
-role: Admin, Architect, Developer, User
+role: Admin,Developer,User
 exl-id: 312e1d66-ba2e-4b9a-a679-4e44112f3222
 ---
 # AI in AEM {#ai-in-aem}

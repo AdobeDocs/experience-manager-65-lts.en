@@ -3,7 +3,7 @@ title: Learn about defining Metadata and Tagging for Content Fragments
 description: Learn about defining Metadata and Tagging for Content Fragments
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect,Developer,User,Leader
+role: Admin,Developer,User,Leader
 exl-id: 93a5d272-893a-4d39-89eb-197c2fda3ad4
 ---
 # Learn about defining Metadata and Tagging for Content Fragments {#author-headless-metadata-tagging}

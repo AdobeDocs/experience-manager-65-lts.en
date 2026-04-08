@@ -4,7 +4,7 @@ description: Learn about the types of metadata and how to manage metadata for as
 contentOwner: AG
 mini-toc-levels: 1
 feature: Tagging, Metadata
-role: Architect, Leader
+role: Developer,Leader
 hide: yes
 solution: Experience Manager, Experience Manager Assets
 exl-id: dc231e6b-d656-4626-a800-ee66533b1c86

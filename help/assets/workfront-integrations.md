@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Experience Manager Assets] integration with [!DNL Adobe Workfront]'
 description: Introduction to integration between [!DNL Assets] and [!DNL Workfront]
-role: Admin,Leader,Architect
+role: Admin,Leader,Developer
 feature: Workfront Integrations and Apps
 hide: yes
 solution: Experience Manager, Workfront

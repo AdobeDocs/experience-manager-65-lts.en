@@ -7,7 +7,7 @@ topic-tags: page-authoring
 content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 1e735d57-834a-4251-9b92-ccc6d4712f2a
 ---
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}

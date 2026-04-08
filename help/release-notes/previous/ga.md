@@ -3,7 +3,7 @@ title: Release Notes for [!DNL Adobe Experience Manager] 6.5 LTS
 description: Find current release information for Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager
 feature: Release Information
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: dfda31ac-765b-401d-98d0-c19f0de22aab
 ---
 # Current release notes for Adobe Experience Manager 6.5 LTS {#release-notes}

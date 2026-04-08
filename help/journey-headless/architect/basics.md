@@ -3,7 +3,7 @@ title: Learn Content Modeling Basics
 description: Learn the basic of modeling content for your Headless CMS using Content Fragments.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect
+role: Admin,Developer
 exl-id: 89d4b9ae-8237-4c85-9e68-626e7d9d3464
 ---
 # Learn the Content Modeling Basics for Headless with AEM {#content-modeling-headless-basics}

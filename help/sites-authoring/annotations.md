@@ -7,7 +7,7 @@ topic-tags: page-authoring
 content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 5e0e7d8e-4da2-4304-ac21-7500ca2ba9c6
 ---
 # Annotations when Editing a Page{#annotations-when-editing-a-page}

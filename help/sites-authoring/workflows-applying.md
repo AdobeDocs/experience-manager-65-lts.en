@@ -8,7 +8,7 @@ topic-tags: site-features
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Workflow
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 8354eccd-4f71-45bb-9bab-8f756b9ce083
 ---
 # Applying Workflows to Pages{#applying-workflows-to-pages}

@@ -3,7 +3,7 @@ title: Performance tuning [!DNL Assets].
 description: Suggestions and guidance about [!DNL Experience Manager] configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of [!DNL Experience Manager Assets].
 contentOwner: AG
 mini-toc-levels: 1
-role: Architect, Admin
+role: Developer,Admin
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: 43079a69-cd12-4853-9fff-96f9d177987a

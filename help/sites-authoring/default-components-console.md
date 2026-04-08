@@ -3,7 +3,7 @@ title: Components Console
 description: The Components console lets you browse through all components defined for your instance and view key information for each component.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: e19f9c2b-dc69-4077-a038-d8eb25a1ad6a
 ---
 # Components Console{#components-console}

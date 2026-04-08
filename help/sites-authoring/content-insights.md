@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: site-features
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 10bf533d-c0a8-43ac-8dd5-d4fa501b8726
 ---
 # Content Insight{#content-insight}

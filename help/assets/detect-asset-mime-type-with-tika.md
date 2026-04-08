@@ -2,7 +2,7 @@
 title: Detect MIME type of assets using Apache Tika
 description: Enable Apache Tika to help [!DNL Experience Manager Assets] detect the MIME type of assets from the content stream during the upload operation instead of the file extension.
 contentOwner: AG
-role: Admin, Architect
+role: Admin,Developer
 feature: Metadata,Developer Tools,Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: 4c953b8b-ae50-4c02-889a-78b02b4ba975

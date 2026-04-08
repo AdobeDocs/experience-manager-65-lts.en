@@ -3,7 +3,7 @@ title: Current Release Notes for Adobe Experience Manager 6.5 LTS, SP2
 description: Find current release information for Adobe Experience Manager 6.5 LTS, Service Pack 2.
 solution: Experience Manager
 feature: Release Information
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ---
 

@@ -7,7 +7,7 @@ topic-tags: projects
 content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 852aaf6e-acf3-4224-bf4c-c0913110abd4
 ---
 # Working with Tasks {#working-with-tasks}

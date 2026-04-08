@@ -3,7 +3,7 @@ title: Configure AI Assistant in AEM
 description: Learn how to set up and configure AI Assistant using the Admin Console in Adobe Experience Manager.
 solution: Experience Manager
 feature: Authoring, AI Assistant, AI Tools
-role: Admin, Architect, Developer, User
+role: Admin,Developer,User
 exl-id: e653d37f-5802-4b0f-a71b-539b33ad5ca5
 ---
 # Configure AI Assistant in AEM {#aem-ai-asst-admin-setup}

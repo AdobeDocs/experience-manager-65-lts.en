@@ -8,7 +8,7 @@ topic-tags: personalization
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 650ba9be-6546-46dc-b4ab-ea0b97abff40
 ---
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}
