@@ -3,7 +3,7 @@ title: Default components
 description: Adobe Experience Manager comes with various out-of-the-box components that provide comprehensive functionality for website authors.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 2a5d3d80-2710-4bb0-ad24-9a86525c6aea
 ---
 # Components{#components}

@@ -2,7 +2,7 @@
 title: Best practices to monitor [!DNL Assets] deployment
 description: Best practices to monitor the environment and performance of your [!DNL Adobe Experience Manager] deployment after it is deployed.
 contentOwner: AG
-role: Admin, Architect
+role: Admin,Developer
 feature: Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: d2cb447c-69d6-4659-a29e-02af22b543fd

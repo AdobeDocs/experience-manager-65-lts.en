@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: ce6ebfff-3a1d-4c9f-aa50-23d1c3afc852
 ---
 

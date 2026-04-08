@@ -3,7 +3,7 @@ title: Selecting your user interface in AEM
 description: Configure which interface you use to work in Adobe Experience Manager 6.5 LTS.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 508f9dfb-1a4e-45bd-acdd-48cc910bdd0f
 ---
 # Selecting your UI{#selecting-your-ui}

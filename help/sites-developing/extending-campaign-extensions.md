@@ -9,7 +9,7 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 7cdce721-ca00-43ac-a543-85bfad382821
-index: no
+index: false
 ---
 
 # Custom Adobe Campaign Extensions {#creating-custom-extensions}

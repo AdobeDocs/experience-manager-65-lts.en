@@ -3,7 +3,7 @@ title: AEM Forms Patch Installation Instructions for AEM Forms
 description: AEM Forms service pack installation instructions for OSGi and JEE environment
 solution: Experience Manager
 feature: Release Information
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 hide: yes
 hidefromtoc: yes
 ---

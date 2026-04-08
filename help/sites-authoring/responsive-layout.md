@@ -3,7 +3,7 @@ title: Responsive layout for your content pages
 description: Adobe Experience Manager lets you realize a responsive layout for your pages by using the Layout Container Component.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 06c1c7bc-aecb-4c35-bf30-dcc852540d6c
 ---
 # Responsive Layout{#responsive-layout}

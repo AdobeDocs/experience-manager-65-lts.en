@@ -1711,22 +1711,22 @@ The following fragments are used for the appropriate model.
 
 | Name | First Name | Awards |
 |--- |--- |--- |
-| Lincoln | Abe | |
-| Smith | Adam | |
-| Slade | Cutter | Gameblitz<br>Gamestar |
-| Marsh | Duke | | 
-| Smith | Joe | |
-| Croft | Lara | Gamestar |
-| Caulfield | Max | Gameblitz |
-| Jobs | Steve | |
+| Lincoln | Abe | |
+| Smith | Adam | |
+| Slade | Cutter | Gameblitz<br>Gamestar |
+| Marsh | Duke | |
+| Smith | Joe | |
+| Croft | Lara | Gamestar |
+| Caulfield | Max | Gameblitz |
+| Jobs | Steve | |
 
 #### Award {#fragment-award}
 
 | Shortcut/ID | Title |
 |--- |--- |
 | GB | Gameblitz |
-| GS | Gamestar |
-| OSC | Oscar |
+| GS | Gamestar |
+| OSC | Oscar |
 
 #### City {#fragment-city}
 

@@ -3,7 +3,7 @@ title: Configure Translation Rules
 description: Learn how to define translation rules to identify content for translation.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,Language Copy
-role: Admin, Architect,Data Architect,Developer,User,Leader
+role: Admin,Developer,User,Leader
 exl-id: 94534336-1e1f-40eb-8364-9358c1420616
 ---
 # Configure Translation Rules {#configure-translation-rules}

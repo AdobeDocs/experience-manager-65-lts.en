@@ -3,7 +3,7 @@ title: Integrate Dynamic Media Viewers with Adobe Analytics and Experience Platf
 description: Learn about the Dynamic Media Viewers extension for Experience Platform Tags and Dynamic Media Viewers 5.13. It lets customers of Adobe Analytics and Experience Platform Tags to use events and data specific for Dynamic Media Viewers in their Experience Platform Tags configuration.
 mini-toc-levels: 3
 feature: Viewers
-role: User, Admin,Developer,Data Engineer,Data Architect
+role: User,Admin,Developer
 solution: Experience Manager, Experience Manager Assets
 exl-id: 3aea14f7-052d-4f23-b65d-e648623146e7
 ---

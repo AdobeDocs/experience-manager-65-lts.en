@@ -3,7 +3,7 @@ title: Learn Authoring Basics
 description: Learn about the concepts and mechanics of authoring content for your Headless CMS using Content Fragments.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect,Developer,User,Leader
+role: Admin,Developer,User,Leader
 exl-id: 20ff7c83-0882-454e-a8f5-9eda1724cfe3
 ---
 # Authoring Basics for Headless with AEM {#author-headless-basics}

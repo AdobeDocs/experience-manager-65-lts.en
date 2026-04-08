@@ -3,7 +3,7 @@ title: Understanding Segmentation when creating a campaign
 description: Segmentation is a key consideration when creating a campaign.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization,Integration
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 7167c672-8d24-4493-aff6-b5b453074bff
 ---
 # Understanding Segmentation{#understanding-segmentation}

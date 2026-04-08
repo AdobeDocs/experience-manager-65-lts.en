@@ -2,7 +2,7 @@
 title: Multi-tenancy for Collections, snippets, and snippet templates
 description: Learn how the multi-tenancy feature lets you segregate content in the CRX repository based on the customer organization to prevent unauthorized access.
 contentOwner: AG
-role: Architect, Admin, Leader
+role: Developer,Admin,Leader
 feature: Collections
 solution: Experience Manager, Experience Manager Assets
 exl-id: 39e14f89-8e60-4b5e-8859-d69ebd51864e

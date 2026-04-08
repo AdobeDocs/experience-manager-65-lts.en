@@ -3,7 +3,7 @@ title: Work with content page versions
 description: Create, compare, and restore versions of a page in Adobe Experience Manager.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: ba5cc5fb-934f-4144-8e28-7aa5fdd9b92a
 ---
 # Working with Page Versions{#working-with-page-versions}

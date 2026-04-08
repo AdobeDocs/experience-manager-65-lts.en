@@ -3,7 +3,7 @@ title: Seeing page analytics data to gauge the effectiveness of page content
 description: Use page analytics data to gauge the effectiveness of their page content
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: b47591ac-10ff-4b87-b75d-68ed635ceca8
 ---
 # Seeing Page Analytics Data{#seeing-page-analytics-data}

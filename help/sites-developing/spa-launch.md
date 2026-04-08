@@ -10,7 +10,7 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: aa4471bf-8477-4377-b474-861269f69334
-index: no
+index: false
 ---
 
 # SPA and Adobe Experience Platform Launch Integration{#spa-and-adobe-experience-platform-launch-integration}

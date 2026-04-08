@@ -5,7 +5,7 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: 37a403c3-666c-46f3-84be-c622baeeccbc
-index: no
+index: false
 ---
 
 # SPA Deep Dives{#spa-deep-dives}

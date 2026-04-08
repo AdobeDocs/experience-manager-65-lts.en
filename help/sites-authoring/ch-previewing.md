@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalization
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 22c0af67-719e-41da-a924-c3d18d56d970
 ---
 # Previewing Pages Using ContextHub Data{#previewing-pages-using-contexthub-data}

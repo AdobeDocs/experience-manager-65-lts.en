@@ -3,7 +3,7 @@ title: Optimizing GraphQL queries
 description: Learn how to optimize your GraphQL queries when Filtering, Paging, and Sorting your Content Fragments in Adobe Experience Manager as a Cloud Service for headless content delivery.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
-role: Admin,Architect,Data Architect,Developer
+role: Admin,Developer
 exl-id: c2beb0fa-ff6c-4e42-842d-6a73311f4740
 ---
 # Optimizing GraphQL Queries {#optimizing-graphql-queries}

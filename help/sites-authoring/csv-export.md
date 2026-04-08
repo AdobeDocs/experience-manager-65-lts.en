@@ -8,7 +8,7 @@ content-type: reference
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: ccd2ad37-7708-4422-9724-145628f36afc
 ---
 # Export to CSV{#export-to-csv}

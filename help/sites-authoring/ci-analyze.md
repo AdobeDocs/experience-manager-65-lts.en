@@ -8,7 +8,7 @@ topic-tags: site-features
 docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Integration
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 075c4150-e7e2-4374-afe0-31855bffe438
 ---
 # Analyzing Page Performance{#analyzing-page-performance}

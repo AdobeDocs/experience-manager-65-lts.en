@@ -3,7 +3,7 @@ title: Authoring for Headless with Adobe Experience Manager
 description: An introduction to the powerful, and flexible, headless features of Adobe Experience Manager, and how to author content for your project.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect,Developer,User,Leader
+role: Admin,Developer,User,Leader
 exl-id: 4864d5e7-65e3-4309-9512-cde4a138e04c
 ---
 # Authoring for Headless with AEM - An Introduction {#author-headless-introduction}

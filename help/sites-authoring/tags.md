@@ -3,7 +3,7 @@ title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 73fe62f4-a3a6-4cfa-9b31-517653c05269
 ---
 # Using Tags {#using-tags}

@@ -3,7 +3,7 @@ title: Editing Page Properties
 description: Define the required properties for a page in Adobe Experience Manager.
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
-role: User,Admin,Architect,Developer
+role: User,Admin,Developer
 exl-id: 5148afb9-f447-4475-a15c-1fa345325711
 mini-toc-levels: 2
 ---

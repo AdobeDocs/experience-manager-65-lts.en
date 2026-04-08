@@ -3,7 +3,7 @@ title: Headless Development for AEM 6.5 Sites
 description: Learn how AEM 6.5's powerful headless capabilities like Content Models, Content Fragments, and the GraphQL API work together to enable you to manage your experiences centrally and serve them across channels.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
-role: Admin,Architect,Data Architect,Developer
+role: Admin,Developer
 exl-id: 4eb42d3a-f869-4831-9aaf-58e7272bd1fe
 ---
 # Headless Development for AEM 6.5 Sites {#headless-development}

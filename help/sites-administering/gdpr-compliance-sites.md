@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: best-practices
 solution: Experience Manager, Experience Manager Sites
 feature: Compliance
-role: Admin, Architect, Developer, Leader, User, Data Architect, Data Engineer
+role: Admin,Developer,Leader,User
 exl-id: 826dafb8-db6c-4fe4-8b3d-edf7215dc571
 ---
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}

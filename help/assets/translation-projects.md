@@ -2,7 +2,7 @@
 title: Create translation projects
 description: Learn how to create translation projects in [!DNL Adobe Experience Manager].
 contentOwner: AG
-role: Architect, Admin
+role: Developer,Admin
 feature: Translation
 solution: Experience Manager, Experience Manager Assets
 exl-id: e6b78580-a96e-4560-8f25-b62bb04b060e

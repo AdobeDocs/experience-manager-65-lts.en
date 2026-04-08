@@ -10,7 +10,7 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: 8670d700-6ccd-4809-b719-8580d6fb2cf8
-index: no
+index: false
 ---
 
 # Developing SPAs for AEM{#developing-spas-for-aem}

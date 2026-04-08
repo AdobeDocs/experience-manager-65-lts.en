@@ -193,10 +193,10 @@ The following sections describe how adaptive form elements appear in document of
 
 ### Static components {#static-components}
 
-| Adaptive form component |Corresponding XFA component |Notes |
-|---|---|---|
-| Image |Image |The TextDraw and Image components, whether bound or unbound, always appear in the document of record for an XSD-based adaptive form, unless excluded using the document of record settings. |
-| Text |Text |
+| Adaptive form component | Corresponding XFA component | Notes |
+| --- | --- | --- |
+| Image | Image | The TextDraw and Image components, whether bound or unbound, always appear in the document of record for an XSD-based adaptive form, unless excluded using the document of record settings. |
+| Text | Text | |
 
 >[!NOTE]
 >

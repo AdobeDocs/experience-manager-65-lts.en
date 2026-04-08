@@ -7,7 +7,7 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,SPA Editor
 role: Developer
 exl-id: aceec3ac-abdf-4ae2-b197-f58cb7faea5f
-index: no
+index: false
 ---
 
 # SPA Introduction and Walkthrough {#spa-introduction-and-walkthrough}

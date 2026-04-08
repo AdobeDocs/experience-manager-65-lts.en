@@ -3,7 +3,7 @@ title: Adobe Experience Manager Headless Content Architect Journey
 description: An introduction to the powerful, and flexible, headless features of Adobe Experience Manager, and how to model content for your project.
 solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments
-role: Admin, Architect,Data Architect
+role: Admin,Developer
 exl-id: cb64e012-7001-47a3-b038-8f8f6891c6a0
 ---
 # Content Modeling for Headless with AEM - An Introduction {#architect-headless-introduction}
