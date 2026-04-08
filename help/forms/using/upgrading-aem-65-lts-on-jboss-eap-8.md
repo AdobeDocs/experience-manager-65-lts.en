@@ -1,3 +1,7 @@
+---
+title: Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)
+description: This guide provides step-by-step instructions for upgrading an existing Adobe Experience Manager (AEM) 6.5 LTS installation from JBoss EAP 7.4 to JBoss EAP 8 on Windows, using JDK 21.
+---
 # Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)
 
 ## Overview
@@ -11,7 +15,7 @@ This guide provides step-by-step instructions for upgrading an existing Adobe Ex
 >[!NOTE] 
 >
 >This is a critical upgrade procedure. Always perform this upgrade in a non-production environment first and maintain complete backups.
-
+>
 > ** PREREQUISITES:** Complete system backup and a documented rollback plan are mandatory before proceeding.
 
 ## Pre-Upgrade Requirements
@@ -152,11 +156,13 @@ Remove outdated files from the `crx-quickstart` directory to ensure a clean upgr
 ### 5.1 Remove Launchpad Startup Folder
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\startup
 ```
 
 **Action:**
+
 ```cmd
 rd /s /q "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\startup"
 ```
@@ -166,11 +172,13 @@ rd /s /q "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\startup"
 ### 5.2 Remove Base JAR File
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\org.apache.sling.launchpad.base.jar
 ```
 
 **Action:**
+
 ```cmd
 del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\org.apache.sling.launchpad.base.jar"
 ```
@@ -180,11 +188,13 @@ del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\org.apache.sli
 ### 5.3 Remove Bootstrap Command File
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\felix\bundle0\BootstrapCommandFile_*.txt
 ```
 
 **Action:**
+
 ```cmd
 del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\bundle0\BootstrapCommandFile_*.txt"
 ```
@@ -194,11 +204,13 @@ del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\bundle0\
 ### 5.4 Remove sling.options File
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\felix\sling.options.file
 ```
 
 **Action:**
+
 ```cmd
 del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\sling.options.file"
 ```
@@ -206,11 +218,13 @@ del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\felix\sling.op
 ### 5.5 Remove sling_bootstrap.txt File
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\launchpad\sling_bootstrap.txt
 ```
 
 **Action:**
+
 ```cmd
 del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\sling_bootstrap.txt"
 ```
@@ -220,6 +234,7 @@ del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\launchpad\sling_bootstra
 This file contains environment-specific configurations that may need to be merged later.
 
 **Location:**
+
 ```
 <JBOSS_HOME>\bin\crx-repository\crx-quickstart\conf\sling.properties
 ```
@@ -227,11 +242,13 @@ This file contains environment-specific configurations that may need to be merge
 **Action:**
 
 1. **Create backup:**
+
    ```cmd
    copy "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\conf\sling.properties" "C:\AEM-Backups\sling.properties.backup"
    ```
 
 2. **Delete original:**
+
    ```cmd
    del "C:\jboss-eap-8.0\bin\crx-repository\crx-quickstart\conf\sling.properties"
    ```
@@ -261,9 +278,11 @@ This file contains environment-specific configurations that may need to be merge
 
 1. In **System Variables**, select `Path` and click **Edit**
 2. Add new entry:
+
    ```
    %JAVA_HOME%\bin
    ```
+
 3. Move this entry to the top of the list to ensure JDK 21 takes precedence
 4. Click **OK** on all dialogs
 
@@ -277,6 +296,7 @@ This file contains environment-specific configurations that may need to be merge
    ```
 
    Expected output:
+
    ```
    java version "21.0.x"
    Java(TM) SE Runtime Environment (build 21.0.x+...)
@@ -296,6 +316,7 @@ Before deploying AEM, configure appropriate JVM memory settings for production u
 ### Edit standalone.conf.bat
 
 1. Navigate to:
+
    ```
    <JBOSS_HOME>\bin
    ```
@@ -329,6 +350,7 @@ Before deploying AEM, configure appropriate JVM memory settings for production u
 ### Prepare WAR File
 
 Ensure your AEM WAR file is properly configured as per the deployment guide:
+
 - `jboss-deployment-structure.xml` is present
 - `web.xml` includes multipart-config settings
 - WAR is repacked if any modifications were made
@@ -350,11 +372,13 @@ Ensure your AEM WAR file is properly configured as per the deployment guide:
 1. Open **Command Prompt** as **Administrator**
 
 2. Navigate to JBoss bin directory:
+
    ```cmd
    cd C:\jboss-eap-8.0\bin
    ```
 
 3. Start JBoss EAP 8:
+
    ```cmd
    standalone.bat -b 0.0.0.0 -bmanagement 0.0.0.0
    ```
@@ -364,17 +388,20 @@ Ensure your AEM WAR file is properly configured as per the deployment guide:
 Watch the console output for:
 
 1. **WAR Deployment:**
+
    ```
    Deployed "cq-quickstart.war" (runtime-name : "cq-quickstart.war")
    ```
 
 2. **AEM Initialization Messages:**
+
    ```
    Apache Sling Application Launcher
    Sling Home: crx-repository/crx-quickstart
    ```
 
 3. **Repository Upgrade (if applicable):**
+
    ```
    Performing repository migration...
    ```
@@ -395,6 +422,7 @@ Monitor the JBoss console for the final startup message:
 
 1. Open a web browser
 2. Navigate to:
+
    ```
    http://localhost:8080/cq-quickstart
    ```
@@ -406,6 +434,7 @@ Monitor the JBoss console for the final startup message:
 ### Verify System Information
 
 1. Navigate to **Tools** → **Operations** → **Web Console**
+
    ```
    http://localhost:8080/cq-quickstart/system/console
    ```
@@ -413,6 +442,7 @@ Monitor the JBoss console for the final startup message:
 2. Click **System Information**
 
 3. Verify:
+
    - **JVM Version:** Should show Java 21
    - **JBoss Version:** Should show EAP 8.x
    - **AEM Version:** Should show 6.5.xx
@@ -431,6 +461,7 @@ Navigate to **Tools** → **Operations** → **Diagnosis** to run health checks:
 
 1. Review the backed-up `sling.properties` file
 2. Restore any custom run modes or configurations to the new file:
+
    ```
    <JBOSS_HOME>\bin\crx-repository\crx-quickstart\conf\sling.properties
    ```

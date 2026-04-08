@@ -466,7 +466,7 @@ user-guide-title: AEM 6.5 LTS
       + [Upgrade to AEM 6.5 LTS forms on OSGi](/help/forms/using/upgrade-forms-osgi.md)
       + [Install Compatibility Package](/help/forms/using/compatibility-package.md)
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
-      + [Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)](/help/forms/using/upgrading-aem-6.5-lts-on-jboss-eap-8)
+      + [Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)](/help/forms/using/upgrading-aem-65-lts-on-jboss-eap-8)
     + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
       + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
       + [Upgrading to AEM Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-jboss.pdf)
@@ -881,7 +881,7 @@ user-guide-title: AEM 6.5 LTS
       + [Converting files using PDF Generator](/help/forms/using/admin-help/converting-files-using-pdf-generator.md)
     + Configuring SSL {#configure-ssl}
       + [Overview of configuring SSL](/help/forms/using/admin-help/overview-6.md)
-      + [Configuring SSL for JBoss&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-for-jboss-application-server-aem-forms-6.5-lts-jee.md)
+      + [Configuring SSL for JBoss&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-for-jboss-application-server-aem-forms-65-lts-jee.md)
       + [Configuring SSL on Windows Vista](/help/forms/using/admin-help/configuring-ssl-windows-vista.md)
       + [Configuring SSL for WebSphere&reg; Application Server](/help/forms/using/admin-help/configuring-ssl-websphere-application-server.md)
     + Working with document security {#work-with-document-security}
@@ -1089,7 +1089,7 @@ user-guide-title: AEM 6.5 LTS
     + [PDF generation fails to print a large number of PDFs on WorkBench](/help/forms/using/pdf-generation-service-fails-to-print-a-large-number-of-pdfs-on-workbench.md)
     + [How to properly restart AEM SDK](/help/forms/using/restart-aem-sdk.md)
     + [PaperCapture service fails to perform OCRs on PDFs](/help/forms/using/papercapture-service-resolution.md)
-    + [Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)](/help/forms/using/script-execution-issues-on-aem-forms-6.5-lts-with-jboss-eap-8-linux.md)
+    + [Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)](/help/forms/using/script-execution-issues-on-aem-forms-65-lts-with-jboss-eap-8-linux.md)
     + [Unable to Start JBoss Domain Controller](/help/forms/using/unable-to-start-jboss-domain-controller-due-to-duplicate-security-tag.md)
   + Legacy documentation {#legacy-documentation}
     + [Using the execute script service in AEM Forms on JEE Workbench to build XML data](/help/forms/developing/building-xml.md)
