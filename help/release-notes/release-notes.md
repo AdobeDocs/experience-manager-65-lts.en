@@ -592,6 +592,12 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 * **FORMS-24692:** Mail Service may fail to establish a TLS socket connection, causing email delivery to fail.
 
+* **FORMS-24894:** On Forms JEE LTS SP2 deployments running on JBoss EAP 8, the Reader Extensions UI may fail with an internal server error.
+
+* **FORMS-24892:** On Forms JEE LTS SP2 running on JBoss, email-related functionality may fail. When attempting to use email features, the server may log an error similar to `Error IMAPProvider not a subtype`.
+
+* **FORMS-24741:** On Linux platforms using JBoss or WebSphere Liberty Profile (WLP), Forms JEE LTS SP2 requires the `OSFileSetIntendedFor` property in `LFS_Foundation.properties` to be set correctly before running Configuration Manager. If it is not updated, the configuration may not be tailored properly for Linux, which can lead to runtime or deployment issues. To resolve the issue, after running the installer and before executing Configuration Manager, navigate to `configurationManager/config/solcomp/`, open `LFS_Foundation.properties`, set `OSFileSetIntendedFor=Linux`, save the file, and then run Configuration Manager.
+
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
 Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
