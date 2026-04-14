@@ -113,27 +113,39 @@ To replace the admin session with a service user, you should perform the followi
 
 After you verified that no user in the list of AEM service users is applicable for your use case and the corresponding RTC issues have been approved, add the new user to the default content.
 
-The recommended approach is to create a service user to use the repository explorer at *https://&lt;server&gt;:&lt;port&gt;/crx/explorer/index.jsp*
+>[!IMPORTANT]
+>
+>CRX Explorer (`/crx/explorer/index.jsp`) is not available in AEM 6.5 LTS environments and must not be used for creating service users. Existing service users created via CRX Explorer continue to function. For new service users, use one of the approaches described below.
 
-The goal is to get a valid `jcr:uuid` property which is mandatory to create the user via a content package installation.
+>[!NOTE]
+>
+>There are no mixin types associated with service users at the JCR node level. This means that system user nodes do not have access control policies attached directly to them. Access control is instead managed separately, for example, through RepoInit ACL statements or repository-level ACL configuration.
 
-You can create service users by:
+### Using Sling Repository Initialization (RepoInit) {#creating-service-user-repoinit}
 
-1. Going to the repository explorer at *https://&lt;server&gt;:&lt;port&gt;/crx/explorer/index.jsp*
-1. Logging in as admin by pressing the **Log In** link in the upper left corner of the screen.
-1. Next, create, and name your system user. To create the user as a system one, set the intermediate path as `system` and add optional subfolders depending on your needs:
+The recommended approach is to use [Sling Repository Initialization (RepoInit)](https://sling.apache.org/documentation/bundles/repository-initialization.html) to create service users. RepoInit lets you define service users and their ACLs declaratively using a simple scripting language.
 
-   ![chlimage_1-102](assets/chlimage_1-102a.png)
+To create a service user with RepoInit, add a `scripts` property to an OSGi configuration for `org.apache.sling.jcr.repoinit.RepositoryInitializer`:
 
-1. Verify that your system user node looks as follows:
+```
+create service user my-service-user with path system/cq
 
-   ![chlimage_1-103](assets/chlimage_1-103a.png)
+set ACL for my-service-user
+    allow jcr:read on /content
+end
+```
 
-   >[!NOTE]
-   >
-   >There are no mixin types associated with service users. This means that there are no access control policies for system users.
+The `with path system/cq` directive places the service user under `/home/users/system/cq` in the repository. You can choose a path that matches your project's organizational structure (for example, `system/myproject`). If the intermediate path nodes do not exist, use `with forced path` to create them automatically.
 
-When adding the corresponding .content.xml to the content of your bundle, make sure you have set the `rep:authorizableId` and that the primary type is `rep:SystemUser`. It should look like this:
+This approach is recommended because it:
+
+* Defines service users and permissions as code, making them version-controlled and reproducible
+* Automatically handles the creation during repository initialization
+* Works across both AEM 6.5 LTS and AEM as a Cloud Service environments, though minor syntax differences may exist between Sling versions — consult the RepoInit documentation for your target platform
+
+### Using a content package {#creating-service-user-content-package}
+
+You can also create a service user by including a `.content.xml` in your content package. Make sure you have set the `rep:authorizableId` and that the primary type is `rep:SystemUser`. A valid `jcr:uuid` property is required for the user to be created correctly during content package installation. You can generate a UUID using a standard UUID v4 generator (for example, the `uuidgen` command-line tool or any online UUID generator). The `.content.xml` should look like this:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
