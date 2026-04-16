@@ -61,11 +61,11 @@ Use the provided scripts to create the database credential store and add all req
 
 #### On Windows:
 
-**Script Location:** `create-elytron-cred-standalone.bat`
+**Script:** `create-elytron-cred-standalone.bat`
 
-`batch cd path\to\script\location create-elytron-cred-standalone.bat`
+Download the `create-elytron-cred-standalone.bat` script from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/full-installer/6-6-0-20251218-2-12345/6.5.1.LTS_Scripts.zip).
 
-**The script will prompt you for:**
+**The script prompts you for:**
 1. **JBOSS_HOME path** (e.g., `C:\Adobe\Adobe_Experience_Manager_Forms\jboss`)
 2. **Configuration file name** (e.g., `lc_oracle.xml`, `lc_mysql.xml`, or `lc_mssql.xml`)
 3. **Credential store password** (this protects the keystore file - remember this password)
@@ -85,11 +85,11 @@ Use the provided scripts to create the database credential store and add all req
 
 #### On Linux:
 
-**Script Location:** `create-elytron-cred-standalone.sh`
+**Script** `create-elytron-cred-standalone.sh`
 
-`bash cd /path/to/script/location chmod +x create-elytron-cred-standalone.sh./create-elytron-cred-standalone.sh`
+Download the `create-elytron-cred-standalone.sh` script from the [Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack/fd/full-installer/6-6-0-20251218-2-12345/6.5.1.LTS_Scripts.zip).
 
-**The script will prompt you for:**
+**The script prompts you for:**
 
 1. **JBOSS_HOME path** (e.g., `/opt/Adobe/Adobe_Experience_Manager_Forms/jboss`)
 2. **Configuration file name** (e.g., `lc_oracle.xml`, `lc_mysql.xml`, or `lc_mssql.xml`)
