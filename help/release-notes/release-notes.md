@@ -612,17 +612,17 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 **Impact**
 
-* Health check failures with HTTP 400 response codes
-* Broken traffic between Dispatcher and AEM instances
-* Content cannot be properly served through the Dispatcher
-* Connection failures when using HTTPS with IP addresses in Dispatcher configuration
-* HTTP 400 "Invalid SNI" errors when connecting via HTTPS + IP
+* Health check failures with HTTP 400 response codes.
+* Broken traffic between Dispatcher and AEM instances.
+* Content cannot be properly served through the Dispatcher.
+* Connection failures when using HTTPS with IP addresses in Dispatcher configuration.
+* HTTP 400 "Invalid SNI" errors when connecting via HTTPS + IP.
 
 **Affected environments**
 
-* AEM deployments with Dispatcher configurations
-* Systems where the SSL-only feature has been enabled
-* Dispatcher configurations using `https + IP` connection method to AEM instances
+* AEM deployments with Dispatcher configurations.
+* Systems where the SSL-only feature has been enabled.
+* Dispatcher configurations using `https + IP` connection method to AEM instances.
 
 **Solution**
 
