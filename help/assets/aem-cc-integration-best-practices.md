@@ -5,7 +5,7 @@ contentOwner: AG
 mini-toc-levels: 1
 role: User, Admin
 feature: Collaboration,Adobe Asset Link,Desktop App
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 51a2f4bb-5fca-48fa-855d-1d610a5eb7c0
 ---
@@ -48,7 +48,8 @@ This article focuses primarily on the first two aspects of the collaboration nee
 
 ### Mapping of use cases and Adobe solutions {#mapping-of-use-cases-and-adobe-solutions}
 
-<!-- TBD: Add some info about XD integration and possibly info about DA v2.0.
+<!--
+TBD: Add some info about XD integration and possibly info about DA v2.0.
 -->
 
 | Use Case | [!DNL Adobe Asset Link] | [!DNL Experience Manager] desktop app | Remarks / Other Solutions |

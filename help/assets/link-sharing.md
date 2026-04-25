@@ -4,7 +4,7 @@ description: Share assets, folders, and collections as a URL.
 contentOwner: AG
 role: User
 feature: Link Sharing,Asset Management
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: ac7ff784-d331-4437-940f-9ea3ce122f8b
 ---

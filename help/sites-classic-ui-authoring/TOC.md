@@ -7,7 +7,7 @@ user-guide-description: Use the Adobe Experience Manager 6.5 LTS documentation t
 breadcrumb-title: User Guide
 user-guide-title: AEM 6.5 LTS
 role: user
-hide: yes
+hide: true
 ---
 
 # Adobe Experience Manager Classic UI Documentation {#classic-ui}

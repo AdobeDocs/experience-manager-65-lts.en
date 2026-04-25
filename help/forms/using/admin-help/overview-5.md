@@ -9,7 +9,7 @@ docset: aem65
 feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: cc0a3d56-3adc-4d6e-87a3-9a8587bbe3f2

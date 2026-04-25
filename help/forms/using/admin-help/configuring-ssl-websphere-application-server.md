@@ -4,7 +4,7 @@ description: Learn how to configure SSL for WebSphere Application Server.
 solution: Experience Manager, Experience Manager Forms
 feature: Document Security
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 0caac293-98b4-4e73-9440-f1db68c94054

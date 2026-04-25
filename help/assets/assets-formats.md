@@ -4,7 +4,7 @@ description: File formats and MIME types supported by [!DNL Assets] and [!DNL Dy
 mini-toc-levels: 1
 role: User, Admin
 feature: Asset Management,Renditions
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: e48f7950-1b6e-4896-8abc-523552e42ed9
 ---
@@ -302,7 +302,8 @@ The following list describes the subtypes of raster image file formats that are 
 * TIFF files that have floating point data.
 * TIFF files that have Lab color space.
 
-<!-- Topic commented out for now as of March 31, 2020. The topic may still need adjustment so it can be published live, or it may be moved into a KB article instead. Just waiting on feedback in CQDOC-15657. - Rick
+<!--
+Topic commented out for now as of March 31, 2020. The topic may still need adjustment so it can be published live, or it may be moved into a KB article instead. Just waiting on feedback in CQDOC-15657. - Rick
 ## Unsupported raster image formats in Dynamic Media (#unsupported-image-formats-dynamic-media)
 
 The following table describes the sub-types of raster image formats that are *not* supported in Dynamic Media. The table also describes suggested methods you can use to detect such files.

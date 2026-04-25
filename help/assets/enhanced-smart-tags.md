@@ -4,7 +4,7 @@ description: Enhanced Smart Tags
 contentOwner: AG
 feature: Smart Tags, Search
 role: User
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7a0d5502-8e1a-4396-a517-ea3767e228c2
 ---

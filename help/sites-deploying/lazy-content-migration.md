@@ -4,7 +4,7 @@ description: Learn about Lazy Content Migration in Adobe Experience Manager 6.4.
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 78c5486c-ed84-4ec8-b0b0-42d4e8611098
 ---

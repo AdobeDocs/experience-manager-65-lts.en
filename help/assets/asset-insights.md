@@ -4,7 +4,7 @@ description: Learn how the Assets Insights feature lets you track user ratings a
 contentOwner: AG
 role: User, Admin
 feature: Asset Insights,Asset Reports
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 6f6cb4fb-d9c7-4f44-b4ba-adcad74f3a59
 ---

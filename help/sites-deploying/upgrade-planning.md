@@ -27,7 +27,8 @@ The AEM Upgrade process needs carefully handled planning, analysis, and executio
 
 It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, refer the [technical requirements for AEM 6.5 LTS](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your upgrade plan and should take place before upgrading AEM.
 
-<!-- Alexandru: drafting for now
+<!--
+Alexandru: drafting for now
 
 ## Upgrade Scope and Requirements {#upgrade-scope-requirements}
 
@@ -83,13 +84,15 @@ Below you will find a list of areas that are impacted in a typical AEM Upgrade p
  </tbody>
 </table>
 
-It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the [AEM 6.5 Technical Requirements page](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your project plan and should take place before upgrading AEM. -->
+It is important to ensure that you are running a supported operating system, Java&trade; runtime, httpd, and Dispatcher version. For more information, see the [AEM 6.5 Technical Requirements page](/help/sites-deploying/technical-requirements.md). Upgrading these components must be accounted for in your project plan and should take place before upgrading AEM.
+-->
 
 ## Upgrade Phases {#upgrade-phases}
 
 Much work goes into planning and running an AEM upgrade. To clarify the different efforts that go into this process, Adobe has broken down the planning and execution exercises into separate phases. In the sections below, each phase results in a deliverable that is often used by a future phase of the upgrade.
 
-<!-- Alexandru:drafting for now
+<!--
+Alexandru:drafting for now
 
 ### Planning for Author Training {#planning-for-author-training}
 
@@ -97,7 +100,8 @@ With any new release, there are potential changes to the UI and user workflows t
 
 ![unu_cropped](assets/unu_cropped.png)
 
-New features in AEM 6.5 can be found in [the AEM section of adobe.com](/help/release-notes/release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.5, develop a training plan for your authors. This could involve using freely available resources like the help feature videos or formal training offered through [Adobe Digital Learning Services](https://learning.adobe.com/). -->
+New features in AEM 6.5 can be found in [the AEM section of adobe.com](/help/release-notes/release-notes.md). Make sure to note any changes to UIs or product features that are commonly used in your organization. As you look through the new features, also take note of any that can be of value to your organization. After looking through what has changed in AEM 6.5, develop a training plan for your authors. This could involve using freely available resources like the help feature videos or formal training offered through [Adobe Digital Learning Services](https://learning.adobe.com/).
+-->
 
 ### Creating a Test Plan {#creating-a-test-plan}
 
@@ -115,9 +119,11 @@ The [AEM Analyer for AEM 6.5 LTS](/help/sites-deploying/pattern-detector.md) sho
 
 While Adobe has documented the process for upgrading an AEM instance, each customer's network layout, deployment architecture, and customizations require fine-tuning and tailoring of this approach. For this reason, Adobe encourages you to review all the provided documentation and use it to inform a upgrade-specific runbook that outlines the specific upgrade and rollback procedures that you will be following in your environment. 
 
-<!--Alexandru:drafting for now
+<!--
+Alexandru:drafting for now
 
-![runbook-diagram](assets/runbook-diagram.png) -->
+![runbook-diagram](assets/runbook-diagram.png)
+-->
 
 Adobe has provided upgrade and rollback procedures in [Upgrade Procedure](/help/sites-deploying/upgrade-procedure.md) and step-by-step instructions for applying the upgrade in Performing an [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md). These instructions should be reviewed and considered with your system architecture, customizations, and downtime tolerance to determine the appropriate switch-over and rollback procedures that you will be executing during the upgrade. Any changes to architecture or server sizes should be included when drafting your customized runbook.
 
@@ -125,9 +131,11 @@ Adobe has provided upgrade and rollback procedures in [Upgrade Procedure](/help/
 
 The output from the previous exercises can be used to build an upgrade plan covering the expected timelines for your test or development efforts, and actual upgrade execution.
 
-<!--Alexandru: drafting for now
+<!--
+Alexandru: drafting for now
 
-![develop-project-plan](assets/develop-project-plan.png) -->
+![develop-project-plan](assets/develop-project-plan.png)
+-->
 
 A comprehensive project plan should include:
 
@@ -144,9 +152,11 @@ A comprehensive project plan should include:
 
 Adobe has provided procedures for [Upgrading Code and Customizations](/help/sites-deploying/upgrading-code-and-customizations.md) to be compatible with AEM 6.5 LTS. As this iterative process is run, changes should be made to the runbook as needed.
 
-<!--Alexandru: drafting for now
+<!--
+Alexandru: drafting for now
 
-![patru_cropped](assets/patru_cropped.png) -->
+![patru_cropped](assets/patru_cropped.png)
+-->
 
 The development and testing process is usually an iterative one. As issues are discovered that require adjustments to the upgrade process, make sure to add them to your custom upgrade runbook. After several iterations of testing and fixing, the code base should be fully validated and ready for deployment to the staging environment.
 
@@ -154,9 +164,11 @@ The development and testing process is usually an iterative one. As issues are d
 
 Adobe recommends a final round of testing after the codebase has been certified by your organization's QA team. This round of testing will involve validating your runbook on a staging environment followed by rounds of user acceptance, performance, and security testing.
 
-<!--Alexandru: drafting for now
+<!--
+Alexandru: drafting for now
 
-![cinci_cropped](assets/cinci_cropped.png) -->
+![cinci_cropped](assets/cinci_cropped.png)
+-->
 
 This step is vital as it is the only time that you are able to validate the steps in the runbook against a production-like environment. Once the environment has been upgraded, it is important to allow end users some time to log in and go through the activities they do when using the system in their day-to-day activities. Finding and correcting issues in these areas before go-live can help to prevent costly production outages.
 

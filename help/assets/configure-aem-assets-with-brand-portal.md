@@ -3,7 +3,7 @@ title: Configure AEM Assets with Brand Portal
 description: Learn how to configure AEM Assets with Brand Portal for publishing assets and Collections to Brand Portal.
 feature: Brand Portal
 role: Admin
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 22a2428d-3ebd-4368-983e-d140f99de2dd
 ---

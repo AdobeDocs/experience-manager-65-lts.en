@@ -5,7 +5,7 @@ contentOwner: AG
 mini-toc-levels: 1
 role: User,Admin,Developer
 feature: Asset Management,Multi Site Manager
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 29365a8a-7d29-41b2-9a54-d12fe802f6ed
 ---

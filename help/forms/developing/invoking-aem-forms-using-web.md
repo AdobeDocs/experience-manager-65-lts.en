@@ -8,7 +8,7 @@ topic-tags: coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, APIs & Integrations, AEM Forms on JEE
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: ca620313-8c2c-44e6-9f29-0d91dc9f6e03

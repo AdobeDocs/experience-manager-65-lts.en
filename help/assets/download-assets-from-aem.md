@@ -4,7 +4,7 @@ description: Learn how to download assets from [!DNL Adobe Experience Manager] a
 contentOwner: AG
 role: User
 feature: Asset Management,Asset Distribution
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 89b14351-c689-42a6-bd89-cc258f601898
 ---

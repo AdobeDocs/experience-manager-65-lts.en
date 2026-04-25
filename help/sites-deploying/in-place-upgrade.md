@@ -41,7 +41,8 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 1. If custom sling.properties need to be applied, create a fresh local AEM instance and retrieve the sling.properties file from its crx-quickstart/conf directory. Apply the required custom changes to this file, then copy it to the crx-quickstart/conf directory of the AEM instance being upgraded. If there are no custom properties, this step can be skipped.
 
-<!-- Alexandru: drafting temporarily
+<!--
+Alexandru: drafting temporarily
 
 ## Content Repository Migration {#content-repository-migration}
 

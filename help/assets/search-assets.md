@@ -4,7 +4,7 @@ description: Learn how to find the required assets in [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: Search, Metadata
 role: User
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 3511e07b-f6d0-435a-aa80-55357d3dccf5
 ---
@@ -181,7 +181,8 @@ You can search digital assets based on exact values of metadata fields, such as,
 
 The properties `path`, `limit`, `size`, and `orderby` cannot be combined using `OR` operator with any other property.
 
-<!-- TBD: Where are the limit, size, orderby properties defined?
+<!--
+TBD: Where are the limit, size, orderby properties defined?
 -->
 
 The keyword for a user-generated property is its field label in the property editor in lowercase, with spaces removed.

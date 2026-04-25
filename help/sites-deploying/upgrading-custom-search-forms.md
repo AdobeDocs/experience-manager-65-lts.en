@@ -4,7 +4,7 @@ description: This article details the adjustments that are required after an upg
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 9df608f8-cdd0-4820-aab1-eab9fd70f961
 ---

@@ -4,7 +4,7 @@ description: Create, read, update, delete, manage digital assets using HTTP API 
 contentOwner: AG
 role: Developer
 feature: Assets HTTP API,Developer Tools
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7bb4aec8-e6c0-416a-a318-d3120f9688c4
 ---
