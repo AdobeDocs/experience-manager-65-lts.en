@@ -211,8 +211,10 @@ Before Installing Acrobat, review these essential requirements. You should have:
 * Local administrator privileges on the machine running AEM Forms
 * Windows 64-bit operating system 
 * Stable internet connection for license activation
-<!-- Backup solution for existing Acrobat settings
- Supported version of Adobe Acrobat (see [Adobe documentation](https://helpx.adobe.com/acrobat/kb/acrobat-dc-compatibility-with-windows-macos.html) for details) --> 
+<!--
+Backup solution for existing Acrobat settings
+ Supported version of Adobe Acrobat (see [Adobe documentation](https://helpx.adobe.com/acrobat/kb/acrobat-dc-compatibility-with-windows-macos.html) for details)
+--> 
 
 
 #### Implementation Workflow and Timeline

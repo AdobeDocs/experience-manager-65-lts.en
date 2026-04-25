@@ -22,7 +22,8 @@ exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 
 This section covers upgrading an AEM installation to AEM 6.5 LTS:
 
-<!-- Alexandru: drafting for now 
+<!--
+Alexandru: drafting for now 
 
 * [Planning Your Upgrade](/help/sites-deploying/upgrade-planning.md)
 * [Assessing the Upgrade Complexity with Pattern Detector](/help/sites-deploying/pattern-detector.md)

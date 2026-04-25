@@ -16,9 +16,11 @@ exl-id: 195c097b-787a-44a2-aa4f-a9f8ccf93e3d
 
 The software serves interactive viewing experiences, including zoom, 360-degree spin, and video. It uniquely incorporates the workflows of the Adobe Experience Manager digital asset management (Assets) solution to simplify and streamline the digital campaign management process.
 
-<!-- >ARTICLE IS MISSING. GIVES 404 [!NOTE]
+<!--
+>ARTICLE IS MISSING. GIVES 404 [!NOTE]
 >
->A Community article is available on [Working with Adobe Experience Manager and Dynamic Media](https://helpx.adobe.com/experience-manager/using/aem_dynamic_media.html). -->
+>A Community article is available on [Working with Adobe Experience Manager and Dynamic Media](https://helpx.adobe.com/experience-manager/using/aem_dynamic_media.html).
+-->
 
 ## What you can do with the software {#what-you-can-do-with-dynamic-media}
 
