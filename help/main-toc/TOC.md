@@ -398,7 +398,6 @@ user-guide-title: AEM 6.5 LTS
     + [Install [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-install.md)
     + [Configure [!DNL enhanced connector] for [!DNL Workfront]](/help/assets/workfront-connector-configure.md)
 + Forms {#forms}
-  + Release Notes {#release-notes-new-features}
   + [AEM Forms Service Pack Hotfix](/help/forms/using/adobe-experience-manager-forms-65-lts-hotfixes.md)
   + Getting Started {#getting-started}
     + [Introduction to AEM Forms](/help/forms/using/introduction-aem-forms.md)
@@ -1492,3 +1491,8 @@ user-guide-title: AEM 6.5 LTS
     + [Quick Guide to WCAG 2.1](/help/managing/qg-wcag.md)
   + Data Protection {#data-protection}
     + [AEM Readiness for Data Protection and Data Privacy Regulations](/help/managing/data-protection-and-privacy.md)
+
+<!--
+Removed empty section from line 401 under Forms:
+  + Release Notes {#release-notes-new-features}
+-->
