@@ -4,7 +4,7 @@ description: Organize your digital assets, images, files, folders, and so on, us
 contentOwner: AG
 role: User
 feature: Asset Management,Search
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: cb7d28ce-c6bd-4760-b5fd-d0ecb3426844
 ---

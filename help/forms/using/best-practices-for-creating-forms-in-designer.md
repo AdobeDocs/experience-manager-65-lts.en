@@ -4,7 +4,7 @@ description: Learn to know about the best accessibility practices for creating f
 feature: Adaptive Forms, Forms Designer
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 0f9d0b66-d6e4-475a-8727-c1de1a1e1bb0
 ---

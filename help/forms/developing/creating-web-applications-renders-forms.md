@@ -9,7 +9,7 @@ topic-tags: operations
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, Workbench, APIs & Integrations
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 071781e8-990d-4d01-b46e-be1c57bdbe3a

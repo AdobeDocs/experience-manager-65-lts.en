@@ -4,7 +4,7 @@ description: Learn the steps to resolve the issue where the PaperCapture service
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: de3cd0ad-0b18-4d9a-8c6b-72cc16149cfc

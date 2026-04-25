@@ -4,7 +4,7 @@ description: Learn how to find the required assets in [!DNL Adobe Experience Man
 mini-toc-levels: 1
 feature: Search, Metadata
 role: User
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 3511e07b-f6d0-435a-aa80-55357d3dccf5
 ---

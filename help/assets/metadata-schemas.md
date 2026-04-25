@@ -4,7 +4,7 @@ description: Metadata schema defines the layout of the properties page and the m
 mini-toc-levels: 1
 role: User,Admin
 feature: Metadata
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: bf5c2dff-db68-4e82-8217-ff35069dcb81
 ---

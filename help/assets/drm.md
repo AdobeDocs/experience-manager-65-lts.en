@@ -4,7 +4,7 @@ description: Learn how to manage asset expiration states and information for lic
 contentOwner: AG
 role: User, Admin
 feature: DRM,Asset Management
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 5870209f-9e0c-4e60-a083-e46edb707ae7
 ---

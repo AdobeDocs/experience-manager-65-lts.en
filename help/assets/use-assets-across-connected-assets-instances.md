@@ -5,7 +5,7 @@ contentOwner: AK
 mini-toc-levels: 2
 role: User, Admin, Leader
 feature: Connected Assets,User and Groups
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 61a1c41a-7aec-4ffb-b622-905b3ca62c1b
 ---

@@ -9,7 +9,7 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 exl-id: 7c92e9bb-aa68-4d4b-bf62-060a213e50f3
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---

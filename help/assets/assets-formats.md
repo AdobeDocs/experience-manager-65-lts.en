@@ -4,7 +4,7 @@ description: File formats and MIME types supported by [!DNL Assets] and [!DNL Dy
 mini-toc-levels: 1
 role: User, Admin
 feature: Asset Management,Renditions
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: e48f7950-1b6e-4896-8abc-523552e42ed9
 ---

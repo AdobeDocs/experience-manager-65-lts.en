@@ -4,7 +4,7 @@ description: Search, fetch, license, and manage [!DNL Adobe Stock] assets from w
 contentOwner: Vishabh Gupta
 feature: Search, Adobe Stock
 role: User, Admin
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 33f539d2-ae00-4f43-a27a-55c1b55a6c0c
 ---

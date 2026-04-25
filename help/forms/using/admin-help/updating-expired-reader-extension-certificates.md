@@ -4,7 +4,7 @@ description: Expiration of Reader Extensions certificates and its impact
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 83dbd00e-28ad-4a2e-ac22-3658fb6f639b

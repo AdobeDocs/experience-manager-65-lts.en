@@ -7,7 +7,7 @@ docset: aem65
 role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: c84ba536-a78d-4cf9-a480-59cb18e41076

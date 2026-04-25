@@ -4,7 +4,7 @@ description: Using the execute script service in AEM Forms on JEE Workbench to b
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 2f49cb29-698b-43ab-971f-81e2b18e6fa9

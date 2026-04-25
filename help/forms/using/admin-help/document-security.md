@@ -4,7 +4,7 @@ description: Learn how you can create, store, and apply predefined confidentiali
 feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 5e7fe85e-3c7f-4a37-8f65-5c0ad4bbd66c

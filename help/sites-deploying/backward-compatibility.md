@@ -4,7 +4,7 @@ description: Learn how to keep your apps and configurations compatible with Adob
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 96e44da3-da89-4671-a4fb-19ce1b9a38c4
 ---

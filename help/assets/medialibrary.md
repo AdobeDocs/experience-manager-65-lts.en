@@ -3,7 +3,7 @@ title: Use Media Library for basic digital asset management
 description: '[!DNL Experience Manager Assets] and Media Library for asset management.'
 role: Developer,Leader
 feature: Asset Management
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 50a980e5-3b35-4485-9a5b-44d1a42a837c
 ---

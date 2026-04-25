@@ -5,7 +5,7 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 docset: aem65
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 role: Admin,User

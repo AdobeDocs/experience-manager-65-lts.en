@@ -5,7 +5,7 @@ contentOwner: AG
 role: User
 feature: Asset Management,Search
 mini-toc-levels: 4
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7398b95b-e82d-4241-8f32-13b8d20caad9
 ---

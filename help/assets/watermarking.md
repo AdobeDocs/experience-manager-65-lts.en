@@ -4,7 +4,7 @@ description: Learn how to use the Watermarking feature to add a digital watermar
 contentOwner: AG
 role: User, Admin
 feature: Asset Management
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 6c8b4ff5-28ac-4655-b310-4f0b0417bd63
 ---

@@ -5,7 +5,7 @@ contentOwner: AG
 mini-toc-levels: 1
 role: User, Admin
 feature: Collaboration,Adobe Asset Link,Desktop App
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 51a2f4bb-5fca-48fa-855d-1d610a5eb7c0
 ---

@@ -4,7 +4,7 @@ description: When a customer generates a large number of PDFs via services imple
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Services
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 80a4e5c0-d68f-4591-a43d-ab75b5f0764c
