@@ -4,7 +4,7 @@ description: You can create custom reports and add these reports to the AEM Form
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 5670fede-4567-445e-8eeb-84349405db0e

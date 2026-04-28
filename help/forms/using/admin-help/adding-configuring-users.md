@@ -4,7 +4,7 @@ description: The User Management settings in the administration console let you 
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: b3f8e1d6-3e6e-4b2c-8528-3346bbda3396

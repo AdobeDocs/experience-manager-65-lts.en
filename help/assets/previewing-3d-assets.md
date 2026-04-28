@@ -5,7 +5,7 @@ contentOwner: Rick Brough
 docset: aem65
 feature: 3D Assets
 role: User
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 88dc81aa-f8b2-403e-bd87-ea224ac2d0c2
 ---

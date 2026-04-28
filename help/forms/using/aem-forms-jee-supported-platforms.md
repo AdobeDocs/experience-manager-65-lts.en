@@ -401,8 +401,10 @@ AEM Forms App now supports the Apache Cordova. Following are the platform-specif
 >- The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
 >- PDF Generator service does not support Microsoft&reg; Windows 11
 
-<!-- Removed lines: >- PDF Generator fails to convert files using Microsoft&reg; Visio 2019. You can continue to use Microsoft&reg; Visio 2016 to convert .VSD and .VSDX files.
->- PDF Generator fails to convert files using Microsoft&reg; Project 2019. You can continue to use Microsoft&reg; Project 2016 to convert .MPP files.-->
+<!--
+Removed lines: >- PDF Generator fails to convert files using Microsoft&reg; Visio 2019. You can continue to use Microsoft&reg; Visio 2016 to convert .VSD and .VSDX files.
+>- PDF Generator fails to convert files using Microsoft&reg; Project 2019. You can continue to use Microsoft&reg; Project 2016 to convert .MPP files.
+-->
 
 ### Exceptions to accessibility support {#exceptions-to-accessibility-support}
 

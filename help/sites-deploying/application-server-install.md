@@ -27,9 +27,11 @@ The installation steps of the following Application Servers are described:
 
 Consult the appropriate application server documentation for more information on installing web applications, server configurations and how to start and stop the server.
 
-<!-- >[!NOTE]
+<!--
+>[!NOTE]
 >
->If you are using Dynamic Media in a WAR deployment, see [Dynamic Media documentation](/help/assets/config-dynamic.md#enabling-dynamic-media). -->
+>If you are using Dynamic Media in a WAR deployment, see [Dynamic Media documentation](/help/assets/config-dynamic.md#enabling-dynamic-media).
+-->
 
 ## General Description {#general-description}
 

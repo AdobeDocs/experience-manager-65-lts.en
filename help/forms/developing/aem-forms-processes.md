@@ -8,7 +8,7 @@ topic-tags: development-tools, coding
 role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 228185f0-deef-4d49-a5b9-0c19411e30c2

@@ -4,7 +4,7 @@ description: Best practices and guidelines for accessibility while developing fo
 feature: Adaptive Forms, Forms Designer
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 7d082f5d-9c10-47a7-95d3-f2219c4b139c
 ---

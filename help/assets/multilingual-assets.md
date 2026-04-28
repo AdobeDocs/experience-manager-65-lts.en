@@ -4,7 +4,7 @@ description: Learn how to automate workflows for translating assets, including b
 contentOwner: AG
 feature: Asset Management
 role: Admin
-hide: yes
+hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 512bd351-2e6b-47a2-85c6-a23ea2c7102f
 ---

@@ -4,7 +4,7 @@ description: Know the useful links for creating accessible forms in Forms Design
 feature: Adaptive Forms, Forms Designer
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 6309875f-3cf0-4e3b-abe2-10decde6b313
 ---

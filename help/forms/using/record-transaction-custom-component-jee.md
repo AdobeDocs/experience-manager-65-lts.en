@@ -4,7 +4,7 @@ description: Learn about using the TransactionRecorder API to record transaction
 feature: Transaction Reports
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: e2d1b548-ce30-471b-b01c-ce37b737aeb5
@@ -32,9 +32,11 @@ If you must capture more than one transaction for an API, such as a batch API wh
     1. Add logic so you can store the transaction count in some integer variable, such as, `transaction_count`.
     1. When the operation is successful, add `InvocationContextStack.recordTransactionCount(transaction_count)`.
 
-<!--For example, you can set count for your custom component by importing class `"com.adobe.idp.dsc.InvocationContextStack"` in the code available at `adobe-livecycle-client.jar`  and determine the transaction count basis API input/result and add (In this case we add count is equal to 3):
+<!--
+For example, you can set count for your custom component by importing class `"com.adobe.idp.dsc.InvocationContextStack"` in the code available at `adobe-livecycle-client.jar`  and determine the transaction count basis API input/result and add (In this case we add count is equal to 3):
 `InvocationContextStack.recordTransactionCount(<count>).` to 
-`InvocationContextStack.recordTransactionCount(3)`.-->
+`InvocationContextStack.recordTransactionCount(3)`.
+-->
 
 ## Related Articles
 

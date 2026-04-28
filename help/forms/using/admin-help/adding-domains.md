@@ -4,7 +4,7 @@ description: Learn how to add an enterprise, local, or hybrid domain using Domai
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 70b0472e-2547-4887-b761-b200dc7b714a

@@ -4,7 +4,7 @@ description: Learn how to use the CRX2Oak migration tool with Adobe Experience M
 feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 542967b2-e2cf-40d1-a805-456dc6e671a9
 ---

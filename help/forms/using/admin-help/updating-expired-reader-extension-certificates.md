@@ -4,7 +4,7 @@ description: Expiration of Reader Extensions certificates and its impact
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
-hide: yes
+hide: true
 hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 83dbd00e-28ad-4a2e-ac22-3658fb6f639b
@@ -76,7 +76,7 @@ A. You can use the [getDocumentUsageRights](/help/forms/developing/acrobat-reade
 A. On Microsoft Windows, to change the certificate Password, install the certificate using the Microsoft Management Console (MMC) and select **Mark the key as Exportable**. Once installed, export the certificate with a Private key, and use another password for the PFX file.
 
 
-<!-- 
+<!--
 ## Applying the certificates {#obtaning-and-applying-the-certificates} 
 
 You can choose one of the following paths to apply latest certificates:
@@ -185,4 +185,5 @@ Remove usage rights from existing rights-enabled PDF documents before applying u
 
 #### Apply the usage rights to PDF documents 
 
-To apply usage rights in an AEM Forms on OSGi environment, Create custom OSGi service to usage rights to the documents. You can also create a servlet with a POST method to return the reader extended PDF to the user. For detailed instructions, see [Applying Reader Extensions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/apply-reader-extension-rights-to-pdf.html).  -->
+To apply usage rights in an AEM Forms on OSGi environment, Create custom OSGi service to usage rights to the documents. You can also create a servlet with a POST method to return the reader extended PDF to the user. For detailed instructions, see [Applying Reader Extensions](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/apply-reader-extension-rights-to-pdf.html).
+-->
