@@ -583,6 +583,9 @@ This section lists features and capabilities that have been removed from AEM 6.5
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `com.github.jknack.handlebars` is not supported| Pick the relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
+### JSON comments no longer supported in Sling-Initial-Content {#json-comments-no-longer-supported-in-sling-initial-content}
+
+AEM 6.5 LTS SP2 upgraded `org.apache.sling.jcr.contentloader` to version 2.6.0, which switched its JSON parser from `javax.json` to `jakarta.json`. The active `jakarta.json` provider in this release does not support comments (`//` or `/* */`) in JSON files. Earlier AEM 6.5 releases used a JSON provider that supported comments, but JSON comments are not part of the [JSON specification (RFC 8259)](https://datatracker.ietf.org/doc/html/rfc8259). If your bundles use `Sling-Initial-Content` with JSON files that contain comments, remove the comments to avoid content loading failures.
 
 ## Known issues {#known-issues} 
 
