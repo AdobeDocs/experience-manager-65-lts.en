@@ -567,10 +567,6 @@ This section lists features and capabilities that have been removed from AEM 6.5
 |Open Source| `org.apache.jackrabbit.api` packages now are exported from the `org.apache.jackrabbit.oak-jackrabbit-api` bundle.| No change required. | 6.5 LTS GA |
 |Open Source| `com.github.jknack.handlebars` is not supported| Pick the relevant [version](https://mvnrepository.com/artifact/com.github.jknack/handlebars) | 6.5 LTS GA |
 
-### JSON comments no longer supported in Sling-Initial-Content {#json-comments-no-longer-supported-in-sling-initial-content}
-
-AEM 6.5 LTS SP2 upgraded `org.apache.sling.jcr.contentloader` to version 2.6.0, which switched its JSON parser from `javax.json` to `jakarta.json`. The active `jakarta.json` provider in this release does not support comments (`//` or `/* */`) in JSON files. Earlier AEM 6.5 releases used a JSON provider that supported comments, but JSON comments are not part of the [JSON specification (RFC 8259)](https://datatracker.ietf.org/doc/html/rfc8259). If your bundles use `Sling-Initial-Content` with JSON files that contain comments, remove the comments to avoid content loading failures.
-
 ## Known issues {#known-issues} 
 
 ### AEM Forms
@@ -593,6 +589,18 @@ Plan for the downtime of the instance when applying it. For offline compaction, 
 > * For any `oak-run` operations, use the [`oak-run` 1.88.1-B006 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar).
 >
 > * Start AEM by setting the system property `oak.compaction.legacy=true`.
+
+### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
+
+This issue affects OSGi bundle developers and administrators who deploy bundles that use `Sling-Initial-Content` with JSON files.
+
+Starting with AEM 6.5 LTS SP2, JSON files used in `Sling-Initial-Content` bundles no longer accept comments (`//` or `/* */`). Earlier AEM releases accepted comments because the `javax.json` provider was lenient about this. AEM 6.5 LTS SP2 upgraded `org.apache.sling.jcr.contentloader` to version 2.6.0, which switched the JSON parser to `jakarta.json`. While the [JSON specification (RFC 8259)](https://datatracker.ietf.org/doc/html/rfc8259) does not define syntax for comments, earlier AEM releases accepted them due to the leniency of the `javax.json` provider. The `jakarta.json` provider does not offer this extension.
+
+The failure is silent: content nodes fail to load at bundle activation with no error surfaced to the installer. If content is unexpectedly missing after upgrading to SP2, check the OSGi installer logs for JSON parsing errors. To identify affected bundles, search for `//` or `/* */` inside JSON files listed under `Sling-Initial-Content` manifest headers.
+
+>[!CAUTION]
+>
+> Remove all comments from JSON files in your `Sling-Initial-Content` bundles to avoid content loading failures after upgrading to AEM 6.5 LTS SP2.
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
