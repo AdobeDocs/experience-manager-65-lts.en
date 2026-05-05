@@ -24,6 +24,14 @@ For detailed documentation on the Felix Health Check framework, refer to the [fe
 
 The AEM Groovy console version that was being used in AEM 6.5 might not work in AEM 6.5 LTS due to missing guava dependencies. The newly supported version of the AEM Groovy console is [19.0.8](https://github.com/orbinson/aem-groovy-console/releases/download/19.0.8/aem-groovy-console-all-19.0.8.zip).
 
+#### Additional configuration required for AEM Groovy Console
+
+If you are using the AEM Groovy Console, you must explicitly add the following OSGi configuration for `com.adobe.granite.apicontroller.FilterResolverHookFactory` (accessible via the AEM Web Console or your project's OSGi configuration). Add `aem-groovy-console-bundle` to the allowed bundle list for the `org.apache.sling.distribution.api` key:
+
+```
+"org.apache.sling.distribution.api": "com.adobe.*,com.day.*,org.apache.sling.*,aem-groovy-console-bundle"
+```
+
 ### Does AEM 6.5 LTS support user-sync?
 
 Yes, AEM 6.5 LTS supports user-sync. There is no change in the functionality of user-sync between AEM 6.5 and 6.5 LTS.
