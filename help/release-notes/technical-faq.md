@@ -20,17 +20,19 @@ The new health check endpoint is available at `/system/health` and is implemente
 
 For detailed documentation on the Felix Health Check framework, refer to the [felix documentation](https://github.com/apache/felix-dev/blob/master/healthcheck/README.md).
 
-### AEM Groovy console support
+### AEM Groovy Console support
 
-The AEM Groovy console version that was being used in AEM 6.5 might not work in AEM 6.5 LTS due to missing guava dependencies. The newly supported version of the AEM Groovy console is [19.0.8](https://github.com/orbinson/aem-groovy-console/releases/download/19.0.8/aem-groovy-console-all-19.0.8.zip).
+The AEM Groovy Console version that was being used in AEM 6.5 might not work in AEM 6.5 LTS due to missing guava dependencies. The newly supported version of the AEM Groovy Console is [19.0.8](https://github.com/orbinson/aem-groovy-console/releases/download/19.0.8/aem-groovy-console-all-19.0.8.zip).
 
 #### Additional configuration required for AEM Groovy Console
 
-If you are using the AEM Groovy Console, you must explicitly add the following OSGi configuration for `com.adobe.granite.apicontroller.FilterResolverHookFactory` (accessible via the AEM Web Console or your project's OSGi configuration). Add `aem-groovy-console-bundle` to the allowed bundle list for the `org.apache.sling.distribution.api` key:
+If you are using the AEM Groovy Console, you must explicitly add the following OSGi configuration for `com.adobe.granite.apicontroller.FilterResolverHookFactory`. Add `aem-groovy-console-bundle` to the allowed bundle list for the `org.apache.sling.distribution.api` key, extending the platform defaults:
 
 ```
 "org.apache.sling.distribution.api": "com.adobe.*,com.day.*,org.apache.sling.*,aem-groovy-console-bundle"
 ```
+
+Adobe recommends adding this configuration at the project level (for example, in your project's OSGi configuration files) rather than through the AEM Web Console, so that it is preserved across service pack updates.
 
 ### Does AEM 6.5 LTS support user-sync?
 
