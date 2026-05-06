@@ -32,8 +32,6 @@ If you are using the AEM Groovy Console, you must explicitly add the following O
 "org.apache.sling.distribution.api": "com.adobe.*,com.day.*,org.apache.sling.*,aem-groovy-console-bundle"
 ```
 
-Adobe recommends adding this configuration at the project level (for example, in your project's OSGi configuration files) rather than through the AEM Web Console, so that it is preserved across service pack updates.
-
 ### Does AEM 6.5 LTS support user-sync?
 
 Yes, AEM 6.5 LTS supports user-sync. There is no change in the functionality of user-sync between AEM 6.5 and 6.5 LTS.
