@@ -9,7 +9,6 @@ feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: e8faf76e-5287-4b0c-b440-f348443287f3
 ---

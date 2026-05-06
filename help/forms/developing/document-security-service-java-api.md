@@ -10,7 +10,6 @@ solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,AEM Forms on JEE
 exl-id: 7c92e9bb-aa68-4d4b-bf62-060a213e50f3
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 ---
 # Document Security Service Java API Quick Start (SOAP) {#document-security-service-javaapi-quick-start-soap}

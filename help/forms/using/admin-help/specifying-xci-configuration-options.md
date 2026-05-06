@@ -9,7 +9,6 @@ solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 198016d7-0fb5-47e6-91ed-f2f0c98b2224
 ---

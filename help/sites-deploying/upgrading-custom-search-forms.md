@@ -5,7 +5,6 @@ feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 hide: true
-hidefromtoc: yes
 exl-id: 9df608f8-cdd0-4820-aab1-eab9fd70f961
 ---
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}

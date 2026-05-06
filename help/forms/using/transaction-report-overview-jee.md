@@ -5,7 +5,6 @@ feature: Transaction Reports
 role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: f2703820-8701-4b48-be9c-12daa73d5408
 ---

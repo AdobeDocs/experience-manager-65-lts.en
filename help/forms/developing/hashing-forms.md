@@ -5,7 +5,6 @@ solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,Document Security
 role: User, Developer
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 3fa1b6c9-fe73-4d76-aa72-20ce3e502941
 ---

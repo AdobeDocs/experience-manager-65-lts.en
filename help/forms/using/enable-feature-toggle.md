@@ -3,7 +3,6 @@ title: Enable Feature Toggle to Integrate Early Adopter and Prerelease Features
 description: Feature Toggle is a functionality in AEM that allows administrators to enable new features in a runtime environment.
 feature: Adaptive Forms, Foundation Components
 role: User, Developer
-hidefromtoc: yes
 exl-id: 8b6dea41-540b-498a-b52b-e584a9255f25
 ---
 # Feature Toggle in Adobe Experience Manager (AEM) 6.5{#enable-feature-toggle-aem-forms-65}
