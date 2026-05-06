@@ -9,7 +9,6 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,APIs & Integrations,Workbench
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 37f5efaa-db0b-4035-987d-4140fc5a97be
 ---

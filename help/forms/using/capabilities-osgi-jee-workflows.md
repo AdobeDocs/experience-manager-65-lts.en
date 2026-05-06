@@ -4,7 +4,6 @@ description: Actions and capabilities of Form-centric AEM Workflows on OSGi and 
 contentOwner: khsingh
 solution: Experience Manager, Experience Manager Forms
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 feature: Adaptive Forms,AEM Forms on OSGi
 role: User, Developer

@@ -5,7 +5,6 @@ feature: Adaptive Forms, Forms Designer
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 hide: true
-hidefromtoc: yes
 exl-id: 06d05a33-82bd-420c-89b4-3d93dbcd4589
 ---
 # Techniques for testing form accessibility

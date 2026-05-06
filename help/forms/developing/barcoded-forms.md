@@ -9,7 +9,6 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, APIs & Integrations, Barcoded Forms
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 71dc8036-f9a3-4e00-bce1-3f162428053d
 ---

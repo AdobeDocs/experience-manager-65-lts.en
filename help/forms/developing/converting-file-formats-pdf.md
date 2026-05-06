@@ -9,7 +9,6 @@ role: Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms, Document Services
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: c6e007e9-6050-4d86-a32e-0bd942d48f27
 ---

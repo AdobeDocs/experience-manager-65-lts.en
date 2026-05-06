@@ -5,7 +5,6 @@ feature: PDF Generator
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 hide: true
-hidefromtoc: yes
 removedfrom6.5.2025: yes
 exl-id: 6e9c42d9-fb1d-432b-95b9-6e21706b2a3e
 ---
