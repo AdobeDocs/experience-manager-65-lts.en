@@ -275,6 +275,8 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 * In AEM Forms 6.5 LTS cluster deployments on JBoss&reg; EAP 8, the `domain/configuration/domain_oracle.xml`, `domain_mysql.xml`, and `domain_mssql.xml` files no longer contain a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. (FORMS-24687)
 * In Turnkey mode, the database port update is now applied correctly during fresh installation and upgrade. In fresh installation mode, users can select from all available ports, and in Upgrade mode, the database port updated in lc_turnkey.xml is correctly referenced during the upgrade process. (FORMS-24689)
 * When setting up JBoss&reg; EAP 8.0 on Linux&reg;, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. (FORMS-24688)
+* On Forms JEE LTS deployments running on JBoss&reg; EAP 8, the Reader Extensions UI may fail with an internal server error. (FORMS-24894)
+* On Linux&reg;, users experienced runtime or deployment issues when Forms JEE LTS Configuration Manager ran with an unset or incorrect `OSFileSetIntendedFor` value in `configurationManager/config/solcomp/LFS_Foundation.properties`, which prevented the configuration from being tailored correctly for Linux&reg;. After installation and before running Configuration Manager, set `OSFileSetIntendedFor=Linux` in that file. (FORMS-24741)
 
 <!--
 #### Forms JEE 
@@ -572,9 +574,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 ### AEM Forms
 
 * In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
-* On Forms JEE LTS deployments running on JBoss&reg; EAP 8, the Reader Extensions UI may fail with an internal server error. (FORMS-24894)
 * On Forms JEE LTS  running on JBoss&reg;, email-related functionality may fail. When attempting to use email features, the server may log an error similar to `Error IMAPProvider not a subtype`. (FORMS-24892)
-* On Linux&reg; platforms, Forms JEE LTS requires the `OSFileSetIntendedFor` property in `LFS_Foundation.properties` to be set correctly before running Configuration Manager. If it is not updated, the configuration may not be tailored properly for Linux&reg;, which can lead to runtime or deployment issues. To resolve the issue, after running the installer and before executing Configuration Manager, navigate to `configurationManager/config/solcomp/`, open `LFS_Foundation.properties`, set `OSFileSetIntendedFor=Linux`, save the file, and then run Configuration Manager. (FORMS-24741)
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
