@@ -590,6 +590,16 @@ Plan for the downtime of the instance when applying it. For offline compaction, 
 >
 > * Start AEM by setting the system property `oak.compaction.legacy=true`.
 
+### Missing `com.adobe.granite.apicontroller` bundle in AEM 6.5 LTS SP2 (GRANITE-67640) {#missing-apicontroller-bundle-granite-67640}
+
+The `com.adobe.granite.apicontroller` bundle is missing in AEM 6.5 LTS SP2. This bundle controls how OSGi bundles are resolved and can prevent bundles from resolving to other bundles, which is useful for limiting exposed APIs.
+
+Install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip) to use this functionality.
+
+>[!NOTE]
+>
+> After installing the hotfix, verify the bundle status of all installed bundles to ensure that the default configuration of `com.adobe.granite.apicontroller` has not introduced unintended resolution restrictions that could affect existing custom implementations.
+
 ### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
 
 This issue affects OSGi bundle developers and administrators who deploy bundles that use `Sling-Initial-Content` with JSON files.
