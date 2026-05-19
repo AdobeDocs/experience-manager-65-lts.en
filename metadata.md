@@ -10,6 +10,7 @@ product_v2:
     internal-label: "Experience Manager"
   - id: ae206583-dab1-444b-b978-a37aad4a988c
     internal-label: "Adobe Experience Manager 6.5 LTS"
+usetq: true
 landing-page-name: experience-manager-lts
 landing-page-breadcrumb-title: AEM 6.5 LTS
 version: Experience Manager 6.5 LTS
