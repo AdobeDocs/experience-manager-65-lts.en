@@ -307,10 +307,6 @@ When upgrading your instance:
 
     * `/libs/settings/workflow/models/projects`
 
->[!NOTE]
->
->See also [Repository Restructuring in AEM 6.5](/help/sites-deploying/repository-restructuring.md).
-
 ## System Tools {#system-tools}
 
 There are many system tools available to help with monitoring, maintaining, and troubleshooting workflows. All example URLs below use `localhost:4502`, but should be available on any author instance ( `<hostname>:<port>`).
