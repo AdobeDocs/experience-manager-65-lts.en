@@ -651,12 +651,12 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
 
-## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included} 
+## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
-The following text documents list the OSGi bundles and Content Packages included in this [!DNL Experience Manager] 6.5 LTS, Service Pack 2 release: <!-- UPDATE FOR EACH NEW RELEASE -->
+The following zip files contain the text documents that list the OSGi bundles and content packages included in this Experience Manager 6.5 LTS Service Pack release:
 
-* [List of OSGi bundles included in Experience Manager 6.5 LTS, Service Pack 2](/help/release-notes/assets/65lts_sp2_bundles.txt) <!-- UPDATE FOR EACH NEW RELEASE -->
-* [List of Content Packages included in Experience Manager 6.5 LTS, Service Pack 2](/help/release-notes/assets/65lts_sp2_packages.txt) <!-- UPDATE FOR EACH NEW RELEASE -->
+* [OSGi bundles](/help/release-notes/assets/65lts_sp2_bundles.zip) 
+* [Content packages](/help/release-notes/assets/65lts_sp2_packages.zip)
 
 ## Restricted websites{#restricted-sites}
 
