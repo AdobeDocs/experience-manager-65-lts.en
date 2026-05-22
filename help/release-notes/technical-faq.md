@@ -40,6 +40,12 @@ Yes, AEM 6.5 LTS supports user-sync. There is no change in the functionality of 
 
 Verify that you are using the Uber JAR with the `apis` classifier. Note that the packaging structure of the Uber JAR has changed in AEM 6.5 LTS. For more information, see [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
+### Does AEM 6.5 LTS support the `jakarta.*` package namespaces (for example, `jakarta.annotation`)?
+
+No. AEM 6.5 LTS does not support Sling artifacts migrated to the `jakarta.*` package namespaces. Use the `javax.*` equivalents in your code and dependencies — for example, `javax.annotation.PostConstruct` rather than `jakarta.annotation.PostConstruct` in Sling Models. The Sling Models implementation in AEM 6.5 LTS recognizes only the `javax.*` annotations, so `jakarta.*` annotations are silently ignored during initialization.
+
+For more information, see the knowledge base article [Sling Models with `jakarta.annotation.PostConstruct` fail on AEM 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30339).
+
 ## Getting Additional Help
 
 If you encounter issues not covered here:
