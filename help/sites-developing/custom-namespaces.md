@@ -48,4 +48,4 @@ The following code is used to configure a `wknd` namespace.
 }
 ```
 
-This allows custom properties using the `wknd` namespace, as denoted as the first parameter after the `register namespace` instruction, to be used in AEM. For more advanced script definitions, review the examples in the [Sling Repository Initialization (repoinit) documentation](https://sling.apache.org/documentation/bundles/repository-initialization.html#repoinit-parser-test-scenarios).
+This allows custom properties using the `wknd` namespace, as denoted by the first parameter after the `register namespace` instruction, to be used in AEM. For more advanced script definitions, review the examples in the [Sling Repository Initialization (repoinit) documentation](https://sling.apache.org/documentation/bundles/repository-initialization.html#repoinit-parser-test-scenarios).
