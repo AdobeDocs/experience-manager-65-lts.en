@@ -1,14 +1,9 @@
 ---
 title: Custom Namespaces
 description: Learn how to define and deploy custom namespaces to AEM 6.5 LTS.
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: platform
-content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Developing,JCR
 role: Developer
-exl-id: a7e5d7b4-3c8f-4e2a-9b1d-5f6c8e3a4d72
 ---
 
 # Custom Namespaces{#custom-namespaces}
