@@ -26,7 +26,7 @@ Custom namespaces are the optional part of a JCR property preceding a `:`. AEM u
 
 Namespaces can be used to denote the scope and intent of a property. Creating a custom namespace, often your company name, helps clearly identify nodes or properties specific to your AEM implementation and contain data specific to your business.
 
-Custom namespaces are managed in [Sling Repository Initialization (repoinit)](https://sling.apache.org/documentation/bundles/repository-initialization.html) scripts, and deployed to AEM 6.5 LTS as OSGI configurations added to your AEM project's `ui.apps` content package.
+Custom namespaces are managed in [Sling Repository Initialization (repoinit)](https://sling.apache.org/documentation/bundles/repository-initialization.html) scripts, and deployed to AEM 6.5 LTS as OSGi configurations added to your AEM project's `ui.apps` content package.
 
 ## Resources
 
