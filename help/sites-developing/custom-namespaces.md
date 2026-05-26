@@ -36,7 +36,7 @@ Custom namespaces are managed in [Sling Repository Initialization (repoinit)](ht
 
 The following code is used to configure a `wknd` namespace.
 
-### RepositoryInitializer OSG configuration
+### RepositoryInitializer OSGi configuration
 
 `/ui.apps/src/main/content/jcr_root/apps/wknd-examples/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~wknd-examples-namespaces.cfg.json`
 
