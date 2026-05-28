@@ -23,11 +23,11 @@ Namespaces can be used to denote the scope and intent of a property. Creating a 
 
 Custom namespaces are managed in [Sling Repository Initialization (repoinit)](https://sling.apache.org/documentation/bundles/repository-initialization.html) scripts, and deployed as OSGi configurations in your project's configuration package (for example, `ui.config`).
 
-## Resources
+## Resources {#resources}
 
 + [Sling Repository Initialization (repoinit) documentation](https://sling.apache.org/documentation/bundles/repository-initialization.html#repoinit-parser-test-scenarios)
 
-## Code
+## Code {#code}
 
 The following code is used to configure a `wknd` namespace.
 

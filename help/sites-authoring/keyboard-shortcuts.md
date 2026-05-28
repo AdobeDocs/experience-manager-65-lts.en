@@ -1,10 +1,6 @@
 ---
 title: Keyboard shortcuts for consoles in AEM
 description: Save time when authoring by using these keyboard shortcuts.
-contentOwner: Chris Bohnert
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-topic-tags: introduction
-content-type: reference
 solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User,Admin,Developer
@@ -34,7 +30,7 @@ The following shortcuts are available for the Sites, Commerce, Screens, Assets, 
 |Consoles|`?`|Keyboard shortcut help|
 ||`/`|Invoke [search](/help/sites-authoring/search.md)|
 ||`Alt+`&lt;`Number`&gt;|Toggle which [rail selector](/help/sites-authoring/basic-handling.md#rail-selector) option to view|
-||``` ` ```|Hide rail|
+||`` ` ``|Hide rail|
 ||`e`|Edit|
 ||`p`|Properties|
 ||`m`|Move|
