@@ -1406,6 +1406,7 @@ user-guide-title: AEM 6.5 LTS
       + [Code pitfalls](/help/sites-developing/code-pitfalls.md)
       + [OSGI Bundles](/help/sites-developing/osgi-bundles.md)
       + [JCR Integration](/help/sites-developing/jcr-integration.md)
+      + [Custom Namespaces](/help/sites-developing/custom-namespaces.md)
       + [Code Samples](/help/sites-developing/code-samples.md)
       + [Troubleshooting Slow Queries](/help/sites-developing/troubleshooting-slow-queries.md)
   + Deploying {#deploying}
