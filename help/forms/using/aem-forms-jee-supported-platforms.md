@@ -77,7 +77,7 @@ Adobe recommends these configurations and provides full or restricted support as
 >To help AEM Forms customers reduce the cost of ownership, simplify the deployment architecture, and modernize the development stack, Adobe Experience Manager enterprise platform is moving away from application server-based deployments in favor of standalone OSGi-based deployments. Adobe continues to support the AEM Forms JEE stack with a reduced matrix of infrastructure components.
 >For new installations, where feasible it is recommended to deploy AEM Forms on the modern OSGi stack to use the latest innovations around responsive Adaptive Forms for mobile, multi-channel Interactive Communications, and backend data integrations using Form Data Model.
 >
->Adobe recognizes that existing users must continue to deploy AEM Forms on JEE stack. In such scenarios, Adobe requires the deployment of AEM Forms JEE on supported infrastructure as described in this documentation. If you are upgrading to AEM 6.5 Forzms and using a non-supported platform on the previous AEM Forms release, you can contact Adobe Support for help on upgrading to a supported platform.
+>Adobe recognizes that existing users must continue to deploy AEM Forms on JEE stack. In such scenarios, Adobe requires the deployment of AEM Forms JEE on supported infrastructure as described in this documentation. If you are upgrading to AEM 6.5 Forms and using a non-supported platform on the previous AEM Forms release, you can contact Adobe Support for help on upgrading to a supported platform.
 
 ### Java&trade; Virtual Machines (JVM) {#java-virtual-machines-jvm}
 
@@ -266,6 +266,11 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
   </tr>
   <tr>
    <td><p>Microsoft&reg; Windows&reg; 10 64-bit</p> </td>
+   <td>E: Expected to work</td>
+   <td><p>Service pack and critical updates</p> </td>
+  </tr>
+  <tr>
+   <td><p>Microsoft&reg; Windows&reg; 11 64-bit</p> </td>
    <td>E: Expected to work</td>
    <td><p>Service pack and critical updates</p> </td>
   </tr>
@@ -485,6 +490,10 @@ For additional requirements see:
   </tr>
   <tr>
    <td><p>Microsoft&reg; Windows&reg; 10 (Enterprise, Pro, Basic)</p> <p>32-bit or 64-bit version</p> <p> </p> </td>
+   <td>Service packs and critical updates</td>
+  </tr>
+  <tr>
+   <td><p>Microsoft&reg; Windows&reg; 11 (Enterprise, Pro, Basic)</p> <p>64-bit version</p> <p> </p> </td>
    <td>Service packs and critical updates</td>
   </tr>
   <tr>
