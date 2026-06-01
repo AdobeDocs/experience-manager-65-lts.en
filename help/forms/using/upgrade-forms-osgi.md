@@ -129,7 +129,7 @@ Before beginning the deployment process, ensure your environment meets the follo
 2. Note this directory path as `<JBOSS_HOME>` for use throughout this guide.
 
    **Example:**  
-   ```C:\jboss-eap-8.0```
+   `C:\jboss-eap-8.0`
 
 ### Step 2: Prepare the AEM WAR File
 
@@ -283,7 +283,7 @@ After completing all configuration changes, repackage the WAR file.
    ```
 
    **Example:**
-   ```C:\jboss-eap-8.0\standalone\deployments```
+   `C:\jboss-eap-8.0\standalone\deployments`
 
 #### Configure JVM Settings (Optional but Recommended)
 
@@ -314,7 +314,7 @@ Before starting JBoss, configure JVM memory settings:
    ```
 
    **Example:**
-   ```cmd cd C:\jboss-eap-8.0\bin```
+   `cmd cd C:\jboss-eap-8.0\bin`
 
 1. Start the JBoss server:
 
@@ -339,7 +339,7 @@ Deployed "cq-quickstart.war" (runtime-name : "cq-quickstart.war")
 Once deployment is complete and AEM has fully started:
 
 **AEM Author URL:**
-```http://<server-ip>:8080/cq-quickstart```
+`http://<server-ip>:8080/cq-quickstart`
 
 **Default Credentials:**
 
