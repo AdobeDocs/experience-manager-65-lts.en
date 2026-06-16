@@ -43,6 +43,8 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 * Support for RDBMK with JBoss&reg; EAP 8.0  has been added.
 
+* Support for WebSphere&reg; Liberty Profile (WLP) has been added.
+
 * Enhanced user experience in the visual rule editor. This update includes: 
 
     * Automatically reloading the summary view after a save to show updated rule status 
@@ -574,7 +576,8 @@ This section lists features and capabilities that have been removed from AEM 6.5
 ### AEM Forms
 
 * In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
-* On Forms JEE LTS  running on JBoss&reg;, email-related functionality may fail. When attempting to use email features, the server may log an error similar to `Error IMAPProvider not a subtype`. (FORMS-24892)
+* On Forms JEE LTS  running on JBoss&reg;, email-related functionality may fail. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. (FORMS-24892)
+* On Forms JEE LTS Service Pack 2 deployments running on WebSphere® Liberty Profile, email functionality may fail. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
