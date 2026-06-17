@@ -572,7 +572,7 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
 >Some browser-related exceptions for desktops are as follows:
 >
 >- Safari is supported only on Macintosh OS X.
->- Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions. For more information about Safari 5.1 compatibility with Adobe Reader, Acrobat, see [https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html](https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html).
+>- Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions.
 >- Administration Console is not supported on Safari.
 >- Correspondence Management does not support Windows&reg; Internet Explorer 9.0 for AEM 6.1 forms.
 >- Forms Portal supports JAWS 14.0 screen reader software on Internet Explorer 11 for accessibility.
