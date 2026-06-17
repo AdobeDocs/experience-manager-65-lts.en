@@ -21,17 +21,18 @@ This document lists the supported client and server platforms for AEM Forms on J
 
 >[!NOTE]
 >
->- For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](../../forms/using/aem-forms-jee-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
 >- AEM Forms on JEE support only English, French, German, and Japanese versions of the supported operating systems and applications.
 
 ### Upgrade and Support policy
  
 #### Full Installer
 
-- **Upgrade Support for full installers**: A full installer is released with every sixth AEM Service Pack. Full installer–based upgrades are supported starting from AEM 6.5.23.0 only.
+- **Upgrade Support for full installers**: Full installer–based upgrades are supported starting from AEM 6.5.23.0 only.
 
 - **Deprecation and Removal**: The platform support is updated with each full installer release. Any software marked as deprecated in the platform matrix during a full installer release is entitled to be removed from the supported platform matrix in a subsequent full installer release, indicating the end of support for the software.
  
+
+<!--
 #### Service Packs
 
 - **Service Pack Coverage**: Adobe provides technical support for AEM Forms environments using any of the latest six service packs. If your current version predates the last six service packs, Adobe strongly recommends upgrading to the latest version for optimal performance, security, and continuous support. 
@@ -39,6 +40,7 @@ This document lists the supported client and server platforms for AEM Forms on J
 - **Patch Installer Guidelines**: While using the patch installers to update, it's crucial to verify that the underlying full installer version is not more than two releases old. For instance, during the installation of service pack 6.5.19.0, ensure the underlying full installer version is either 6.5.18.0 or 6.5.12.0. 
 
 - **Patch Upgrade Support**: You can keep upgrading to the latest service pack, until you are upgrading to the most recent supported platforms also. For example, upgrading from service pack 6.5.12.0 to 6.5.19.0 is possible, provided that you transition to a platform combination supported for 6.5.19.0.
+-->
 
 ### Recommended configurations {#recommendedconfigurations}
 
@@ -76,8 +78,6 @@ Adobe recommends these configurations and provides full or restricted support as
 >
 >To help AEM Forms customers reduce the cost of ownership, simplify the deployment architecture, and modernize the development stack, Adobe Experience Manager enterprise platform is moving away from application server-based deployments in favor of standalone OSGi-based deployments. Adobe continues to support the AEM Forms JEE stack with a reduced matrix of infrastructure components.
 >For new installations, where feasible it is recommended to deploy AEM Forms on the modern OSGi stack to use the latest innovations around responsive Adaptive Forms for mobile, multi-channel Interactive Communications, and backend data integrations using Form Data Model.
->
->Adobe recognizes that existing users must continue to deploy AEM Forms on JEE stack. In such scenarios, Adobe requires the deployment of AEM Forms JEE on supported infrastructure as described in this documentation. If you are upgrading to AEM 6.5 Forms and using a non-supported platform on the previous AEM Forms release, you can contact Adobe Support for help on upgrading to a supported platform.
 
 ### Java&trade; Virtual Machines (JVM) {#java-virtual-machines-jvm}
 
@@ -295,7 +295,7 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 
 In addition, consider the following points while choosing software for Adobe AEM Forms on JEE deployments:
 
-- AEM Forms on JEE support updates, patches, and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
+- AEM Forms on JEE support updates and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
 - Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
 - AEM Forms on JEE support various third-party software as per Adobe's [Third-party software support Policy](../../forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
 - AEM Forms on JEE support platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with Oracle. As a result, AEM Forms on JEE also do not support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.
@@ -458,10 +458,9 @@ The following subsystems of AEM Forms are not [508](https://www.section508.gov/)
  </tbody>
 </table>
 
-For additional requirements see:
-
-- [System requirements for a single-server AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_single_65)
-- [System requirements for a clustered AEM Forms on JEE deployment](https://www.adobe.com/go/learn_aemforms_sysreq_cluster_65)
+>[!NOTE]
+>
+>For additional requirements see, [System requirements for a single-server AEM Forms on JEE deployment](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-install-single-server.pdf)
 
 ### Adobe Acrobat and Adobe Reader {#adobe-acrobat-and-adobe-reader}
 
@@ -481,7 +480,7 @@ For additional requirements see:
 
 >[!NOTE]
 >
->The Acrobat DC product family introduces two tracks for both Acrobat and Reader which are different products: "Classic" and "Continuous." For details and a comparison of the two tracks, see [https://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/whatsnewdc.html](https://www.adobe.com/devnet-docs/acrobatetk/tools/AdminGuide/whatsnewdc.html).
+>The Acrobat DC product family introduces two tracks for both Acrobat and Reader which are different products: "Classic" and "Continuous."
 
 ## Supported Clients for AEM Forms on JEE {#supported-clients-for-aem-forms-on-jee}
 
@@ -574,7 +573,7 @@ For additional requirements see:
 >Some browser-related exceptions for desktops are as follows:
 >
 >- Safari is supported only on Macintosh OS X.
->- Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions. For more information about Safari 5.1 compatibility with Adobe Reader, Acrobat, see [https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html](https://helpx.adobe.com/x-productkb/multi/safari-5-1-incompatible-reader.html).
+>- Workspace supports Safari 5.1 on Macintosh OS X 10.6 and 10.7 with Acrobat DC or later versions.
 >- Administration Console is not supported on Safari.
 >- Correspondence Management does not support Windows&reg; Internet Explorer 9.0 for AEM 6.1 forms.
 >- Forms Portal supports JAWS 14.0 screen reader software on Internet Explorer 11 for accessibility.
@@ -632,13 +631,13 @@ AEM Forms on JEE support updates, patches, and fix packs on top of the specified
 
 ## Third-party patch support policy {#third-party-patch-support-policy}
 
-The third-party software requirements for AEM Forms on JEE are documented in the "System Requirements" section of their respective product documents. Access all documentation from [https://adobe.com/go/learn_aemforms_documentation_65](https://adobe.com/go/learn_aemforms_documentation_65) .
+The third-party software requirements for AEM Forms on JEE are documented in the "System Requirements" section of their respective product documents. Access all documentation from [AEM Forms 65 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/forms/getting-started/introduction-aem-forms) .
 
 AEM Forms on JEE's third-party reference platforms state the specific patch level of third-party infrastructure that was current during the development and release of AEM Forms on JEE, and from the minimum patch/service pack level of the infrastructure supported by that version of AEM Forms on JEE.
 
 Adobe supports urgent or recommended patches issued by third-party vendors upon their release assuming that third-party vendors guarantee backward compatibility with the versions that AEM Forms on JEE support. Adobe will only support patches released after the minimum patch level stated in the AEM Forms on JEE documentation.
 
-Sometimes, Adobe does not support third-party updates that change major functionality, and thus do not support full backward compatibility. For details on the supported updates, see [Supported patch definitions](https://helpx.adobe.com/aem-forms/aem-forms-third-party-software-patch.html) for specific vendor products and the patch types Adobe supports.
+Sometimes, Adobe does not support third-party updates that change major functionality, and thus do not support full backward compatibility. 
 
 Under circumstances beyond Adobe's control, third-party patches that claim backward compatibility may have negative impact on the Adobe products or customer environments. In such cases, Adobe recommends that customers assess the impact of any urgent patch from a third-party before applying them to critical systems. Adobe works with third parties using reasonable business efforts to resolve such issues, either through normal Adobe support programs or by third parties rectifying the issue in their patch. This does not guarantee that a newly released third-party patch that will be supported by Adobe works as documented by the vendor or with AEM Forms on JEE.
 
