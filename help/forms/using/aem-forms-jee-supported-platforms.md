@@ -31,13 +31,16 @@ This document lists the supported client and server platforms for AEM Forms on J
 
 - **Deprecation and Removal**: The platform support is updated with each full installer release. Any software marked as deprecated in the platform matrix during a full installer release is entitled to be removed from the supported platform matrix in a subsequent full installer release, indicating the end of support for the software.
  
-<!--#### Service Packs
+
+<!--
+#### Service Packs
 
 - **Service Pack Coverage**: Adobe provides technical support for AEM Forms environments using any of the latest six service packs. If your current version predates the last six service packs, Adobe strongly recommends upgrading to the latest version for optimal performance, security, and continuous support. 
 
 - **Patch Installer Guidelines**: While using the patch installers to update, it's crucial to verify that the underlying full installer version is not more than two releases old. For instance, during the installation of service pack 6.5.19.0, ensure the underlying full installer version is either 6.5.18.0 or 6.5.12.0. 
 
-- **Patch Upgrade Support**: You can keep upgrading to the latest service pack, until you are upgrading to the most recent supported platforms also. For example, upgrading from service pack 6.5.12.0 to 6.5.19.0 is possible, provided that you transition to a platform combination supported for 6.5.19.0.-->
+- **Patch Upgrade Support**: You can keep upgrading to the latest service pack, until you are upgrading to the most recent supported platforms also. For example, upgrading from service pack 6.5.12.0 to 6.5.19.0 is possible, provided that you transition to a platform combination supported for 6.5.19.0.
+-->
 
 ### Recommended configurations {#recommendedconfigurations}
 
