@@ -217,6 +217,10 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
  </tbody>
 </table>
 
+>[!NOTE]
+>
+>WebSphere&reg; Liberty Profile (WLP) is supported only with Oracle Database and IBM&reg; Sumeru JDK 21.
+
 ### Server operating systems {#server-operating-systems}
 
 #### Production environments {#production-environments}
@@ -288,8 +292,9 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 
 1. CRX-repository supports persistence of type TarMK and MongoDB. 
 1. AEM Forms on JEE do not support JBoss&reg; role-based access control (RBAC).
+1. AEM Forms on JEE support WebSphere&reg; Liberty Profile (WLP) only with Oracle Database and IBM&reg; Sumeru JDK 21.
 
-<!-- 
+<!--
 1. [!DNL Microsoft&reg; Windows Server 2019] does not support [!DNL MySQL 5.7] and [!DNL JBoss&reg; EAP 7.1], [!DNL Microsoft&reg; Windows Server 2019] does not support turnkey installations for [!DNL Experience Manager Forms Service Pack 6.5.10.0 and later]. (CQDOC-18312) 
 -->
 
@@ -297,7 +302,7 @@ In addition, consider the following points while choosing software for Adobe AEM
 
 - AEM Forms on JEE support updates and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
 - Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
-- AEM Forms on JEE support various third-party software as per Adobe's [Third-party software support Policy](../../forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
+- AEM Forms on JEE support various third-party software as per Adobe's [Third-party software support Policy](#third-party-patch-support-policy-third-party-patch-support-policy).
 - AEM Forms on JEE support platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with Oracle. As a result, AEM Forms on JEE also do not support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.
 - AEM Forms on JEE do not support TarMK Cold Standby.
 - AEM Forms on JEE do not support vertical clustering.

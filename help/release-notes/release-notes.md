@@ -43,7 +43,7 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 * Support for RDBMK with JBoss&reg; EAP 8.0  has been added.
 
-* Support for WebSphere&reg; Liberty Profile (WLP) has been added.
+* Support for WebSphere&reg; Liberty Profile (WLP) has been added. WLP is supported only with Oracle Database and IBM&reg; Sumeru JDK 21.
 
 * Enhanced user experience in the visual rule editor. This update includes: 
 
