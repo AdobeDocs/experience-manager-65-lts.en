@@ -257,10 +257,6 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 
 <!-- #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp2} -->
 
-<!--
-#### Forms Designer
--->
-
 ### [!DNL Forms]{#forms-65-lts-sp2}
 
 * Users experienced issues with the Form Data Model (FDM) editor `Data Source / Enter Keyword` functionality. This issue affected the ability to search and select data sources. (FORMS-23971)
