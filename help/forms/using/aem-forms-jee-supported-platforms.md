@@ -238,17 +238,12 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
    <td>Service packs and critical updates</td>
   </tr>
   <tr>
-   <td>Ubuntu 20.04</td>
+   <td>Ubuntu 22.04</td>
    <td>A: Supported</td>
    <td>Service packs and critical updates</td>
   </tr>
   <tr>
    <td><p>Red Hat&reg; Enterprise Linux&reg; 9 (Kernel 5.x) (64-bit)</p> </td>
-   <td><p>A: Supported</p> </td>
-   <td><p>Minor releases, cumulative updates, and critical updates</p> </td>
-  </tr>
-  <tr>
-   <td><p>Red Hat&reg; Enterprise Linux&reg; 8 (Kernel 4.x) (64-bit)</td>
    <td><p>A: Supported</p> </td>
    <td><p>Minor releases, cumulative updates, and critical updates</p> </td>
   </tr>
@@ -272,11 +267,6 @@ You can run AEM Forms on JEE on a physical machine or a virtual environment. How
    <th><p><strong>Platform (Base Version)</strong></p> </th>
    <th>Support Level</th>
    <th><p><strong>Supported Patch Definitions</strong></p> </th>
-  </tr>
-  <tr>
-   <td><p>Microsoft&reg; Windows&reg; 10 64-bit</p> </td>
-   <td>E: Expected to work</td>
-   <td><p>Service pack and critical updates</p> </td>
   </tr>
   <tr>
    <td><p>Microsoft&reg; Windows&reg; 11 64-bit</p> </td>
