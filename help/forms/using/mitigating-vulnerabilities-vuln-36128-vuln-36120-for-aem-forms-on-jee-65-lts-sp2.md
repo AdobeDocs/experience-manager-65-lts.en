@@ -15,7 +15,7 @@ exl-id: 7c4a9e12-3b8f-4d6a-9f1e-2a5c8d7e6b04
 
 | Impact Level | Affected Versions | Recommended Action |
 | --- | --- | --- |
-| Critical | AEM Forms on JEE 6.5 LTS Service Pack 2 (6.5 LTS SP2) | Manually install the [hotfix]() |
+| Critical | AEM Forms on JEE 6.5 LTS Service Pack 2 (6.5 LTS SP2) | Manually install the [hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-edcserver-jboss.ear) |
 | Not Affected | AEM Forms on OSGi, Workbench, Cloud Service | No action required |
 
 **Vulnerabilities Addressed:**
@@ -42,7 +42,7 @@ This precaution allows you to restore the original state if you encounter any is
 
 ### Manual Hotfix Installation for AEM Forms on JEE 6.5 LTS SP2 (JBoss) {#manual-hotfix-installation-aem-forms-jee-65-lts-sp2-jboss}
 
-1. Download `adobe-edcserver-jboss.ear` from the [Adobe Software Distribution Portal]().
+1. Download `adobe-edcserver-jboss.ear` from the [Adobe Software Distribution Portal](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-edcserver-jboss.ear).
 
 1. Locate `adobe-edcserver-jboss.ear` in your deployment directory and replace it with the downloaded file:
 
