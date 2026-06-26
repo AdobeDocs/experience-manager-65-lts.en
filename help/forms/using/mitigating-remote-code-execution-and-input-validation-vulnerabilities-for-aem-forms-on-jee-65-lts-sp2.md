@@ -69,5 +69,4 @@ This precaution allows you to restore the original state in case you encounter a
 
 ## References {#references}
 
-* [Mitigating XXE, Struts Dev Mode Configuration, and Remote Code Execution Vulnerabilities for AEM Forms on JEE](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/troubleshooting/mitigating-xxe-and-configuration-vulnerabilities-for-experience-manager-forms-jee)
 * [Adobe Experience Manager Forms Security Best Practices](/help/forms/using/hardening-securing-aem-forms-environment.md)
