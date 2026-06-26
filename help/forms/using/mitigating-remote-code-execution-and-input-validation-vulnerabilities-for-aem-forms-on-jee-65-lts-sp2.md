@@ -9,7 +9,7 @@ feature: Security
 role: Admin
 exl-id: 7c4a9e12-3b8f-4d6a-9f1e-2a5c8d7e6b04
 ---
-# Mitigating Remote Code Execution and Improper Input Validation Vulnerabilities for AEM Forms on JEE 6.5 LTS SP2
+# Mitigating Remote Code Execution and Improper Input Validation Vulnerabilities 
 
 ## Quick Reference {#quick-reference}
 
