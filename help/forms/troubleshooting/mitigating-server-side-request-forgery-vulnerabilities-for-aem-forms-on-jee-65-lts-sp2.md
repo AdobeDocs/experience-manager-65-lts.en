@@ -1,15 +1,12 @@
 ---
 title: Mitigating Server-Side Request Forgery (SSRF) Vulnerabilities for AEM Forms on JEE 6.5 LTS SP2
 description: Mitigation steps for Server-Side Request Forgery (SSRF) vulnerabilities on AEM Forms on JEE 6.5 LTS Service Pack 2 deployments running on JBoss.
-content-type: reference
-products: SG_EXPERIENCEMANAGER/6.5/FORMS
-topic-tags: Security
-solution: Experience Manager, Experience Manager Forms
-feature: Security
-role: Admin
+solution: Experience Manager
+feature: Deploying
+role: User,Admin,Developer
 exl-id: 7c4a9e12-3b8f-4d6a-9f1e-2a5c8d7e6b04
 ---
-# Mitigating Server-Side Request Forgery (SSRF) Vulnerabilities 
+# Mitigating Server-Side Request Forgery (SSRF) Vulnerabilities for AEM Forms on JEE 6.5 LTS SP2
 
 ## Quick Reference {#quick-reference}
 
@@ -69,4 +66,4 @@ This precaution allows you to restore the original state in case you encounter a
 
 ## Reference {#references}
 
-* [Adobe Experience Manager Forms Security Best Practices](/help/forms/using/hardening-securing-aem-forms-environment.md)
+* [Adobe Experience Manager Forms Security Best Practices](/help/forms/using/hardening-securing-aem-forms-environment.md) 
