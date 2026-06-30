@@ -548,6 +548,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
+| Sites | Content Fragment text summarization | No replacement available. | 6.5 LTS SP3 | 
 | Commerce| AEM CIF Classic is not supported. | Migrate to [AEM CIF](/help/commerce/cif/migration.md). | 6.5 LTS GA |
 | Solutions| Social / Communities is not supported. | No replacement available. | 6.5 LTS GA |
 | Screens| Screens are not supported. | No replacement available. | 6.5 LTS GA |
