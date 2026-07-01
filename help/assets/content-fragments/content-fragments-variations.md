@@ -12,8 +12,8 @@ exl-id: a4101e70-85cd-471c-9bf9-fd09bf5fc8e8
 
 From the **Variations** tab you can do the following:
 
-* [Enter the content](#authoring-your-content) for your fragment,
-* [Create and manage variations](#managing-variations) of the **Master** content,
+* [Enter the content](#authoring-your-content) for your fragment
+* [Create and manage variations](#managing-variations) of the **Master** content
 
 Perform a range of other actions depending on the data type being edited; for example:
 
