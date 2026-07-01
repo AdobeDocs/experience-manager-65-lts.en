@@ -534,6 +534,7 @@ Customers are advised to review if they use the feature / capability in their cu
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
+| Sites | Content Fragment text summarization | No replacement available. | |
 | Quickstart | Mongo APIs | Mongo APIs are now deprecated and are planned for removal in future releases. | 6.5 TS SP2 |
 | Sites | Content Fragment support in the AEM Assets REST API | AEM 6.5 LTS SP2 provides modern OpenAPIs for Content Fragment and Model Management, so the older Content Fragment Support endpoints in the AEM Assets REST API are now deprecated.<br>Adobe intends to keep these older endpoints available until an end-of-life announcement. Adobe does not plan further enhancements for the deprecated endpoints. |  6.5 LTS SP2 |
 | Sites | [SPA Editor](/help/sites-developing/spa-overview.md) | The preferred editors for managing headless content in AEM are:<br>- [The Universal Editor](/help/sites-developing/universal-editor/introduction.md) for visual editing.<br>- [The Content Fragment Editor](/help/assets/content-fragments/content-fragments-managing.md) for form-based editing. | 6.5 LTS GA |
