@@ -435,9 +435,13 @@ user-guide-title: AEM 6.5 LTS
     + [Installation and upgrade workflow for AEM Forms on JEE](/help/forms/using/aem-forms-jee-installation-upgrade-documentation.md)
     + Install AEM Forms on JEE {#jee-installation}
       + [Supported platforms for AEM forms on JEE](/help/forms/using/aem-forms-jee-supported-platforms.md)
+      + [Preparing to Install AEM Forms (Single Server)](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-install-single-server.pdf)
       + [Installing and Deploying AEM Forms 6.5 LTS on JEE Using JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-turnkey.pdf)
       + [Installing and Deploying AEM Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-jboss.pdf)
-      + [Preparing to Install AEM Forms (Single Server)](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-install-single-server.pdf)
+      + [Installing and Deploying AEM Forms on JEE for WebSphere Liberty Profile ](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/install-websphere.pdf)
+      + [Preparing to Install AEM Forms (Cluster Server)](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-install-cluster.pdf)
+      + [Configuring AEM Forms on JEE on JBoss Cluster](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/cluster-jboss.pdf)
+      + [Configuring AEM Forms on JEE on WebSphere Liberty Profile Cluster](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/cluster-websphere.pdf)
       + [Database Credential Store Setup Guide (Standalone Mode)](/help/forms/using/database-credentials-store-setup-guide-standalone-mode.md)
       + [Database Credential Store Setup (Elytron-based)](/help/forms/using/database-credential-store-setup-elytron-based.md)
       + [Secondary Node Authentication Setup (Elytron-based)](/help/forms/using/secondary-node-authentication-setup-elytron-based.md)
@@ -458,7 +462,6 @@ user-guide-title: AEM 6.5 LTS
       + [Connecting AEM Forms with Adobe LiveCycle](/help/forms/using/aem-livecycle-connector.md)
       + {hide-from-toc} [Configuring AEM Forms to submit form data to an AEM Forms on JEE process](/help/forms/using/submit-form-data-livecycle-process.md)
       + [AEM desktop app for AEM Forms](/help/forms/using/aem-desktop-app-for-aem-forms.md)
-      + [Configuring AEM Forms on JEE on JBoss Cluster](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/cluster-jboss.pdf)
   + Upgrade AEM Forms {#upgrade-aem-forms}
     + [Available upgrade paths](/help/forms/using/upgrade.md)
     + Upgrade AEM Forms on OSGi {#aem-forms-osgi-upgrade}
@@ -467,9 +470,10 @@ user-guide-title: AEM 6.5 LTS
       + [Migrate AEM Forms assets and documents](/help/forms/using/migration-utility.md)
       + [Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)](/help/forms/using/upgrading-aem-65-lts-on-jboss-eap-8.md)
     + Upgrade AEM Forms on JEE {#aem-forms-jee-upgrade}
+      + [Preparing to upgrade AEM Forms](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-upgrade.pdf)
       + [Upgrading to AEM Forms 6.5 LTS on JEE for JBoss Turnkey](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-turnkey.pdf)
       + [Upgrading to AEM Forms on JEE for JBoss](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-jboss.pdf)
-      + [Preparing to upgrade AEM Forms](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/prepare-upgrade.pdf)
+      + [Upgrading to AEM Forms on JEE for WebSphere Liberty Profile](https://helpx.adobe.com/content/dam/help/en/experience-manager/65LTS/forms/upgrade-websphere.pdf)
   + Manage AEM Forms {#manage-administer-aem-forms}
     + [AEM Forms on OSGi Groups and Privileges](/help/forms/using/forms-groups-privileges-tasks.md)
     + [Create new folders to categorize forms](/help/forms/using/creating-new-folders-categorize-forms.md)
