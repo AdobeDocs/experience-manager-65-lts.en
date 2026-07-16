@@ -494,7 +494,7 @@ For setup requirements, see [installation instructions](/help/sites-deploying/cu
 > If you are directly upgrading to LTS SP1 from old 6.5 SPs, follow the instructions given for 6.5 to 6.5 LTS GA [upgrade](/help/sites-deploying/upgrade.md).
 
 
-For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
+For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md) as the same documentation applies for LTS service pack updates.
 
 >[!NOTE]
 >
@@ -664,4 +664,3 @@ These websites are only available to customers. If you are a customer and need a
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
 * [Contact Adobe Customer Support](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-customer-support-experience).
- 
