@@ -6,6 +6,7 @@ solution-title: Experience Cloud
 user-guide-description: Use the Adobe Experience Manager 6.5 LTS documentation to learn how it works and what the software can do for you.
 breadcrumb-title: User Guide
 user-guide-title: AEM 6.5 LTS
+nudge: true
 ---
 # Adobe Experience Manager 6.5 LTS Documentation {#content}
 
