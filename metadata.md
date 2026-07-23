@@ -5,6 +5,7 @@ git-repo: https://github.com/AdobeDocs/experience-manager-65-lts.en
 index: true
 type: Documentation
 solution: Experience Manager, Experience Manager 6.5 LTS
+nudge:yes
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: "Experience Manager"
