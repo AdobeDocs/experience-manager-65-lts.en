@@ -37,8 +37,6 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 **AEM Sites**
 
-**AEM Forms**
-
 
 <!-- UPDATE THE EACH RELEASE -->
 
@@ -49,10 +47,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Accessibility {#sites-accessibility-65-lts-sp3}
 
- (CRITICAL)
- (CRITICAL)
+* The Page Editor canvas now supports keyboard-only component management. Authors can use Insert Component, Cut, Paste, and Delete to add, reorder, and remove components. (SITES-25359) CRITICAL
+* Keyboard users can now reorder table rows in Sites List View without using drag-and-drop gestures. Keyboard controls let users select a row, move it to another position, and complete the placement. (SITES-24946) CRITICAL
 
- (MAJOR)
+* The Custom Properties editor now supports keyboard interaction with its formatting controls. Authors can move focus among toolbar options, select a text style, and format property values using only a keyboard. (SITES-40333) MAJOR
 
 
 
@@ -66,32 +64,31 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp3}
 
- (MAJOR)
+* The Assets console now responds when users apply search filters. Changing a Content Fragment Model filter refreshes the results instead of leaving the current asset list unchanged. (SITES-38686) MAJOR
 
 
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp3}
 
- (MAJOR)
+* The Assets page now localizes the tooltip for a locked Content Fragment. Users see the translated **Checked Out By** label when they hover over the lock indicator. (SITES-42531) MAJOR
 
 
 
 
 #### [!DNL Content Fragments] - Fragment Editor{#sites-fragments-editor-65-lts-sp3}
 
- (CRITICAL)
+* The Content Fragment Editor now positions Rich Text Editor dropdown menus correctly. Each menu stays aligned with its toolbar control and keeps nearby formatting controls visible. (SITES-44005) CRITICAL
 
- (MAJOR)
+* The Edit Content Fragment button now appears and works immediately for Reference Multifield entries. Authors no longer need to save, close, and reopen the parent Content Fragment before editing an embedded fragment. (SITES-43733) MAJOR
 
 
 
 
 #### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp3}
 
- (MAJOR)
-
- (MAJOR)
- (MAJOR)
+* GraphQL JSON responses now include embedded image references when DAM filenames contain spaces or non-ASCII characters. Client applications can retrieve and render these images without renaming the assets. (SITES-42191) MAJOR
+* The Content Fragment GraphQL API now includes several query-processing and response-handling updates. The changes prevent duplicate cache headers and values, improve encoding, preserve persisted-query status information, handle empty headers, and return appropriate endpoint errors. (SITES-40159) MAJOR
+* The PersistedQueryServlet now processes encoded variables in valid GraphQL persisted queries without recording false errors or warnings. Queries continue to return successful responses while logs reflect their actual execution status. (SITES-39354) MAJOR
 
 
 
@@ -101,7 +98,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Content Fragments] - Model Editor{#sites-model-editor-65-lts-sp3}
 
- (MAJOR)
+* The Content Fragment Models console now displays uploaded thumbnails for configurations whose names contain localized characters. Authors no longer lose thumbnail previews when configuration names use non-English text. (SITES-39242) MAJOR
 
 
 
@@ -111,7 +108,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Component console{#sites-component-console-65-lts-sp3}
 
- (MAJOR)
+* The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
 
 
 
@@ -125,20 +122,19 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Core Components{#sites-core-components-65-lts-sp3}
 
- (MAJOR)
-
- (MAJOR)
+* Multifield components now store a separate remote asset selection for each entry. Authors can select, change, and save remote images without duplicating one image across every multifield item. (SITES-42376) MAJOR
+* ThumbnailServlet now stops processing after it redirects a request for a missing resource. This change prevents repeated null-pointer exceptions and excessive error logging during DAM and console browsing. (SITES-41238) MAJOR
 
 
 #### Campaign integration{#sites-campaign-integration-65-lts-sp3}
 
- (MAJOR)
+* The Campaign ContentServlet now preserves the JSON response content type during content requests. This change stops the repeated `WARN` and `ERROR` log entries that occurred after an upgrade from AEM 6.5.24. (SITES-46902) MAJOR
 
 
 
 #### Experience Fragments{#sites-experiencefragments-65-lts-sp3}
 
- (MAJOR)
+* Authors can now browse more than 40 templates while creating an Experience Fragment variation. Each additional page preserves the original folder filter and displays the next matching templates. (SITES-41531) MAJOR
 
 
 
@@ -148,7 +144,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Launches{#sites-launches-65-lts-sp3}
 
- (CRITICAL)
+
 
 
 
@@ -159,17 +155,17 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### MSM - Live Copies{#sites-msm-live-copies-65-lts-sp3}
 
- (CRITICAL)
+* Content Fragment Live Copy folders now retain cq:rolloutConfigs when authors save unchanged properties. Authors can later update rollout settings without losing the existing configuration. (SITES-43729) CRITICAL
 
- (MAJOR)
- (MAJOR)
+* Authors can now roll out component changes from the editable toolbar on a blueprint page. The rollout completes without a JavaScript error and propagates the changes to the Live Copy. (SITES-46052) MAJOR
+* Authors can now complete MSM rollouts from blueprint pages after an upgrade. The rollout dialog box loads the available Live Copies and enables its rollout controls instead of remaining in a perpetual loading state. (SITES-43116) MAJOR
 
 
 #### Page editor{#sites-pageeditor-65-lts-sp3}
 
- (CRITICAL)
+* Authors can now create and apply tags with uppercase letters or spaces during one Page Properties save. AEM immediately stores the normalized tag value and preserves the page assignment. (SITES-42550) CRITICAL
 
- (MAJOR)
+* Scrolling through the style menu no longer removes the highlight from the selected style. Authors can confirm their current selection while reviewing other available options. (SITES-30874) MAJOR
 
 
 
@@ -199,7 +195,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp3}
 
-
+<!--
 ### [!DNL Forms]{#forms-65-lts-sp3}
 
 
@@ -220,6 +216,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### Forms Captcha
 
 #### Forms Management UI
+-->
 
 
 
@@ -227,7 +224,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
- (MAJOR)
+* The AEM mail service now continues sending email when intermittent configuration errors occur. Administrators no longer need to restart the Day Communique 5 Mailer bundle to restore email delivery. (GRANITE-66817) MAJOR
 
 
 
@@ -259,13 +256,13 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Localization{#foundation-localization-65-lts-sp3} 
 
- (MAJOR)
+* The Operations console now localizes previously untranslated text across Health Reports. Users see translated status messages, warnings, maintenance results, and performance information. (NPR-44280) MAJOR
 
 #### Omnisearch{#foundation-omnisearch-65-lts-sp3}
 
 #### Operations Dashboard{#foundation-operations-dashboard-65-lts-sp3}
 
- (CRITICAL)
+The `/system/health/systemalive.json` endpoint now remains available after customers upgrade AEM LTS. A corrected servlet context configuration prevents HTTP 404 responses and supports health-monitoring systems that rely on the endpoint. (GRANITE-69457) CRITICAL
 
 #### Platform{#foundation-platform-65-lts-sp3}
 
@@ -281,7 +278,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Security{#foundation-security-65-lts-sp3}
 
- (MAJOR)
+* The **Copy Group** action now opens the expected form instead of displaying a blank page. Administrators can enter a new group ID and description, then duplicate an existing security group. (NPR-44302) MAJOR
 
 
 
@@ -303,8 +300,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Workflow{#foundation-workflow-65-lts-sp3}
 
- (MAJOR)
- (MAJOR)
+* Workflow Package pages now support the Content Tree and editable Resource Definition components in the Touch UI Page Editor. Authors can navigate package content and inspect or update its components without using the Classic UI. (GRANITE-67348) MAJOR
+* The Touch UI Page Editor now renders the Content Tree for Workflow Package pages. Authors can inspect the package structure and edit Resource Definition components through the same editor. (GRANITE-67186) MAJOR
 
 
 
