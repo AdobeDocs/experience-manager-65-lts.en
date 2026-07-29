@@ -44,12 +44,15 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## Fixed issues in 6.5 LTS, Service Pack 3 {#fixed-issues}
 
-
-
 ### [!DNL Sites]{#sites-65-LTS-SP3}
 
 
 #### Accessibility {#sites-accessibility-65-lts-sp3}
+
+ (CRITICAL)
+ (CRITICAL)
+
+ (MAJOR)
 
 
 
@@ -63,19 +66,32 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp3}
 
+ (MAJOR)
+
 
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp3}
 
+ (MAJOR)
 
 
 
-#### [!DNL Content Fragments] - Fragments Editor{#sites-fragments-editor-65-lts-sp3}
+
+#### [!DNL Content Fragments] - Fragment Editor{#sites-fragments-editor-65-lts-sp3}
+
+ (CRITICAL)
+
+ (MAJOR)
 
 
 
 
 #### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp3}
+
+ (MAJOR)
+
+ (MAJOR)
+ (MAJOR)
 
 
 
@@ -85,6 +101,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### [!DNL Content Fragments] - Model Editor{#sites-model-editor-65-lts-sp3}
 
+ (MAJOR)
+
 
 
 #### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp3}
@@ -92,6 +110,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 #### Component console{#sites-component-console-65-lts-sp3}
+
+ (MAJOR)
 
 
 
@@ -105,12 +125,20 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Core Components{#sites-core-components-65-lts-sp3}
 
+ (MAJOR)
+
+ (MAJOR)
+
 
 #### Campaign integration{#sites-campaign-integration-65-lts-sp3}
+
+ (MAJOR)
 
 
 
 #### Experience Fragments{#sites-experiencefragments-65-lts-sp3}
+
+ (MAJOR)
 
 
 
@@ -119,6 +147,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 #### Launches{#sites-launches-65-lts-sp3}
+
+ (CRITICAL)
 
 
 
@@ -129,9 +159,17 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### MSM - Live Copies{#sites-msm-live-copies-65-lts-sp3}
 
+ (CRITICAL)
+
+ (MAJOR)
+ (MAJOR)
 
 
 #### Page editor{#sites-pageeditor-65-lts-sp3}
+
+ (CRITICAL)
+
+ (MAJOR)
 
 
 
@@ -189,6 +227,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
+ (MAJOR)
 
 
 
@@ -220,7 +259,13 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Localization{#foundation-localization-65-lts-sp3} 
 
+ (MAJOR)
+
 #### Omnisearch{#foundation-omnisearch-65-lts-sp3}
+
+#### Operations Dashboard{#foundation-operations-dashboard-65-lts-sp3}
+
+ (CRITICAL)
 
 #### Platform{#foundation-platform-65-lts-sp3}
 
@@ -235,6 +280,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 #### Security{#foundation-security-65-lts-sp3}
+
+ (MAJOR)
 
 
 
@@ -255,6 +302,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 #### Workflow{#foundation-workflow-65-lts-sp3}
+
+ (MAJOR)
+ (MAJOR)
 
 
 
