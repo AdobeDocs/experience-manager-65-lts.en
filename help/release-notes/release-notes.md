@@ -52,6 +52,105 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Custom Properties editor now supports keyboard interaction with its formatting controls. Authors can move focus among toolbar options, select a text style, and format property values using only a keyboard. (SITES-40333) MAJOR
 
+* Keyboard focus now skips the side panel Components list when the available interaction requires drag and drop. This change prevents keyboard users from entering an unusable component-selection workflow. (SITES-40752)
+* Closing an overlay now restores focus to its triggering control. Keyboard and screen-reader users no longer return to the overlay or lose their position in the interface. (SITES-40819)
+* Keyboard navigation no longer moves focus to hidden page content. This change maintains a predictable focus sequence and prevents navigation disruptions. (SITES-41430)
+* The Lock button now provides precise screen-reader feedback based on its title. Users hear a clear action label instead of a lengthy description. (SITES-41431)
+
+* A visual indicator now identifies the selected option in the Change File or Folder list box. The indicator helps users understand the breadcrumb path and recognize the current folder. (SITES-25532)
+* Screen readers now announce the ascending or descending sort direction once. A descriptive label clearly identifies the button action and removes duplicate feedback. (SITES-25534)
+* AEM Sites now provides broader accessibility support across common authoring workflows. Updates improve keyboard interaction, interface labels, focus management, and assistive technology feedback. (SITES-38239)
+* Toolbar items now display visible labels when they receive keyboard focus. Keyboard users can identify each control before they activate it. (SITES-40751)
+
+* Keyboard and screen-reader users can now leave the Inbox menu without leaving it open. The menu closes automatically and preserves a clear navigation path. (SITES-25518)
+* Color swatches now display a selected-state icon with sufficient contrast. The clearer indicator helps users recognize the active swatch across different background colors. (SITES-25523)
+* The Edit Layout toolbar now reports the current device accurately to assistive technology. Device buttons no longer suggest that users can toggle each button on and off. (SITES-25524)
+* The Search modal now displays the **Sort by** label with sufficient text contrast. The updated styling improves readability for users with low vision. (SITES-25531)
+
+* Sites List View sort buttons now meet minimum contrast requirements. Users can identify each sort control and its state more easily against the table background. (SITES-25372)
+* The Side Rail Assets list no longer reloads when the Filter field receives keyboard focus. Users can enter the field without unexpected content movement or repeated screen-reader loading announcements. (SITES-25377)
+* Content Fragment sidebar tabs now provide consistent accessible labels. NVDA announces the tab name instead of announcing the selected subnavigation item. (SITES-25509)
+* The Help menu now closes when keyboard or screen-reader focus moves outside it. Users can continue navigating header controls or page content without leaving the menu open. (SITES-25517)
+
+* Text entered in Demographics toolbar fields now meets minimum contrast requirements. Users can read profile values more clearly against the text field background. (SITES-25318)
+* The Page Information menu now displays focused options with sufficient text contrast. The clearer styling helps users track keyboard focus throughout the menu. (SITES-25321)
+* Checkboxes in the Teaser, Image, and Carousel dialog boxes now expose their related instructions to screen readers. Users hear the supporting description when keyboard focus reaches each checkbox. (SITES-25364)
+* Text editor controls now communicate their current state to assistive technology. Screen readers identify the active paragraph format and selected hyperlink target option. (SITES-25367)
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
+
+* 
+* 
+* 
+* 
 
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
