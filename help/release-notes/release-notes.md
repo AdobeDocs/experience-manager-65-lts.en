@@ -228,9 +228,7 @@ The Campaign ContentServlet now preserves the JSON response content type during 
 Authors can now browse more than 40 templates while creating an Experience Fragment variation. Each additional page preserves the original folder filter and displays the next matching templates. (SITES-41531) MAJOR
 
 
-
-#### Foundation Components (Legacy){#sites-foundation-components-legacy-65-lts-sp3}
-
+<!-- #### Foundation Components (Legacy){#sites-foundation-components-legacy-65-lts-sp3} -->
 
 
 #### Launches{#sites-launches-65-lts-sp3}
@@ -238,11 +236,7 @@ Authors can now browse more than 40 templates while creating an Experience Fragm
 Launch promotion history now displays localized text in the Sites Timeline. The Timeline translates the messages "Created version of" and "before promoting launch" across supported locales. (SITES-13389)
 
 
-
-
-
-#### Link Checker{#sites-link-checker-65-lts-sp3}
-
+<!-- #### Link Checker{#sites-link-checker-65-lts-sp3} -->
 
 
 
@@ -267,55 +261,25 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * Authors can now copy and paste configured Content Fragment components into empty layout containers. The pasted component retains its original Content Fragment reference and no longer displays the *Choose an experience variation* error. (SITES-41586)
 * The Image Editor now honors custom crop ratios during hybrid inline editing. Each image drop target uses its own configuration, so crop selections apply correctly outside full-screen mode. (SITES-45771)
 
-
-
+<!--
 #### Replication{#sites-replication-65-lts-sp3}
-
-
 
 #### Rich Text Editor{#sites-rte-65-lts-sp3}
 
-
-
 #### Template Editor{#sites-template-editor-65-lts-sp3}
-
-
 
 #### Universal editor {#sites-universal-editor-65-lts-sp3}
 
-
-
 ### [!DNL Assets]{#assets-65-lts-sp3}
-
-
 
 #### [!DNL Dynamic Media]{#assets-dm-65-lts-sp3}
 
-
-
 #### [!DNL Dynamic Media] - Hybrid Mode {#assets-dm-hybrid-65-lts-sp3}
+-->
+
 
 <!--
 ### [!DNL Forms]{#forms-65-lts-sp3}
-
-
-#### Forms JEE 
-
-#### Forms Captcha {#forms-captcha-65-lts-sp3}
-
-#### XMLFM {#forms-xmlfm-65-lts-sp3}
-
-#### [!DNL Adaptive Forms] {#adaptive-forms-65-lts-sp3}
-
-#### [!DNL Forms Designer] {#forms-designer-65-lts-sp3}
-
-#### Forms Designer
-
-#### AdaptIve Forms
-
-#### Forms Captcha
-
-#### Forms Management UI
 -->
 
 
@@ -331,7 +295,7 @@ AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service API
 The AEM mail service now continues sending email when intermittent configuration errors occur. Administrators no longer need to restart the Day Communique 5 Mailer bundle to restore email delivery. (GRANITE-66817) MAJOR
 
 
-
+<!--
 #### Campaign{#foundation-campaign-65-lts-sp3}
 
 #### Cloud Services{#foundation-cloudservices-65-lts-sp3}
@@ -340,23 +304,16 @@ The AEM mail service now continues sending email when intermittent configuration
 
 #### Content distribution{#foundation-content-distribution-65-lts-sp3}
 
-
 #### CRX {#foundation-crx-65-lts-sp3}
-
-
 
 #### Granite{#foundation-granite-65-lts-sp3}
 
-
-
 #### HTL{#foundation-htl-5-lts-sp3}
-
-
 
 #### Integrations{#foundation-integrations-65-lts-sp3}
 
-
 #### Jetty{#foundation-jetty-65-lts-sp3}
+-->
 
 #### Localization{#foundation-localization-65-lts-sp3} 
 
@@ -368,7 +325,7 @@ The AEM mail service now continues sending email when intermittent configuration
 * Component Help links in the Template Editor now open localized documentation. Authors reach guidance that matches their selected language instead of English-only component pages. (SITES-15058)
 * The Component Policy editor now localizes errors that report an unmodifiable resource or a failed node creation. Template authors receive these messages in their selected language. (SITES-17475)
 
-#### Omnisearch{#foundation-omnisearch-65-lts-sp3}
+<!-- #### Omnisearch{#foundation-omnisearch-65-lts-sp3} -->
 
 #### Operations Dashboard{#foundation-operations-dashboard-65-lts-sp3}
 
@@ -378,14 +335,13 @@ The `/system/health/systemalive.json` endpoint now remains available after custo
 
 The default HTL expression-option allow list now recognizes `decorationTagName` and `cssClassName`. Rendering the out-of-the-box responsive grid no longer fills `error.log` with repeated unknown-option warnings. (GRANITE-67152)
 
+<!--
 #### Projects{#foundation-projects-65-lts-sp3}
-
 
 #### Oak {#foundation-oak-65-lts-sp3}
 
-
 #### Quickstart{#foundation-quickstart-65-lts-sp3} 
-
+-->
 
 
 #### Security{#foundation-security-65-lts-sp3}
@@ -393,15 +349,12 @@ The default HTL expression-option allow list now recognizes `decorationTagName` 
 The **Copy Group** action now opens the expected form instead of displaying a blank page. Administrators can enter a new group ID and description, then duplicate an existing security group. (NPR-44302) MAJOR
 
 
-
-#### Sling{#foundation-sling-65-lts-sp3}
-
+<!-- #### Sling{#foundation-sling-65-lts-sp3} -->
 
 
 #### Translation{#foundation-translation-65-lts-sp3}
 
 Translation projects now maintain accurate status counts as workflows progress. Launch creation and status propagation follow the expected workflow behavior, eliminating inconsistent project metadata. (NPR-43420)
-
 
 
 #### User interface{#foundation-ui-65-lts-sp3}
@@ -410,9 +363,7 @@ Translation projects now maintain accurate status counts as workflows progress. 
 * Selecting a sibling page now activates **Select** in composite multifield path pickers. Authors can confirm the new path without enlarging the browser window or repeating the selection. (GRANITE-69323)
 
 
-
-#### WCM{#foundation-wcm-65-lts-sp3}
-
+<!-- #### WCM{#foundation-wcm-65-lts-sp3} -->
 
 
 #### Workflow{#foundation-workflow-65-lts-sp3}
@@ -421,9 +372,6 @@ Translation projects now maintain accurate status counts as workflows progress. 
 * The Touch UI Page Editor now renders the Content Tree for Workflow Package pages. Authors can inspect the package structure and edit Resource Definition components through the same editor. (GRANITE-67186) MAJOR
 
 * The workflow variable dialog now displays the correct controls for Form Data Model, JSON, XML, and Document variables. Authors no longer see raw HTML markup when they create these non-primitive variables. (GRANITE-67915)
-
-
-
 
 
 
