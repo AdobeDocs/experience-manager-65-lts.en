@@ -127,10 +127,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Inbox links now use semantic list markup. Screen readers can identify the links as a related group, announce the item count, and support more efficient navigation. (SITES-24730)
 * Tooltip controls in the User Preferences dialog box now expose descriptive accessible names. Screen readers announce each control's purpose instead of saying "blank" before reading the tooltip content. (SITES-24732)
 
-* 
-* 
-* 
-* 
+* Each Filter Rail landmark now includes a unique accessible label. Screen readers can distinguish the Filter Rail from other page regions and identify it during navigation. (SITES-24686)
+* Editor dialog boxes now separate Help and Toggle fullscreen buttons from the heading element. Screen readers identify these interactive controls accurately and no longer announce them as headings. (SITES-24696)
+* The CSV Report button now warns users before opening a new browser tab. Its accessible label communicates the behavior to screen reader and keyboard users before activation. (SITES-24704)
+* The Filter Rail now loads labels for Saved Searches and Select Search Directory consistently. The Filters button no longer inserts label elements during focus, keyboard, or mouse interactions. (SITES-24706)
 
 * 
 * 
