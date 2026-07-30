@@ -165,6 +165,11 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Edit Content Fragment button now appears and works immediately for Reference Multifield entries. Authors no longer need to save, close, and reopen the parent Content Fragment before editing an embedded fragment. (SITES-43733) MAJOR
 
+* 
+* 
+* 
+* 
+
 
 
 
