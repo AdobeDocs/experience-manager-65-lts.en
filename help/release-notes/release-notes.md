@@ -107,25 +107,25 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * The Filter field in the Side Rail Components panel now has a valid accessible label. Screen readers announce the field purpose instead of relying on an icon or placeholder text. (SITES-25212)
 * The Assets Side Rail now hides decorative thumbnails from screen readers. Users no longer hear the asset name twice when they navigate the asset grid. (SITES-25213)
 
-* 
-* 
-* 
-* 
+* Accordion buttons in the Filters rail now display focus indicators with sufficient contrast. Keyboard users can track focus while navigating filter categories. (SITES-24986)
+* The Filters rail now displays clear keyboard focus around radio buttons. Increased contrast helps users track their position across filter options. (SITES-24987)
+* Loading status messages on the Filters page now meet minimum text contrast requirements. Users can read progress feedback while switching between Card View and List View. (SITES-24991)
+* The page title in the Editor Canvas now uses semantic heading markup. Assistive technology can announce the title and include it in heading navigation. (SITES-24993)
 
-* 
-* 
-* 
-* 
+* Expanding the Emulator menu now moves keyboard focus to the first menu item. Collapsing the menu keeps focus within the logical secondary toolbar sequence. (SITES-24954)
+* Text within the Live View table now meets minimum contrast requirements. Users can read Live Copy details clearly during normal and hover states. (SITES-24956)
+* The References rail now uses semantic heading markup for its title. Screen readers announce the heading during initial load and while users browse folders. (SITES-24967)
+* Card links now describe their destinations clearly. Screen-reader users can identify each link without hearing the card's full metadata. (SITES-24975)
 
-* 
-* 
-* 
-* 
+* Header menu buttons no longer tell screen readers that they open dialog boxes. Screen readers instead announce each button's expanded or collapsed state, which accurately describes the menu behavior. (SITES-24742)
+* Text on the Delete button now provides sufficient contrast against its red background. Users can identify the action more easily before confirming deletion. (SITES-24772)
+* Canvas cards no longer expose separate image and heading links that lead to the same destination. A single link reduces duplicate keyboard stops and repeated screen reader announcements. (SITES-24947)
+* List View now displays the drag-and-drop button with greater visual prominence. Updated icon size, weight, and contrast make the control easier to locate and use. (SITES-24951)
 
-* 
-* 
-* 
-* 
+* Header buttons now provide concise accessible names such as Search, Apps, Help, Inbox, and User. Screen readers no longer announce redundant terms such as "clickable" or "graphic" during keyboard navigation. (SITES-24715)
+* Links in App Navigation now display stronger visual emphasis. Increased text size and weight improve readability for users with low vision or color-vision differences. (SITES-24723)
+* Inbox links now use semantic list markup. Screen readers can identify the links as a related group, announce the item count, and support more efficient navigation. (SITES-24730)
+* Tooltip controls in the User Preferences dialog box now expose descriptive accessible names. Screen readers announce each control's purpose instead of saying "blank" before reading the tooltip content. (SITES-24732)
 
 * 
 * 
