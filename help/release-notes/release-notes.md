@@ -56,101 +56,80 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Closing an overlay now restores focus to its triggering control. Keyboard and screen-reader users no longer return to the overlay or lose their position in the interface. (SITES-40819)
 * Keyboard navigation no longer moves focus to hidden page content. This change maintains a predictable focus sequence and prevents navigation disruptions. (SITES-41430)
 * The Lock button now provides precise screen-reader feedback based on its title. Users hear a clear action label instead of a lengthy description. (SITES-41431)
-
 * A visual indicator now identifies the selected option in the Change File or Folder list box. The indicator helps users understand the breadcrumb path and recognize the current folder. (SITES-25532)
 * Screen readers now announce the ascending or descending sort direction once. A descriptive label clearly identifies the button action and removes duplicate feedback. (SITES-25534)
 * AEM Sites now provides broader accessibility support across common authoring workflows. Updates improve keyboard interaction, interface labels, focus management, and assistive technology feedback. (SITES-38239)
 * Toolbar items now display visible labels when they receive keyboard focus. Keyboard users can identify each control before they activate it. (SITES-40751)
-
 * Keyboard and screen-reader users can now leave the Inbox menu without leaving it open. The menu closes automatically and preserves a clear navigation path. (SITES-25518)
 * Color swatches now display a selected-state icon with sufficient contrast. The clearer indicator helps users recognize the active swatch across different background colors. (SITES-25523)
 * The Edit Layout toolbar now reports the current device accurately to assistive technology. Device buttons no longer suggest that users can toggle each button on and off. (SITES-25524)
 * The Search modal now displays the **Sort by** label with sufficient text contrast. The updated styling improves readability for users with low vision. (SITES-25531)
-
 * Sites List View sort buttons now meet minimum contrast requirements. Users can identify each sort control and its state more easily against the table background. (SITES-25372)
 * The Side Rail Assets list no longer reloads when the Filter field receives keyboard focus. Users can enter the field without unexpected content movement or repeated screen-reader loading announcements. (SITES-25377)
 * Content Fragment sidebar tabs now provide consistent accessible labels. NVDA announces the tab name instead of announcing the selected subnavigation item. (SITES-25509)
 * The Help menu now closes when keyboard or screen-reader focus moves outside it. Users can continue navigating header controls or page content without leaving the menu open. (SITES-25517)
-
 * Text entered in Demographics toolbar fields now meets minimum contrast requirements. Users can read profile values more clearly against the text field background. (SITES-25318)
 * The Page Information menu now displays focused options with sufficient text contrast. The clearer styling helps users track keyboard focus throughout the menu. (SITES-25321)
 * Checkboxes in the Teaser, Image, and Carousel dialog boxes now expose their related instructions to screen readers. Users hear the supporting description when keyboard focus reaches each checkbox. (SITES-25364)
 * Text editor controls now communicate their current state to assistive technology. Screen readers identify the active paragraph format and selected hyperlink target option. (SITES-25367)
-
 * Screen readers now announce the **Rotate Device** button and current device orientation clearly. Activating the control reports the new orientation without using a label that describes the opposite action. (SITES-25292)
 * Keyboard navigation now skips controls hidden inside the collapsed Demographics toolbar. Users can move through Layout Preview without encountering unavailable toolbar options. (SITES-25304)
 * Text labels in the Demographics toolbar now meet minimum contrast requirements during Layout Preview. Users can read labels such as Recommended more clearly against the toolbar background. (SITES-25307)
 * The Demographics toolbar now displays button focus indicators with sufficient contrast. Users can identify the active Commerce, Persona, or Device control during keyboard navigation. (SITES-25308)
-
 * The Edit Layout toolbar uses a grouped focus indicator for the device selector. The outline includes the related **Select Device** and **Rotate Device** controls as part of the intended toolbar behavior. (SITES-25283)
 * The Edit Layout toolbar no longer truncates the **iPhone 8 Plus** label when users select another device. The full device name remains visible across all button states. (SITES-25284)
 * The Edit Layout ruler now provides measurement context to screen readers. Users hear a descriptive label and the measurement format instead of an unexplained series of numbers. (SITES-25287)
 * The Edit Layout toolbar now highlights the **Desktop** button when desktop view is active. The visual indicator makes the current device selection clear. (SITES-25290)
-
 * Keyboard focus now remains visible on the swatch button across all available colors. Added spacing prevents the focus indicator from blending into the selected swatch. (SITES-25253)
 * Screen readers now identify the Timewarp Date field correctly. The field no longer provides misleading feedback that suggests it opens a dialog box. (SITES-25263)
 * The Annotation button label now meets minimum contrast requirements in its default and hover states. Users can read the label clearly against the button background. (SITES-25267)
 * Screen readers now announce meaningful labels for controls in the Annotation dialog box. Each button communicates its action without an unnecessary Annotation prefix. (SITES-25277)
-
 * The Assets side rail Edit button now provides a larger touch target. Users can activate the control more reliably without selecting a nearby element. (SITES-25221)
 * The Page Editor now uses a logical heading hierarchy. Screen readers identify the page title as the primary heading and side rail titles as subordinate headings. (SITES-25222)
 * The Annotation dialog box now exposes its title as a semantic heading. Screen-reader users can identify the title and navigate the dialog box structure through heading commands. (SITES-25248)
 * Screen-reader users now receive feedback when they filter the Insert New Component list. The search field describes its filtering behavior, and a status message reports the result count. (SITES-25251)
-
 * The Side Rail Components panel now uses semantic list markup. Screen readers can announce the item count and support efficient list navigation. (SITES-25214)
 * Info buttons now use larger icons in the Components panel. Users can locate and recognize each control more easily. (SITES-25217)
 * Component titles now remain visible when users increase text spacing. Long titles wrap instead of truncating or overlapping nearby content. (SITES-25219)
 * The Assets Side Rail **Edit** button now indicates that it opens a new browser tab. Visual and screen-reader cues prepare users before navigation. (SITES-25220)
-
 * Annotation Mode now places keyboard focus on the annotation toolbar when the toolbar opens. Keyboard and screen reader users can move through the controls in a logical sequence without navigating backward from the **Close** button. (SITES-24996)
 * Select buttons for Path and Tags fields no longer use a checkbox icon. The updated icon shows that the control opens a selection dialog box instead of changing a checked state. (SITES-25210)
 * The Filter field in the Side Rail Components panel now has a valid accessible label. Screen readers announce the field purpose instead of relying on an icon or placeholder text. (SITES-25212)
 * The Assets Side Rail now hides decorative thumbnails from screen readers. Users no longer hear the asset name twice when they navigate the asset grid. (SITES-25213)
-
 * Accordion buttons in the Filters rail now display focus indicators with sufficient contrast. Keyboard users can track focus while navigating filter categories. (SITES-24986)
 * The Filters rail now displays clear keyboard focus around radio buttons. Increased contrast helps users track their position across filter options. (SITES-24987)
 * Loading status messages on the Filters page now meet minimum text contrast requirements. Users can read progress feedback while switching between Card View and List View. (SITES-24991)
 * The page title in the Editor Canvas now uses semantic heading markup. Assistive technology can announce the title and include it in heading navigation. (SITES-24993)
-
 * Expanding the Emulator menu now moves keyboard focus to the first menu item. Collapsing the menu keeps focus within the logical secondary toolbar sequence. (SITES-24954)
 * Text within the Live View table now meets minimum contrast requirements. Users can read Live Copy details clearly during normal and hover states. (SITES-24956)
 * The References rail now uses semantic heading markup for its title. Screen readers announce the heading during initial load and while users browse folders. (SITES-24967)
 * Card links now describe their destinations clearly. Screen-reader users can identify each link without hearing the card's full metadata. (SITES-24975)
-
 * Header menu buttons no longer tell screen readers that they open dialog boxes. Screen readers instead announce each button's expanded or collapsed state, which accurately describes the menu behavior. (SITES-24742)
 * Text on the Delete button now provides sufficient contrast against its red background. Users can identify the action more easily before confirming deletion. (SITES-24772)
 * Canvas cards no longer expose separate image and heading links that lead to the same destination. A single link reduces duplicate keyboard stops and repeated screen reader announcements. (SITES-24947)
 * List View now displays the drag-and-drop button with greater visual prominence. Updated icon size, weight, and contrast make the control easier to locate and use. (SITES-24951)
-
 * Header buttons now provide concise accessible names such as Search, Apps, Help, Inbox, and User. Screen readers no longer announce redundant terms such as "clickable" or "graphic" during keyboard navigation. (SITES-24715)
 * Links in App Navigation now display stronger visual emphasis. Increased text size and weight improve readability for users with low vision or color-vision differences. (SITES-24723)
 * Inbox links now use semantic list markup. Screen readers can identify the links as a related group, announce the item count, and support more efficient navigation. (SITES-24730)
 * Tooltip controls in the User Preferences dialog box now expose descriptive accessible names. Screen readers announce each control's purpose instead of saying "blank" before reading the tooltip content. (SITES-24732)
-
 * Each Filter Rail landmark now includes a unique accessible label. Screen readers can distinguish the Filter Rail from other page regions and identify it during navigation. (SITES-24686)
 * Editor dialog boxes now separate Help and Toggle fullscreen buttons from the heading element. Screen readers identify these interactive controls accurately and no longer announce them as headings. (SITES-24696)
 * The CSV Report button now warns users before opening a new browser tab. Its accessible label communicates the behavior to screen reader and keyboard users before activation. (SITES-24704)
 * The Filter Rail now loads labels for Saved Searches and Select Search Directory consistently. The Filters button no longer inserts label elements during focus, keyboard, or mouse interactions. (SITES-24706)
-
-* 
-* 
-* 
-* 
-
-* 
-* 
-* 
-* 
-
-* 
-* 
-* 
-* 
-
-* 
-* 
-* 
-* 
+* The Close and Remove Location buttons now provide larger touch targets. Users can activate either control more reliably without selecting adjacent elements. (SITES-24530)
+* The Remove Location button and its focus indicator now meet minimum contrast requirements. Stronger contrast helps users identify the control and track keyboard focus. (SITES-24531)
+* Editor iframes now include descriptive titles across the canvas, side rails, component dialog boxes, and layout preview. Screen readers can identify each frame when focus enters it. (SITES-24650)
+* Improved text contrast makes References Rail messages easier to read. The change clarifies prompts that request a selection or report unavailable references. (SITES-24666)
+* The Components panel gives each information icon a meaningful accessible label. Screen readers consistently identify the control that shows a component description. (SITES-24500)
+* Keyboard focus now surrounds the entire Show description button for Byline. The visible outline helps users track their position and avoid activating another control. (SITES-24503)
+* The Teaser component dialog box no longer exposes the Help and Toggle fullscreen buttons as headings. Screen readers announce both controls as buttons and preserve the correct heading structure. (SITES-24525)
+* The Adobe Experience Manager header control correctly reports its expanded or collapsed state. The control opens and closes navigation content, so screen readers receive valid state information. (SITES-24528)
+* Filter results mark globe icons as decorative and remove their accessible names. Screen readers ignore the icons instead of announcing misleading descriptions. (SITES-3057)
+* The Time Warp dialog box now associates time-entry errors with the corresponding Hours or Minutes field. Screen readers announce the affected field alongside the validation message. (SITES-10980)
+* The selected content tree item no longer becomes part of the Change file or folder control label. Screen readers hear a clear control name without extra state text. (SITES-24496)
+* Region landmarks in the Assets side rail now expose distinct accessible names. Screen reader users can identify and navigate each region without ambiguity. (SITES-24497)
+* Screen readers now ignore the Carousel dialog box's decorative Help and Fullscreen icons. Keyboard navigation no longer triggers unnecessary icon announcements. (SITES-2912)
+* Screen readers now skip decorative toolbar icons in the Teaser dialog box. Help, Fullscreen, formatting, and link controls no longer produce redundant announcements. (SITES-2934)
 
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
