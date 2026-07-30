@@ -142,11 +142,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 Indonesian Language Copy properties display the correct ID language code. The References rail no longer substitutes IN when authors create or review an Indonesian Language Copy. (SITES-44918)
 
 
-
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp3}
 
 The Assets console now responds when users apply search filters. Changing a Content Fragment Model filter refreshes the results instead of leaving the current asset list unchanged. (SITES-38686) MAJOR
-
 
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp3}
@@ -158,8 +156,6 @@ The Assets console now responds when users apply search filters. Changing a Cont
 * Content Fragment services no longer rely on obsolete feature-toggle logic. The streamlined implementation removes toggle-dependent branches and keeps service pack behavior consistent. (SITES-38688)
 * AEM translates the Later option during scheduled Content Fragment publication. The publishing workflow matches the active interface language. (SITES-42532)
 * AEM translates the Main string in the Content Fragment download dialog box. The Elements section matches the active interface language. (SITES-42534)
-
-
 
 
 #### [!DNL Content Fragments] - Fragment Editor{#sites-fragments-editor-65-lts-sp3}
@@ -174,8 +170,6 @@ The Assets console now responds when users apply search filters. Changing a Cont
 * The Content Fragment Editor validates fields consistently after Granite UI changes. Updated client libraries restore the expected validation behavior. (SITES-46650)
 
 
-
-
 #### [!DNL Content Fragments] - GraphQL API {#sites-graphql-api-65-lts-sp3}
 
 * GraphQL JSON responses now include embedded image references when DAM filenames contain spaces or non-ASCII characters. Client applications can retrieve and render these images without renaming the assets. (SITES-42191) MAJOR
@@ -185,9 +179,7 @@ The Assets console now responds when users apply search filters. Changing a Cont
 * Reloading the GraphQL Endpoints page preserves the localized empty-state message. The page no longer reverts to English when no endpoints exist. (SITES-43586)
 
 
-
-#### [!DNL Content Fragments] - GraphQL Query Editor{#sites-graphql-query-editor-65-lts-sp3}
-
+<!--#### [!DNL Content Fragments] - GraphQL Query Editor{#sites-graphql-query-editor-65-lts-sp3}-->
 
 
 #### [!DNL Content Fragments] - Model Editor{#sites-model-editor-65-lts-sp3}
@@ -211,12 +203,11 @@ The headless Content Fragment REST API bundle removes obsolete feature toggles a
 The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
 
 
-
+<!--
 #### Content API{#sites-content-api-65-lts-sp3}
 
-
-
 #### Core backend{#sites-core-backend-65-lts-sp3}
+-->
 
 
 
