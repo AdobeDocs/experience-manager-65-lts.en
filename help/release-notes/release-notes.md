@@ -77,15 +77,15 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Checkboxes in the Teaser, Image, and Carousel dialog boxes now expose their related instructions to screen readers. Users hear the supporting description when keyboard focus reaches each checkbox. (SITES-25364)
 * Text editor controls now communicate their current state to assistive technology. Screen readers identify the active paragraph format and selected hyperlink target option. (SITES-25367)
 
-* 
-* 
-* 
-* 
+* Screen readers now announce the **Rotate Device** button and current device orientation clearly. Activating the control reports the new orientation without using a label that describes the opposite action. (SITES-25292)
+* Keyboard navigation now skips controls hidden inside the collapsed Demographics toolbar. Users can move through Layout Preview without encountering unavailable toolbar options. (SITES-25304)
+* Text labels in the Demographics toolbar now meet minimum contrast requirements during Layout Preview. Users can read labels such as Recommended more clearly against the toolbar background. (SITES-25307)
+* The Demographics toolbar now displays button focus indicators with sufficient contrast. Users can identify the active Commerce, Persona, or Device control during keyboard navigation. (SITES-25308)
 
-* 
-* 
-* 
-* 
+* The Edit Layout toolbar uses a grouped focus indicator for the device selector. The outline includes the related **Select Device** and **Rotate Device** controls as part of the intended toolbar behavior. (SITES-25283)
+* The Edit Layout toolbar no longer truncates the **iPhone 8 Plus** label when users select another device. The full device name remains visible across all button states. (SITES-25284)
+* The Edit Layout ruler now provides measurement context to screen readers. Users hear a descriptive label and the measurement format instead of an unexplained series of numbers. (SITES-25287)
+* The Edit Layout toolbar now highlights the **Desktop** button when desktop view is active. The visual indicator makes the current device selection clear. (SITES-25290)
 
 * 
 * 
