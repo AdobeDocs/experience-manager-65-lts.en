@@ -136,6 +136,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Classic user interface{#sites-classicui-65-lts-sp3} 
 
+* Indonesian Language Copy properties display the correct ID language code. The References rail no longer substitutes IN when authors create or review an Indonesian Language Copy. (SITES-44918)
+
 
 
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp3}
@@ -147,6 +149,12 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp3}
 
 * The Assets page now localizes the tooltip for a locked Content Fragment. Users see the translated **Checked Out By** label when they hover over the lock indicator. (SITES-42531) MAJOR
+
+* AEM localizes the Invalid name provided validation message during Content Fragment creation. Unsupported title characters no longer trigger English text across non-English interfaces. (SITES-19796)
+* AEM translates the Content Fragment Models string during Content Fragment creation. The Assets interface no longer shows English text for that label in localized environments. (SITES-22336)
+* Content Fragment services no longer rely on obsolete feature-toggle logic. The streamlined implementation removes toggle-dependent branches and keeps service pack behavior consistent. (SITES-38688)
+* AEM translates the Later option during scheduled Content Fragment publication. The publishing workflow matches the active interface language. (SITES-42532)
+* AEM translates the Main string in the Content Fragment download dialog box. The Elements section matches the active interface language. (SITES-42534)
 
 
 
@@ -297,6 +305,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 ### Foundation {#foundation-65-lts-sp3}
+
+#### AEM Context Service {#foundation-aem-context-service-65-lts-sp3}
+
+* AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service APIs, agent integration, AMS provisioning, Unified Shell integration, production monitoring, operational runbooks, and usage reporting. (GRANITE-65148)
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
