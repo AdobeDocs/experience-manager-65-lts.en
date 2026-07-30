@@ -87,25 +87,25 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * The Edit Layout ruler now provides measurement context to screen readers. Users hear a descriptive label and the measurement format instead of an unexplained series of numbers. (SITES-25287)
 * The Edit Layout toolbar now highlights the **Desktop** button when desktop view is active. The visual indicator makes the current device selection clear. (SITES-25290)
 
-* 
-* 
-* 
-* 
+* Keyboard focus now remains visible on the swatch button across all available colors. Added spacing prevents the focus indicator from blending into the selected swatch. (SITES-25253)
+* Screen readers now identify the Timewarp Date field correctly. The field no longer provides misleading feedback that suggests it opens a dialog box. (SITES-25263)
+* The Annotation button label now meets minimum contrast requirements in its default and hover states. Users can read the label clearly against the button background. (SITES-25267)
+* Screen readers now announce meaningful labels for controls in the Annotation dialog box. Each button communicates its action without an unnecessary Annotation prefix. (SITES-25277)
 
-* 
-* 
-* 
-* 
+* The Assets side rail Edit button now provides a larger touch target. Users can activate the control more reliably without selecting a nearby element. (SITES-25221)
+* The Page Editor now uses a logical heading hierarchy. Screen readers identify the page title as the primary heading and side rail titles as subordinate headings. (SITES-25222)
+* The Annotation dialog box now exposes its title as a semantic heading. Screen-reader users can identify the title and navigate the dialog box structure through heading commands. (SITES-25248)
+* Screen-reader users now receive feedback when they filter the Insert New Component list. The search field describes its filtering behavior, and a status message reports the result count. (SITES-25251)
 
-* 
-* 
-* 
-* 
+* The Side Rail Components panel now uses semantic list markup. Screen readers can announce the item count and support efficient list navigation. (SITES-25214)
+* Info buttons now use larger icons in the Components panel. Users can locate and recognize each control more easily. (SITES-25217)
+* Component titles now remain visible when users increase text spacing. Long titles wrap instead of truncating or overlapping nearby content. (SITES-25219)
+* The Assets Side Rail **Edit** button now indicates that it opens a new browser tab. Visual and screen-reader cues prepare users before navigation. (SITES-25220)
 
-* 
-* 
-* 
-* 
+* Annotation Mode now places keyboard focus on the annotation toolbar when the toolbar opens. Keyboard and screen reader users can move through the controls in a logical sequence without navigating backward from the **Close** button. (SITES-24996)
+* Select buttons for Path and Tags fields no longer use a checkbox icon. The updated icon shows that the control opens a selection dialog box instead of changing a checked state. (SITES-25210)
+* The Filter field in the Side Rail Components panel now has a valid accessible label. Screen readers announce the field purpose instead of relying on an icon or placeholder text. (SITES-25212)
+* The Assets Side Rail now hides decorative thumbnails from screen readers. Users no longer hear the asset name twice when they navigate the asset grid. (SITES-25213)
 
 * 
 * 
