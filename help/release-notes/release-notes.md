@@ -22,9 +22,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
 
 <!-- NEEDED FOR SP3????
->[!IMPORTANT]
->
-> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues with offline compaction when installing SP2, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146).
+**Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues with offline compaction when installing SP2, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146).
 -->
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP3 {#what-is-new}
