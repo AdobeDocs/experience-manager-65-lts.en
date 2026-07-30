@@ -42,6 +42,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ### [!DNL Sites]{#sites-65-LTS-SP3}
 
+* AEM 6.5 LTS, Service Pack 3 includes the Crosswalk bundles, content package, system users, service-user mappings, feature toggles, and required OSGi configuration. Fresh installations provide the Crosswalk prerequisites automatically and require only customer-specific runtime configuration. (SITES-41596)
+* AEM 6.5 LTS, Service Pack 3 updates `cq-wcm-core` to support Crosswalk on Adobe Managed Services. The update adds template creation and Universal Editor access while removing obsolete custom code and feature toggles. (SITES-37657)
+
 
 #### Accessibility {#sites-accessibility-65-lts-sp3}
 
@@ -132,17 +135,19 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
 
+* AEM now lets members of the Administrators group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
+* Assets Admin View now updates an asset card after authors select **Revert to this Version** in the Timeline. The thumbnail displays the restored version immediately and no longer shows stale preview content. (SITES-46590)
 
 
 #### Classic user interface{#sites-classicui-65-lts-sp3} 
 
-* Indonesian Language Copy properties display the correct ID language code. The References rail no longer substitutes IN when authors create or review an Indonesian Language Copy. (SITES-44918)
+Indonesian Language Copy properties display the correct ID language code. The References rail no longer substitutes IN when authors create or review an Indonesian Language Copy. (SITES-44918)
 
 
 
 #### [!DNL Content Fragments]{#sites-contentfragments-65-lts-sp3}
 
-* The Assets console now responds when users apply search filters. Changing a Content Fragment Model filter refreshes the results instead of leaving the current asset list unchanged. (SITES-38686) MAJOR
+The Assets console now responds when users apply search filters. Changing a Content Fragment Model filter refreshes the results instead of leaving the current asset list unchanged. (SITES-38686) MAJOR
 
 
 
@@ -165,10 +170,10 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Edit Content Fragment button now appears and works immediately for Reference Multifield entries. Authors no longer need to save, close, and reopen the parent Content Fragment before editing an embedded fragment. (SITES-43733) MAJOR
 
-* 
-* 
-* 
-* 
+* The Content Fragment Editor shows one focus outline when authors select a multiline text field. The outline no longer duplicates or overlaps nearby controls. (SITES-39253)
+* Content Fragment creation displays CJK placeholder text without italic styling. Japanese, Korean, Simplified Chinese, and Traditional Chinese characters retain their intended appearance. (SITES-43548)
+* The Content Fragment Editor refreshes the status banner after authors save or publish a fragment. Authors can confirm Modified, Saved, or Published states without reloading the browser tab. (SITES-45897)
+* The Content Fragment Editor validates fields consistently after Granite UI changes. Updated client libraries restore the expected validation behavior. (SITES-46650)
 
 
 
@@ -178,6 +183,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * GraphQL JSON responses now include embedded image references when DAM filenames contain spaces or non-ASCII characters. Client applications can retrieve and render these images without renaming the assets. (SITES-42191) MAJOR
 * The Content Fragment GraphQL API now includes several query-processing and response-handling updates. The changes prevent duplicate cache headers and values, improve encoding, preserve persisted-query status information, handle empty headers, and return appropriate endpoint errors. (SITES-40159) MAJOR
 * The PersistedQueryServlet now processes encoded variables in valid GraphQL persisted queries without recording false errors or warnings. Queries continue to return successful responses while logs reflect their actual execution status. (SITES-39354) MAJOR
+
+* Reloading the GraphQL Endpoints page preserves the localized empty-state message. The page no longer reverts to English when no endpoints exist. (SITES-43586)
 
 
 
@@ -189,15 +196,21 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Content Fragment Models console now displays uploaded thumbnails for configurations whose names contain localized characters. Authors no longer lose thumbnail previews when configuration names use non-English text. (SITES-39242) MAJOR
 
+* The Content Fragment Model Editor displays localized **Field Label** text as soon as authors add a component to the canvas. Authors no longer need to save and reopen the model to see the translation. (SITES-45383)
+* The Content Fragment Model Editor localizes the validation message shown when authors select an invalid model type for a Composite component. The message now matches the active locale instead of appearing only in English. (SITES-41117)
+* The Content Fragment Model Editor localizes all text in the Model is locked dialog box. The dialog box no longer mixes English button labels and instructions with translated interface text. (SITES-28592)
+
 
 
 #### [!DNL Content Fragments] - REST API{#sites-restapi-65-lts-sp3}
+
+The headless Content Fragment REST API bundle removes obsolete feature toggles and related conditional code. Supported API behavior remains unchanged, while the bundle retains only the toggles required for active features. (SITES-39113)
 
 
 
 #### Component console{#sites-component-console-65-lts-sp3}
 
-* The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
+The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
 
 
 
@@ -217,13 +230,13 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Campaign integration{#sites-campaign-integration-65-lts-sp3}
 
-* The Campaign ContentServlet now preserves the JSON response content type during content requests. This change stops the repeated `WARN` and `ERROR` log entries that occurred after an upgrade from AEM 6.5.24. (SITES-46902) MAJOR
+The Campaign ContentServlet now preserves the JSON response content type during content requests. This change stops the repeated `WARN` and `ERROR` log entries that occurred after an upgrade from AEM 6.5.24. (SITES-46902) MAJOR
 
 
 
 #### Experience Fragments{#sites-experiencefragments-65-lts-sp3}
 
-* Authors can now browse more than 40 templates while creating an Experience Fragment variation. Each additional page preserves the original folder filter and displays the next matching templates. (SITES-41531) MAJOR
+Authors can now browse more than 40 templates while creating an Experience Fragment variation. Each additional page preserves the original folder filter and displays the next matching templates. (SITES-41531) MAJOR
 
 
 
@@ -232,6 +245,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 
 #### Launches{#sites-launches-65-lts-sp3}
+
+Launch promotion history now displays localized text in the Sites Timeline. The Timeline translates the messages "Created version of" and "before promoting launch" across supported locales. (SITES-13389)
 
 
 
@@ -249,12 +264,19 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Authors can now roll out component changes from the editable toolbar on a blueprint page. The rollout completes without a JavaScript error and propagates the changes to the Live Copy. (SITES-46052) MAJOR
 * Authors can now complete MSM rollouts from blueprint pages after an upgrade. The rollout dialog box loads the available Live Copies and enables its rollout controls instead of remaining in a perpetual loading state. (SITES-43116) MAJOR
 
+* Live Copy Overview now applies localized date formats throughout Relationship Status. The **Live Copy Source Last Modified**, L**ive Copy Last Modified**, and **Last rolled out** fields match the user's locale. (SITES-40756)
+* Deactivating a blueprint parent and its child pages in one request now produces one rollout event per path. The rollout manager no longer runs duplicate actions for the same child page. (SITES-44987)
+
 
 #### Page editor{#sites-pageeditor-65-lts-sp3}
 
 * Authors can now create and apply tags with uppercase letters or spaces during one Page Properties save. AEM immediately stores the normalized tag value and preserves the page assignment. (SITES-42550) CRITICAL
 
 * Scrolling through the style menu no longer removes the highlight from the selected style. Authors can confirm their current selection while reviewing other available options. (SITES-30874) MAJOR
+
+* The Rich Text Editor Link button now opens when authors access AEM through HTTP. Link creation no longer triggers a `crypto.randomUUID` error. (SITES-39467)
+* Authors can now copy and paste configured Content Fragment components into empty layout containers. The pasted component retains its original Content Fragment reference and no longer displays the *Choose an experience variation* error. (SITES-41586)
+* The Image Editor now honors custom crop ratios during hybrid inline editing. Each image drop target uses its own configuration, so crop selections apply correctly outside full-screen mode. (SITES-45771)
 
 
 
@@ -313,11 +335,11 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### AEM Context Service {#foundation-aem-context-service-65-lts-sp3}
 
-* AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service APIs, agent integration, AMS provisioning, Unified Shell integration, production monitoring, operational runbooks, and usage reporting. (GRANITE-65148)
+AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service APIs, agent integration, AMS provisioning, Unified Shell integration, production monitoring, operational runbooks, and usage reporting. (GRANITE-65148)
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
-* The AEM mail service now continues sending email when intermittent configuration errors occur. Administrators no longer need to restart the Day Communique 5 Mailer bundle to restore email delivery. (GRANITE-66817) MAJOR
+The AEM mail service now continues sending email when intermittent configuration errors occur. Administrators no longer need to restart the Day Communique 5 Mailer bundle to restore email delivery. (GRANITE-66817) MAJOR
 
 
 
@@ -351,6 +373,12 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 * The Operations console now localizes previously untranslated text across Health Reports. Users see translated status messages, warnings, maintenance results, and performance information. (NPR-44280) MAJOR
 
+* The Audit Log Maintenance task now displays a localized disclaimer. Administrators see the compliance and legal guidance in their selected language before they configure automated audit-log purging. (NPR-44188)
+* The Edit User page now displays a localized error when users reorder modified profiles. The message clearly explains that changed profiles cannot move until users save their changes. (NPR-44282)
+* AEM now localizes tooltips throughout the Content Fragment List properties. The translated guidance explains model selection, tag filtering, content paths, item limits, and sort settings. (SITES-14969)
+* Component Help links in the Template Editor now open localized documentation. Authors reach guidance that matches their selected language instead of English-only component pages. (SITES-15058)
+* The Component Policy editor now localizes errors that report an unmodifiable resource or a failed node creation. Template authors receive these messages in their selected language. (SITES-17475)
+
 #### Omnisearch{#foundation-omnisearch-65-lts-sp3}
 
 #### Operations Dashboard{#foundation-operations-dashboard-65-lts-sp3}
@@ -358,6 +386,8 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 The `/system/health/systemalive.json` endpoint now remains available after customers upgrade AEM LTS. A corrected servlet context configuration prevents HTTP 404 responses and supports health-monitoring systems that rely on the endpoint. (GRANITE-69457) CRITICAL
 
 #### Platform{#foundation-platform-65-lts-sp3}
+
+The default HTL expression-option allow list now recognizes `decorationTagName` and `cssClassName`. Rendering the out-of-the-box responsive grid no longer fills `error.log` with repeated unknown-option warnings. (GRANITE-67152)
 
 #### Projects{#foundation-projects-65-lts-sp3}
 
@@ -371,7 +401,7 @@ The `/system/health/systemalive.json` endpoint now remains available after custo
 
 #### Security{#foundation-security-65-lts-sp3}
 
-* The **Copy Group** action now opens the expected form instead of displaying a blank page. Administrators can enter a new group ID and description, then duplicate an existing security group. (NPR-44302) MAJOR
+The **Copy Group** action now opens the expected form instead of displaying a blank page. Administrators can enter a new group ID and description, then duplicate an existing security group. (NPR-44302) MAJOR
 
 
 
@@ -381,9 +411,14 @@ The `/system/health/systemalive.json` endpoint now remains available after custo
 
 #### Translation{#foundation-translation-65-lts-sp3}
 
+Translation projects now maintain accurate status counts as workflows progress. Launch creation and status propagation follow the expected workflow behavior, eliminating inconsistent project metadata. (NPR-43420)
+
 
 
 #### User interface{#foundation-ui-65-lts-sp3}
+
+* The Country/Region label now appears in the selected interface language. Localized interfaces no longer display the English label. (NPR-43883)
+* Selecting a sibling page now activates **Select** in composite multifield path pickers. Authors can confirm the new path without enlarging the browser window or repeating the selection. (GRANITE-69323)
 
 
 
@@ -395,6 +430,8 @@ The `/system/health/systemalive.json` endpoint now remains available after custo
 
 * Workflow Package pages now support the Content Tree and editable Resource Definition components in the Touch UI Page Editor. Authors can navigate package content and inspect or update its components without using the Classic UI. (GRANITE-67348) MAJOR
 * The Touch UI Page Editor now renders the Content Tree for Workflow Package pages. Authors can inspect the package structure and edit Resource Definition components through the same editor. (GRANITE-67186) MAJOR
+
+* The workflow variable dialog now displays the correct controls for Form Data Model, JSON, XML, and Document variables. Authors no longer see raw HTML markup when they create these non-primitive variables. (GRANITE-67915)
 
 
 
