@@ -107,7 +107,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 * Text on the Delete button now provides sufficient contrast against its red background. Users can identify the action more easily before confirming deletion. (SITES-24772)
 * Canvas cards no longer expose separate image and heading links that lead to the same destination. A single link reduces duplicate keyboard stops and repeated screen reader announcements. (SITES-24947)
 * List View now displays the drag-and-drop button with greater visual prominence. Updated icon size, weight, and contrast make the control easier to locate and use. (SITES-24951)
-* Header buttons now provide concise accessible names such as Search, Apps, Help, Inbox, and User. Screen readers no longer announce redundant terms such as "clickable" or "graphic" during keyboard navigation. (SITES-24715)
+* Header buttons now provide concise accessible names: Search, Apps, Help, Inbox, and User. Screen readers no longer announce redundant terms such as "clickable" or "graphic" during keyboard navigation. (SITES-24715)
 * Links in App Navigation now display stronger visual emphasis. Increased text size and weight improve readability for users with low vision or color-vision differences. (SITES-24723)
 * Inbox links now use semantic list markup. Screen readers can identify the links as a related group, announce the item count, and support more efficient navigation. (SITES-24730)
 * Tooltip controls in the User Preferences dialog box now expose descriptive accessible names. Screen readers announce each control's purpose instead of saying "blank" before reading the tooltip content. (SITES-24732)
@@ -259,7 +259,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 * The Rich Text Editor Link button now opens when authors access AEM through HTTP. Link creation no longer triggers a `crypto.randomUUID` error. (SITES-39467)
 * Authors can now copy and paste configured Content Fragment components into empty layout containers. The pasted component retains its original Content Fragment reference and no longer displays the *Choose an experience variation* error. (SITES-41586)
-* The Image Editor now honors custom crop ratios during hybrid inline editing. Each image drop target uses its own configuration, so crop selections apply correctly outside full-screen mode. (SITES-45771)
+* The Image Editor now honors custom crop ratios during hybrid inline editing. Each image drop target uses its own configuration, so crop selections apply in a correct manner outside full-screen mode. (SITES-45771)
 
 <!--
 #### Replication{#sites-replication-65-lts-sp3}
@@ -288,7 +288,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 #### AEM Context Service {#foundation-aem-context-service-65-lts-sp3}
 
-AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service APIs, agent integration, AMS provisioning, Unified Shell integration, production monitoring, operational runbooks, and usage reporting. (GRANITE-65148)
+AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service APIs, agent integration, AMS provisioning, Experience Cloud integration, production monitoring, operational runbooks, and usage reporting. (GRANITE-65148)
 
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
@@ -333,7 +333,7 @@ The `/system/health/systemalive.json` endpoint now remains available after custo
 
 #### Platform{#foundation-platform-65-lts-sp3}
 
-The default HTL expression-option allow list now recognizes `decorationTagName` and `cssClassName`. Rendering the out-of-the-box responsive grid no longer fills `error.log` with repeated unknown-option warnings. (GRANITE-67152)
+The default HTL expression-option allow list now recognizes `decorationTagName` and `cssClassName`. Rendering the standard responsive grid no longer fills `error.log` with repeated unknown-option warnings. (GRANITE-67152)
 
 <!--
 #### Projects{#foundation-projects-65-lts-sp3}
@@ -426,7 +426,6 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 
 <!-- THE INFORMATION UNDER THIS HEADING CAME FROM CQDOC-23078 -->
 
-**Environment**
 Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 3 (SP3). SP3 is delivered as a Quickstart JAR.
 
 **Why this upgrade practice matters**
@@ -449,7 +448,7 @@ SP3 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 1. Rename the unpacked JAR to match the role and port, for example `cq-author-4502.jar` or `cq-publish-4503.jar`.
 1. Start AEM and confirm the upgrade in the UI (Help > About) and logs.
 
-**Good hygiene**
+**Best practices**
 
 * Run the upgrade in lower / test environments before production.
 * Take a full, restorable backup (repository plus any external datastores) before you begin.
@@ -504,7 +503,7 @@ To ensure transparency and allow adequate planning, Adobe follows this deprecati
 
 This section lists features and capabilities that Adobe has deprecated in AEM 6.5 LTS. Typically, Adobe deprecates features before removing them in a future release and provides an alternative.
 
-Customers are advised to review if they use the feature / capability in their current deployment. Make plans to change their implementation to use the alternative provided.
+Customers are advised to review whether they use the feature / capability in their current deployment. Make plans to change your implementation to use the alternative provided.
 
 | Area | Feature | Replacement | Version (SP) |
 | --- | --- | --- | --- |
@@ -518,7 +517,7 @@ Customers are advised to review if they use the feature / capability in their cu
 
 This section lists features and capabilities that have been removed from AEM 6.5 LTS. Prior releases had these capabilities marked as deprecated.
 
-* Support for RDBMK for CRX repository persistence has been removed.
+* Support for RDBMK for Adobe CRX repository persistence has been removed.
 * In clustered environments, MongoMK is now the only supported option for repository persistence.
 
 | Area | Feature | Replacement | Version (SP) |
@@ -546,9 +545,9 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### AEM Forms
 
-* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
-* On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality may fail. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
-* On Forms JEE LTS running on JBoss&reg;, email-related functionality may fail. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. Install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear) to resolve this issue. (FORMS-24892)
+* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to `Adobe-livecycle-jboss.ear\lib` resolves the issue. (FORMS-24690)
+* On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
+* On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
@@ -568,11 +567,11 @@ Plan for the downtime of the instance when applying it. For offline compaction, 
 
 The `com.adobe.granite.apicontroller` bundle is missing in AEM 6.5 LTS SP2. This bundle controls how OSGi bundles are resolved and can prevent bundles from resolving to other bundles, which is useful for limiting exposed APIs.
 
-Install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip) to use this functionality.
+To use this functionality, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip).
 
 >[!NOTE]
 >
-> After installing the hotfix, verify the bundle status of all installed bundles to ensure that the default configuration of `com.adobe.granite.apicontroller` has not introduced unintended resolution restrictions that could affect existing custom implementations.
+> To ensure that the default configuration of `com.adobe.granite.apicontroller` introduces no unintended resolution restrictions that affect existing custom implementations, verify the bundle status of all installed bundles after installing the hotfix.
 
 ### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
 
@@ -584,13 +583,13 @@ The failure is silent: content nodes fail to load at bundle activation with no e
 
 >[!CAUTION]
 >
-> Remove all comments from JSON files in your `Sling-Initial-Content` bundles to avoid content loading failures after upgrading to AEM 6.5 LTS SP2.
+> To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles.
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
 Some APIs that moved to Sites Headless require additional Oak indexes for full functionality.
 
-Install the `cq-dam-cfm-indices` package to use the following features:
+To use the following features, install the `cq-dam-cfm-indices` package:
 
 * List Content Fragment Models
 * List Content Fragments
@@ -605,7 +604,7 @@ Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/d
 >
 > This issue is only present in the AEM 6.5 LTS GA release.
 
-When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks fail and communication between Dispatcher and AEM instances is disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
 
 **Impact**
 
@@ -623,7 +622,7 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 **Solution**
 
-If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
+If you experience this issue, contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
