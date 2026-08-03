@@ -5,13 +5,14 @@ git-repo: https://github.com/AdobeDocs/experience-manager-65-lts.en
 index: true
 type: Documentation
 solution: Experience Manager, Experience Manager 6.5 LTS
+nudge: yes
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: "Experience Manager"
   - id: ae206583-dab1-444b-b978-a37aad4a988c
     internal-label: "Adobe Experience Manager 6.5 LTS"
 usetq: true
-landing-page-name: experience-manager-lts
+landing-page-name: experience-manager-65-lts
 landing-page-breadcrumb-title: AEM 6.5 LTS
 version: Experience Manager 6.5 LTS
 feature-set: Experience Manager Assets,Experience Manager Sites,Experience Manager, Experience Manager Forms, Experience Manager Cloud Manager
