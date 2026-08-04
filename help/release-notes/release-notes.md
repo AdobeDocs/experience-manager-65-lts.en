@@ -31,7 +31,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 [!DNL Experience Manager] 6.5 LTS, SP2 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-## Key feature and enhancement 
+## Key features and enhancements
 
 **AEM Sites**
 
@@ -47,7 +47,7 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 * Enhanced user experience in the visual rule editor. This update includes: 
 
-    * Automatically reloading the summary view after a save to show updated rule status 
+    * To show updated rule status, the summary view automatically reloads after a save 
 
     * Showing 'Add'/'Delete' buttons and allowing toggling instead of hiding them 
 
@@ -57,7 +57,7 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 * Added support for JavaScript Object Notation (JSON) with namespace tags in Adaptive Forms. This enhancement enables users to handle JSON data structures more effectively, improving data integration and processing capabilities. (FORMS-22519) 
 
-* Added Download Document of Record (DoR) / Form Submission as an out-of-the-box (OOTB) button in the rule editor. This enhancement allows customers to use the downloadDoR function without writing custom code, improving usability and efficiency. (FORMS-21263) 
+* Added Download Document of Record (DoR) / Form Submission as a standard button in the rule editor. This enhancement allows customers to use the downloadDoR function without writing custom code, improving usability and efficiency. (FORMS-21263) 
 
 * Added support for JavaScript Object Notation (JSON) with namespace tags in Adaptive Forms. This enhancement enables users to prefill forms more accurately and efficiently, improving data integration and reducing manual input errors. (FORMS-10883) 
 
@@ -71,7 +71,7 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 
 * The Text component lost keyboard focus when authors hovered items in the Component Browser during editing. This disrupted typing and triggered an accessibility failure under WCAG 3.2.1. The fix prevents hover styling from shifting focus and keeps the Text component focused during Component Browser interaction. (SITES-35370)
 * Corrected focus management in the Description rich text field that blocked forward navigation with the Tab key. Users became stuck in the RTE because the component relied on a non-standard keyboard command to shift focus, which broke expected dialog box navigation. The change enforces standard keyboard interaction and preserves logical Tab sequencing throughout the dialog box. (SITES-35228)
-* Fixed issue in the Sites editor that disrupted expected behavior during page authoring and led to inconsistent component interaction. Authors experienced unreliable UI responses that interfered with standard editing tasks and reduced workflow efficiency. The update refines the underlying editor logic and restores stable, predictable interaction across affected components. (SITES-35227)
+* Fixed issue in the Sites editor that disrupted expected behavior during page authoring and led to inconsistent component interaction. Authors experienced unreliable UI responses that interfered with standard editing tasks and reduced workflow efficiency. The update improves the editor logic and restores stable, predictable interaction across affected components. (SITES-35227)
 * A regression that broke the asset selector in the page editor and prevented it from loading in specific page editing scenarios. Authors can now open and use the asset selector normally when choosing or browsing assets while editing a page. This change restores consistent access to asset selection workflows that loading failures disrupted. (SITES-35226)
 * Eliminated an issue in the Sites editor that caused inconsistent behavior during page interaction and disrupted standard authoring workflows. The defect led to unexpected UI responses that interfered with component configuration and content updates. The update stabilizes the affected functionality and restores reliable execution of editing actions across pages. (SITES-35225)
 * Eliminated a defect in the Sites authoring interface that caused inconsistent behavior during page editing and disrupted normal workflows. Authors encountered unexpected UI responses that interfered with component interaction and content updates. The update stabilizes the affected functionality and restores reliable, predictable behavior across editing scenarios. (SITES-35224)
@@ -94,8 +94,8 @@ AEM 6.5 LTS SP2 now includes OpenAPIs for [Content Fragment and Model Management
 * Fixed Search modal layout issues at 320px width. Modal content now reflows cleanly and avoids overlap with the tree directory. Users can view results and navigate the directory without obscured controls. (SITES-25246)
 * Search modal text no longer clips after text spacing increases. Tree directory layout now keeps clear separation, so labels and entries stay readable. Users can now complete search and navigation without overlap or cut-off text. (SITES-25245)
 * Activating Annotate now moves keyboard focus into annotation content, not the Exit annotation button. Tab order follows a logical sequence and keeps related controls reachable without reverse navigation. (SITES-25241)
-* Set Date and Exit Timewarp links lacked a visible focus indicator during keyboard navigation. The UI now renders a distinct, high contrast focus style so users can identify the active link at a glance. (SITES-25232)
-* The Teaser Modal header no longer blocks keyboard users from moving the dialog box. Keyboard controls now allow pick-up, move, and drop actions, which improve screen reader usability and overall operability. (SITES-25226)
+* Set Date and Exit Timewarp links lacked a visible focus indicator during keyboard navigation. The UI now renders a distinct, high contrast focus style so users can identify the active link easily. (SITES-25232)
+* The Teaser Modal header no longer blocks keyboard users from moving the dialog box. Keyboard controls now allow select, move, and drop actions, which improve screen reader usability and overall operability. (SITES-25226)
 * AEM now uses a meaningful accessible label for the Teaser Modal Info button. Screen readers announce a clear action name instead of the default icon alt-text string. (SITES-25223)
 * Screen readers now announce the correct action when users activate the Edit button. NVDA no longer reports "Preview button pressed," which caused misleading feedback and confusion during keyboard navigation. (SITES-25208)
 * Expanding the Left Rail now moves keyboard focus to the first Left Rail control. The Tab sequence no longer jumps to the secondary toolbar or lands mid-list, so keyboard users can reach Left Rail content without reverse navigation. (SITES-24998)
@@ -138,7 +138,7 @@ Headless eventing support lacked required OSGi events for Content Fragments and 
 
 #### [!DNL Content Fragments] - Admin{#sites-admin-65-lts-sp2}
 
-* Adjusted component handling in the Sites authoring interface to stop irregular behavior during page updates. The defect led to unpredictable editor responses that interfered with routine content modifications and reduced workflow efficiency. The update aligns editor logic with expected interaction patterns and delivers dependable performance during authoring activities. (SITES-35078) CRITICAL
+* Adjusted component handling in the Sites authoring interface to stop irregular behavior during page updates. The defect led to unpredictable editor responses that interfered with routine content modifications and reduced workflow efficiency. The update aligns editor logic with expected interaction patterns and provides dependable performance during authoring activities. (SITES-35078) CRITICAL
 
 * A regression broke the Assets console List View for Content Fragments and triggered an error during list rendering. The update corrects list-view logic after preview-info removal and restores stable list output. The console now displays Content Fragments without failures and keeps list interactions usable. (SITES-38683)
 * Content Fragment Editor now localizes the Tags label. The editor also localizes the Collections label, so UI text matches the selected locale. (SITES-977)
@@ -203,15 +203,15 @@ A feature-toggle defect misreported Page Management API status. The update adds 
 #### Launches{#sites-launches-65-lts-sp2}
 
 * Sites Timeline showed hardcoded English text during Launch promotion: "Created version ... before promoting launch." The update replaces the hardcoded string with localized message handling. Timeline now displays localized text and aligns the entry with standard AEM localization behavior. (SITES-39157)
-* Launch promotion scope drifted when authors promoted a subsection using Promote current page and sub pages. AEM also promoted unrelated pages and caused unexpected live-site modifications. The fix corrects the Launch scope calculation so only the chosen subtree promotes. (SITES-38315)
+* Launch promotion scope drifted when authors promoted a subsection using Promote current page and sub pages. AEM also promoted unrelated pages and caused unexpected live-site modifications. The fix corrects the Launch scope calculation so only the chosen subtree is promoted. (SITES-38315)
 * Content Fragments inside Launches did not participate in the `damAssetLucene` index and limited search results and query efficiency. This change adds Launch Content Fragment paths to the index definition. Search and custom queries now find Content Fragments under `/content/launches`. (SITES-35634)
 * Launches UI showed Content Fragment Launch controls even though the product does not expose Content Fragment Launches in Touch UI. This change strips Content Fragment Launch code paths from cq-launches-content and adjusts Launch list filtering. Authors now see consistent page Launch options without Content Fragment Launch entries. (SITES-35633)
 * AEM 6.5 LTS Quickstart lacked required Launches bundles and prerequisites, which blocked Launches OpenAPI enablement. The update adds Launches bundles and required dependencies, such as metrics support, DAM-cfm updates, and queue configuration. Launches APIs now run on 6.5 LTS Quickstart with the required runtime components present. (SITES-35297)
-* CF Launches packaging pulled newer dependency versions and unnecessary GraphQL libraries, which complicated AEM 6.5 LTS integration. This change aligns dependency versions with the AEM 6.5 LTS baseline and strips unused GraphQL dependencies. Bundle resolution now stays consistent and CF Launches startup remains stable. (SITES-35295)
-* AEM Launches now runs a dedicated Jenkins pipeline for the 6.5 LTS branch. The pipeline runs nightly builds and sends failure alerts by email. This setup increases test coverage and catches regressions early. (SITES-35293)
+* Content Fragment Launches packaging pulled newer dependency versions and unnecessary GraphQL libraries, which complicated AEM 6.5 LTS integration. This change aligns dependency versions with the AEM 6.5 LTS baseline and strips unused GraphQL dependencies. Bundle resolution now stays consistent and Content Fragment Launches startup remains stable. (SITES-35295)
+* AEM Launches now runs a dedicated Jenkins pipeline for the 6.5 LTS branch. The pipeline runs nightly builds and sends failure alerts by email. This setup increases test coverage and identifies regressions early. (SITES-35293)
 * AEM 6.5 LTS now ships an updated Launches API bundle with aligned artifact versions. The bundle tracks the primary code line while keeping the correct 6.5 LTS release version. This update stabilizes Launches API consumption across the 6.5 LTS stack. (SITES-35292)
 * AEM 6.5 LTS now includes an updated launches-core bundle with aligned dependency versions. The update adds launches-core handling for Fragment UUID and Reference UUID data types. Launch processing now keeps consistent behavior across Launches and Content Fragment workflows. (SITES-35290)
-* Refined the Sites editor to resolve inconsistent behavior that disrupted normal page authoring workflows. Authors encountered unexpected component interaction that interfered with content updates and reduced editing reliability. The change restores consistent UI state management and ensures predictable execution of authoring actions across affected scenarios. (SITES-35138)
+* To resolve inconsistent behavior that disrupted normal page authoring workflows, the Sites editor was refined. Authors encountered unexpected component interaction that interfered with content updates and reduced editing reliability. The change restores consistent UI state management and ensures predictable execution of authoring actions across affected scenarios. (SITES-35138)
 * Launches Edit now shows localized error text instead of the hardcoded `Provided path is not a launch` string. The UI now renders translated messaging across languages when Edit receives an invalid launch path. (SITES-33360)
 * AEM 6.5 LTS now includes the Launches OpenAPI side-port work. The update brings Launches API bundles, content packages, and required Quickstart artifacts into parity and enables Content Fragment Launches OpenAPI scenarios with stable CI validation. (SITES-32050)
 * Launches UI now localizes the Overridden template label. Template override details now display translated text instead of an English-only string. (SITES-29525)
@@ -247,7 +247,7 @@ Template status text displayed vertically in **Tools** > **General** > **Templat
 
 ### [!DNL Assets]{#assets-65-lts-sp2}
 
-Assets Relate now works for filenames that include spaces. Updated Relate client logic now handles space-containing paths correctly and avoids `undefined` source errors during relation selection. The Relate dialog box now opens and saves relations without UI hangs or spinners. DAM users can relate, derive, and unrelate assets without renaming files. (Assets-56418)
+Assets Relate now works for filenames that include spaces. Updated Relate client logic now handles space-containing paths correctly and avoids `undefined` source errors during relation selection. The Relate dialog box now opens and saves relations without UI hangs or spinners. DAM users can create, derive, and remove asset relations without renaming files. (Assets-56418)
 
 #### [!DNL Dynamic Media]{#assets-dm-65-lts-sp2}
 
@@ -265,16 +265,16 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 * Form submission fails post-upgrade to AEM 6.5 LTS SP1. Users experienced missing com.adobe.cq.social.commons.CollabUtil causing JSP compilation errors and email action failures. (FORMS-23457)
 * Users experienced issues with hCaptcha not translating correctly in Foundation Components based Adaptive Forms. This affected non-English speaking users' ability to complete forms accurately. (FORMS-23426)
 * Users experienced Form Submission failures with a SAXParseException: "Content is not allowed in prolog" (HTTP 500). This issue occurred due to a null value in the prefill data XML, causing server-side XML parsing to fail. (FORMS-22633)
-* Users experienced Adaptive Forms failing Web Content Accessibility Guidelines (WCAG) audits. The reason was because the form's tab-navigation markup was invalid. That is, a non-list element is rendered as a direct child of a list, where only list items are allowed. This issue prevented the form from passing accessibility validators and affected organizations that must meet legal or internal compliance requirements. (FORMS-22101)
+* Users experienced Adaptive Forms failing Web Content Accessibility Guidelines (WCAG) audits. The reason was that the form's tab-navigation markup was invalid. That is, a non-list element is rendered as a direct child of a list, where only list items are allowed. This issue prevented the form from passing accessibility validators and affected organizations that must meet legal or internal compliance requirements. (FORMS-22101)
 * Users experienced accessibility issues with Document of Record (DoR) / Submission PDF where empty form fields were not tagged as form elements. This caused difficulties for screen readers, impacting the ability of users with disabilities to navigate and complete forms effectively. (FORMS-21989)
 * Users experienced an issue where footnotes for components inside a subpanel were not displayed during form load. This issue occurred when the item with the footnote was the last component on the page. (FORMS-21925)
 * Users experienced issues selecting components in the AEM Forms Editor. When navigating between tabs and returning to the first tab, some containers became unselectable, preventing easy identification and interaction. (FORMS-21814)
-* Users experienced a security vulnerability in the Adaptive Forms dashboard. Specifically, a cross-site scripting (XSS) issue was identified in the startpointcontrol.js file, which could potentially allow malicious scripts to be executed. (FORMS-20679)
+* Users experienced a security vulnerability in the Adaptive Forms dashboard. Specifically, a cross-site scripting (XSS) issue was identified in the startpointcontrol.js file, which allows malicious scripts to be executed. (FORMS-20679)
 * In AEM Forms 6.5 LTS cluster deployments on JBoss&reg; EAP 8, the `domain/configuration/domain_oracle.xml`, `domain_mysql.xml`, and `domain_mssql.xml` files no longer contain a duplicate `<security>` tag that caused invalid XML and prevented the Domain Controller from starting. (FORMS-24687)
-* In Turnkey mode, the database port update is now applied correctly during fresh installation and upgrade. In fresh installation mode, users can select from all available ports, and in Upgrade mode, the database port updated in lc_turnkey.xml is correctly referenced during the upgrade process. (FORMS-24689)
-* When setting up JBoss&reg; EAP 8.0 on Linux&reg;, shell scripts modified on Windows no longer cause `/bin/sh^M: bad interpreter or $'\r': command not found` errors due to CRLF line endings. (FORMS-24688)
+* In Turnkey mode, the database port update is now applied correctly during fresh installation and upgrade. In fresh installation mode, users select from all available ports, and in Upgrade mode, the database port updated in lc_turnkey.xml is correctly referenced during the upgrade. (FORMS-24689)
+* When setting up JBoss&reg; EAP 8.0 on Linux&reg;, shell scripts modified on Windows no longer cause /bin/sh^M: bad interpreter or $'\r': command not found errors due to CRLF line endings. (FORMS-24688)
 * On Forms JEE LTS deployments running on JBoss&reg; EAP 8, the Reader Extensions UI may fail with an internal server error. (FORMS-24894)
-* On Linux&reg;, users experienced runtime or deployment issues when Forms JEE LTS Configuration Manager ran with an unset or incorrect `OSFileSetIntendedFor` value in `configurationManager/config/solcomp/LFS_Foundation.properties`, which prevented the configuration from being tailored correctly for Linux&reg;. After installation and before running Configuration Manager, set `OSFileSetIntendedFor=Linux` in that file. (FORMS-24741)
+* On Linux&reg;, users experienced runtime or deployment issues when Forms JEE LTS Configuration Manager ran with an unset or incorrect `OSFileSetIntendedFor`. Set the value in `configurationManager/config/solcomp/LFS_Foundation.properties`, which prevented the configuration from being tailored correctly for Linux&reg;. After installation and before running Configuration Manager, set `OSFileSetIntendedFor=Linux` in that file. (FORMS-24741)
 
 <!--
 #### Forms JEE 
@@ -302,7 +302,7 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 #### Apache Felix {#foundation-apachefelix-65-lts-sp2}
 
 * Sling Resource Access Security now runs on version 1.1.2. ResourceAccessSecurityImpl no longer throws a ClassCastException during initialization when multiple ResourceAccessGateHandler services register. Initialization now completes reliably and avoids startup failures in environments with multiple handlers. (NPR-42750)
-* JMX Console and Web Console now send a `Content-Type: text/css header` for console CSS resources. Strict MIME checking no longer blocks style sheet loading, so the `/system/console/jmx` UI renders with normal styling. (GRANITE-63677)
+* JMX Console and Web Console now send a Content-Type: text/css header for console CSS resources. Strict MIME checking no longer blocks style sheet loading, so the `/system/console/jmx` UI renders with normal styling. (GRANITE-63677)
 * AEM now avoids duplicate ACL entries for the `contributor` group in the generated `WEB-INF/resources/provisioning/model.txt`. The WAR output now contains one consistent ACL block, which prevents confusing permission diffs during review. (GRANITE-63269)
 * AEM no longer clears Deserialization Firewall blocklist and allowlist settings during bundle refresh operations. Updated filter registration logic keeps the active firewall instance aligned with the saved configuration, so protection stays enabled without a restart. (GRANITE-61382)
 * Felix Web Console no longer throws intermittent `NullPointerException` errors during `/system/console` access. Updated ServiceTracker handling prevents a null tracker state. Console login and navigation remain stable during repeated requests and automated validation. (GRANITE-61042)
@@ -317,9 +317,9 @@ Assets Relate now works for filenames that include spaces. Updated Relate client
 #### Content distribution{#foundation-content-distribution-65-lts-sp2}
 -->
 
-#### CRX {#foundation-crx-65-lts-sp2}
+#### Adobe CRX {#foundation-crx-65-lts-sp2}
 
-CRXDE Lite no longer shows a blank tab when you open a JSP file after a Service Pack upgrade. AEM now ships matching CodeMirror core and add-on code, which prevents the fatal browser error and keeps the editor usable. (GRANITE-64333)
+CRXDE Lite no longer shows a blank tab when you open a JSP file after a Service Pack upgrade. AEM now includes matching CodeMirror core and add-on code, which prevents the fatal browser error and ensures the editor remains functional. (GRANITE-64333)
 
 #### Granite{#foundation-granite-65-lts-sp2}
 
@@ -360,9 +360,9 @@ AEM 6.5 LTS Service Pack 2 requires S3 Connector 1.60.10 or later. The S3 datast
         These older configurations use properties, such as `whitelist.name` and `whitelist.bundles`.
 
     * Sling still provides partial backward compatibility for the deprecated PIDs, but do not use them for new configurations. Use the newer `LoginAdminAllowList.*` PIDs instead.
-    * Do not run deprecated and new allowlist configurations at the same time. Mixed configurations can create ambiguity and produce unintended behavior. When you migrate to AEM 6.5 LTS SP2, remove the deprecated PIDs completely.
+    * Do not run deprecated and new allowlist configurations at the same time. Mixed configurations can create ambiguity and produce unintended behavior. When you migrate to AEM 6.5 LTS SP2, remove the deprecated PIDs.
 
-    **What you should do**
+    **What to do**
 
     1. Find allowlist configurations that use `LoginAdminWhitelist*` PIDs.
     1. Replace them with the appropriate new PIDs:
@@ -456,7 +456,7 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 2 (SP2). SP2 is delivered as a Quickstart JAR.
 
 **Why this upgrade practice matters**
-SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-prem customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's in-place upgrade procedure.
+SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-premise customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's standard upgrade procedure.
 
 **Recommended upgrade flow (Author or Publish)**
 
@@ -475,7 +475,7 @@ SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 1. Rename the unpacked JAR to match the role and port, for example `cq-author-4502.jar` or `cq-publish-4503.jar`.
 1. Start AEM and confirm the upgrade in the UI (Help > About) and logs.
 
-**Good hygiene**
+**Best practices**
 
 * Run the upgrade in lower / test environments before production.
 * Take a full, restorable backup (repository plus any external datastores) before you begin.
@@ -544,7 +544,7 @@ Customers are advised to review if they use the feature / capability in their cu
 
 This section lists features and capabilities that have been removed from AEM 6.5 LTS. Prior releases had these capabilities marked as deprecated.
 
-* Support for RDBMK for CRX repository persistence has been removed.
+* Support for RDBMK for Adobe CRX repository persistence has been removed.
 * In clustered environments, MongoMK is now the only supported option for repository persistence.
 
 | Area | Feature | Replacement | Version (SP) |
@@ -573,8 +573,8 @@ This section lists features and capabilities that have been removed from AEM 6.5
 ### AEM Forms
 
 * In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
-* On Forms JEE LTS Service Pack 2 deployments running on WebSphere® Liberty Profile, email functionality may fail. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
-* On Forms JEE LTS running on JBoss&reg;, email-related functionality may fail. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. Install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear) to resolve this issue. (FORMS-24892)
+* On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
+* On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
 
 ### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
 
@@ -594,11 +594,11 @@ Plan for the downtime of the instance when applying it. For offline compaction, 
 
 The `com.adobe.granite.apicontroller` bundle is missing in AEM 6.5 LTS SP2. This bundle controls how OSGi bundles are resolved and can prevent bundles from resolving to other bundles, which is useful for limiting exposed APIs.
 
-Install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip) to use this functionality.
+To use this functionality, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip).
 
 >[!NOTE]
 >
-> After installing the hotfix, verify the bundle status of all installed bundles to ensure that the default configuration of `com.adobe.granite.apicontroller` has not introduced unintended resolution restrictions that could affect existing custom implementations.
+> To ensure that the default configuration of `com.adobe.granite.apicontroller` introduces no unintended resolution restrictions that affect existing custom implementations, verify the bundle status of all installed bundles after installing the hotfix.
 
 ### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
 
@@ -610,20 +610,20 @@ The failure is silent: content nodes fail to load at bundle activation with no e
 
 >[!CAUTION]
 >
-> Remove all comments from JSON files in your `Sling-Initial-Content` bundles to avoid content loading failures after upgrading to AEM 6.5 LTS SP2.
+> To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles.
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
 Some APIs that moved to Sites Headless require additional Oak indexes for full functionality.
 
-Install the `cq-dam-cfm-indices` package to use the following features:
+To use the following features, install the `cq-dam-cfm-indices` package:
 
 * List Content Fragment Models
 * List Content Fragments
 * Search API
 * Workflows
 
-Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/cq-dam-cfm-indices-1.1.2.zip) from the Adobe Software Distribution portal. 
+Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fcq-dam-cfm-indices-1.1.5.zip) from the Adobe Software Distribution portal. 
 
 ### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
 
@@ -631,7 +631,7 @@ Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/d
 >
 > This issue is only present in the AEM 6.5 LTS GA release.
 
-When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks may fail and communication between Dispatcher and AEM instances can be disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
+When enabling the SSL-only feature in AEM deployments, there is a known issue that affects connectivity between the Dispatcher and AEM instances. After enabling this feature, health checks fail and communication between Dispatcher and AEM instances is disrupted. This issue specifically occurs when customers attempt to connect through `https + IP` from the Dispatcher to AEM instances. It is related to SNI (Server Name Indication) validation problems.
 
 **Impact**
 
@@ -649,7 +649,7 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 **Solution**
 
-If you experience this issue, please contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
+If you experience this issue, contact Adobe Customer Support. A hotfix [cq-6.5.lts.0-hotfix-CQ-4359803](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.0-hotfix-CQ-4359803-1.0.2.zip) is available to resolve this problem. Do not attempt to enable SSL-only features until applying the necessary hotfix.
 
 ## OSGi bundles and content packages included{#osgi-bundles-and-content-packages-included}
 
