@@ -31,6 +31,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 ## Key features and enhancements
 
+
 **AEM Sites**
 
 
@@ -202,14 +203,11 @@ The headless Content Fragment REST API bundle removes obsolete feature toggles a
 
 The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
 
-
 <!--
 #### Content API{#sites-content-api-65-lts-sp3}
 
 #### Core backend{#sites-core-backend-65-lts-sp3}
 -->
-
-
 
 #### Core Components{#sites-core-components-65-lts-sp3}
 
@@ -220,7 +218,6 @@ The Content Finder now lists assets whose names contain non-encodable characters
 #### Campaign integration{#sites-campaign-integration-65-lts-sp3}
 
 The Campaign ContentServlet now preserves the JSON response content type during content requests. This change stops the repeated `WARN` and `ERROR` log entries that occurred after an upgrade from AEM 6.5.24. (SITES-46902) MAJOR
-
 
 
 #### Experience Fragments{#sites-experiencefragments-65-lts-sp3}
@@ -278,6 +275,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 -->
 
 
+
 <!--
 ### [!DNL Forms]{#forms-65-lts-sp3}
 -->
@@ -293,7 +291,6 @@ AEM 6.5 LTS introduces AEM Context Service support. The rollout adds service API
 #### Apache Felix {#foundation-apachefelix-65-lts-sp3}
 
 The AEM mail service now continues sending email when intermittent configuration errors occur. Administrators no longer need to restart the Day Communique 5 Mailer bundle to restore email delivery. (GRANITE-66817) MAJOR
-
 
 <!--
 #### Campaign{#foundation-campaign-65-lts-sp3}
@@ -393,27 +390,27 @@ The UberJar for AEM 6.5 LTS SP3 uses the AEM 6.5 LTS UberJar version 6.6.3. You 
 
 To compile against the public APIs, use the following:
 
-```xml
-<dependency>
-    <groupId>com.adobe.aem</groupId>
-    <artifactId>uber-jar</artifactId>
-    <version>6.6.3</version>
-    <classifier>apis</classifier>
-    <scope>provided</scope>
-</dependency>
-```
+    ```xml
+    <dependency>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>uber-jar</artifactId>
+        <version>6.6.3</version>
+        <classifier>apis</classifier>
+        <scope>provided</scope>
+    </dependency>
+    ```
 
 If your code also depends on deprecated APIs, add the following:
 
-```xml
-<dependency>
-    <groupId>com.adobe.aem</groupId>
-    <artifactId>uber-jar</artifactId>
-    <version>6.6.3</version>
-    <classifier>deprecated-apis</classifier>
-    <scope>provided</scope>
-</dependency>
-```
+    ```xml
+    <dependency>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>uber-jar</artifactId>
+        <version>6.6.3</version>
+        <classifier>deprecated-apis</classifier>
+        <scope>provided</scope>
+    </dependency>
+    ```
 
 See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
@@ -429,7 +426,8 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 3 (SP3). SP3 is delivered as a Quickstart JAR.
 
 **Why this upgrade practice matters**
-SP3 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-prem customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's in-place upgrade procedure.
+SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-premise customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's standard upgrade procedure.
+
 
 **Recommended upgrade flow (Author or Publish)**
 
@@ -439,9 +437,9 @@ SP3 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 1. In the AEM install directory (outside `crx-quickstart/`), replace the previous Quickstart JAR with the SP3 JAR.
 1. Unpack the JAR:
 
-    ```java
-    java -jar cq-quickstart-6.6.x.jar -unpack
-    ```
+        ```java
+        java -jar cq-quickstart-6.6.x.jar -unpack
+        ```
 
     (Adjust heap flags as needed.)
 
@@ -545,7 +543,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### AEM Forms
 
-* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to `Adobe-livecycle-jboss.ear\lib` resolves the issue. (FORMS-24690)
+* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
 * On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
 * On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
 
@@ -596,7 +594,7 @@ To use the following features, install the `cq-dam-cfm-indices` package:
 * Search API
 * Workflows
 
-Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/cq-dam-cfm-indices-1.1.2.zip) from the Adobe Software Distribution portal. 
+Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fcq-dam-cfm-indices-1.1.5.zip) from the Adobe Software Distribution portal. 
 
 ### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
 
