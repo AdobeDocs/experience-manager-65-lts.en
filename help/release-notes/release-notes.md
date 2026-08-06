@@ -417,7 +417,7 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 * For details about the upgrade procedure, see the [upgrade documentation](/help/sites-deploying/upgrade.md).
 * For detailed upgrade instructions, see the [Upgrade Guide for AEM Forms 6.5 LTS SP1 on JEE](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/forms/upgrade-aem-forms/upgrade)
 
-#### Best practices for AEM 6.5 LTS Service Pack upgrades
+## Best practices for AEM 6.5 LTS Service Pack upgrades
 
 <!-- THE INFORMATION UNDER THIS HEADING CAME FROM CQDOC-23078 -->
 
