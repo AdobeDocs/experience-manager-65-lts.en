@@ -614,7 +614,7 @@ When enabling the SSL-only feature in AEM deployments, there is a known issue th
 
 * AEM deployments with Dispatcher configurations.
 * Systems where the SSL-only feature has been enabled.
-* Dispatcher configurations using `https + IP` connection method to AEM instances.
+* Dispatcher configurations using `https + IP` connection method to AEM instances. 
 
 **Solution**
 
