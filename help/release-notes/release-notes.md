@@ -27,9 +27,9 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 <!-- UPDATE EACH RELEASE -->
 
-[!DNL Experience Manager] 6.5 LTS, SP3 includes new features, key customer-requested enhancements, and bug fixes. It also includes performance, stability, and security improvements released since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
+[!DNL Experience Manager] 6.5 LTS, SP3 includes new features, key customer-requested enhancements, and bug fixes. This service pack strengthens [!DNL Sites] accessibility, [!DNL Content Fragments], MSM Live Copies, the GraphQL API, and Foundation stability. It also improves performance, security, and localization across the platform since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
 
-## Key features and enhancements
+<!-- ## Key features and enhancements -->
 
 
 
@@ -541,7 +541,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### AEM Forms
 
-* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
+* In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to Adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
 * On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
 * On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
 
