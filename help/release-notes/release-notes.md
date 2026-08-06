@@ -32,8 +32,6 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 ## Key features and enhancements
 
 
-**AEM Sites**
-
 
 <!-- UPDATE THE EACH RELEASE -->
 
