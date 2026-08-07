@@ -43,7 +43,7 @@ You can perform a direct upgrade from:
 
 The following diagram displays the available upgrade paths for AEM Forms LTS on JEE:
 
-![JEE upgrade 6.5](do-not-localize/jee-upgrade-6-5.png) 
+![JEE upgrade 6.5](do-not-localize/jee-upgrade-6-5.svg) 
 
 You can perform a direct upgrade from:
 
