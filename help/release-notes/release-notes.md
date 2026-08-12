@@ -27,7 +27,28 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 <!-- UPDATE EACH RELEASE -->
 
-[!DNL Experience Manager] 6.5 LTS, SP3 includes new features, key customer-requested enhancements, and bug fixes. This service pack strengthens [!DNL Sites] accessibility, [!DNL Content Fragments], MSM Live Copies, the GraphQL API, and Foundation stability. It also improves performance, security, and localization across the platform since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
+[!DNL Experience Manager] 6.5 LTS, SP3 includes new features, key customer-requested enhancements, and bug fixes. It improves performance, security, and localization across the platform since the initial availability of 6.5 LTS in March 2025. [Install this Service Pack](#install-update) on 6.5 LTS.
+
+### Overview of fixed issues {#fixed-issues-overview}
+
+[!DNL Adobe Experience Manager] 6.5 LTS, SP3 resolves issues across [!DNL Sites] and [!DNL Experience Manager Foundation]. The fixes improve accessibility, authoring reliability, headless content delivery, multi-site management, and platform stability. The sections that follow list each fix with its reference number.
+
+Most changes apply to [!DNL Sites]:
+
+* Accessibility improvements form the largest group. The updates strengthen keyboard navigation, screen-reader feedback, focus management, semantic markup, text contrast, and touch-target sizing across the Page Editor, the Assets side rail, filters, and related authoring interfaces.
+* Fixes in [!DNL Content Fragments] span the Fragment Editor, the Model Editor, the REST API, and the GraphQL API. The updates correct localization, field validation, editing behavior, and response handling.
+* MSM Live Copies fixes let authors roll out changes reliably from blueprint pages and preserve existing rollout configuration.
+* Crosswalk support is available on Adobe Managed Services, including the required bundles, system users, and configuration.
+* Further fixes address the admin and classic interfaces, Core Components, the Component console, Campaign integration, Experience Fragments, and Launches.
+
+The remaining changes apply to [!DNL Experience Manager Foundation]:
+
+* Localization updates translate previously English-only text across Health Reports, the Operations console, and several authoring interfaces.
+* Stability fixes restore the health-monitoring endpoint, keep the mail service running after intermittent configuration errors, and correct workflow variable and workflow package editing.
+* The release also adds AEM Context Service support and resolves security, translation, and user interface issues.
+
+For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issues).
+
 
 <!-- ## Key features and enhancements -->
 
@@ -132,7 +153,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
 
-* AEM now lets members of the Administrators group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
+* AEM now lets members of the Administrator group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
 * Assets Admin View now updates an asset card after authors select **Revert to this Version** in the Timeline. The thumbnail displays the restored version immediately and no longer shows stale preview content. (SITES-46590)
 
 
@@ -242,7 +263,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * Authors can now roll out component changes from the editable toolbar on a blueprint page. The rollout completes without a JavaScript error and propagates the changes to the Live Copy. (SITES-46052) MAJOR
 * Authors can now complete MSM rollouts from blueprint pages after an upgrade. The rollout dialog box loads the available Live Copies and enables its rollout controls instead of remaining in a perpetual loading state. (SITES-43116) MAJOR
 
-* Live Copy Overview now applies localized date formats throughout Relationship Status. The **Live Copy Source Last Modified**, L**ive Copy Last Modified**, and **Last rolled out** fields match the user's locale. (SITES-40756)
+* Live Copy Overview now applies localized date formats throughout Relationship Status. The **Live Copy Source Last Modified**, **Live Copy Last Modified**, and **Last rolled out** fields match the user's locale. (SITES-40756)
 * Deactivating a blueprint parent and its child pages in one request now produces one rollout event per path. The rollout manager no longer runs duplicate actions for the same child page. (SITES-44987)
 
 
