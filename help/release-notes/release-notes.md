@@ -153,7 +153,7 @@ For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issu
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
 
-* AEM now lets members of the Administrator group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
+* AEM now lets members of the Admin group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
 * Assets Admin View now updates an asset card after authors select **Revert to this Version** in the Timeline. The thumbnail displays the restored version immediately and no longer shows stale preview content. (SITES-46590)
 
 
@@ -267,7 +267,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * Deactivating a blueprint parent and its child pages in one request now produces one rollout event per path. The rollout manager no longer runs duplicate actions for the same child page. (SITES-44987)
 
 
-#### Page editor{#sites-pageeditor-65-lts-sp3}
+#### Page Editor{#sites-pageeditor-65-lts-sp3}
 
 * Authors can now create and apply tags with uppercase letters or spaces during one Page Properties save. AEM immediately stores the normalized tag value and preserves the page assignment. (SITES-42550) CRITICAL
 
