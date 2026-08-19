@@ -153,7 +153,7 @@ For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issu
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
 
-* AEM now lets members of the Admin group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
+* AEM now lets members of the Administrator group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
 * Assets Admin View now updates an asset card after authors select **Revert to this Version** in the Timeline. The thumbnail displays the restored version immediately and no longer shows stale preview content. (SITES-46590)
 
 
