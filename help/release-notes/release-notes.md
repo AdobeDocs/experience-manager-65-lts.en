@@ -16,7 +16,7 @@ exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 | Version | Service Pack 3 (SP3) <!-- UPDATE FOR EACH NEW RELEASE --> |
 | Type | Service Pack release |
 | Date | August 20, 2026 <!-- UPDATE FOR EACH NEW RELEASE --> |
-| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.2.jar) |
+| Download URL | [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/servicepack-lts/cq-quickstart-6.6.3.jar) |
 
 
 <!-- UPDATE ABOVE FOR EACH NEW RELEASE -->
@@ -656,8 +656,8 @@ If you experience this issue, contact Adobe Customer Support. A hotfix [cq-6.5.l
 
 The following zip files contain the text documents that list the OSGi bundles and content packages included in this Experience Manager 6.5 LTS Service Pack release:
 
-* [OSGi bundles](/help/release-notes/assets/65lts_sp2_bundles.zip) 
-* [Content packages](/help/release-notes/assets/65lts_sp2_packages.zip)
+* [OSGi bundles](/help/release-notes/assets/65lts_sp3_bundles.zip) 
+* [Content packages](/help/release-notes/assets/65lts_sp3_packages.zip)
 
 ## Restricted websites{#restricted-sites}
 
