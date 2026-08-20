@@ -1,6 +1,6 @@
 ---
 title: Upgrade to AEM 6.5 Forms LTS on OSGi
-description: You can perform a direct upgrade from AEM 6.5.22.0 Forms  to AEM 6.5 Forms LTS.
+description: You can perform a direct upgrade from AEM 6.5.17.0 Forms or later to AEM 6.5 Forms LTS.
 content-type: reference
 role: Admin, User
 solution: Experience Manager, Experience Manager Forms
@@ -9,11 +9,11 @@ exl-id: 9233d4b7-441c-4cbd-86f8-2c52b99c3330
 ---
 # Upgrade to AEM 6.5 Forms LTS on OSGi {#upgrade-to-aem-forms-osgi}
 
-To [upgrade from AEM 6.5 to AEM 6.5 LTS](/help/sites-deploying/upgrade.md), upgrade to AEM 6.5.22.0 Forms or later. A direct upgrade from AEM 6.5.22.0 to AEM 6.5 Forms LTS is supported.  
+To [upgrade from AEM 6.5 to AEM 6.5 LTS](/help/sites-deploying/upgrade.md), upgrade to AEM 6.5.17.0 Forms or later. A direct upgrade from AEM 6.5.17.0 (or later) to AEM 6.5 Forms LTS is supported.  
 
 If you are using AEM 6.0 Forms, AEM 6.1 Forms, AEM 6.2 Forms, AEM 6.3 Forms, AEM 6.4 Forms or AEM 6.5 Forms, a direct upgrade to AEM 6.5 Forms LTS is not available. For detailed upgrade paths, refer to the [Upgrade Paths](/help/forms/using/upgrade.md) documentation.  
 
-After upgrading to service pack AEM Forms 6.5.22.0, follow these steps to upgrade to AEM 6.5 LTS Forms:
+After upgrading to AEM Forms 6.5.17.0 or later, follow these steps to upgrade to AEM 6.5 LTS Forms:
 
 1. Install AEM Forms add-on package. The steps are listed below:
 
