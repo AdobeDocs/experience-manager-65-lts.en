@@ -409,27 +409,27 @@ The UberJar for AEM 6.5 LTS SP3 uses the AEM 6.5 LTS UberJar version 6.6.3. You 
 
 To compile against the public APIs, use the following:
 
-    ```xml
-    <dependency>
-        <groupId>com.adobe.aem</groupId>
-        <artifactId>uber-jar</artifactId>
-        <version>6.6.3</version>
-        <classifier>apis</classifier>
-        <scope>provided</scope>
-    </dependency>
-    ```
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.3</version>
+    <classifier>apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
 
 If your code also depends on deprecated APIs, add the following:
 
-    ```xml
-    <dependency>
-        <groupId>com.adobe.aem</groupId>
-        <artifactId>uber-jar</artifactId>
-        <version>6.6.3</version>
-        <classifier>deprecated-apis</classifier>
-        <scope>provided</scope>
-    </dependency>
-    ```
+```xml
+<dependency>
+    <groupId>com.adobe.aem</groupId>
+    <artifactId>uber-jar</artifactId>
+    <version>6.6.3</version>
+    <classifier>deprecated-apis</classifier>
+    <scope>provided</scope>
+</dependency>
+```
 
 See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-and-customizations.md#update-the-aem-uber-jar-version).
 
@@ -456,9 +456,9 @@ SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install throu
 1. In the AEM install directory (outside `crx-quickstart/`), replace the previous Quickstart JAR with the SP3 JAR.
 1. Unpack the JAR:
 
-        ```java
-        java -jar cq-quickstart-6.6.x.jar -unpack
-        ```
+    ```java
+    java -jar cq-quickstart-6.6.x.jar -unpack
+    ```
 
     (Adjust heap flags as needed.)
 
