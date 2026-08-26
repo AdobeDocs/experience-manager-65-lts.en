@@ -1,11 +1,6 @@
 ---
 title: Deploying and Maintaining
 description: Learn how to get started with the AEM installation.
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: deploying
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
