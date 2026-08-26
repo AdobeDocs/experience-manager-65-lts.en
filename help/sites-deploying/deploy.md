@@ -1,11 +1,6 @@
 ---
 title: Deploying and Maintaining
 description: Learn how to get started with the AEM installation.
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.5/SITES
-content-type: reference
-topic-tags: deploying
-docset: aem65
 solution: Experience Manager, Experience Manager Sites
 feature: Deploying
 role: Admin
@@ -101,7 +96,7 @@ You can install AEM on servers in your Corporate environment. Typical installati
 
 ### Managed Services using Cloud Manager {#managed-services-using-cloud-manager}
 
-<i>To be announced soon.</i>
+For Adobe Managed Services deployments, AEM environments are deployed and managed through [Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/introduction). To monitor application performance and infrastructure health across your production and non-production environments, see [Observability Insights](https://experienceleague.adobe.com/en/docs/ams-observability-insights/content/overview).
 
 ## Getting Started {#getting-started}
 

@@ -17,6 +17,10 @@ After your AEM instances are deployed, you must monitor and maintain their opera
 
 A key factor here is that to recognize potential issues, you must know how your system looks and behaves under normal conditions. This ability is best done by monitoring the system and collecting information over time.
 
+>[!NOTE]
+>
+>The guidance on this page applies to self-managed (on-premise) deployments. If you run AEM on Adobe Managed Services, application and infrastructure telemetry is collected for you and available through Observability Insights, which provides a hosted view of your production and non-production environments. For more information, see [Observability Insights](https://experienceleague.adobe.com/en/docs/ams-observability-insights/content/overview).
+
 | Check |Considerations |Comment / Actions |
 |---|---|---|
 | Backup plan. |  |See how to [Back up your Instance](/help/sites-deploying/monitoring-and-maintaining.md#backups). |
