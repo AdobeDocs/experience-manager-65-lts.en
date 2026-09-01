@@ -11,6 +11,7 @@ feature: Authoring,Personalization
 role: User,Admin,Developer
 exl-id: 650ba9be-6546-46dc-b4ab-ea0b97abff40
 ---
+
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}
 
 Author targeted content using Targeting mode of AEM. Targeting mode and the Target component provide tools for creating content for experiences:
@@ -24,7 +25,7 @@ Author targeted content using Targeting mode of AEM. Targeting mode and the Targ
 * Simulate the user experience.
 * For more customization, configure the Target component.
 
-You can use either AEM or Adobe Target as the targeting engine (you must have a valid Adobe Target account to use Adobe Target). If you are using Adobe Target, you must configure the integration first. See [instructions for integrating with Adobe Target](/help/sites-administering/target.md).
+You can use either AEM or Adobe Target as the targeting engine (you must have a valid Adobe Target account to use Adobe Target). If you are using Adobe Target, you must configure the integration first. See [instructions for integrating with Adobe Target.](/help/sites-administering/target.md)
 
 ![chlimage_1-8](assets/chlimage_1-8.png)
 
@@ -44,6 +45,10 @@ The activities and experiences that you see in Target mode reflect the [Activite
 >[!NOTE]
 >
 >When targeting, the branding and activity combination is persisted at the user level not at the channel level.
+
+>[!NOTE]
+>
+>Targeting Mode and the classic AEM Targeting component use the AEM Target integration based on ContextHub. Pages that rely exclusively on the AEP Web SDK will therefore not render the classic AEM Targeting component. [Please see the developer documentation for details.](/help/sites-developing/target.md)
 
 ## Switching to Targeting Mode {#switching-to-targeting-mode}
 
