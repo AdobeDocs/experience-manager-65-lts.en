@@ -27,6 +27,12 @@ This section describes topics about developing components for use with content t
 
 To use targeted components in your pages that interact with Adobe Target, include specific client-side code in the `<head>` element.
 
+>[!NOTE]
+>
+>Targeting Mode and the classic AEM Targeting component use the AEM Target integration based on [ContextHub](/help/sites-developing/contexthub.md) and the `at.js` or `mbox.js` client libraries (see below), which is not an [AEP Web SDK](https://github.com/adobe/alloy) delivery mechanism. For this reason, the classic Targeting component does not render on pages that only load the AEP Web SDK.
+>
+>Sites using the AEP Web SDK must implement Target delivery separately through the Web SDK (a configured datastream, the Web SDK via Tags or Alloy, and frontend rendering with `renderDecisions` / `applyPropositions` against the activity's decision scopes). AEM then provides the offers (Experience Fragments or Content Fragments exported to Adobe Target) and the activities are authored in the Adobe Target UI.
+
 ### The head Section {#the-head-section}
 
 Add both of the following code blocks to the `<head>` section of your page:
