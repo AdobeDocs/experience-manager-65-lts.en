@@ -20,6 +20,10 @@ exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 >
 >From a technical perspective, the upgrade process from AEM 6.5 LTS to AEM 6.5 LTS Service Packs is designed to be a seamless [in-place upgrade](/help/sites-deploying/in-place-upgrade.md). This process generally does not necessitate any code changes from customers, unless specifically indicated in the release notes.
 
+>[!IMPORTANT]
+>
+>Because installing a Service Pack runs the same pre-upgrade cleanup tasks as any other in-place upgrade, add-ons that install their own content under `/libs` may need to be reinstalled afterward. See [Reinstall or Verify Add-ons](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md#reinstall-or-verify-add-ons).
+
 This section covers upgrading an AEM installation to AEM 6.5 LTS:
 
 <!--
