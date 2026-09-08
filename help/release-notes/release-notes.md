@@ -303,8 +303,10 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 #### Enhancements {#forms-enhancements-65-lts-sp3}
 
+* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024.
 * FORMS-24949: Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires.
 * FORMS-25180: Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline.
+* FORMS-25182: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account.
 
 #### Fixed issues {#forms-fixed-issues-65-lts-sp3}
 
@@ -318,6 +320,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * FORMS-25045: Traditional Chinese (Hong Kong) translations stopped rendering after an upgrade, so forms fell back to the default language. Localized text now renders correctly.
 * FORMS-25170: Calling `addInstance()` did not display dynamically added panels when the starting instance count was 0. Added panels now appear immediately.
 * FORMS-25225: Server-side revalidation removed field translations that sat outside fragments in Adaptive Forms, reverting labels to the base language. Those translations are now retained.
+* FORMS-25233: On Open Services Gateway initiative (OSGi) deployments, the Assembler service stitched a master XDP with its immediate fragment but did not resolve nested fragment references such as headers, footers, and reusable sub-forms, so they were missing from the assembled output. Nested fragments are now resolved.
 * FORMS-25289: The Forms rendering service returned different output for the same input across service packs, affecting Correspondence Management letters. Rendering output is now consistent.
 * FORMS-25290: Saved Correspondence Management letters lost spaces and showed a stray "x" in some places when reopened. Saved letter content now stays intact.
 * FORMS-25346: After a service pack upgrade, Interactive Communications (IC) letters froze on a loading spinner, and letters that did load lost spacing in preview. Loading and spacing now work correctly.
