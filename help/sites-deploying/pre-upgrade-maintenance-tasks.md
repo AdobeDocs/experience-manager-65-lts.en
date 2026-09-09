@@ -18,6 +18,7 @@ Before beginning your upgrade, it is important to follow these maintenance tasks
 * [Index Definitions](#index-definitions)
 * [Ensure Sufficient Disk Space](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#ensure-sufficient-disk-space)
 * [Fully Back Up AEM](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#fully-back-up-aem)
+* [Check for Stale Pre-Upgrade Backups](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#check-stale-pre-upgrade-backups)
 * [Generate The quickstart.properties File](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#generate-quickstart-properties)
 * [Configure Workflow and Audit Log Purging](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#configure-wf-audit-purging)
 * [Install, Configure, and Run The Pre-Upgrade Tasks](/help/sites-deploying/pre-upgrade-maintenance-tasks.md#install-configure-run-pre-upgrade-tasks)
@@ -40,6 +41,18 @@ When executing the upgrade, ensure that there is enough disk space.
 ## Fully Back Up AEM {#fully-back-up-aem}
 
 AEM should be fully backed up before beginning the upgrade. Make sure to back up your repository, application installation, datastore, and Mongo instances if applicable. For more information on backing up and restoring an AEM instance, see [Backup and Restore](/help/sites-administering/backup-and-restore.md).
+
+## Check for Stale Pre-Upgrade Backups {#check-stale-pre-upgrade-backups}
+
+Before an upgrade, AEM backs up certain paths (such as `/etc/tags`) under `/var/upgrade/PreUpgradeBackup/<timestamp>`, then restores them once the upgrade completes. Each backup node has a merge status property: `INIT` means the backup was created but never merged back, while `COMPLETED` means the merge finished successfully.
+
+If a backup from a previous upgrade (e.g. from 6.4 to 6.5) is left in `INIT` status, the latest upgrade (from 6.5 to 6.5 LTS) restores that old, unmerged backup. This can silently reintroduce stale or outdated content that no longer matches the current repository state, leading to unexpected issues after the upgrade completes.
+
+To avoid this, before starting the upgrade:
+
+1. Using CRXDE Lite (`/crx/de/index.jsp`), check the source instance for any pre-existing nodes under `/var/upgrade/PreUpgradeBackup/`.
+2. Inspect the merge status property of each backup node found.
+3. If a node is found in `INIT` status from a previous upgrade, review its contents and clean it up — either delete it or explicitly merge it — before proceeding. Doing so ensures the upgrade creates a fresh, accurate backup instead of silently restoring stale data.
 
 ## Generate The quickstart.properties File {#generate-quickstart-properties}
 
