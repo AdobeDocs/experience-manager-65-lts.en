@@ -295,9 +295,57 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 
 
-<!--
 ### [!DNL Forms]{#forms-65-lts-sp3}
--->
+
+>[!NOTE]
+>
+> AEM Forms 6.5 LTS Service Pack 3 (SP3) for OSGi deployments is now available. It includes bug fixes, security improvements, and enhancements. **AEM Forms 6.5 LTS Service Pack 3 (SP3) for JEE deployments will be released at a later date.**
+
+#### Enhancements {#forms-enhancements-65-lts-sp3}
+
+* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024.
+* FORMS-24949: Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires.
+* FORMS-25180: Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline.
+* FORMS-25182: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account.
+
+#### Fixed issues {#forms-fixed-issues-65-lts-sp3}
+
+* FORMS-23726: Applying an XML schema in Adaptive Forms properties failed because of an `xsom` library conflict. Schema selection now works.
+* FORMS-24296: The Foundation Components File Attachment field accepted disallowed file types (for example, `.xsd`) at upload time and rejected them only on submit, unlike other blocked types. Disallowed types are now blocked at upload.
+* FORMS-24603: In Correspondence Management letters, text fragments that carried a condition lost their line breaks when saved as a draft. Drafts now keep the original line breaks.
+* FORMS-24783: File attachments were dropped from the `assignTask` step in Open Services Gateway initiative (OSGi) based Forms workflows. Attachments are now preserved through task assignment.
+* FORMS-24877: The Date Picker calendar icon exposed no accessible label when a display pattern was applied, so the NVDA screen reader announced only "clickable." The icon now provides a descriptive label.
+* FORMS-24913: AEM Forms workflows stalled after the Adobe Sign step because the signing status was never returned. Workflows now continue once signing completes.
+* FORMS-25033: The Scribble Signature component was skipped in the keyboard tab order, creating an accessibility barrier for keyboard-only users. Tab navigation now reaches the field.
+* FORMS-25045: Traditional Chinese (Hong Kong) translations stopped rendering after an upgrade, so forms fell back to the default language. Localized text now renders correctly.
+* FORMS-25170: Calling `addInstance()` did not display dynamically added panels when the starting instance count was 0. Added panels now appear immediately.
+* FORMS-25225: Server-side revalidation removed field translations that sat outside fragments in Adaptive Forms, reverting labels to the base language. Those translations are now retained.
+* FORMS-25233: On Open Services Gateway initiative (OSGi) deployments, the Assembler service stitched a master XDP with its immediate fragment but did not resolve nested fragment references such as headers, footers, and reusable sub-forms, so they were missing from the assembled output. Nested fragments are now resolved.
+* FORMS-25289: The Forms rendering service returned different output for the same input across service packs, affecting Correspondence Management letters. Rendering output is now consistent.
+* FORMS-25290: Saved Correspondence Management letters lost spaces and showed a stray "x" in some places when reopened. Saved letter content now stays intact.
+* FORMS-25346: After a service pack upgrade, Interactive Communications (IC) letters froze on a loading spinner, and letters that did load lost spacing in preview. Loading and spacing now work correctly.
+* FORMS-25431: The Create Form Fragment wizard sent a network request on every keystroke in the title field. The redundant calls have been removed.
+* FORMS-25645: Creating a Core Components based Adaptive Form Fragment from an inline-uploaded JSON schema failed with "ALC-FMG-700-009 Invalid Form Model has been specified." Inline JSON schemas are now accepted.
+* FORMS-25646: A Core Components based Adaptive Form Fragment built from a JSON schema showed an empty Data Sources panel in the editor. The panel now lists the schema data sources.
+* FORMS-25674: The Interactive Communications (IC) Agent user interface opened to a blank page, so agents could not view IC content. The Agent user interface now renders.
+* FORMS-25686: Switching the schema-type option in the Create Adaptive Form Fragment wizard did not clear the previous option's state, producing a schema mismatch. The wizard now resets the inactive option.
+* FORMS-25757: Applying a theme did not update the base client library, so theme changes appeared to have no effect. Themes now update the base client library.
+* FORMS-25825: The mobile hamburger menu did not respond to taps, leaving navigation unusable on mobile devices. The menu now opens as expected.
+* FORMS-26333: The Publish action disappeared after a form was unpublished, which blocked republishing. Publish is now available after unpublish.
+* FORMS-26763: In Designer, bold formatting on hyperlinks inside a static text object was lost after any edit to the text. Bold formatting now survives edits.
+* FORMS-26817: Clicking Reset on an Adaptive Form cleared the author-configured image in the Image component and left a broken image, while other fields reset correctly. Reset now keeps the configured image.
+* FORMS-26852: In the Agent user interface, a date/time field displayed the date one day earlier than the stored value. The field now shows the correct date.
+
+#### Known issues {#forms-known-issues-65-lts-sp3}
+
+No known issues are reported for this release.
+
+#### Security fixes {#forms-security-fixes-65-lts-sp3}
+
+This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
+
+<!-- TODO: Add security bulletin link. Open question, pending information from Sunny Marwaha. -->
+
 
 
 
@@ -388,7 +436,6 @@ Translation projects now maintain accurate status counts as workflows progress. 
 * The Touch UI Page Editor now renders the Content Tree for Workflow Package pages. Authors can inspect the package structure and edit Resource Definition components through the same editor. (GRANITE-67186) MAJOR
 
 * The workflow variable dialog now displays the correct controls for Form Data Model, JSON, XML, and Document variables. Authors no longer see raw HTML markup when they create these non-primitive variables. (GRANITE-67915)
-
 
 
 ## About [!DNL Experience Manager Foundation] {#experience-manager-foundation}
