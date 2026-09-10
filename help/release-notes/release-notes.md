@@ -342,7 +342,7 @@ No known issues are reported for this release.
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
-This release resolves 34 security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries. For details, see the Adobe security bulletin.
+This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
 
 <!-- TODO: Add security bulletin link. Open question, pending information from Sunny Marwaha. -->
 
