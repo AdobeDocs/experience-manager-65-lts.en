@@ -638,7 +638,7 @@ If you use the `gs4tr-globallink-adaptors-aem.core` bundle at a version earlier 
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
-Some APIs that moved to Sites Headless require additional Oak indexes for full functionality.
+Some APIs that moved to Sites Headless require additional Oak indexes for full functionality. 
 
 To use the following features, install the `cq-dam-cfm-indices` package:
 
