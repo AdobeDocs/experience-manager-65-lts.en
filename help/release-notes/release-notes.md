@@ -613,30 +613,6 @@ This section lists features and capabilities that have been removed from AEM 6.5
 * On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
 * On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
 
-### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
-
-Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
-
-To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
-
-Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [`oak-run` jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
-
->[!NOTE]
->
-> * For any `oak-run` operations, use the [`oak-run` 1.88.1-B006 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar).
->
-> * Start AEM by setting the system property `oak.compaction.legacy=true`.
-
-### Missing `com.adobe.granite.apicontroller` bundle in AEM 6.5 LTS SP2 (GRANITE-67640) {#missing-apicontroller-bundle-granite-67640}
-
-The `com.adobe.granite.apicontroller` bundle is missing in AEM 6.5 LTS SP2. This bundle controls how OSGi bundles are resolved and can prevent bundles from resolving to other bundles, which is useful for limiting exposed APIs.
-
-To use this functionality, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip).
-
->[!NOTE]
->
-> To ensure that the default configuration of `com.adobe.granite.apicontroller` introduces no unintended resolution restrictions that affect existing custom implementations, verify the bundle status of all installed bundles after installing the hotfix.
-
 ### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
 
 This issue affects OSGi bundle developers and administrators who deploy bundles that use `Sling-Initial-Content` with JSON files.
