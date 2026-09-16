@@ -11,6 +11,10 @@ exl-id: 840dadca-6691-4244-9383-7dbc8e14f0a0
 ---
 # Distribute AEM Forms app {#distribute-aem-forms-app}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 Mobile Device Management (MDM) enables the large-scale deployment of apps on mobile devices.
 
 >[!NOTE]

@@ -12,6 +12,10 @@ exl-id: 735e4c4a-6580-4698-a1bf-75c4b1e47b5b
 ---
 # Updating general settings{#updating-general-settings}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 General settings of the AEM Forms app let you specify settings such as fetching attachments, offline mode, landing screen, default category, and autsave frequency.
 
 ## Updating the General settings in your app {#working-with-the-form}

@@ -11,6 +11,10 @@ exl-id: e63c1dc2-9843-47ca-8f3c-c49720659aa0
 ---
 # Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 This article describes the error messages that might be displayed while building AEM Forms app and the steps to resolve them.
 
 The sections in this article include:

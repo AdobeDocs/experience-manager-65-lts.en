@@ -12,6 +12,10 @@ exl-id: ef0917ec-bae2-4a5c-b3ca-5b6e57f8bc93
 ---
 # Adding attachments{#adding-attachments}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 ## Adding attachments in forms synced with AEM Forms Workflow server (AEM Forms on JEE) {#adding-annotations}
 
 AEM Forms app lets you attach images, scribbled notes, and text notes to your form synced with AEM Forms JEE server. If your form is loaded from an AEM Forms Workflow server, your attachments are added to the form. You can select the attachment button ![attachments-app](assets/attachments-app.png) to see all the attachments in a form together. The red notification specifies the number of attachments in the form. If there are no attachments in the form, you cannot see the red notifications button. If there are no attachments in the form, when you select the attachments button ![attch](assets/attch.png), you get options to attach photos or scribbles.

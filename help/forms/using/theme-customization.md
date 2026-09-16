@@ -12,6 +12,10 @@ exl-id: 5765b456-c6e8-4498-ade0-b36c95aadd71
 ---
 # Theme Customization {#theme-customization}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 You can customize the HTML code and CSS file to provide a distinct organization-specific look and feel to AEM Forms app. For example, you can change the background color and height of tasks or Startpoints. The following example provides instructions to change:
 
 * display instructions in place of the description

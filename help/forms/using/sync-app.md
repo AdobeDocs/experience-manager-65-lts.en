@@ -13,6 +13,10 @@ exl-id: c1c4ab9c-7950-41f8-a493-11e11ebcaa95
 ---
 # Synchronizing the app{#synchronizing-the-app}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 ## Synchronizing the app {#synchronizing-the-app-1}
 
 The forms in your app are downloaded from the AEM Forms server. The forms are downloaded under Tasks and Forms tabs. Drafts created from forms are downloaded in the drafts tab, and drafts created from tasks are downloaded in the tasks tab. For a standalone form on OSGi server, forms and drafts are downloaded in Forms and Draft tabs respectively.

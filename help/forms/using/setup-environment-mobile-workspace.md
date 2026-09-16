@@ -13,6 +13,10 @@ exl-id: 41799183-ef5a-4990-bd7b-7b58cafe3960
 ---
 # Set up environment for AEM Forms app{#set-up-environment-for-aem-forms-app}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 You need the following hardware, software, and licenses to build and deploy the AEM Forms app:
 
 ## For Windows devices {#for-windows-devices}

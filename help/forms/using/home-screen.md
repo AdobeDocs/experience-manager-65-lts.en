@@ -12,6 +12,10 @@ exl-id: b8e413e0-1387-46c7-891a-85d5fc61288b
 ---
 # Home screen{#home-screen}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 When you log in to the AEM Forms app, you are redirected to the Home screen.
 
 ## Default Home screen {#default-home-screen}

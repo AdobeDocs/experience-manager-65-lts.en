@@ -12,6 +12,10 @@ exl-id: 88a4a75f-2cd7-44b8-a9d0-9a7077173c67
 ---
 # Working with Startpoints{#working-with-startpoints}
 
+>[!NOTE]
+>
+>The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted.
 
 >[!NOTE]
