@@ -299,14 +299,16 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 >[!NOTE]
 >
-> AEM Forms 6.5 LTS Service Pack 3 (SP3) for OSGi deployments is now available. It includes bug fixes, security improvements, and enhancements. **AEM Forms 6.5 LTS Service Pack 3 (SP3) for JEE deployments will be released at a later date.**
+> AEM Forms 6.5 LTS Service Pack 3 (SP3) is now available for both OSGi and JEE deployments. It includes bug fixes, security improvements, and enhancements.
 
 #### Enhancements {#forms-enhancements-65-lts-sp3}
 
-* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024.
+* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024. This applies to both OSGi and JEE deployments.
 * FORMS-24949: Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires.
 * FORMS-25180: Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline.
-* FORMS-25182: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account.
+* FORMS-25182, FORMS-25181: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account. This applies to both OSGi and JEE deployments.
+* FORMS-27595: Added a **User Profile Description** attribute for dynamic watermarks in AEM Forms Document Security, so watermarks can include the user's profile description.
+* WebSphere&reg; Liberty Profile (WLP) now supports Microsoft&reg; SQL Server, in addition to Oracle Database.
 
 #### Fixed issues {#forms-fixed-issues-65-lts-sp3}
 
@@ -335,6 +337,25 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * FORMS-26763: In Designer, bold formatting on hyperlinks inside a static text object was lost after any edit to the text. Bold formatting now survives edits.
 * FORMS-26817: Clicking Reset on an Adaptive Form cleared the author-configured image in the Image component and left a broken image, while other fields reset correctly. Reset now keeps the configured image.
 * FORMS-26852: In the Agent user interface, a date/time field displayed the date one day earlier than the stored value. The field now shows the correct date.
+* FORMS-26733, FORMS-26734: Updated Apache Log4j to version 2.25.5.
+
+The following issues are fixed for AEM Forms on JEE in 6.5 LTS Service Pack 3:
+
+* FORMS-27585: On AEM Forms on JEE, XFA-based PDF forms that call `submitForm()` did not display the submission result in Adobe Reader (and in Acrobat when the script called `closeDoc()`). The submission result now displays correctly.
+* FORMS-25998: On AEM Forms on JEE, registering Hardware Security Module (HSM) private key certificates failed with an `IllegalAccessError` under Java 21 when testing HSM connectivity in the administration console. HSM private key certificate registration now works.
+* FORMS-24993: On AEM Forms on JEE, loading a WSDL in the Invoke Web Service step failed with a `SAXException` ("Premature end of file"). WSDLs now load correctly.
+* FORMS-24518: On AEM Forms on JEE (JBoss), the Reader Extensions web application returned "Error processing request" after a fresh installation because of a legacy JSTL taglib URI. The Reader Extensions web application now loads.
+* FORMS-27495: On AEM Forms on JEE, PDF Generator did not convert Excel (`.xlsx`) files when Single User Mode was enabled, and conversions hung indefinitely. Excel conversions now complete in Single User Mode.
+* FORMS-27098: On AEM Forms on JEE, logging in to `/lc` as the administrator failed because of the SOAP SDK (`/sdk`) authentication gate. Administrator login now succeeds.
+* FORMS-25869: On AEM Forms on JEE, PDF Generator incorporates an updated conversion-engine fix to improve conversion reliability.
+
+**Install AEM Forms 6.5 LTS SP3 on JEE**
+
+To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
+
+1. Install the Service Pack using the AEM Forms 6.5 LTS SP3 JEE installer for your application server (download from [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases)), following the standard AEM Forms on JEE installation procedure.
+1. Update to the latest AEM Forms Workbench installer (available from the same [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page).
+1. If your project uses the `adobe-livecycle-client.jar` SDK client library, update it in your project's classpath. The latest version is available at `<AEM_Forms_Installation_dir>/sdk/client-libs/common/adobe-livecycle-client.jar`.
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
