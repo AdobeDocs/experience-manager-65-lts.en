@@ -359,7 +359,22 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
-No known issues are reported for this release.
+On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform in AEM 6.5 LTS SP3, AEM 6.5 LTS SP2 Latest Patch 008, and the AEM Forms JEE 6.5.25 patch. The deployed EAR file is missing required Bouncy Castle libraries on its classpath.
+
+**Workaround**
+
+1. Go to `<AEM Forms JEE installation>\Adobe_Experience_Manager_Forms\configurationManager\export`.
+1. Open `adobe-livecycle-websphere.ear\adobe-dscf.jar\META-INF\MANIFEST.MF` and append these entries to the `Class-Path` element:
+
+    ```
+    bcmail-jdk18on-1.84.jar bcprov-jdk18on-1.84.jar bcpkix-jdk18on-1.84.jar bcutil-jdk18on-1.84.jar
+    ```
+
+1. Redeploy the modified EAR file to the WLP `dropins` folder:
+    1. Stop the WLP server and delete `adobe-livecycle-websphere.ear` from `<WLP install location>\usr\servers\aemforms\dropins`.
+    1. Delete the `adobe-livecycle-websphere.ear` directory from `<WLP install location>\usr\servers\<server-name>\apps\expanded\`.
+    1. Copy the modified EAR file from step 2 into `<WLP install location>\usr\servers\aemforms\dropins`.
+    1. Start the WLP server.
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
