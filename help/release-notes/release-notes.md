@@ -370,11 +370,11 @@ On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liber
     bcmail-jdk18on-1.84.jar bcprov-jdk18on-1.84.jar bcpkix-jdk18on-1.84.jar bcutil-jdk18on-1.84.jar
     ```
 
-1. Redeploy the modified EAR file to the WLP `dropins` folder:
-    1. Stop the WLP server and delete `adobe-livecycle-websphere.ear` from `<WLP install location>\usr\servers\aemforms\dropins`.
-    1. Delete the `adobe-livecycle-websphere.ear` directory from `<WLP install location>\usr\servers\<server-name>\apps\expanded\`.
-    1. Copy the modified EAR file from step 2 into `<WLP install location>\usr\servers\aemforms\dropins`.
-    1. Start the WLP server.
+1. Redeploy the modified EAR file to the WebSphere&reg; Liberty Profile `dropins` folder:
+    1. Stop the WebSphere&reg; Liberty Profile server and delete `adobe-livecycle-websphere.ear` from `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
+    1. Delete the `adobe-livecycle-websphere.ear` directory from `<WebSphere Liberty Profile install location>\usr\servers\<server-name>\apps\expanded\`.
+    1. Copy the modified EAR file from step 2 into `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
+    1. Start the WebSphere&reg; Liberty Profile server.
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
