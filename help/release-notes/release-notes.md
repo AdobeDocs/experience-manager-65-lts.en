@@ -359,7 +359,7 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
-On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The deployed EAR file is missing required Bouncy Castle libraries on its classpath.
+On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The EAR file included with LTS SP3 is missing required Bouncy Castle libraries on its classpath.
 
 **Workaround**
 
