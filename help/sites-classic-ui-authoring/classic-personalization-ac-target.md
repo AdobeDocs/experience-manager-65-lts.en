@@ -9,6 +9,19 @@ solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
 exl-id: e6446c01-a34d-4fed-886a-8983cb7edd0d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 

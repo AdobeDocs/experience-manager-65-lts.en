@@ -4,6 +4,18 @@ description: Use AEM adaptive form core components to add comments, annotations,
 feature: Adaptive Forms, Core Components
 role: User, Developer, Admin
 exl-id: 53645880-92e2-4dfd-9c5d-50c849d6e32b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Versioning, reviewing and commenting on an Adaptive Form
 

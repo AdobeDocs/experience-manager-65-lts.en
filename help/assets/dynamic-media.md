@@ -9,6 +9,24 @@ role: User, Admin
 feature: Collaboration,Asset Management
 solution: Experience Manager, Experience Manager Assets
 exl-id: 195c097b-787a-44a2-aa4f-a9f8ccf93e3d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: f7212149-7f65-4e43-89c2-1f075f45be16
+    internal-label: Collaboration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Work with Dynamic Media {#working-with-dynamic-media}
 

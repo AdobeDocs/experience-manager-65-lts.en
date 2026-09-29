@@ -9,6 +9,24 @@ role: Admin,User
 solution: Experience Manager, Experience Manager Forms
 feature: Workbench,Adaptive Forms
 exl-id: b41e5e15-eb7f-4404-82a0-2ba034694577
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 36ac8e9c-5c7a-56d8-af5e-39399fd7b101
+    internal-label: Workbench
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Configuring the synchronization scheduler {#configuring-the-synchronization-scheduler}
 

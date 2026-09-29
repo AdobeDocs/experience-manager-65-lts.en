@@ -4,6 +4,16 @@ description: Though the SPA Editor remains supported by Adobe, learn what its de
 feature: Developing
 role: Admin,Developer
 exl-id: 7c1af58f-95b3-4366-96cd-7383ac869923
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # SPA Editor Deprecation {#spa-editor-deprecation}
 

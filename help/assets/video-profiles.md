@@ -11,6 +11,22 @@ role: User, Admin
 mini-toc-levels: 3
 solution: Experience Manager, Experience Manager Assets
 exl-id: b7ee16db-fde2-4d06-b06c-945b6d876f8d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+subfeature_v2:
+  - id: d8ea7e82-d45e-442f-bb04-b3788a7abcb0
+    internal-label: Video profiles
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Video profiles {#video-profiles}
 

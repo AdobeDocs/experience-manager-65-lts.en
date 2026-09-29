@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Operations
 role: Admin
 exl-id: 6dd29f1c-3769-469c-8b8a-464f9ac00b15
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Reporting {#reporting}
 

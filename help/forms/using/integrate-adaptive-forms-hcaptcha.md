@@ -4,6 +4,16 @@ description: Enhance form security with hCaptcha&reg; service effortlessly. Step
 feature: Adaptive Forms, Foundation Components
 role: User, Developer
 exl-id: da0f8fc5-732e-41de-b73c-0355ec723d26
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Connect your AEM Forms environment with hCaptcha&reg; {#connect-your-forms-environment-with-hcaptcha-service}
 
