@@ -375,7 +375,7 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
-No known issues are reported for this release.
+* On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** may fail. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
