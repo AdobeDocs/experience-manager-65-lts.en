@@ -603,18 +603,20 @@ It is recommended that you limit personalization to where it is necessary. To il
 * If, in contrast, you offer a choice of ten different start pages, you can cache each one of them, thus improving performance.
 
 >[!TIP]
+>
 >For further details on configuring the Dispatcher cache, see the [AEM Dispatcher Cache Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/overview.html) and its section on [Caching Protected Content.](https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/chapter-1.html#dispatcher-tips-and-tricks)
 
  If you personalize each page by putting the user's name into the title bar (for example), it has a performance impact.
 
- >[!TIP]
- >For caching secured content, see [Caching Secured Content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html) in the Dispatcher guide.
+>[!TIP]
+>
+>For caching secured content, see [Caching Secured Content](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/permissions-cache.html) in the Dispatcher guide.
 
- Regarding mixing restricted and public content on one page, consider a strategy that uses server side includes in the Dispatcher, or client side includes by way of Ajax in the browser.
+Regarding mixing restricted and public content on one page, consider a strategy that uses server side includes in the Dispatcher, or client side includes by way of Ajax in the browser.
 
- >[!TIP]
- >
- >For handling mixed public and restricted content, see [Set up Sling Dynamic Include.](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-sling-dynamic-include.html)
+>[!TIP]
+>
+>For handling mixed public and restricted content, see [Set up Sling Dynamic Include.](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-sling-dynamic-include.html)
 
 #### Sticky Connections {#sticky-connections}
 

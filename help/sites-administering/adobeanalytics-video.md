@@ -294,26 +294,26 @@ This method is similar to the Milestones method with the difference that the mil
 
 1. Set the Track offset.
 
-    * for example,10,50,75,100
+   * for example,10,50,75,100
 
    Also, the information sent to Adobe Analytics is less customizable; there are only 3 variables available for mapping:
 
-<table>
- <tbody>
-  <tr>
-   <td>eventdata.videoName <br /> </td>
-   <td>Variables mapped to this will contain the <strong>user-friendly</strong> name (<strong>Title</strong>) of the video if set in the DAM; if the Title is not set, the video's <strong>file name</strong> will be sent instead. Only sent once, at the beginning of playing a video.<br /> </td>
-  </tr>
-  <tr>
-   <td>eventdata.videoFileName </td>
-   <td>Variables mapped to this will contain the file's name. Only sent once, at the beginning of playing a video.</td>
-  </tr>
-  <tr>
-   <td>eventdata.videoFilePath </td>
-   <td>Variable mapped to this will contain the file's path on the server. Only sent once, at the beginning of playing a video.</td>
-  </tr>
- </tbody>
-</table>
+   <table>
+   <tbody>
+   <tr>
+      <td>eventdata.videoName <br /> </td>
+      <td>Variables mapped to this will contain the <strong>user-friendly</strong> name (<strong>Title</strong>) of the video if set in the DAM; if the Title is not set, the video's <strong>file name</strong> will be sent instead. Only sent once, at the beginning of playing a video.<br /> </td>
+   </tr>
+   <tr>
+      <td>eventdata.videoFileName </td>
+      <td>Variables mapped to this will contain the file's name. Only sent once, at the beginning of playing a video.</td>
+   </tr>
+   <tr>
+      <td>eventdata.videoFilePath </td>
+      <td>Variable mapped to this will contain the file's path on the server. Only sent once, at the beginning of playing a video.</td>
+   </tr>
+   </tbody>
+   </table>
 
    >[!NOTE]
    >
@@ -355,22 +355,22 @@ When using the** legacy seconds** method, Adobe Analytics calls get triggered ev
 
    The information sent to Adobe Analytics is less customizable. There are only 3 variables available for mapping:
 
-<table>
- <tbody>
-  <tr>
-   <td>eventdata.videoName <br /> </td>
-   <td>Variables mapped to this will contain the <strong>user-friendly</strong> name (<strong>Title</strong>) of the video if set in the DAM; if the Title is not set, the video's <strong>file name</strong> will be sent instead. Only sent once, at the beginning of playing a video.<br /> </td>
-  </tr>
-  <tr>
-   <td>eventdata.videoFileName </td>
-   <td>Variable mapped to this will contain the file's name. Only sent once, at the beginning of playing a video.</td>
-  </tr>
-  <tr>
-   <td>eventdata.videoFilePath </td>
-   <td>Variable mapped to this will contain the file's path on the server. Only sent once, at the beginning of playing a video.</td>
-  </tr>
- </tbody>
-</table>
+   <table>
+   <tbody>
+   <tr>
+      <td>eventdata.videoName <br /> </td>
+      <td>Variables mapped to this will contain the <strong>user-friendly</strong> name (<strong>Title</strong>) of the video if set in the DAM; if the Title is not set, the video's <strong>file name</strong> will be sent instead. Only sent once, at the beginning of playing a video.<br /> </td>
+   </tr>
+   <tr>
+      <td>eventdata.videoFileName </td>
+      <td>Variable mapped to this will contain the file's name. Only sent once, at the beginning of playing a video.</td>
+   </tr>
+   <tr>
+      <td>eventdata.videoFilePath </td>
+      <td>Variable mapped to this will contain the file's path on the server. Only sent once, at the beginning of playing a video.</td>
+   </tr>
+   </tbody>
+   </table>
 
    >[!NOTE]
    >

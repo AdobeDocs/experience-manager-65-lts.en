@@ -57,13 +57,11 @@ You can select the **Configure** ![configure](assets/configure.png) icon to set 
 
 * When the aspect ratio of the Scribble Signature canvas is more than 1, the geolocation information is added to the right-side of the Scribble Signature canvas. 
  
- ![scribble signature-bottom](/help/forms/using/assets/scribble-signature-aspectratio.PNG)
+  ![scribble signature-bottom](/help/forms/using/assets/scribble-signature-aspectratio.PNG)
 
-
-   >[!NOTE]
-   >
-   >Signatures are always saved in a PNG format.
-   >
+  >[!NOTE]
+  >
+  >Signatures are always saved in a PNG format.
    
 ## Configure an adaptive form to use Scribble Signature {#configure-an-adaptive-form-to-use-scribble-signature}
 

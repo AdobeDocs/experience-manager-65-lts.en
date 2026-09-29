@@ -64,11 +64,11 @@ Form authors can compare two different versions of a form for previewing purpose
 
 A review is a mechanism that allows one or more reviewers to comment on forms. Any form user can comment on a form or review a form through comments. To comment on a form, select a **[!UICONTROL Form]**, and add a **[!UICONTROL Comment]** to the form.
 
-   >[!NOTE]
-   > When you use comments in adaptive form core components as discussed above, the form functionality, [adding reviewers to forms](/help/forms/using/create-reviews-forms.md) is disabled.
+>[!NOTE]
+>
+>When you use comments in adaptive form core components as discussed above, the form functionality, [adding reviewers to forms](/help/forms/using/create-reviews-forms.md) is disabled.
 
-
-  ![Add comments on a form](assets/form-comments.png)
+![Add comments on a form](assets/form-comments.png)
 
 ## Add Annotations {#adaptive-form-annotations}
 
@@ -78,10 +78,10 @@ To add annotations to a form, perform the following steps:
 1. Open a form in the **[!UICONTROL Edit]** mode.
 
 1. Click the **add icon** located on the upper right rail as given in the image.
-        ![Annotation](assets/annotation.png)
+   ![Annotation](assets/annotation.png)
 
 1. Now, click the **add icon** located on the upper left rail as given in the image to add the annotation.
-        ![Add annotation](assets/add-annotation.png)
+   ![Add annotation](assets/add-annotation.png)
 
 1. Now, you can add comments, draw sketches with multiple colors to form components.
 
