@@ -197,6 +197,10 @@ If you are using a UNIX-based operating system, install the following 32-bit pac
   * ld-linux.so.2
   * libexpat.so.1
 
+* On Red Hat&reg; Enterprise Linux&reg; 9, the 32-bit OpenOffice build requires `libcrypt.so.1`, which is not installed by default. If it is missing, OpenOffice fails to start with the error `soffice.bin: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory`, and OpenOffice-to-PDF conversions fail. Install the `libxcrypt-compat` package (32-bit) to provide the library:
+
+  `sudo dnf install -y libxcrypt-compat.i686`
+
 ## Pre-installation configurations {#preinstallationconfigurations}
 
 Configurations listed in the pre-installation configurations section are applicable only to the PDF Generator service. If you are not configuring the PDF Generator service, you can skip the pre-installation configuration section.
@@ -1375,6 +1379,10 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 * Create an environment variable `OpenOffice_PATH` and set it to point it to OpenOffice installation is set in the [console](https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/) or the dt (Device Tree) profile.  
 * If there are issues in installing OpenOffice, ensure that [32-bit libraries](#extrarequirements) required for OpenOffice installation are available.
+
+* On Red Hat&reg; Enterprise Linux&reg; 9, the 32-bit OpenOffice build requires `libcrypt.so.1`, which is not installed by default. If it is missing, OpenOffice fails to start with the error `soffice.bin: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory`, and OpenOffice-to-PDF conversions fail. Install the `libxcrypt-compat` package (32-bit) to provide the library:
+
+  `sudo dnf install -y libxcrypt-compat.i686`
 
 +++
 
