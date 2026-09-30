@@ -24,7 +24,7 @@ role_v2:
 
 # Custom Namespaces{#custom-namespaces}
 
-Learn how to define and deploy custom [namespaces](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html) to AEM 6.5 LTS.
+Learn how to define and deploy custom [namespaces](https://experienceleague.adobe.com/en/tools/aem-api-documentation/spec/jcr/1.0/4.5_Namespaces.html) to AEM 6.5 LTS.
 
 Custom namespaces are the optional part of a JCR property preceding a `:`. AEM uses several namespaces such as:
 

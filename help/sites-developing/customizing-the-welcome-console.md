@@ -193,7 +193,7 @@ See the [Security section](/help/sites-administering/security.md) for more infor
 
 ### Link Selection Mechanism {#link-selection-mechanism}
 
-In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/commons/ConsoleUtil.html), which executes a query on nodes that have the property:
+In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/day/cq/commons/ConsoleUtil.html), which executes a query on nodes that have the property:
 
 * `jcr:mixinTypes` with the value: `cq:Console`
 

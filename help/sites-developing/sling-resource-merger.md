@@ -39,7 +39,7 @@ Sling Resource Merger combines both overlay and override resources (and their pr
 
 >[!CAUTION]
 >
->The Sling Resource Merger and related methods can only be used with [Granite](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/index.html). This situation also means that it is only appropriate for the standard, touch-enabled UI; in particular overrides defined in this manner are only applicable for the touch-enabled dialog of a component.
+>The Sling Resource Merger and related methods can only be used with [Granite](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/granite-ui/api/index.html). This situation also means that it is only appropriate for the standard, touch-enabled UI; in particular overrides defined in this manner are only applicable for the touch-enabled dialog of a component.
 >
 >To overlay or override other areas (including other parts of a touch-enabled component or the classic UI), copy the appropriate node and structure from the original. Place the copy where you define the customization.
 
