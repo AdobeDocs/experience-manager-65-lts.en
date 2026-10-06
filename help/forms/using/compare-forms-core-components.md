@@ -4,6 +4,18 @@ description: Compare two distinct forms based on the fields, content, and form c
 feature: Adaptive Forms, Core Components
 role: User, Developer, Admin
 exl-id: e564101f-2d36-475d-b402-e973d13196ff
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Compare Adaptive Forms {#compare-two-forms}
 

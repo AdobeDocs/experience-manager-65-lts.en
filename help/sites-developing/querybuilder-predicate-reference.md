@@ -223,7 +223,7 @@ Conceptually `fulltext AND ( (path AND type) OR (path AND type) )`. Such OR join
 
 ### hasPermission {#haspermission}
 
-Restricts the result to items where the current session has the specified [JCR privileges.](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/2.0/16_Access_Control_Management.html#16.2.3%20Standard%20Privileges)
+Restricts the result to items where the current session has the specified [JCR privileges.](https://experienceleague.adobe.com/en/tools/aem-api-documentation/spec/jcr/2.0/16_Access_Control_Management.html#16.2.3%20Standard%20Privileges)
 
 A filtering-only predicate and cannot use a search index. It does not support facet extraction.
 
@@ -263,7 +263,7 @@ It supports facet extraction and provides two buckets for main and subassets.
 
 ### memberOf {#memberof}
 
-Finds items that are member of a specific [sling resource collection](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/org/apache/sling/resource/collection/ResourceCollection.html).
+Finds items that are member of a specific [sling resource collection](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/org/apache/sling/resource/collection/ResourceCollection.html).
 
 A filtering-only predicate and cannot use a search index. It does not support facet extraction.
 

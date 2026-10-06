@@ -9,6 +9,21 @@ feature: Correspondence Management
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 exl-id: 8294cbbe-f37f-41d0-b8e8-298f9413462e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 3f00fc92-85ee-583e-abd1-3bc3d96de3a0
+    internal-label: Correspondence Management
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Add a custom action button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
@@ -418,11 +433,11 @@ For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/form
    >
    >Every time you make any changes at the server side, restart the LiveCycle Server. 
 
-   The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
+   The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
 
 #### Import DSC to LiveCyle {#import-dsc-to-livecyle}
 
-DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that DSC gives as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
+DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that DSC gives as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/index.html?com/adobe/icc/ddg/api/LetterRenderService.html).
 
 1. Start Workbench and log in.
 1. Select **Window &gt; Show Views &gt; Components**. The Components view gets added to Workbench ES2.

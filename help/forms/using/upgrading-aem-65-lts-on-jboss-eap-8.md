@@ -2,6 +2,11 @@
 title: Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)
 description: This guide provides step-by-step instructions for upgrading an existing Adobe Experience Manager (AEM) 6.5 LTS installation from JBoss EAP 7.4 to JBoss EAP 8 on Windows, using JDK 21.
 exl-id: 23389613-0d9f-4e0b-b133-c8e598dd9cc9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
 ---
 # Upgrading AEM 6.5 LTS on JBoss EAP 8 (Windows)
 

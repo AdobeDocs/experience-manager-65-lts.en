@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 2a94ea8d-2919-4f30-be31-ce559493805d
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Customizing the Consoles {#customizing-the-consoles}
 
@@ -33,7 +44,7 @@ These can be used in many ways to extend your AEM consoles. A small selection ar
 >
 >* Using and creating [clientlibs](/help/sites-developing/clientlibs.md).
 >* Using and creating [overlays](/help/sites-developing/overlays.md).
->* [Granite](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/index.html)
+>* [Granite](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/granite-ui/api/index.html)
 >
 
 
@@ -144,7 +155,7 @@ To customize the columns in the list view:
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a [PageInforProvider](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/api/PageInfoProvider.html) with a
+    * If you want to plug additional data, you need to write a [PageInforProvider](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/day/cq/wcm/api/PageInfoProvider.html) with a
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

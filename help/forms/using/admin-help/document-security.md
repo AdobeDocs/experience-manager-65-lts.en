@@ -5,8 +5,21 @@ feature: Document Security
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 hide: true
-removedfrom6.5.2025: yes
+removedfrom6.5.2025: 'yes'
 exl-id: 5e7fe85e-3c7f-4a37-8f65-5c0ad4bbd66c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 50158d81-1c06-57f7-8bd7-e8ff76a93f85
+    internal-label: Document Security
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # About document security {#about-document-security}
 
@@ -266,4 +279,4 @@ Policies are reusable sets of permissions and user groups that can be applied to
 
   >[!NOTE]
   >
-  >You can use the [getAllPolicysetnames()](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/programlc/javadoc/com/adobe/livecycle/rightsmanagement/client/PolicyManager.html) API to retrieve a maximum of 1000 policy set names. Internally, the API retrieves a maximum of 1000 policies for which the API invoker has document publisher permission and then creates and returns a list of unique policy set names associated with retrieved policies to you. For example, when the API retrieves 1000 policies and the retrieved policies are associated with 200 policy sets in total, the API returns only 200 policy set names.
+  >You can use the [getAllPolicysetnames()](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/programlc/javadoc/com/adobe/livecycle/rightsmanagement/client/PolicyManager.html) API to retrieve a maximum of 1000 policy set names. Internally, the API retrieves a maximum of 1000 policies for which the API invoker has document publisher permission and then creates and returns a list of unique policy set names associated with retrieved policies to you. For example, when the API retrieves 1000 policies and the retrieved policies are associated with 200 policy sets in total, the API returns only 200 policy set names.

@@ -5,6 +5,22 @@ solution: Experience Manager
 feature: Release Information
 role: User,Admin,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 
 # Current release notes for Adobe Experience Manager 6.5 LTS, SP3 {#release-notes}
@@ -299,14 +315,16 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 >[!NOTE]
 >
-> AEM Forms 6.5 LTS Service Pack 3 (SP3) for OSGi deployments is now available. It includes bug fixes, security improvements, and enhancements. **AEM Forms 6.5 LTS Service Pack 3 (SP3) for JEE deployments will be released at a later date.**
+> AEM Forms 6.5 LTS Service Pack 3 (SP3) is now available for both OSGi and JEE deployments. It includes bug fixes, security improvements, and enhancements.
 
 #### Enhancements {#forms-enhancements-65-lts-sp3}
 
-* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024.
+* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024. This applies to both OSGi and JEE deployments.
 * FORMS-24949: Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires.
 * FORMS-25180: Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline.
-* FORMS-25182: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account.
+* FORMS-25182, FORMS-25181: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account. This applies to both OSGi and JEE deployments.
+* FORMS-27595: Added a **User Profile Description** attribute for dynamic watermarks in AEM Forms Document Security, so watermarks can include the user's profile description.
+* WebSphere&reg; Liberty Profile (WLP) now supports Microsoft&reg; SQL Server, in addition to Oracle Database.
 
 #### Fixed issues {#forms-fixed-issues-65-lts-sp3}
 
@@ -335,16 +353,33 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * FORMS-26763: In Designer, bold formatting on hyperlinks inside a static text object was lost after any edit to the text. Bold formatting now survives edits.
 * FORMS-26817: Clicking Reset on an Adaptive Form cleared the author-configured image in the Image component and left a broken image, while other fields reset correctly. Reset now keeps the configured image.
 * FORMS-26852: In the Agent user interface, a date/time field displayed the date one day earlier than the stored value. The field now shows the correct date.
+* FORMS-26733, FORMS-26734: Updated Apache Log4j to version 2.25.5.
+
+The following issues are fixed for AEM Forms on JEE in 6.5 LTS Service Pack 3:
+
+* FORMS-27585: On AEM Forms on JEE, XFA-based PDF forms that call `submitForm()` did not display the submission result in Adobe Reader (and in Acrobat when the script called `closeDoc()`). The submission result now displays correctly.
+* FORMS-25998: On AEM Forms on JEE, registering Hardware Security Module (HSM) private key certificates failed with an `IllegalAccessError` under Java 21 when testing HSM connectivity in the administration console. HSM private key certificate registration now works.
+* FORMS-24993: On AEM Forms on JEE, loading a WSDL in the Invoke Web Service step failed with a `SAXException` ("Premature end of file"). WSDLs now load correctly.
+* FORMS-24518: On AEM Forms on JEE (JBoss), the Reader Extensions web application returned "Error processing request" after a fresh installation because of a legacy JSTL taglib URI. The Reader Extensions web application now loads.
+* FORMS-27495: On AEM Forms on JEE, PDF Generator did not convert Excel (`.xlsx`) files when Single User Mode was enabled, and conversions hung indefinitely. Excel conversions now complete in Single User Mode.
+* FORMS-27098: On AEM Forms on JEE, logging in to `/lc` as the administrator failed because of the SOAP SDK (`/sdk`) authentication gate. Administrator login now succeeds.
+* FORMS-25869: On AEM Forms on JEE, PDF Generator incorporates an updated conversion-engine fix to improve conversion reliability.
+
+**Install AEM Forms 6.5 LTS SP3 on JEE**
+
+To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
+
+1. Install the Service Pack using the AEM Forms 6.5 LTS SP3 JEE installer for your application server (download from [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases)), following the standard AEM Forms on JEE installation procedure.
+1. Update to the latest AEM Forms Workbench installer (available from the same [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page).
+1. If your project uses the `adobe-livecycle-client.jar` SDK client library, update it in your project's classpath. The latest version is available at `<AEM_Forms_Installation_dir>/sdk/client-libs/common/adobe-livecycle-client.jar`.
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
-No known issues are reported for this release.
+* On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** may fail. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
 This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
-
-<!-- TODO: Add security bulletin link. Open question, pending information from Sunny Marwaha. -->
 
 
 
@@ -528,7 +563,7 @@ For setup requirements, see [installation instructions](/help/sites-deploying/cu
 
 >[!NOTE]
 >
-> If you are directly upgrading to LTS SP1 from old 6.5 SPs, follow the instructions given for 6.5 to 6.5 LTS GA [upgrade](/help/sites-deploying/upgrade.md).
+> If you are directly upgrading to LTS SP3 from old 6.5 SPs, follow the instructions given for 6.5 to 6.5 LTS GA [upgrade](/help/sites-deploying/upgrade.md).
 
 
 For detailed instructions, see the [upgrade documentation](/help/sites-deploying/upgrade.md), as the same documentation applies for LTS Service Pack updates.
@@ -610,32 +645,6 @@ This section lists features and capabilities that have been removed from AEM 6.5
 ### AEM Forms
 
 * In Configuration Manager, Database Initialization fails during Bootstrap in AEM Forms 6.5 LTS JEE Turnkey Custom mode when no modules or only limited components are selected. The failure is due to a missing dependency (xalan-2.7.2.jar), resulting in an error. Adding the JAR file to Adobe-livecycle-jboss.ear\lib resolves the issue. (FORMS-24690)
-* On Forms JEE LTS Service Pack 2 deployments running on WebSphere&reg; Liberty Profile, email functionality fails. When attempting to use email features, the server logs an error: `Could not convert socket to TLS`. (FORMS-24692)
-* On Forms JEE LTS running on JBoss&reg;, email-related functionality fails. When attempting to use email features, the server logs an error: `Error IMAPProvider not a subtype`. To resolve this issue, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq650/hotfix/adobe-core-jboss.ear). (FORMS-24892)
-
-### Repository corruption during online compaction after offline compaction (GRANITE-65146) {#repository-corruption-during-online-compaction-after-offline-compaction-granite-65146}
-
-Users can experience repository corruption during online compaction if offline compaction was previously run on the JCR repository. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
-
-To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-65388-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
-
-Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [`oak-run` jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar), also available on Software Distribution.
-
->[!NOTE]
->
-> * For any `oak-run` operations, use the [`oak-run` 1.88.1-B006 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/oak-run-1.88.1-B006.jar).
->
-> * Start AEM by setting the system property `oak.compaction.legacy=true`.
-
-### Missing `com.adobe.granite.apicontroller` bundle in AEM 6.5 LTS SP2 (GRANITE-67640) {#missing-apicontroller-bundle-granite-67640}
-
-The `com.adobe.granite.apicontroller` bundle is missing in AEM 6.5 LTS SP2. This bundle controls how OSGi bundles are resolved and can prevent bundles from resolving to other bundles, which is useful for limiting exposed APIs.
-
-To use this functionality, install the hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.2-hotfix-GRANITE-67640-1.0.zip).
-
->[!NOTE]
->
-> To ensure that the default configuration of `com.adobe.granite.apicontroller` introduces no unintended resolution restrictions that affect existing custom implementations, verify the bundle status of all installed bundles after installing the hotfix.
 
 ### JSON comments no longer supported in Sling-Initial-Content (SP2) {#json-comments-no-longer-supported-in-sling-initial-content}
 
@@ -662,7 +671,7 @@ If you use the `gs4tr-globallink-adaptors-aem.core` bundle at a version earlier 
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
-Some APIs that moved to Sites Headless require additional Oak indexes for full functionality.
+Some APIs that moved to Sites Headless require additional Oak indexes for full functionality. 
 
 To use the following features, install the `cq-dam-cfm-indices` package:
 

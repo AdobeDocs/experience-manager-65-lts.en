@@ -9,6 +9,17 @@ feature: Operations
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: dd0f90f7-5e92-49d3-a5b4-17d99ed927b9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}
 

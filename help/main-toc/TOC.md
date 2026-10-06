@@ -1097,6 +1097,7 @@ nudge: true
     + [Script Execution Fails on AEM Forms 6.5 LTS with JBoss EAP 8 (Linux)](/help/forms/using/script-execution-issues-on-aem-forms-65-lts-with-jboss-eap-8-linux.md)
     + [Unable to Start JBoss Domain Controller](/help/forms/using/unable-to-start-jboss-domain-controller-due-to-duplicate-security-tag.md)
     + [Mitigating Server-Side Request Forgery (SSRF) Vulnerabilities for AEM Forms on JEE 6.5 LTS SP2](/help/forms/troubleshooting/mitigating-server-side-request-forgery-vulnerabilities-for-aem-forms-on-jee-65-lts-sp2.md)
+    + [AEM Forms Blocks Valid HTTP Requests](/help/forms/troubleshooting/aem-forms-blocks-valid-http-requests.md)
   + Legacy documentation {#legacy-documentation}
     + {hide-from-toc} [Using the execute script service in AEM Forms on JEE Workbench to build XML data](/help/forms/developing/building-xml.md)
     + {hide-from-toc} [Compressing and decompressing files using a AEM Forms on JEE Custom DSC](/help/forms/developing/compressing-decompressing-custom-dsc.md)
