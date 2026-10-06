@@ -28,6 +28,11 @@ role_v2:
 ---
 # Logging in to Adobe Experience Manager Forms app{#logging-in-to-aem-forms-app}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 When you start your Adobe Experience Manager (AEM) Forms app, you must first provide your login credentials and a AEM Forms Server URL.
 
 ## To start the app {#to-start-the-app}
@@ -35,12 +40,12 @@ When you start your Adobe Experience Manager (AEM) Forms app, you must first pro
 1. Select the AEM Forms app icon on your mobile device.
 1. To log in to the app, enter a user name, password, and AEM Forms Server URL.
 
-   >[!NOTE]
-   >
-   >The Mobile app caches all AEM Forms Server URLs that you enter.
-   >
-   >    * To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
-   >    * Select an AEM Forms Server URL to log in to by way of the app.
+>[!NOTE]
+>
+>The Mobile app caches all AEM Forms Server URLs that you enter.
+>
+>    * To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
+>    * Select an AEM Forms Server URL to log in to by way of the app.
 
 When you log in to the app, you are directed to the [**Home** screen](../../forms/using/home-screen.md).
 

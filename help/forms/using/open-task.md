@@ -27,6 +27,11 @@ role_v2:
 ---
 # Opening a task {#opening-a-task}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 If the Adobe Experience Manager (AEM) Forms app syncs with an AEM Forms Server, you can work with tasks assigned to you. Tasks are steps in the Workflow defined in workbench or in the AEM workflow editor. 
 
 Other forms are saved as draft in the Drafts tab. See [Saving a draft](/help/forms/using/save-as-draft.md).

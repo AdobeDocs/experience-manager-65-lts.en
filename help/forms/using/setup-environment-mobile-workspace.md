@@ -31,6 +31,11 @@ role_v2:
 ---
 # Set up environment for AEM Forms app{#set-up-environment-for-aem-forms-app}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 You need the following hardware, software, and licenses to build and deploy the AEM Forms app:
 
 ## For Windows devices {#for-windows-devices}

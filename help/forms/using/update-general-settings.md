@@ -28,6 +28,11 @@ role_v2:
 ---
 # Updating general settings{#updating-general-settings}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 General settings of the AEM Forms app let you specify settings such as fetching attachments, offline mode, landing screen, default category, and autsave frequency.
 
 ## Updating the General settings in your app {#working-with-the-form}
@@ -47,9 +52,9 @@ In the General tab, change the download attachments, offline mode, landing scree
 
    General Settings screen
 
-   >[!NOTE]
-   >
-   >The options may display differently on different mobile devices.
+>[!NOTE]
+>
+>The options may display differently on different mobile devices.
 
 ### General settings {#general-settings}
 

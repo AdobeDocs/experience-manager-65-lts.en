@@ -27,6 +27,11 @@ role_v2:
 ---
 # Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 This article describes the error messages that might be displayed while building AEM Forms app and the steps to resolve them.
 
 The sections in this article include:

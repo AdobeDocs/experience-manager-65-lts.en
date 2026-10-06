@@ -28,6 +28,11 @@ role_v2:
 ---
 # Home screen{#home-screen}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 When you log in to the AEM Forms app, you are redirected to the Home screen.
 
 ## Default Home screen {#default-home-screen}

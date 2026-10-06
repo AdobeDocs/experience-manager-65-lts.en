@@ -11,6 +11,11 @@ exl-id: 5cfb956a-454c-4bed-a410-003c716c46ed
 ---
 # Building a secure AEM Forms app for iOS {#building-a-secure-aem-forms-app-for-ios}
 
+>[!NOTE]
+>
+>The AEM Forms app for iOS has been discontinued and removed from the Apple App Store.
+>It is no longer available for installation.
+
 You need to archive the Xcode project for AEM Forms app to build the installer (an .ipa file) and a property list (a .plist file) file. The property list file contains configuration information of the hosted in-house app, such as the name and the hosting location of the app. For more information about property list file, see [About Information Property List Files](https://developer.apple.com/library/ios/#documentation/general/Reference/InfoPlistKeyReference/Articles/AboutInformationPropertyListFiles.html).
 
 1. Log in to the following website:

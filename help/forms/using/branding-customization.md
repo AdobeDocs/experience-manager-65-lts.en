@@ -28,6 +28,11 @@ role_v2:
 ---
 # Branding Customization {#branding-customization}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:
 
 * Customizing application icon and launch images
@@ -56,9 +61,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    Upload them to the Capture project to replace existing files in the project.
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.
 
@@ -76,9 +81,9 @@ Perform the following steps to customize the default app icon and the launch ima
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxhdpi`
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxxhdpi`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 
@@ -92,9 +97,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    `%HOMEPATH%\adobe-lc-mobileworkspace-src-<version>\src\windows\MWSWindows\res\screens\windows`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 

@@ -28,6 +28,11 @@ role_v2:
 ---
 # Theme Customization {#theme-customization}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 You can customize the HTML code and CSS file to provide a distinct organization-specific look and feel to AEM Forms app. For example, you can change the background color and height of tasks or Startpoints. The following example provides instructions to change:
 
 * display instructions in place of the description

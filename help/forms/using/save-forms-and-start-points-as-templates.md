@@ -28,6 +28,11 @@ role_v2:
 ---
 # Save forms as templates {#save-forms-as-templates}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 At times, when users fill a form, inputs to a few fields remain the same. For such instances, you can fill the fields that require identical values in every instance, and save the form or draft as a template. Now, every time you create an instance of the template, the specified fields are already filled with values specified in the template. It helps you save time and effort required to fill the form.
 
 Perform the following steps to create a template:
