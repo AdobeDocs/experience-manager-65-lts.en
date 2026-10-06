@@ -23,7 +23,7 @@ AEM Forms app enables syncing of adaptive forms, mobile forms, and formsets on m
 
 The source code of the AEM Forms app is available to customers via Software Distribution. The source code package in Software Distribution is available as: `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-AEM Forms app support for Android and iOS has been discontinued. The Android and iOS apps are no longer available from Google Play or the Apple App Store. The Windows app remains available while the unpublish process for Windows is in progress.
+AEM Forms app support for Android and iOS has been discontinued. The Android and iOS apps are no longer available from Google Play or the Apple App Store.
 
     [ ![microsoft-badge-icon](assets/microsoft-badge-icon.png)](https://www.microsoft.com/en-us/store/p/adobe-experience-manager-forms/9nd12rlxtgtt)
 
