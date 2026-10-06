@@ -393,6 +393,7 @@ On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liber
     1. Delete the `adobe-livecycle-websphere.ear` directory from `<WebSphere Liberty Profile install location>\usr\servers\<server-name>\apps\expanded\`.
     1. Copy the modified EAR file from step 2 into `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
     1. Start the WebSphere&reg; Liberty Profile server.
+
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
 This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
