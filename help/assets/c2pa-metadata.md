@@ -25,7 +25,7 @@ For more information about an asset's history, see [Verify](https://contentcrede
 
 ## Prerequisites {#Prerequisites}
 
-Content Credentials support requires [!DNL Adobe Experience Manager] 6.5 LTS Service Pack 4 (6.5.4.LTS) or later. On Service Pack 3 (6.5.3.LTS), install the [AEM 6.5 LTS SP3 – C2PA GenAI compliance hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.3-hotfix-ASSETS-75868-1.0.zip) instead.
+Content Credentials support requires [!DNL Adobe Experience Manager] 6.5 LTS Service Pack 4 (6.5.4.LTS) or later. On Service Pack 3 (6.5.3.LTS), install [AEM 6.5 LTS SP3 – C2PA GenAI compliance hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/cq-6.5.lts.3-hotfix-ASSETS-75868-1.0.zip).
 
 ## View C2PA metadata in the [!DNL Assets] user interface {#view-c2pa-metadata}
 
