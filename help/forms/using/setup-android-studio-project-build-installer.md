@@ -51,9 +51,9 @@ The following image displays the directory structure of the `android`folder in t
 
    **For Windows&reg; users**: `%HOMEPATH%\Projects`
 
-   >[!NOTE]
-   >
-   >For Windows&reg;, it is recommended that you keep the Android&trade; project in the system drive.
+>[!NOTE]
+>
+>For Windows&reg;, it is recommended that you keep the Android&trade; project in the system drive.
 
 1. Extract the archive in the following directory:
 
@@ -61,9 +61,9 @@ The following image displays the directory structure of the `android`folder in t
 
    **For Windows&reg; users**: `%HOMEPATH%\Projects\[your-project]`
 
-   >[!NOTE]
-   >
-   >It is recommended, that you keep the extracted Android project in the system drive before importing the project into Android&trade; Studio.
+>[!NOTE]
+>
+>It is recommended, that you keep the extracted Android project in the system drive before importing the project into Android&trade; Studio.
 
 1. Launch Android&trade; Studio.
 

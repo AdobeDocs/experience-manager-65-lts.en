@@ -51,9 +51,9 @@ In the AEM Forms app, the left swipe opens up a new task or Startpoint while rig
     * In Eclipse, navigate to the **assets &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
     * In Visual Studio, navigate to the **MWSWindows &gt; www &gt; wsmobile &gt; js &gt; runtime &gt; views** folder.
 
-   >[!NOTE]
-   >
-   >The task.js file contains the backbone view associated with each task or Startpoint listed in the task or Startpoint lists.
+>[!NOTE]
+>
+>The task.js file contains the backbone view associated with each task or Startpoint listed in the task or Startpoint lists.
 
 1. In the `task.js` file, search for the events property of the view.
 

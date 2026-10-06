@@ -121,9 +121,9 @@ For detailed information about Code Signing and adding devices to the iOS Provis
    </dict>
    ```
 
-   >[!NOTE]
-   >
-   >This step is required only if AEM Forms app needs to connect to a server that does not follow App Transport Security requirements.
+>[!NOTE]
+>
+>This step is required only if AEM Forms app needs to connect to a server that does not follow App Transport Security requirements.
 
 1. Under **PROJECT**, select **AEM Forms** and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**.
 1. Connect a provisioned iPad to a Mac machine.

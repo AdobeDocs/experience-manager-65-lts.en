@@ -52,9 +52,9 @@ In the General tab, change the download attachments, offline mode, landing scree
 
    General Settings screen
 
-   >[!NOTE]
-   >
-   >The options may display differently on different mobile devices.
+>[!NOTE]
+>
+>The options may display differently on different mobile devices.
 
 ### General settings {#general-settings}
 

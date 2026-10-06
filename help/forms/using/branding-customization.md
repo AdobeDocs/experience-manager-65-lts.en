@@ -61,9 +61,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    Upload them to the Capture project to replace existing files in the project.
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.
 
@@ -81,9 +81,9 @@ Perform the following steps to customize the default app icon and the launch ima
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxhdpi`
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxxhdpi`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 
@@ -97,9 +97,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    `%HOMEPATH%\adobe-lc-mobileworkspace-src-<version>\src\windows\MWSWindows\res\screens\windows`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 
