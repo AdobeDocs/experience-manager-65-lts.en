@@ -14,7 +14,8 @@ exl-id: e2d31db9-bb47-4260-8ebb-000a7b776f53
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:
 

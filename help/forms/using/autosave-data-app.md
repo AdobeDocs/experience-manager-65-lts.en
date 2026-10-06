@@ -15,7 +15,8 @@ exl-id: 8f504453-1009-46d9-83a5-d4a8531d7e2c
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 When a user enters data in the Adobe Experience Manager Forms app, the autosave feature saves it at regular intervals. The autosave feature in the AEM Forms app helps you avoid data loss if the app is accidentally closed.
 

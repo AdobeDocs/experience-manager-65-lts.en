@@ -14,7 +14,8 @@ exl-id: 9cc83733-630a-4846-bd9e-72fd76a3286d
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 ## Overview {#overview}
 
@@ -22,11 +23,7 @@ AEM Forms app enables syncing of adaptive forms, mobile forms, and formsets on m
 
 The source code of the AEM Forms app is available to customers via Software Distribution. The source code package in Software Distribution is available as: `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
 
-AEM Forms app is supported on iOS, Android, Windows devices. You can install AEM Forms app for Android from Google Play, iOS from the App Store, and Windows from Windows store.
-
-    [ ![google_play](assets/google_play.png)](https://play.google.com/store/apps/details?id=com.adobe.aem.forms)
-
-    [ ![app_store](assets/app_store.png)](https://itunes.apple.com/us/app/adobe-experience-manager-forms/id1129625976?ls=1&mt=8)
+AEM Forms app support for Android and iOS has been discontinued. The Android and iOS apps are no longer available from Google Play or the Apple App Store. The Windows app remains available while the unpublish process for Windows is in progress.
 
     [ ![microsoft-badge-icon](assets/microsoft-badge-icon.png)](https://www.microsoft.com/en-us/store/p/adobe-experience-manager-forms/9nd12rlxtgtt)
 

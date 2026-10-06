@@ -13,7 +13,8 @@ exl-id: 7c9d2407-4255-4d04-a413-edf428b7564b
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 If a form is enabled for syncing in the forms app, the form is downloaded and you can work with it directly.
 

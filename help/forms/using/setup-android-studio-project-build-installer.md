@@ -13,7 +13,8 @@ exl-id: 425c6194-0b87-4b01-a013-f620755072b3
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android&trade; app](/help/forms/using/setup-eclipse-project-build-installer.md). 
 

@@ -13,7 +13,8 @@ exl-id: 25dba5c5-0f27-457a-935b-c451e0bf5241
 
 >[!NOTE]
 >
->The AEM Forms app for Android has been discontinued and was unpublished from Google Play in September 2026. It is no longer available for installation. For assistance, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 The save as draft option saves a snapshot of a task or form along with the data filled in the associated form. You can also create a draft from a template. The drafts are saved in the mobile device, and synced with Adobe Experience Manager Forms server for a later retrieval.
 
