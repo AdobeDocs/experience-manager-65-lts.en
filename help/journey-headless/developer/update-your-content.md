@@ -5,6 +5,34 @@ solution: Experience Manager, Experience Manager Sites
 feature: Headless,Content Fragments,GraphQL,Persisted Queries,Developing
 role: Admin, Developer
 exl-id: 322f08c7-f13a-473f-8c59-1050b2e6c2f5
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: bfd4bc52-c397-5127-8f86-8953ba9fc0a3
+    internal-label: Headless
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+    internal-label: Integrations
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
+  - id: a02b73a7-bdfc-4225-bdfd-69f7891ab55e
+    internal-label: GraphQL
+  - id: d781bc8f-52af-43f6-84d0-b73e59a130d5
+    internal-label: Persisted queries
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # How to Update Your Content via AEM Assets APIs {#update-your-content}
 
@@ -251,7 +279,7 @@ Usage can differ depending on whether you are using an AEM author or publish env
 
 >[!NOTE]
 >
->For further details, see the API Reference. In particular, [Adobe Experience Manager Assets API - Content Fragments](https://developer.adobe.com/experience-manager/reference-materials/6-5/assets-api-content-fragments/index.html).
+>For further details, see the API Reference. In particular, [Adobe Experience Manager Assets API - Content Fragments](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/assets-api-content-fragments/index.html).
 
 ### Read/Delivery {#read-delivery}
 
@@ -321,7 +349,7 @@ You should continue your AEM headless journey by next reviewing the document [Ho
 * [Assets HTTP API](/help/assets/mac-api-assets.md)
 * [Content Fragments REST API](/help/assets/assets-api-content-fragments.md)
   * [API Reference](/help/assets/assets-api-content-fragments.md#api-reference)
-* [Adobe Experience Manager Assets API - Content Fragments](https://developer.adobe.com/experience-manager/reference-materials/6-5/assets-api-content-fragments/index.html)
+* [Adobe Experience Manager Assets API - Content Fragments](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/assets-api-content-fragments/index.html)
 * [Working with Content Fragments](/help/assets/content-fragments/content-fragments.md)
 * [AEM Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
 * [CORS/AEM explained](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/cors-security-article-understand.html)

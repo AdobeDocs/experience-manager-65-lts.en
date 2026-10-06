@@ -4,6 +4,18 @@ description: Explains best practices for setting up an AEM Forms project, develo
 solution: Experience Manager, Experience Manager Forms
 role: Admin, User, Developer
 exl-id: b87629fa-85a9-4024-963a-4761bc093e62
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 

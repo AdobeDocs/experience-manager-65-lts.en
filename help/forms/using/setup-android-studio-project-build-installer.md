@@ -11,6 +11,11 @@ exl-id: 425c6194-0b87-4b01-a013-f620755072b3
 ---
 # Set up the Android&trade; studio project and build the Android&trade; app {#set-up-the-android-studio-project-and-build-the-android-app}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 This article is for building the AEM Forms App 6.3.1.1 and later versions. For building an app from source code of the AEM Forms App 6.3, see [Set up the Eclipse project and build the Android&trade; app](/help/forms/using/setup-eclipse-project-build-installer.md). 
 
 AEM Forms provide the complete source code of the AEM Forms app. The source contains all components to build a custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
@@ -46,9 +51,9 @@ The following image displays the directory structure of the `android`folder in t
 
    **For Windows&reg; users**: `%HOMEPATH%\Projects`
 
-   >[!NOTE]
-   >
-   >For Windows&reg;, it is recommended that you keep the Android&trade; project in the system drive.
+>[!NOTE]
+>
+>For Windows&reg;, it is recommended that you keep the Android&trade; project in the system drive.
 
 1. Extract the archive in the following directory:
 
@@ -56,9 +61,9 @@ The following image displays the directory structure of the `android`folder in t
 
    **For Windows&reg; users**: `%HOMEPATH%\Projects\[your-project]`
 
-   >[!NOTE]
-   >
-   >It is recommended, that you keep the extracted Android project in the system drive before importing the project into Android&trade; Studio.
+>[!NOTE]
+>
+>It is recommended, that you keep the extracted Android project in the system drive before importing the project into Android&trade; Studio.
 
 1. Launch Android&trade; Studio.
 

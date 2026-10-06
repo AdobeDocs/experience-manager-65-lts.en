@@ -9,6 +9,22 @@ solution: Experience Manager, Experience Manager Sites
 feature: Experience Fragments,Developing
 role: Developer
 exl-id: 1d0c8304-32ec-4bfb-a3f5-7c1a8d6979dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: f61d1313-5cf1-4533-b29c-ac9f75c4b270
+    internal-label: Experience Fragments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Trying out Experience Fragments in We.Retail{#trying-out-experience-fragments-in-we-retail}
 

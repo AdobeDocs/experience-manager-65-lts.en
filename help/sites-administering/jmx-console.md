@@ -10,6 +10,19 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,Operations
 role: Admin
 exl-id: c5907a0b-031f-4e3a-8a5c-5daf31eb71fc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: 8a70d214-ab7b-58c1-b001-2ed2e5d6303d
+    internal-label: Operations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 

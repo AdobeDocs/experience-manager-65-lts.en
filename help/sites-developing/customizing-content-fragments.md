@@ -8,6 +8,20 @@ solution: Experience Manager, Experience Manager Sites
 feature: Content Fragments
 role: Developer
 exl-id: 705bffea-ef70-40b5-81d8-b130d3908073
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+subfeature_v2:
+  - id: e9db7c79-8f65-4281-a439-c9049296d903
+    internal-label: Content Fragments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Customizing and Extending Content Fragments{#customizing-and-extending-content-fragments}
 
@@ -237,7 +251,7 @@ Content fragments can be integrated with:
 
 You can use the server-side API to access your content fragments; see:
 
-[com.adobe.cq.dam.cfm](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/cq/dam/cfm/package-summary.html)
+[com.adobe.cq.dam.cfm](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/javadoc/com/adobe/cq/dam/cfm/package-summary.html)
 
 >[!CAUTION]
 >
@@ -247,7 +261,7 @@ You can use the server-side API to access your content fragments; see:
 
 The following three interfaces can serve as entry points:
 
-* **Fragment Template** ([FragmentTemplate](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/cq/dam/cfm/FragmentTemplate.html))
+* **Fragment Template** ([FragmentTemplate](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/javadoc/com/adobe/cq/dam/cfm/FragmentTemplate.html))
 
   Use `FragmentTemplate.createFragment()` for creating a fragment.
 
@@ -291,7 +305,7 @@ The following three interfaces can serve as entry points:
 
     * Get basic data (name, title, description)
 
-* **Content Fragment** ([ContentFragment](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/cq/dam/cfm/ContentFragment.html))
+* **Content Fragment** ([ContentFragment](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/javadoc/com/adobe/cq/dam/cfm/ContentFragment.html))
 
   This interface lets you work with a content fragment in an abstract way.
 
@@ -323,7 +337,7 @@ The following three interfaces can serve as entry points:
 
   Interfaces that represent the prime elements of a fragment are:
 
-  * **Content Element** ([ContentElement](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/cq/dam/cfm/ContentElement.html))
+  * **Content Element** ([ContentElement](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/javadoc/com/adobe/cq/dam/cfm/ContentElement.html))
 
     * Get basic data (name, title, description)
     * Get/Set content
@@ -337,7 +351,7 @@ The following three interfaces can serve as entry points:
 
     * Shortcut for resolving variations (applying some additional, implementation-specific fallback logic if the specified variation is not available for an element)
 
-  * **Content Variation** ([ContentVariation](https://developer.adobe.com/experience-manager/reference-materials/6-5/javadoc/com/adobe/cq/dam/cfm/ContentVariation.html))
+  * **Content Variation** ([ContentVariation](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/javadoc/com/adobe/cq/dam/cfm/ContentVariation.html))
 
     * Get basic data (name, title, description)
     * Get/Set content

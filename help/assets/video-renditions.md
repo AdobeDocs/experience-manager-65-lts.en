@@ -7,6 +7,20 @@ solution: Experience Manager, Experience Manager Assets
 feature: Video
 role: User
 exl-id: da33f43b-7375-46f1-a80f-c1891fd90312
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Video renditions {#video-renditions}
 

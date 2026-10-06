@@ -7,6 +7,22 @@ feature: Assets HTTP API,Developer Tools
 hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7bb4aec8-e6c0-416a-a318-d3120f9688c4
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+  - id: c7140a77-10cf-4213-a7e9-f0d69c9fb56c
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: e5184d7e-fd36-480c-b5e5-d8161f2210ca
+    internal-label: Assets HTTP API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # [!DNL Assets] HTTP API {#assets-http-api}
 

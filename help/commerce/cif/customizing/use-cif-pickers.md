@@ -9,6 +9,16 @@ feature: Commerce Integration Framework
 solution: Experience Manager,Commerce
 role: Admin, Developer
 exl-id: 25442753-8309-452b-881a-d33ab159d5b2
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # AEM Content & Commerce Authoring Pickers {#cif-pickers}
 

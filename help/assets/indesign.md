@@ -5,6 +5,20 @@ role: Admin
 feature: Publishing
 solution: Experience Manager, Experience Manager Assets
 exl-id: f0db5ec6-45ea-418e-ae5f-e6e307a40a38
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: f59890ff-de81-47d5-9ef8-7ab2dd10c6c3
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: f901afa4-5613-4581-add5-219fa5f03fb5
+    internal-label: Publishing
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Integrate [!DNL Adobe Experience Manager Assets] with [!DNL Adobe InDesign Server] {#integrating-aem-assets-with-indesign-server}
 
@@ -197,10 +211,6 @@ To configure the number of parallel IDS jobs:
 
    If there are multiple machines running [!DNL InDesign Server], add SOAP endpoints (number of processors per machine -1) for each machine.
 
-<!-- 
-TBD: Make updates to configurations for allow and block list after product updates are done.
--->
-
    >[!NOTE]
    >
    >When working with pool of workers, you can enable blocked list of IDS workers.
@@ -210,6 +220,10 @@ TBD: Make updates to configurations for allow and block list after product updat
    >Also, under the `com.day.cq.dam.ids.impl.IDSPoolImpl.name` configuration, set a positive value for `max.errors.to.blacklist` parameter which determines number of job retrials before barring an IDS from the job handlers list.
    >
    >By default, after the configurable (`retry.interval.to.whitelist.name`) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blocked list.
+
+<!-- 
+TBD: Make updates to configurations for allow and block list after product updates are done.
+-->
 
 ## Enable support for [!DNL InDesign Server] 10.0 or later {#enabling-support-for-indesign-server-or-later}
 

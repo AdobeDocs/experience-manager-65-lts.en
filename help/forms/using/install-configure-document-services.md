@@ -6,6 +6,24 @@ role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Interactive Communication
 exl-id: dd22ea1b-33e9-407d-b7b6-645bdba00b4e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: aa28c6c8-3ede-445b-a351-eeb0c9f9aec4
+    internal-label: Interactive Communication
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Installing and configuring document services {#installing-and-configuring-document-services}
 
@@ -178,6 +196,10 @@ If you are using a UNIX-based operating system, install the following 32-bit pac
   * libc.so.6
   * ld-linux.so.2
   * libexpat.so.1
+
+* On Red Hat&reg; Enterprise Linux&reg; 9, the 32-bit OpenOffice build requires `libcrypt.so.1`, which is not installed by default. If it is missing, OpenOffice fails to start with the error `soffice.bin: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory`, and OpenOffice-to-PDF conversions fail. Install the `libxcrypt-compat` package (32-bit) to provide the library:
+
+  `sudo dnf install -y libxcrypt-compat.i686`
 
 ## Pre-installation configurations {#preinstallationconfigurations}
 
@@ -1097,6 +1119,27 @@ A local user account is required to run the PDF Generator service. For steps to 
 
 1. In the **[!UICONTROL User Accounts]** tab, provide credentials of a local user account, and click **[!UICONTROL Submit]**. If Microsoft&reg; Windows prompts, allow access to the user. When added successfully, the configured user is displayed under the **[!UICONTROL Your user accounts]** section in the **[!UICONTROL User Accounts]** tab.
 
+### (Windows only) Enable multi-threaded PDF Generator conversions
+
+To run multi-threaded document conversions while AEM Forms runs as a Windows service, PDF Generator processes conversions under a single configured user account.
+
+>[!NOTE]
+>
+> In this mode, multiple instances of **Microsoft&reg; Word** (doc/docx) and **Excel** (xls/xlsx) run under the same user and handle conversions concurrently. **Microsoft&reg; PowerPoint** (ppt/pptx) does not support this mode. PDF Generator launches only one PowerPoint instance at a time, so multi-threaded conversions are not supported for PowerPoint.
+
+To enable multi-threaded conversions for Word and Excel:
+
+1. Configure a [local user account](#configure-a-local-user-account-to-run-the-pdf-generator-service) for PDF Generator.
+1. Log in to the AEM author instance and navigate to **[!UICONTROL Adobe Experience Manager]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Forms]** &gt; **[!UICONTROL Configure PDF Generator]**. The default URL is <http://localhost:4502/libs/fd/pdfg/config/ui.html>.
+1. In the **[!UICONTROL General Configuration]** tab, set the following options (configure PDFMaker for Word and Native2PDF for Excel):
+
+   * **Enable Single User Mode For PDFMaker:** **true**
+   * **PDFMaker Single User Process Pool Size:** Set as desired. This value is the maximum number of Word instances that can run conversions at the same time.
+   * **Enable Single User Mode For Native2PDF:** **true**
+   * **Native2PDF Single User Process Pool Size:** Set as desired. This value is the maximum number of Excel instances that can run conversions at the same time.
+
+1. Restart the AEM Forms server.
+
 ### Configure the time-out settings {#configure-the-time-out-settings}
 
 1. In [AEM configuration manager](http://localhost:4502/system/console/configMgr), locate and open the **[!UICONTROL Jacorb ORB Provider]** service.
@@ -1357,6 +1400,10 @@ Before performing the following checks, ensure that [System Readiness Tool](#SRT
 
 * Create an environment variable `OpenOffice_PATH` and set it to point it to OpenOffice installation is set in the [console](https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/) or the dt (Device Tree) profile.  
 * If there are issues in installing OpenOffice, ensure that [32-bit libraries](#extrarequirements) required for OpenOffice installation are available.
+
+* On Red Hat&reg; Enterprise Linux&reg; 9, the 32-bit OpenOffice build requires `libcrypt.so.1`, which is not installed by default. If it is missing, OpenOffice fails to start with the error `soffice.bin: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory`, and OpenOffice-to-PDF conversions fail. Install the `libxcrypt-compat` package (32-bit) to provide the library:
+
+  `sudo dnf install -y libxcrypt-compat.i686`
 
 +++
 

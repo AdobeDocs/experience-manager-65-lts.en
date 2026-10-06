@@ -9,6 +9,19 @@ solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User
 exl-id: 03890f75-bfbc-4f73-85ae-07e991728115
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
 
@@ -57,38 +70,38 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 
 1. Select an option from the **Options** menu:
 
-<table>
- <tbody>
-  <tr>
-   <td>Physical Mailing Address (Required)</td>
-   <td>This component inserts the physical mailing address of your organization in your email.</td>
-  </tr>
-  <tr>
-   <td>Profile Center (Required)</td>
-   <td>The profile center is a webpage where subscribers can enter and maintain the personal information that you keep about them.</td>
-  </tr>
-  <tr>
-   <td>View Email as a Web Page</td>
-   <td>This component allows the user to view the email as a webpage.</td>
-  </tr>
-  <tr>
-   <td>Privacy Policy</td>
-   <td>This component inserts the link to your privacy policy in the email.<br /> </td>
-  </tr>
-  <tr>
-   <td>Unsubscribe Center</td>
-   <td>Gives the option to the user to unsubscribe from your mailing list.</td>
-  </tr>
-  <tr>
-   <td>Subscription Center</td>
-   <td>A subscription center is a web page where a subscriber can control the messages they receive from your organization.</td>
-  </tr>
-  <tr>
-   <td>Track Email Opens</td>
-   <td>A hidden component that lets you use ExactTarget tracking feature.<br /> </td>
-  </tr>
- </tbody>
-</table>
+   <table>
+   <tbody>
+   <tr>
+      <td>Physical Mailing Address (Required)</td>
+      <td>This component inserts the physical mailing address of your organization in your email.</td>
+   </tr>
+   <tr>
+      <td>Profile Center (Required)</td>
+      <td>The profile center is a webpage where subscribers can enter and maintain the personal information that you keep about them.</td>
+   </tr>
+   <tr>
+      <td>View Email as a Web Page</td>
+      <td>This component allows the user to view the email as a webpage.</td>
+   </tr>
+   <tr>
+      <td>Privacy Policy</td>
+      <td>This component inserts the link to your privacy policy in the email.<br /> </td>
+   </tr>
+   <tr>
+      <td>Unsubscribe Center</td>
+      <td>Gives the option to the user to unsubscribe from your mailing list.</td>
+   </tr>
+   <tr>
+      <td>Subscription Center</td>
+      <td>A subscription center is a web page where a subscriber can control the messages they receive from your organization.</td>
+   </tr>
+   <tr>
+      <td>Track Email Opens</td>
+      <td>A hidden component that lets you use ExactTarget tracking feature.<br /> </td>
+   </tr>
+   </tbody>
+   </table>
 
    >[!NOTE]
    >

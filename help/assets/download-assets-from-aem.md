@@ -7,6 +7,22 @@ feature: Asset Management,Asset Distribution
 hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 89b14351-c689-42a6-bd89-cc258f601898
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: d2b070a9-76bf-4422-902f-be20e963fd42
+    internal-label: Asset distribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Download assets from [!DNL Adobe Experience Manager] {#download-assets-from-aem}
 

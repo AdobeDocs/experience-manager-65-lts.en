@@ -6,6 +6,17 @@ role: Developer
 feature: Search
 solution: Experience Manager, Experience Manager Assets
 exl-id: 92efe52b-8fa5-4006-bd68-2472b4ba04f6
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: 74ec00bc-0862-520e-86dc-e377aeccc141
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Extend assets search {#extending-assets-search}
 
@@ -46,7 +57,7 @@ You can add additional search tabs by configuring them in the [!DNL Assets] admi
 
 In addition to using pre-existing predicates, [!DNL Experience Manager] developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](https://developer.adobe.com/experience-manager/reference-materials/6-5/widgets-api/index.html).
+Creating custom predicates requires basic knowledge about the [Widgets framework](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/widgets-api/index.html).
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are in **/libs/cq/search/components/predicates**.
 

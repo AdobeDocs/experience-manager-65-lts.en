@@ -5,6 +5,22 @@ solution: Experience Manager, Experience Manager 6.5 LTS
 feature: Compliance
 role: Developer,Leader
 exl-id: bd80a4c5-4b65-43db-af4e-f43849c796be
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+feature_v2:
+  - id: b1210526-416b-4ef6-bcc0-1692e99f30e9
+    internal-label: Administration and security
+subfeature_v2:
+  - id: c42c36cf-eeed-484a-8b39-a33a68192a07
+    internal-label: Compliance
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 ---
 # Enterprise DevOps{#enterprise-devops}
 

@@ -9,6 +9,14 @@ docset: aem65
 feature: Integration
 role: Admin
 exl-id: 3f8ec723-2705-4ce5-8cb2-e7e6bfe94512
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # SharePoint Connector{#sharepoint-connector}
 

@@ -7,6 +7,26 @@ role: Admin, User, Developer
 solution: Experience Manager, Experience Manager Forms
 feature: Workbench,Adaptive Forms
 exl-id: 3a7b80b1-4b3e-400c-8753-c4453c0d79b3
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 36ac8e9c-5c7a-56d8-af5e-39399fd7b101
+    internal-label: Workbench
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Install Workbench {#install-workbench}
 

@@ -9,6 +9,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 1197dc8e-7fbe-4f74-942b-3aa9fafc07ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Contributing to AEM{#contributing-to-aem}
 
@@ -38,7 +49,7 @@ At the highest level, you should have a solid understanding of:
 * Browser cookies
 * and other modern web-development concepts
 
-The technology stack of Adobe Experience Manager is based on the [Apache Felix](https://felix.apache.org/documentation/index.html) OSGI container with the [Apache Sling](https://sling.apache.org/index.html) web framework and embeds a Java&trade; Content Repository ([JCR](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/2.0/index.html)) based on [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/jcr-api.html). Familiarize yourself with these individual projects, and any other open-source components (for example, Apache Lucene) used in the area where you intend to contribute.
+The technology stack of Adobe Experience Manager is based on the [Apache Felix](https://felix.apache.org/documentation/index.html) OSGI container with the [Apache Sling](https://sling.apache.org/index.html) web framework and embeds a Java&trade; Content Repository ([JCR](https://experienceleague.adobe.com/en/tools/aem-api-documentation/spec/jcr/2.0/index.html)) based on [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/jcr-api.html). Familiarize yourself with these individual projects, and any other open-source components (for example, Apache Lucene) used in the area where you intend to contribute.
 
 ## Tribal Knowledge {#tribal-knowledge}
 

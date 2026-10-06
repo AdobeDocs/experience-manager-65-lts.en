@@ -7,6 +7,24 @@ solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 feature: Adaptive Forms,Document Services
 exl-id: b3b3567f-df0a-4a24-849c-dcc0b745de63
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+  - id: f19cff18-c8cc-4a4b-adad-85dd2fa3dbe2
+    internal-label: Document Services
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Dynamically select a user or group for AEM Forms-centric workflow steps {#dynamically-select-a-user-or-group-for-aem-forms-centric-workflow-steps}
 
@@ -110,7 +128,7 @@ function getAdobeSignRecipients() {
 
 ## Use Java interface to choose a user or group dynamically {#use-java-interface-to-dynamically-choose-a-user-or-group}
 
-You can use the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Adobe Sign and Assign Task steps. You can create an OSGi bundle that uses the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms Server. It makes the option available for selection in the `Assign Task` and Adobe Sign components of AEM Workflow.
+You can use the [RecipientInfoSpecifier](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Adobe Sign and Assign Task steps. You can create an OSGi bundle that uses the [RecipientInfoSpecifier](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface and deploy it to the AEM Forms Server. It makes the option available for selection in the `Assign Task` and Adobe Sign components of AEM Workflow.
 
 You require [AEM Forms Client SDK](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases#) jar and [granite jar](https://repo1.maven.org/maven2/com/adobe/granite/com.adobe.granite.workflow.api/1.0.2/) files to compile the code sample listed below. Add these jar files as external dependencies to the OSGi bundle project. You can use any Java IDE to create an OSGi bundle. The following procedure provides steps to use Eclipse to create an OSGi bundle:
 
@@ -219,7 +237,7 @@ You require [AEM Forms Client SDK](https://experienceleague.adobe.com/en/docs/ex
    </project>
    ```
 
-1. Add source code that uses the [RecipientInfoSpecifier](https://developer.adobe.com/experience-manager/reference-materials/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Assign Task step. For sample code, see [Sample for dynamically choosing a user or a group using a Java interface](#-sample-scripts-for).
+1. Add source code that uses the [RecipientInfoSpecifier](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Assign Task step. For sample code, see [Sample for dynamically choosing a user or a group using a Java interface](#-sample-scripts-for).
 1. Open a command prompt and navigate to the directory containing the OSGi bundle project. Use the following command to create the OSGi bundle:
 
    `mvn clean install`

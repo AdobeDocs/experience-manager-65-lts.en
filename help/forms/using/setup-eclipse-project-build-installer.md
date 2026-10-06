@@ -11,6 +11,11 @@ exl-id: a804ba9b-c5c6-4d76-96e4-5d729b673ca4
 ---
 # Build the AEM Forms Android app {#build-the-aem-forms-android-app}
 
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
+
 To build the Android app for AEM Forms, perform the following steps in the recommended sequence.
 
 1. [Download the AEM Forms App Source Code Package](#download-android-zip)

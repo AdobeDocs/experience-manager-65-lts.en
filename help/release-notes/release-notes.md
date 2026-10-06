@@ -5,6 +5,22 @@ solution: Experience Manager
 feature: Release Information
 role: User,Admin,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: ed762d86-a04b-452b-a08f-86359bb8ff27
+    internal-label: Configuration and operations
+subfeature_v2:
+  - id: c21ccc2b-e0c8-4853-bf41-f12259ed93f8
+    internal-label: Release information
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 
 # Current release notes for Adobe Experience Manager 6.5 LTS, SP3 {#release-notes}
@@ -359,6 +375,8 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
+* On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** may fail. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
+
 On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The EAR file included with LTS SP3 is missing required Bouncy Castle libraries on its classpath.
 
 **Workaround**
@@ -375,7 +393,6 @@ On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liber
     1. Delete the `adobe-livecycle-websphere.ear` directory from `<WebSphere Liberty Profile install location>\usr\servers\<server-name>\apps\expanded\`.
     1. Copy the modified EAR file from step 2 into `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
     1. Start the WebSphere&reg; Liberty Profile server.
-
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
 This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
