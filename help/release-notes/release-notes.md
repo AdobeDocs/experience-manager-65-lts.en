@@ -338,14 +338,14 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 * FORMS-25045: Traditional Chinese (Hong Kong) translations stopped rendering after an upgrade, so forms fell back to the default language. Localized text now renders correctly.
 * FORMS-25170: Calling `addInstance()` did not display dynamically added panels when the starting instance count was 0. Added panels now appear immediately.
 * FORMS-25225: Server-side revalidation removed field translations that sat outside fragments in Adaptive Forms, reverting labels to the base language. Those translations are now retained.
-* FORMS-25233: On Open Services Gateway initiative (OSGi) deployments, the Assembler service stitched a master XDP with its immediate fragment but did not resolve nested fragment references such as headers, footers, and reusable sub-forms, so they were missing from the assembled output. Nested fragments are now resolved.
+* FORMS-25233: On OSGi deployments, the Assembler service failed to resolve nested fragment references in XDP files, causing them to be missing from the assembled output. Nested fragments are now resolved.
 * FORMS-25289: The Forms rendering service returned different output for the same input across service packs, affecting Correspondence Management letters. Rendering output is now consistent.
 * FORMS-25290: Saved Correspondence Management letters lost spaces and showed a stray "x" in some places when reopened. Saved letter content now stays intact.
 * FORMS-25346: After a service pack upgrade, Interactive Communications (IC) letters froze on a loading spinner, and letters that did load lost spacing in preview. Loading and spacing now work correctly.
 * FORMS-25431: The Create Form Fragment wizard sent a network request on every keystroke in the title field. The redundant calls have been removed.
 * FORMS-25645: Creating a Core Components based Adaptive Form Fragment from an inline-uploaded JSON schema failed with "ALC-FMG-700-009 Invalid Form Model has been specified." Inline JSON schemas are now accepted.
 * FORMS-25646: A Core Components based Adaptive Form Fragment built from a JSON schema showed an empty Data Sources panel in the editor. The panel now lists the schema data sources.
-* FORMS-25674: The Interactive Communications (IC) Agent user interface opened to a blank page, so agents could not view IC content. The Agent user interface now renders.
+* FORMS-25674: The Interactive Communications (IC) Agent user interface opened to a blank page, preventing agents from viewing IC content. The Agent user interface now renders.
 * FORMS-25686: Switching the schema-type option in the Create Adaptive Form Fragment wizard did not clear the previous option's state, producing a schema mismatch. The wizard now resets the inactive option.
 * FORMS-25757: Applying a theme did not update the base client library, so theme changes appeared to have no effect. Themes now update the base client library.
 * FORMS-25825: The mobile hamburger menu did not respond to taps, leaving navigation unusable on mobile devices. The menu now opens as expected.
@@ -357,7 +357,7 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 The following issues are fixed for AEM Forms on JEE in 6.5 LTS Service Pack 3:
 
-* FORMS-27585: On AEM Forms on JEE, XFA-based PDF forms that call `submitForm()` did not display the submission result in Adobe Reader (and in Acrobat when the script called `closeDoc()`). The submission result now displays correctly.
+* FORMS-27585: On AEM Forms on JEE, XFA-based PDF forms calling `submitForm()` failed to display the submission result in Adobe Reader or Acrobat when the script called `closeDoc()`. The submission result now displays correctly.
 * FORMS-25998: On AEM Forms on JEE, registering Hardware Security Module (HSM) private key certificates failed with an `IllegalAccessError` under Java 21 when testing HSM connectivity in the administration console. HSM private key certificate registration now works.
 * FORMS-24993: On AEM Forms on JEE, loading a WSDL in the Invoke Web Service step failed with a `SAXException` ("Premature end of file"). WSDLs now load correctly.
 * FORMS-24518: On AEM Forms on JEE (JBoss), the Reader Extensions web application returned "Error processing request" after a fresh installation because of a legacy JSTL taglib URI. The Reader Extensions web application now loads.
@@ -369,17 +369,17 @@ The following issues are fixed for AEM Forms on JEE in 6.5 LTS Service Pack 3:
 
 To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
-1. Install the Service Pack using the AEM Forms 6.5 LTS SP3 JEE installer for your application server (download from [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases)), following the standard AEM Forms on JEE installation procedure.
+1. Install the Service Pack using the AEM Forms 6.5 LTS SP3 JEE installer for your application server (download from [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases)) and follow the standard AEM Forms on JEE installation procedures.
 1. Update to the latest AEM Forms Workbench installer (available from the same [AEM Forms releases](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases) page).
 1. If your project uses the `adobe-livecycle-client.jar` SDK client library, update it in your project's classpath. The latest version is available at `<AEM_Forms_Installation_dir>/sdk/client-libs/common/adobe-livecycle-client.jar`.
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
-* On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** may fail. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
+* On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** fails. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
-This release resolves security vulnerabilities in AEM Forms, including multiple cross-site scripting (XSS) fixes, a server-side request forgery (SSRF) fix, an XML external entity (XXE) fix, and updates to third-party libraries.
+This release resolves security vulnerabilities in AEM Forms, including XSS, SSRF, and XXE, and updates libraries.
 
 
 
@@ -482,7 +482,7 @@ Eclipse Jetty 11.0.x is used as a servlet engine for the Quickstart.
 ### Java&trade; support  {#java-support}
 
 * Support for Java&trade; 17 and Java&trade; 21.
-* For optimal performance, override the default GC values with other values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
+* For optimal performance, override the default GC values with different values. For more information, see the [install and update](/help/sites-deploying/custom-standalone-install.md) section.
 * Adobe distributes Java&trade; 17  and Java&trade; 21 maintenance updates for customer usage in AEM-related projects, when not publicly available from Oracle.
 
 ### Uberjar packaging {#uber-jar-packaging}
@@ -527,7 +527,7 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 3 (SP3). SP3 is delivered as a Quickstart JAR.
 
 **Why this upgrade practice matters**
-SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-premise customers upgrade by replacing the Quickstart JAR, unpacking it, and restarting. This method is consistent with Adobe's standard upgrade procedure.
+SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-premise customers upgrade by replacing the Quickstart JAR, extracting it, and restarting. This method is consistent with Adobe's standard upgrade procedure.
 
 
 **Recommended upgrade flow (Author or Publish)**
@@ -658,7 +658,18 @@ The failure is silent: content nodes fail to load at bundle activation with no e
 >
 > To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles.
 
+
 ### Jackson bundle upgrade affects the GlobalLink connector {#jackson-upgrade-globallink-connector}
+
+AEM 6.5 LTS SP3 upgrades the jackson bundle. This change affects deployments that use the GlobalLink translation connector.
+ 
+If you use the `gs4tr-globallink-adaptors-aem.core` bundle at a version earlier than 3.4.4.7, upgrade the bundle to a compatible version. Version 3.4.4.7 or later works with the upgraded jackson bundle in SP3.
+ 
+>[!NOTE]
+>
+>Upgrade the `gs4tr-globallink-adaptors-aem.core` bundle to 3.4.4.7 or later before or during the SP3 update to avoid compatibility issues with the GlobalLink connector.
+
+<!--
 
 AEM 6.5 LTS SP3 upgrades the `jackson` bundle. This change affects deployments that use the GlobalLink translation connector.
 
@@ -681,6 +692,10 @@ To use the following features, install the `cq-dam-cfm-indices` package:
 * Workflows
 
 Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fcq-dam-cfm-indices-1.1.5.zip) from the Adobe Software Distribution portal. 
+
+-->
+
+###
 
 ### Dispatcher connection failure with SSL-only feature (Fixed in AEM 6.5 LTS SP1 and later){#ssl-only-feature}
 
