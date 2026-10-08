@@ -658,7 +658,7 @@ The failure is silent: content nodes fail to load at bundle activation with no e
 >
 > To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles.
 
-
+<!--
 ### Jackson bundle upgrade affects the GlobalLink connector {#jackson-upgrade-globallink-connector}
 
 AEM 6.5 LTS SP3 upgrades the jackson bundle. This change affects deployments that use the GlobalLink translation connector.
@@ -668,9 +668,11 @@ If you use the `gs4tr-globallink-adaptors-aem.core` bundle at a version earlier 
 >[!NOTE]
 >
 >Upgrade the `gs4tr-globallink-adaptors-aem.core` bundle to 3.4.4.7 or later before or during the SP3 update to avoid compatibility issues with the GlobalLink connector.
+-->
+
+
 
 <!--
-
 AEM 6.5 LTS SP3 upgrades the `jackson` bundle. This change affects deployments that use the GlobalLink translation connector.
 
 If you use the `gs4tr-globallink-adaptors-aem.core` bundle at a version earlier than 3.4.0, upgrade the bundle to a compatible version. Version 3.4.0 or later works with the upgraded `jackson` bundle in SP3.
