@@ -9,8 +9,29 @@ solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
 exl-id: e2d31db9-bb47-4260-8ebb-000a7b776f53
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Branding Customization {#branding-customization}
+
+>[!NOTE]
+>
+>The Android and iOS versions of the AEM Forms app have been discontinued. The Android app was unpublished from Google Play in September 2026, and the iOS app has been removed from the Apple App Store.
+>These apps are no longer available for installation. For assistance with the Android app, contact [aemformsapp-android@adobe.com](mailto:aemformsapp-android@adobe.com).
 
 You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:
 
@@ -40,9 +61,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    Upload them to the Capture project to replace existing files in the project.
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Build and run AEM Forms app on iOS device or iOS simulator.
 
@@ -60,9 +81,9 @@ Perform the following steps to customize the default app icon and the launch ima
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxhdpi`
     * `[User_Home]/Projects/[your-project]/src/android/res/drawable-xxxhdpi`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 
@@ -76,9 +97,9 @@ Perform the following steps to customize the default app icon and the launch ima
 
    `%HOMEPATH%\adobe-lc-mobileworkspace-src-<version>\src\windows\MWSWindows\res\screens\windows`
 
-   >[!NOTE]
-   >
-   >Ensure that the name and resolution of your image matches the image you replace in the project.
+>[!NOTE]
+>
+>Ensure that the name and resolution of your image matches the image you replace in the project.
 
 1. Rebuild the AEM Forms app.
 

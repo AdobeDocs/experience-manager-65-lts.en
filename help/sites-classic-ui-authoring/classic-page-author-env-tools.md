@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Authoring
 role: User
 exl-id: c4ac3f14-f45a-44f6-a232-69cae483a776
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Authoring - the Environment and Tools {#authoring-the-environment-and-tools}
 
@@ -144,7 +155,7 @@ the following search patterns will find it (and any other images matching the pa
 
 >[!NOTE]
 >
->You can also use [SQL2](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/org/apache/jackrabbit/commons/query/sql2/package-summary.html) search.
+>You can also use [SQL2](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/org/apache/jackrabbit/commons/query/sql2/package-summary.html) search.
 
 ## Showing References {#showing-references}
 

@@ -7,6 +7,20 @@ feature: Renditions
 hide: true
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7f66bc81-c4f7-4267-93b8-b78097ebbb16
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: ac365bec-0634-4744-9473-c42f47320593
+    internal-label: Asset management and governance
+subfeature_v2:
+  - id: e42ab83e-8918-43a7-98a3-62bebbd5bb3a
+    internal-label: Renditions
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Generate For Placement Only renditions for Adobe InDesign {#fpo-renditions}
 

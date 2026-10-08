@@ -9,6 +9,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 6b9b8d8c-8cd5-4c21-9b75-acd74d00354a
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Cloud Service Configurations{#cloud-service-configurations}
 
@@ -132,7 +143,7 @@ propertyname
 
 ### API {#api}
 
-For reference documentation on the API, see [com.day.cq.wcm.webservicesupport](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/webservicesupport/package-summary.html).
+For reference documentation on the API, see [com.day.cq.wcm.webservicesupport](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/day/cq/wcm/webservicesupport/package-summary.html).
 
 ### AEM Integration {#aem-integration}
 

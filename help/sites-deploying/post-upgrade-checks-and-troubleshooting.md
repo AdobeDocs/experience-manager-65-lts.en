@@ -10,6 +10,17 @@ feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: 8b3d8d0f-10f7-4736-881d-8f1f21c69182
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 835ee49e-9248-5578-a60a-15c097807178
+    internal-label: Upgrading
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Post Upgrade Checks and Troubleshooting{#post-upgrade-checks-and-troubleshooting}
 
@@ -30,6 +41,8 @@ Following the [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md) the 
 * [Enable Replication Agents](#enable-replication-agents)
 
 * [Enable Custom Scheduled Jobs](#enable-custom-scheduled-jobs)
+
+* [Reinstall or Verify Add-ons](#reinstall-or-verify-add-ons)
 
 * [Execute Test Plan](#execute-test-plan)
 
@@ -86,6 +99,19 @@ Once publish environment has been fully upgraded and validated, enable replicati
 ### Enable Custom Scheduled Jobs {#enable-custom-scheduled-jobs}
 
 Any scheduled jobs as part of the code base can be enabled at this point.
+
+### Reinstall or Verify Add-ons {#reinstall-or-verify-add-ons}
+
+>[!IMPORTANT]
+>
+>Installing an AEM 6.5 LTS Service Pack is technically a full [in-place upgrade](/help/sites-deploying/in-place-upgrade.md) (the AEM quickstart jar is fully replaced before the update is applied). As a result, the standard pre-upgrade cleanup tasks that run during any in-place upgrade now also run when applying a Service Pack.
+
+One of these tasks removes stale `install` folders (`install`, and run-mode variants such as `install.author` or `install.publish`) found anywhere under `/libs`, to prevent obsolete bundles and configurations from being reinstalled. If your solution relies on an add-on that keeps its own OSGi bundles or configurations in such an `install` folder under `/libs`, that folder can be removed as part of applying a Service Pack, even if this was not observed on Service Pack upgrades in the past.
+
+After applying a Service Pack:
+
+* Verify that all previously installed add-ons are still present and their OSGi bundles and configurations are active. Check `/system/console/bundles` for any bundles that are not started.
+* If an add-on's content is missing, reinstall the add-on's content package to restore it.
 
 ### Execute Test Plan {#execute-test-plan}
 

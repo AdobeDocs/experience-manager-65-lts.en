@@ -9,8 +9,23 @@ solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
 exl-id: f564bda3-4141-40b3-8c08-140d4da92e2c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Adobe Classifications{#adobe-classifications}
+
+[!BADGE Discontinued]{type=negative tooltip="This feature is now end of life"}
+
+<div class="preview"> Adobe Classifications requires an Adobe Analytics configuration that uses user credentials (username and password), which is no longer supported now that the <a href="https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/">Adobe Analytics 1.4 API has reached end-of-life</a>. As a result, Adobe Classifications is deprecated. </div>
 
 Adobe Classifications exports classifications data to [Adobe Analytics](/help/sites-administering/adobeanalytics.md) in a scheduled manner. The exporter is an implementation of a **com.adobe.cq.scheduled.exporter.Exporter**.
 

@@ -10,6 +10,17 @@ feature: Upgrading
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 835ee49e-9248-5578-a60a-15c097807178
+    internal-label: Upgrading
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Upgrading to Adobe Experience Manager (AEM) 6.5 LTS {#upgrading-to-aem}
 
@@ -19,6 +30,10 @@ exl-id: ebc34847-dc3d-41ed-b0d6-f004c3debcd9
 >[!NOTE]
 >
 >From a technical perspective, the upgrade process from AEM 6.5 LTS to AEM 6.5 LTS Service Packs is designed to be a seamless [in-place upgrade](/help/sites-deploying/in-place-upgrade.md). This process generally does not necessitate any code changes from customers, unless specifically indicated in the release notes.
+
+>[!IMPORTANT]
+>
+>Because installing a Service Pack runs the same pre-upgrade cleanup tasks as any other in-place upgrade, add-ons that install their own content under `/libs` may need to be reinstalled afterward. See [Reinstall or Verify Add-ons](/help/sites-deploying/post-upgrade-checks-and-troubleshooting.md#reinstall-or-verify-add-ons).
 
 This section covers upgrading an AEM installation to AEM 6.5 LTS:
 

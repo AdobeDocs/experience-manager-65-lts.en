@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Integration
 role: Admin
 exl-id: a39ed93e-4276-48ff-ba49-d0f630409222
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 243139ec-8e41-5296-a287-31343ab1bc0f
+    internal-label: Integration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Connecting to Adobe Analytics and Creating Frameworks {#connecting-to-adobe-analytics-and-creating-frameworks}
 
@@ -75,6 +86,10 @@ Use the [Web Console to configure the OSGi bundle](/help/sites-deploying/configu
 1. Click Save.
 
 ## Configuring the Connection to Adobe Analytics {#configuring-the-connection-to-adobe-analytics}
+
+>[!CAUTION]
+>
+>The [Adobe Analytics 1.4 API has reached end-of-life](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/). As a result, Adobe Analytics configurations that use user credentials (username and password) are no longer supported.
 
 >[!CAUTION]
 >

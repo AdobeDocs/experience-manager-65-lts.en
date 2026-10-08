@@ -6,6 +6,24 @@ feature: Adaptive Forms,Foundation Components
 solution: Experience Manager, Experience Manager Forms
 role: User, Developer
 exl-id: 6e69ca67-883f-4079-96e2-5b7a9c843ada
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 7da902b6-fe94-5180-8e7c-f6d1e38d01d5
+    internal-label: Foundation Components
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Create or add an Adaptive Form to AEM Sites page {#create-or-add-an-adaptive-form-to-aem-sites-page}
 
@@ -119,12 +137,12 @@ To enable complete functionality of the Adaptive Forms Container component, add 
 
 To enable [!UICONTROL Adaptive Forms Container] component in template's policy, perform the following steps:
 
-  1. Open the AEM Sites page or Experience Fragment for editing. To open the page for editing, select the page, and click Edit.
-  1. Open the template of your Sites or Experience Fragment page. To open the template, go to the [!UICONTROL Page Information] ![Page Information](/help/forms/using/assets/Smock_Properties_18_N.svg) > [!UICONTROL Edit Template]. It opens the corresponding template in template editor.
-  1. In the Structure view, click the **[!UICONTROL Policy]** ![Policy](/help/forms/using/assets/Smock_FeedManagement_18_N.svg) icon in the menu bar. In the **[!UICONTROL Allowed Components]** list and select the **[!UICONTROL Adaptive Forms Container]**  checkbox under the **[AEM Archetype Project Name] - Adaptive Form**.
-  1. Click **[!UICONTROL Done]**.
+1. Open the AEM Sites page or Experience Fragment for editing. To open the page for editing, select the page, and click Edit.
+1. Open the template of your Sites or Experience Fragment page. To open the template, go to the [!UICONTROL Page Information] ![Page Information](/help/forms/using/assets/Smock_Properties_18_N.svg) > [!UICONTROL Edit Template]. It opens the corresponding template in template editor.
+1. In the Structure view, click the **[!UICONTROL Policy]** ![Policy](/help/forms/using/assets/Smock_FeedManagement_18_N.svg) icon in the menu bar. In the **[!UICONTROL Allowed Components]** list and select the **[!UICONTROL Adaptive Forms Container]**  checkbox under the **[AEM Archetype Project Name] - Adaptive Form**.
+1. Click **[!UICONTROL Done]**.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419370?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3419370?quality=12&learn=on)
 
 +++
 

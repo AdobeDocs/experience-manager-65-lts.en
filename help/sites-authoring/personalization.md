@@ -5,12 +5,34 @@ solution: Experience Manager, Experience Manager Sites
 feature: Authoring,Personalization
 role: User,Admin,Developer
 exl-id: da8a1341-55a9-46bb-b78d-ced79e22e87e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
+
 # Personalization and Content Targeting {#personalization}
 
 ## Personalization and Content Targeting {#personalization-and-content-targeting}
 
 AEM provides a framework of tools for authoring targeted content and presenting personalized experiences.
+
+>[!NOTE]
+>
+>Targeting Mode and the classic AEM Targeting component use the AEM Target integration based on ContextHub. Pages that rely exclusively on the AEP Web SDK will therefore not render the classic AEM Targeting component. [Please see the developer documentation for details.](/help/sites-developing/target.md)
 
 ## Targeting mode {#targeting-mode}
 
@@ -24,7 +46,7 @@ For example, the We.Retail product catalog includes teasers that focus attention
 
 Activities also identify the [targeting engine](/help/sites-authoring/personalization.md#targeting-engine) that your pages use.
 
-Use the [Activites console](/help/sites-authoring/activitylib.md) to create and manage the activities for your brands. You can also create activities as you [author targeted content](/help/sites-authoring/content-targeting-touch.md).
+Use the [Activites console](/help/sites-authoring/activitylib.md) to create and manage the activities for your brands. You can also create activities as you [author targeted content.](/help/sites-authoring/content-targeting-touch.md)
 
 ## Experiences {#experiences}
 
@@ -42,7 +64,7 @@ An offer is content that appears at a location on a page for an experience. Use 
 
 For example, the Women's page of the We.Retail sample web site can use offers as the teaser image that appears at the top of the page. A different offer is used as the teaser for the Female Over 30 experience and for the Female Under 30 experience.
 
-Use the [Offers console](/help/sites-authoring/offerlib.md) to create offers that you can use in multiple experiences. Create single-use offers or add offers from an offer library when [authoring targeted content](/help/sites-authoring/content-targeting-touch.md).
+Use the [Offers console](/help/sites-authoring/offerlib.md) to create offers that you can use in multiple experiences. Create single-use offers or add offers from an offer library when [authoring targeted content.](/help/sites-authoring/content-targeting-touch.md)
 
 ## Targeting Engine {#targeting-engine}
 
@@ -57,6 +79,6 @@ AEM provides a built-in targeting engine that processes page requests and determ
 The Adobe Target targeting engine causes information gathered from page visits to be tracked in Adobe Target.
 
 * When using this targeting engine, you use the segments that you import from Adobe Target to define the audiences for your experiences.
-* Activities that use the Adobe Target engine are [synchronized to Target](/help/sites-authoring/activitylib.md#synchronizing-activities-with-adobe-target).
+* Activities that use the Adobe Target engine are [synchronized to Target.](/help/sites-authoring/activitylib.md#synchronizing-activities-with-adobe-target)
 
-You can use this engine when you have [integrated with Adobe Target](/help/sites-administering/opt-in.md).
+You can use this engine when you have [integrated with Adobe Target.](/help/sites-administering/opt-in.md)

@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: d44e6ea8-b4e5-4ed7-a6d0-de1da2709e18
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Developing Adobe Experience Manager (AEM) Components (Classic UI){#developing-aem-components-classic-ui}
 
@@ -86,7 +97,7 @@ There are three methods to access content in AEM WCM:
 
 * Via the `currentPage` object introduced in `global.jsp`:
 
-  The `currentPage` object is an instance of a page (see [AEM API](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/api/Page.html)). The page class provides some methods to access content.
+  The `currentPage` object is an instance of a page (see [AEM API](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/day/cq/wcm/api/Page.html)). The page class provides some methods to access content.
 
   Example: `String pageTitle = currentPage.getTitle();`
 
@@ -170,8 +181,8 @@ To develop new components for AEM based on existing component, you can copy the 
    >
    >A component for the:
    >
-   >* Touch-enabled UI uses [Granite](https://developer.adobe.com/experience-manager/reference-materials/6-5/granite-ui/api/jcr_root/libs/granite/ui/index.html) components
-   >* Classic UI uses [ExtJS widgets](https://developer.adobe.com/experience-manager/reference-materials/6-5/widgets-api/index.html)
+   >* Touch-enabled UI uses [Granite](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/granite-ui/api/jcr_root/libs/granite/ui/index.html) components
+   >* Classic UI uses [ExtJS widgets](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/widgets-api/index.html)
 
    >[!NOTE]
    >

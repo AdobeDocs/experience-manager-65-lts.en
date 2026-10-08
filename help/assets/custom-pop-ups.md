@@ -9,6 +9,22 @@ feature: Viewers
 role: User, Admin
 solution: Experience Manager, Experience Manager Assets
 exl-id: 37e0d7de-0f7b-475f-b508-3dd150008fee
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+subfeature_v2:
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Create custom pop-ups using Quickview {#using-quickviews-to-create-custom-pop-ups}
 

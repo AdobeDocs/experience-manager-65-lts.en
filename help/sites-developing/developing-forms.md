@@ -10,6 +10,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: d1475168-6625-4d27-9c3b-01e415c2f398
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Developing Forms (Classic UI){#developing-forms-classic-ui}
 
@@ -309,7 +320,7 @@ When the Show/Hide configuration is invalid, the configuration is provided only 
 
 ### Developing Scripts for use with Forms {#developing-scripts-for-use-with-forms}
 
-For more information about the API elements that can be used when writing scripts see the [javadocs related to forms](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/day/cq/wcm/foundation/forms/package-summary.html).
+For more information about the API elements that can be used when writing scripts see the [javadocs related to forms](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/day/cq/wcm/foundation/forms/package-summary.html).
 
 You can use this for actions such as calling a service before the form is submitted and canceling the service if it fails:
 

@@ -9,6 +9,19 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing,Tagging
 role: Developer
 exl-id: 15f30571-7129-402c-98be-270a142c4cbb
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+  - id: 752f9248-f39f-5793-a7dd-5ddafcd403c7
+    internal-label: Tagging
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Tag Libraries{#tag-libraries}
 
@@ -32,7 +45,7 @@ The global also declares the [Sling library](/help/sites-developing/taglib.md#sl
 
 ### &lt;ui:includeClientLib&gt; {#ui-includeclientlib}
 
-The `<ui:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css, or a theme library. For multiple inclusions of different types, for example, js and css, this tag must be used multiple times in the jsp. This tag is a convenience wrapper around the ` [com.adobe.granite.ui.clientlibs.HtmlLibraryManager](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/adobe/granite/ui/clientlibs/HtmlLibraryManager.html)` service interface.
+The `<ui:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css, or a theme library. For multiple inclusions of different types, for example, js and css, this tag must be used multiple times in the jsp. This tag is a convenience wrapper around the ` [com.adobe.granite.ui.clientlibs.HtmlLibraryManager](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/adobe/granite/ui/clientlibs/HtmlLibraryManager.html)` service interface.
 
 It has the following attributes:
 

@@ -9,6 +9,24 @@ role: Admin
 solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms,AEM Forms on JEE,Platform Matrix
 exl-id: 63d0d345-a80b-4bfb-baab-c7f7aa648695
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: 94663796-0ee7-58b9-84f4-b425ebb69e83
+    internal-label: AEM Forms on JEE
+  - id: 669dda42-2656-578e-8b9a-9960823e4401
+    internal-label: Platform Matrix
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
@@ -219,7 +237,7 @@ Adobe Experience Manager Forms requires a Java&trade; Virtual Machine to run, wh
 
 >[!NOTE]
 >
->WebSphere&reg; Liberty Profile (WLP) is supported only with Oracle Database and IBM&reg; Sumeru JDK 21.
+>WebSphere&reg; Liberty Profile (WLP) is supported only with Oracle Database or Microsoft&reg; SQL Server, and IBM&reg; Sumeru JDK 21.
 
 ### Server operating systems {#server-operating-systems}
 
@@ -282,7 +300,7 @@ Consider the following exceptions while choosing a platform to set up your AEM F
 
 1. CRX-repository supports persistence of type TarMK and MongoDB. 
 1. AEM Forms on JEE do not support JBoss&reg; role-based access control (RBAC).
-1. AEM Forms on JEE support WebSphere&reg; Liberty Profile (WLP) only with Oracle Database and IBM&reg; Sumeru JDK 21.
+1. AEM Forms on JEE support WebSphere&reg; Liberty Profile (WLP) only with Oracle Database or Microsoft&reg; SQL Server, and IBM&reg; Sumeru JDK 21.
 
 <!--
 1. [!DNL Microsoft&reg; Windows Server 2019] does not support [!DNL MySQL 5.7] and [!DNL JBoss&reg; EAP 7.1], [!DNL Microsoft&reg; Windows Server 2019] does not support turnkey installations for [!DNL Experience Manager Forms Service Pack 6.5.10.0 and later]. (CQDOC-18312) 
@@ -403,6 +421,7 @@ AEM Forms App now supports the Apache Cordova. Following are the platform-specif
 >- If a Microsoft&reg; Office installation becomes deactivated or unlicensed for any reason, such as a volume-licensed installation that is unable to locate a KMS host within a specified period, conversions may fail until the installation is relicensed and reactivated.
 >- PDF Generator does not support Microsoft&reg; Office 365.
 >- PDF Generator conversions for OpenOffice are supported on both Windows and Linux&reg;.
+>- On Red Hat&reg; Enterprise Linux&reg; 9, the 32-bit OpenOffice build requires `libcrypt.so.1`, which is not installed by default. If it is missing, OpenOffice fails to start with the error `soffice.bin: error while loading shared libraries: libcrypt.so.1: cannot open shared object file: No such file or directory`, and OpenOffice-to-PDF conversions fail. Install the `libxcrypt-compat` package (32-bit) to provide the library: `sudo dnf install -y libxcrypt-compat.i686`.
 >- The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
 >- PDF Generator does not support Microsoft&reg; Windows 11.
 >- Microsoft&reg; Office 2021 Professional Plus support is deprecated. 
@@ -665,7 +684,10 @@ The following platforms are marked as deprecated with AEM Forms 6.5.10.0 release
 -->
 
 
-<!--## Revision History {#revision-history}-->
+## Revision History {#revision-history}
+
+- 6.5 LTS SP3 (September 2026)
+  - **Added support**: WebSphere&reg; Liberty Profile (WLP) is now supported with Microsoft&reg; SQL Server, in addition to Oracle Database.
 
 <!--
 

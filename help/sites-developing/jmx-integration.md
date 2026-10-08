@@ -7,6 +7,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: ca929fe7-8393-42df-983d-e2005d8434ac
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}
 
@@ -32,11 +43,11 @@ In addition to defining the management interface, the interface also defines the
 
 ### Using Annotations to Provide MBean Information {#using-annotations-to-provide-mbean-information}
 
-The [com.adobe.granite.jmx.annotation](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/adobe/granite/jmx/annotation/package-summary.html) package provides several annotations and classes for easily providing MBean metadata to the JMX console. Use these annotations and classes instead of adding information to the MBean's MBeanInfo object directly.
+The [com.adobe.granite.jmx.annotation](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/adobe/granite/jmx/annotation/package-summary.html) package provides several annotations and classes for easily providing MBean metadata to the JMX console. Use these annotations and classes instead of adding information to the MBean's MBeanInfo object directly.
 
 **Annotations**
 
-Add annotations to the management interface to specify MBean metadata. The information appears in the JMX console for each implementation class that is deployed. The following annotations are available (for complete information, see the [com.adobe.granite.jmx.annotation JavaDocs](https://developer.adobe.com/experience-manager/reference-materials/6-5-lts/javadoc/com/adobe/granite/jmx/annotation/package-summary.html)):
+Add annotations to the management interface to specify MBean metadata. The information appears in the JMX console for each implementation class that is deployed. The following annotations are available (for complete information, see the [com.adobe.granite.jmx.annotation JavaDocs](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5-lts/javadoc/com/adobe/granite/jmx/annotation/package-summary.html)):
 
 * **Description:** Provides a description of the MBean class or method. When used on the class declaration, the desctiption appears on the JMX Console page for the MBean. When used on a method, the desctiption appears as hover text for the corresponding attribute or operation.
 * **Impact:** The impact of a method. Valid parameter values are the fields defined by [javax.management.MBeanOperationInfo](https://docs.oracle.com/javase/1.5.0/docs/api/javax/management/MBeanOperationInfo.html).

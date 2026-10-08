@@ -6,6 +6,17 @@ role: Developer
 feature: Developer Tools
 solution: Experience Manager, Experience Manager Assets
 exl-id: d4826314-a714-47b2-bf4d-029dc47982ce
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
+    internal-label: Developer tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Customize and extend [!DNL Assets] {#customizing-and-extending-assets}
 

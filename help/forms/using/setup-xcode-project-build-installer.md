@@ -12,6 +12,11 @@ exl-id: c5092e61-c3f9-4770-91be-247e6a02cdb4
 ---
 # Set up the Xcode project and build the iOS app{#set-up-the-xcode-project-and-build-the-ios-app}
 
+>[!NOTE]
+>
+>The AEM Forms app for iOS has been discontinued and removed from the Apple App Store.
+>It is no longer available for installation.
+
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
 
 To get the AEM Forms app source, perform the following steps:
@@ -116,9 +121,9 @@ For detailed information about Code Signing and adding devices to the iOS Provis
    </dict>
    ```
 
-   >[!NOTE]
-   >
-   >This step is required only if AEM Forms app needs to connect to a server that does not follow App Transport Security requirements.
+>[!NOTE]
+>
+>This step is required only if AEM Forms app needs to connect to a server that does not follow App Transport Security requirements.
 
 1. Under **PROJECT**, select **AEM Forms** and ensure that the appropriate signature is selected for **Code Signing Identity**, **Debug**, **Release** and **Any iOS SDK**.
 1. Connect a provisioned iPad to a Mac machine.

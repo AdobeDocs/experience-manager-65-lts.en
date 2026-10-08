@@ -5,6 +5,20 @@ feature: Content Fragments
 role: User
 solution: Experience Manager, Experience Manager Assets
 exl-id: 7b5a9485-8d07-434e-9871-5f97d6781eaf
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
+subfeature_v2:
+  - id: b7f5d1e0-aa2f-4a55-83f4-c2b35a8bd3a7
+    internal-label: Content fragments
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # Working with Content Fragments {#working-with-content-fragments}
 
@@ -249,7 +263,6 @@ The content fragment assets are made up of the following parts (either directly 
   * Can be defined during fragment authoring.
   * Stored in the fragment, to help avoid scattering of content copies.
   * Variations can be [synchronized](/help/assets/content-fragments/content-fragments-variations.md#synchronizing-with-master) with Master if the Master content has been updated.
-  * Can be [Summarized](/help/assets/content-fragments/content-fragments-variations.md#summarizing-text) to quickly truncate the text to a predefined length.
   * Available under the [Variations](/help/assets/content-fragments/content-fragments-variations.md) tab of the fragment editor.
 
 ### In-Between Content when Page Authoring with Content Fragments {#in-between-content-when-page-authoring-with-content-fragments}

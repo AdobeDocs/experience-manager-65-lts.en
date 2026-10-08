@@ -9,6 +9,17 @@ solution: Experience Manager, Experience Manager Sites
 feature: Developing
 role: Developer
 exl-id: 1fcf6de4-30b5-46cb-9c1d-109a160d5030
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: c5d917df-d8bd-5e97-a117-6dde1e9f7103
+    internal-label: Developing
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Structure of the Adobe Experience Manager Touch-Enabled UI{#structure-of-the-aem-touch-enabled-ui}
 
@@ -161,4 +172,4 @@ Depending on the space available, the component toolbars are positioned at the t
 
 For more details about the concepts around the touch-enabled UI, read [Concepts of the AEM Touch-Enabled UI](/help/sites-developing/touch-ui-concepts.md).
 
-For more technical information, see [JS documentation set](https://developer.adobe.com/experience-manager/reference-materials/6-5/jsdoc/ui-touch/editor-core/index.html) for the touch-enabled page editor.
+For more technical information, see [JS documentation set](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/jsdoc/ui-touch/editor-core/index.html) for the touch-enabled page editor.

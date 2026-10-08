@@ -4,6 +4,14 @@ description: Learn about the flexibility of the Universal Editor and how it can 
 feature: Developing
 role: Developer
 exl-id: 495df631-5bdd-456b-b115-ec8561f33488
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: ae206583-dab1-444b-b978-a37aad4a988c
+    internal-label: Experience Manager 6.5 LTS
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # About the Universal Editor {#universal-editor}
 

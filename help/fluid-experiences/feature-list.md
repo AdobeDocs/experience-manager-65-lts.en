@@ -6,6 +6,17 @@ feature: Authoring
 solution: Experience Manager Sites,Experience Manager Assets
 role: Admin
 exl-id: 9bb1ff8b-5fcb-44df-8c45-2306e127410d
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # AEM Fluid Experiences Feature List{#aem-fluid-experiences-feature-list}
 

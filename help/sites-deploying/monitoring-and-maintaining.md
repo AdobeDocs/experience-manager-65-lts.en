@@ -10,12 +10,27 @@ feature: Configuring
 solution: Experience Manager, Experience Manager Sites
 role: Admin
 exl-id: c8bab030-053f-47d1-94f7-b7ff08bfaab0
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+feature_v2:
+  - id: 523b1ccd-901e-5e3b-9fa7-f3dfd82463d5
+    internal-label: Configuring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Monitoring and maintaining your Adobe Experience Manager instance{#monitoring-and-maintaining-your-aem-instance}
 
 After your AEM instances are deployed, you must monitor and maintain their operation, performance, and integrity.
 
 A key factor here is that to recognize potential issues, you must know how your system looks and behaves under normal conditions. This ability is best done by monitoring the system and collecting information over time.
+
+>[!NOTE]
+>
+>The guidance on this page applies to self-managed (on-premise) deployments. If you run AEM on Adobe Managed Services, application and infrastructure telemetry is collected for you and available through Observability Insights, which provides a hosted view of your production and non-production environments. For more information, see [Observability Insights](https://experienceleague.adobe.com/en/docs/ams-observability-insights/content/overview).
 
 | Check |Considerations |Comment / Actions |
 |---|---|---|

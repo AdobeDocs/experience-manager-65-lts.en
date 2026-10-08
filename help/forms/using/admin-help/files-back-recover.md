@@ -9,8 +9,24 @@ solution: Experience Manager, Experience Manager Forms
 feature: Adaptive Forms
 role: User, Developer
 hide: true
-removedfrom6.5.2025: yes
+removedfrom6.5.2025: 'yes'
 exl-id: 2938a1c6-c8fc-420a-8fad-bb39e5a7936b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Files to back up and recover {#files-to-back-up-and-recover}
 
@@ -77,7 +93,7 @@ AEM Forms Workspace matches the capabilities of the (Deprecated for AEM forms on
 
 >[!NOTE]
 >
->The Flex Worksapce is deprecated for AEM forms release.
+>The Flex Workspace is deprecated for AEM forms release.
 
 It allows for task management on clients without Flash Player and Adobe Reader. It facilitates rendition of HTML Forms, besides PDF forms and Flex forms.
 
