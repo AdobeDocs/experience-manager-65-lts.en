@@ -1107,7 +1107,6 @@ nudge: true
 + AI in AEM {#ai-in-aem}
   + [Overview](/help/ai-in-aem/overview.md)
   + AI Assistant {#ai-assistant}
-    + [Configure AI Assistant in AEM](/help/ai-assistant-in-aem-admin.md)
     + [About AI Assistant in AEM](/help/ai-assistant-in-aem.md)
 + Content and Commerce {#commerce}
   + [Introduction and overview](/help/commerce/cif/introduction.md)
