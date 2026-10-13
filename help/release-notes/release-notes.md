@@ -379,6 +379,23 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 * On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** fails. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
+On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The EAR file included with LTS SP3 is missing required Bouncy Castle libraries on its classpath.
+
+**Workaround**
+
+1. Go to `<AEM Forms JEE installation>\Adobe_Experience_Manager_Forms\configurationManager\export`.
+1. Open `adobe-livecycle-websphere.ear\adobe-dscf.jar\META-INF\MANIFEST.MF` and append these entries to the `Class-Path` element:
+
+    ```
+    bcmail-jdk18on-1.84.jar bcprov-jdk18on-1.84.jar bcpkix-jdk18on-1.84.jar bcutil-jdk18on-1.84.jar
+    ```
+
+1. Redeploy the modified EAR file to the WebSphere&reg; Liberty Profile `dropins` folder:
+    1. Stop the WebSphere&reg; Liberty Profile server and delete `adobe-livecycle-websphere.ear` from `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
+    1. Delete the `adobe-livecycle-websphere.ear` directory from `<WebSphere Liberty Profile install location>\usr\servers\<server-name>\apps\expanded\`.
+    1. Copy the modified EAR file from step 2 into `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
+    1. Start the WebSphere&reg; Liberty Profile server.
+
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
 This release resolves security vulnerabilities in AEM Forms, including XSS, SSRF, and XXE, and updates libraries.
