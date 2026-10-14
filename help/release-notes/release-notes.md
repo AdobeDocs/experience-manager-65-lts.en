@@ -663,7 +663,7 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ### Repository corruption during online compaction on standby (GRANITE-73045) {#repository-corruption-during-online-compaction-granite-73045}
 
-Users can experience repository corruption during online compaction if the instance was previously running as a TarMK Cold Standby and was later promoted to primary. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption.
+Users can experience repository corruption during online compaction if the instance was previously running as a TarMK Cold Standby and was later promoted to primary. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption. 
 
 To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
 
