@@ -689,7 +689,7 @@ The failure is silent: content nodes fail to load at bundle activation with no e
 
 >[!CAUTION]
 >
-> To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles.
+> To avoid content loading failures after upgrading to AEM 6.5 LTS SP2, remove all comments from JSON files in your `Sling-Initial-Content` bundles. 
 
 ### Install required Oak indexes for Sites Headless APIs{#site-headless-api}
 
