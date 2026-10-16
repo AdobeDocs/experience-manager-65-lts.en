@@ -122,7 +122,7 @@ In this tutorial, you style header and footer, text and numeric components, atta
 
 1. Select **[!UICONTROL Create]**. A theme is created and a dialog to open the form for editing appears. Select **[!UICONTROL Open]** to open the newly created theme in a new tab. The theme opens in the theme editor. For styling, the theme editor uses an out-of-the-box adaptive form shipped with AEM [!DNL Forms].
 
-   For information about using the theme editor UI, see [About the theme editor](/help/forms/using/themes.md#aboutthethemeeditor).
+   For information about using the theme editor UI, see [About the theme editor](/help/forms/using/themes.md#about-the-theme-editor).
 
 1. Select **[!UICONTROL Theme Options]** ![theme-options](assets/theme-options.png) > **[!UICONTROL Configure]**. In the **[!UICONTROL Preview Form]** field, select the **shipping-address-add-update-form** adaptive form, select ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png), select **[!UICONTROL Save]**. Now, the theme editor is configured to use your own adaptive form instead of the default adaptive form. Select **[!UICONTROL Cancel]** to return to the theme editor.
 

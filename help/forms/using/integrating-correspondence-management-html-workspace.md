@@ -118,7 +118,7 @@ Use the following steps to create a task to render and submit a letter in AEM Wo
    ```
 
    [Get File](assets/dscsample.zip)
-   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you must configure it. See [Configure the DSC Service](../../forms/using/add-action-button-in-create-correspondence-ui.md#p-configure-the-dsc-service-p).
+   Download DSC: A sample DSC is available in the DSCSample.zip file attached above. Download and unzip the DSCSample.zip file. Before you use the DSC service, you must configure it. See [Configure the DSC Service](../../forms/using/add-action-button-in-create-correspondence-ui.md#configure-the-dsc-service).
 
    In the Define Activity dialog, select the appropriate activity such as getLetterInstanceInfo and click **OK**.
 

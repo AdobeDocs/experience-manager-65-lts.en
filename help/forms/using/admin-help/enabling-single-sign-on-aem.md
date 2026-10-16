@@ -76,7 +76,7 @@ For the steps to configure allowed referers, see [Configure allowed referers](/h
 
 ### Assign roles to users and groups 
 
-Click to know the steps to [assign roles to users and groups](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#assign-roles-to-users-and-groups-assign-roles-to-users-groups).
+Click to know the steps to [assign roles to users and groups](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#assign-roles-to-users-groups).
 
 ## Enable SSO using SPNEGO {#enable-sso-using-spnego}
 
@@ -194,7 +194,7 @@ If the server is accessed by using the computer name, such as https://lcserver:8
 
 1. Test the configuration by accessing the application. The welcome page for the target application should appear.
 
-Click to know the steps to [assign roles to users and groups](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#assign-roles-to-users-and-groups-assign-roles-to-users-groups).
+Click to know the steps to [assign roles to users and groups](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#assign-roles-to-users-groups).
 
 ## Assign roles to users and groups {#assign-roles-to-users-groups}
 

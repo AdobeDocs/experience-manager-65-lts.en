@@ -90,7 +90,7 @@ The **Name** is used to identify the custom function in the rule editor of an Ad
     * date[]: Represents an array of date values.
     * array: Represents a generic array containing values of various types.
     * object: Represents form object passed to a custom function instead of passing its value directly.
-    * scope: Represents the globals object, which contains read-only variables such as form instances, target field instances, and methods for performing form modifications within the custom functions. It is declared as the last parameter in the JavaScript annotations and is not visible to the rule editor of an Adaptive Form. The scope parameter accesses the object of the form or component to trigger the rule or event required for form processing. For further information on the Globals object and how to use it, [click here](/help/forms/using/create-and-use-custom-functions-core-components.md#field-and-global-scope-objects-in-custom-functions-support-field-and-global-objects)
+    * scope: Represents the globals object, which contains read-only variables such as form instances, target field instances, and methods for performing form modifications within the custom functions. It is declared as the last parameter in the JavaScript annotations and is not visible to the rule editor of an Adaptive Form. The scope parameter accesses the object of the form or component to trigger the rule or event required for form processing. For further information on the Globals object and how to use it, [click here](/help/forms/using/create-and-use-custom-functions-core-components.md#support-field-and-global-objects)
     
 The Parameter type is **not case-sensitive** and spaces are not allowed in the parameter name.
  
@@ -544,7 +544,7 @@ Now, you can create a rule to use custom functions in the rule editor:
 
 ![Adding the custom function client library](/help/forms/using//assets/calculateage-customfunction.png)
 
-Now, let's understand how to configure and use a custom function using the [Rule Editor's Invoke service in AEM Forms 6.5](/help/forms/using/rule-editor-core-components.md#invoke-form-data-model-service-invoke)
+Now, let's understand how to configure and use a custom function using the [Rule Editor's Invoke service in AEM Forms 6.5](/help/forms/using/rule-editor-core-components.md#invoke)
 
 ## Using Custom Function in an Adaptive Form {#use-custom-functions}
 

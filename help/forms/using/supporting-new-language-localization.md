@@ -77,13 +77,13 @@ AEM Forms currently supports localization of adaptive forms content in English (
 
 To add support for a new locale at adaptive forms runtime:
 
-1. [Add a locale to the GuideLocalizationService service](../../forms/using/supporting-new-language-localization.md#p-add-a-locale-to-the-guide-localization-service-br-p)
+1. [Add a locale to the GuideLocalizationService service](../../forms/using/supporting-new-language-localization.md#add-a-locale-to-the-guide-localization-service-br)
 
-1. [Add XFA client library for a locale](../../forms/using/supporting-new-language-localization.md#p-add-xfa-client-library-for-a-locale-br-p)
+1. [Add XFA client library for a locale](../../forms/using/supporting-new-language-localization.md#add-xfa-client-library-for-a-locale-br)
 
-1. [Add adaptive form client library for a locale](../../forms/using/supporting-new-language-localization.md#p-add-adaptive-form-client-library-for-a-locale-br-p)
-1. [Add locale support for the dictionary](../../forms/using/supporting-new-language-localization.md#p-add-locale-support-for-the-dictionary-br-p)
-1. [Restart the server](../../forms/using/supporting-new-language-localization.md#p-restart-the-server-p)
+1. [Add adaptive form client library for a locale](../../forms/using/supporting-new-language-localization.md#add-adaptive-form-client-library-for-a-locale-br)
+1. [Add locale support for the dictionary](../../forms/using/supporting-new-language-localization.md#add-locale-support-for-the-dictionary-br)
+1. [Restart the server](../../forms/using/supporting-new-language-localization.md#restart-the-server)
 
 ### Add a locale to the Guide Localization service {#add-a-locale-to-the-guide-localization-service-br}
 

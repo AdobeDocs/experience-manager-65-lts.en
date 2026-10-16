@@ -185,7 +185,7 @@ Dispatcher is Adobe Experience Manager's caching and load balancing tool that is
 
 Your customers are likely to abandon an interactive communication if the experience it delivers is not engaging. While it is frustrating for the customers, it also upturns the support volume and cost for your organization. It is critical and challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.
 
-AEM forms integrates with Adobe Target, an Adobe Experience Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to personalize an interactive communication, [Integrate Adobe Target with AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
+AEM forms integrates with Adobe Target, an Adobe Experience Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to personalize an interactive communication, [Integrate Adobe Target with AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#set-up-and-integrate-target-in-aem-forms).
 
 #### Configure SSL communication for Form Data Model  {#configure-ssl-communcation-for-form-data-model}
 

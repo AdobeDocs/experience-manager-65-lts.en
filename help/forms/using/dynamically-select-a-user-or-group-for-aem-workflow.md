@@ -237,7 +237,7 @@ You require [AEM Forms Client SDK](https://experienceleague.adobe.com/en/docs/ex
    </project>
    ```
 
-1. Add source code that uses the [RecipientInfoSpecifier](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Assign Task step. For sample code, see [Sample for dynamically choosing a user or a group using a Java interface](#-sample-scripts-for).
+1. Add source code that uses the [RecipientInfoSpecifier](https://experienceleague.adobe.com/en/tools/aem-api-documentation/6-5/forms/javadocs/com/adobe/fd/workflow/adobesign/api/RecipientInfoSpecifier.html) Java interface to choose a user or a group dynamically for the Assign Task step. For sample code, see [Sample for dynamically choosing a user or a group using a Java interface](#sample-java-code-to-dynamically-choose-a-user-or-a-group).
 1. Open a command prompt and navigate to the directory containing the OSGi bundle project. Use the following command to create the OSGi bundle:
 
    `mvn clean install`

@@ -92,7 +92,7 @@ In addition to JBoss&reg; server, you can add -Dabtesting.enabled=true jvm argum
 
 >[!NOTE]
 >
->If you update the configured Target URLs later, ensure that you update any running A/B tests so that they point to the current URLs. For information about updating A/B tests, see [Update A/B test](/help/forms/using/ab-testing-adaptive-forms.md#p-update-a-b-test-p).
+>If you update the configured Target URLs later, ensure that you update any running A/B tests so that they point to the current URLs. For information about updating A/B tests, see [Update A/B test](/help/forms/using/ab-testing-adaptive-forms.md#update-a-b-test).
 >
 
 ## Create audiences within AEM {#create-audiences-within-aem}

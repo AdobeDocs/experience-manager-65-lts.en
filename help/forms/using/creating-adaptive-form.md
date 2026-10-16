@@ -53,7 +53,7 @@ Follow these steps to create an adaptive form.
    >For a default installation, the login is `admin` and the password is `admin`.
 
 1. Select **[!UICONTROL Create]** and select **[!UICONTROL Adaptive Form]**.
-1. An option to select a template appears. For more information about templates, see [Adaptive form templates](creating-adaptive-form.md#p-adaptive-form-templates-p). Select a template to select it and select Next.
+1. An option to select a template appears. For more information about templates, see [Adaptive form templates](creating-adaptive-form.md#adaptive-form-templates). Select a template to select it and select Next.
 1. An option to 'Add Properties' appears. Specify the values for following property fields. The Title and Name fields are mandatory:
 
     * **[!UICONTROL Title:]** Specifies the display name of the form. The title helps you identify the form in the [!DNL Experience Manager Forms] user interface.

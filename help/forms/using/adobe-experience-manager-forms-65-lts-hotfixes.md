@@ -121,7 +121,7 @@ This article applies to AEM Forms 6.5 LTS. For AEM 6.5 (non-LTS) deployments, se
 
 Perform the following steps to download and install the Hotfix:
 
-  1. Download [Hotfix](#hotfix-for-adaptive-forms) from the Software Distribution link.
+  1. Download [Hotfix](#hotfix-for-aem-forms) from the Software Distribution link.
   1. Extract the Hotfix archive file so you can obtain an Experience Manager package (.zip) and bundle (.jar) files.
   1. Upload and install the package (.zip) via the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager.html?lang=es#accessing).
   1. Open the configuration manager bundles `https://server:host/system/console/bundles`, upload, and install the bundle (.jar). The hotfix is installed.

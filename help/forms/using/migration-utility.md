@@ -177,7 +177,7 @@ After running the Migration utility, take care of the following housekeeping tas
 
 1. Ensure that the XFA version of layouts and fragment layouts is 3.3 or later. If you are using layouts and fragment layouts of an older version, then there could be issues in rendering the letter. To update a version of an older XFA to the latest version, complete the following steps:
 
-    1. [Download the XFA as a zip file](../../forms/using/import-export-forms-templates.md#p-import-and-export-assets-in-correspondence-management-p) from the Forms user interface.
+    1. [Download the XFA as a zip file](../../forms/using/import-export-forms-templates.md#import-and-export-assets-in-correspondence-management) from the Forms user interface.
     1. Extract the file.
     1. Open the XFA file in the latest Designer and save it. The version of the XFA gets updated to the latest one.
     1. Upload the XFA in the Forms user interface.

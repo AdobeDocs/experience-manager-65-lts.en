@@ -119,7 +119,7 @@ Once the reCAPTCHA Enterprise service is enabled, it is available for use in ada
     1. Select version as reCAPTCHA v2, specify Name; Site key, and Secret Key for reCAPTCHA service(Obtained in Step 1) and select **[!UICONTROL Create]** to create the cloud service configuration.
     1. In the Edit Component dialog, specify the site and secret keys obtained in step 1. Select **[!UICONTROL Save Settings]** and then select **OK** to complete the configuration.
 
-   Once the reCAPTCHA service is configured, it is available for use in adaptive forms. For more information, see [using CAPTCHA in adaptive forms](#using-captcha).
+   Once the reCAPTCHA service is configured, it is available for use in adaptive forms. For more information, see [using CAPTCHA in adaptive forms](#using-captcha-in-adaptive-forms).
 
 ![reCAPTCHA v2](/help/forms/using/assets/recaptcha-v2.png)
 

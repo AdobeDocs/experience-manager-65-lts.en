@@ -62,7 +62,7 @@ Client applications can programmatically start LiveCycle services using a Java&t
 
 AEM LiveCycle Connector simplifies the flow by exposing these client instances as OSGi services that can be accessed using standard OSGi means. The LiveCycle connector provides the following features:
 
-* Client instances as OSGi Service: The clients packaged as OSGI bundles are listed in the [Acrobat Services list](/help/forms/using/aem-livecycle-connector.md#p-document-services-list-p) section. Each client jar registers the client instance as an OSGi service with the OSGi Service Registry.
+* Client instances as OSGi Service: The clients packaged as OSGI bundles are listed in the [Acrobat Services list](/help/forms/using/aem-livecycle-connector.md#document-services-list) section. Each client jar registers the client instance as an OSGi service with the OSGi Service Registry.
 * User Credential Propagation: The connection details required to connect to the LiveCycle server are managed at a central place.
 * ServiceClientFactory Service: To start the processes, the client application can access the ServiceClientFactory instance.
 
@@ -90,7 +90,7 @@ To start an exposed service from within AEM, perform the following steps:
    </dependency>
    ```
 
-   To start a service, add a corresponding Maven dependency for the service. For the list of dependencies, see [Acrobat Services List](/help/forms/using/aem-livecycle-connector.md#p-document-services-list-p). For example, for the Generate PDF service add the following dependency:
+   To start a service, add a corresponding Maven dependency for the service. For the list of dependencies, see [Acrobat Services List](/help/forms/using/aem-livecycle-connector.md#document-services-list). For example, for the Generate PDF service add the following dependency:
 
    ```xml
    <dependency>

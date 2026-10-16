@@ -310,7 +310,7 @@ In addition, consider the following points while choosing software for Adobe AEM
 
 - AEM Forms on JEE support updates and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
 - Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](/help/forms/using/choosing-persistence-type-for-aem-forms.md).
-- AEM Forms on JEE support various third-party software as per Adobe's [Third-party software support Policy](#third-party-patch-support-policy-third-party-patch-support-policy).
+- AEM Forms on JEE support various third-party software as per Adobe's [Third-party software support Policy](#third-party-patch-support-policy).
 - AEM Forms on JEE support platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with Oracle. As a result, AEM Forms on JEE also do not support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.
 - AEM Forms on JEE do not support TarMK Cold Standby.
 - AEM Forms on JEE do not support vertical clustering.

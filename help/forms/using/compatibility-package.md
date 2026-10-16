@@ -28,7 +28,7 @@ role_v2:
 
 Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.5 LTS. To continue using letters in AEM Forms 6.5 LTS, you need to install the latest [AEMFD Compatibility package](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases).
 
-The AEMFD Compatibility package also lets you [use the following assets from AEM Forms 6.5.22.0, 6.4, 6.3 and 6.2 on AEM Forms 6.5 LTS](../../forms/using/compatibility-package.md#add-support-for-aem-forms-and-assets-in-aem-forms)
+The AEMFD Compatibility package also lets you [use the following assets from AEM Forms 6.5.22.0, 6.4, 6.3 and 6.2 on AEM Forms 6.5 LTS](../../forms/using/compatibility-package.md#add-support-for-aem-forms-and-assets-in-aem-forms-6.5.lts)
 
 * Document Fragments
 * Letters

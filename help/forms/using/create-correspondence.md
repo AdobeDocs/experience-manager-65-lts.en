@@ -45,7 +45,7 @@ Select the letter to preview using the following steps:
 
    >[!NOTE]
    >
-   >If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the [Data Dictionary has associated test data](../../forms/using/data-dictionary.md#p-working-with-test-data-p), then on selecting the preview option, the normal preview opens with the test data populated.
+   >If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the [Data Dictionary has associated test data](../../forms/using/data-dictionary.md#working-with-test-data), then on selecting the preview option, the normal preview opens with the test data populated.
 
 1. To be able to render a correspondence while previewing it, you should either be an administrator or a part of one of the following groups:
 
@@ -54,7 +54,7 @@ Select the letter to preview using the following steps:
 
    If you do not the required permissions, request the admin for the appropriate access. For more information on creating and adding users to groups, see [Adding Users or Groups to a Group](/help/sites-administering/security.md). If you try to render a correspondence without having the appropriate permissions, the 404 error page appears.
 
-1. If you've selected **Preview** &gt; **Custom**, a dialog opens. In the dialog, select a data file, corresponding to the data dictionary, to preview the letter with and then select **Preview**. A data file is created based on a data dictionary for a specific letter. For more information on the data file, see [Data Dictionary](../../forms/using/data-dictionary.md#p-working-with-test-data-p).
+1. If you've selected **Preview** &gt; **Custom**, a dialog opens. In the dialog, select a data file, corresponding to the data dictionary, to preview the letter with and then select **Preview**. A data file is created based on a data dictionary for a specific letter. For more information on the data file, see [Data Dictionary](../../forms/using/data-dictionary.md#working-with-test-data).
 
    ![Preview letter](assets/8_previewcustomdatafile.png)
 
@@ -250,7 +250,7 @@ You can make layout and content related changes to ensure the letter looks the w
 
    ![Explicit page break](assets/8_pagebreak.png)
 
-1. To save the letter as a draft, which you can continue working on later, select Save As Draft. To use this option, your letter needs to be [published](../../forms/using/publishing-unpublishing-forms.md#publishanasset). For more information, see Draft Instance under [Saving drafts and submitting letter instances](#savingdrafts).
+1. To save the letter as a draft, which you can continue working on later, select Save As Draft. To use this option, your letter needs to be [published](../../forms/using/publishing-unpublishing-forms.md#publish-an-asset). For more information, see Draft Instance under [Saving drafts and submitting letter instances](#savingdrafts).
 
    ![saveasdraft](assets/saveasdraft.png)
 
@@ -280,7 +280,7 @@ When a letter is rendered in the Create Correspondence user interface, you can s
 
 There are two types of letter instances that can be saved: Draft instance and Submit instance.
 
-* **Draft Instance**: Draft instance captures the current state of the letter you are previewing. To save a draft instance, first ensure that the letter and all the assets the letter references are in Published state. For information on publishing a letter, see [Publish an asset](../../forms/using/publishing-unpublishing-forms.md#publishanasset). You need to Publish a letter before you could save it as a draft, because when you publish a letter, you create a version of the letter, its dependent assets, and data at that point. The published version of a letter cannot be edited by you or another user and can be restored later without any unexpected discrepancies from the published version. You can return to this instance later and continue from where you left.
+* **Draft Instance**: Draft instance captures the current state of the letter you are previewing. To save a draft instance, first ensure that the letter and all the assets the letter references are in Published state. For information on publishing a letter, see [Publish an asset](../../forms/using/publishing-unpublishing-forms.md#publish-an-asset). You need to Publish a letter before you could save it as a draft, because when you publish a letter, you create a version of the letter, its dependent assets, and data at that point. The published version of a letter cannot be edited by you or another user and can be restored later without any unexpected discrepancies from the published version. You can return to this instance later and continue from where you left.
 
 * **Submit Instance**: Submit instances captures the state of letter as it is submitted. Submit instance stores the PDF state of the letter instance after it is post processed along with the data entered by user in the Create Correspondence user interface.
 

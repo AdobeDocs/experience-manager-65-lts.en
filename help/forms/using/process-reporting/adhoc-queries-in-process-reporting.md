@@ -36,9 +36,9 @@ Ad-hoc queries in Process Reporting let you create custom queries that you can u
 
 Also, ad hoc queries can be defined using process and task property filters. These filters can then be saved and used to run the reports later.
 
-[**Process Search**](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md#p-process-task-search-p): Search for process instances with a user-defined search filter based on process attributes.
+[**Process Search**](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md#process-task-search): Search for process instances with a user-defined search filter based on process attributes.
 
-[**Process Details**](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md#p-process-task-details-p): View details of a process instance by specifying the process ID.
+[**Process Details**](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md#process-task-details): View details of a process instance by specifying the process ID.
 
 **Task Search**: Search for task instances with a user-defined search filter based on task attributes.
 
