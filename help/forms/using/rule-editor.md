@@ -211,7 +211,7 @@ The following figure depicts an example of dynamically adding checkboxes based o
 
 **Remove Instance** Removes an instance of the specified repeatable panel or table row.
 
-**Navigate to** Navigates to other Interactive Communications, adaptive forms, other assets such as images or document fragments, or an external URL. For more information, see [Add button to the Interactive Communication](../../forms/using/create-interactive-communication.md#addbuttontothewebchannel).
+**Navigate to** Navigates to other Interactive Communications, adaptive forms, other assets such as images or document fragments, or an external URL. For more information, see [Add button to the Interactive Communication](../../forms/using/create-interactive-communication.md#add-button-component-to-the-web-channel).
 
 ### Set Value of {#set-value-of}
 

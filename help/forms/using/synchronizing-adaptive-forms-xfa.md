@@ -33,7 +33,7 @@ role_v2:
 
 ## Introduction {#introduction}
 
-You can create an Adaptive Form based on an XFA form template ( `*.XDP` file). This reuse lets you preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an adaptive form, [Create an Adaptive Form based on a template](../../forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p).
+You can create an Adaptive Form based on an XFA form template ( `*.XDP` file). This reuse lets you preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an adaptive form, [Create an Adaptive Form based on a template](../../forms/using/creating-adaptive-form.md#create-an-adaptive-form-based-on-an-xfa-form-template).
 
 You can reuse fields from the XDP file in your adaptive form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.
 
@@ -51,11 +51,11 @@ To use the information in this article, a familiarity with the following areas i
 
 * XFA (XML Forms Architecture)
 
-To use the assets provides for the example in the article, download the sample package as explained in the next section, [Sample package](../../forms/using/synchronizing-adaptive-forms-xfa.md#p-sample-package-p).
+To use the assets provides for the example in the article, download the sample package as explained in the next section, [Sample package](../../forms/using/synchronizing-adaptive-forms-xfa.md#sample-package).
 
 ## Sample package {#sample-package}
 
-The article uses an example to demonstrate how to synchronize the adaptive form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the [Downloads](../../forms/using/synchronizing-adaptive-forms-xfa.md#p-downloads-p) section in this article.
+The article uses an example to demonstrate how to synchronize the adaptive form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the [Downloads](../../forms/using/synchronizing-adaptive-forms-xfa.md#downloads) section in this article.
 
 After uploading the package, you can view these assets in the AEM Forms UI.
 
@@ -118,7 +118,7 @@ To update the properties in the example adaptive form, click the link (labeled `
 
 >[!NOTE]
 >
->The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to adaptive forms](../../forms/using/synchronizing-adaptive-forms-xfa.md#p-add-content-to-adaptive-form-br-p).
+>The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in [Add content to adaptive forms](../../forms/using/synchronizing-adaptive-forms-xfa.md#add-content-to-adaptive-form-br).
 
 ### Adding new fields from XDP file to adaptive form &nbsp; {#adding-new-fields-from-xdp-file-to-adaptive-form-nbsp}
 

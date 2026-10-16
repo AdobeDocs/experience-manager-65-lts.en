@@ -41,8 +41,8 @@ This article discusses how form authors can add in-context help while authoring 
 
 You can specify in-context help using the following options in the Help Content section of the properties tab in the sidebar.
 
-* [Short description](../../forms/using/authoring-in-field-help.md#p-short-description-p)
-* [Long description](../../forms/using/authoring-in-field-help.md#p-long-description-p)
+* [Short description](../../forms/using/authoring-in-field-help.md#short-description)
+* [Long description](../../forms/using/authoring-in-field-help.md#long-description)
 
 ![In-context help for form fields](assets/descriptions.png)
 

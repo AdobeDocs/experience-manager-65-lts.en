@@ -240,7 +240,7 @@ You need the following in place first to create a correspondence:
 * Other XDPs ([layout fragments](document-fragments.md#document-fragments)) that form parts of the letter. The XDPs\Layouts are created in [Designer](https://www.adobe.com/go/learn_aemforms_designer_65). 
 * The relevant [data dictionary](/help/forms/using/data-dictionary.md) (Optional). 
 * The [data modules](/help/forms/using/document-fragments.md) you want to use in the correspondence.
-* [Test Data](/help/forms/using/data-dictionary.md#p-working-with-test-data-p) is the XML file with the test data ported in it. Test data is required if you are using a data dictionary.
+* [Test Data](/help/forms/using/data-dictionary.md#working-with-test-data) is the XML file with the test data ported in it. Test data is required if you are using a data dictionary.
 
 ## Create a letter template {#create-a-letter-template}
 
@@ -271,7 +271,7 @@ You need the following in place first to create a correspondence:
 
    ![Alert message: letter created successfully](assets/createcorrespondencecreated.png)
 
-   **Next**: When you select **Open**, Correspondence Management displays a representation of the layout with all the components in the layout (XDP) listed. Go ahead with inserting the [Data Modules and Layout Fragments and Configuring them](/help/forms/using/create-letter.md#p-insert-data-modules-and-layout-fragments-in-a-letter-and-configure-them-p).
+   **Next**: When you select **Open**, Correspondence Management displays a representation of the layout with all the components in the layout (XDP) listed. Go ahead with inserting the [Data Modules and Layout Fragments and Configuring them](/help/forms/using/create-letter.md#insert-data-modules-and-layout-fragments-in-a-letter-and-configure-them).
 
 ### Insert data modules and layout fragments in a letter and configure them {#insert-data-modules-and-layout-fragments-in-a-letter-and-configure-them}
 

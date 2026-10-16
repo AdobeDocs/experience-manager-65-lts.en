@@ -252,4 +252,4 @@ Do the following to run the test:
 
 >[!NOTE]
 >
-> You can create and use the SharePoint List configuration using Form Data Model in an Adaptive Form, to save data or generated Document of Record in a SharePoint List. Refer to [Connect an Adaptive Form to Microsoft® SharePoint List](/help/forms/using/configuring-submit-actions.md#create-a-sharepoint-list-configuration), for detailed steps.
+> You can create and use the SharePoint List configuration using Form Data Model in an Adaptive Form, to save data or generated Document of Record in a SharePoint List. Refer to [Connect an Adaptive Form to Microsoft® SharePoint List](/help/forms/using/configuring-submit-actions.md#connect-af-sharepoint-list), for detailed steps.

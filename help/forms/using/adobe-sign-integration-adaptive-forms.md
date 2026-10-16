@@ -227,7 +227,7 @@ The representative generates and shares credentials with you. In the next sectio
 
 #### Use the received credentials to connect AEM Forms with Adobe Acrobat Sign Solutions for Government
 
-1. Open the `re-direct URL` in your browser. You created and noted down the `re-direct URL` in the last step of the [create a redirect URL on your AEM instance](#create-redirect-url) section. 
+1. Open the `re-direct URL` in your browser. You created and noted down the `re-direct URL` in the last step of the [create a redirect URL on your AEM instance](#create-a-redirect-url-for-your-aem-instance) section. 
 
 1. In the **[!UICONTROL General]** tab of the **[!UICONTROL Create Adobe Sign Configuration]** page, specify a **[!UICONTROL Name]** for the configuration, and select **[!UICONTROL Next]**. You can optionally specify a **[!UICONTROL Title]** and browse to select a **[!UICONTROL Thumbnail]** for the configuration. Click **[!UICONTROL Next]**. 
 
@@ -278,7 +278,7 @@ The representative generates and shares credentials with you. In the next sectio
 1. Publish the configuration. 
 1. Use [replication](/help/sites-deploying/replication.md) to create identical configuration on corresponding publish instances. 
 
-Now, you can [use add Adobe Acrobat Sign fields in an Adaptive Form](working-with-adobe-sign.md) or [AEM Workflow](/help/forms/using/aem-forms-workflow-step-reference.md#sign-document-step-sign-document-step). Ensure that you add the configuration container used for the Cloud Service configuration to all the Adaptive Forms being enabled for [!DNL Adobe Acrobat Sign]. You can specify a configuration container from the properties of an Adaptive Form.
+Now, you can [use add Adobe Acrobat Sign fields in an Adaptive Form](working-with-adobe-sign.md) or [AEM Workflow](/help/forms/using/aem-forms-workflow-step-reference.md#sign-document-step). Ensure that you add the configuration container used for the Cloud Service configuration to all the Adaptive Forms being enabled for [!DNL Adobe Acrobat Sign]. You can specify a configuration container from the properties of an Adaptive Form.
 
 
 ## Configure [!DNL Adobe Sign] scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
@@ -297,5 +297,5 @@ Default interval to sync status of [!DNL Adobe Sign] is now changed.
 ## Related Articles {#related-articles}
 
 * [Using Adobe Sign in an adaptive form](../../forms/using/working-with-adobe-sign.md)
-* [Adobe Sign with Form-Centric workflows](/help/forms/using/aem-forms-workflow-step-reference.md#sign-document-step-sign-document-step)
+* [Adobe Sign with Form-Centric workflows](/help/forms/using/aem-forms-workflow-step-reference.md#sign-document-step)
 * [Using Adobe Sign with AEM Forms (Video)](https://helpx.adobe.com/experience-manager/kt/forms/using/adobe-sign-integration-feature-video.html)

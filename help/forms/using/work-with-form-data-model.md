@@ -118,7 +118,7 @@ To create a child property:
 
 1. In a form data model, select a data model object and select **[!UICONTROL Create Child Property]**. 
 1. In the **[!UICONTROL Create Child Property]** dialog, specify a name and data type for the property in the **[!UICONTROL Name]** and **[!UICONTROL Type]** fields, respectively. You can optionally specify a title and description for the property.
-1. Enable Computed if the property is a computed property. The value of a computed property is evaluated based on a rule or an expression. For more information, see [Edit properties](#edit-properties).
+1. Enable Computed if the property is a computed property. The value of a computed property is evaluated based on a rule or an expression. For more information, see [Edit properties](#properties).
 1. If the data model object is bound to a data source, the added child property is automatically bound to the property of the parent data model object with the same name and data type.
 
    To manually bind a child property with a data model object property, select the browse icon next to the **[!UICONTROL Bind Reference]** field. The **[!UICONTROL Select Object]** dialog lists all properties from the parent data model object. Select a property to bind with and select the tick icon. Note that you can only select a property of the same data type as the child property.

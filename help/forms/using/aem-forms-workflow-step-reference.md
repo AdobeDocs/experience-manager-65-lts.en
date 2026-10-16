@@ -32,7 +32,7 @@ This documentation applies to **AEM 6.5 LTS Forms**.
 
 For AEM as a Cloud Service documentation, see [AEM Forms on Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/create-form-centric-workflows/aem-forms-workflow-step-reference).
 
-You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](/help/sites-developing/workflows-models.md#extending-aem).
+You use workflow models to convert a business logic to automated repetitive process. A model helps you define and execute a series of steps. You can also define model properties, such as whether the workflow is transient or uses multiple resources. You can [include various AEM Workflow steps in a model to achieve the business logic](/help/sites-developing/workflows-models.md#adding-a-step-to-a-model).
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 

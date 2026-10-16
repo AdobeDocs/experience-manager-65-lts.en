@@ -84,7 +84,7 @@ For detailed steps, see [Configuring analytics and reports for adaptive forms](.
 
 **Configure Target**
 
-To create and run A/B tests for your adaptive forms, configure Target in AEM Forms as described in [Set up and integrate Target in AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#p-set-up-and-integrate-target-in-aem-forms-p).
+To create and run A/B tests for your adaptive forms, configure Target in AEM Forms as described in [Set up and integrate Target in AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#set-up-and-integrate-target-in-aem-forms).
 
 #### Step 2: View analytics report {#step-view-analytics-report-br}
 

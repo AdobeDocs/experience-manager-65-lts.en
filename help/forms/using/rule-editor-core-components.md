@@ -62,11 +62,11 @@ The Show, Hide, Enable, Disable, Set Value Of, and Validate rule types in the Ru
 >
 >The available rule types, including conditions and actions that you define in rule editor, also depend on the type of form object on which you are creating a rule. The rule editor displays only valid rule types and options for writing condition and action statements for a particular form object type. For example, you do not see Validate and Set Value Of types for a panel object.
 
-For more information about rule types available in the rule editor, see [Available rule types in rule editor](rule-editor.md#p-available-rule-types-in-rule-editor-p).
+For more information about rule types available in the rule editor, see [Available rule types in rule editor](rule-editor.md#available-rule-types-in-rule-editor).
 
 ### Guidelines for choosing a rule construct {#guidelines-for-choosing-a-rule-construct}
 
-While you can achieve most of the use cases by using any rule construct, here are some guidelines to choose one construct over another. For more information about the available rules in rule editor, see [Available rule types in rule editor](rule-editor.md#p-available-rule-types-in-rule-editor-p).
+While you can achieve most of the use cases by using any rule construct, here are some guidelines to choose one construct over another. For more information about the available rules in rule editor, see [Available rule types in rule editor](rule-editor.md#available-rule-types-in-rule-editor).
 
 * A typical rule of the thumb when creating a rule is to think about it in the context of the object on which you are writing a rule. Consider that you want to hide or show a field B based on the value a user specifies in the field A. In this case, you are evaluating a condition on field A, and based on the value it returns, you are triggering an action on field B.
 
@@ -107,7 +107,7 @@ The rule editor provides the following logical operators and events using which 
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 
-The rule editor provides a set of predefined rule types that you can use to write rules. Let's look at each rule type in detail. For more information about writing rules in rule editor, see [Write rules](rule-editor.md#p-write-rules-p).
+The rule editor provides a set of predefined rule types that you can use to write rules. Let's look at each rule type in detail. For more information about writing rules in rule editor, see [Write rules](rule-editor.md#write-rules).
 
 ### [!UICONTROL When] {#whenruletype}
 
@@ -409,7 +409,7 @@ To launch the rule editor user interface:
 
    ![create-rules](assets/create-rules.png)
 
-   Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](rule-editor.md#p-manage-rules-p).
+   Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](rule-editor.md#manage-rules).
 
 1. Select **[!UICONTROL Create]** to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.
 
@@ -439,7 +439,7 @@ Some of the list of functions are displayed in the figure:
 >
 >You can perform text search on objects and functions names and titles in Forms Objects and Functions tabs.
 
-In the left tree of the form objects, you can select the form objects to display the rules applied to each of the objects. Not only you can navigate through the rules of the various form objects, you can also copy-paste rules between the form objects. For more information, see [Copy-paste rules](rule-editor.md#p-copy-paste-rules-p).
+In the left tree of the form objects, you can select the form objects to display the rules applied to each of the objects. Not only you can navigate through the rules of the various form objects, you can also copy-paste rules between the form objects. For more information, see [Copy-paste rules](rule-editor.md#copy-paste-rules).
 
 ### C. Form objects and functions toggle {#c-form-objects-and-functions-toggle-br}
 
@@ -449,7 +449,7 @@ The toggle button, when tapped, toggles the form objects and functions pane.
 
 Visual rule editor is the area in the visual editor mode of the rule editor user interface where you write rules. It lets you select a rule type and accordingly define conditions and actions. When defining conditions and actions in a rule, you can drag-drop form objects and functions from the Form Objects and Functions pane.
 
-For more information about using visual rule editor, see [Write rules](rule-editor.md#p-write-rules-p).
+For more information about using visual rule editor, see [Write rules](rule-editor.md#write-rules).
 <!-- 
 ### E. Visual-code editors switcher {#e-visual-code-editors-switcher}
 
@@ -466,7 +466,7 @@ Users in the forms-power-users group can access code editor. For other users, co
 
 ### E. Done and cancel buttons {#done-and-cancel-buttons}
 
-The **[!UICONTROL Done]** button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and do not run. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see [Manage rules](rule-editor.md#p-manage-rules-p).
+The **[!UICONTROL Done]** button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and do not run. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see [Manage rules](rule-editor.md#manage-rules).
 
 The **[!UICONTROL Cancel]** button discards any changes you made to a rule and closes the rule editor.
 
@@ -849,7 +849,7 @@ To copy-paste rules, do the following:
 
    ![copy rule](assets/copyrule.png)
 
-   For information about managing existing rules, see [Manage rules](rule-editor.md#p-manage-rules-p).
+   For information about managing existing rules, see [Manage rules](rule-editor.md#manage-rules).
 
 1. Select the check box next to the rule title, options to manage the rule appear. Select **[!UICONTROL Copy]**.
 

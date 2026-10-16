@@ -429,7 +429,7 @@ For information on how to apply page breaks and apply multiple master pages in a
   * **Accent Color:** You can predefine the template Color of the [!UICONTROL Document of Record].
   * **Font Family:** Select Font type for the [!UICONTROL Document of Record] texts.
   * **Include unbound fields in DoR:** Setting the property includes unbound fields from Schema based adaptive form in [!UICONTROL Document of Record]. By default it is true.
-  * **Exclude fields from DoR if hidden:** Set the property to exclude the hidden fields from [!UICONTROL Document of Record] at form submission. When you enable [Revalidate on server](/help/forms/using/configuring-submit-actions.md#server-side-revalidation-in-adaptive-form-server-side-revalidation-in-adaptive-form), the server recomputes the hidden fields before excluding those fields from the [!UICONTROL Document of Record]
+  * **Exclude fields from DoR if hidden:** Set the property to exclude the hidden fields from [!UICONTROL Document of Record] at form submission. When you enable [Revalidate on server](/help/forms/using/configuring-submit-actions.md#server-side-revalidation-in-adaptive-form), the server recomputes the hidden fields before excluding those fields from the [!UICONTROL Document of Record]
 * **[!UICONTROL FORM FIELD PROPERTIES]** 
   * If you tick the option **For Check Box and Radio Button component, show only the selected value(s)**, it will generate DoR output with only selected value(s).
   * You can select Separator for multiple selected value(s) or you can choose any other separator type.

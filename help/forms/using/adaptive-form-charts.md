@@ -144,7 +144,7 @@ The following functions are available by default with the Chart component:
 
 ### Custom functions {#custom-functions}
 
-In addition to using the default functions in charts, you can write [custom functions](/help/forms/using/rule-editor.md#custom-functions-in-rule-editor-custom-functions) in JavaScript and make them available in the list of functions in the Chart component.
+In addition to using the default functions in charts, you can write [custom functions](/help/forms/using/rule-editor.md#custom-functions) in JavaScript and make them available in the list of functions in the Chart component.
 
 A function takes an array or values and a category name as inputs and returns a value. For example:
 

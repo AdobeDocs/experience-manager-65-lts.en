@@ -37,7 +37,7 @@ By default, AEM Forms store user data associated with the draft and submission o
 
 However, AEM Forms Portal components provide data services that let you customize the implementation of storing user data for drafts and submissions. For example, you can store the data in a data store currently implemented in your organization.
 
-To customize the storage of user data, you must implement the [Draft Data](/help/forms/using/custom-draft-submission-data-services.md#p-draft-data-service-p) and [Submission Data](/help/forms/using/custom-draft-submission-data-services.md#p-submission-data-service-p) services.
+To customize the storage of user data, you must implement the [Draft Data](/help/forms/using/custom-draft-submission-data-services.md#draft-data-service) and [Submission Data](/help/forms/using/custom-draft-submission-data-services.md#submission-data-service) services.
 
 ## Prerequisites {#prerequisites}
 

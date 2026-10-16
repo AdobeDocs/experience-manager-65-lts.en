@@ -219,7 +219,7 @@ You create an **adaptive template** and apply the theme to the template. You can
 
 After you have created an adaptive form theme, perform the following steps to use this theme in an adaptive form:
 
-1. To include the theme created in [to create an adaptive form theme](/help/forms/using/creating-custom-adaptive-form-themes.md#p-to-create-an-adaptive-form-theme-p) section, create a custom page of type `cq:Component`.
+1. To include the theme created in [to create an adaptive form theme](/help/forms/using/creating-custom-adaptive-form-themes.md#to-create-an-adaptive-form-theme) section, create a custom page of type `cq:Component`.
 
    For example, `/apps/myAfCustomizations/myAfPages/forestPage`
 

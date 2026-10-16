@@ -38,11 +38,11 @@ Process Reporting uses the embedded Process Reporting repository to publish Form
 
 Process Reporting consists of the following modules:
 
-* [ProcessDataPublisher service](#processdatapublisher-service-br-p)
-* [ProcessDataStorage service](#processdatastorageprovider-service-br-p)
-* [OSGi service](#osgi-service-br-p)
-* [Query Data servlet](#querydataservlet-service-br-p)
-* [Process Reporting user interface](#process-reporting-user-interface-br-p)
+* [ProcessDataPublisher service](#processdatapublisher-service-br)
+* [ProcessDataStorage service](#processdatastorageprovider-service-br)
+* [OSGi service](#osgi-service-br)
+* [Query Data servlet](#querydataservlet-service-br)
+* [Process Reporting user interface](#process-reporting-user-interface-br)
 
 ## Process Reporting architecture {#process-reporting-architecture-br}
 
@@ -54,13 +54,13 @@ Process Reporting consists of the following modules:
 
 The ProcessDataPublisher server runs periodically on the AEM Forms database and extracts the data that has changed since the last run of the service. It then publishes the data to the Process Data Storage service.
 
-For details on configuring the service, see [Configure ProcessDataPublisher service](/help/forms/using/process-reporting/install-start-process-reporting.md#p-reportconfiguration-service-p).
+For details on configuring the service, see [Configure ProcessDataPublisher service](/help/forms/using/process-reporting/install-start-process-reporting.md#reportconfiguration-service).
 
 ### ProcessDataStorageProvider service {#processdatastorageprovider-service-br}
 
 The ProcessDataStorageProvider service receives process data from the ProcessDataPublisher service and saves the data to the Process Reporting repository.
 
-For details on configuring the service, see [Configure ProcessDataStorageProvider service](/help/forms/using/process-reporting/install-start-process-reporting.md#p-to-configure-the-process-reporting-repository-locations-p).
+For details on configuring the service, see [Configure ProcessDataStorageProvider service](/help/forms/using/process-reporting/install-start-process-reporting.md#to-configure-the-process-reporting-repository-locations).
 
 ### OSGi service {#osgi-service-br}
 

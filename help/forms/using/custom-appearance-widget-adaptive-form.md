@@ -175,7 +175,7 @@ Once the project template is created, do the following changes, as required:
     * The `getEventMap` method maps events triggered by the widget, with the events required by the adaptive form model. The default value maps standard HTML events for the default widget, and needs to be updated if an alternate event is triggered.
     * The `showDisplayValue` and `showValue` apply the display and edit picture clause and can be overridden to have an alternate behavior.
 
-    * The `getCommitValue` method is called by the adaptive forms framework when the `commit`event occurs. Generally, it is the exit event, except for the dropdown, radio button, and check box elements where it occurs on change). For more information, see [Adaptive Forms Expressions](../../forms/using/adaptive-form-expressions.md#p-value-commit-script-p).
+    * The `getCommitValue` method is called by the adaptive forms framework when the `commit`event occurs. Generally, it is the exit event, except for the dropdown, radio button, and check box elements where it occurs on change). For more information, see [Adaptive Forms Expressions](../../forms/using/adaptive-form-expressions.md#value-commit-script).
 
     * The template file provides sample implementation for various methods. Remove methods that are not to be extended.
 

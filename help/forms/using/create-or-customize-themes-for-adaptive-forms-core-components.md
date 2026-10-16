@@ -111,7 +111,7 @@ Customizing a theme refers to the process of modifying and personalizing the app
  1. [Customize the appearance of the theme](#customize-the-theme) 
  1. [Ready the theme for local deployment](#generate-the-clientlib) 
  1. [Deploy the theme on a local environment](#deploy-the-theme-on-a-local-environment) 
- 1. [Deploy the theme on production environment](#5-deploy-a-theme-on-your-production-environment)
+ 1. [Deploy the theme on production environment](#deploy-theme)
 
 <!--
  ![Theme Customization workflow](/help/forms/using/assets/custom-theme-steps.png)

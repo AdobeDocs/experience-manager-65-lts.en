@@ -98,7 +98,7 @@ For more information, see [Create an adaptive form](/help/forms/using/creating-a
     * To customize the layout of out-of-the-box adaptive form components in /libs, [create custom layout components](/help/forms/using/custom-layout-components-forms.md) in addition to the [default layouts](/help/forms/using/layout-capabilities-adaptive-forms.md).
     * Introduce custom interactivities by creating custom widgets or appearances. It is not recommended to modify default components. For more information, see [Appearance framework](/help/forms/using/introduction-widgets.md).
 
-* See [Handling personally identifiable information](/help/forms/using/adaptive-forms-best-practices.md#p-handling-personally-identifiable-information-p) for recommendations on handling PII data.
+* See [Handling personally identifiable information](/help/forms/using/adaptive-forms-best-practices.md#handling-personally-identifiable-information) for recommendations on handling PII data.
 
 ### Creating Form Templates 
 
@@ -287,7 +287,7 @@ For more information, see [AEM Chrome Plug-in - Adaptive Form](https://adobe-con
 
 Server-side validations are required to prevent any attempts to bypass validations on the client and any possible compromise of data submissions and business rules violations. Server-side validations are executed on server by loading the required client library.
 
-* Include functions in a client library for validating expressions in adaptive forms and specify the client library in the adaptive forms container dialog. For more information, see [Server-side revalidation](/help/forms/using/configuring-submit-actions.md#p-server-side-revalidation-in-adaptive-form-p).
+* Include functions in a client library for validating expressions in adaptive forms and specify the client library in the adaptive forms container dialog. For more information, see [Server-side revalidation](/help/forms/using/configuring-submit-actions.md#server-side-revalidation-in-adaptive-form).
 * Server-side validation validates the form model. It is recommended to create a separate client library for validations and not mix it with other things like HTML styling and DOM manipulation in the same client library.
 
 ### Localizing adaptive forms {#localizing-adaptive-forms}

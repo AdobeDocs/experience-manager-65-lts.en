@@ -67,7 +67,7 @@ The following table lists all the supported persistence types along with various
  </tbody>
 </table>
 
-TarMK is designed for performance, while MongoMK and RDBMK are designed for scalability. Adobe highly recommends TarMK as the default persistence technology for all AEM Forms deployment scenarios, for both Author and Publish instances, except in the use cases outlined in section [Choosing Mongo or a Relational Database Microkernel over TarMK](#p-choosing-mongo-or-a-relational-database-microkernel-over-tarmk-p).
+TarMK is designed for performance, while MongoMK and RDBMK are designed for scalability. Adobe highly recommends TarMK as the default persistence technology for all AEM Forms deployment scenarios, for both Author and Publish instances, except in the use cases outlined in section [Choosing Mongo or a Relational Database Microkernel over TarMK](#choosing-mongo-or-a-relational-database-microkernel-over-tarmk).
 
 For the list of supported Microkernels, see [AEM Forms on OSGi Technical Requirements](/help/sites-deploying/technical-requirements.md) <!--or [AEM Forms on JEE supported platform combinations](/help/forms/using/aem-forms-jee-supported-platforms.md) articles-->.
 
