@@ -379,6 +379,8 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 * On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** fails. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
+* On **AEM Forms on JEE 6.5 LTS SP3**, when a digitally signed PDF is attached to a task in AEM Forms JEE Workspace, the upload remains stuck in the uploading state or fails with an "Invalid File" error. As a result, larger signed PDF attachments cannot be added to the task. Contact Adobe Customer Support for assistance. (FORMS-28517)
+
 On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The EAR file included with LTS SP3 is missing required Bouncy Castle libraries on its classpath.
 
 **Workaround**
