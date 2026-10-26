@@ -39,7 +39,7 @@ role_v2:
 
 >[!IMPORTANT]
 >
-> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues during online compaction on standby, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-granite-73045).
+> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues during online compaction on standby, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-on-standby).
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP3 {#what-is-new}
 
@@ -663,19 +663,15 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ## Known issues {#known-issues} 
 
-### Repository corruption during online compaction on standby (GRANITE-73045) {#repository-corruption-during-online-compaction-granite-73045}
+### Repository corruption during online compaction on standby {#repository-corruption-during-online-compaction-on-standby}
 
-Users can experience repository corruption during online compaction if the instance was previously running as a TarMK Cold Standby and was later promoted to primary. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption. 
+Online compaction can corrupt the JCR repository with a `SegmentNotFoundException` (SNFE) if the instance previously ran as a TarMK Cold Standby and was later promoted to primary.
 
-To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
+**Resolution**
 
-Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [`oak-run` jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar), also available on Software Distribution.
-
->[!NOTE]
->
-> * For any `oak-run` operations, use the [`oak-run` 2.4.1-B002 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar).
->
-> * Start AEM by setting the system property `oak.segment.cleanup.skipDanglingFutureReclaim=true`.
+1. Install the [hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip) from Software Distribution via Package Manager. It includes a low-level `oak-segment-tar` bundle, so the instance restarts after installation—plan for downtime.
+1. Set the system property `oak.segment.cleanup.skipDanglingFutureReclaim=true` when you start AEM. This flag is required at AEM startup, not while running offline compaction.
+1. For any `oak-run` operations, use the matching [`oak-run` 2.4.1-B002 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar) from Software Distribution.
 
 ### AEM Forms
 
