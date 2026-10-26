@@ -669,7 +669,7 @@ Online compaction can corrupt the JCR repository with a `SegmentNotFoundExceptio
 
 **Resolution**
 
-1. Install the [hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip) from Software Distribution via Package Manager. It includes a low-level `oak-segment-tar` bundle, so the instance restarts after installation—plan for downtime.
+1. Install the [hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip) from Software Distribution. It includes a low-level `oak-segment-tar` bundle, so the instance restarts after installation—plan for downtime.
 1. Set the system property `oak.segment.cleanup.skipDanglingFutureReclaim=true` when you start AEM. This flag is required at AEM startup, not while running offline compaction.
 1. For any `oak-run` operations, use the matching [`oak-run` 2.4.1-B002 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar) from Software Distribution.
 
