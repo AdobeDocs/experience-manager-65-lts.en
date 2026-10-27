@@ -3,6 +3,7 @@ title: Current Release Notes for Adobe Experience Manager 6.5 LTS, SP3
 description: Find current release information for Adobe Experience Manager 6.5 LTS, Service Pack 3.
 solution: Experience Manager
 feature: Release Information
+owner: Rick Brough
 role: User,Admin,Developer
 exl-id: b5a8f555-c061-4fe2-a100-cc01335959cb
 product_v2:
@@ -39,7 +40,7 @@ role_v2:
 
 >[!IMPORTANT]
 >
-> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues during online compaction on standby, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-granite-73045).
+> **Mandatory Hotfix** – To avoid SNFE (SegmentNotFoundException) issues during online compaction on standby, install the hotfix described in [Known issues – Repository corruption during online compaction](#repository-corruption-during-online-compaction-on-standby).
 
 ## What is included in [!DNL Adobe Experience Manager] 6.5 LTS, SP3 {#what-is-new}
 
@@ -89,7 +90,7 @@ For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issu
 
 * The Custom Properties editor now supports keyboard interaction with its formatting controls. Authors can move focus among toolbar options, select a text style, and format property values using only a keyboard. (SITES-40333) MAJOR
 
-* Keyboard focus now skips the side panel Components list when the available interaction requires drag and drop. This change prevents keyboard users from entering an unusable component-selection workflow. (SITES-40752)
+* Keyboard focus now skips the side panel Components list when the available interaction requires manual movement. This change prevents keyboard users from entering an unusable component-selection workflow. (SITES-40752)
 * Closing an overlay now restores focus to its triggering control. Keyboard and screen-reader users no longer return to the overlay or lose their position in the interface. (SITES-40819)
 * Keyboard navigation no longer moves focus to hidden page content. This change maintains a predictable focus sequence and prevents navigation disruptions. (SITES-41430)
 * The Lock button now provides precise screen-reader feedback based on its title. Users hear a clear action label instead of a lengthy description. (SITES-41431)
@@ -144,7 +145,7 @@ For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issu
 * Header menu buttons no longer tell screen readers that they open dialog boxes. Screen readers instead announce each button's expanded or collapsed state, which accurately describes the menu behavior. (SITES-24742)
 * Text on the Delete button now provides sufficient contrast against its red background. Users can identify the action more easily before confirming deletion. (SITES-24772)
 * Canvas cards no longer expose separate image and heading links that lead to the same destination. A single link reduces duplicate keyboard stops and repeated screen reader announcements. (SITES-24947)
-* List View now displays the drag-and-drop button with greater visual prominence. Updated icon size, weight, and contrast make the control easier to locate and use. (SITES-24951)
+* List View now displays the manual movement button with greater visual prominence. Updated icon size, weight, and contrast make the control easier to locate and use. (SITES-24951)
 * Header buttons now provide concise accessible names: Search, Apps, Help, Inbox, and User. Screen readers no longer announce redundant terms such as "clickable" or "graphic" during keyboard navigation. (SITES-24715)
 * Links in App Navigation now display stronger visual emphasis. Increased text size and weight improve readability for users with low vision or color-vision differences. (SITES-24723)
 * Inbox links now use semantic list markup. Screen readers can identify the links as a related group, announce the item count, and support more efficient navigation. (SITES-24730)
@@ -171,7 +172,7 @@ For the complete list, see [Fixed issues in 6.5 LTS, Service Pack 3](#fixed-issu
 
 #### Admin user interface{#sites-adminui-65-lts-sp3}
 
-* AEM now lets members of the Admin group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
+* AEM now lets members of the Administrator group unlock pages and impersonate users. Group members can complete both administrative tasks through their existing access. (SITES-14732)
 * Assets Admin View now updates an asset card after authors select **Revert to this Version** in the Timeline. The thumbnail displays the restored version immediately and no longer shows stale preview content. (SITES-46590)
 
 
@@ -238,7 +239,7 @@ The headless Content Fragment REST API bundle removes obsolete feature toggles a
 
 #### Component console{#sites-component-console-65-lts-sp3}
 
-The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672) MAJOR
+The Content Finder now lists assets whose names contain non-encodable characters without failing or generating exceptions. The Components Live Usage page also loads large result sets continuously without displaying empty rows during scrolling. (SITES-44672)
 
 <!--
 #### Content API{#sites-content-api-65-lts-sp3}
@@ -321,51 +322,51 @@ Launch promotion history now displays localized text in the Sites Timeline. The 
 
 #### Enhancements {#forms-enhancements-65-lts-sp3}
 
-* FORMS-24360: Added PDF Generator (PDFG) support for Microsoft Office 2024. This applies to both OSGi and JEE deployments.
-* FORMS-24949: Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires.
-* FORMS-25180: Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline.
-* FORMS-25182, FORMS-25181: PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account. This applies to both OSGi and JEE deployments.
-* FORMS-27595: Added a **User Profile Description** attribute for dynamic watermarks in AEM Forms Document Security, so watermarks can include the user's profile description.
+* Added PDF Generator (PDFG) support for Microsoft Office 2024. This applies to both OSGi and JEE deployments. (FORMS-24360)
+* Added Forms Builder Agent support on AEM Forms 6.5 LTS. This backports the Forms Manager HTTP APIs and the Form Generative AI (GenAI) HTTP APIs that the agent requires. (FORMS-24949)
+* Added the `daysUntilSigningDeadline` value to the AEM Forms user interface, so authors can show recipients how many days remain before an Adobe Sign signing deadline. (FORMS-25180)
+* PDF Generator (PDFG) now supports multi-threaded document conversions when configured with a single user account. This applies to both OSGi and JEE deployments. (FORMS-25182, FORMS-25181)
+* Added a **User Profile Description** attribute for dynamic watermarks in AEM Forms Document Security, so watermarks can include the user's profile description. (FORMS-27595)
 * WebSphere&reg; Liberty Profile (WLP) now supports Microsoft&reg; SQL Server, in addition to Oracle Database.
 
 #### Fixed issues {#forms-fixed-issues-65-lts-sp3}
 
-* FORMS-23726: Applying an XML schema in Adaptive Forms properties failed because of an `xsom` library conflict. Schema selection now works.
-* FORMS-24296: The Foundation Components File Attachment field accepted disallowed file types (for example, `.xsd`) at upload time and rejected them only on submit, unlike other blocked types. Disallowed types are now blocked at upload.
-* FORMS-24603: In Correspondence Management letters, text fragments that carried a condition lost their line breaks when saved as a draft. Drafts now keep the original line breaks.
-* FORMS-24783: File attachments were dropped from the `assignTask` step in Open Services Gateway initiative (OSGi) based Forms workflows. Attachments are now preserved through task assignment.
-* FORMS-24877: The Date Picker calendar icon exposed no accessible label when a display pattern was applied, so the NVDA screen reader announced only "clickable." The icon now provides a descriptive label.
-* FORMS-24913: AEM Forms workflows stalled after the Adobe Sign step because the signing status was never returned. Workflows now continue once signing completes.
-* FORMS-25033: The Scribble Signature component was skipped in the keyboard tab order, creating an accessibility barrier for keyboard-only users. Tab navigation now reaches the field.
-* FORMS-25045: Traditional Chinese (Hong Kong) translations stopped rendering after an upgrade, so forms fell back to the default language. Localized text now renders correctly.
-* FORMS-25170: Calling `addInstance()` did not display dynamically added panels when the starting instance count was 0. Added panels now appear immediately.
-* FORMS-25225: Server-side revalidation removed field translations that sat outside fragments in Adaptive Forms, reverting labels to the base language. Those translations are now retained.
-* FORMS-25233: On OSGi deployments, the Assembler service failed to resolve nested fragment references in XDP files, causing them to be missing from the assembled output. Nested fragments are now resolved.
-* FORMS-25289: The Forms rendering service returned different output for the same input across service packs, affecting Correspondence Management letters. Rendering output is now consistent.
-* FORMS-25290: Saved Correspondence Management letters lost spaces and showed a stray "x" in some places when reopened. Saved letter content now stays intact.
-* FORMS-25346: After a service pack upgrade, Interactive Communications (IC) letters froze on a loading spinner, and letters that did load lost spacing in preview. Loading and spacing now work correctly.
-* FORMS-25431: The Create Form Fragment wizard sent a network request on every keystroke in the title field. The redundant calls have been removed.
-* FORMS-25645: Creating a Core Components based Adaptive Form Fragment from an inline-uploaded JSON schema failed with "ALC-FMG-700-009 Invalid Form Model has been specified." Inline JSON schemas are now accepted.
-* FORMS-25646: A Core Components based Adaptive Form Fragment built from a JSON schema showed an empty Data Sources panel in the editor. The panel now lists the schema data sources.
-* FORMS-25674: The Interactive Communications (IC) Agent user interface opened to a blank page, preventing agents from viewing IC content. The Agent user interface now renders.
-* FORMS-25686: Switching the schema-type option in the Create Adaptive Form Fragment wizard did not clear the previous option's state, producing a schema mismatch. The wizard now resets the inactive option.
-* FORMS-25757: Applying a theme did not update the base client library, so theme changes appeared to have no effect. Themes now update the base client library.
-* FORMS-25825: The mobile hamburger menu did not respond to taps, leaving navigation unusable on mobile devices. The menu now opens as expected.
-* FORMS-26333: The Publish action disappeared after a form was unpublished, which blocked republishing. Publish is now available after unpublish.
-* FORMS-26763: In Designer, bold formatting on hyperlinks inside a static text object was lost after any edit to the text. Bold formatting now survives edits.
-* FORMS-26817: Clicking Reset on an Adaptive Form cleared the author-configured image in the Image component and left a broken image, while other fields reset correctly. Reset now keeps the configured image.
-* FORMS-26852: In the Agent user interface, a date/time field displayed the date one day earlier than the stored value. The field now shows the correct date.
-* FORMS-26733, FORMS-26734: Updated Apache Log4j to version 2.25.5.
+* Applying an XML schema in Adaptive Forms properties failed because of an `xsom` library conflict. Schema selection now works. (FORMS-23726)
+* The Foundation Components File Attachment field accepted disallowed file types (for example, `.xsd`) at upload time and rejected them only on submit, unlike other blocked types. Disallowed types are now blocked at upload. (FORMS-24296)
+* In Correspondence Management letters, text fragments that carried a condition lost their line breaks when saved as a draft. Drafts now keep the original line breaks. (FORMS-24603)
+* File attachments were dropped from the `assignTask` step in Open Services Gateway initiative (OSGi) based Forms workflows. Attachments are now preserved through task assignment. (FORMS-24783)
+* The Date Picker calendar icon exposed no accessible label when a display pattern was applied, so the NVDA screen reader announced only "clickable." The icon now provides a descriptive label. (FORMS-24877)
+* AEM Forms workflows stalled after the Adobe Sign step because the signing status was never returned. Workflows now continue once signing completes. (FORMS-24913)
+* The Scribble Signature component was skipped in the keyboard tab order, creating an accessibility barrier for keyboard-only users. Tab navigation now reaches the field. (FORMS-25033)
+* Traditional Chinese (Hong Kong) translations stopped rendering after an upgrade, so forms fell back to the default language. Localized text now renders correctly. (FORMS-25045)
+* Calling `addInstance()` did not display dynamically added panels when the starting instance count was 0. Added panels now appear immediately. (FORMS-25170)
+* Server-side revalidation removed field translations that sat outside fragments in Adaptive Forms, reverting labels to the base language. Those translations are now retained. (FORMS-25225)
+* On OSGi deployments, the Assembler service failed to resolve nested fragment references in XDP files, causing them to be missing from the assembled output. Nested fragments are now resolved. (FORMS-25233)
+* The Forms rendering service returned different output for the same input across service packs, affecting Correspondence Management letters. Rendering output is now consistent. (FORMS-25289)
+* Saved Correspondence Management letters lost spaces and showed a stray "x" in some places when reopened. Saved letter content now stays intact. (FORMS-25290)
+* After a service pack upgrade, Interactive Communications (IC) letters froze on a loading spinner, and letters that did load lost spacing in preview. Loading and spacing now work correctly. (FORMS-25346)
+* The Create Form Fragment wizard sent a network request on every keystroke in the title field. The redundant calls have been removed. (FORMS-25431)
+* Creating a Core Components based Adaptive Form Fragment from an inline-uploaded JSON schema failed with "ALC-FMG-700-009 Invalid Form Model has been specified." Inline JSON schemas are now accepted. (FORMS-25645)
+* A Core Components based Adaptive Form Fragment built from a JSON schema showed an empty Data Sources panel in the editor. The panel now lists the schema data sources. (FORMS-25646)
+* The Interactive Communications (IC) Agent user interface opened to a blank page, preventing agents from viewing IC content. The Agent user interface now renders. (FORMS-25674)
+* Switching the schema-type option in the Create Adaptive Form Fragment wizard did not clear the previous option's state, producing a schema mismatch. The wizard now resets the inactive option. (FORMS-25686)
+* Applying a theme did not update the base client library, so theme changes appeared to have no effect. Themes now update the base client library. (FORMS-25757)
+* The mobile hamburger menu did not respond to taps, leaving navigation unusable on mobile devices. The menu now opens as expected. (FORMS-25825)
+* The Publish action disappeared after a form was unpublished, which blocked republishing. Publish is now available after unpublish. (FORMS-26333) 
+* In Designer, bold formatting on hyperlinks inside a static text object was lost after any edit to the text. Bold formatting now survives edits. (FORMS-26763)
+* Clicking Reset on an Adaptive Form cleared the author-configured image in the Image component and left a broken image, while other fields reset correctly. Reset now keeps the configured image. (FORMS-26817)
+* In the Agent user interface, a date/time field displayed the date one day earlier than the stored value. The field now shows the correct date. (FORMS-26852)
+* Updated Apache Log4j to version 2.25.5. (FORMS-26733, FORMS-26734)
 
 The following issues are fixed for AEM Forms on JEE in 6.5 LTS Service Pack 3:
 
-* FORMS-27585: On AEM Forms on JEE, XFA-based PDF forms calling `submitForm()` failed to display the submission result in Adobe Reader or Acrobat when the script called `closeDoc()`. The submission result now displays correctly.
-* FORMS-25998: On AEM Forms on JEE, registering Hardware Security Module (HSM) private key certificates failed with an `IllegalAccessError` under Java 21 when testing HSM connectivity in the administration console. HSM private key certificate registration now works.
-* FORMS-24993: On AEM Forms on JEE, loading a WSDL in the Invoke Web Service step failed with a `SAXException` ("Premature end of file"). WSDLs now load correctly.
-* FORMS-24518: On AEM Forms on JEE (JBoss), the Reader Extensions web application returned "Error processing request" after a fresh installation because of a legacy JSTL taglib URI. The Reader Extensions web application now loads.
-* FORMS-27495: On AEM Forms on JEE, PDF Generator did not convert Excel (`.xlsx`) files when Single User Mode was enabled, and conversions hung indefinitely. Excel conversions now complete in Single User Mode.
-* FORMS-27098: On AEM Forms on JEE, logging in to `/lc` as the administrator failed because of the SOAP SDK (`/sdk`) authentication gate. Administrator login now succeeds.
-* FORMS-25869: On AEM Forms on JEE, PDF Generator incorporates an updated conversion-engine fix to improve conversion reliability.
+* On AEM Forms on JEE, XFA-based PDF forms calling `submitForm()` failed to display the submission result in Acrobat Reader or Acrobat when the script called `closeDoc()`. The submission result now displays correctly. (FORMS-27585)
+* On AEM Forms on JEE, registering Hardware Security Module (HSM) private key certificates failed with an `IllegalAccessError` under Java 21 when testing HSM connectivity in the administration console. HSM private key certificate registration now works. (FORMS-25998)
+* On AEM Forms on JEE, loading a WSDL in the Invoke Web Service step failed with a `SAXException` ("Premature end of file"). WSDLs now load correctly. (FORMS-24993)
+* On AEM Forms on JEE (JBoss), the Reader Extensions web application returned "Error processing request" after a fresh installation because of a legacy JSTL taglib URI. The Reader Extensions web application now loads. (FORMS-24518)
+* On AEM Forms on JEE, PDF Generator did not convert Excel (`.xlsx`) files when Single User Mode was enabled, and conversions hung indefinitely. Excel conversions now complete in Single User Mode. (FORMS-27495)
+* On AEM Forms on JEE, logging in to `/lc` as the administrator failed because of the SOAP SDK (`/sdk`) authentication gate. Administrator login now succeeds. (FORMS-27098)
+* On AEM Forms on JEE, PDF Generator incorporates an updated conversion-engine fix to improve conversion reliability. (FORMS-25869)
 
 **Install AEM Forms 6.5 LTS SP3 on JEE**
 
@@ -379,7 +380,7 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 * On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** fails. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
-* On **AEM Forms on JEE 6.5 LTS SP3**, when a digitally signed PDF is attached to a task in AEM Forms JEE Workspace, the upload remains stuck in the uploading state or fails with an "Invalid File" error. As a result, larger signed PDF attachments cannot be added to the task. This issue is fixed in a later version. For a hotfix on the current version, contact Adobe Support. (FORMS-28517)
+* On **AEM Forms on JEE 6.5 LTS SP3**, uploading a digitally signed PDF to a task in AEM Forms JEE Workspace fails or hangs. As a result, larger signed PDF attachments cannot be added to the task. This issue is fixed in a later version. For a hotfix on the current version, contact Adobe Support. (FORMS-28517)
 
 On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liberty Profile (WLP) platform. The EAR file included with LTS SP3 is missing required Bouncy Castle libraries on its classpath.
 
@@ -392,7 +393,7 @@ On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liber
     bcmail-jdk18on-1.84.jar bcprov-jdk18on-1.84.jar bcpkix-jdk18on-1.84.jar bcutil-jdk18on-1.84.jar
     ```
 
-1. Redeploy the modified EAR file to the WebSphere&reg; Liberty Profile `dropins` folder:
+1. Redeploy the modified EAR file to the WebSphere&reg; Liberty Profile `dropins` folder
     1. Stop the WebSphere&reg; Liberty Profile server and delete `adobe-livecycle-websphere.ear` from `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
     1. Delete the `adobe-livecycle-websphere.ear` directory from `<WebSphere Liberty Profile install location>\usr\servers\<server-name>\apps\expanded\`.
     1. Copy the modified EAR file from step 2 into `<WebSphere Liberty Profile install location>\usr\servers\aemforms\dropins`.
@@ -400,9 +401,7 @@ On AEM Forms on JEE, Reader Extensions does not work on the WebSphere&reg; Liber
 
 #### Security fixes {#forms-security-fixes-65-lts-sp3}
 
-This release resolves security vulnerabilities in AEM Forms, including XSS, SSRF, and XXE, and updates libraries.
-
-
+This release resolves AEM Forms security vulnerabilities, including XSS, SSRF, and XXE, and updates libraries.
 
 
 ### Foundation {#foundation-65-lts-sp3}
@@ -547,7 +546,7 @@ See also [Update the AEM Uber Jar version](/help/sites-deploying/upgrading-code-
 
 Applies to: AEM 6.5 LTS (On-Premise) customers installing Service Pack 3 (SP3). SP3 is delivered as a Quickstart JAR.
 
-**Why this upgrade practice matters**
+**Why this upgrade practice is important**
 SP2 for AEM 6.5 LTS ships as a Quickstart JAR rather than a ZIP to install through Package Manager. On-premise customers upgrade by replacing the Quickstart JAR, extracting it, and restarting. This method is consistent with Adobe's standard upgrade procedure.
 
 
@@ -663,19 +662,15 @@ This section lists features and capabilities that have been removed from AEM 6.5
 
 ## Known issues {#known-issues} 
 
-### Repository corruption during online compaction on standby (GRANITE-73045) {#repository-corruption-during-online-compaction-granite-73045}
+### Repository corruption during online compaction on standby {#repository-corruption-during-online-compaction-on-standby}
 
-Users can experience repository corruption during online compaction if the instance was previously running as a TarMK Cold Standby and was later promoted to primary. A `SegmentNotFoundException` (SNFE) can occur in this scenario and can lead to repository corruption. 
+Online compaction can corrupt the JCR repository with a `SegmentNotFoundException` (SNFE) if the instance previously ran as a TarMK Cold Standby and was later promoted to primary.
 
-To resolve the issue, install the Hotfix from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip). Because the hotfix includes a low-level `oak-segment-tar` bundle, the instance restarts after installation.
+**Resolution**
 
-Plan for the downtime of the instance when applying it. For offline compaction, use the corresponding [`oak-run` jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar), also available on Software Distribution.
-
->[!NOTE]
->
-> * For any `oak-run` operations, use the [`oak-run` 2.4.1-B002 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar).
->
-> * Start AEM by setting the system property `oak.segment.cleanup.skipDanglingFutureReclaim=true`.
+1. Install the [hotfix](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/cq-6.5.lts.3-hotfix-GRANITE-74457-1.0.zip) from Software Distribution. It includes a low-level `oak-segment-tar` bundle, so the instance restarts after installation—plan for downtime.
+1. Set the system property `oak.segment.cleanup.skipDanglingFutureReclaim=true` when you start AEM. This flag is required at AEM startup, not while running offline compaction.
+1. For any `oak-run` operations, use the matching [`oak-run` 2.4.1-B002 jar](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq660/hotfixes/granite-74457/oak-run-2.4.1-B002.jar) from Software Distribution.
 
 ### AEM Forms
 
@@ -706,7 +701,6 @@ To use the following features, install the `cq-dam-cfm-indices` package:
 
 Download the index package [cq-dam-cfm-indices](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fcq-dam-cfm-indices-1.1.5.zip) from the Adobe Software Distribution portal. 
 
--->
 
 ###
 
