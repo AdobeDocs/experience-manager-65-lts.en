@@ -769,12 +769,6 @@ nudge: true
     + [Protect a document on behalf of another user](/help/forms/using/protect-document-on-behalf-of-another-user.md)
   + Forms Designer {#use-forms-designer}
     + [Forms Designer Help](/help/forms/using/forms-designer-help.md)
-    + [Using Designer](https://www.adobe.com/go/learn_aemforms_designer_65)
-    + [Designer Quick Start Tutorials](https://www.adobe.com/go/learn_aemforms_designer_quick_start_65)
-    + [Designer Samples](https://www.adobe.com/go/learn_aemforms_designer_samples_65)
-    + [Designer Scripting Basics](https://www.adobe.com/go/learn_aemforms_scriptingBasics_65)
-    + [Designer Scripting Reference](https://www.adobe.com/go/learn_aemforms_scriptingReference_65)
-    + [Designer FormCalc Reference](https://www.adobe.com/go/learn_aemforms_formCalc_65)
     + [Using Scribble Signature in HTML5 forms](/help/forms/using/scribble-signature.md)
     + [Changing Page Zero content in Designer](/help/forms/using/changing-page-zero-content-designer.md)
     + Accessibility Best Practices {#accessibility-best-practices}
