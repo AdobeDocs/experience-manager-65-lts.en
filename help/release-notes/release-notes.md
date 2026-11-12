@@ -378,6 +378,8 @@ To install AEM Forms 6.5 LTS SP3 on JEE, complete these steps in order:
 
 #### Known issues {#forms-known-issues-65-lts-sp3}
 
+* On **AEM Forms 6.5 LTS SP3 on JEE and OSGi on Windows**, PDF Generator (PDFG) hangs when exporting an existing PDF document to another supported file format. The export operation does not complete, and the converted output file is not returned. (FORMS-29849)
+
 * On **AEM Forms on JEE 6.5 LTS SP3**, converting **PostScript (PS), EPS, and PRN files to PDF** fails. The `PsToPdfSvc` native process can terminate unexpectedly, causing the conversion job to fail with errors such as `ALC-PDG-003-011` and `ALC-PDG-001-028`. Contact Adobe Customer Support for assistance. (FORMS-28152)
 
 * On **AEM Forms on JEE 6.5 LTS SP3**, uploading a digitally signed PDF to a task in AEM Forms JEE Workspace fails or hangs. As a result, larger signed PDF attachments cannot be added to the task. This issue is fixed in a later version. For a hotfix on the current version, contact Adobe Support. (FORMS-28517)
