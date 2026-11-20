@@ -31,11 +31,11 @@ role_v2:
 
 In [!DNL Adobe Experience Manager Assets], you can do more than store and govern your assets. [!DNL Experience Manager] offers enterprise-grade asset management capabilities. You can edit and share assets, run advanced searches, and create multiple renditions of dozens of supported file formats. You can also manage versions and digital rights, automate processing of assets, manage and govern metadata, collaborate using annotations, and much more.
 
-This article describes the basic asset management tasks such as create or upload; metadata updates; copy, move, and delete; publish, unpublish, and search assets. To understand the user interface, see [get started with assets user interface](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [manage Content Fragments](/help/assets/content-fragments/content-fragments-managing.md) assets.
+This article describes basic asset management tasks: create, upload, update metadata, copy, move, delete, publish, unpublish, and search. To understand the user interface, see [get started with assets user interface](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [manage Content Fragments](/help/assets/content-fragments/content-fragments-managing.md) assets.
 
 ## Create folders {#creating-folders}
 
-When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. [!DNL Experience Manager Assets] does not require you to organize assets in folders to work better.
+To keep a collection of assets, such as `Nature` images, together, create folders. You can use folders to categorize and organize your assets. [!DNL Experience Manager Assets] does not require you to organize assets in folders to work better.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Move this section into a new article. CQDOC-14874 ticket is created for this.
 In this complete article, replace emphasis with UICONTROL where appropriate.
 -->
 
-You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to [!DNL Experience Manager Assets].
+You can upload various assets (including images, PDF, and RAW files) from your local folder or a network drive to [!DNL Experience Manager Assets].
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ You can upload various types of assets (including images, PDF files, RAW files, 
 >
 >Assets that you upload into Experience Manager that have a file name greater than 100 characters, have a shortened name when they are used in Dynamic Media.
 >
->The first 100 characters in the file name are used as is; any remaining characters are replaced by an alphanumeric string. This renaming method ensures a unique name when the asset is used in Dynamic Media. It is also meant to accommodate the maximum asset file name length allowed in Dynamic Media.
+>[!DNL Experience Manager] uses the first 100 characters of the file name as is and replaces any remaining characters with an alphanumeric string. This renaming method ensures a unique name when the asset is used in Dynamic Media. It is also meant to accommodate the maximum asset file name length allowed in Dynamic Media.
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
@@ -93,7 +93,7 @@ Before uploading an asset, ensure that it is in a [format](/help/assets/assets-f
 
    ![Upload assets progress bar](assets/upload-progress-bar.png)
 
-The size above which an asset is considered a large asset is configurable. For example, you can configure the system to consider assets above 1000 MB (instead of 500 MB) as large assets. In this case, **[!UICONTROL Pause]** appears on the progress bar when assets of size greater than 1000 MB are uploaded.
+The size above which an asset is considered a large asset is configurable. To consider assets above 1000 MB (instead of 500 MB) as large, configure the system. In this case, **[!UICONTROL Pause]** appears on the progress bar when assets of size greater than 1000 MB are uploaded.
 
 The [!UICONTROL Pause] option does not show if a file greater than 1000 MB is uploaded with a file less than 1000 MB. However, if you cancel the less than 1000-MB file upload, the **[!UICONTROL Pause]** option appears.
 
@@ -577,7 +577,11 @@ To delete assets, a user requires delete permissions on `dam/asset`. If you only
 
 To resolve or remove the incoming references from other pages, update the relevant references before deleting an asset. To disallow users from deleting referenced assets and leaving broken links, disable the force delete option using an overlay.
 
-To delete an asset or a folder containing asset:
+>[!IMPORTANT]
+>
+>When Dynamic Media - Scene7 mode is enabled, deleting an asset in Experience Manager also permanently deletes it from Dynamic Media. The asset is not moved to the Dynamic Media Trash folder, so you cannot restore it from Dynamic Media.
+
+**To delete assetd:**
 
 1. Navigate to the location of the asset or the folder that you want to delete.
 
